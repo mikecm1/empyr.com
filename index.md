@@ -32,6 +32,7 @@ hero_button:
   href: "/about"
 show_news: true
 show_staff: true
+show_services: true
 menu:
   navigation:
     identifier: _index
