@@ -13,10 +13,7 @@ show_news: false
 hero_button:
   text: Sup homie
   href: "/"
-services:
-- heading: dfdfg
-  description: dfgdfg
-  icon: "/uploads/2017/11/13/biotech.png"
+services: []
 show_services: false
 menu:
   footer:
