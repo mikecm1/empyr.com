@@ -5,11 +5,15 @@ fields:
 - type: text
   name: title
   label: Title
-- name: sub_heading1
-  label: Sub Heading1
-  type: text
-  hidden: false
+- name: sub_heading
+  type: textarea
   default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Sub heading
 - name: banner_image
   label: Banner Image
   type: file
@@ -32,12 +36,3 @@ fields:
     required: false
   label: Test field
   description: Does this do anything
-- name: sub_heading
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Sub heading
