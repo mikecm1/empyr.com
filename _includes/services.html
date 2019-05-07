@@ -2,6 +2,7 @@
     Displays a list of services from a document's front matter
 {% endcomment %}
 
+{% if page.show_services %}
 {% if page.services %}
 <section class="services">
     <div class="container pure-g">
@@ -16,4 +17,5 @@
         {% endfor %}
     </div>
 </section>
+{% endif %}
 {% endif %}
