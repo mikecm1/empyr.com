@@ -13,10 +13,7 @@ show_news: true
 hero_button:
   text: Sup homie
   href: "/"
-services:
-- heading: sdf
-  description: sdf
-  icon: ''
+services: []
 menu:
   footer:
     identifier: _about
