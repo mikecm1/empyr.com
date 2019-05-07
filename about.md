@@ -14,6 +14,9 @@ services:
 - heading: Heading
   description: Heading
   icon: ''
+hero_button:
+  text: Sup homie
+  href: "/"
 menu:
   footer:
     identifier: _about
