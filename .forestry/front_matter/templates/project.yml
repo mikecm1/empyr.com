@@ -26,3 +26,9 @@ fields:
   type: text
   hidden: false
   default: ''
+- name: test_field
+  type: text
+  config:
+    required: false
+  label: Test field
+  description: Does this do anything
