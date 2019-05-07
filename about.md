@@ -13,8 +13,11 @@ show_news: false
 hero_button:
   text: Sup homie
   href: "/"
-services: []
-show_services: false
+services:
+- heading: dfdfg
+  description: dfgdfg
+  icon: "/uploads/2017/11/13/biotech.png"
+show_services: true
 menu:
   footer:
     identifier: _about
@@ -26,4 +29,6 @@ menu:
 ---
 The Belkirk College of Cool stuff (Belkirk) specializes in innovative research to support the healthcare and biotech industries. We are interested in advancing research in areas that are pressing and relevant to the health and biotech industries and regularly develop new projects and collaborations to accomplish this goal. We are currently engaged in a variety of ongoing projects within the areas of mental health, data analysis, knowledge translation, and cluster research.
 
-Students at Belkirk get to learn from leaders in the biotech industy, as well as get access to cutting edge projects and technologies to further their learning endeavours. 123
+Students at Belkirk get to learn from leaders in the biotech industy, as well as get access to cutting edge projects and technologies to further their learning endeavours. 
+
+Services showed.
