@@ -13,7 +13,6 @@ show_news: true
 hero_button:
   text: Sup homie
   href: "/"
-services: []
 menu:
   footer:
     identifier: _about
