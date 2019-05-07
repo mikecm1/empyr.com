@@ -13,10 +13,7 @@ show_news: true
 hero_button:
   text: Sup homie
   href: "/"
-services:
-- heading: dfg
-  description: dfg
-  icon: "/uploads/2017/11/13/health.png"
+services: []
 menu:
   footer:
     identifier: _about
