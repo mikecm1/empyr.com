@@ -41,6 +41,9 @@ fields:
     required: false
     schema:
       format: markdown
+- name: show_services
+  type: boolean
+  label: Show services
 - name: services
   label: Services
   type: field_group_list
