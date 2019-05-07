@@ -38,3 +38,4 @@ menu:
     weight: 1
 
 ---
+Hey buddy. Whats up?
