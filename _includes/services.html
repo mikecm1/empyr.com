@@ -2,7 +2,7 @@
     Displays a list of services from a document's front matter
 {% endcomment %}
 
-{% if page.services != null or page.services != "[]" %}
+{% if page.services != null or page.services != "[]" or page.services != "" %}
 <section class="services">
     <div class="container pure-g">
         {% for item in page.services %}
