@@ -1,6 +1,28 @@
 ---
 layout: default
+title: Homepage
+menus:
+  header:
+    title: Home
+    weight: 1
 ---
+
+<ul>
+        {% for item in site.menus.header %}
+          <li class="menu-item-{{ loop.index }}">
+            <a href="{{ item.url }}" title="Go to {{ item.title }}">{{ item.title }}</a>
+            {% if item.children %}
+              <ul class="sub-menu">
+              {% for item in item.children %}
+                <li class="menu-item-{{ loop.index }}">
+                  <a href="{{ item.url }}" title="Go to {{ item.title }}">{{ item.title }}</a>
+                </li>
+              {% endfor %}
+              </ul>
+            {% endif %}
+          </li>
+        {% endfor %}
+        </ul>
 
 {% assign stripped_content = content | strip_newlines %}
 {% if content and stripped_content != "" %}
