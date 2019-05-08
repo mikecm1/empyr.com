@@ -39,4 +39,4 @@ menu:
     weight: 1
 
 ---
-Hey buddy. Whats up?
+Pushing live before transfer of empyr styling.
