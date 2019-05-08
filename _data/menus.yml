@@ -4,13 +4,13 @@ navigation:
   weight: 1
   identifier: _projects
   title: Testing123
+
+# header:
+#   - url: /api
+#     title: API Documentation
+#     identifier: api
   
-header:
-  - url: /api
-    title: API Documentation
-    identifier: api
-  
-api:
-  - title: Project1
-    url: /projects/project1
-    identifier: project1
+# api:
+#   - title: Project1
+#     url: /projects/project1
+#     identifier: project1
