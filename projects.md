@@ -8,10 +8,10 @@ banner_image: "/uploads/2018/12/07/compass.jpg"
 menu:
   navigation:
     identifier: _projects
-    weight: 4
+    weight: 3
   footer:
     identifier: _projects
     url: "/projects/"
-    weight: 1
+    weight: 2
 
 ---
