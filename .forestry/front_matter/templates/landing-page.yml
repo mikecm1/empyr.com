@@ -81,5 +81,28 @@ fields:
   type: text
   hidden: true
   default: home
+- name: mainfeatures
+  type: field_group_list
+  fields:
+  - name: heading
+    type: text
+    config:
+      required: false
+    label: Heading
+  - name: description
+    type: text
+    config:
+      required: false
+    label: Description
+  - name: icon
+    type: file
+    config:
+      maxSize: 250
+    label: Icon
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: mainfeatures
 pages:
 - index.md
