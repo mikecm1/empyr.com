@@ -34,6 +34,9 @@ hero_button:
 show_news: true
 show_staff: true
 show_mainfeatures: true
+second_button:
+  text: Learn More
+  link: "/"
 menu:
   navigation:
     identifier: _index
