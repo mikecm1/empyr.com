@@ -4,9 +4,7 @@ banner_image: "/img/banner.png"
 layout: landing-page
 heading: Online, Meet Offline.
 partners:
-- "/uploads/2017/11/13/stem.png"
-- "/uploads/2017/11/13/UPenn_logo.png"
-- "/uploads/2017/11/13/nysed.png"
+- "/uploads/2019/05/09/ebay.svg"
 mainfeatures:
 - heading: Exclusive Publisher Network
   description: Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
