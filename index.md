@@ -8,18 +8,16 @@ partners:
 - "/uploads/2017/11/13/UPenn_logo.png"
 - "/uploads/2017/11/13/nysed.png"
 mainfeatures:
-- heading: dfgdfgdg
-  description: ergdg
+- heading: Exclusive Publisher Network
+  description: Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
   icon: "/uploads/2017/11/13/biotech.png"
 - heading: Testing
-  description: Sup homie
+  description: Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
   icon: "/uploads/2017/11/13/health.png"
-- description: Performing collaborative research and providing mainfeatures to support
-    the Health Sector.
+- description: Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
   heading: Health
   icon: "/uploads/2017/11/13/health.png"
-- description: Performing collaborative research and providing mainfeatures to support
-    the biotechnology sector.
+- description: Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
   heading: BioTech
   icon: "/uploads/2017/11/13/biotech.png"
 sub_heading: Empyr is the leading card-linked offer engagement platform, empowering
