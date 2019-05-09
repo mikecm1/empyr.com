@@ -28,16 +28,6 @@ fields:
   description: 'Dimensions: 1200px by 580px'
   config:
     maxSize: '2'
-- name: partner_logos
-  type: field_group
-  config: {}
-  fields:
-  - name: partnerlogos
-    type: file
-    config:
-      maxSize: 250
-    label: Logo
-  label: Partner Logos
 - type: field_group
   name: hero_button
   label: Hero Button
