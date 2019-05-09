@@ -38,6 +38,21 @@ fields:
   - type: text
     name: href
     label: Link
+- name: second_button
+  type: field_group
+  config: {}
+  fields:
+  - name: text
+    type: text
+    config:
+      required: false
+    label: Text
+  - name: link
+    type: text
+    config:
+      required: false
+    label: Link
+  label: Secondary button
 - type: textarea
   name: textline
   label: Description
