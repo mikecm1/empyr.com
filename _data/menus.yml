@@ -19,3 +19,8 @@ navigation:
   identifier: _projects
   title: Testing123
   parent: _about
+_index:
+- title: Project2
+  url: "/projects/project1"
+  identifier: project2
+  weight: 1
