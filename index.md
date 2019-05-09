@@ -7,18 +7,18 @@ partners:
 - "/uploads/2017/11/13/stem.png"
 - "/uploads/2017/11/13/UPenn_logo.png"
 - "/uploads/2017/11/13/nysed.png"
-services:
+mainfeatures:
 - heading: dfgdfgdg
   description: ergdg
   icon: "/uploads/2017/11/13/biotech.png"
 - heading: Testing
   description: Sup homie
   icon: "/uploads/2017/11/13/health.png"
-- description: Performing collaborative research and providing services to support
+- description: Performing collaborative research and providing mainfeatures to support
     the Health Sector.
   heading: Health
   icon: "/uploads/2017/11/13/health.png"
-- description: Performing collaborative research and providing services to support
+- description: Performing collaborative research and providing mainfeatures to support
     the biotechnology sector.
   heading: BioTech
   icon: "/uploads/2017/11/13/biotech.png"
@@ -31,14 +31,7 @@ hero_button:
   href: "/about"
 show_news: true
 show_staff: true
-show_services: true
-mainfeatures:
-- heading: blahhhh
-  description: sdinsdfisdnf
-  icon: ''
-- heading: hello
-  description: ergdg
-  icon: "/uploads/2017/11/13/biotech.png"
+show_mainfeatures: true
 menu:
   navigation:
     identifier: _index

@@ -13,8 +13,8 @@ show_news: false
 hero_button:
   text: Sup homie
   href: "/"
-services: []
-show_services: false
+mainfeatures: []
+show_mainfeatures: false
 menu:
   footer:
     identifier: _about
@@ -28,4 +28,4 @@ The Belkirk College of Cool stuff (Belkirk) specializes in innovative research t
 
 Students at Belkirk get to learn from leaders in the biotech industy, as well as get access to cutting edge projects and technologies to further their learning endeavours.
 
-Services hidden.
+mainfeatures hidden.
