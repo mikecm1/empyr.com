@@ -4,12 +4,12 @@ banner_image: "/img/banner.png"
 layout: landing-page
 heading: Online, Meet Offline.
 partners:
-- "/uploads/2019/05/uber.svg"
-- "/uploads/2019/05/airbnb.svg"
-- "/uploads/2019/05/cisco.svg"
-- "/uploads/2019/05/google.svg"
-- "/uploads/2019/05/cnn.svg"
 - "/uploads/2019/05/09/ebay.svg"
+- "/uploads/2019/05/cnn.svg"
+- "/uploads/2019/05/google.svg"
+- "/uploads/2019/05/cisco.svg"
+- "/uploads/2019/05/airbnb.svg"
+- "/uploads/2019/05/uber.svg"
 mainfeatures:
 - heading: Exclusive Publisher Network
   description: Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
