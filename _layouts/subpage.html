@@ -2,24 +2,6 @@
 layout: default
 ---
 
-<!-- <ul>
-    <span> This is for the child menus </span>
-        {% for item in site.menus.header %}
-          <li class="menu-item-{{ loop.index }}">
-            <a href="{{ item.url }}" title="Go to {{ item.title }}">{{ item.title }}</a>
-            {% if item.children %}
-              <ul class="sub-menu">
-              {% for item in item.children %}
-                <li class="menu-item-{{ loop.index }}">
-                  <a href="{{ item.url }}" title="Go to {{ item.title }}">{{ item.title }}</a>
-                </li>
-              {% endfor %}
-              </ul>
-            {% endif %}
-          </li>
-        {% endfor %}
-        </ul> -->
-
 {% assign stripped_content = content | strip_newlines %}
 {% if content and stripped_content != "" %}
 <section class="about">
@@ -177,20 +159,28 @@ layout: default
             </div>
           </div>
         </div>
-
-        {% if page.partners %}
         <div class="pb-5 pt-3">
-                <div class="row justify-content-center justify-content-lg-between text-center align-items-center">
-                {% for logo in page.partners %}
-                <div class="col mt-3 mb-lg-0">
-                  <img src="{{ logo | absolute_url }}" style="width: 100px; max-width: 65%" />
-                </div>
-                {% endfor %}
+          <div class="row justify-content-center justify-content-lg-between text-center align-items-center">
+            <div class="col mt-3 mb-lg-0">
+              <img src="/assets/logos/ebay.svg" width="99" />
+            </div>
+            <div class="col mt-3 mb-lg-0">
+              <img src="/assets/logos/cnn.svg" width="80" />
+            </div>
+            <div class="col mt-3 mb-lg-0">
+              <img src="/assets/logos/google.svg" width="110" />
+            </div>
+            <div class="col mt-3 mb-lg-0">
+              <img src="/assets/logos/cisco.svg" width="95" />
+            </div>
+            <div class="col mt-3 mb-lg-0">
+              <img src="/assets/logos/airbnb.svg" width="123" />
+            </div>
+            <div class="col mt-3 mb-lg-0">
+              <img src="/assets/logos/uber.svg" width="159" />
             </div>
           </div>
-          {% endif %}
-
-
+        </div>
       </div>
 
 <!-- {% include news.html %}
