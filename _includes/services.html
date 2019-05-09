@@ -1,8 +1,6 @@
-{% comment %}
-    Displays a list of services from a document's front matter
-{% endcomment %}
 
-{% if page.show_services %}
+
+<!-- {% if page.show_services %}
 {% if page.services %}
 <section class="services">
     <div class="container pure-g">
@@ -18,4 +16,22 @@
     </div>
 </section>
 {% endif %}
-{% endif %}
+{% endif %} -->
+
+<!-- {% if page.show_mainfeatures %}
+{% if page.mainfeatures %} -->
+<div class="row pt-2 pb-5">
+        {% for item in page.mainfeatures %}
+        <div class="col-12 col-md-3 mb-4 mb-md-0">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <img class="mb-2" src="./assets/glyphs/rectangle-6.svg" width="32" />
+              <h4>{{ item.heading }}</h4>
+              <div class="small">{{ item.description }}</div>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+<!-- {% endif %}
+{% endif %} -->

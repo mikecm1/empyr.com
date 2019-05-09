@@ -1,7 +1,6 @@
 title: Empyr.com
 short_title: Empyr
 description: Empyr.com site
-baseurl:
 permalink: "/:path/"
 port: 4001
 defaults:
@@ -34,3 +33,4 @@ plugins:
   - jekyll-archives
 sass:
   style: compressed
+  sass_dir: assets/css
