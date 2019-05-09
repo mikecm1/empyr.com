@@ -13,10 +13,15 @@ fields:
   label: Hero Heading
   name: heading
   default: Belkirk College
-- type: text
-  name: sub_heading
+- name: sub_heading
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
   label: Hero Sub heading
-  default: Engineering and Health Sciences
 - type: file
   name: banner_image
   label: Hero Image
