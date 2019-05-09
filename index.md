@@ -25,8 +25,6 @@ services:
 sub_heading: Engineering and Health Sciences
 textline: |
   Belkirk College of Engineering
-
-  Ora et Labora
 hero_button:
   text: Learn more
   href: "/about"
@@ -37,6 +35,9 @@ menu:
   navigation:
     identifier: _index
     weight: 1
-
+mainfeatures:
+- heading: hello
+  description: ergdg
+  icon: "/uploads/2017/11/13/biotech.png"
 ---
 Pushing live before transfer of empyr styling.
