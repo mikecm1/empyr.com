@@ -10,6 +10,10 @@ header:
   identifier: api
   weight: 1
 navigation:
+- url: Why though?
+  weight: 1
+  parent: _index
+  title: WHY!
 - url: "/hello"
   weight: 2
   identifier: _projects
