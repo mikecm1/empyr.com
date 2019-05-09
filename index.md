@@ -13,16 +13,16 @@ partners:
 mainfeatures:
 - heading: Exclusive Publisher Network
   description: Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-  icon: "/uploads/2017/11/13/biotech.png"
+  icon: "/uploads/2019/05/rectangle-6.svg"
 - heading: Testing
   description: Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-  icon: "/uploads/2017/11/13/health.png"
+  icon: "/uploads/2019/05/rectangle-6.svg"
 - description: Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
   heading: Health
-  icon: "/uploads/2017/11/13/health.png"
+  icon: "/uploads/2019/05/rectangle-6.svg"
 - description: Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
   heading: BioTech
-  icon: "/uploads/2017/11/13/biotech.png"
+  icon: "/uploads/2019/05/rectangle-6.svg"
 sub_heading: Empyr is the leading card-linked offer engagement platform, empowering
   retail brands with guaranteed revenue and an enhanced consumer experience– all while
   unlocking fully transparent offline sales analytics.
