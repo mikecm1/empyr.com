@@ -1,9 +1,4 @@
 ---
-api:
-- title: Project1
-  url: "/projects/project1"
-  identifier: project1
-  weight: 1
 header:
 - url: "/api"
   title: API Documentation
@@ -19,8 +14,13 @@ navigation:
   identifier: _projects
   title: Testing123
   parent: _about
-_index:
-- title: Project2
-  url: "/projects/project1"
-  identifier: project2
-  weight: 1
+# api:
+# - title: Project1
+#   url: "/projects/project1"
+#   identifier: project1
+#   weight: 1
+# _index:
+# - title: Project2
+#   url: "/projects/project1"
+#   identifier: project2
+#   weight: 1
