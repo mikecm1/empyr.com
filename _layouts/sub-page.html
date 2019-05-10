@@ -131,7 +131,7 @@ layout: default
     <div class="container pt-4 text-center">
 
         {% if page.all_features %}
-        <h1>Hey</h1>
+        <h1>{{ item.headline }}</h1>
         <div class="row pt-2 pb-5">
             {% for item in page.all_features %}
             <div class="col-12 col-md-4 mb-2">
@@ -161,22 +161,21 @@ layout: default
                 <div class="col-12 col-md-4 mb-3 mb-md-0">
                     <div class="card shadow-sm">
                         <div class="card-body">
-                            <img class="mb-2" src="https://via.placeholder.com/150x50" alt="">
+                            <img class="mb-2" src="{{ item.partner_logo | absolute_url }}" alt="">
                             <h2>{{ item.heading }}</h2>
-                            <p>Separated they live in Bookmarksgrove right at the coast of the famous Semantics, large
-                                language ocean and many more stuff and more more more</p>
+                            <p>{{ item.overview }}</p>
                             <div class="row">
                                 <div class="col-12 col-md-4 mb-md-0">
-                                    <h3 class="mb-0">100</h3>
+                                    <h3 class="mb-0">{{ item.incremental_revenue }}</h3>
                                     <p class="small">Incremental Revenue</p><a class="weight-500" href="#"></a>
                                 </div>
                                 <div class="col-12 col-md-4 mb-md-0">
-                                    <h3 class="mb-0">100</h3>
-                                    <p class="small">Incremental Revenue</p><a class="weight-500" href="#"></a>
+                                    <h3 class="mb-0">{{ item.roi }}</h3>
+                                    <p class="small">Total ROI per $1 Spent</p><a class="weight-500" href="#"></a>
                                 </div>
                                 <div class="col-12 col-md-4 mb-md-0">
-                                    <h3 class="mb-0">100</h3>
-                                    <p class="small">Incremental Revenue</p><a class="weight-500" href="#"></a>
+                                    <h3 class="mb-0">{{ item.incremental_roi }}</h3>
+                                    <p class="small">Incremental ROI per $1</p><a class="weight-500" href="#"></a>
                                 </div>
                             </div>
                         </div>
@@ -187,28 +186,6 @@ layout: default
         </div>
         {% endif %}
 
-        <div class="pb-5 pt-3">
-            <div class="row justify-content-center justify-content-lg-between text-center align-items-center">
-                <div class="col mt-3 mb-lg-0">
-                    <img src="/assets/logos/ebay.svg" width="99" />
-                </div>
-                <div class="col mt-3 mb-lg-0">
-                    <img src="/assets/logos/cnn.svg" width="80" />
-                </div>
-                <div class="col mt-3 mb-lg-0">
-                    <img src="/assets/logos/google.svg" width="110" />
-                </div>
-                <div class="col mt-3 mb-lg-0">
-                    <img src="/assets/logos/cisco.svg" width="95" />
-                </div>
-                <div class="col mt-3 mb-lg-0">
-                    <img src="/assets/logos/airbnb.svg" width="123" />
-                </div>
-                <div class="col mt-3 mb-lg-0">
-                    <img src="/assets/logos/uber.svg" width="159" />
-                </div>
-            </div>
-        </div>
     </div>
 </div>
 
