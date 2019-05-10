@@ -33,6 +33,11 @@ fields:
 - name: all_features
   type: field_group_list
   fields:
+  - name: icon
+    type: file
+    config:
+      maxSize: 250
+    label: Icon
   - name: heading
     type: text
     config:
