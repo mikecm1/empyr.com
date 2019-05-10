@@ -35,9 +35,7 @@ fields:
   fields:
   - name: icon
     type: file
-    config:
-      maxSize: 250
-    label: Icon
+    label: icon
   - name: heading
     type: text
     config:
