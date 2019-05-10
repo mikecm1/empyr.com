@@ -20,6 +20,11 @@ fields:
 - type: boolean
   name: show_mainfeatures
   label: show_mainfeatures
+- name: mean_features_headline
+  type: text
+  config:
+    required: false
+  label: Mean Features Headline
 - type: field_group_list
   name: mainfeatures
   label: mainfeatures
