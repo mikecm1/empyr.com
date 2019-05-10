@@ -48,6 +48,16 @@ all_features:
   icon: "/uploads/2019/05/icon-place.svg"
 - heading: 100% Attribution to In-Store Revenue
   icon: "/uploads/2019/05/icon-place.svg"
+show_case_studies: false
+case_studies:
+- partner_logo: "/uploads/2019/05/google.svg"
+  heading: Acquiring new customers while eliminating wasteful ad spend
+  overview: Of equal importance was their desire to re-engage lapsed customers who
+    occasionally frequented its locations to reactivate and stimulate additional purchase
+    opportunity.
+  incremental_revenue: 99%
+  roi: "$8.42"
+  incremental_roi: "$4.20"
 menu:
   navigation:
     identifier: _index
