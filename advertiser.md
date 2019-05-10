@@ -22,7 +22,7 @@ mainfeatures:
   icon: "/uploads/2019/05/rectangle-6.svg"
 sub_heading: Empyr is the leading card-linked offer engagement platform, empowering
   retail brands with guaranteed revenue and an enhanced consumer experience– all while
-  unlocking fully transparent offline sales analytics.
+  unlocking fully transparent offline sales analytics..
 hero_button:
   text: Get Started
   href: "/about"
