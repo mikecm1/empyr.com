@@ -1,6 +1,7 @@
 ---
 label: sub-page
 hide_body: false
+display_field: main_features_headline
 fields:
 - type: text
   name: title
