@@ -38,6 +38,8 @@ fields:
   - type: file
     name: icon
     label: icon
+  config:
+    max: '3'
 - name: all_features
   type: field_group_list
   fields:
