@@ -38,6 +38,16 @@ second_button:
 all_features:
 - heading: 100% Attribution to In-Store Revenue
   icon: "/uploads/2019/05/icon-place.svg"
+- heading: 100% Attribution to In-Store Revenue
+  icon: "/uploads/2019/05/icon-place.svg"
+- heading: 100% Attribution to In-Store Revenue
+  icon: "/uploads/2019/05/icon-place.svg"
+- heading: 100% Attribution to In-Store Revenue
+  icon: "/uploads/2019/05/icon-place.svg"
+- heading: 100% Attribution to In-Store Revenue
+  icon: "/uploads/2019/05/icon-place.svg"
+- heading: 100% Attribution to In-Store Revenue
+  icon: "/uploads/2019/05/icon-place.svg"
 menu:
   navigation:
     identifier: _index
