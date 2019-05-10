@@ -35,6 +35,8 @@ show_mainfeatures: true
 second_button:
   text: Learn More
   link: "/"
+all_features:
+- heading: 100% Attribution to In-Store Revenue
 menu:
   navigation:
     identifier: _index
