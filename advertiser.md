@@ -71,9 +71,8 @@ case_studies:
   incremental_revenue: 99%
   roi: "$8.42"
   incremental_roi: "$4.20"
-main_features_headline: Transform your bottom line with CPR
-primary_body_copy_headline: sdfsdf
-primary_body_copy_subheadline: sdfsdf
+primary_body_copy_headline: Level-up your digital advertising with pure, <br> guaranteed revenue.
+primary_body_copy_subheadline: Our pay-per-revenue model (CPR) accelerates and tracks in-store sales through digital publishers unavailable on any other platform.
 all_features_headline: Transform your bottom line with CPR
 menu:
   navigation:

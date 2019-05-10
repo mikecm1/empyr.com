@@ -2,6 +2,9 @@
         <div class="container">
           <div class="row justify-content-between align-items-center py-5">
             <div class="col-12 col-md-6 order-1 order-md-1 text-white">
+        {% if page.tagline and page.tagline != "" %}
+            <h4>{{ page.tagline }}</h4>
+            {% endif %}
               <h1 class="display-4">{{ page.heading | default: page.title }}</h1>
               {% if page.sub_heading and page.sub_heading != "" %}
 						<p class="large mb-4">{{ page.sub_heading }}</p>
