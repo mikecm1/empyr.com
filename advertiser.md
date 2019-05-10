@@ -74,7 +74,7 @@ case_studies:
 main_features_headline: Transform your bottom line with CPR
 primary_body_copy_headline: sdfsdf
 primary_body_copy_subheadline: sdfsdf
-all_features_headline: ''
+all_features_headline: Transform your bottom line with CPR
 menu:
   navigation:
     identifier: _index
