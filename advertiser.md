@@ -72,6 +72,9 @@ case_studies:
   roi: "$8.42"
   incremental_roi: "$4.20"
 main_features_headline: Transform your bottom line with CPR
+primary_body_copy_headline: sdfsdf
+primary_body_copy_subheadline: sdfsdf
+all_features_headline: ''
 menu:
   navigation:
     identifier: _index
