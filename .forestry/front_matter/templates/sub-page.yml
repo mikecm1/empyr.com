@@ -121,7 +121,7 @@ fields:
     label: Incremental ROI
   config:
     min: 
-    max: 
+    max: '3'
     labelField: 
   label: Case Studies
 pages:
