@@ -17,6 +17,9 @@ fields:
 - type: image_gallery
   name: partners
   label: partners
+- type: boolean
+  name: show_mainfeatures
+  label: show_mainfeatures
 - type: field_group_list
   name: mainfeatures
   label: mainfeatures
@@ -72,13 +75,54 @@ fields:
     name: link
     label: link
 - type: boolean
-  name: show_news
-  label: show_news
-- type: boolean
-  name: show_staff
-  label: show_staff
-- type: boolean
-  name: show_mainfeatures
-  label: show_mainfeatures
+  name: show_case_studies
+  label: Show Case Studies
+  description: Three links at bottom of page
+- name: case_studies
+  type: field_group_list
+  fields:
+  - name: partner_logo
+    type: file
+    config:
+      maxSize: 250
+    label: Partner Logo
+  - name: heading
+    type: text
+    config:
+      required: false
+    label: Heading
+  - name: overview
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Overview
+  - name: incremental_revenue
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Incremental Revenue
+  - name: roi
+    type: text
+    config:
+      required: false
+    label: ROI
+  - name: incremental_roi
+    type: text
+    config:
+      required: false
+    label: Incremental ROI
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Case Studies
 pages:
 - advertiser.md
