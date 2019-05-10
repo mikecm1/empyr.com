@@ -2,7 +2,6 @@ title: Empyr.com
 short_title: Empyr
 description: Empyr.com site
 permalink: "/:path/"
-url: http://mikecm1.github.io
 port: 4001
 defaults:
   - scope:
