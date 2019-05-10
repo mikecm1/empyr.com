@@ -148,21 +148,21 @@ layout: default
 
 
 
-
+        {% if page.case_studies %}
         <div class="text-left">
             <div class="row pt-12 pt-5">
                 <div class="col-12 col-md-6">
-                    <h1>Long headline to turn your visitors into users</h1>
-                    <p>Separated they live in Bookmarksgrove right at the coast of the famous Semantics, large language
-                        ocean and many more stuff and more more more</p>
+                    <h1>Case Studies Title</h1>
+                    <p>Case Studies Sub-text</p>
                 </div>
             </div>
             <div class="row pt-3">
+                    {% for item in page.case_studies %}
                 <div class="col-12 col-md-4 mb-3 mb-md-0">
                     <div class="card shadow-sm">
                         <div class="card-body">
                             <img class="mb-2" src="https://via.placeholder.com/150x50" alt="">
-                            <h2>National Brands</h2>
+                            <h2>{{ item.heading }}</h2>
                             <p>Separated they live in Bookmarksgrove right at the coast of the famous Semantics, large
                                 language ocean and many more stuff and more more more</p>
                             <div class="row">
@@ -182,8 +182,11 @@ layout: default
                         </div>
                     </div>
                 </div>
+                {% endfor %}
             </div>
         </div>
+        {% endif %}
+
         <div class="pb-5 pt-3">
             <div class="row justify-content-center justify-content-lg-between text-center align-items-center">
                 <div class="col mt-3 mb-lg-0">
