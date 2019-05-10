@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="description" content="{% if .page.description %}{{ .page.description }}{% else %}{{ .site.description }}{% endif %}">
-  <meta name="keywords" content="change me">
+  <meta name="keywords" content="{% if .page.keywords %}{{ .page.keywords }}{% else %}{{ .site.keywords }}{% endif %}">
   <title>{{ page.title }} - {{ site.title }}</title>
   <link rel="icon" type="image/png" href="{{ "/img/favicon.png" | absolute_url }}"/>
   <link rel="stylesheet" href="{{ "/css/main.css" | absolute_url }}">

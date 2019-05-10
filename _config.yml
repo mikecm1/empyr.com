@@ -31,6 +31,6 @@ plugins:
   - jekyll-menus
   - jekyll-feed
   - jekyll-archives
-# sass:
-#   style: compressed
+sass:
+  style: compressed
 #   sass_dir: assets/css
