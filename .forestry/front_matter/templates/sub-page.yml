@@ -30,6 +30,19 @@ fields:
   - type: file
     name: icon
     label: icon
+- name: all_features
+  type: field_group_list
+  fields:
+  - name: heading
+    type: text
+    config:
+      required: false
+    label: Heading
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: All Features
 - type: textarea
   name: sub_heading
   label: sub_heading
