@@ -33,4 +33,4 @@ plugins:
   - jekyll-archives
 sass:
   style: compressed
-  sass_dir: /assets/css
+  sass_dir: assets/css
