@@ -1,7 +1,7 @@
 ---
 title: Advertisers
 banner_image: "/img/banner.png"
-layout: landing-page
+layout: sub-page
 heading: Online, Meet Offline.
 partners:
 - "/uploads/2019/05/09/ebay.svg"

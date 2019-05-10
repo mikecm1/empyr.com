@@ -1,0 +1,234 @@
+---
+layout: default
+---
+{% include sub-hero.html %}
+
+{% assign stripped_content = content | strip_newlines %}
+{% if content and stripped_content != "" %}
+<section class="about">
+    <div class="container pure-g">
+        <div class="pure-u-1">
+            <div class="content content-narrow">
+                {{ content }}
+            </div>
+        </div>
+    </div>
+</section>
+{% endif %}
+
+<div class="bg-gradient-lighter">
+    <div class="container pt-4">
+
+        <div class="card-body card shadow-sm">
+            <div class="row py-2">
+                <div class="col-12 col-md-4 mb-4 mb-md-0">
+                    <img class="mb-2" src="http://localhost:4001/uploads/2019/05/rectangle-6.svg" alt="" width="32">
+                    <h4 class="mb-1">Exclusive Publisher Network</h4>
+                    <div class="small">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</div>
+                </div>
+                <div class="col-12 col-md-4 mb-4 mb-md-0">
+                    <img class="mb-2" src="http://localhost:4001/uploads/2019/05/rectangle-6.svg" alt="" width="32">
+                    <h4 class="mb-1">Exclusive Publisher Network</h4>
+                    <div class="small">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</div>
+                </div>
+                <div class="col-12 col-md-4 mb-4 mb-md-0">
+                    <img class="mb-2" src="http://localhost:4001/uploads/2019/05/rectangle-6.svg" alt="" width="32">
+                    <h4 class="mb-1">Exclusive Publisher Network</h4>
+                    <div class="small">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- {% if page.mainfeatures %}
+            <div class="row pt-2 pb-5">
+                    {% for item in page.mainfeatures %}
+                    <div class="col-12 col-md-3 mb-4 mb-md-0">
+                      <div class="card shadow-sm">
+                        <div class="card-body">
+                          <img class="mb-2" src="{{ item.icon | absolute_url }}" alt="" width="32">
+                          <h4 class="mb-1">{{ item.heading }}</h4>
+                          <div class="small">{{ item.description }}</div>
+                        </div>
+                      </div>
+                    </div>
+                    {% endfor %}
+                  </div>
+            {% endif %} -->
+
+
+        {% if page.partners %}
+        <div class="container">
+            <div class="py-4">
+                <div class="row justify-content-center justify-content-lg-between text-center align-items-center">
+                    {% for logo in page.partners %}
+                    <div class="col mt-3 mb-lg-0">
+                        <img src="{{ logo | absolute_url }}" style="width: 100px; max-width: 70%" />
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        {% endif %}
+
+
+        <div class="row pt-12 pt-5">
+            <div class="col-12">
+                <h1>Advertise on the best sites & apps,<br> only pay in-store sales.</h1>
+            </div>
+            <div class="col-md-6">
+                <p>Accelerate in-store revenue with card-linked offer campaigns on our exclusive publisher network.
+                    There’s no charge for clicks or impressions, and purchases are tracked in real-time, providing full
+                    online to offline attribution.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+
+    <div class="row justify-content-between align-items-center py-5">
+        <div class="col-12 col-md-5 order-2 order-md-1">
+            <h4 class="mb-3 tag">Publisher Network</h4>
+            <h1>316M+ Consumers, Unlimited Revenue</h1>
+            <p class="mb-3">Easily deploy high performance card-linked offer campaigns on some of the best sites and
+                apps, reaching 316M+ consumers at lightning speed.</p>
+            <button class="btn btn-lg btn-bb">Learn More</button>
+        </div>
+        <div class="col-12 col-md-6 order-1 order-md-2 pl-md-0 mb-4 mb-md-0">
+            <img class="w-100" src="/assets/pictures/image-555x380.png" />
+        </div>
+    </div>
+    <div class="row justify-content-between align-items-center py-5">
+        <div class="col-12 col-md-6 pl-md-0 mb-4 mb-md-0">
+            <img class="w-100" src="/assets/pictures/image-555x380.png" />
+        </div>
+        <div class="col-12 col-md-5">
+            <h4 class="mb-3 tag">Pay-Per-Revenue</h4>
+            <h1>Minimum 10X ROAS, Guaranteed.</h1>
+            <p class="mb-3">Empyr powers CPR, a pay-per-revenue model that drives motivated customers to your stores
+                without charging for clicks and impressions. You only pay a small fee when the sale happens.</p>
+            <button class="btn btn-lg btn-bb">Learn More</button>
+        </div>
+    </div>
+    <div class="row justify-content-between align-items-center py-5">
+        <div class="col-12 col-md-5 order-2 order-md-1">
+            <h4 class="mb-3 tag">Real-Time Analytics</h4>
+            <h1>100% In-Store Revenue Attribution</h1>
+            <p class="mb-3">No more guesswork, no more wasting time with manual reporting. Track online impressions all
+                the way through to in-store sales with personalized real-time analytics.</p>
+            <button class="btn btn-lg btn-bb">Learn More</button>
+        </div>
+        <div class="col-12 col-md-6 order-1 order-md-2 pl-md-0 mb-4 mb-md-0">
+            <img class="w-100" src="/assets/pictures/image-555x380.png" />
+        </div>
+    </div>
+</div>
+
+
+
+<div class="bg-gradient-lighter">
+    <div class="container pt-4 text-center">
+
+        {% if page.mainfeatures %}
+        <h1>Hey</h1>
+        <div class="row pt-2 pb-5">
+            {% for item in page.mainfeatures %}
+            <div class="col-12 col-md-4 mb-2">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <img class="mb-2" src="{{ item.icon | absolute_url }}" alt="" width="32">
+                        <h4 class="mb-1">{{ item.heading }}</h4>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+
+
+
+        <div class="text-left">
+            <div class="row pt-12 pt-5">
+                <div class="col-12 col-md-6">
+                    <h1>Long headline to turn your visitors into users</h1>
+                    <p>Separated they live in Bookmarksgrove right at the coast of the famous Semantics, large language
+                        ocean and many more stuff and more more more</p>
+                </div>
+            </div>
+            <div class="row pt-3">
+                <div class="col-12 col-md-4 mb-3 mb-md-0">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <img class="mb-2" src="https://via.placeholder.com/150x50" alt="">
+                            <h2>National Brands</h2>
+                            <p>Separated they live in Bookmarksgrove right at the coast of the famous Semantics, large
+                                language ocean and many more stuff and more more more</p>
+                            <div class="row">
+                                <div class="col-12 col-md-4 mb-md-0">
+                                    <h3 class="mb-0">100</h3>
+                                    <p class="small">Incremental Revenue</p><a class="weight-500" href="#"></a>
+                                </div>
+                                <div class="col-12 col-md-4 mb-md-0">
+                                    <h3 class="mb-0">100</h3>
+                                    <p class="small">Incremental Revenue</p><a class="weight-500" href="#"></a>
+                                </div>
+                                <div class="col-12 col-md-4 mb-md-0">
+                                    <h3 class="mb-0">100</h3>
+                                    <p class="small">Incremental Revenue</p><a class="weight-500" href="#"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-3 mb-md-0">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h2>Websites & Apps</h2>
+                            <div><span class="weight-500">Tagline</span><span class="mx-2">•</span><span>Caption</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h2>Channel Partners</h2>
+                            <div><span class="weight-500">Tagline</span><span class="mx-2">•</span><span>Caption</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pb-5 pt-3">
+            <div class="row justify-content-center justify-content-lg-between text-center align-items-center">
+                <div class="col mt-3 mb-lg-0">
+                    <img src="/assets/logos/ebay.svg" width="99" />
+                </div>
+                <div class="col mt-3 mb-lg-0">
+                    <img src="/assets/logos/cnn.svg" width="80" />
+                </div>
+                <div class="col mt-3 mb-lg-0">
+                    <img src="/assets/logos/google.svg" width="110" />
+                </div>
+                <div class="col mt-3 mb-lg-0">
+                    <img src="/assets/logos/cisco.svg" width="95" />
+                </div>
+                <div class="col mt-3 mb-lg-0">
+                    <img src="/assets/logos/airbnb.svg" width="123" />
+                </div>
+                <div class="col mt-3 mb-lg-0">
+                    <img src="/assets/logos/uber.svg" width="159" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- {% include news.html %}
+
+{% include partners.html %}
+
+{% include staff.html %} -->
