@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="56" height="56" viewBox="0 0 56 56">
+  <defs>
+    <circle id="icon-place-a" cx="28" cy="28" r="28"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="icon-place-b" fill="#fff">
+      <use xlink:href="#icon-place-a"/>
+    </mask>
+    <use fill="#D6EDFF" xlink:href="#icon-place-a"/>
+    <path fill="#0091FF" fill-rule="nonzero" d="M27.7593652,31.3991513 L16.8585618,31.3991513 C16.1581195,31.3991513 15.7534673,30.611226 16.1654477,30.0495424 L29.8779871,11.3542101 C30.4320761,10.5987791 31.6310275,11.1539362 31.4025461,12.060135 L28.2406349,24.6008487 L39.1414383,24.6008487 C39.8418806,24.6008487 40.2465327,25.388774 39.8345523,25.9504576 L26.1220129,44.6457898 C25.567924,45.401221 24.3689726,44.8460638 24.597454,43.939865 L27.7593652,31.3991513 Z" mask="url(#icon-place-b)"/>
+  </g>
+</svg>
