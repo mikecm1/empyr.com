@@ -18,44 +18,19 @@ layout: default
 
 <div class="bg-gradient-lighter">
     <div class="container pt-4">
-
+            {% if page.mainfeatures %}
         <div class="card-body card shadow-sm">
             <div class="row py-2">
+                    {% for item in page.mainfeatures %}
                 <div class="col-12 col-md-4 mb-4 mb-md-0">
                     <img class="mb-2" src="http://localhost:4001/uploads/2019/05/rectangle-6.svg" alt="" width="32">
-                    <h4 class="mb-1">Exclusive Publisher Network</h4>
-                    <div class="small">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</div>
+                    <h4 class="mb-1">{{ item.heading }}</h4>
+                    <div class="small">{{ item.description }}</div>
                 </div>
-                <div class="col-12 col-md-4 mb-4 mb-md-0">
-                    <img class="mb-2" src="http://localhost:4001/uploads/2019/05/rectangle-6.svg" alt="" width="32">
-                    <h4 class="mb-1">Exclusive Publisher Network</h4>
-                    <div class="small">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</div>
-                </div>
-                <div class="col-12 col-md-4 mb-4 mb-md-0">
-                    <img class="mb-2" src="http://localhost:4001/uploads/2019/05/rectangle-6.svg" alt="" width="32">
-                    <h4 class="mb-1">Exclusive Publisher Network</h4>
-                    <div class="small">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</div>
-                </div>
+                {% endfor %}
             </div>
         </div>
-
-
-        {% if page.mainfeatures %}
-            <div class="row pt-2 pb-5">
-                    {% for item in page.mainfeatures %}
-                    <div class="col-12 col-md-3 mb-4 mb-md-0">
-                      <div class="card shadow-sm">
-                        <div class="card-body">
-                          <img class="mb-2" src="{{ item.icon | absolute_url }}" alt="" width="32">
-                          <h4 class="mb-1">{{ item.heading }}</h4>
-                          <div class="small">{{ item.description }}</div>
-                        </div>
-                      </div>
-                    </div>
-                    {% endfor %}
-                  </div>
-            {% endif %}
-
+        {% endif %}
 
         {% if page.partners %}
         <div class="container">
