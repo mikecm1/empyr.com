@@ -40,7 +40,7 @@ layout: default
         </div>
 
 
-        <!-- {% if page.mainfeatures %}
+        {% if page.mainfeatures %}
             <div class="row pt-2 pb-5">
                     {% for item in page.mainfeatures %}
                     <div class="col-12 col-md-3 mb-4 mb-md-0">
@@ -54,7 +54,7 @@ layout: default
                     </div>
                     {% endfor %}
                   </div>
-            {% endif %} -->
+            {% endif %}
 
 
         {% if page.partners %}
@@ -130,10 +130,10 @@ layout: default
 <div class="bg-gradient-lighter">
     <div class="container pt-4 text-center">
 
-        {% if page.mainfeatures %}
+        {% if page.allfeatures %}
         <h1>Hey</h1>
         <div class="row pt-2 pb-5">
-            {% for item in page.mainfeatures %}
+            {% for item in page.allfeatures %}
             <div class="col-12 col-md-4 mb-2">
                 <div class="card shadow-sm">
                     <div class="card-body">
