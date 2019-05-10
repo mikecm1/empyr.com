@@ -61,15 +61,6 @@ fields:
   - type: text
     name: href
     label: href
-- type: boolean
-  name: show_news
-  label: show_news
-- type: boolean
-  name: show_staff
-  label: show_staff
-- type: boolean
-  name: show_mainfeatures
-  label: show_mainfeatures
 - type: field_group
   name: second_button
   label: second_button
@@ -80,5 +71,14 @@ fields:
   - type: text
     name: link
     label: link
+- type: boolean
+  name: show_news
+  label: show_news
+- type: boolean
+  name: show_staff
+  label: show_staff
+- type: boolean
+  name: show_mainfeatures
+  label: show_mainfeatures
 pages:
 - advertiser.md
