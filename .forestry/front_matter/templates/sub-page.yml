@@ -17,14 +17,27 @@ fields:
 - type: image_gallery
   name: partners
   label: partners
+- name: primary_body_copy_headline
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Primary body copy headline
+- name: primary_body_copy_subheadline
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Primary body copy subheadline
 - type: boolean
   name: show_mainfeatures
   label: show_mainfeatures
-- name: main_features_headline
-  type: text
-  config:
-    required: false
-  label: Main Features Headline
 - type: field_group_list
   name: mainfeatures
   label: mainfeatures
@@ -40,6 +53,11 @@ fields:
     label: icon
   config:
     max: '3'
+- name: all_features_headline
+  type: text
+  config:
+    required: false
+  label: All Features Headline
 - name: all_features
   type: field_group_list
   fields:
