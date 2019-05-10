@@ -74,6 +74,7 @@ case_studies:
   incremental_revenue: 99%
   roi: "$8.42"
   incremental_roi: "$4.20"
+mean_features_headline: Transform your bottom line with CPR
 menu:
   navigation:
     identifier: _index
