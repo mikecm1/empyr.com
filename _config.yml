@@ -29,8 +29,9 @@ jekyll-archives:
   layout: "archive"
 plugins:
   - jekyll-menus
-  - jekyll-feed
+  # - jekyll-feed
   - jekyll-archives
+  - jekyll-autoprefixer
 sass:
   style: compressed
 #   sass_dir: assets/css
