@@ -12,7 +12,7 @@ fields:
 - type: text
   label: Hero Heading
   name: heading
-  default: Belkirk College
+  default: Empyr
 - name: sub_heading
   type: textarea
   default: ''
