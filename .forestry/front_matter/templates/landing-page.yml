@@ -53,6 +53,15 @@ fields:
       required: false
     label: Link
   label: Secondary button
+- name: primary_body_copy_headline
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Primary body copy headline
 - type: textarea
   name: textline
   label: Description
