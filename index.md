@@ -32,10 +32,12 @@ hero_button:
 show_news: true
 show_staff: true
 show_mainfeatures: true
-primary_body_copy_headline: Advertise on the best websites and apps, <br> only pay for in-store sales.
+primary_body_copy_headline: Advertise on the best websites and apps, <br> only pay
+  for in-store sales..
 second_button:
   text: Learn More
   link: "/"
+textline: ''
 menu:
   navigation:
     identifier: _index
