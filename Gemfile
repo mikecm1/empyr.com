@@ -7,7 +7,7 @@ group :jekyll_plugins do
   gem "jekyll-menus"
   gem "jekyll-tagging"
   gem "jekyll-archives"
-  gem "jekyll-autoprefixer"
+#   gem "jekyll-autoprefixer"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

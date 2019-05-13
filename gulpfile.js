@@ -1,21 +1,24 @@
 var gulp = require('gulp');
 var shell = require('gulp-shell');
 var sass = require('gulp-sass');
+var sourcemaps = require('gulp-sourcemaps');
 
 /*
   Build and watch Jekyll (change this task to whatever you need)
 */
-gulp.task('generate', shell.task('jekyll serve'));
+gulp.task('generate', shell.task('jekyll serve --livereload -o'));
 
 /*
   Compile SCSS files to CSS
 */
 gulp.task('styles', function () {
-    return gulp.src('css/main.scss')
+    return gulp.src('assets/css/main.scss')
+    .pipe(sourcemaps.init({loadMaps: true}))
         .pipe(sass({
             outputStyle: 'compressed'
         }).on('error', sass.logError))
-        .pipe(gulp.dest('_includes/assets/css/'));
+        .pipe(sourcemaps.write('.'))
+        .pipe(gulp.dest('css/'));
 });
 
 /*
@@ -25,10 +28,17 @@ gulp.task('assets', gulp.parallel(
     'styles'
 ));
 
-/*
-  Build
-*/
 gulp.task('build', gulp.series(
     'assets',
     'generate'
+));
+
+gulp.task('watch', function() {
+    gulp.watch('assets/css/**/*.scss', gulp.series('assets'));
+  });
+
+// Watch and build
+  gulp.task('default', gulp.parallel(
+    'generate',
+    'watch'
 ));

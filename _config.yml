@@ -31,7 +31,7 @@ plugins:
   - jekyll-menus
   # - jekyll-feed
   - jekyll-archives
-  - jekyll-autoprefixer
-sass:
-  style: compressed
+  # - jekyll-autoprefixer
+# sass:
+#   style: compressed
 #   sass_dir: assets/css
