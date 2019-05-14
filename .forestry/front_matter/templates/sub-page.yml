@@ -25,6 +25,9 @@ fields:
     schema:
       format: markdown
   label: Heading
+- type: textarea
+  name: sub_heading
+  label: sub_heading
 - type: image_gallery
   name: partners
   label: partners
@@ -69,27 +72,6 @@ fields:
   config:
     required: false
   label: All Features Headline
-- name: all_features
-  type: field_group_list
-  fields:
-  - name: icon
-    type: file
-    config:
-      maxSize: 250
-    label: Icon
-  - name: heading
-    type: text
-    config:
-      required: false
-    label: Heading
-  config:
-    min: 
-    max: 
-    labelField: 
-  label: All Features
-- type: textarea
-  name: sub_heading
-  label: sub_heading
 - type: field_group
   name: hero_button
   label: hero_button
@@ -110,6 +92,24 @@ fields:
   - type: text
     name: link
     label: link
+- name: all_features
+  type: field_group_list
+  fields:
+  - name: icon
+    type: file
+    config:
+      maxSize: 250
+    label: Icon
+  - name: heading
+    type: text
+    config:
+      required: false
+    label: Heading
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: All Features
 - type: boolean
   name: show_case_studies
   label: Show Case Studies
