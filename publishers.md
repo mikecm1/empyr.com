@@ -7,15 +7,15 @@ heading: |-
   Enhance your experience.
   Amplify your revenue.
 partners: []
-primary_body_copy_headline: Unlock a new revenue stream from the offline world with
-  your own custom card-linked offer program. Get 1000s of offers out of the box with
-  complete creative control of the UX and functionality.
-primary_body_copy_subheadline: ''
+primary_body_copy_headline: Increase engagement. Make more money.
+primary_body_copy_subheadline: Increase engagement. Make more money.
 show_mainfeatures: false
 mainfeatures: []
 all_features_headline: ''
 all_features: []
-sub_heading: ''
+sub_heading: Reach millions of consumers and ignite your in-store revenue without
+  paying for clicks and impressions, while unlocking complete online to offline sales
+  attribution.
 hero_button:
   text: ''
   href: ''
