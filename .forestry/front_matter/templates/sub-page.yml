@@ -25,6 +25,44 @@ fields:
 - type: textarea
   name: sub_heading
   label: sub_heading
+- type: field_group
+  name: hero_button
+  label: hero_button
+  fields:
+  - type: text
+    name: text
+    label: text
+  - type: text
+    name: href
+    label: href
+- type: field_group
+  name: second_button
+  label: second_button
+  fields:
+  - type: text
+    name: text
+    label: text
+  - type: text
+    name: link
+    label: link
+- type: boolean
+  name: show_mainfeatures
+  label: show_mainfeatures
+- type: field_group_list
+  name: mainfeatures
+  label: mainfeatures
+  fields:
+  - type: text
+    name: heading
+    label: heading
+  - type: text
+    name: description
+    label: description
+  - type: file
+    name: icon
+    label: icon
+  config:
+    max: '3'
 - type: image_gallery
   name: partners
   label: partners
@@ -46,49 +84,39 @@ fields:
     schema:
       format: markdown
   label: Primary body copy subheadline
-- type: boolean
-  name: show_mainfeatures
-  label: show_mainfeatures
-- type: field_group_list
-  name: mainfeatures
-  label: mainfeatures
+- name: section_one
+  type: field_group
+  config: {}
   fields:
-  - type: text
-    name: heading
-    label: heading
-  - type: text
-    name: description
-    label: description
-  - type: file
-    name: icon
-    label: icon
-  config:
-    max: '3'
+  - name: tagline
+    type: text
+    config:
+      required: false
+    label: Tagline
+  - name: section_header
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Section Header
+  - name: section_body_copy
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Section body copy
+  label: Section One
 - name: all_features_headline
   type: text
   config:
     required: false
   label: All Features Headline
-- type: field_group
-  name: hero_button
-  label: hero_button
-  fields:
-  - type: text
-    name: text
-    label: text
-  - type: text
-    name: href
-    label: href
-- type: field_group
-  name: second_button
-  label: second_button
-  fields:
-  - type: text
-    name: text
-    label: text
-  - type: text
-    name: link
-    label: link
 - name: all_features
   type: field_group_list
   fields:
