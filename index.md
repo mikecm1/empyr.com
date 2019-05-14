@@ -2,7 +2,7 @@
 title: Home
 banner_image: "/img/banner.png"
 layout: landing-page
-heading: Online, Meet Offline. Test.
+heading: Online, Meet Offline.
 partners:
 - "/uploads/2019/05/09/ebay.svg"
 - "/uploads/2019/05/cnn.svg"
