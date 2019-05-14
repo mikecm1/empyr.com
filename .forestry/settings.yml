@@ -6,11 +6,6 @@ webhook_url:
 sections:
 - type: heading
   label: Site Content
-- type: jekyll-posts
-  label: Posts
-  create: all
-  templates:
-  - post
 - type: jekyll-pages
   label: Pages
   create: all
@@ -32,6 +27,11 @@ sections:
   match: "*"
   templates:
   - project
+- type: jekyll-posts
+  label: Posts
+  create: all
+  templates:
+  - post
 - type: document
   path: _data/information.yml
   label: Contact Information
