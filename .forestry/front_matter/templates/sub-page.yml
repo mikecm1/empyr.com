@@ -167,6 +167,28 @@ fields:
       schema:
         format: markdown
     label: Section body copy
+  - name: button
+    type: field_group
+    config: {}
+    fields:
+    - name: text
+      type: text
+      config:
+        required: false
+      label: Text
+    - name: link_url
+      type: select
+      default: []
+      config:
+        required: false
+        options: []
+        source:
+          type: pages
+          section: jekyll-pages
+          file: 
+          path: 
+      label: Link URL
+    label: Button
   label: Section Three
 - name: all_features_headline
   type: text
