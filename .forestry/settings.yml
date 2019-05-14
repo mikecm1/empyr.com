@@ -43,7 +43,7 @@ file_template: ":year:/:month:/:filename:"
 instant_preview: true
 build:
   preview_command: bundle exec jekyll build --drafts --unpublished --future -d _site
-  publish_command: bundle exec jekyll build -d _site
+  publish_command: gulp deploy
   preview_env:
   - JEKYLL_ENV=staging
   publish_env:
