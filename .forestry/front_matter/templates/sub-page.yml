@@ -150,4 +150,5 @@ fields:
     labelField: 
   label: Case Studies
 pages:
+- publishers.md
 - advertiser.md
