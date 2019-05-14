@@ -85,9 +85,6 @@ section_one:
     programs directly inside their products. Get rapid exposure to their members and
     instant engagement optimization– by allowing people to discover offers through
     products they know, trust, and use every day.
-  button:
-    text: Learn More
-    link_url: index.md
 section_two:
   tagline: Revenue
   section_header: Real foot traffic. Real revenue.
@@ -95,9 +92,6 @@ section_two:
     pay a fee when they make a verified purchase. The impressions and clicks? 100%
     free. Consumers enjoy real-time reward notifications, and you achieve guaranteed
     revenue growth with a minimum ___ ROAS.
-  button:
-    text: Learn More
-    link_url: index.md
 section_three:
   tagline: REAL-TIME ANALYTICS
   section_header: Real-time, fully transparent online to offline attribution
