@@ -8,6 +8,7 @@ var sourcemaps = require('gulp-sourcemaps');
 */
 gulp.task('generate', shell.task('jekyll serve --livereload -o'));
 gulp.task('buildit', shell.task('bundle exec jekyll build -d _site'));
+gulp.task('preview_jekyll', shell.task('bundle exec jekyll build --drafts --unpublished --future -d _site'));
 
 /*
   Compile SCSS files to CSS
@@ -47,4 +48,10 @@ gulp.task('watch', function() {
   gulp.task('default', gulp.parallel(
     'generate',
     'watch'
+));
+
+// Preview
+gulp.task('preview', gulp.series(
+    'assets',
+    'preview_jekyll'
 ));
