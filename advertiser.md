@@ -78,7 +78,18 @@ primary_body_copy_headline: Level-up your digital advertising with pure, <br> gu
 primary_body_copy_subheadline: Our pay-per-revenue model (CPR) accelerates and tracks
   in-store sales through digital publishers unavailable on any other platform.
 all_features_headline: Transform your bottom line with CPR
-heading_delete: ''
+section_one:
+  tagline: Customer Reach
+  section_header: Reach 316M+ consumers on our exclusive publisher network
+  section_body_copy: Leading sites and apps use Empyr to integrate card-linked offer programs directly inside their products. Get rapid exposure to their members and instant engagement optimization– by allowing people to discover offers through products they know, trust, and use every day.
+section_two:
+  tagline: Revenue
+  section_header: Real foot traffic. Real revenue.
+  section_body_copy: Drive motivated customers into your physical stores and only pay a fee when they make a verified purchase. The impressions and clicks? 100% free. Consumers enjoy real-time reward notifications, and you achieve guaranteed revenue growth with a minimum ___ ROAS.
+section_three:
+  tagline: REAL-TIME ANALYTICS
+  section_header: Real-time, fully transparent online to offline attribution
+  section_body_copy: Watch in real-time as online offers convert to in-store sales and gain holistic customer insights with comprehensive online to offline analytics. Impressions and clicks don’t always equal cash in the bank, so eliminate the guesswork. 
 menu:
   navigation:
     identifier: _index

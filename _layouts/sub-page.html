@@ -65,7 +65,7 @@ layout: default
             <h4 class="mb-3 tag">{{ page.section_one.tagline }}</h4>
             <h1>{{ page.section_one.section_header }}</h1>
             <p class="mb-3">{{ page.section_one.section_body_copy }}</p>
-            <button class="btn btn-lg btn-bb">Learn More</button>
+            <a href="{{ page.section_three.button_link }}" class="btn btn-lg btn-bb">{{ page.section_three.button_text }}</a>
         </div>
         
         <div class="col-12 col-md-6 order-1 order-md-2 pl-md-0 mb-4 mb-md-0">
@@ -82,22 +82,23 @@ layout: default
             <h4 class="mb-3 tag">{{ page.section_two.tagline }}</h4>
             <h1>{{ page.section_two.section_header }}</h1>
             <p class="mb-3">{{ page.section_two.section_body_copy }}</p>
-            <button class="btn btn-lg btn-bb">Learn More</button>
+            <a href="{{ page.section_three.button_link }}" class="btn btn-lg btn-bb">{{ page.section_three.button_text }}</a>
         </div>
     </div>
     {% endif %}
+    {% if page.section_three %}
     <div class="row justify-content-between align-items-center py-5">
         <div class="col-12 col-md-5 order-2 order-md-1">
-            <h4 class="mb-3 tag">Real-Time Analytics</h4>
-            <h1>100% In-Store Revenue Attribution</h1>
-            <p class="mb-3">No more guesswork, no more wasting time with manual reporting. Track online impressions all
-                the way through to in-store sales with personalized real-time analytics.</p>
-            <button class="btn btn-lg btn-bb">Learn More</button>
+            <h4 class="mb-3 tag">{{ page.section_three.tagline }}</h4>
+            <h1>{{ page.section_three.section_header }}</h1>
+            <p class="mb-3">{{ page.section_three.section_body_copy }}</p>
+            <a href="{{ page.section_three.button_link }}" class="btn btn-lg btn-bb">{{ page.section_three.button_text }}</a>
         </div>
         <div class="col-12 col-md-6 order-1 order-md-2 pl-md-0 mb-4 mb-md-0">
             <img class="w-100" src="/assets/pictures/image-555x380.png" />
         </div>
     </div>
+    {% endif %}
 </div>
 
 
