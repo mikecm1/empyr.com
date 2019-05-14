@@ -12,7 +12,7 @@ fields:
   name: layout
   label: layout
   default: sub-page
-  hidden: true
+  hidden: false
 - type: text
   name: heading
   label: heading
