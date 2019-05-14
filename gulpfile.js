@@ -16,7 +16,7 @@ gulp.task('styles', function () {
     return gulp.src('assets/css/main.scss')
     .pipe(sourcemaps.init({loadMaps: true}))
         .pipe(sass({
-            outputStyle: 'nested'
+            outputStyle: 'compressed'
         }).on('error', sass.logError))
         .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest('css/'));
