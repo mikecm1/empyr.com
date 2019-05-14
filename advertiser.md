@@ -86,7 +86,7 @@ section_one:
     instant engagement optimization– by allowing people to discover offers through
     products they know, trust, and use every day.
   button:
-    text: Learn More!
+    text: Learn More
     link_url: index.md
 section_two:
   tagline: Revenue
