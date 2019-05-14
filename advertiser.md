@@ -2,7 +2,7 @@
 title: Advertisers
 banner_image: "/img/banner.png"
 layout: sub-page
-heading: Online, Meet Offline.
+heading: "Goodbye, guesswork. \nHello, guaranteed revenue."
 partners:
 - "/uploads/2019/05/09/ebay.svg"
 - "/uploads/2019/05/cnn.svg"
@@ -71,9 +71,12 @@ case_studies:
   incremental_revenue: 99%
   roi: "$8.42"
   incremental_roi: "$4.20"
-primary_body_copy_headline: Level-up your digital advertising with pure, <br> guaranteed revenue.
-primary_body_copy_subheadline: Our pay-per-revenue model (CPR) accelerates and tracks in-store sales through digital publishers unavailable on any other platform.
+primary_body_copy_headline: Level-up your digital advertising with pure, <br> guaranteed
+  revenue.
+primary_body_copy_subheadline: Our pay-per-revenue model (CPR) accelerates and tracks
+  in-store sales through digital publishers unavailable on any other platform.
 all_features_headline: Transform your bottom line with CPR
+heading_delete: ''
 menu:
   navigation:
     identifier: _index
