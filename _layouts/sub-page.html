@@ -18,10 +18,10 @@ layout: default
 
 <div class="bg-gradient-lighter">
     <div class="container pt-4">
-            {% if page.mainfeatures %}
+        {% if page.mainfeatures %}
         <div class="card-body card shadow-sm">
             <div class="row py-2">
-                    {% for item in page.mainfeatures %}
+                {% for item in page.mainfeatures %}
                 <div class="col-12 col-md-4 mb-4 mb-md-0">
                     <img class="mb-2" src="http://localhost:4001/uploads/2019/05/rectangle-6.svg" alt="" width="32">
                     <h4 class="mb-1">{{ item.heading }}</h4>
@@ -48,9 +48,9 @@ layout: default
 
 
         <div class="row pt-12 pt-5">
-                <div class="col-12">
-                    <h1>{{ page.primary_body_copy_headline }}</h1>
-                </div>
+            <div class="col-12">
+                <h1>{{ page.primary_body_copy_headline }}</h1>
+            </div>
             <div class="col-md-6">
                 <p>{{ page.primary_body_copy_subheadline }}</p>
             </div>
@@ -59,31 +59,33 @@ layout: default
 </div>
 
 <div class="container">
-
+        {% if page.section_one %}
     <div class="row justify-content-between align-items-center py-5">
         <div class="col-12 col-md-5 order-2 order-md-1">
-            <h4 class="mb-3 tag">Publisher Network</h4>
-            <h1>316M+ Consumers, Unlimited Revenue</h1>
-            <p class="mb-3">Easily deploy high performance card-linked offer campaigns on some of the best sites and
-                apps, reaching 316M+ consumers at lightning speed.</p>
+            <h4 class="mb-3 tag">{{ page.section_one.tagline }}</h4>
+            <h1>{{ page.section_one.section_header }}</h1>
+            <p class="mb-3">{{ page.section_one.section_body_copy }}</p>
             <button class="btn btn-lg btn-bb">Learn More</button>
         </div>
+        
         <div class="col-12 col-md-6 order-1 order-md-2 pl-md-0 mb-4 mb-md-0">
             <img class="w-100" src="/assets/pictures/image-555x380.png" />
         </div>
     </div>
+    {% endif %}
+    {% if page.section_two %}
     <div class="row justify-content-between align-items-center py-5">
         <div class="col-12 col-md-6 pl-md-0 mb-4 mb-md-0">
             <img class="w-100" src="/assets/pictures/image-555x380.png" />
         </div>
         <div class="col-12 col-md-5">
-            <h4 class="mb-3 tag">Pay-Per-Revenue</h4>
-            <h1>Minimum 10X ROAS, Guaranteed.</h1>
-            <p class="mb-3">Empyr powers CPR, a pay-per-revenue model that drives motivated customers to your stores
-                without charging for clicks and impressions. You only pay a small fee when the sale happens.</p>
+            <h4 class="mb-3 tag">{{ page.section_two.tagline }}</h4>
+            <h1>{{ page.section_two.section_header }}</h1>
+            <p class="mb-3">{{ page.section_two.section_body_copy }}</p>
             <button class="btn btn-lg btn-bb">Learn More</button>
         </div>
     </div>
+    {% endif %}
     <div class="row justify-content-between align-items-center py-5">
         <div class="col-12 col-md-5 order-2 order-md-1">
             <h4 class="mb-3 tag">Real-Time Analytics</h4>
@@ -130,7 +132,7 @@ layout: default
                 </div>
             </div>
             <div class="row pt-3">
-                    {% for item in page.case_studies %}
+                {% for item in page.case_studies %}
                 <div class="col-12 col-md-4 mb-3 mb-md-0">
                     <div class="card shadow-sm">
                         <div class="card-body">
