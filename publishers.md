@@ -44,5 +44,25 @@ second_button:
 all_features: []
 show_case_studies: false
 case_studies: []
+section_one:
+  tagline: USER EXPERIENCE
+  section_header: |-
+    Seamless integration,
+    complete creative control
+  section_body_copy: Enhance your product with a feature your users will love, rewarding
+    them from everyday offline purchases and generating revenue with each transaction.
+    Build and deploy a customized card-linked offer program with complete strategic
+    control of the UX, making your audience happy and increasing your bottom line.
+section_two:
+  tagline: Content
+  section_header: Thousands of offline offers ready to go
+  section_body_copy: Get access to thousands of local offers, from local stores to
+    popular national brands. Choose to automatically issue rewards directly to users’
+    linked  cards or use a digital currency to help gamify your product. It’s all
+    up to you.
+section_three:
+  tagline: ''
+  section_header: ''
+  section_body_copy: ''
 
 ---
