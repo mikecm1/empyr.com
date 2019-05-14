@@ -106,7 +106,7 @@ section_three:
     Impressions and clicks don’t always equal cash in the bank, so eliminate the guesswork.
   button:
     text: Learn More
-    link_url: index.md
+    link_url: advertiser.md
 menu:
   navigation:
     identifier: _index
