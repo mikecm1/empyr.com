@@ -704,7 +704,6 @@ $im-no-media-expressions: ('screen', 'portrait', 'landscape') !default;
 }
 
 @include media( '>large' ) {
-
     .hero-copy {
         padding-right: 88px;
         min-width: 552px;

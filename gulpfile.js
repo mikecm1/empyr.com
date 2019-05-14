@@ -7,6 +7,7 @@ var sourcemaps = require('gulp-sourcemaps');
   Build and watch Jekyll (change this task to whatever you need)
 */
 gulp.task('generate', shell.task('jekyll serve --livereload -o'));
+gulp.task('buildit', shell.task('bundle exec jekyll build -d _site'));
 
 /*
   Compile SCSS files to CSS
@@ -31,6 +32,11 @@ gulp.task('assets', gulp.parallel(
 gulp.task('build', gulp.series(
     'assets',
     'generate'
+));
+
+gulp.task('deploy', gulp.series(
+    'assets',
+    'buildit'
 ));
 
 gulp.task('watch', function() {
