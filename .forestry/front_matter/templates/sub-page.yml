@@ -112,6 +112,62 @@ fields:
         format: markdown
     label: Section body copy
   label: Section One
+- name: section_two
+  type: field_group
+  config: {}
+  fields:
+  - name: tagline
+    type: text
+    config:
+      required: false
+    label: Tagline
+  - name: section_header
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Section Header
+  - name: section_body_copy
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Section body copy
+  label: Section Two
+- name: section_three
+  type: field_group
+  config: {}
+  fields:
+  - name: tagline
+    type: text
+    config:
+      required: false
+    label: Tagline
+  - name: section_header
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Section Header
+  - name: section_body_copy
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Section body copy
+  label: Section Three
 - name: all_features_headline
   type: text
   config:
