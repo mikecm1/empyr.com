@@ -161,6 +161,6 @@ fields:
     labelField: 
   label: Case Studies
 pages:
-- testing-123.md
-- advertiser.md
 - publishers.md
+- advertiser.md
+- testing-123.md
