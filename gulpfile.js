@@ -2,11 +2,12 @@ var gulp = require('gulp');
 var shell = require('gulp-shell');
 var sass = require('gulp-sass');
 var sourcemaps = require('gulp-sourcemaps');
+var touch = require('gulp-touch-cmd');
 
 /*
   Build and watch Jekyll (change this task to whatever you need)
 */
-gulp.task('generate', shell.task('bundle exec jekyll serve --w --livereload'));
+gulp.task('generate', shell.task('bundle exec jekyll serve --watch --livereload -o'));
 gulp.task('buildit', shell.task('bundle exec jekyll build -d _site'));
 gulp.task('preview_jekyll', shell.task('bundle exec jekyll build --drafts --unpublished --future -d _site'));
 gulp.task('buildme', shell.task('bundle exec jekyll build --watch'));
@@ -15,13 +16,14 @@ gulp.task('buildme', shell.task('bundle exec jekyll build --watch'));
 */
 
 gulp.task('styles', function () {
-    return gulp.src('./assets/css/*.scss')
+    return gulp.src('./assets/css/main.scss')
     .pipe(sourcemaps.init({loadMaps: true}))
         .pipe(sass({
             outputStyle: 'compressed'
         }).on('error', sass.logError))
         .pipe(sourcemaps.write('.'))
-        .pipe(gulp.dest('css/'));
+        .pipe(gulp.dest('css/'))
+        .pipe(touch());
 });
 
 /*

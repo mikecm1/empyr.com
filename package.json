@@ -14,9 +14,27 @@
   "license": "ISC",
   "homepage": "https://github.com/mikecm1/empyr.com",
   "dependencies": {
+    "autoprefixer": "^9.5.1",
+    "browser-sync": "^2.26.5",
+    "child_process": "^1.0.2",
+    "cssnano": "^4.1.10",
+    "del": "^4.1.1",
     "gulp": "^4.0.2",
+    "gulp-eslint": "^5.0.0",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-newer": "^1.4.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.2",
     "gulp-shell": "^0.7.0",
-    "gulp-sourcemaps": "^2.6.5"
+    "gulp-sourcemaps": "^2.6.5",
+    "webpack": "^4.31.0",
+    "webpack-stream": "^5.2.1"
+  },
+  "devDependencies": {
+    "gulp-changed": "^3.2.0",
+    "gulp-touch": "^1.0.1",
+    "gulp-touch-cmd": "0.0.1"
   }
 }
