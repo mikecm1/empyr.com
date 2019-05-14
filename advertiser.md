@@ -2,6 +2,7 @@
 title: Advertisers
 banner_image: "/img/banner.png"
 layout: sub-page
+tagline: National Brands
 heading: |-
   Goodbye, guesswork.
   Hello, guaranteed revenue.

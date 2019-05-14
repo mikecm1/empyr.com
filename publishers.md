@@ -1,6 +1,7 @@
 ---
 layout: sub-page
 title: Publishers
+tagline: Websites & Apps
 banner_image: ''
 heading: |-
   Enhance your experience.

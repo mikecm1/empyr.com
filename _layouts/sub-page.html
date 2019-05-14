@@ -2,7 +2,6 @@
 layout: default
 ---
 {% include sub-hero.html %}
-
 {% assign stripped_content = content | strip_newlines %}
 {% if content and stripped_content != "" %}
 <section class="about">
@@ -15,7 +14,6 @@ layout: default
     </div>
 </section>
 {% endif %}
-
 <div class="bg-gradient-lighter">
     <div class="container pt-4">
         {% if page.mainfeatures %}
@@ -31,7 +29,6 @@ layout: default
             </div>
         </div>
         {% endif %}
-
         {% if page.partners %}
         <div class="container">
             <div class="py-4">
@@ -45,8 +42,6 @@ layout: default
             </div>
         </div>
         {% endif %}
-
-
         <div class="row pt-12 pt-5">
             <div class="col-12">
                 <h1>{{ page.primary_body_copy_headline }}</h1>
@@ -57,9 +52,8 @@ layout: default
         </div>
     </div>
 </div>
-
 <div class="container">
-        {% if page.section_one %}
+    {% if page.section_one %}
     <div class="row justify-content-between align-items-center py-5">
         <div class="col-12 col-md-5 order-2 order-md-1">
             <h4 class="mb-3 tag">{{ page.section_one.tagline }}</h4>
@@ -67,7 +61,6 @@ layout: default
             <p class="mb-3">{{ page.section_one.section_body_copy }}</p>
             <a href="{{ page.section_one.button.link_url }}" class="btn btn-lg btn-bb">{{ page.section_one.button.text }}</a>
         </div>
-        
         <div class="col-12 col-md-6 order-1 order-md-2 pl-md-0 mb-4 mb-md-0">
             <img class="w-100" src="/assets/pictures/image-555x380.png" />
         </div>
@@ -100,12 +93,8 @@ layout: default
     </div>
     {% endif %}
 </div>
-
-
-
 <div class="bg-gradient-lighter">
     <div class="container pt-4 text-center">
-
         {% if page.all_features %}
         <h1>{{ page.all_features_headline }}</h1>
         <div class="row pt-2 pb-5">
@@ -121,9 +110,6 @@ layout: default
             {% endfor %}
         </div>
         {% endif %}
-
-
-
         {% if page.case_studies %}
         <div class="text-left">
             <div class="row pt-12 pt-5">
@@ -161,12 +147,8 @@ layout: default
             </div>
         </div>
         {% endif %}
-
     </div>
 </div>
-
 <!-- {% include news.html %}
-
 {% include partners.html %}
-
 {% include staff.html %} -->
