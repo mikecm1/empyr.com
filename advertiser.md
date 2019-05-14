@@ -3,7 +3,7 @@ title: Advertisers
 banner_image: "/img/banner.png"
 layout: sub-page
 heading: |-
-  Goodbye, guesswork. Get it
+  Goodbye, guesswork.
   Hello, guaranteed revenue.
 partners:
 - "/uploads/2019/05/09/ebay.svg"
