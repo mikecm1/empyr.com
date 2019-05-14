@@ -1,6 +1,6 @@
 ---
 title: Publishers
-banner_image: "/uploads/2019/05/rectangle-6.svg"
+banner_image: ''
 layout: ''
 heading: Enhance your experience. Amplify your revenue.
 partners: []
@@ -19,6 +19,5 @@ second_button:
   link: "#"
 show_case_studies: false
 case_studies: []
-published: false
 
 ---
