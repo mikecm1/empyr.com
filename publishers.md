@@ -65,5 +65,10 @@ section_three:
   tagline: ''
   section_header: ''
   section_body_copy: ''
+menu:
+  navigation:
+    weight: 2
+    parent: item_kCvWxtX
+    title: Websites & Apps
 
 ---

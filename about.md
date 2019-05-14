@@ -16,10 +16,10 @@ hero_button:
 mainfeatures: []
 show_mainfeatures: false
 menu:
-  footer:
+  navigation:
     identifier: _about
     weight: 3
-  navigation:
+  footer:
     identifier: _about
     weight: 3
 
