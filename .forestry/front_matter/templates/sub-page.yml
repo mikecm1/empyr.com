@@ -14,8 +14,17 @@ fields:
   default: sub-page
   hidden: true
 - type: text
-  name: heading
-  label: heading
+  name: heading_delete
+  label: heading_delete
+- name: heading
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Heading
 - type: image_gallery
   name: partners
   label: partners
