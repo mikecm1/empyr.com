@@ -12,7 +12,7 @@ fields:
   name: layout
   label: layout
   default: sub-page
-  hidden: false
+  hidden: true
 - type: text
   name: heading
   label: heading
@@ -152,4 +152,5 @@ fields:
     labelField: 
   label: Case Studies
 pages:
+- publishers.md
 - advertiser.md
