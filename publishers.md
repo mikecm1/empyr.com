@@ -24,5 +24,9 @@ second_button:
   link: ''
 show_case_studies: false
 case_studies: []
+menu:
+  navigation:
+    weight: 2
+    parent: item_kCvWxtX
 
 ---
