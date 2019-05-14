@@ -6,15 +6,16 @@ var sourcemaps = require('gulp-sourcemaps');
 /*
   Build and watch Jekyll (change this task to whatever you need)
 */
-gulp.task('generate', shell.task('jekyll serve --livereload -o'));
+gulp.task('generate', shell.task('bundle exec jekyll serve --w --livereload'));
 gulp.task('buildit', shell.task('bundle exec jekyll build -d _site'));
 gulp.task('preview_jekyll', shell.task('bundle exec jekyll build --drafts --unpublished --future -d _site'));
-
+gulp.task('buildme', shell.task('bundle exec jekyll build --watch'));
 /*
   Compile SCSS files to CSS
 */
+
 gulp.task('styles', function () {
-    return gulp.src('assets/css/main.scss')
+    return gulp.src('./assets/css/*.scss')
     .pipe(sourcemaps.init({loadMaps: true}))
         .pipe(sass({
             outputStyle: 'compressed'
@@ -26,32 +27,32 @@ gulp.task('styles', function () {
 /*
   Compile the assets
 */
-gulp.task('assets', gulp.parallel(
-    'styles'
-));
+// gulp.task('assets', gulp.parallel(
+//     'styles'
+// ));
 
 gulp.task('build', gulp.series(
-    'assets',
+    'styles',
     'generate'
 ));
 
 gulp.task('deploy', gulp.series(
-    'assets',
+    'styles',
     'buildit'
 ));
 
 gulp.task('watch', function() {
-    gulp.watch('assets/css/**/*.scss', gulp.series('assets'));
+    gulp.watch('assets/**/*.scss', gulp.series('styles'));
   });
 
 // Watch and build
   gulp.task('default', gulp.parallel(
-    'generate',
-    'watch'
+    'watch',
+    'generate'
 ));
 
 // Preview
 gulp.task('preview', gulp.series(
-    'assets',
+    'styles',
     'preview_jekyll'
 ));
