@@ -24,6 +24,5 @@ second_button:
   link: ''
 show_case_studies: false
 case_studies: []
-published: false
 
 ---
