@@ -11,6 +11,8 @@ fields:
 - type: text
   name: layout
   label: layout
+  default: sub-page
+  hidden: true
 - type: text
   name: heading
   label: heading
