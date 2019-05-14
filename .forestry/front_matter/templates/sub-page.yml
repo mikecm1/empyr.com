@@ -185,6 +185,7 @@ fields:
         options: []
         source:
           type: pages
+          section: jekyll-pages
           file: 
           path: 
       label: Link URL
