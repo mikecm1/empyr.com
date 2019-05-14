@@ -13,9 +13,6 @@ fields:
   label: layout
   default: sub-page
   hidden: true
-- type: text
-  name: heading_delete
-  label: heading_delete
 - name: heading
   type: textarea
   default: ''
@@ -162,4 +159,3 @@ fields:
   label: Case Studies
 pages:
 - advertiser.md
-- publishers.md
