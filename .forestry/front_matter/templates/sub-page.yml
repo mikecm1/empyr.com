@@ -111,6 +111,28 @@ fields:
       schema:
         format: markdown
     label: Section body copy
+    - name: button
+    type: field_group
+    config: {}
+    fields:
+    - name: text
+      type: text
+      config:
+        required: false
+      label: Text
+      default: Learn More
+    - name: link_url
+      type: select
+      default: []
+      config:
+        required: false
+        options: []
+        source:
+          type: pages
+          file: 
+          path: 
+      label: Link URL
+    label: Button
   label: Section One
 - name: section_two
   type: field_group
@@ -139,6 +161,28 @@ fields:
       schema:
         format: markdown
     label: Section body copy
+    - name: button
+    type: field_group
+    config: {}
+    fields:
+    - name: text
+      type: text
+      config:
+        required: false
+      label: Text
+      default: Learn More
+    - name: link_url
+      type: select
+      default: []
+      config:
+        required: false
+        options: []
+        source:
+          type: pages
+          file: 
+          path: 
+      label: Link URL
+    label: Button
   label: Section Two
 - name: section_three
   type: field_group
@@ -185,7 +229,6 @@ fields:
         options: []
         source:
           type: pages
-          section: jekyll-pages
           file: 
           path: 
       label: Link URL
