@@ -176,6 +176,7 @@ fields:
       config:
         required: false
       label: Text
+      default: Learn More
     - name: link_url
       type: select
       default: []
