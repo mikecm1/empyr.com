@@ -17,14 +17,14 @@
     backdrop-filter: saturate(180%) blur(20px);
   }
   .site-header a {
-    color: #999;
+    color: $gray-500;
     transition: ease-in-out color .15s;
     &.current {
-        color: green !important;
+        color: $white !important;
     }
   }
   .site-header a:hover {
-    color: #ffffff;
+    color: $white;
     text-decoration: none;
   }
   
