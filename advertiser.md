@@ -1,6 +1,6 @@
 ---
 title: Advertisers
-banner_image: "/img/banner.png"
+banner_image: ''
 layout: sub-page
 tagline: National Brands
 heading: |-
