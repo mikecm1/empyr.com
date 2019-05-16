@@ -6,7 +6,8 @@
   font-size: 11px; }
 
 .bg-cover {
-  background-color: #100e17; }
+  background-color: #100e17;
+  padding: 40px 0; }
 
 .site-header {
   background-color: #000;
@@ -178,7 +179,7 @@ footer {
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1100px;
-  --font-family-sans-serif: "Colfax", "Neurial Grotesk", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto;
+  --font-family-sans-serif: "Neurial Grotesk", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto;
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
 
 *,
@@ -203,7 +204,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 
 body {
   margin: 0;
-  font-family: "Colfax", "Neurial Grotesk", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto;
+  font-family: "Neurial Grotesk", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -5504,7 +5505,7 @@ button.close {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: "Colfax", "Neurial Grotesk", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto;
+  font-family: "Neurial Grotesk", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -5589,7 +5590,7 @@ button.close {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: "Colfax", "Neurial Grotesk", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto;
+  font-family: "Neurial Grotesk", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -8477,7 +8478,7 @@ html {
   -moz-osx-font-smoothing: grayscale; }
 
 body {
-  font-family: "Colfax", "Neurial Grotesk", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto;
+  font-family: "Neurial Grotesk", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto;
   font-size: 1rem;
   line-height: 1.5;
   color: #535C6B;
@@ -8980,7 +8981,7 @@ a.btn-icon-only {
 
 .navbar-nav .nav-link {
   font-size: 0.9rem;
-  font-family: "Colfax", "Neurial Grotesk", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto;
+  font-family: "Neurial Grotesk", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto;
   font-weight: 400;
   text-transform: normal;
   letter-spacing: 0;
