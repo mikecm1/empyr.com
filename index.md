@@ -1,6 +1,6 @@
 ---
 title: Home
-banner_image: "/img/banner.png"
+banner_image: ''
 layout: landing-page
 heading: Online, Meet Offline.
 partners:
