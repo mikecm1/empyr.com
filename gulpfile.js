@@ -47,8 +47,8 @@ gulp.task('styles', function () {
     .pipe(sourcemaps.init({loadMaps: true}))
         .pipe(sass())
         .on("error", sass.logError)
-        .pipe(postcss(processors))
-        // .pipe(postcss(processorsUnminify))
+        // .pipe(postcss(processors))
+        .pipe(postcss(processorsUnminify))
         .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest('css/'))
         .pipe(touch());
