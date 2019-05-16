@@ -12,39 +12,42 @@ var gulp = require('gulp'),
     reporter = require('postcss-reporter'),
     csso = require('postcss-csso');
 
-gulp.task('generate', shell.task('bundle exec jekyll serve --watch --livereload'));
+gulp.task('generate', shell.task('bundle exec jekyll serve --watch --livereload -o'));
 gulp.task('buildit', shell.task('bundle exec jekyll build -d _site'));
 
 gulp.task('styles', function () {
-
     var processors = [
-        uncss({
-            html: ['./_site/**/*.html'],
-            ignore: ['.fade']
-          }),
-        utilities(),
-        autoprefixer({
-            "browsers": [
-              "> 1%",
-              "last 2 versions",
-              "IE 9"
-            ]
-          }),
-        csso({comments: false})
-      ],
-      processorsUnminify = [
-        utilities(),
-        autoprefixer({
-            "browsers": [
-              "> 1%",
-              "last 2 versions",
-              "IE 9"
-            ]
-          })
-      ];
+            uncss({
+                html: ['./_site/**/*.html'],
+                ignore: ['.fade']
+            }),
+            utilities(),
+            autoprefixer({
+                "browsers": [
+                    "> 1%",
+                    "last 2 versions",
+                    "IE 9"
+                ]
+            }),
+            csso({
+                comments: false
+            })
+        ],
+        processorsUnminify = [
+            utilities(),
+            autoprefixer({
+                "browsers": [
+                    "> 1%",
+                    "last 2 versions",
+                    "IE 9"
+                ]
+            })
+        ];
 
     return gulp.src('./assets/css/main.scss')
-    .pipe(sourcemaps.init({loadMaps: true}))
+        .pipe(sourcemaps.init({
+            loadMaps: true
+        }))
         .pipe(sass())
         .on("error", sass.logError)
         // .pipe(postcss(processors))
@@ -61,9 +64,9 @@ gulp.task('deploy', gulp.series(
 ));
 
 // Watch scss changes
-gulp.task('watch', function() {
+gulp.task('watch', function () {
     gulp.watch('assets/**/*.scss', gulp.series('styles'));
-  });
+});
 
 // Default: watch and build local
 gulp.task('default', gulp.parallel(
