@@ -1,5 +1,5 @@
 @import "bootstrap/functions";
-@import "custom/functions";
+// @import "custom/functions";
 
 @import "custom/variables";
 @import "bootstrap/variables";
@@ -24,6 +24,7 @@
 @import "bootstrap/button-group";
 @import "bootstrap/input-group";
 @import "bootstrap/custom-forms";
+@import "bootstrap/utilities";
 @import "bootstrap/nav";
 @import "bootstrap/navbar";
 @import "bootstrap/card";
@@ -40,19 +41,19 @@
 @import "bootstrap/tooltip";
 @import "bootstrap/popover";
 @import "bootstrap/carousel";
-@import "bootstrap/utilities";
 @import "bootstrap/print";
 
 // Custom components
 
-@import "custom/reboot.scss";
+// @import "custom/reboot.scss";
 // @import "custom/global.scss";
 // @import "custom/utilities.scss";
+@import "custom/utilities/borders.scss";
 // @import "custom/accordion.scss";
 // @import "custom/alerts.scss";
 // @import "custom/avatars.scss";
 // @import "custom/badge.scss";
-@import "custom/buttons.scss";
+// @import "custom/buttons.scss";
 @import "custom/card.scss";
 // @import "custom/carousel.scss";
 // @import "custom/close.scss";
@@ -65,14 +66,15 @@
 // @import "custom/input-group.scss";
 // @import "custom/list-group.scss";
 // @import "custom/modal.scss";
-@import "custom/nav.scss";
+// @import "custom/nav.scss";
 @import "custom/navbar.scss";
+@import "custom/utilities/position.scss";
 // @import "custom/pagination.scss";
 // @import "custom/popover.scss";
 // @import "custom/progress.scss";
 // @import "custom/section.scss";
-@import "custom/type.scss";
+// @import "custom/type.scss";
 
 // Vendor
 
-@import "custom/vendor/bootstrap-datepicker.scss";
+// @import "custom/vendor/bootstrap-datepicker.scss";

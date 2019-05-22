@@ -1,5 +1,6 @@
 .card {
     position: relative;
+    border: $card-border-width solid $card-border-color;
 }
 
 .profile-page {
