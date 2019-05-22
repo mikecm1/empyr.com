@@ -111,7 +111,7 @@ section_three:
 menu:
   navigation:
     identifier: _index
-    weight: 1
+    weight: 2
     parent: item_kCvWxtX
     title: National Brands
 
