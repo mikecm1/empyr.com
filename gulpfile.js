@@ -15,6 +15,18 @@ var gulp = require('gulp'),
 gulp.task('generate', shell.task('bundle exec jekyll serve --watch --livereload -o'));
 gulp.task('buildit', shell.task('bundle exec jekyll build -d _site'));
 
+gulp.task('scss', function () {
+    return gulp.src('./assets/css/main.scss')
+        .pipe(sourcemaps.init({
+            loadMaps: true
+        }))
+        .pipe(sass())
+        .on("error", sass.logError)
+        .pipe(sourcemaps.write('.'))
+        .pipe(gulp.dest('css/'))
+        .pipe(touch());
+});
+
 gulp.task('styles', function () {
     var processors = [
             uncss({
@@ -65,7 +77,7 @@ gulp.task('deploy', gulp.series(
 
 // Watch scss changes
 gulp.task('watch', function () {
-    gulp.watch('assets/**/*.scss', gulp.series('styles'));
+    gulp.watch('assets/**/*.scss', gulp.series('scss'));
 });
 
 // Default: watch and build local
