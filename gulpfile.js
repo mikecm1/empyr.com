@@ -10,19 +10,28 @@ var gulp = require('gulp'),
     utilities = require('postcss-utilities'),
     stylelint = require('gulp-stylelint'),
     reporter = require('postcss-reporter'),
+    pxtorem = require('gulp-pxtorem'),
     csso = require('postcss-csso');
 
-gulp.task('generate', shell.task('bundle exec jekyll serve --watch --livereload -o'));
+gulp.task('generate', shell.task('bundle exec jekyll serve --watch --livereload'));
 gulp.task('buildit', shell.task('bundle exec jekyll build -d _site'));
 
 gulp.task('scss', function () {
+    var pxtoremOptions = {
+        replace: false
+    };
+var postcssOptions = {
+    map: true  
+};
     return gulp.src('./assets/css/main.scss')
         .pipe(sourcemaps.init({
             loadMaps: true
         }))
         .pipe(sass())
         .on("error", sass.logError)
-        .pipe(sourcemaps.write('.'))
+        // .pipe(sourcemaps.write('.'))
+        .pipe(pxtorem(pxtoremOptions, postcssOptions))
+        .pipe(sourcemaps.write())
         .pipe(gulp.dest('css/'))
         .pipe(touch());
 });

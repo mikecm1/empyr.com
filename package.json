@@ -39,6 +39,7 @@
   "devDependencies": {
     "gulp-changed": "^3.2.0",
     "gulp-clean-css": "^4.2.0",
+    "gulp-pxtorem": "^3.0.0",
     "gulp-stylelint": "^9.0.0",
     "gulp-touch": "^1.0.1",
     "gulp-touch-cmd": "0.0.1",
