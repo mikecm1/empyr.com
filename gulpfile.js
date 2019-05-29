@@ -16,38 +16,62 @@ var gulp = require('gulp'),
 gulp.task('generate', shell.task('bundle exec jekyll serve --watch --livereload'));
 gulp.task('buildit', shell.task('bundle exec jekyll build -d _site'));
 
-gulp.task('scss', function () {
+gulp.task('scss-local', function () {
     var pxtoremOptions = {
         replace: false
     };
     var postcssOptions = {
-        map: true
+        map: false
     };
-    //     return gulp.src('./assets/css/main.scss')
-    //         .pipe(sourcemaps.init({
-    //             loadMaps: true
-    //         }))
-    //         .pipe(sass())
-    //         .on("error", sass.logError)
-    //         .pipe(pxtorem(pxtoremOptions, postcssOptions))
-    //         .pipe(sourcemaps.write('.'))
-    //         // .pipe(sourcemaps.write())
-    //         .pipe(gulp.dest('css/'))
-    //         .pipe(touch());
-    // });
-    return gulp.src('./assets/css/main.scss')
-        .pipe(sourcemaps.init({
-            loadMaps: true
-        }))
-        .pipe(sass())
-        .on("error", sass.logError)
-        // .pipe(postcss(processors))
-        .pipe(sourcemaps.write('.'))
-        .pipe(gulp.dest('css/'))
-        .pipe(touch());
+    var processors = [
+        // uncss({
+        //     html: ['./_site/**/*.html'],
+        //     ignore: ['.fade']
+        // }),
+        utilities(),
+        autoprefixer({
+            "browsers": [
+                "> 1%",
+                "last 2 versions",
+                "IE 9"
+            ]
+        }),
+        csso({
+            comments: false
+        })
+    ],
+    processorsUnminify = [
+        utilities(),
+        autoprefixer({
+            "browsers": [
+                "> 1%",
+                "last 2 versions",
+                "IE 9"
+            ]
+        })
+    ];
+return gulp.src('./assets/css/main.scss')
+.pipe(sourcemaps.init({
+    loadMaps: true
+}))
+.pipe(sass())
+.on("error", sass.logError)
+.pipe(pxtorem(pxtoremOptions, postcssOptions))
+.pipe(postcss(processors))
+.pipe(sourcemaps.write('.'))
+.pipe(gulp.dest('css/'))
+.pipe(touch());
 });
 
-gulp.task('styles', function () {
+
+
+gulp.task('styles-remote', function () {
+    var pxtoremOptions = {
+        replace: false
+    };
+    var postcssOptions = {
+        map: false
+    };
     var processors = [
             // uncss({
             //     html: ['./_site/**/*.html'],
@@ -86,18 +110,18 @@ gulp.task('styles', function () {
         // .pipe(postcss(processorsUnminify))
         // .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest('css/'))
-    // .pipe(touch());
+        .pipe(touch());
 });
 
 // Deploy task on forestry.io
 gulp.task('deploy', gulp.series(
-    'styles',
+    // 'styles-remote',
     'buildit'
 ));
 
 // Watch scss changes
 gulp.task('watch', function () {
-    gulp.watch('assets/**/*.scss', gulp.series('scss'));
+    gulp.watch('assets/**/*.scss', gulp.series('scss-local'));
 });
 
 // Default: watch and build local

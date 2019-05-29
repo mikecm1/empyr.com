@@ -2,7 +2,7 @@ title: Empyr.com
 short_title: Empyr
 description: Empyr.com site
 permalink: "/:path/"
-port: 4001
+port: 4000
 defaults:
   - scope:
       path: ""
