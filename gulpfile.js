@@ -49,10 +49,10 @@ gulp.task('scss', function () {
 
 gulp.task('styles', function () {
     var processors = [
-            uncss({
-                html: ['./_site/**/*.html'],
-                ignore: ['.fade']
-            }),
+            // uncss({
+            //     html: ['./_site/**/*.html'],
+            //     ignore: ['.fade']
+            // }),
             utilities(),
             autoprefixer({
                 "browsers": [
