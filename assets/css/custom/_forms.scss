@@ -5,11 +5,11 @@ label {
 }
 
 .form-control {
-    font-size: $input-btn-font-size;
+    // font-size: $input-btn-font-size;
     
     &:focus {
         &::placeholder {
-            color: $input-focus-placeholder-color;
+            // color: $input-focus-placeholder-color;
         }
     }
 }
@@ -37,23 +37,23 @@ textarea[resize="horizontal"] {
 /* Alternative styles */
 
 .form-control-muted {
-    background-color: $input-muted-bg;
-    border-color: $input-muted-bg;
+    // background-color: $input-muted-bg;
+    // border-color: $input-muted-bg;
     box-shadow: none;
 
     &:focus {
-        background-color: $input-muted-bg;
+        // background-color: $input-muted-bg;
         //box-shadow: none;
     }
 }
 
 .form-control-alternative {
-    box-shadow: $input-alternative-box-shadow;
+    // box-shadow: $input-alternative-box-shadow;
     border: 0;
     transition: box-shadow .15s ease;
 
     &:focus {
-        box-shadow: $input-focus-alternative-box-shadow;
+        // box-shadow: $input-focus-alternative-box-shadow;
     }
 }
 
@@ -89,8 +89,8 @@ textarea[resize="horizontal"] {
 .has-success {
     &:after {
         content: "\ea26";
-        color: daken($form-feedback-valid-color, 18%);
-        background-color: $form-feedback-valid-bg;
+        // color: daken($form-feedback-valid-color, 18%);
+        // background-color: $form-feedback-valid-bg;
     }
     .form-control {
         background-color: $input-focus-bg;
@@ -101,7 +101,7 @@ textarea[resize="horizontal"] {
 
         // Placeholder
         &::placeholder {
-            color: $form-feedback-valid-color;
+            // color: $form-feedback-valid-color;
         }
     }
 
@@ -115,8 +115,8 @@ textarea[resize="horizontal"] {
 .has-danger {
     &:after {
         content: "\ea53";
-        color: daken($form-feedback-invalid-color, 18%);
-        background-color: $form-feedback-invalid-bg;
+        // color: daken($form-feedback-invalid-color, 18%);
+        // background-color: $form-feedback-invalid-bg;
     }
     .form-control {
         background-color: $input-focus-bg;

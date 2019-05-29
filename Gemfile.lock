@@ -3,15 +3,13 @@ GEM
   specs:
     addressable (2.6.0)
       public_suffix (>= 2.0.2, < 4.0)
-    autoprefixer-rails (9.5.1.1)
-      execjs
     colorator (1.1.0)
     concurrent-ruby (1.1.5)
+    daemons (1.3.1)
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     eventmachine (1.2.7)
-    execjs (2.7.0)
     ffi (1.10.0)
     forwardable-extended (2.6.0)
     http_parser.rb (0.6.0)
@@ -32,8 +30,6 @@ GEM
       safe_yaml (~> 1.0)
     jekyll-archives (2.2.1)
       jekyll (>= 3.6, < 5.0)
-    jekyll-autoprefixer (1.0.2)
-      autoprefixer-rails (~> 9.3)
     jekyll-menus (0.6.0)
       jekyll (~> 3.1)
     jekyll-sass-converter (1.5.2)
@@ -53,6 +49,7 @@ GEM
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (3.0.3)
+    rack (2.0.7)
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
@@ -64,6 +61,10 @@ GEM
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
+    thin (1.7.2)
+      daemons (~> 1.0, >= 1.0.9)
+      eventmachine (~> 1.0, >= 1.0.4)
+      rack (>= 1, < 3)
 
 PLATFORMS
   ruby
@@ -71,9 +72,9 @@ PLATFORMS
 DEPENDENCIES
   jekyll
   jekyll-archives
-  jekyll-autoprefixer
   jekyll-menus
   jekyll-tagging
+  thin
   tzinfo-data
 
 BUNDLED WITH

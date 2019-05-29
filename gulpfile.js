@@ -17,18 +17,18 @@ gulp.task('generate', shell.task('bundle exec jekyll serve --watch --livereload'
 gulp.task('buildit', shell.task('bundle exec jekyll build -d _site'));
 
 gulp.task('scss-local', function () {
-    var pxtoremOptions = {
-        replace: false
-    };
-    var postcssOptions = {
-        map: true,
-        "map.inline": false
-    };
+    // var pxtoremOptions = {
+    //     replace: false
+    // };
+    // var postcssOptions = {
+    //     map: true,
+    //     "map.inline": false
+    // };
     var processors = [
-        uncss({
-            html: ['./_site/**/*.html'],
-            ignore: ['.fade']
-        }),
+        // uncss({
+        //     html: ['./_site/**/*.html'],
+        //     ignore: ['.fade']
+        // }),
         utilities(),
         autoprefixer({
             "browsers": [
@@ -48,7 +48,7 @@ gulp.task('scss-local', function () {
         .pipe(sass())
         .on("error", sass.logError)
         .pipe(postcss(processors))
-        .pipe(pxtorem(pxtoremOptions))
+        // .pipe(pxtorem(pxtoremOptions))
         .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest('css/'))
         .pipe(touch());

@@ -26,14 +26,16 @@ layout: default
     </div>
 </div>
 {% if page.partners %}
-<div class="container shad">
-    <div class="py-4">
-        <div class="row justify-content-center justify-content-lg-between text-center align-items-center">
-            {% for logo in page.partners %}
-            <div class="col mt-3 mb-lg-0">
-                <img src="{{ logo | absolute_url }}" style="width: 100px; max-width: 70%" />
+<div class="shad">
+    <div class="container">
+        <div class="py-4">
+            <div class="row justify-content-center justify-content-lg-between text-center align-items-center">
+                {% for logo in page.partners %}
+                <div class="col mt-3 mb-lg-0">
+                    <img src="{{ logo | absolute_url }}" style="width: 100px; max-width: 70%" />
+                </div>
+                {% endfor %}
             </div>
-            {% endfor %}
         </div>
     </div>
 </div>
@@ -74,10 +76,10 @@ layout: default
     <div class="container py-4">
         <div class="row pt-12 pt-5">
             <div class="col-12">
-                <h1>{{ page.primary_body_copy_headline }}</h1>
+                <h1 class="headline">{{ page.primary_body_copy_headline }}</h1>
             </div>
-            <div class="col-md-6">
-                <p>Accelerate in-store revenue with card-linked offer campaigns on our exclusive publisher network.
+            <div class="col-md-7">
+                <p class="large">Accelerate in-store revenue with card-linked offer campaigns on our exclusive publisher network.
                     There’s no charge for clicks or impressions, and purchases are tracked in real-time, providing full
                     online to offline attribution.</p>
             </div>
@@ -91,7 +93,7 @@ layout: default
             <div class="card-body">
               <img class="mb-1" src="{{ item.icon | absolute_url }}" alt="" width="32">
               <h5 class="mb-1">{{ item.heading }}</h5>
-              <div class="small">{{ item.description }}</div>
+              <div class="lighten">{{ item.description }}</div>
             </div>
           </div>
         </div>

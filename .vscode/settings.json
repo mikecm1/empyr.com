@@ -5,7 +5,9 @@
         "_config.yml",
         "gulpfile.js",
         ".forestry",
-        "assets/css/main.scss"
+        "assets/css/main.scss",
+        "_layouts",
+        "_includes"
     ],
     "favorites.sortOrder": "ASC"
 }

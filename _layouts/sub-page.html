@@ -1,7 +1,36 @@
 ---
 layout: default
 ---
-{% include sub-hero.html %}
+<div class="hero sub">
+    <div class="bg-cover offset">
+            <div class="container">
+                <div class="row justify-content-between align-items-center py-5">
+                    <div class="col-12 col-md-7 order-1 order-md-1 text-">
+                        {% if page.tagline and page.tagline != "" %}
+                        <h4>{{ page.tagline }}</h4>
+                        {% endif %}
+                        <h1 class="display-4">{{ page.heading | default: page.title }}</h1>
+                        {% if page.sub_heading and page.sub_heading != "" %}
+                        <p class="large mb-4">{{ page.sub_heading }}</p>
+                        {% endif %}
+                        <div class="row align-items-center">
+                            <div class="col-12 col-md-12 order-1 order-md-1">
+                                    {% if page.hero_button %}
+                                    <a href="{{ page.hero_button.href | absolute_url }}" class="btn btn-lg btn-primary">{{ page.hero_button.text }}</a>
+                                    {% endif %}
+                                    {% if page.second_button %}
+                                    <a href="{{ page.second_button.href | absolute_url }}" class="btn btn-lg btn-white">{{ page.second_button.text }}</a>
+                                    {% endif %}
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 order-2 order-md-2 pl-md-0 mb-4 mb-md-0">
+                        <img class="w-100" src="/assets/pictures/cover-1.png" />
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
 {% assign stripped_content = content | strip_newlines %}
 {% if content and stripped_content != "" %}
 <section class="about">
@@ -17,11 +46,11 @@ layout: default
 <div class="bg-gradient-lighter">
     <div class="container pt-4">
         {% if page.mainfeatures %}
-        <div class="card-body card shadow-sm">
-            <div class="row py-2">
+        <div class="card-body card shadow-sm offset">
+            <div class="row py-2 px-2">
                 {% for item in page.mainfeatures %}
                 <div class="col-12 col-md-4 mb-4 mb-md-0">
-                    <img class="mb-2" src="http://localhost:4001/uploads/2019/05/rectangle-6.svg" alt="" width="32">
+                    <img class="mb-1" src="{{ item.icon | absolute_url }}" alt="" width="55">
                     <h4 class="mb-1">{{ item.heading }}</h4>
                     <div class="small">{{ item.description }}</div>
                 </div>
@@ -54,11 +83,11 @@ layout: default
 </div>
 <div class="container">
     {% if page.section_one %}
-    <div class="row justify-content-between align-items-center py-5">
+    <div class="row justify-content-between align-items-center py-5 my-2">
         <div class="col-12 col-md-5 order-2 order-md-1">
             <h4 class="mb-3 tag">{{ page.section_one.tagline }}</h4>
             <h1>{{ page.section_one.section_header }}</h1>
-            <p class="mb-3">{{ page.section_one.section_body_copy }}</p>
+            <p class="mb-4">{{ page.section_one.section_body_copy }}</p>
             <a href="{{ page.section_one.button.link_url }}" class="btn btn-lg btn-bb">{{ page.section_one.button.text }}</a>
         </div>
         <div class="col-12 col-md-6 order-1 order-md-2 pl-md-0 mb-4 mb-md-0">
@@ -67,24 +96,24 @@ layout: default
     </div>
     {% endif %}
     {% if page.section_two %}
-    <div class="row justify-content-between align-items-center py-5">
+    <div class="row justify-content-between align-items-center py-5 my-2">
         <div class="col-12 col-md-6 pl-md-0 mb-4 mb-md-0">
             <img class="w-100" src="/assets/pictures/image-555x380.png" />
         </div>
         <div class="col-12 col-md-5">
             <h4 class="mb-3 tag">{{ page.section_two.tagline }}</h4>
             <h1>{{ page.section_two.section_header }}</h1>
-            <p class="mb-3">{{ page.section_two.section_body_copy }}</p>
+            <p class="mb-4">{{ page.section_two.section_body_copy }}</p>
             <a href="{{ page.section_two.button.link_url }}" class="btn btn-lg btn-bb">{{ page.section_two.button.text }}</a>
         </div>
     </div>
     {% endif %}
     {% if page.section_three %}
-    <div class="row justify-content-between align-items-center py-5">
+    <div class="row justify-content-between align-items-center py-5 my-2">
         <div class="col-12 col-md-5 order-2 order-md-1">
             <h4 class="mb-3 tag">{{ page.section_three.tagline }}</h4>
             <h1>{{ page.section_three.section_header }}</h1>
-            <p class="mb-3">{{ page.section_three.section_body_copy }}</p>
+            <p class="mb-4">{{ page.section_three.section_body_copy }}</p>
             <a href="{{ page.section_three.button.link_url }}" class="btn btn-lg btn-bb">{{ page.section_three.button.text }}</a>
         </div>
         <div class="col-12 col-md-6 order-1 order-md-2 pl-md-0 mb-4 mb-md-0">
@@ -96,14 +125,14 @@ layout: default
 <div class="bg-gradient-lighter">
     <div class="container pt-4 text-center">
         {% if page.all_features %}
-        <h1>{{ page.all_features_headline }}</h1>
+        <h1 class="mt-5">{{ page.all_features_headline }}</h1>
         <div class="row pt-2 pb-5">
             {% for item in page.all_features %}
             <div class="col-12 col-md-4 mb-2">
                 <div class="card shadow-sm">
                     <div class="card-body">
                         <img class="mb-2" src="{{ item.icon | absolute_url }}" alt="" width="32">
-                        <h4 class="mb-1">{{ item.heading }}</h4>
+                        <h5 class="mb-1">{{ item.heading }}</h5>
                     </div>
                 </div>
             </div>

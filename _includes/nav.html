@@ -4,9 +4,9 @@ Displays the site's navigation using the jekyll-menus plugin
 
 {% assign url = page.url | remove:'index.html' %}
 
-<nav class="sticky-top navbar navbar-expand-lg justify-content-between site-header navbar-light">
+<nav class="sticky-top navbar navbar-expand-lg justify-content-between site-header navbar-dark">
     <div class="d-lg-none"><a class="navbar-toggler mr-1" href="" data-id="headers-4-sidebar-toggle"><img src="/assets/glyphs/burger.svg"></a></div>
-    <div><img src="/assets/logos/empyr-dark.svg" width="100"></div>
+    <div><img src="{{site.logo}}" width="100"></div>
     <div class="collapse navbar-collapse" id="navigations-08">
         <ul class="navbar-nav ml-auto">
             {% for link in site.menus.navigation %}
@@ -14,7 +14,7 @@ Displays the site's navigation using the jekyll-menus plugin
                 {{ link.title }}
             </a>
             {% endfor %}
-        </ul><a class="btn btn-outline-primary mt-2 mt-md-0 ml-lg-3" href="#">Sign up</a>
+        </ul><a class="btn btn-outline-primary mt-2 mt-md-0 ml-lg-3" href="#">Join</a>
     </div>
 
 </nav>

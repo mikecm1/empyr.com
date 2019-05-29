@@ -16,7 +16,7 @@ $gray-200: #c5ced2;
 $gray-300: #a0aeb5;
 $gray-400: #7b8e98;
 $gray-500: #566f7a;
-$gray-600: #4c5961;
+$gray-600: #4d4e62;
 $gray-700: #2C3E48;
 $gray-800: #203037;
 $gray-900: #11131c;
@@ -83,6 +83,7 @@ $font-size-base: 1.0625rem;
 $font-size-lg: 1.25rem;
 $font-size-sm: 0.875rem;
 $font-weight-normal: normal;
+$font-weight-medium: 500;
 $font-weight-bold: bold;
 $font-weight-base: $font-weight-normal;
 $line-height-base: 1.5;
@@ -130,7 +131,7 @@ $display3-margin-bottom: $spacer * 1.5;
 $display4-margin-bottom: $spacer * 1.5;
 
 // Buttons
-$input-btn-padding-y: 0.625rem;
+$input-btn-padding-y: .625rem;
 $input-btn-padding-x: 1.25rem;
 $input-btn-line-height: 1.5;
 $input-btn-padding-y-sm: 0.15rem;
@@ -258,7 +259,7 @@ $dropdown-item-padding-x: 1.5rem;
 $dropdown-header-color: $gray-600;
 
 // Navs
-$nav-link-padding-y: 0.5rem;
+$nav-link-padding-y: 0.3rem;
 $nav-link-padding-x: 1rem;
 $nav-link-disabled-color: $gray-600;
 $nav-tabs-border-color: #ddd;
@@ -274,7 +275,7 @@ $nav-pills-link-active-bg: $component-active-bg;
 
 // Navbar
 $navbar-transition: all 0.15s linear !default;
-$navbar-padding-y: 0.5rem !default;
+$navbar-padding-y: 0.3rem !default;
 $navbar-padding-x: 1rem !default;
 
 $navbar-nav-link-padding-x: 1rem !default;
@@ -408,9 +409,9 @@ $popover-arrow-outer-color: fade-in($popover-border-color, 0.05);
 // Badges
 $badge-color: $white;
 $badge-font-size: 75%;
-$badge-font-weight: $font-weight-bold;
-$badge-padding-y: 0.25em;
-$badge-padding-x: 0.4em;
+$badge-font-weight: $font-weight-medium;
+$badge-padding-y: .35rem;
+$badge-padding-x: .375rem;
 $badge-pill-padding-x: 0.6em;
 $badge-pill-border-radius: 10rem;
 
@@ -443,6 +444,10 @@ $alert-margin-bottom: 1rem;
 $alert-border-radius: $border-radius;
 $alert-link-font-weight: $font-weight-bold;
 $alert-border-width: $border-width;
+
+$alert-bg-level:                    -10 !default;
+$alert-border-level:                -9 !default;
+$alert-color-level:                 6 !default;
 
 // Progress bars
 $progress-height: 1rem;
@@ -533,3 +538,7 @@ $enable-transitions: true;
 $enable-hover-media-query: false;
 $enable-grid-classes: true;
 $enable-print-styles: true;
+
+
+// Carousel
+$icon-size: 30px;

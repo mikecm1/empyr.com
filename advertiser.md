@@ -16,13 +16,13 @@ partners:
 mainfeatures:
 - heading: Exclusive Publisher Network
   description: Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-  icon: "/uploads/2019/05/rectangle-6.svg"
+  icon: "/uploads/2019/05/icon-place.svg"
 - heading: Guaranteed Minimum ROAS
   description: Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-  icon: "/uploads/2019/05/rectangle-6.svg"
+  icon: "/uploads/2019/05/icon-place.svg"
 - description: Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
   heading: Full Online to Offline Attribution
-  icon: "/uploads/2019/05/rectangle-6.svg"
+  icon: "/uploads/2019/05/icon-place.svg"
 sub_heading: Empyr is the leading card-linked offer engagement platform, empowering
   retail brands with guaranteed revenue and an enhanced consumer experience– all while
   unlocking fully transparent offline sales analytics..
@@ -100,7 +100,7 @@ section_two:
     text: Learn More
     link_url: index.md
 section_three:
-  tagline: REAL-TIME ANALYTICS
+  tagline: Real-Time Analytics
   section_header: Real-time, fully transparent online to offline attribution
   section_body_copy: Watch in real-time as online offers convert to in-store sales
     and gain holistic customer insights with comprehensive online to offline analytics.
