@@ -4,7 +4,7 @@
   label: snippets
   fields:
   - type: text
-    name: description
-    label: description
+    name: data
+    label: data
   config:
     max: '300000'
