@@ -7,7 +7,6 @@ sections:
 - type: document
   path: _snippets
   label: Snippets
-  match: "**/*"
 - type: heading
   label: Site Content
 - type: jekyll-pages
