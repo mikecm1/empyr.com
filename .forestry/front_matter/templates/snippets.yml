@@ -1,0 +1,10 @@
+---
+- type: field_group_list
+  name: snippets
+  label: snippets
+  fields:
+  - type: text
+    name: description
+    label: description
+  config:
+    max: '300000'
