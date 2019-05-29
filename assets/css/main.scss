@@ -1,4 +1,5 @@
 @import "bootstrap/functions";
+
 // @import "custom/functions";
 
 @import "custom/variables";
@@ -44,17 +45,20 @@
 
 // Custom components
 
-@import 'custom';
+@import "custom";
+
 // @import "custom/reboot.scss";
 // @import "custom/global.scss";
 // @import "custom/utilities.scss";
 @import "custom/utilities/borders.scss";
+
 // @import "custom/accordion.scss";
 // @import "custom/alerts.scss";
 // @import "custom/avatars.scss";
 // @import "custom/badge.scss";
 // @import "custom/buttons.scss";
 @import "custom/card.scss";
+
 // @import "custom/carousel.scss";
 // @import "custom/close.scss";
 // @import "custom/custom-forms.scss";
@@ -69,6 +73,7 @@
 // @import "custom/nav.scss";
 @import "custom/navbar.scss";
 @import "custom/utilities/position.scss";
+
 // @import "custom/pagination.scss";
 // @import "custom/popover.scss";
 // @import "custom/progress.scss";

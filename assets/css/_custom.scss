@@ -8,23 +8,30 @@
 // .content {
 .container {
     @include media-breakpoint-up(md) {
-    padding-left: 40px;
-    padding-right: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
     }
 }
+
 // }
 
 .hero {
     // background-color: $blue-black;
     // background-image: linear-gradient(-134deg, #00AEFF 0%, #0F51FB 100%);
     background-color: $gray-900;
+    background-color: #060812;
     background-color: $white;
-    background-image: url(/assets/img/devices.png);
+    background: url(/assets/img/devices.png), linear-gradient(180deg, #FFFFFF 0%, #f7faff 100%);
+
+    // box-shadow: inset 0 -5px 23px 0 rgba(235,238,242,0.56);
+    // border-radius: 0 0 0 60px 60px 0;
+    // background-image: url(/assets/img/devices.png);
     // background-color: #0F51FB;
-    padding: 110px 0 97px;
-    background-size: 65%;
-    background-position: right;
-    background-repeat: no-repeat;
+    padding: 125px 0 100px;
+    background-size: 65%, 100%;
+    background-position: right, left;
+    background-repeat: no-repeat, repeat-y;
+
     // border-radius: 0 0 0 90px;
     // border-radius: 0 0 60px 0;
     // clip-path: polygon(0px 0px, 100% 0, 100% 100%, 28% 100%, 20% 89%, 0 89%);
@@ -42,17 +49,35 @@
     // }
     .btn {
         margin-right: 10px;
+
         &:last-of-type {
             margin-right: 0;
+            border: 1px solid rgba(21, 108, 248, 0.27);
+            box-shadow: 0 5px 6px -1px rgba(16, 38, 62, 0.07);
+            color: $primary;
         }
+
         @include media-breakpoint-up(md) {
             width: 200px;
         }
     }
+
     p {
         max-width: 730px;
     }
-    
+
+    h1, p {
+        //         color: #fff;
+        //         color: $blue-black;
+   
+    }
+}
+
+.container {
+    &.shad {
+        box-shadow: 0 1px 0 0 rgba(86, 93, 115, 0.11);
+        position: relative;
+    }
 }
 
 h1 {
@@ -62,18 +87,19 @@ h1 {
 .display-2 {
     letter-spacing: -1.4px;
 }
+
 .eq {
     display: flex;
 }
 
 .site-header {
-    background-color: $black;
-    -webkit-backdrop-filter: saturate(180%) blur(20px);
-    backdrop-filter: saturate(180%) blur(20px);
+    background-color: $white;
+    -webkit-backdrop-filter: blur(200px);
+    backdrop-filter: blur(200px);
 }
 
 .site-header a {
-    color: $gray-300;
+    // color: $gray-300;
     transition: ease-in-out color .15s;
 
     &.current {
@@ -84,6 +110,10 @@ h1 {
 .site-header a:hover {
     color: $white;
     text-decoration: none;
+}
+
+li.nav-item {
+    margin-bottom: 0 !important;
 }
 
 .product-device {
@@ -105,7 +135,7 @@ h1 {
     bottom: 10%;
     left: 10px;
     content: "";
-    background-color: rgba(255, 255, 255, .1);
+    background-color: rgba(255, 255, 255, 0.1);
     border-radius: 5px;
 }
 
@@ -121,7 +151,6 @@ footer {
     background-color: $black;
 }
 
-
 .border-top {
     border-top: 1px solid #e5e5e5;
 }
@@ -131,10 +160,10 @@ footer {
 }
 
 .box-shadow {
-    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
 }
 
-.flex-equal>* {
+.flex-equal > * {
     -ms-flex: 1;
     -webkit-box-flex: 1;
     flex: 1;
@@ -145,7 +174,7 @@ footer {
 }
 
 @media (min-width: 768px) {
-    .flex-md-equal>* {
+    .flex-md-equal > * {
         -ms-flex: 1;
         -webkit-box-flex: 1;
         flex: 1;

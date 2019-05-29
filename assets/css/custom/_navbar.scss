@@ -22,7 +22,7 @@
     align-items: center;
     justify-content: space-between; // space out brand from logo
     padding: $navbar-padding-y $navbar-padding-x;
-    box-shadow: 0 14px 20px -8px rgba(14,12,27,.05);
+    box-shadow: 0 6px 6px -4px rgba(14, 12, 27, 0.03);
     > .container,
     > .container-fluid {
       display: flex;

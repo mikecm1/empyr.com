@@ -20,18 +20,29 @@ gulp.task('scss', function () {
     var pxtoremOptions = {
         replace: false
     };
-var postcssOptions = {
-    map: true  
-};
+    var postcssOptions = {
+        map: true
+    };
+    //     return gulp.src('./assets/css/main.scss')
+    //         .pipe(sourcemaps.init({
+    //             loadMaps: true
+    //         }))
+    //         .pipe(sass())
+    //         .on("error", sass.logError)
+    //         .pipe(pxtorem(pxtoremOptions, postcssOptions))
+    //         .pipe(sourcemaps.write('.'))
+    //         // .pipe(sourcemaps.write())
+    //         .pipe(gulp.dest('css/'))
+    //         .pipe(touch());
+    // });
     return gulp.src('./assets/css/main.scss')
         .pipe(sourcemaps.init({
             loadMaps: true
         }))
         .pipe(sass())
         .on("error", sass.logError)
-        // .pipe(sourcemaps.write('.'))
-        .pipe(pxtorem(pxtoremOptions, postcssOptions))
-        .pipe(sourcemaps.write())
+        // .pipe(postcss(processors))
+        .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest('css/'))
         .pipe(touch());
 });
@@ -71,8 +82,8 @@ gulp.task('styles', function () {
         }))
         .pipe(sass())
         .on("error", sass.logError)
-        // .pipe(postcss(processors))
-        .pipe(postcss(processorsUnminify))
+        .pipe(postcss(processors))
+        // .pipe(postcss(processorsUnminify))
         .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest('css/'))
         .pipe(touch());
