@@ -16,13 +16,13 @@ mainfeatures:
   icon: "/uploads/2019/05/icon-place.svg"
 - heading: Guaranteed Minimum ROAS
   description: Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-  icon: "/uploads/2019/05/rectangle-6.svg"
+  icon: "/uploads/2019/05/icon-place.svg"
 - description: Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
   heading: Full Online to Offline Attribution
-  icon: "/uploads/2019/05/rectangle-6.svg"
+  icon: "/uploads/2019/05/icon-place.svg"
 - description: Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
   heading: In-Depth Campaign Analytics
-  icon: "/uploads/2019/05/rectangle-6.svg"
+  icon: "/uploads/2019/05/icon-place.svg"
 sub_heading: Empyr is the leading card-linked offer engagement platform, providing
   retail brands with guaranteed revenue and a better consumer experience, all while
   unlocking transparent offline sales analytics.
