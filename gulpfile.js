@@ -77,16 +77,16 @@ gulp.task('styles', function () {
         ];
 
     return gulp.src('./assets/css/main.scss')
-        .pipe(sourcemaps.init({
-            loadMaps: true
-        }))
+        // .pipe(sourcemaps.init({
+        //     loadMaps: true
+        // }))
         .pipe(sass())
         .on("error", sass.logError)
         .pipe(postcss(processors))
         // .pipe(postcss(processorsUnminify))
-        .pipe(sourcemaps.write('.'))
+        // .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest('css/'))
-        .pipe(touch());
+    // .pipe(touch());
 });
 
 // Deploy task on forestry.io
