@@ -37,7 +37,7 @@ primary_body_copy_headline: Advertise on the best websites and apps, <br> only p
 second_button:
   text: Learn More
   link: "/"
-textline: ''
+textline: Primary home page
 menu:
   navigation:
     identifier: _index
