@@ -1,100 +1,100 @@
-
-<div class="container mt-5 pt-4">
-        <div class="card-body card shadow-sm grad-blue">
-                <div class="row p-4">
-                        <div class="col-12 col-md-5 order-2 order-md-1 text-white">
-                          <h1 class="mb-2 text-white">See what Empyr can do for your business.</h1>
-                          <p class="large mb-2">Become one of the forward-thinking brands accelerating their revenue with card-linked offers.</p>
-                          <div class="row align-items-center">
-                            <div class="col-12 col-md-5 mb-2 mb-md-0"><a class="btn btn-block btn-lg btn-white text-primary" href="">Get Started</a></div>
-                          </div>
-                        </div>
-                      </div>
-            </div>
-</div>
 <footer>
         <div class="container">
+                <div class="card-body card shadow-sm grad-blue">
+                    <div class="row p-4">
+                        <div class="col-12 col-md-5 order-2 order-md-1 text-white">
+                            <h1 class="mb-2 text-white">See what Empyr can do for your business.</h1>
+                            <p class="large mb-2">Become one of the forward-thinking brands accelerating their revenue with card-linked offers.</p>
+                            <div class="row align-items-center">
+                                <div class="col-12 col-md-5 mb-2 mb-md-0"><a class="btn btn-block btn-lg btn-white text-primary" href="">Get Started</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    <div class="container">
         <div class="row">
-              <div class="col-12 col-lg-3 pr-lg-0 mb-4 mb-lg-0">
+            <div class="col-12 col-lg-3 pr-lg-0 mb-4 mb-lg-0">
                 <img src="{{site.logo}}" width="100">
                 <div class="footer-col pure-u-1 pure-u-md-1-4">
-                        <h3>Contact</h3>
-                        {% include address.html %}
+                    <h3>Contact</h3>
+                    {% include address.html %}
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-2"></div>
+            <div class="col-6 col-lg-2">
+                <div class="navbar-nav weight-500">
+                    {% for link in site.menus.navigation %}
+                    <div class="nav-item mb-1">
+                        <a class="text-white" href="{{ link.url | absolute_url }}" {% if link.target %} target="_blank" {% endif %}>
+                            {{ link.title }}
+                        </a>
                     </div>
-              </div>
-              
-              <div class="col-12 col-lg-2"></div>
-              <div class="col-6 col-lg-2">
-                <div class="navbar-nav weight-500">
-                        {% for link in site.menus.navigation %}
-                            <div class="nav-item mb-1">
-                                    <a class="text-white" href="{{ link.url | absolute_url }}"{% if link.target %} target="_blank" {% endif %}>
-                                            {{ link.title }}
-                                          </a>
-                            </div>
-                      {% endfor %}
+                    {% endfor %}
                 </div>
-              </div>
-              <div class="col-6 col-lg-2">
+            </div>
+            <div class="col-6 col-lg-2">
                 <div class="navbar-nav weight-500">
-                  <div class="nav-item mb-1"><a class="text-white" href=""><span>Fifth page</span></a>
-                  </div>
-                  <div class="nav-item mb-1"><a class="text-white" href=""><span>Sixth page</span></a>
-                  </div>
-                  <div class="nav-item mb-1"><a class="text-white" href=""><span>Eighth</span></a>
-                  </div>
+                    <div class="nav-item mb-1"><a class="text-white" href=""><span>Fifth page</span></a>
+                    </div>
+                    <div class="nav-item mb-1"><a class="text-white" href=""><span>Sixth page</span></a>
+                    </div>
+                    <div class="nav-item mb-1"><a class="text-white" href=""><span>Eighth</span></a>
+                    </div>
                 </div>
-              </div>
-              <div class="col-12 col-lg-1"></div>
-              <div class="col-12 col-lg-2 small mt-4 mt-lg-0">
+            </div>
+            <div class="col-12 col-lg-1"></div>
+            <div class="col-12 col-lg-2 small mt-4 mt-lg-0">
                 <div class="mb-1">
-                  <a class="text-white" href="">
-                    <img class="mr-1" src="/assets/glyphs/instagram.svg" width="16" /><span>Instagram</span>
-                  </a>
+                    <a class="text-white" href="">
+                        <img class="mr-1" src="/assets/glyphs/instagram.svg" width="16" /><span>Instagram</span>
+                    </a>
                 </div>
                 <div class="mb-1">
-                  <a class="text-white" href="">
-                    <img class="mr-1" src="/assets/glyphs/facebook.svg" width="16" /><span>Facebook</span>
-                  </a>
+                    <a class="text-white" href="">
+                        <img class="mr-1" src="/assets/glyphs/facebook.svg" width="16" /><span>Facebook</span>
+                    </a>
                 </div>
                 <div class="mb-0">
-                  <a class="text-white" href="">
-                    <img class="mr-1" src="/assets/glyphs/twitter.svg" width="16" /><span>Twitter</span>
-                  </a>
+                    <a class="text-white" href="">
+                        <img class="mr-1" src="/assets/glyphs/twitter.svg" width="16" /><span>Twitter</span>
+                    </a>
                 </div>
-              </div>
-                 
-                  <div class="border-top d-lg-none"></div>
-                  <div class="d-block d-lg-flex justify-content-between py-3 py-lg-2">
-              <div class="small mb-2 mb-lg-0"><span class="text-muted mr-5">&copy; 2019 Empyr. All right reserved.</span>
-              </div>
-              <div class="small"><a class="d-block d-lg-inline text-muted ml-lg-2 mb-2 mb-lg-0" href=""><span>Privacy Policy</span></a><a class="d-block d-lg-inline text-muted ml-lg-2" href=""><span>Terms of Service</span></a>
-              </div>
-                  </div>
-        </div>
-        </div>
-   </footer>
+            </div>
 
-   <script>
-        $(function() {
-          $('[data-id=headers-4-sidebar-toggle]').click(function(e) {
+            <div class="border-top d-lg-none"></div>
+            <div class="d-block d-lg-flex justify-content-between py-3 py-lg-2">
+                <div class="small mb-2 mb-lg-0"><span class="text-muted mr-5">&copy; 2019 Empyr. All right reserved.</span>
+                </div>
+                <div class="small"><a class="d-block d-lg-inline text-muted ml-lg-2 mb-2 mb-lg-0" href=""><span>Privacy Policy</span></a><a class="d-block d-lg-inline text-muted ml-lg-2" href=""><span>Terms of Service</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+    $(function () {
+        $('[data-id=headers-4-sidebar-toggle]').click(function (e) {
             e.preventDefault();
             $('#headers-4-sidebar').toggleClass('show');
-          });
-          $('[data-id=headers-4-sidebar-close]').click(function(e) {
+        });
+        $('[data-id=headers-4-sidebar-close]').click(function (e) {
             e.preventDefault();
             $('#headers-4-sidebar').removeClass('show');
-          });
         });
-    
-        var swiper = new Swiper('.swiper-container', {
-          slidesPerView: 3,
-          spaceBetween: 30,
-          pagination: {
+    });
+
+    var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        pagination: {
             el: '.swiper-pagination',
             clickable: true,
-          },
-        });
-      </script>
-      </body>
-      </html>
+        },
+    });
+</script>
+</body>
+
+</html>
