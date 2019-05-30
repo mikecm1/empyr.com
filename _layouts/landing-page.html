@@ -79,177 +79,116 @@ layout: default
                 <h1 class="headline">{{ page.primary_body_copy_headline }}</h1>
             </div>
             <div class="col-md-7">
-                <p class="large">Accelerate in-store revenue with card-linked offer campaigns on our exclusive publisher network.
-                    There’s no charge for clicks or impressions, and purchases are tracked in real-time, providing full
-                    online to offline attribution.</p>
+                <p class="large">{{ primary_body_copy_subtext }}</p>
             </div>
         </div>
-<!-- {% if page.show_mainfeatures %}  -->
-{% if page.mainfeatures %}
-<div class="row pt-2 pb-5">
-        {% for item in page.mainfeatures %}
-        <div class="eq col-12 col-md-3 mb-4 mb-md-0">
-          <div class="card rounded-lg">
-            <div class="card-body">
-              <img class="mb-1" src="{{ item.icon | absolute_url }}" alt="" width="32">
-              <h5 class="mb-1">{{ item.heading }}</h5>
-              <div class="lighten">{{ item.description }}</div>
+        <!-- {% if page.show_mainfeatures %}  -->
+        {% if page.mainfeatures %}
+        <div class="row pt-2 pb-5">
+            {% for item in page.mainfeatures %}
+            <div class="eq col-12 col-md-3 mb-4 mb-md-0">
+                <div class="card rounded-lg">
+                    <div class="card-body">
+                        <img class="mb-1" src="{{ item.icon | absolute_url }}" alt="" width="32">
+                        <h5 class="mb-1">{{ item.heading }}</h5>
+                        <div class="lighten">{{ item.description }}</div>
+                    </div>
+                </div>
             </div>
-          </div>
+            {% endfor %}
         </div>
-        {% endfor %}
-      </div>
-{% endif %}
-<!-- {% endif %} -->
+        {% endif %}
+        <!-- {% endif %} -->
     </div>
 </div>
 
 <div class="container">
 
-        <div class="row justify-content-between align-items-center py-5 my-2">
-          <div class="col-12 col-md-5 order-2 order-md-1">
+    <div class="row justify-content-between align-items-center py-5 my-2">
+        <div class="col-12 col-md-5 order-2 order-md-1">
             <span class="badge badge-primary mb-2">Publisher Network</span>
             <h1>316M+ Consumers, Unlimited Revenue</h1>
             <p class="mb-3 pb-2">Easily deploy high performance card-linked offer campaigns on some of the best sites and apps, reaching 316M+ consumers at lightning speed.</p>
             <button class="btn btn-lg btn-blue-black">Learn More</button>
-          </div>
-          <div class="col-12 col-md-6 order-1 order-md-2 pl-md-0 mb-4 mb-md-0">
-            <img class="w-100" src="/assets/pictures/image-555x380.png" />
-          </div>
         </div>
-        <div class="row justify-content-between align-items-center py-5 my-2">
-          <div class="col-12 col-md-6 pl-md-0 mb-4 mb-md-0">
+        <div class="col-12 col-md-6 order-1 order-md-2 pl-md-0 mb-4 mb-md-0">
             <img class="w-100" src="/assets/pictures/image-555x380.png" />
-          </div>
-          <div class="col-12 col-md-5">
+        </div>
+    </div>
+    <div class="row justify-content-between align-items-center py-5 my-2">
+        <div class="col-12 col-md-6 pl-md-0 mb-4 mb-md-0">
+            <img class="w-100" src="/assets/pictures/image-555x380.png" />
+        </div>
+        <div class="col-12 col-md-5">
             <span class="badge badge-primary mb-2">Pay-Per-Revenue</span>
             <h1>Minimum 10X ROAS, Guaranteed.</h1>
             <p class="mb-3 pb-2">Empyr powers CPR, a pay-per-revenue model that drives motivated customers to your stores without charging for clicks and impressions. You only pay a small fee when the sale happens.</p>
             <button class="btn btn-lg btn-blue-black">Learn More</button>
-          </div>
         </div>
-        <div class="row justify-content-between align-items-center py-5 my-2">
-          <div class="col-12 col-md-5 order-2 order-md-1">
+    </div>
+    <div class="row justify-content-between align-items-center py-5 my-2">
+        <div class="col-12 col-md-5 order-2 order-md-1">
             <span class="badge badge-primary mb-2">Real-Time Analytics</span>
             <h1>100% In-Store Revenue Attribution</h1>
             <p class="mb-3 pb-2">No more guesswork, no more wasting time with manual reporting. Track online impressions all the way through to in-store sales with personalized real-time analytics.</p>
             <button class="btn btn-lg btn-blue-black">Learn More</button>
-          </div>
-          <div class="col-12 col-md-6 order-1 order-md-2 pl-md-0 mb-4 mb-md-0">
+        </div>
+        <div class="col-12 col-md-6 order-1 order-md-2 pl-md-0 mb-4 mb-md-0">
             <img class="w-100" src="/assets/pictures/image-555x380.png" />
-          </div>
         </div>
-        <div class="swiper-container py-5" style="padding-bottom: 60px;">
-          <div class="swiper-wrapper">
+    </div>
+    <div class="swiper-container py-5" style="padding-bottom: 60px;">
+        <div class="swiper-wrapper">
+
+        {% for item in page.testimonials %}
             <div class="swiper-slide col-12 col-md-4">
-              <p class="lead mb-3">“Nulla vitae elit libero, a pharetra augue. Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit.”</p>
-              <div class="media align-items-center">
-                <div class="mr-2">
-                  <img class="rounded" src="/assets/pictures/userpic.png" width="60" height="60" />
+                <p class="lead mb-3">"{{ item.quote }}"</p>
+                <div class="media align-items-center">
+                    <div class="mr-2">
+                        <img class="rounded" src="{{ item.icon | absolute_url }}" width="60" height="60" />
+                    </div>
+                    <div class="media-body">
+                        <p class="mb-0"><span class="weight-500">{{ item.name }}</span>
+                        </p>
+                        <p class="small mb-0">{{ item.job_title }}, {{ item.company }}</p>
+                    </div>
                 </div>
-                <div class="media-body">
-                  <p class="mb-0"><span class="weight-500">Name Surname</span>
-                  </p>
-                  <p class="small mb-0">Founder, Acme Company</p>
-                </div>
-              </div>
             </div>
-            <div class="swiper-slide col-12 col-md-4">
-              <p class="lead mb-3">“Nulla vitae elit libero, a pharetra augue. Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit.”</p>
-              <div class="media align-items-center">
-                <div class="mr-2">
-                  <img class="rounded" src="/assets/pictures/userpic.png" width="60" height="60" />
-                </div>
-                <div class="media-body">
-                  <p class="mb-0"><span class="weight-500">Name Surname</span>
-                  </p>
-                  <p class="small mb-0">Founder, Acme Company</p>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide col-12 col-md-4">
-              <p class="lead mb-3">“Nulla vitae elit libero, a pharetra augue. Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit.”</p>
-              <div class="media align-items-center">
-                <div class="mr-2">
-                  <img class="rounded" src="/assets/pictures/userpic.png" width="60" height="60" />
-                </div>
-                <div class="media-body">
-                  <p class="mb-0"><span class="weight-500">Name Surname</span>
-                  </p>
-                  <p class="small mb-0">Founder, Acme Company</p>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide col-12 col-md-4">
-              <p class="lead mb-3">“Nulla vitae elit libero, a pharetra augue. Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit.”</p>
-              <div class="media align-items-center">
-                <div class="mr-2">
-                  <img class="rounded" src="/assets/pictures/userpic.png" width="60" height="60" />
-                </div>
-                <div class="media-body">
-                  <p class="mb-0"><span class="weight-500">Name Surname</span>
-                  </p>
-                  <p class="small mb-0">Founder, Acme Company</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Add Pagination -->
-          <div class="swiper-pagination"></div>
+            {% endfor %}
         </div>
-        <div class="row justify-content-center text-center pt-5">
-          <div class="col-12 col-md-8">
-            <h1>Solutions for all company types</h1>
-            <p class="large mb-2">Become one of the forward-thinking brands accelerating their revenue with card-linked offers.</p>
-          </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+    <div class="row justify-content-center text-center pt-5">
+        <div class="col-12 col-md-8">
+            <h1>{{ page.cta_footer_header.text }}</h1>
+            <p class="large mb-2">{{ page.cta_footer_subheader.text }}</p>
         </div>
-        <div class="row pt-3">
-            <!--  -->
-          <div class="col-12 col-md-4 mb-3 mb-md-0">
+    </div>
+    <div class="row pt-3">
+
+        {% for item in page.company_types %}
+        <div class="col-12 col-md-4 mb-3 mb-md-0">
             <div class="card shadow-sm">
-              <div class="card-body">
-                    <p class="text-primary small mb-0">ADVERTISERS</p>
-                <h2>National Brands</h2>
-                <p class="mb-2">Become one of the forward-thinking brands accelerating their revenue with card-linked offers.</p>
-                <a class="btn btn-lg btn-info" href="">Get Started</a>
-              </div>
+                <div class="card-body">
+                    <p class="text-primary small mb-0">{{ item.badge }}</p>
+                    <h2>{{ item.heading }}</h2>
+                    <p class="mb-2">{{ item.description }}</p>
+                    <a class="btn btn-lg btn-info" href="">Get Started</a>
+                </div>
             </div>
-          </div>
-          <!--  -->
-          <!--  -->
-          <div class="col-12 col-md-4 mb-3 mb-md-0">
-                <div class="card shadow-sm">
-                  <div class="card-body">
-                        <p class="text-primary small mb-0">PUBLISHERS</p>
-                    <h2>Websites & Apps</h2>
-                    <p class="mb-2">Become one of the forward-thinking brands accelerating their revenue with card-linked offers.</p>
-                    <a class="btn btn-lg btn-info" href="">Get Started</a>
-                  </div>
-                </div>
-              </div>
-              <!--  -->
-          <!--  -->
-          <div class="col-12 col-md-4 mb-3 mb-md-0">
-                <div class="card shadow-sm">
-                  <div class="card-body">
-                        <p class="text-primary small mb-0">RESELLERS</p>
-                    <h2>Channel Partners</h2>
-                    <p class="mb-2">Become one of the forward-thinking brands accelerating their revenue with card-linked offers.</p>
-                    <a class="btn btn-lg btn-info" href="">Get Started</a>
-                  </div>
-                </div>
-              </div>
-              <!--  -->
         </div>
-        {% if page.partners %}
-        <div class="pb-5 pt-3">
-                <div class="row justify-content-center justify-content-lg-between text-center align-items-center">
-                {% for logo in page.partners %}
-                <div class="col mt-3 mb-lg-0">
-                  <img src="{{ logo | absolute_url }}" style="width: 100px; max-width: 65%" />
-                </div>
-                {% endfor %}
+        {% endfor %}
+    </div>
+    {% if page.partners %}
+    <div class="pb-5 pt-3">
+        <div class="row justify-content-center justify-content-lg-between text-center align-items-center">
+            {% for logo in page.partners %}
+            <div class="col mt-3 mb-lg-0">
+                <img src="{{ logo | absolute_url }}" style="width: 100px; max-width: 65%" />
             </div>
-          </div>
-          {% endif %}
-      </div>
+            {% endfor %}
+        </div>
+    </div>
+    {% endif %}
+</div>

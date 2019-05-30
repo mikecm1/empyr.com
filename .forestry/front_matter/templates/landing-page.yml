@@ -103,6 +103,24 @@ fields:
     default: ''
   hidden: false
   default: ''
+- type: field_group_list
+  name: company_types
+  label: Company Types CTAs
+  fields:
+  - type: text
+    name: badge
+    label: heading
+  - type: text
+    name: heading
+    label: heading
+  - type: text
+    name: description
+    label: description
+  - type: file
+    name: icon
+    label: icon
+  config:
+    max: '3'
 - type: boolean
   name: show_news
   label: Show News?
