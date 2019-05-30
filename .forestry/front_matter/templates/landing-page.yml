@@ -62,6 +62,15 @@ fields:
     schema:
       format: markdown
   label: Primary body copy headline
+- name: primary_body_copy_subtext
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Primary body copy subtext
 - type: textarea
   name: textline
   label: Description
