@@ -72,12 +72,8 @@ company_types:
 - badge: RESELLERS
   heading: Channel Partners
   description: Become one of the forward-thinking brands accelerating their revenue with card-linked offers.
-cta_footer_header: 
-  text: Solutions for all company types
-  label: CTA Footer Header
-cta_footer_subheader: 
-  text: Become one of the forward-thinking brands accelerating their revenue with card-linked offers.
-  label: CTA Footer Sub Header
+cta_footer_header: Solutions for all company types
+cta_footer_subheader: Become one of the forward-thinking brands accelerating their revenue with card-linked offers.
 menu:
   navigation:
     identifier: _index
