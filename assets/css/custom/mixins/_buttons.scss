@@ -1,5 +1,5 @@
 @mixin button-variant($background, $border, $hover-background: darken($background, 0%), $hover-border: darken($border, 0%), $active-background: darken($background, 10%), $active-border: darken($border, 0%)) {
-    color: color-yiq($background);
+    color: $white;
     @include gradient-bg($background);
     border-color: $border;
     @include box-shadow($btn-box-shadow);
