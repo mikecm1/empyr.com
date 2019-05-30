@@ -136,7 +136,7 @@ fields:
     label: Job Title
   - type: text
     name: company
-    label: Company Name  
+    label: Company Name
   - type: file
     name: icon
     label: icon
