@@ -121,6 +121,31 @@ fields:
     label: icon
   config:
     max: '3'
+- type: field_group_list
+  name: testimonials
+  label: Testimonials
+  fields:
+  - type: text
+    name: quote
+    label: Quote
+  - type: text
+    name: name
+    label: Person Name
+  - type: text
+    name: job_title
+    label: Job Title
+  - type: text
+    name: company
+    label: Company Name  
+  - type: file
+    name: icon
+    label: icon
+- name: cta_footer_header
+  label: CTA Footer Header Text
+  type: text
+- name: cta_footer_subheader
+  label: CTA Footer Header Text
+  type: text
 - type: boolean
   name: show_news
   label: Show News?
