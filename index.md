@@ -32,12 +32,15 @@ hero_button:
 show_news: true
 show_staff: true
 show_mainfeatures: true
-primary_body_copy_headline: Advertise on the best sites & apps, <br> only pay
-  for in-store sales.
+primary_body_copy_headline: Advertise on the best sites & apps, <br> only pay for
+  in-store sales.
 second_button:
   text: Learn More
   link: "/"
 textline: Primary home page
+primary_body_copy_subtext: Accelerate in-store revenue with card-linked offer campaigns
+  on our exclusive publisher network. There’s no charge for clicks or impressions,
+  and purchases are tracked in real-time, providing full online to offline attribution.
 menu:
   navigation:
     identifier: _index
