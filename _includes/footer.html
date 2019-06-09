@@ -4,7 +4,7 @@
                     <div class="row p-4">
                         <div class="col-12 col-md-5 order-2 order-md-1 text-white">
                             <h1 class="mb-2 text-white">See what Empyr can do for your business.</h1>
-                            <p class="large mb-2">Become one of the forward-thinking brands accelerating their revenue with card-linked offers.</p>
+                            <p class="lead large mb-2">Become one of the forward-thinking brands accelerating their revenue with card-linked offers.</p>
                             <div class="row align-items-center">
                                 <div class="col-12 col-md-5 mb-2 mb-md-0"><a class="btn btn-block btn-lg btn-white text-primary" href="">Get Started</a></div>
                             </div>
@@ -14,16 +14,12 @@
             </div>
     <div class="container">
         <div class="row">
-            <div class="col-12 col-lg-3 pr-lg-0 mb-4 mb-lg-0">
+            <div class="col-12 col-lg-4 pr-lg-0 mb-4 mb-lg-0">
                 <img src="{{site.logo}}" width="100">
-                <div class="footer-col pure-u-1 pure-u-md-1-4">
-                    <h3>Contact</h3>
-                    {% include address.html %}
-                </div>
             </div>
 
             <div class="col-12 col-lg-2"></div>
-            <div class="col-6 col-lg-2">
+            <div class="col-12 col-lg-2">
                 <div class="navbar-nav weight-500">
                     {% for link in site.menus.navigation %}
                     <div class="nav-item mb-1">
@@ -34,32 +30,26 @@
                     {% endfor %}
                 </div>
             </div>
-            <div class="col-6 col-lg-2">
+            <div class="col-12 col-lg-2">
                 <div class="navbar-nav weight-500">
-                    <div class="nav-item mb-1"><a class="text-white" href=""><span>Fifth page</span></a>
+                    {% for link in site.menus.navigation %}
+                    <div class="nav-item mb-1">
+                        <a class="text-white" href="{{ link.url | absolute_url }}" {% if link.target %} target="_blank" {% endif %}>
+                            {{ link.title }}
+                        </a>
                     </div>
-                    <div class="nav-item mb-1"><a class="text-white" href=""><span>Sixth page</span></a>
-                    </div>
-                    <div class="nav-item mb-1"><a class="text-white" href=""><span>Eighth</span></a>
-                    </div>
+                    {% endfor %}
                 </div>
             </div>
-            <div class="col-12 col-lg-1"></div>
-            <div class="col-12 col-lg-2 small mt-4 mt-lg-0">
-                <div class="mb-1">
-                    <a class="text-white" href="">
-                        <img class="mr-1" src="/assets/glyphs/instagram.svg" width="16" /><span>Instagram</span>
-                    </a>
-                </div>
-                <div class="mb-1">
-                    <a class="text-white" href="">
-                        <img class="mr-1" src="/assets/glyphs/facebook.svg" width="16" /><span>Facebook</span>
-                    </a>
-                </div>
-                <div class="mb-0">
-                    <a class="text-white" href="">
-                        <img class="mr-1" src="/assets/glyphs/twitter.svg" width="16" /><span>Twitter</span>
-                    </a>
+            <div class="col-12 col-lg-2">
+                <div class="navbar-nav weight-500">
+                    {% for link in site.menus.navigation %}
+                    <div class="nav-item mb-1">
+                        <a class="text-white" href="{{ link.url | absolute_url }}" {% if link.target %} target="_blank" {% endif %}>
+                            {{ link.title }}
+                        </a>
+                    </div>
+                    {% endfor %}
                 </div>
             </div>
 

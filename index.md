@@ -12,15 +12,15 @@ partners:
 - "/uploads/2019/05/uber.svg"
 mainfeatures:
 - heading: Exclusive Publisher Network
-  description: Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+  description: Vivamus sagittis lacus vel augue laoreet rutrum faucibus.
   icon: "/uploads/2019/05/icon-place.svg"
 - heading: Guaranteed Minimum ROAS
-  description: Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+  description: Vivamus sagittis lacus vel augue laoreet rutrum faucibus.
   icon: "/uploads/2019/05/icon-place.svg"
-- description: Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+- description: Vivamus sagittis lacus vel augue laoreet rutrum faucibus.
   heading: Full Online to Offline Attribution
   icon: "/uploads/2019/05/icon-place.svg"
-- description: Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+- description: Vivamus sagittis lacus vel augue laoreet rutrum faucibus.
   heading: In-Depth Campaign Analytics
   icon: "/uploads/2019/05/icon-place.svg"
 sub_heading: Empyr is the leading card-linked offer engagement platform, providing

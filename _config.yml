@@ -35,14 +35,8 @@ plugins:
 # sass:
 #   style: compressed
 #   sass_dir: assets/css
-# compress_html:
-#   clippings: all
-#   comments: [""]
-#   endings: [html, head, body, li, dt, dd, rt, rp, optgroup, option, colgroup, caption, thead, tbody, tfoot, tr, td, th]
-#   profile: false
-#   blanklines: true
-#   ignore:
-#     envs: []
+compress_html:
+  comments: ["<!-- ", " -->"]
 
 # PREVIEW COMMAND
 # bundle exec jekyll build --drafts --unpublished --future -d _site

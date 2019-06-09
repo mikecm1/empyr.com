@@ -79,7 +79,7 @@ layout: default
                 <h1 class="headline">{{ page.primary_body_copy_headline }}</h1>
             </div>
             <div class="col-md-7">
-                <p class="large">{{ primary_body_copy_subtext }}</p>
+                <p class="large">{{ page.primary_body_copy_subtext }}</p>
             </div>
         </div>
         <!-- {% if page.show_mainfeatures %}  -->
@@ -89,7 +89,7 @@ layout: default
             <div class="eq col-12 col-md-3 mb-4 mb-md-0">
                 <div class="card rounded-lg">
                     <div class="card-body">
-                        <img class="mb-1" src="{{ item.icon | absolute_url }}" alt="" width="32">
+                        <img class="mb-1" src="{{ item.icon | absolute_url }}" alt="" width="55">
                         <h5 class="mb-1">{{ item.heading }}</h5>
                         <div class="lighten">{{ item.description }}</div>
                     </div>
@@ -107,8 +107,8 @@ layout: default
     <div class="row justify-content-between align-items-center py-5 my-2">
         <div class="col-12 col-md-5 order-2 order-md-1">
             <span class="badge badge-primary mb-2">Publisher Network</span>
-            <h1>316M+ Consumers, Unlimited Revenue</h1>
-            <p class="mb-3 pb-2">Easily deploy high performance card-linked offer campaigns on some of the best sites and apps, reaching 316M+ consumers at lightning speed.</p>
+            <h1 class="display-4">316M+ Consumers, Unlimited Revenue</h1>
+            <p class="lead large mb-3 pb-2">Easily deploy high performance card-linked offer campaigns on some of the best sites and apps, reaching 316M+ consumers at lightning speed.</p>
             <button class="btn btn-lg btn-blue-black">Learn More</button>
         </div>
         <div class="col-12 col-md-6 order-1 order-md-2 pl-md-0 mb-4 mb-md-0">
@@ -121,16 +121,16 @@ layout: default
         </div>
         <div class="col-12 col-md-5">
             <span class="badge badge-primary mb-2">Pay-Per-Revenue</span>
-            <h1>Minimum 10X ROAS, Guaranteed.</h1>
-            <p class="mb-3 pb-2">Empyr powers CPR, a pay-per-revenue model that drives motivated customers to your stores without charging for clicks and impressions. You only pay a small fee when the sale happens.</p>
+            <h1 class="display-4">Minimum 10X ROAS, Guaranteed.</h1>
+            <p class="lead large mb-3 pb-2">Empyr powers CPR, a pay-per-revenue model that drives motivated customers to your stores without charging for clicks and impressions. You only pay a small fee when the sale happens.</p>
             <button class="btn btn-lg btn-blue-black">Learn More</button>
         </div>
     </div>
     <div class="row justify-content-between align-items-center py-5 my-2">
         <div class="col-12 col-md-5 order-2 order-md-1">
             <span class="badge badge-primary mb-2">Real-Time Analytics</span>
-            <h1>100% In-Store Revenue Attribution</h1>
-            <p class="mb-3 pb-2">No more guesswork, no more wasting time with manual reporting. Track online impressions all the way through to in-store sales with personalized real-time analytics.</p>
+            <h1 class="display-4">100% In-Store Revenue Attribution</h1>
+            <p class="lead large mb-3 pb-2">No more guesswork, no more wasting time with manual reporting. Track online impressions all the way through to in-store sales with personalized real-time analytics.</p>
             <button class="btn btn-lg btn-blue-black">Learn More</button>
         </div>
         <div class="col-12 col-md-6 order-1 order-md-2 pl-md-0 mb-4 mb-md-0">
@@ -184,7 +184,7 @@ layout: default
                 {% endfor %}
             </div>
             {% if page.partners %}
-            <div class="pb-5 pt-3">
+            <div class="pb-5 pt-4 mt-1">
                 <div class="row justify-content-center justify-content-lg-between text-center align-items-center">
                     {% for logo in page.partners %}
                     <div class="col mt-3 mb-lg-0">

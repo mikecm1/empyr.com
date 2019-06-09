@@ -23,17 +23,14 @@ primary_body_copy_subheadline: Give your audience another reason to love your pr
 show_mainfeatures: true
 mainfeatures:
 - heading: Unlimited revenue potential
-  description: Every time your users earn a reward, you generate revenue. Customers
-    are happier, and so is your bottom line.
+  description: Launch an innovative new revenue stream from offline commerce with total control of the user experience.
   icon: "/uploads/2019/05/icon-place.svg"
 - description: Delight your users with 1000s of local offers out-of-the-box, with
     great brands joining all the time.
   icon: "/uploads/2019/05/icon-place.svg"
   heading: Offer content ready to go
 - heading: Complete creative control
-  description: Give your audience another reason to love your product. Empyr gives
-    leading websites & apps the power to build customized card-linked offer reward
-    programs that drive repeat interaction and helps turn users into advocates.
+  description: Every time your users earn a reward, you generate revenue. Customers are happier, and so is your bottom line.
   icon: "/uploads/2019/05/icon-place.svg"
 all_features_headline: ''
 hero_button:
@@ -44,7 +41,6 @@ second_button:
   link: "#"
 all_features: []
 show_case_studies: false
-case_studies: []
 section_one:
   tagline: USER EXPERIENCE
   section_header: |-
@@ -61,10 +57,6 @@ section_two:
     popular national brands. Choose to automatically issue rewards directly to users’
     linked  cards or use a digital currency to help gamify your product. It’s all
     up to you.
-section_three:
-  tagline: ''
-  section_header: ''
-  section_body_copy: ''
 menu:
   navigation:
     weight: 2

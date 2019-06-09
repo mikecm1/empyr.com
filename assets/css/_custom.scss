@@ -221,7 +221,7 @@ footer {
 }
 
 .bg-cover.offset {
-    padding-bottom: 90px;
+    padding-bottom: 120px;
     padding-top: 30px;
 }
 
@@ -233,4 +233,11 @@ footer {
     background: #F8FAFE;
     padding: 50px 0 160px;
     margin-top: 70px;
+}
+
+h4.tag {
+    font-size: 13.5px;
+    text-transform: uppercase;
+    letter-spacing: 3.1px;
+    opacity: 0.5;
 }
