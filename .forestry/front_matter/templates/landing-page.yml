@@ -38,6 +38,18 @@ fields:
   - type: text
     name: href
     label: Link
+  - name: testing
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: pages
+        section: jekyll-pages
+        file: 
+        path: 
+    label: testing
 - name: second_button
   type: field_group
   config: {}
