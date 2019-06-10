@@ -94,9 +94,5 @@ company_types:
 cta_footer_header: Solutions for all company types
 cta_footer_subheader: Become one of the forward-thinking brands accelerating their
   revenue with card-linked offers.
-menu:
-  navigation:
-    identifier: _index
-    weight: 1
 
 ---

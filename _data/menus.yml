@@ -6,6 +6,6 @@ header:
   weight: 1
 navigation:
 - url: "#"
-  weight: 2
+  weight: 1
   identifier: item_kCvWxtX
   title: Partners
