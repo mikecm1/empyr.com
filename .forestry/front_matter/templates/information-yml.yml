@@ -42,8 +42,8 @@ fields:
   type: text
   hidden: false
   default: ''
-- name: postal_code
-  label: Postal code
+- name: postal_codee
+  label: Postal codee
   type: text
   hidden: false
   default: ''
