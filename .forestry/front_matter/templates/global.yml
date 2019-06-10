@@ -57,4 +57,4 @@ fields:
     hidden: false
     default: ''
 pages:
-- _data/information.yml
+- _data/global.yml
