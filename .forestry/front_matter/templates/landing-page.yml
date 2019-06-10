@@ -58,7 +58,7 @@ fields:
     config:
       source:
       type: pages
-    section: jekyll-pages
+      section: jekyll-pages
 - name: second_button
   type: field_group
   config: {}
