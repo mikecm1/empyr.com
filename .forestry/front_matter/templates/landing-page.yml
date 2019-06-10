@@ -50,6 +50,15 @@ fields:
         file: 
         path: 
     label: testing
+  - type: select
+    name: related_page
+    label: Related Page
+    description: Select a related page
+    hidden: false
+    config:
+      source:
+      type: pages
+    section: jekyll-pages
 - name: second_button
   type: field_group
   config: {}
@@ -115,7 +124,6 @@ fields:
     default: ''
   hidden: false
   default: ''
-
 - name: section_one
   type: field_group
   config: {}
@@ -158,8 +166,6 @@ fields:
         path: 
     label: Button link
   label: Section One
-
-
 - type: field_group_list
   name: company_types
   label: Company Types CTAs
