@@ -1,13 +1,5 @@
 ---
-phone: "+1 555 555 5555"
 email: info@empyr.com
-address_1: 500 University Ave
-address_2: ''
-city: San Diego
-state: CA
-postal_code: "92121"
-country: US
-twitter: ''
 contact_info:
   email: support@empyr.com
   phone: "+1 555 555 5555"
@@ -18,3 +10,11 @@ contact_info:
   postal_code: "92121"
   country: US
   twitter: ''
+footer_details:
+  main_header_home: See what Empyr can do for your business.
+  main_subheader_home: Become one of the forward-thinking brands accelerating their revenue with card-linked offers.
+  cta_text: Get Started
+  cta_url: "/joinus"
+nav_details:
+  button_cta_text: Get Started
+  button_cta_url: "/"

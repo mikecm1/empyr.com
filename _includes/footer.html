@@ -1,30 +1,34 @@
 <footer>
-        
-            <div class="footer-cta grad-blue">
-           <div class="container">
-                        {% if page.partners %}
-                        <div class="pb-4 pt-1">
-                            <div class="row justify-content-center justify-content-lg-between text-center align-items-center">
-                                {% for logo in page.partners %}
-                                <div class="col mt-3 mb-lg-0">
-                                    <img src="{{ logo | absolute_url }}" style="width: 100px; max-width: 65%" />
-                                </div>
-                                {% endfor %}
-                            </div>
-                        </div>
-                        {% endif %}
-                    <div class="row p-3">
-                        <div class="col-12 col-md-5 order-2 order-md-1 text-white">
-                            <h1 class="mb-1 text-white bold">See what Empyr can do for your business.</h1>
-                            <p class="lead large mb-2">Become one of the forward-thinking brands accelerating their revenue with card-linked offers.</p>
-                            <div class="row align-items-center">
-                                <div class="col-12 col-md-5 mb-2 mb-md-0"><a class="btn btn-block btn-lg btn-white text-primary" href="">Get Started</a></div>
-                            </div>
-                        </div>
+
+    <div class="footer-cta grad-blue">
+        <div class="container">
+            {% if page.partners %}
+            <div class="pb-4 pt-1">
+                <div class="row justify-content-center justify-content-lg-between text-center align-items-center">
+                    {% for logo in page.partners %}
+                    <div class="col mt-3 mb-lg-0">
+                        <img src="{{ logo | absolute_url }}" style="width: 100px; max-width: 65%" />
                     </div>
-           </div>
+                    {% endfor %}
+                </div>
             </div>
-        
+            {% endif %}
+
+            {% if site.data.information %}
+            {% assign info = site.data.information %}
+            <div class="row p-3">
+                <div class="col-12 col-md-5 order-2 order-md-1 text-white">
+                    <h1 class="mb-1 text-white bold">{{ info.footer_details.main_header_home }}</h1>
+                    <p class="lead large mb-2">{{ info.footer_details.main_subheader_home }}</p>
+                    <div class="row align-items-center">
+                        <div class="col-12 col-md-5 mb-2 mb-md-0"><a class="btn btn-block btn-lg btn-white text-primary" href="{{ info.footer_details.cta_url }}">{{ info.footer_details.cta_text }}</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endif %}
+
     <div class="container">
         <div class="row">
             <div class="col-12 col-lg-4 pr-lg-0 mb-4 mb-lg-0">
@@ -91,8 +95,8 @@
 
     var swiper = new Swiper('.swiper-container', {
         autoplay: {
-    delay: 5000,
-  },
+            delay: 5000,
+        },
         loop: true,
         slidesPerView: 3,
         spaceBetween: 0,

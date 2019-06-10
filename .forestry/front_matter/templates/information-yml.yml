@@ -60,5 +60,45 @@ fields:
       required: false
     default: ''
   label: Contact info
+- name: footer_details
+  type: field_group
+  config: {}
+  fields:
+  - name: main_header_home
+    type: text
+    config:
+      required: false
+    label: Footer Header Homepage
+  - name: main_subheader_home
+    type: text
+    config:
+      required: false
+    label: Footer Subheader Homepage
+  - name: cta_text
+    type: text
+    config:
+      required: false
+    label: CTA Text
+  - name: button_cta_url
+    type: text
+    config:
+      required: false
+    label: Footer Header Homepage
+  label: Footer Details
+- name: nav_details
+  type: field_group
+  config: {}
+  fields:
+  - name: button_cta_text
+    type: text
+    config:
+      required: false
+    label: CTA button text
+  - name: button_cta_url
+    type: text
+    config:
+      required: false
+    label: CTA button URL
+  label: Navigation Details
 pages:
 - _data/information.yml
