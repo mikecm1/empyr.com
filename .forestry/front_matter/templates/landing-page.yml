@@ -115,7 +115,6 @@ fields:
     default: ''
   hidden: false
   default: ''
-
 - name: section_one
   type: field_group
   config: {}
@@ -158,8 +157,6 @@ fields:
         path: 
     label: Button link
   label: Section One
-
-
 - type: field_group_list
   name: company_types
   label: Company Types CTAs
