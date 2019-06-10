@@ -1,9 +1,8 @@
 ---
-email: info@empyr.com
 contact_info:
   email: support@empyr.com
-  phone: "+1 555 555 5555"
-  address_1: 500 University Ave
+  phone: "555.555.5555"
+  address_1: 500 Empyr Ave
   address_2: ''
   city: San Diego
   state: CA
@@ -22,7 +21,5 @@ footer_details:
   tos_text: Terms of Service
   tos_url: "/"
 nav_details:
-  button_cta_text: Get Started
-  button_cta_url: "/"
   cta_url: "/"
   cta_text: Get Started
