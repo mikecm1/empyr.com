@@ -114,7 +114,7 @@ fields:
   type: field_group
   config: {}
   fields:
-  - name: button_cta_text
+  - name: cta_text
     type: text
     config:
       required: false
