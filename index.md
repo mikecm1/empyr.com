@@ -106,5 +106,26 @@ section_one:
   primary_copy: ''
   button_text: ''
   button_link: ''
+  tagline: Publisher Network
+  section_header: 316M+ Consumers, Unlimited Revenue
+  section_body_copy: Easily deploy high performance card-linked offer campaigns on
+    some of the best sites and apps, reaching 316M+ consumers at lightning speed.
+  button:
+    text: Learn More
+    link_url: ''
+section_two:
+  tagline: ''
+  section_header: ''
+  section_body_copy: ''
+  button:
+    text: ''
+    link_url: ''
+section_three:
+  tagline: ''
+  section_header: ''
+  section_body_copy: ''
+  button:
+    text: ''
+    href: ''
 
 ---
