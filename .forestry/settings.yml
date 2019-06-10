@@ -36,7 +36,7 @@ sections:
   templates:
   - post
 - type: document
-  path: _data/global.yml
+  path: _data/information.yml
   label: Global settings
 upload_dir: uploads
 public_path: "/uploads"
