@@ -11,15 +11,17 @@ contact_info:
   country: US
   twitter: ''
 footer_details:
-  main_header_home: See what Empyr can do for your business.
-  main_subheader_home: Become one of the forward-thinking brands accelerating their revenue with card-linked offers.
+  main_header_home: It's time to invest in the future of digital marketing.
+  main_subheader_home: Become one of the forward-thinking brands accelerating their
+    revenue with card-linked offers.
   cta_text: Get Started
-  cta_url: /joinus
-  copyright: © 2019 Empyr. All right reserved.
+  cta_url: "/joinus"
+  copyright: "© 2019 Empyr. All right reserved."
   privacy_text: Privacy Policy
-  privacy_url: /
+  privacy_url: "/"
   tos_text: Terms of Service
-  tos_url: /
+  tos_url: "/"
 nav_details:
   button_cta_text: Get Started
-  button_cta_url: /
+  button_cta_url: "/"
+  cta_url: ''
