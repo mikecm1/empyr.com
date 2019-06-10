@@ -115,6 +115,51 @@ fields:
     default: ''
   hidden: false
   default: ''
+
+- name: section_one
+  type: field_group
+  config: {}
+  fields:
+  - name: super
+    type: text
+    config:
+      required: false
+    label: Above header tag
+  - name: heading
+    type: text
+    config:
+      required: false
+    label: Heading
+  - name: link
+    type: text
+    config:
+      required: false
+    label: Link
+  - name: primary_copy
+    type: text
+    config:
+      required: false
+    label: Primary copy
+  - name: button_text
+    type: text
+    config:
+      required: false
+    label: Button text
+  - name: button_link
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: pages
+        section: jekyll-pages
+        file: 
+        path: 
+    label: Button link
+  label: Section One
+
+
 - type: field_group_list
   name: company_types
   label: Company Types CTAs
