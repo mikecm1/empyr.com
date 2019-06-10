@@ -128,44 +128,148 @@ fields:
   type: field_group
   config: {}
   fields:
-  - name: super
+  - name: tagline
     type: text
     config:
       required: false
-    label: Above header tag
-  - name: heading
-    type: text
+    label: Tagline
+  - name: section_header
+    type: textarea
+    default: ''
     config:
       required: false
-    label: Heading
-  - name: link
-    type: text
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Section Header
+  - name: section_body_copy
+    type: textarea
+    default: ''
     config:
       required: false
-    label: Link
-  - name: primary_copy
-    type: text
-    config:
-      required: false
-    label: Primary copy
-  - name: button_text
-    type: text
-    config:
-      required: false
-    label: Button text
-  - name: button_link
-    type: select
-    default: []
-    config:
-      required: false
-      options: []
-      source:
-        type: pages
-        section: jekyll-pages
-        file: 
-        path: 
-    label: Button link
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Section body copy
+  - name: button
+    type: field_group
+    config: {}
+    fields:
+    - name: text
+      type: text
+      config:
+        required: false
+      label: Text
+      default: Learn More
+    - name: link_url
+      type: select
+      default: []
+      config:
+        required: false
+        options: []
+        source:
+          type: pages
+          section: jekyll-pages
+          file: 
+          path: 
+      label: Link URL
+    label: Button
   label: Section One
+- name: section_two
+  type: field_group
+  config: {}
+  fields:
+  - name: tagline
+    type: text
+    config:
+      required: false
+    label: Tagline
+  - name: section_header
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Section Header
+  - name: section_body_copy
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Section body copy
+  - name: button
+    type: field_group
+    config: {}
+    fields:
+    - name: text
+      type: text
+      config:
+        required: false
+      label: Text
+      default: Learn More
+    - name: link_url
+      type: select
+      default: []
+      config:
+        required: false
+        options: []
+        source:
+          type: pages
+          section: jekyll-pages
+          file: 
+          path: 
+      label: Link URL
+    label: Button
+  label: Section Two
+- name: section_three
+  type: field_group
+  config: {}
+  fields:
+  - name: tagline
+    type: text
+    config:
+      required: false
+    label: Tagline
+  - name: section_header
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Section Header
+  - name: section_body_copy
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Section body copy
+  - name: button
+    type: field_group
+    config: {}
+    fields:
+    - name: text
+      type: text
+      config:
+        required: false
+      label: Text
+      default: Learn More
+    - name: href
+      type: text
+      config:
+        required: false
+      label: Link URL
+    label: Button
+  label: Section Three
 - type: field_group_list
   name: company_types
   label: Company Types CTAs
