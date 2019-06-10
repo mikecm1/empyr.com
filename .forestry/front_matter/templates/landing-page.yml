@@ -56,7 +56,7 @@ fields:
     description: Select a related page
     hidden: false
     config:
-      source:
+      source: 
       type: pages
     section: jekyll-pages
 - name: second_button
