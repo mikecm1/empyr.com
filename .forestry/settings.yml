@@ -36,8 +36,8 @@ sections:
   templates:
   - post
 - type: document
-  path: _data/information.yml
-  label: Contact Information
+  path: _data/global.yml
+  label: Global settings
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
