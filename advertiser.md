@@ -2,6 +2,7 @@
 title: Advertisers
 banner_image: ''
 layout: sub-page
+thelink: "Welcome to {{ site.url }}"
 tagline: National Brands
 heading: |-
   Goodbye, guesswork.
