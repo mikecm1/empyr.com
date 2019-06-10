@@ -235,6 +235,16 @@ fields:
           file: 
           path: 
       label: Link URL
+    - name: what
+      type: list
+      config:
+        use_select: true
+        min: 
+        max: 
+        source:
+          type: pages
+          section: jekyll-pages
+      label: what
     label: Button
   label: Section Three
 - name: all_features_headline
