@@ -2,30 +2,37 @@
 label: Global?
 hide_body: true
 fields:
-- type: text
-  name: phone
-  label: phone
-- type: text
-  name: email
-  label: email
-- type: text
-  name: address_1
-  label: address_1
-- type: text
-  name: address_2
-  label: address_2
-- type: text
-  name: city
-  label: city
-- type: text
-  name: state
-  label: state
-- type: text
-  name: postal_code
-  label: postal_code
-- type: text
-  name: country
-  label: country
-- type: text
-  name: twitter
-  label: twitter
+- name: contact_information
+  type: field_group
+  config: {}
+  fields:
+  - type: text
+    name: phone
+    label: phone
+  - type: text
+    name: email
+    label: email
+  - type: text
+    name: address_1
+    label: address_1
+  - type: text
+    name: address_2
+    label: address_2
+  - type: text
+    name: city
+    label: city
+  - type: text
+    name: state
+    label: state
+  - type: text
+    name: postal_code
+    label: postal_code
+  - type: text
+    name: country
+    label: country
+  - type: text
+    name: twitter
+    label: twitter
+  - type: text
+    name: linkedin
+    label: linkedin
