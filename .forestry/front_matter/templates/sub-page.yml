@@ -235,18 +235,6 @@ fields:
           file: 
           path: 
       label: Link URL
-    - name: testinmggg
-      type: select
-      default: []
-      config:
-        required: false
-        options: []
-        source:
-          type: documents
-          section: jekyll-pages
-          file: 
-          path: 
-      label: Testinmggg
     label: Button
   label: Section Three
 - name: all_features_headline
