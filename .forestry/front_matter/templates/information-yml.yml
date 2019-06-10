@@ -57,3 +57,8 @@ fields:
   type: text
   hidden: false
   default: ''
+- name: linkedin
+  type: text
+  config:
+    required: false
+  label: Linkedin
