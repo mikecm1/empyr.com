@@ -161,17 +161,10 @@ fields:
         required: false
       label: Text
       default: Learn More
-    - name: link_url
-      type: select
-      default: []
+    - name: href
+      type: text
       config:
         required: false
-        options: []
-        source:
-          type: pages
-          section: jekyll-pages
-          file: 
-          path: 
       label: Link URL
     label: Button
   label: Section One
@@ -212,17 +205,10 @@ fields:
         required: false
       label: Text
       default: Learn More
-    - name: link_url
-      type: select
-      default: []
+    - name: href
+      type: text
       config:
         required: false
-        options: []
-        source:
-          type: pages
-          section: jekyll-pages
-          file: 
-          path: 
       label: Link URL
     label: Button
   label: Section Two
