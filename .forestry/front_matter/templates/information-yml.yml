@@ -1,5 +1,5 @@
 ---
-label: Contact Information
+label: Global Settings
 hide_body: true
 fields:
 - name: email
@@ -42,6 +42,16 @@ fields:
   type: text
   hidden: false
   default: ''
+- name: contact_information
+  type: field_group
+  config: {}
+  fields:
+  - name: twitter
+    type: text
+    config:
+      required: false
+    label: Twitter
+  label: Contact Information
 - name: twitter
   label: Twitter
   type: text
