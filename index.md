@@ -113,6 +113,7 @@ section_one:
   button:
     text: Learn More
     link_url: ''
+    href: "/"
 section_two:
   tagline: ''
   section_header: ''
@@ -120,6 +121,7 @@ section_two:
   button:
     text: ''
     link_url: ''
+    href: ''
 section_three:
   tagline: ''
   section_header: ''
