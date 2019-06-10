@@ -23,14 +23,16 @@ primary_body_copy_subheadline: Give your audience another reason to love your pr
 show_mainfeatures: true
 mainfeatures:
 - heading: Unlimited revenue potential
-  description: Launch an innovative new revenue stream from offline commerce with total control of the user experience.
+  description: Launch an innovative new revenue stream from offline commerce with
+    total control of the user experience.
   icon: "/uploads/2019/05/icon-place.svg"
 - description: Delight your users with 1000s of local offers out-of-the-box, with
     great brands joining all the time.
   icon: "/uploads/2019/05/icon-place.svg"
   heading: Offer content ready to go
 - heading: Complete creative control
-  description: Every time your users earn a reward, you generate revenue. Customers are happier, and so is your bottom line.
+  description: Every time your users earn a reward, you generate revenue. Customers
+    are happier, and so is your bottom line.
   icon: "/uploads/2019/05/icon-place.svg"
 all_features_headline: ''
 hero_button:
@@ -59,7 +61,7 @@ section_two:
     up to you.
 menu:
   navigation:
-    weight: 2
+    weight: 1
     parent: item_kCvWxtX
     title: Websites & Apps
     identifier: item_v4pAj3S

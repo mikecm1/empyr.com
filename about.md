@@ -16,9 +16,6 @@ hero_button:
 mainfeatures: []
 show_mainfeatures: false
 menu:
-  navigation:
-    identifier: _about
-    weight: 3
   footer:
     identifier: _about
     weight: 3
