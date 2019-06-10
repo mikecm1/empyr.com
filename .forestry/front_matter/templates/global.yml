@@ -1,60 +1,31 @@
 ---
-label: Global Settings
+label: Global?
 hide_body: true
 fields:
-- name: contact_information
-  type: field_group
-  config: {}
-  fields:
-  - name: phone
-    label: Phone
-    type: text
-    hidden: false
-    default: ''
-  - name: email
-    label: Email
-    type: text
-    hidden: false
-    default: ''
-  - name: address_1
-    label: Address 1
-    type: text
-    hidden: false
-    default: ''
-  - name: address_2
-    label: Address 2
-    type: text
-    hidden: false
-    default: ''
-  - name: city
-    label: City
-    type: text
-    hidden: false
-    default: ''
-  - name: state
-    label: State
-    type: text
-    hidden: false
-    default: ''
-  - name: postal_code
-    label: Postal code
-    type: text
-    hidden: false
-    default: ''
-  - name: country
-    label: Country
-    type: text
-    hidden: false
-    default: ''
-  - name: twitter
-    label: Twitter
-    type: text
-    hidden: false
-    default: ''
-  - name: linkedin
-    label: LinkedIn
-    type: text
-    hidden: false
-    default: ''
-pages:
-- _data/global.yml
+- type: text
+  name: phone
+  label: phone
+- type: text
+  name: email
+  label: email
+- type: text
+  name: address_1
+  label: address_1
+- type: text
+  name: address_2
+  label: address_2
+- type: text
+  name: city
+  label: city
+- type: text
+  name: state
+  label: state
+- type: text
+  name: postal_code
+  label: postal_code
+- type: text
+  name: country
+  label: country
+- type: text
+  name: twitter
+  label: twitter
