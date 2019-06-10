@@ -3,7 +3,7 @@ label: Contact Information
 hide_body: true
 fields:
 - name: email
-  label: Email
+  label: Emailee
   type: text
   hidden: false
   default: ''
