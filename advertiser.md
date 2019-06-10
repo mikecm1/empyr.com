@@ -108,6 +108,8 @@ section_three:
   button:
     text: Learn More
     link_url: publishers.md
+    what:
+    - advertiser.md
 menu:
   navigation:
     identifier: _index
