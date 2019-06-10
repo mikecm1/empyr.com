@@ -241,3 +241,89 @@ h4.tag {
     letter-spacing: 3.1px;
     opacity: 0.5;
 }
+
+// Swiper styles
+.swiper {
+    position: relative;
+  }
+  
+  .swiper-overflow {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .swiper-container {
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+    cursor: pointer;
+  }
+  
+  .swiper-overflow {
+    .swiper-container {
+      overflow: unset;
+    }
+  }
+  
+  .swiper-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    transition-property: transform;
+    box-sizing: content-box;
+  }
+  
+  .swiper-slide {
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition-property: transform;
+  }
+  
+  .swiper-pagination {
+    left: 0;
+    right: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    bottom: 20px;
+    z-index: 2;
+  
+    &.swiper-pagination-outside {
+      position: relative;
+      bottom: 0;
+      margin-top: 20px;
+    }
+  
+    .swiper-pagination-bullet {
+      position: relative;
+      flex: 0 1 auto;
+      width: $carousel-indicator-width;
+      height: $carousel-indicator-height;
+      margin-right: $carousel-indicator-spacer;
+      margin-left: $carousel-indicator-spacer;
+      text-indent: -999px;
+      background-color: rgba($carousel-indicator-active-bg, .3);
+      border-radius: 50%;
+      outline: none;
+  
+      &.swiper-pagination-bullet-active {
+        background-color: $carousel-indicator-active-bg;
+      }
+  
+      &::before {
+        content: '';
+        position: absolute;
+        top: -6px;
+        bottom: -6px;
+        left: -6px;
+        right: -6px;
+      }
+    }
+  }
+  
