@@ -29,6 +29,7 @@ sub_heading: Empyr is the leading card-linked offer engagement platform, providi
 hero_button:
   text: Get Started
   href: "/about"
+  testing: publishers.md
 show_news: true
 show_staff: true
 show_mainfeatures: true
@@ -83,14 +84,17 @@ company_types:
   heading: National Brands
   description: Become one of the forward-thinking brands accelerating their revenue
     with card-linked offers.
+  icon: ''
 - badge: PUBLISHERS
   heading: Websites & Apps
   description: Become one of the forward-thinking brands accelerating their revenue
     with card-linked offers.
+  icon: ''
 - badge: RESELLERS
   heading: Channel Partners
   description: Become one of the forward-thinking brands accelerating their revenue
     with card-linked offers.
+  icon: ''
 cta_footer_header: Solutions for all company types
 cta_footer_subheader: Become one of the forward-thinking brands accelerating their
   revenue with card-linked offers.
