@@ -17,6 +17,57 @@ gulp.task('generate', shell.task('bundle exec jekyll serve --watch --livereload'
 gulp.task('buildit', shell.task('bundle exec jekyll build -d _site'));
 
 gulp.task('scss-local', function () {
+    var postcssOptions = {
+        map: true,
+        "map.inline": false
+    };
+    var processors = [
+        utilities(),
+        autoprefixer({
+            "browsers": ["> 1%","last 2 versions","IE 9"]
+        }),
+        csso({
+            comments: false
+        })
+    ];
+    return gulp.src('./assets/css/main.scss')
+        .pipe(sourcemaps.init({
+            loadMaps: true
+        }))
+        .pipe(sass())
+        .on("error", sass.logError)
+        .pipe(postcss(processors))
+        .pipe(sourcemaps.write('.'))
+        .pipe(gulp.dest('css/'))
+        .pipe(touch());
+});
+
+// Deploy on forestry.io
+gulp.task('deploy', gulp.series(
+    'buildit'
+));
+
+// Watch scss changes
+gulp.task('watch', function () {
+    gulp.watch('assets/**/*.scss', gulp.series('scss-local'));
+});
+
+// Default: watch and build local
+gulp.task('default', gulp.parallel(
+    'watch',
+    'generate'
+));
+
+/////////////////////// 
+
+/////////////////////// 
+/////////////////////// 
+// For final compile and watch, run 'gulp compile'
+// CSS compile speeds are slower due to uncss
+/////////////////////// 
+/////////////////////// 
+
+gulp.task('scss-full', function () {
     var pxtoremOptions = {
         replace: false
     };
@@ -25,10 +76,10 @@ gulp.task('scss-local', function () {
         "map.inline": false
     };
     var processors = [
-        // uncss({
-        //     html: ['./_site/**/*.html'],
-        //     ignore: ['.fade']
-        // }),
+        uncss({
+            html: ['./_site/**/*.html'],
+            ignore: ['.fade']
+        }),
         utilities(),
         autoprefixer({
             "browsers": ["> 1%","last 2 versions","IE 9"]
@@ -50,19 +101,14 @@ gulp.task('scss-local', function () {
         .pipe(touch());
 });
 
-// Deploy task on forestry.io
-gulp.task('deploy', gulp.series(
-    // 'styles-remote',
-    'buildit'
-));
-
 // Watch scss changes
-gulp.task('watch', function () {
-    gulp.watch('assets/**/*.scss', gulp.series('scss-local'));
+gulp.task('watch-full', function () {
+    gulp.watch('assets/**/*.scss', gulp.series('scss-full'));
 });
 
-// Default: watch and build local
-gulp.task('default', gulp.parallel(
-    'watch',
+// Default: watch and compile full local with uncss
+gulp.task('compile', gulp.parallel(
+    'watch-full',
     'generate'
 ));
+

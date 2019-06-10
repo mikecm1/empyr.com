@@ -73,7 +73,6 @@
     h1, p {
         //         color: #fff;
         //         color: $blue-black;
-   
     }
 }
 
@@ -227,12 +226,28 @@ footer {
 
 .grad-blue {
     border: none !important;
-    background-image: linear-gradient(-134deg, #00AEFF 0%, #0F51FB 100%)
+    background-image: linear-gradient(-134deg, #00AEFF 0%, #0F51FB 100%);
+    background: $blue !important;
 }
 .solutions {
-    background: #F8FAFE;
-    padding: 50px 0 160px;
+    background: #141B39;
+    padding: 40px 0 0;
     margin-top: 70px;
+    .container {
+        position: relative;
+        z-index: 1;
+    }
+    h1 {
+        color: $white;
+        font-size: 48px;
+    }
+    .sub-text {
+        color: #b8b9c6;
+        font-size: 22px;
+    }
+    .card-body {
+        padding: 2.6rem
+    }
 }
 
 h4.tag {
@@ -326,4 +341,17 @@ h4.tag {
       }
     }
   }
+  .bold {
+      font-weight: 700;
+  }
+  .round-section {
+      background: $white;
+      border-radius: 10px;
+      box-shadow: $box-shadow-sm !important;
+  }
   
+  .footer-cta {
+    top: -80px;
+    position: relative;
+    padding: 120px 0 80px;
+}
