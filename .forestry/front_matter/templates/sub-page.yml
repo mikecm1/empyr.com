@@ -223,28 +223,11 @@ fields:
         required: false
       label: Text
       default: Learn More
-    - name: link_url
-      type: select
-      default: []
+    - name: href
+      type: text
       config:
         required: false
-        options: []
-        source:
-          type: pages
-          section: jekyll-pages
-          file: 
-          path: 
       label: Link URL
-    - name: what
-      type: list
-      config:
-        use_select: true
-        min: 
-        max: 
-        source:
-          type: pages
-          section: jekyll-pages
-      label: what
     label: Button
   label: Section Three
 - name: all_features_headline
