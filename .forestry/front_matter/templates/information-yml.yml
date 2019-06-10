@@ -79,11 +79,36 @@ fields:
     config:
       required: false
     label: CTA Text
-  - name: button_cta_url
+  - name: cta_url
     type: text
     config:
       required: false
-    label: Footer Header Homepage
+    label: CTA URL
+  - name: copyright
+    type: text
+    config:
+      required: false
+    label: Copyright
+  - name: privacy_text
+    type: text
+    config:
+      required: false
+    label: Privacy Policy
+  - name: privacy_url
+    type: text
+    config:
+      required: false
+    label: Privacy Policy URL
+  - name: tos_text
+    type: text
+    config:
+      required: false
+    label: TOS
+  - name: tos_url
+    type: text
+    config:
+      required: false
+    label: TOS URL
   label: Footer Details
 - name: nav_details
   type: field_group
@@ -94,7 +119,7 @@ fields:
     config:
       required: false
     label: CTA button text
-  - name: button_cta_url
+  - name: cta_url
     type: text
     config:
       required: false
