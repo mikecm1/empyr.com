@@ -10,3 +10,11 @@ country: US
 twitter: ''
 contact_info:
   email: support@empyr.com
+  phone: "+1 555 555 5555"
+  address_1: 500 University Ave
+  address_2: ''
+  city: San Diego
+  state: CA
+  postal_code: "92121"
+  country: US
+  twitter: ''
