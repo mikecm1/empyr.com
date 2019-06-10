@@ -2,6 +2,16 @@
 label: Contact Information
 hide_body: true
 fields:
+- name: contact_info
+  type: field_group
+  config: {}
+  fields:
+  - name: email_address
+    type: text
+    config:
+      required: false
+    label: Email Address
+  label: Contact Info
 - name: email
   label: Email
   type: text
