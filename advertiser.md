@@ -2,7 +2,7 @@
 title: Advertisers
 banner_image: ''
 layout: sub-page
-thelink: "Welcome to {{ site.url }}"
+thelink: Welcome to {{ site.url }}
 tagline: National Brands
 heading: |-
   Goodbye, guesswork.
@@ -108,8 +108,9 @@ section_three:
     Impressions and clicks don’t always equal cash in the bank, so eliminate the guesswork.
   button:
     text: Learn More
-    link_url: publishers.md
+    link_url: advertiser.md
     what:
+    - publishers.md
     - advertiser.md
 menu:
   navigation:
