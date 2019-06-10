@@ -60,7 +60,5 @@ fields:
       required: false
     default: ''
   label: Contact info
-
-
 pages:
 - _data/information.yml
