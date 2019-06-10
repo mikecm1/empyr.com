@@ -30,6 +30,7 @@ hero_button:
   text: Get Started
   href: "/about"
   testing: publishers.md
+  related_page: advertiser.md
 show_news: true
 show_staff: true
 show_mainfeatures: true
@@ -98,5 +99,12 @@ company_types:
 cta_footer_header: Solutions for all company types
 cta_footer_subheader: Become one of the forward-thinking brands accelerating their
   revenue with card-linked offers.
+section_one:
+  super: ''
+  heading: ''
+  link: ''
+  primary_copy: ''
+  button_text: ''
+  button_link: ''
 
 ---
