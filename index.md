@@ -125,11 +125,13 @@ section_two:
     link_url: ''
     href: "/"
 section_three:
-  tagline: ''
-  section_header: ''
-  section_body_copy: ''
+  tagline: Real-Time Analytics
+  section_header: 100% In-Store Revenue Attribution
+  section_body_copy: No more guesswork, no more wasting time with manual reporting.
+    Track online impressions all the way through to in-store sales with personalized
+    real-time analytics.
   button:
-    text: ''
-    href: ''
+    text: Learn More
+    href: "/"
 
 ---
