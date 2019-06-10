@@ -24,4 +24,5 @@ footer_details:
 nav_details:
   button_cta_text: Get Started
   button_cta_url: "/"
-  cta_url: ''
+  cta_url: "/"
+  cta_text: Get Started
