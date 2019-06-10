@@ -2,16 +2,6 @@
 label: Contact Information
 hide_body: true
 fields:
-- name: contact_info
-  type: field_group
-  config: {}
-  fields:
-  - name: email_address
-    type: text
-    config:
-      required: false
-    label: Email Address
-  label: Contact Info
 - name: email
   label: Email
   type: text
@@ -42,8 +32,8 @@ fields:
   type: text
   hidden: false
   default: ''
-- name: postal_codee
-  label: Postal codee
+- name: postal_code
+  label: Postal code
   type: text
   hidden: false
   default: ''
@@ -57,8 +47,5 @@ fields:
   type: text
   hidden: false
   default: ''
-- name: linkedin
-  type: text
-  config:
-    required: false
-  label: Linkedin
+pages:
+- _data/information.yml
