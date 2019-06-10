@@ -31,11 +31,7 @@ gulp.task('scss-local', function () {
         // }),
         utilities(),
         autoprefixer({
-            "browsers": [
-                "> 1%",
-                "last 2 versions",
-                "IE 9"
-            ]
+            "browsers": ["> 1%","last 2 versions","IE 9"]
         }),
         csso({
             comments: false
@@ -50,56 +46,6 @@ gulp.task('scss-local', function () {
         .pipe(postcss(processors))
         .pipe(pxtorem(pxtoremOptions))
         .pipe(sourcemaps.write('.'))
-        .pipe(gulp.dest('css/'))
-        .pipe(touch());
-});
-
-
-
-gulp.task('styles-remote', function () {
-    var pxtoremOptions = {
-        replace: false
-    };
-    var postcssOptions = {
-        map: false
-    };
-    var processors = [
-            // uncss({
-            //     html: ['./_site/**/*.html'],
-            //     ignore: ['.fade']
-            // }),
-            utilities(),
-            autoprefixer({
-                "browsers": [
-                    "> 1%",
-                    "last 2 versions",
-                    "IE 9"
-                ]
-            }),
-            csso({
-                comments: false
-            })
-        ],
-        processorsUnminify = [
-            utilities(),
-            autoprefixer({
-                "browsers": [
-                    "> 1%",
-                    "last 2 versions",
-                    "IE 9"
-                ]
-            })
-        ];
-
-    return gulp.src('./assets/css/main.scss')
-        // .pipe(sourcemaps.init({
-        //     loadMaps: true
-        // }))
-        .pipe(sass())
-        .on("error", sass.logError)
-        .pipe(postcss(processors))
-        // .pipe(postcss(processorsUnminify))
-        // .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest('css/'))
         .pipe(touch());
 });

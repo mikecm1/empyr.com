@@ -43,22 +43,32 @@ primary_body_copy_subtext: Accelerate in-store revenue with card-linked offer ca
   and purchases are tracked in real-time, providing full online to offline attribution.
 testimonials:
 - quote: Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-  name: Tony Smith
+  name: Tony Smith 1
   job_title: CEO
   company: Company
   icon: "/uploads/2019/05/icon-place.svg"
 - quote: Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-  name: Tony Smith
+  name: Tony Smith 2
   job_title: CEO
   company: Company
   icon: "/uploads/2019/05/icon-place.svg"
 - quote: Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-  name: Tony Smith
+  name: Tony Smith 3
   job_title: CEO
   company: Company
   icon: "/uploads/2019/05/icon-place.svg"
 - quote: Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-  name: Tony Smith
+  name: Tony Smith 4
+  job_title: CEO
+  company: Company
+  icon: "/uploads/2019/05/icon-place.svg"
+- quote: Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+  name: Tony Smith 5
+  job_title: CEO
+  company: Company
+  icon: "/uploads/2019/05/icon-place.svg"
+- quote: Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+  name: Tony Smith 6
   job_title: CEO
   company: Company
   icon: "/uploads/2019/05/icon-place.svg"

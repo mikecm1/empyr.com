@@ -6,7 +6,7 @@ layout: default
 <!-- Hero -->
 <div class="hero">
     <div class="container">
-        <div class="row justify-content-between align-items-center pb-5">
+        <div class="row justify-content-between align-items-center">
             <div class="col-12 col-md-12 order-1 order-md-1">
                 <h1 class="display-2">{{ page.heading | default: page.title }}</h1>
                 {% if page.sub_heading and page.sub_heading != "" %}
@@ -109,7 +109,7 @@ layout: default
             <span class="badge badge-primary mb-2">Publisher Network</span>
             <h1 class="display-4">316M+ Consumers, Unlimited Revenue</h1>
             <p class="lead large mb-3 pb-2">Easily deploy high performance card-linked offer campaigns on some of the best sites and apps, reaching 316M+ consumers at lightning speed.</p>
-            <button class="btn btn-lg btn-blue-black">Learn More</button>
+            <button class="btn btn-lg btn-secondary">Learn More</button>
         </div>
         <div class="col-12 col-md-6 order-1 order-md-2 pl-md-0 mb-4 mb-md-0">
             <img class="w-100" src="/assets/pictures/image-555x380.png" />
@@ -120,7 +120,7 @@ layout: default
             <img class="w-100" src="/assets/pictures/image-555x380.png" />
         </div>
         <div class="col-12 col-md-5">
-            <span class="badge badge-primary mb-2">Pay-Per-Revenue</span>
+            <span class="badge badge-primary mb-2">Smarter Revenue</span>
             <h1 class="display-4">Minimum 10X ROAS, Guaranteed.</h1>
             <p class="lead large mb-3 pb-2">Empyr powers CPR, a pay-per-revenue model that drives motivated customers to your stores without charging for clicks and impressions. You only pay a small fee when the sale happens.</p>
             <button class="btn btn-lg btn-blue-black">Learn More</button>
@@ -142,6 +142,8 @@ layout: default
 
         {% for item in page.testimonials %}
             <div class="swiper-slide col-12 col-md-4">
+                    <div class="card shadow-sm">
+                            <div class="card-body">
                 <p class="lead mb-3">"{{ item.quote }}"</p>
                 <div class="media align-items-center">
                     <div class="mr-2">
@@ -152,6 +154,8 @@ layout: default
                         </p>
                         <p class="small mb-0">{{ item.job_title }}, {{ item.company }}</p>
                     </div>
+                </div>
+                </div>
                 </div>
             </div>
             {% endfor %}
