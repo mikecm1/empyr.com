@@ -7,7 +7,17 @@
         ".forestry",
         "assets/css/main.scss",
         "_layouts",
-        "_includes"
+        "_includes",
+        "_data",
+        "assets",
+        "js",
+        "about.md",
+        "advertiser.md",
+        "contact.md",
+        "index.md",
+        "projects.md",
+        "publishers.md",
+        "package.json"
     ],
     "favorites.sortOrder": "ASC"
 }

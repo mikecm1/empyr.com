@@ -1,6 +1,7 @@
 <footer>
 
     <div class="footer-cta grad-blue">
+        <!-- <div class="footer-cta"> -->
         <div class="container">
             {% if page.partners %}
             <div class="pb-4 pt-1">
@@ -16,14 +17,36 @@
 
             {% if site.data.information %}
             {% assign info = site.data.information %}
-            <div class="row p-3">
-                <div class="col-12 col-md-5 order-2 order-md-1 text-white">
-                    <h1 class="mb-1 text-white bold">{{ info.footer_details.main_header_home }}</h1>
-                    <p class="lead large mb-2">{{ info.footer_details.main_subheader_home }}</p>
+            <div class="row p-3 xpad">
+                <div class="col-12 col-md-7 text-white">
+                    <h1 class="display-4 mb-2 text-white bold">{{ info.footer_details.main_header_home }}</h1>
+                    <p class="lead large mb-4">{{ info.footer_details.main_subheader_home }}</p>
                     <div class="row align-items-center">
                         <div class="col-12 col-md-5 mb-2 mb-md-0"><a class="btn btn-block btn-lg btn-white text-primary" href="{{ info.footer_details.cta_url }}">{{ info.footer_details.cta_text }}</a></div>
+                        <div class="col-12 col-md-5 mb-2 mb-md-0">
+                                <div>
+                                        <a href="#" class="text-white">
+                                            <h3 class="text-white font-weight-bold"><i class="fa fa-arrow-circle-right"></i>{{ info.footer_details.cta_text }}</h3>
+                                        </a>
+                                      </div>
+                                    </div>
                     </div>
                 </div>
+                <!-- <div class="card-body card shadow-sm grad-blue">
+                    <div class="row p-4">
+                            <div class="col-12 col-md-7 text-white">
+                                    <h1 class="display-4 mb-2 text-white bold">{{ info.footer_details.main_header_home }}</h1>
+                                    <p class="lead large mb-4">{{ info.footer_details.main_subheader_home }}</p>
+                              <div class="row align-items-center">
+                                <div class="col-12 col-md-5 mb-2 mb-md-0"><a class="btn btn-block btn-lg btn-white text-primary" href="">Get Started</a>
+                                    <a href="#" class="text-white">
+                                            <h3 class="text-white font-weight-bold"><i class="fa fa-arrow-circle-right"></i>{{ info.footer_details.cta_text }}</h3>
+                                        </a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                </div> -->
             </div>
         </div>
     </div>

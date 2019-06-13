@@ -34,14 +34,26 @@ mainfeatures:
   description: Every time your users earn a reward, you generate revenue. Customers
     are happier, and so is your bottom line.
   icon: "/uploads/2019/05/icon-place.svg"
-all_features_headline: ''
+all_features_headline: 93% of purchases are made offline. Get a piece of the pie.
 hero_button:
   text: Request a Demo
   href: "#"
 second_button:
   text: How it Works
   link: "#"
-all_features: []
+all_features:
+- heading: 100% Attribution to In-Store Revenue
+  icon: "/uploads/2019/05/icon-place.svg"
+- heading: 100% Attribution to In-Store Revenue
+  icon: "/uploads/2019/05/icon-place.svg"
+- heading: 100% Attribution to In-Store Revenue
+  icon: "/uploads/2019/05/icon-place.svg"
+- heading: 100% Attribution to In-Store Revenue
+  icon: "/uploads/2019/05/icon-place.svg"
+- heading: 100% Attribution to In-Store Revenue
+  icon: "/uploads/2019/05/icon-place.svg"
+- heading: 100% Attribution to In-Store Revenue
+  icon: "/uploads/2019/05/icon-place.svg"
 show_case_studies: false
 section_one:
   tagline: USER EXPERIENCE
@@ -52,6 +64,9 @@ section_one:
     them from everyday offline purchases and generating revenue with each transaction.
     Build and deploy a customized card-linked offer program with complete strategic
     control of the UX, making your audience happy and increasing your bottom line.
+  button:
+    text: Learn More
+    link_url: index.md
 section_two:
   tagline: Content
   section_header: Thousands of offline offers ready to go
@@ -59,6 +74,9 @@ section_two:
     popular national brands. Choose to automatically issue rewards directly to users’
     linked  cards or use a digital currency to help gamify your product. It’s all
     up to you.
+  button:
+    text: Learn More
+    link_url: index.md
 menu:
   navigation:
     weight: 1

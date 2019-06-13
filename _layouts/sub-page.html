@@ -1,8 +1,9 @@
 ---
 layout: default
 ---
-<div class="hero sub">
-    <div class="bg-cover offset">
+<div class="sub">
+    <div class="hero sub">
+        <div class="bg-cover">
             <div class="container">
                 <div class="row justify-content-between align-items-center py-5">
                     <div class="col-12 col-md-7 order-1 order-md-1 text-">
@@ -13,169 +14,172 @@ layout: default
                         {% if page.sub_heading and page.sub_heading != "" %}
                         <p class="large mb-4">{{ page.sub_heading }}</p>
                         {% endif %}
-                        <div class="row align-items-center">
-                            <div class="col-12 col-md-12 order-1 order-md-1">
-                                    {% if page.hero_button %}
-                                    <a href="{{ page.hero_button.href | absolute_url }}" class="btn btn-lg btn-primary">{{ page.hero_button.text }}</a>
-                                    {% endif %}
-                                    {% if page.second_button %}
-                                    <a href="{{ page.second_button.href | absolute_url }}" class="btn btn-lg btn-white">{{ page.second_button.text }}</a>
-                                    {% endif %}
-                                </div>
+                        <div class="d-flex">
+                            {% if page.hero_button %}
+                            <a href="{{ page.hero_button.href | absolute_url }}" class="btn btn-lg btn-white">{{ page.hero_button.text }}</a>
+                            {% endif %}
+                            {% if page.second_button %}
+                            <a href="{{ page.second_button.href | absolute_url }}" class="btn btn-lg btn-secondary">{{ page.second_button.text }}</a>
+                            {% endif %}
                         </div>
                     </div>
-                    <div class="col-12 col-md-4 order-2 order-md-2 pl-md-0 mb-4 mb-md-0">
-                        <img class="w-100" src="/assets/pictures/cover-1.png" />
-                    </div>
                 </div>
             </div>
-        </div>
-</div>
-{% assign stripped_content = content | strip_newlines %}
-{% if content and stripped_content != "" %}
-<section class="about">
-    <div class="container pure-g">
-        <div class="pure-u-1">
-            <div class="content content-narrow">
-                {{ content }}
-            </div>
+            <img src="/img/sub-holder.svg" />
         </div>
     </div>
-</section>
-{% endif %}
-<!-- <div class="bg-gradient-lighter"> -->
-    <div>
-    <div class="container pt-4">
-        {% if page.mainfeatures %}
-        <div class="card-body card shadow-sm offset">
-            <div class="row py-2 px-2">
-                {% for item in page.mainfeatures %}
-                <div class="col-12 col-md-4 mb-4 mb-md-0">
-                    <img class="mb-2" src="{{ item.icon | absolute_url }}" alt="" width="55">
-                    <h5 class="mb-1">{{ item.heading }}</h5>
-                    <div class="lighten">{{ item.description }}</div>
+    {% assign stripped_content = content | strip_newlines %}
+    {% if content and stripped_content != "" %}
+    <section class="about">
+        <div class="container pure-g">
+            <div class="pure-u-1">
+                <div class="content content-narrow">
+                    {{ content }}
                 </div>
-                {% endfor %}
             </div>
         </div>
-        {% endif %}
-        {% if page.partners %}
-        <div class="container">
-            <div class="py-4">
-                <div class="row justify-content-center justify-content-lg-between text-center align-items-center">
-                    {% for logo in page.partners %}
-                    <div class="col mt-3 mb-lg-0">
-                        <img src="{{ logo | absolute_url }}" style="width: 100px; max-width: 70%" />
+    </section>
+    {% endif %}
+    <!-- <div class="bg-gradient-lighter"> -->
+    <div class="container full pt-4">
+        <section class="s-m">
+            {% if page.mainfeatures %}
+            <div class="benefits card-body card shadow-sm offset">
+                <div class="row py-2 px-2">
+                    {% for item in page.mainfeatures %}
+                    <div class="col-12 col-md-4 mb-4 mb-md-0">
+                        <img class="mb-2" src="{{ item.icon | absolute_url }}" alt="" width="55">
+                        <h5 class="mb-1 xl">{{ item.heading }}</h5>
+                        <div class="lighten">{{ item.description }}</div>
                     </div>
                     {% endfor %}
                 </div>
             </div>
-        </div>
-        {% endif %}
-        <div class="row pt-12 pt-5">
-            <div class="col-12">
-                <h1 class="headline">{{ page.primary_body_copy_headline }}</h1>
-            </div>
-            <div class="col-md-6">
-                <p class="large">{{ page.primary_body_copy_subheadline }}</p>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="container">
-    {% if page.section_one %}
-    <div class="row justify-content-between align-items-center py-5 my-2">
-        <div class="col-12 col-md-5 order-2 order-md-1">
-            <h4 class="mb-3 tag">{{ page.section_one.tagline }}</h4>
-            <h1>{{ page.section_one.section_header }}</h1>
-            <p class="mb-4">{{ page.section_one.section_body_copy }}</p>
-            <a href="{{ page.section_one.button.link_url }}" class="btn btn-lg btn-bb">{{ page.section_one.button.text }}</a>
-        </div>
-        <div class="col-12 col-md-6 order-1 order-md-2 pl-md-0 mb-4 mb-md-0">
-            <img class="w-100" src="/assets/pictures/image-555x380.png" />
-        </div>
-    </div>
-    {% endif %}
-    {% if page.section_two %}
-    <div class="row justify-content-between align-items-center py-5 my-2">
-        <div class="col-12 col-md-6 pl-md-0 mb-4 mb-md-0">
-            <img class="w-100" src="/assets/pictures/image-555x380.png" />
-        </div>
-        <div class="col-12 col-md-5">
-            <h4 class="mb-3 tag">{{ page.section_two.tagline }}</h4>
-            <h1>{{ page.section_two.section_header }}</h1>
-            <p class="mb-4">{{ page.section_two.section_body_copy }}</p>
-            <a href="{{ page.section_two.button.link_url }}" class="btn btn-lg btn-bb">{{ page.section_two.button.text }}</a>
-        </div>
-    </div>
-    {% endif %}
-    {% if page.section_three %}
-    <div class="row justify-content-between align-items-center py-5 my-2">
-        <div class="col-12 col-md-5 order-2 order-md-1">
-            <h4 class="mb-3 tag">{{ page.section_three.tagline }}</h4>
-            <h1>{{ page.section_three.section_header }}</h1>
-            <p class="mb-4">{{ page.section_three.section_body_copy }}</p>
-            <a href="{{ page.section_three.button.link_url }}" class="btn btn-lg btn-bb">{{ page.section_three.button.text }}</a>
-        </div>
-        <div class="col-12 col-md-6 order-1 order-md-2 pl-md-0 mb-4 mb-md-0">
-            <img class="w-100" src="/assets/pictures/image-555x380.png" />
-        </div>
-    </div>
-    {% endif %}
-</div>
-<div class="solutions">
-    <div class="container pt-4 text-center">
-        {% if page.all_features %}
-        <h1 class="mt-5">{{ page.all_features_headline }}</h1>
-        <div class="row pt-2 pb-5">
-            {% for item in page.all_features %}
-            <div class="col-12 col-md-4 mb-2">
-                <div class="card shadow-sm">
-                    <div class="card-body">
-                        <img class="mb-2" src="{{ item.icon | absolute_url }}" alt="" width="32">
-                        <h5 class="mb-1">{{ item.heading }}</h5>
+            {% endif %}
+            {% if page.partners %}
+            <div class="container">
+                <div class="py-4">
+                    <div class="row justify-content-center justify-content-lg-between text-center align-items-center">
+                        {% for logo in page.partners %}
+                        <div class="col mt-3 mb-lg-0">
+                            <img src="{{ logo | absolute_url }}" style="width: 100px; max-width: 70%" />
+                        </div>
+                        {% endfor %}
                     </div>
                 </div>
             </div>
-            {% endfor %}
-        </div>
-        {% endif %}
-        {% if page.case_studies %}
-        <div class="text-left">
+            {% endif %}
             <div class="row pt-12 pt-5">
-                <div class="col-12 col-md-6">
-                    <h1>Case Studies Title</h1>
-                    <p>Case Studies Sub-text</p>
+                <div class="col-12">
+                    <h1 class="headline mt-2">{{ page.primary_body_copy_headline }}</h1>
+                </div>
+                <div class="col-md-6">
+                    <p class="large">{{ page.primary_body_copy_subheadline }}</p>
                 </div>
             </div>
-            <div class="row pt-3 pb-5">
-                {% for item in page.case_studies %}
-                <div class="col-12 col-md-4 mb-3 mb-md-0">
-                    <div class="card shadow-sm">
+    </div>
+    </section>
+    <div class="container full features">
+        {% if page.section_one %}
+        <section>
+            <div class="row justify-content-between align-items-center">
+                <div class="col-12 col-md-5 order-2 order-md-1">
+                    <h4 class="mb-3 tag">{{ page.section_one.tagline }}</h4>
+                    <h1>{{ page.section_one.section_header }}</h1>
+                    <p class="mb-4">{{ page.section_one.section_body_copy }}</p>
+                    <a href="{{ page.section_one.button.link_url }}" class="btn btn-lg btn-secondary">{{ page.section_one.button.text }}</a>
+                </div>
+                <div class="col-12 col-md-6 order-1 order-md-2 pl-md-0 mb-4 mb-md-0">
+                    <img class="w-100" src="/assets/pictures/image-555x380.png" />
+                </div>
+            </div>
+        </section>
+        {% endif %}
+        {% if page.section_two %}
+        <section>
+            <div class="row justify-content-between align-items-center">
+                <div class="col-12 col-md-6 pl-md-0 mb-4 mb-md-0">
+                    <img class="w-100" src="/assets/pictures/image-555x380.png" />
+                </div>
+                <div class="col-12 col-md-5">
+                    <h4 class="mb-3 tag">{{ page.section_two.tagline }}</h4>
+                    <h1>{{ page.section_two.section_header }}</h1>
+                    <p class="mb-4">{{ page.section_two.section_body_copy }}</p>
+                    <a href="{{ page.section_two.button.link_url }}" class="btn btn-lg btn-secondary">{{ page.section_two.button.text }}</a>
+                </div>
+            </div>
+        </section>
+        {% endif %}
+        {% if page.section_three %}
+        <section>
+            <div class="row justify-content-between align-items-center">
+                <div class="col-12 col-md-5 order-2 order-md-1">
+                    <h4 class="mb-3 tag">{{ page.section_three.tagline }}</h4>
+                    <h1>{{ page.section_three.section_header }}</h1>
+                    <p class="mb-4">{{ page.section_three.section_body_copy }}</p>
+                    <a href="{{ page.section_three.button.link_url }}" class="btn btn-lg btn-secondary">{{ page.section_three.button.text }}</a>
+                </div>
+                <div class="col-12 col-md-6 order-1 order-md-2 pl-md-0 mb-4 mb-md-0">
+                    <img class="w-100" src="/assets/pictures/image-555x380.png" />
+                </div>
+            </div>
+        </section>
+        {% endif %}
+    </div>
+    <div class="solutions bg-g50">
+        <div class="container pt-4 text-center">
+            {% if page.all_features %}
+            <h1 class="my-4">{{ page.all_features_headline }}</h1>
+            <div class="row pt-2 pb-5">
+                {% for item in page.all_features %}
+                <div class="col-12 col-md-4 mb-2">
+                    <div class="card">
                         <div class="card-body">
-                            <img class="mb-2" src="{{ item.partner_logo | absolute_url }}" alt="">
-                            <h2>{{ item.heading }}</h2>
-                            <p>{{ item.overview }}</p>
-                            <div class="row">
-                                <div class="col-12 col-md-4 mb-md-0">
-                                    <h3 class="mb-0">{{ item.incremental_revenue }}</h3>
-                                    <p class="small">Incremental Revenue</p><a class="weight-500" href="#"></a>
-                                </div>
-                                <div class="col-12 col-md-4 mb-md-0">
-                                    <h3 class="mb-0">{{ item.roi }}</h3>
-                                    <p class="small">Total ROI per $1 Spent</p><a class="weight-500" href="#"></a>
-                                </div>
-                                <div class="col-12 col-md-4 mb-md-0">
-                                    <h3 class="mb-0">{{ item.incremental_roi }}</h3>
-                                    <p class="small">Incremental ROI per $1</p><a class="weight-500" href="#"></a>
-                                </div>
-                            </div>
+                            <img class="mb-2" src="{{ item.icon | absolute_url }}" alt="" width="55">
+                            <h5 class="mb-1">{{ item.heading }}</h5>
                         </div>
                     </div>
                 </div>
                 {% endfor %}
             </div>
+            {% endif %}
+            {% if page.case_studies %}
+            <div class="text-left">
+                <div class="row pt-12 pt-5">
+                    <div class="col-12 col-md-6">
+                        <h1>Case Studies Title</h1>
+                        <p>Case Studies Sub-text</p>
+                    </div>
+                </div>
+                <div class="row pt-3 pb-5">
+                    {% for item in page.case_studies %}
+                    <div class="col-12 col-md-4 mb-3 mb-md-0">
+                        <div class="card shadow-sm">
+                            <div class="card-body">
+                                <img class="mb-2" src="{{ item.partner_logo | absolute_url }}" alt="">
+                                <h2>{{ item.heading }}</h2>
+                                <p>{{ item.overview }}</p>
+                                <div class="row">
+                                    <div class="col-12 col-md-4 mb-md-0">
+                                        <h3 class="mb-0">{{ item.incremental_revenue }}</h3>
+                                        <p class="small">Incremental Revenue</p><a class="weight-500" href="#"></a>
+                                    </div>
+                                    <div class="col-12 col-md-4 mb-md-0">
+                                        <h3 class="mb-0">{{ item.roi }}</h3>
+                                        <p class="small">Total ROI per $1 Spent</p><a class="weight-500" href="#"></a>
+                                    </div>
+                                    <div class="col-12 col-md-4 mb-md-0">
+                                        <h3 class="mb-0">{{ item.incremental_roi }}</h3>
+                                        <p class="small">Incremental ROI per $1</p><a class="weight-500" href="#"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+            {% endif %}
         </div>
-        {% endif %}
     </div>
 </div>

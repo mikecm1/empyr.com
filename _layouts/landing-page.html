@@ -4,31 +4,36 @@ layout: default
 
 <!-- {% include hero.html %} -->
 <!-- Hero -->
-<div class="hero">
-    <div class="container">
-        <div class="row justify-content-between align-items-center">
-            <div class="col-12 col-md-12 order-1 order-md-1">
-                <h1 class="display-2">{{ page.heading | default: page.title }}</h1>
-                {% if page.sub_heading and page.sub_heading != "" %}
-                <p class="large mb-4 pr-5 mr-5">{{ page.sub_heading }}</p>
-                {% endif %}
-                {% if page.hero_button %}
-                <a href="{{ page.hero_button.href | absolute_url }}" class="btn btn-lg btn-primary">{{ page.hero_button.text }}</a>
-                {% endif %}
-                {% if page.second_button %}
-                <a href="{{ page.second_button.href | absolute_url }}" class="btn btn-lg btn-white">{{ page.second_button.text }}</a>
-                {% endif %}
+<header class="home">
+    <div class="hero">
+        <div class="container full">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-12 col-md-12 order-1 order-md-1">
+                    <h1 class="display-2">{{ page.heading | default: page.title }}</h1>
+                    {% if page.sub_heading and page.sub_heading != "" %}
+                    <p class="large mb-4 pr-5 mr-5">{{ page.sub_heading }}</p>
+                    {% endif %}
+                    {% if page.hero_button %}
+                    <div class="d-flex">
+                        <a href="{{ page.hero_button.href | absolute_url }}" class="btn btn-lg btn-white">{{ page.hero_button.text }}</a>
+                        {% endif %}
+                        {% if page.second_button %}
+                        <a href="{{ page.second_button.href | absolute_url }}" class="btn btn-lg btn-secondary">{{ page.second_button.text }}</a>
+                    </div>
+                    {% endif %}
+                </div>
+                <!-- <div class="col-12 col-md-4 order-2 order-md-2 pl-md-0 mb-4 mb-md-0">
+                  <img class="w-100" src="/assets/pictures/cover-1.png" />
+                </div> -->
             </div>
-            <!-- <div class="col-12 col-md-4 order-2 order-md-2 pl-md-0 mb-4 mb-md-0">
-              <img class="w-100" src="/assets/pictures/cover-1.png" />
-            </div> -->
         </div>
+        <svg preserveAspectRatio="xMinYMax meet" style="width: 103%;margin-top: -1px;position: relative;position: absolute;bottom: 0;height: 13%;" viewBox="0 0 1440 87" xmlns="http://www.w3.org/2000/svg"> <path fill="#fff" fill-rule="evenodd" d="M1440,739.664063 L1440,741 L0,741 L0,654.103407 L391.098799,654.103407 C403.055752,654.103407 414.740019,657.675918 424.652497,664.362585 L521.072794,729.404885 C530.985271,736.091551 542.669538,739.664063 554.626491,739.664063 L1440,739.664063 Z" transform="translate(0 -654)"></path> </svg>
     </div>
-</div>
+</header>
 {% if page.partners %}
 <div class="shad">
-    <div class="container">
-        <div class="py-4">
+    <div class="container full">
+        <div class="logos">
             <div class="row justify-content-center justify-content-lg-between text-center align-items-center">
                 {% for logo in page.partners %}
                 <div class="col mt-3 mb-lg-0">
@@ -72,78 +77,86 @@ layout: default
 </section>
 {% endif %}
 
-<div class="bg-gradient-lighter content">
-    <div class="container py-4">
-        <div class="row pt-12 pt-5">
-            <div class="col-12">
-                <h1 class="headline">{{ page.primary_body_copy_headline }}</h1>
-            </div>
-            <div class="col-md-7">
-                <p class="large">{{ page.primary_body_copy_subtext }}</p>
-            </div>
-        </div>
-        <!-- {% if page.show_mainfeatures %}  -->
-        {% if page.mainfeatures %}
-        <div class="row pt-2 pb-5">
-            {% for item in page.mainfeatures %}
-            <div class="eq col-12 col-md-3 mb-4 mb-md-0">
-                <div class="card rounded-lg">
-                    <div class="card-body">
-                        <img class="mb-1" src="{{ item.icon | absolute_url }}" alt="" width="55">
-                        <h5 class="mb-1">{{ item.heading }}</h5>
-                        <div class="lighten">{{ item.description }}</div>
-                    </div>
+<div class="home">
+
+    <div class="bg-gradient-lighter content">
+            <section class="xs-m">
+        <div class="container full pt-4 pb-5">
+            <div class="row pt-12 pt-5">
+                <div class="col-12">
+                    <h1 class="headline">{{ page.primary_body_copy_headline }}</h1>
+                </div>
+                <div class="col-md-7">
+                    <p class="large">{{ page.primary_body_copy_subtext }}</p>
                 </div>
             </div>
-            {% endfor %}
+            <!-- {% if page.show_mainfeatures %}  -->
+            {% if page.mainfeatures %}
+                <div class="row pt-2">
+                    {% for item in page.mainfeatures %}
+                    <div class="eq col-12 col-md-3 mb-4 mb-md-0">
+                        <div class="card rounded-lg">
+                            <div class="card-body">
+                                <img class="mb-1" src="{{ item.icon | absolute_url }}" alt="" width="55">
+                                <h5 class="mb-1">{{ item.heading }}</h5>
+                                <div class="lighten">{{ item.description }}</div>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            {% endif %}
+            <!-- {% endif %} -->
         </div>
-        {% endif %}
-        <!-- {% endif %} -->
     </div>
-</div>
-
-<div class="container">
+</section>
+<div class="container full">
         {% if page.section_one %}
-    <div class="row justify-content-between align-items-center py-5 my-2">
-        <div class="col-12 col-md-5 order-2 order-md-1">
-            <span class="badge badge-primary mb-2">{{ page.section_one.tagline }}</span>
-            <h1 class="display-4">{{ page.section_one.section_header }}</h1>
-            <p class="lead large mb-3 pb-2">{{ page.section_one.section_body_copy }}</p>
-            <a href="{{ page.section_one.button.link_url }}" class="btn btn-lg btn-blue-black">{{ page.section_one.button.text }}</a>
+<section>
+        <div class="row justify-content-between align-items-center">
+            <div class="col-12 col-md-5 order-2 order-md-1">
+                <h4 class="mb-3 tag">{{ page.section_one.tagline }}</h4>
+                <h1 class="display-4">{{ page.section_one.section_header }}</h1>
+                <p class="lead large mb-4">{{ page.section_one.section_body_copy }}</p>
+                <a href="{{ page.section_one.button.link_url }}" class="btn btn-lg btn-secondary">{{ page.section_one.button.text }}</a>
+            </div>
+            <div class="col-12 col-md-6 order-1 order-md-2 pl-md-0 mb-4 mb-md-0">
+                <img class="w-100" src="/assets/pictures/image-555x380.png" />
+            </div>
         </div>
-        <div class="col-12 col-md-6 order-1 order-md-2 pl-md-0 mb-4 mb-md-0">
-            <img class="w-100" src="/assets/pictures/image-555x380.png" />
-        </div>
-    </div>
+</section>
     {% endif %}
     {% if page.section_two %}
-    <div class="row justify-content-between align-items-center py-5 my-2">
-        <div class="col-12 col-md-6 pl-md-0 mb-4 mb-md-0">
-            <img class="w-100" src="/assets/pictures/image-555x380.png" />
+<section>
+        <div class="row justify-content-between align-items-center">
+            <div class="col-12 col-md-6 pl-md-0 mb-4 mb-md-0">
+                <img class="w-100" src="/assets/pictures/image-555x380.png" />
+            </div>
+            <div class="col-12 col-md-5">
+                <h4 class="mb-3 tag">{{ page.section_two.tagline }}</h4>
+                <h1 class="display-4">{{ page.section_two.section_header }}</h1>
+                <p class="lead large mb-4">{{ page.section_two.section_body_copy }}</p>
+                <a href="{{ page.section_two.button.link_url }}" class="btn btn-lg btn-secondary">{{ page.section_two.button.text }}</a>
+            </div>
         </div>
-        <div class="col-12 col-md-5">
-            <span class="badge badge-primary mb-2">{{ page.section_two.tagline }}</span>
-            <h1 class="display-4">{{ page.section_two.section_header }}</h1>
-            <p class="lead large mb-3 pb-2">{{ page.section_two.section_body_copy }}</p>
-            <a href="{{ page.section_two.button.link_url }}" class="btn btn-lg btn-blue-black">{{ page.section_two.button.text }}</a>
-        </div>
-    </div>
+</section>
     {% endif %}
     {% if page.section_three %}
-    <div class="row justify-content-between align-items-center py-5 my-2">
-        <div class="col-12 col-md-5 order-2 order-md-1">
-            <span class="badge badge-primary mb-2">{{ page.section_three.tagline }}</span>
-            <h4 class="mb-3 tag">{{ page.section_three.tagline }}</h4>
-            <h1 class="display-4">{{ page.section_three.section_header }}</h1>
-            <p class="lead large mb-3 pb-2">{{ page.section_three.section_body_copy }}</p>
-            <a href="{{ page.section_three.button.link_url }}" class="btn btn-lg btn-blue-black">{{ page.section_three.button.text }}</a>
+<section class="mb-0">
+        <div class="row justify-content-between align-items-center home_analytics">
+            <div class="col-12 col-md-5 order-2 order-md-1">
+                <!-- <span class="badge badge-primary mb-2">{{ page.section_three.tagline }}</span> -->
+                <h4 class="mb-3 tag">{{ page.section_three.tagline }}</h4>
+                <h1 class="display-4">{{ page.section_three.section_header }}</h1>
+                <p class="lead large mb-4">{{ page.section_three.section_body_copy }}</p>
+                <a href="{{ page.section_three.button.link_url }}" class="btn btn-lg btn-secondary">{{ page.section_three.button.text }}</a>
+            </div>
+            <!-- <div class="col-12 col-md-6 order-1 order-md-2 pl-md-0 mb-4 mb-md-0">
+                <img class="w-100" src="/assets/pictures/image-555x380.png" />
+            </div> -->
         </div>
-        <div class="col-12 col-md-6 order-1 order-md-2 pl-md-0 mb-4 mb-md-0">
-            <img class="w-100" src="/assets/pictures/image-555x380.png" />
-        </div>
-    </div>
+</section>
     {% endif %}
-
 
     <div class="swiper-container py-5" style="padding-bottom: 60px;">
         <div class="swiper-wrapper">
@@ -172,15 +185,14 @@ layout: default
         <div class="swiper-pagination"></div>
     </div>
 </div>
-<div class="solutions">
+</div>
+<div class="solutions bg-g50">
        <div class="container">
             <div class="row justify-content-center text-center pt-5">
-                <div class="col-12 col-md-9">
                     <h1>{{ page.cta_footer_header }}</h1>
-                    <p class="sub-text large mb-2">{{ page.cta_footer_subheader }}</p>
-                </div>
+                    <p class="sub-text large">{{ page.cta_footer_subheader }}</p>
             </div>
-            <div class="round-section row mt-2 py-3">
+            <!-- <div class="round-section row mt-2 py-3">
                 {% for item in page.company_types %}
                 <div class="col-12 col-md-4 mb-3 mb-md-0">
                         <div class="card-body">
@@ -191,7 +203,25 @@ layout: default
                         </div>
                 </div>
                 {% endfor %}
+            </div> -->
+            
+            {% if page.company_types %}
+            <div class="row pt-3 pb-5 mb-2">
+                {% for item in page.company_types %}
+                <div class="col-12 col-md-4 mb-3 mb-md-0">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                                    <p class="text-primary small mb-0">{{ item.badge }}</p>
+                            <h2>{{ item.heading }}</h2>
+                            <p class="mb-2">{{ item.description }}</p>
+                            <a class="btn btn-lg btn-info" href="">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
             </div>
+            {% endif %}
+                </div>
        </div>
 </div>
 

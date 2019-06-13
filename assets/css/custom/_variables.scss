@@ -12,6 +12,7 @@ $green: #2dce89;
 $teal: #20c997;
 $cyan: #6dcee0;
 $white: #fff;
+$gray-50: #f7f6f9;
 $gray-100: #e8ebed;
 $gray-200: #c5ced2;
 $gray-300: #a0aeb5;
@@ -23,6 +24,7 @@ $gray-800: #203037;
 $gray-900: #11131c;
 $gray-dark: #110826 !default;
 $blue-black: #100625 !default;
+$black-blue: #1A1224;
 $black: #000;
 $grays: (100: $gray-100, 200: $gray-200, 300: $gray-300, 400: $gray-400, 500: $gray-500, 600: $gray-600, 700: $gray-700, 800: $gray-800, 900: $gray-900);
 $theme-colors: (primary: $primary, secondary: $indigo, success: $green, info: $cyan, warning: $yellow, danger: $red, light: $gray-100, dark: $gray-800, "blue-black":$blue-black);
@@ -66,7 +68,7 @@ $border-width: 1px;
 $border-radius: 0.25rem;
 $border-radius-lg: 0.8rem;
 $border-radius-sm: 0.2rem;
-$box-shadow-sm: 0 0.125rem 0.25rem rgba($black, 0.075);
+$box-shadow-sm: 0 0 1px 0 rgba(53,52,110,0.10), 0 2px 8px 0 rgba(55,53,195,0.07), 0 1px 1px 0 rgba(18,12,33,0.08);
 $box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
 $box-shadow-lg: 0 1rem 3rem rgba($black, 0.175);
 $component-active-color: $white;
@@ -100,7 +102,7 @@ $headings-font-weight: 600;
 $headings-line-height: 1.1;
 $headings-color: $blue-black;
 $display1-size: 6rem;
-$display2-size: 78px;
+$display2-size: 85px;
 $display3-size: 72px;
 $display4-size: 3.2rem;
 $display1-weight: 600;
@@ -124,10 +126,11 @@ $list-inline-padding: 5px;
 $mark-bg: #fcf8e3;
 $small-font-size: 87.5% !default;
 $large-font-size: 112.5% !default;
-$large-line-height: 1.75 !default;
+$large-line-height: 1.7 !default;
 
 $display1-margin-bottom: $spacer * 1.5;
-$display2-margin-bottom: $spacer * 1.2;
+// $display2-margin-bottom: $spacer * 1.2;
+$display2-margin-bottom: 1.3rem;
 $display3-margin-bottom: $spacer * 1.5;
 $display4-margin-bottom: $spacer * 1.5;
 
@@ -369,7 +372,7 @@ $jumbotron-bg: $gray-200;
 
 // Cards
 $card-spacer-y: 0.75rem;
-$card-spacer-x: 1.25rem;
+$card-spacer-x: 1.05rem;
 $card-border-width: 0.0625rem;
 $card-border-radius: $border-radius;
 $card-border-color: rgba(0, 0, 0, 0.05);
@@ -381,6 +384,7 @@ $card-deck-margin: $grid-gutter-width / 2;
 $card-columns-count: 3;
 $card-columns-gap: 1.25rem;
 $card-columns-margin: $card-spacer-y;
+$card-box-shadow: 0 10px 19px -6px rgba(45, 80, 187, 0.1);
 
 // Tooltip
 $tooltip-max-width: 200px;
