@@ -1,5 +1,9 @@
 ---
 header:
+- weight: 1
+  url: "/pubs"
+  parent: api
+  title: Publishers!!
 - url: "/api"
   title: API Documentation
   identifier: api
