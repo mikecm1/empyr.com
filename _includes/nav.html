@@ -15,6 +15,25 @@ Displays the site's navigation using the jekyll-menus plugin
             </a>
             {% endfor %}
         </ul>
+
+        <ul>
+                {% for link in site.menus.header %}
+                  <li class="menu-item-{{ loop.index }}">
+                    <a href="{{ link.url }}" title="Go to {{ link.title }}">{{ link.title }}</a>
+                    {% if link.children %}
+                      <ul class="sub-menu">
+                      {% for link in link.children %}
+                        <li class="menu-item-{{ loop.index }}">
+                          <a href="{{ link.url }}" title="Go to {{ link.title }}">{{ link.title }}</a>
+                        </li>
+                      {% endfor %}
+                      </ul>
+                    {% endif %}
+                  </li>
+                {% endfor %}
+                </ul>
+
+
         <!-- <a class="btn btn-outline-primary btn-sm mt-2 mt-md-0 ml-lg-3" href="#">Join</a> -->
         <button type="button" class="btn btn-primary btn-sm">Small button</button>
     </div>
