@@ -13,7 +13,7 @@ var gulp = require('gulp'),
     pxtorem = require('gulp-pxtorem'),
     csso = require('postcss-csso');
 
-gulp.task('generate', shell.task('bundle exec jekyll serve --watch --livereload'));
+gulp.task('generate', shell.task('bundle exec jekyll serve --watch --incremental --livereload'));
 gulp.task('buildit', shell.task('bundle exec jekyll build -d _site'));
 
 gulp.task('scss-local', function () {

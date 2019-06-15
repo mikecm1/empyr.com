@@ -111,9 +111,7 @@ section_three:
     href: "/advertiser"
 menu:
   navigation:
-    identifier: _index
     weight: 2
-    parent: item_kCvWxtX
-    title: National Brands
+    parent: partners
 
 ---

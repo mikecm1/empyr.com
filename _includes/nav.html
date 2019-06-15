@@ -46,7 +46,7 @@ Displays the site's navigation using the jekyll-menus plugin
                 <img src="/assets/glyphs/close.svg" width="32" />
             </a>
             <div class="navbar-nav">
-                {% for link in site.menus.navigation %}
+                <!-- {% for link in site.menus.navigation %}
                 <div class="nav-item">
                     <a class="nav-link text-dark pl-0" href="{{ link.url | absolute_url }}" {% if link.target %} target="_blank" {% endif %}>
                         {{ link.title }}
@@ -57,7 +57,23 @@ Displays the site's navigation using the jekyll-menus plugin
                     <a class="nav-link text-dark pr-0" href="">
                         <img src="/assets/glyphs/search.svg" />
                     </a>
-                </div>
+                </div> -->
+                <ul>
+                    {% for link in site.menus.navigation %}
+                      <li class="menu-item-{{ loop.index }}">
+                        <a href="{{ link.url }}" title="Go to {{ link.title }}">{{ link.title }}</a>
+                        {% if link.children %}
+                          <ul class="sub-menu">
+                          {% for link in link.children %}
+                            <li class="menu-item-{{ loop.index }}">
+                              <a href="{{ link.url }}" title="Go to {{ link.title }}">{{ link.title }}</a>
+                            </li>
+                          {% endfor %}
+                          </ul>
+                        {% endif %}
+                      </li>
+                    {% endfor %}
+                    </ul>
             </div>
         </div>
         <div>
