@@ -59,14 +59,18 @@
     // background-color: #0F51FB;
     // ^^ Nice solid blue
 
-    padding: 110px 0 180px;
+    // Gradient
+    padding: 110px 0 210px;
     background-size: 65%, 100%;
     background-position: right, left;
     background-repeat: no-repeat, repeat-y;
     background: url(/assets/img/devices.png), url(/img/bg-sub.png),linear-gradient(-168deg,#46a7ff 0%,#002cff 100%);
-    background-position: right, -258px -33px,center center;
+
+    // solid blue
+    background: url(/assets/img/devices.png),url(/img/bg-sub.png),#018EF5;
+    background-position: 508px -178px,-258px -33px,center center;
     background-repeat: no-repeat, no-repeat, repeat-y;
-    background-size: 65%, 83%,100%;
+    background-size: 88%,83%,100%;
     // padding: 15px 0 120px;
 
     // border-radius: 0 0 0 90px;
