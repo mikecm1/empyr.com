@@ -82,6 +82,6 @@ menu:
     weight: 2
     parent: partners
     title: Websites & Apps
-    identifier: item_v4pAj3S
+    identifier: publishers
 
 ---

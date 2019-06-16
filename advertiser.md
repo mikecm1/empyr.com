@@ -113,6 +113,6 @@ menu:
   navigation:
     weight: 1
     parent: partners
-    identifier: item_-MkFnef
+    identifier: advertisers
 
 ---

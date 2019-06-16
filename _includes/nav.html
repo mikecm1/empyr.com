@@ -8,39 +8,16 @@ Displays the site's navigation using the jekyll-menus plugin
     <div class="d-lg-none"><a class="navbar-toggler mr-1" href="" data-id="headers-4-sidebar-toggle"><img src="/assets/glyphs/burger.svg"></a></div>
     <a href="{{ site.url }}"><img src="{{site.logo}}" width="100"></a>
     <div class="collapse navbar-collapse" id="navigations-08">
-        <ul class="navbar-nav ml-auto">
-            {% for link in site.menus.navigation %}
-            <a class="nav-link {% if link.children %}nested {% endif %}{% if url == link.url %}active{% endif %}" href="{{ link.url | absolute_url }}" {% if link.target %} target="_blank" {% endif %}>
-                {{ link.title }}
-            </a>
-            {% endfor %}
-        </ul>
-        <!-- <ul>
-                {% for link in site.menus.header %}
-                  <li class="menu-item-{{ loop.index }}">
-                    <a href="{{ link.url }}" title="Go 2 {{ link.title }}">{{ link.title }}</a>
-                    {% if link.children %}
-                      <ul class="sub-menu">
-                      {% for link in link.children %}
-                        <li class="menu-item-{{ loop.index }}">
-                          <a href="{{ link.url }}" title="Go 3 {{ link.title }}">{{ link.title }}</a>
-                        </li>
-                      {% endfor %}
-                      </ul>
-                    {% endif %}
-                  </li>
-                {% endfor %}
-                </ul> -->
 
                 <ul class="navbar-nav ml-auto">
                         {% for item in site.menus.navigation %}
                           <li class="menu-item-{{ loop.index }}">
-                            <a class="nav-link {% if item.children %}nested {% endif %}{% if url == item.url %}active{% endif %}" href="{{ item.url }}" title="Go 2 {{ item.title }}">{{ item.title }}</a>
+                            <a class="nav-link {% if item.children %}nested {% endif %}{% if url == item.url %}active{% endif %}" href="{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a>
                             {% if item.children %}
                               <ul class="sub-menu">
                               {% for item in item.children %}
                                 <li class="menu-item-{{ loop.index }}">
-                                  <a href="{{ link.url }}" title="Go 3 {{ link.title }}">{{ item.title }}</a>
+                                  <a href="{{ link.url }}" title="{{ link.title }}">{{ item.title }}</a>
                                 </li>
                               {% endfor %}
                               </ul>
@@ -48,31 +25,11 @@ Displays the site's navigation using the jekyll-menus plugin
                           </li>
                         {% endfor %}
                         </ul>
-
-
         <!-- <a class="btn btn-outline-primary btn-sm mt-2 mt-md-0 ml-lg-3" href="#">Join</a> -->
         <button type="button" class="btn btn-primary btn-sm">Small button</button>
     </div>
 
 </nav>
-
-<!-- <nav class="sticky-top navbar navbar-expand-lg justify-content-between site-header">
-    <div class="d-lg-none"><a class="navbar-toggler mr-1" href="" data-id="headers-4-sidebar-toggle"><img src="/assets/glyphs/burger.svg"></a></div>
-    <div><img src="/assets/logos/empyr.svg" width="100"></div>
-    <div class="collapse navbar-collapse flex-grow-0 weight-500">
-        <div class="navbar-nav">
-            {% for link in site.menus.navigation %}
-            <a class="nav-link {% if link.children %}nested {% endif %}{% if url == link.url %}current{% endif %}" href="{{ link.url | absolute_url }}" {% if link.target %} target="_blank" {% endif %}>
-                {{ link.title }}
-            </a>
-            {% endfor %}
-        </div>
-    </div>
-    <div class="d-lg-none ml-auto">
-        <div class="nav-item"><a class="nav-link text-dark pr-0" href=""><img src="/assets/glyphs/search.svg"></a></div>
-    </div>
-</nav> -->
-
 
 <div class="navbar-side" id="headers-4-sidebar" data-id="headers-4-sidebar-close">
     <div class="navbar-side-content d-flex flex-column justify-content-between">
@@ -81,7 +38,7 @@ Displays the site's navigation using the jekyll-menus plugin
                 <img src="/assets/glyphs/close.svg" width="32" />
             </a>
             <div class="navbar-nav">
-                <!-- {% for link in site.menus.navigation %}
+                {% for link in site.menus.navigation %}
                 <div class="nav-item">
                     <a class="nav-link text-dark pl-0" href="{{ link.url | absolute_url }}" {% if link.target %} target="_blank" {% endif %}>
                         {{ link.title }}
@@ -92,23 +49,7 @@ Displays the site's navigation using the jekyll-menus plugin
                     <a class="nav-link text-dark pr-0" href="">
                         <img src="/assets/glyphs/search.svg" />
                     </a>
-                </div> -->
-                <ul>
-                    {% for link in site.menus.navigation %}
-                      <li class="menu-item-{{ loop.index }}">
-                        <a href="{{ link.url }}" title="Go to {{ link.title }}">{{ link.title }}</a>
-                        {% if link.children %}
-                          <ul class="sub-menu">
-                          {% for link in link.children %}
-                            <li class="menu-item-{{ loop.index }}">
-                              <a href="{{ link.url }}" title="Go to {{ link.title }}">{{ link.title }}</a>
-                            </li>
-                          {% endfor %}
-                          </ul>
-                        {% endif %}
-                      </li>
-                    {% endfor %}
-                    </ul>
+                </div>
             </div>
         </div>
         <div>

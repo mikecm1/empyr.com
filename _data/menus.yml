@@ -1,15 +1,6 @@
 ---
-header:
-- url: http://www.LOL.com
-  weight: 1
-  parent: api
-  title: testing
-- url: "/api"
-  title: API Documentation
-  identifier: api
-  weight: 1
 navigation:
-- url: "/"
+- url: "#"
   title: Solutions
   identifier: partners
-  weight: 1
+  weight: 0
