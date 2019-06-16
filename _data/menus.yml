@@ -1,4 +1,8 @@
 ---
+footer:
+- url: "/"
+  weight: 1
+  title: WTFISTHIS
 navigation:
 - url: "#"
   title: Solutions
