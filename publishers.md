@@ -79,7 +79,7 @@ section_two:
     link_url: index.md
 menu:
   navigation:
-    weight: 2
+    weight: 1
     parent: partners
     title: Websites & Apps
     identifier: item_v4pAj3S

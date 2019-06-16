@@ -111,7 +111,7 @@ section_three:
     href: "/advertiser"
 menu:
   navigation:
-    weight: 1
+    weight: 2
     parent: partners
     identifier: item_-MkFnef
 
