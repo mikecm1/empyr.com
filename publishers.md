@@ -78,6 +78,10 @@ section_two:
     text: Learn More
     link_url: index.md
 menu:
+  header:
+    weight: 1
+    parent: api
+    title: Pubs
   navigation:
     weight: 2
     parent: partners
