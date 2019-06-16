@@ -83,11 +83,6 @@ menu:
     parent: partners
     title: Websites & Apps
     identifier: publishers
-  header:
-    weight: 1
-    parent: api
-    title: Websites & Apps
-    identifier: publishers
   api:
     weight: 2
 
