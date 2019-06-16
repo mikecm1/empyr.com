@@ -110,6 +110,8 @@ section_three:
     text: Learn More
     href: "/advertiser"
 menu:
+  api:
+    weight: 4
   header:
     weight: 2
     parent: api
