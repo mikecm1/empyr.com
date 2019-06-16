@@ -9,7 +9,7 @@
   <meta name="keywords" content="{% if .page.keywords %}{{ .page.keywords }}{% else %}{{ .site.keywords }}{% endif %}">
   <title>{{ page.title }} - {{ site.title }}</title>
   <link rel="icon" type="image/png" href="{{ "/img/favicon.ico" | absolute_url }}"/>
-  <link rel="stylesheet" href="{{ "/css/main.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "css/main.css" | absolute_url }}">
   <link rel="stylesheet" href="{{ "css/vendor/nucleo/css/nucleo.css" | absolute_url }}">
   <link rel="stylesheet" href="{{ "css/vendor/font-awesome/css/font-awesome.min.css" | absolute_url }}">
   <!-- <link rel="stylesheet" href="/assets/css/main.css"> -->
