@@ -1,17 +1,4 @@
 ---
-header:
-- url: "/api"
-  title: API Documentation
-  identifier: api
-  weight: 1
-api:
-- url: "/projects/project1"
-  weight: 3
-  title: supdude
-- title: Project123
-  url: "/projects/project1"
-  identifier: project1
-  weight: 1
 navigation:
 - url: "#"
   title: Solutions

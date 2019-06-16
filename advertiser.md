@@ -110,11 +110,10 @@ section_three:
     text: Learn More
     href: "/advertiser"
 menu:
-  api:
-    weight: 4
   navigation:
     weight: 1
     parent: partners
     identifier: advertisers
-
+  partners:
+    weight: 2
 ---
