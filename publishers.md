@@ -84,10 +84,11 @@ menu:
     title: Websites & Apps
     identifier: publishers
   header:
-    weight: 2
+    weight: 1
     parent: api
     title: Websites & Apps
     identifier: publishers
-menus: api
+  api:
+    weight: 2
 
 ---
