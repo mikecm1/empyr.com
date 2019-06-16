@@ -84,5 +84,6 @@ menu:
     title: Websites & Apps
     identifier: publishers
   partners:
-    weight: 2
+    weight: 1
+
 ---

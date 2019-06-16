@@ -116,4 +116,5 @@ menu:
     identifier: advertisers
   partners:
     weight: 2
+
 ---
