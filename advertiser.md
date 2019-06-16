@@ -112,10 +112,6 @@ section_three:
 menu:
   api:
     weight: 4
-  header:
-    weight: 2
-    parent: api
-    title: Adv
   navigation:
     weight: 1
     parent: partners
