@@ -1,9 +1,13 @@
 ---
 header:
+- url: http://www.LOL.com
+  weight: 1
+  parent: api
+  title: LOL
 - url: "/xxx"
   title: XXX
   identifier: api
-  weight: 1
+  weight: 2
   parent: api
 - url: "/api"
   title: API Documentation
