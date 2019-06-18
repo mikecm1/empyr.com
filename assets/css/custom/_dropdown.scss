@@ -7,7 +7,9 @@
 
 .dropdown-menu {
     min-width: 12rem;
-
+    @include border-radius($dropdown-border-radius);
+    @include box-shadow($dropdown-box-shadow);
+    border: none;
     .dropdown-item {
         padding: .5rem 1rem;
         font-size: $font-size-sm;

@@ -1,10 +1,18 @@
 ---
-footer:
-- url: "/"
-  weight: 1
-  title: WTFISTHIS
 navigation:
 - url: "#"
   title: Solutions
   identifier: partners
   weight: 1
+- url: "#"
+  title: Company
+  identifier: company
+  weight: 3
+- url: "/blog"
+  title: Blog
+  identifier: blog
+  weight: 4
+- url: "/case"
+  title: Case Studies
+  identifier: studies
+  weight: 2

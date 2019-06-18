@@ -9,22 +9,25 @@ Displays the site's navigation using the jekyll-menus plugin
     <a href="{{ site.url }}"><img src="{{site.logo}}" width="100"></a>
     <div class="collapse navbar-collapse" id="navigations-08">
 
-                <ul class="navbar-nav ml-auto">
-                        {% for item in site.menus.navigation %}
-                          <li class="menu-item-{{ loop.index }}">
-                            <a class="nav-link {% if item.children %}nested {% endif %}{% if url == item.url %}active{% endif %}" href="{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a>
-                            {% if item.children %}
-                              <ul class="sub-menu">
-                              {% for item in item.children %}
-                                <li class="menu-item-{{ loop.index }}">
-                                  <a href="{{ link.url }}" title="{{ link.title }}">{{ item.title }}</a>
-                                </li>
-                              {% endfor %}
-                              </ul>
-                            {% endif %}
-                          </li>
-                        {% endfor %}
-                        </ul>
+        <ul class="navbar-nav ml-auto">
+            {% for item in site.menus.navigation %}
+            <li class="menu-item-{{ loop.index }}">
+                
+                <div class="{% if item.children %}dropdown{% if url == item.url %}active{% endif %}{% endif %}">
+                    <a class="nav-link {% if item.children %}nested dropdown-toggle{% endif %}{% if url == item.url %}active{% endif %}" href="{{ item.url }}" title="{{ item.title }}" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ item.title }}</a>
+                {% if item.children %}
+                <div class="sub-menu dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    {% for item in item.children %}
+                    <!-- <li class="menu-item-{{ loop.index }}"> -->
+                        <a class="dropdown-item" href="{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a>
+                    <!-- </li> -->
+                    {% endfor %}
+                </div>
+            </div>
+                {% endif %}
+            </li>
+            {% endfor %}
+        </ul>
 
 
         <!-- <a class="btn btn-outline-primary btn-sm mt-2 mt-md-0 ml-lg-3" href="#">Join</a> -->

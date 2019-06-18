@@ -110,11 +110,12 @@ section_three:
     text: Learn More
     href: "/advertiser"
 menu:
-  navigation:
-    weight: 1
-    parent: partners
-    identifier: advertisers
+#   navigation:
+#     weight: 1
+#     parent: partners
+#     identifier: advertisers
   partners:
     weight: 2
+    identifier: advertisers
 
 ---

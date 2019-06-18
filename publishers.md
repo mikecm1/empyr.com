@@ -78,12 +78,13 @@ section_two:
     text: Learn More
     link_url: index.md
 menu:
-  navigation:
-    weight: 2
-    parent: partners
-    title: Websites & Apps
-    identifier: publishers
+#   navigation:
+#     weight: 2
+#     parent: partners
+#     title: Websites & Apps
+#     identifier: publishers
   partners:
     weight: 1
+    title: Websites & Apps
 
 ---

@@ -37,7 +37,7 @@ $spacers: (0: 0, 1: $spacer * 0.5, 2: $spacer * 1.5, 3: $spacer, 4: $spacer * 2.
 $sizes: (25: 25%, 50: 50%, 75: 75%, 100: 100%);
 
 // Options
-$enable-rounded: true;
+$enable-rounded: false;
 $enable-shadows: false;
 $enable-gradients: false;
 $enable-transitions: true;
@@ -56,8 +56,8 @@ $link-hover-color: darken($link-color, 15%);
 $link-hover-decoration: none;
 
 // Grid
-$grid-breakpoints: (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1100px);
-$container-max-widths: (sm: 768px, md: 992px, lg: 1100px, xl: 1440px);
+$grid-breakpoints: (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1150px, 1024: 1024px, xxl: 1400px, xxxl:1600px);
+$container-max-widths: (sm: 768px, md: 992px, lg: 1150px, xl: 1440px);
 $grid-columns: 12;
 $grid-gutter-width: 30px;
 
@@ -103,7 +103,7 @@ $headings-line-height: 1.1;
 $headings-color: $blue-black;
 $display1-size: 6rem;
 $display2-size: 85px;
-$display3-size: 72px;
+$display3-size: 75px;
 $display4-size: 3.2rem;
 $display1-weight: 600;
 $display2-weight: 600;
@@ -135,6 +135,7 @@ $display3-margin-bottom: $spacer * 1.5;
 $display4-margin-bottom: $spacer * 1.5;
 
 // Buttons
+
 $input-btn-padding-y: .625rem;
 $input-btn-padding-x: 1.25rem;
 $input-btn-line-height: 1.5;
@@ -145,8 +146,8 @@ $input-btn-padding-y-lg: 1.075rem;
 $input-btn-padding-x-lg: 2.6rem;
 $input-btn-line-height-lg: 1.5;
 $btn-font-weight: $font-weight-bold;
-// $btn-box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
-$btn-box-shadow: inherit;
+$btn-box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+// $btn-box-shadow: inherit;
 $btn-focus-box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
 $btn-active-box-shadow: none;
 $btn-link-disabled-color: $gray-600;
@@ -161,7 +162,7 @@ $input-bg: $white;
 $input-disabled-bg: $gray-200;
 $input-color: $gray-700;
 $input-border-color: rgba($black, 0.15);
-$input-btn-border-width: $border-width;
+$input-btn-border-width: 0;
 $input-box-shadow: inset 0 1px 1px rgba($black, 0.075);
 $input-border-radius: $border-radius;
 $input-border-radius-lg: $border-radius-lg;
@@ -249,10 +250,10 @@ $dropdown-min-width: 10rem;
 $dropdown-padding-y: 0.5rem;
 $dropdown-spacer: 0.125rem;
 $dropdown-bg: $white;
-$dropdown-border-color: rgba($black, 0.15);
+$dropdown-border-color: rgba($black, 0);
 $dropdown-border-width: $border-width;
 $dropdown-divider-bg: $gray-200;
-$dropdown-box-shadow: 0 0.5rem 1rem rgba($black, 0.175);
+$dropdown-box-shadow: rgba(67, 90, 111, 0.416) 0px 0px 1px, rgba(67, 90, 111, 0.3) 0px 2px 4px -2px;
 $dropdown-link-color: $gray-900;
 $dropdown-link-hover-color: darken($gray-900, 5%);
 $dropdown-link-hover-bg: $gray-100;
@@ -280,8 +281,8 @@ $nav-pills-link-active-bg: $component-active-bg;
 
 // Navbar
 $navbar-transition: all 0.15s linear !default;
-$navbar-padding-y: 0.6rem !default;
-$navbar-padding-x: 1rem !default;
+$navbar-padding-y: 0.3rem !default;
+$navbar-padding-x: 1.5rem;
 
 $navbar-nav-link-padding-x: 1rem !default;
 $navbar-nav-link-padding-y: 0.7rem !default;
