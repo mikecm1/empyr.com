@@ -283,6 +283,7 @@ h1 {
       }
       @include media-breakpoint-up('xl') {
         font-size: 74px;
+        font-size: 5.6vw;
       }
       @include media-breakpoint-up('xxl') {
         font-size: $display3-size;
@@ -735,10 +736,8 @@ img {
     }
 
     @include media-breakpoint-up('xxxl') {
-        width: 940px;
-        min-width: auto;
-        top: -330px;
-        left: 27%;
+        top: -340px;
+        left: 26%;
     }
 }
 

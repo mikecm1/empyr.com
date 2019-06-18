@@ -8,7 +8,7 @@ layout: default
 
     <div class="hero d-flex">
         <div class="container full container-fluid d-flex flex-column justify-content-between">
-            <div class="break-out poster poster-home">
+            <div class="break-out poster poster-home z1">
                 <div class="row justify-content-between align-items-center flex-grow">
                     <div class="col-12 col-md-8 col-lg-8 col-1400-10 poster-home-text">
                         <h1 class="display-3">{{ page.heading | default: page.title }}</h1>
@@ -24,11 +24,6 @@ layout: default
                         </div>
                         {% endif %}
                     </div>
-
-
-                    <!-- <div class="col-12 col-md-4 order-2 order-md-2 pl-md-0 mb-4 mb-md-0">
-                      <img class="w-100" src="/assets/pictures/cover-1.png" />
-                    </div> -->
                 </div>
             </div>
             <div class="poster-home-image d-none d-md-block">
@@ -88,10 +83,10 @@ layout: default
     <div class="intro container full">
         <div class="row pt-5">
             <div class="col-12">
-                <h1 class="headline">{{ page.primary_body_copy_headline }}</h1>
+                <h1 class="headline mb-2">{{ page.primary_body_copy_headline }}</h1>
             </div>
             <div class="col-md-7">
-                <p class="large">{{ page.primary_body_copy_subtext }}</p>
+                <p class="large mb-4">{{ page.primary_body_copy_subtext }}</p>
             </div>
         </div>
         <!-- {% if page.show_mainfeatures %}  -->
@@ -140,7 +135,7 @@ layout: default
             <section>
                 <div class="row justify-content-between align-items-center">
                     <div class="col-12 col-md-5 order-2 order-md-1">
-                        <h4 class="mb-3 tag">{{ page.section_one.tagline }}</h4>
+                        <h4 class="mb-2 tag">{{ page.section_one.tagline }}</h4>
                         <h1 class="display-4">{{ page.section_one.section_header }}</h1>
                         <p class="lead large mb-4">{{ page.section_one.section_body_copy }}</p>
                         <a href="{{ page.section_one.button.link_url }}" class="btn btn-lg btn-secondary">{{ page.section_one.button.text }}</a>
@@ -158,7 +153,7 @@ layout: default
                         <img class="w-100" src="/assets/pictures/image-555x380.png" />
                     </div>
                     <div class="col-12 col-md-5">
-                        <h4 class="mb-3 tag">{{ page.section_two.tagline }}</h4>
+                        <h4 class="mb-2 tag">{{ page.section_two.tagline }}</h4>
                         <h1 class="display-4">{{ page.section_two.section_header }}</h1>
                         <p class="lead large mb-4">{{ page.section_two.section_body_copy }}</p>
                         <a href="{{ page.section_two.button.link_url }}" class="btn btn-lg btn-secondary">{{ page.section_two.button.text }}</a>
@@ -171,7 +166,7 @@ layout: default
                 <div class="row justify-content-between align-items-center home_analytics">
                     <div class="col-12 col-md-6 col-xl-5 z1">
                         <!-- <span class="badge badge-primary mb-2">{{ page.section_three.tagline }}</span> -->
-                        <h4 class="mb-3 tag">{{ page.section_three.tagline }}</h4>
+                        <h4 class="mb-2 tag">{{ page.section_three.tagline }}</h4>
                         <h1 class="display-4">{{ page.section_three.section_header }}</h1>
                         <p class="lead large mb-4">{{ page.section_three.section_body_copy }}</p>
                         <a href="{{ page.section_three.button.link_url }}" class="btn btn-lg btn-secondary">{{ page.section_three.button.text }}</a>
@@ -191,7 +186,7 @@ layout: default
                     <div class="swiper-slide col-12 col-md-6 col-lg-4 eq">
                         <div class="card shadow-sm">
                             <div class="card-body">
-                                <p class="lead mb-3">"{{ item.quote }}"</p>
+                                <p class="lead mb-2">"{{ item.quote }}"</p>
                                 <div class="media align-items-center">
                                     <div class="mr-2">
                                         <img class="rounded" src="{{ item.icon | absolute_url }}" width="60" height="60" />
