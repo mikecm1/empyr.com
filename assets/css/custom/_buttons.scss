@@ -2,14 +2,10 @@
 
 .btn {
     position: relative;
-    text-transform: $btn-text-transform;
     transition: $transition-base;
     will-change: transform;
-    letter-spacing: $btn-letter-spacing;
-    font-size: $input-btn-font-size;
-    
+    border-radius: 0;
     &:hover {
-        @include box-shadow($btn-hover-box-shadow);
         transform: translateY(-1px);
     }  
 
@@ -27,14 +23,6 @@
 }
 
 // Sizes
-
-.btn-sm {
-    font-size: $input-btn-font-size-sm;
-}
-
-.btn-lg {
-    font-size: $input-btn-font-size-lg;
-}
 
 // Fixes
 
@@ -77,7 +65,7 @@
 .btn i:not(:last-child) {
     margin-right: 0.5rem;
 }
-
+ 
 // Icon labels
 
 .btn-icon-label {

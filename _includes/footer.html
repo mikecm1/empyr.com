@@ -1,36 +1,20 @@
 <footer>
 
-    <div class="footer-cta grad-blue">
+    <div class="footer-cta">
         <!-- <div class="footer-cta"> -->
         <div class="container">
-            {% if page.partners %}
-            <div class="pb-4 pt-1">
-                <div class="row justify-content-center justify-content-lg-between text-center align-items-center">
-                    {% for logo in page.partners %}
-                    <div class="col mt-3 mb-lg-0">
-                        <img src="{{ logo | absolute_url }}" style="width: 100px; max-width: 65%" />
-                    </div>
-                    {% endfor %}
-                </div>
-            </div>
-            {% endif %}
 
             {% if site.data.information %}
             {% assign info = site.data.information %}
-            <div class="row p-3 xpad">
-                <div class="col-12 col-md-7 text-white">
-                    <h1 class="display-4 mb-2 text-white bold">{{ info.footer_details.main_header_home }}</h1>
+            <div class="row fcta">
+                <div class="col-12 col-md-6">
+                    <h1 class="display-4 mb-2 bold">{{ info.footer_details.main_header_home }}</h1>
                     <p class="lead large mb-4">{{ info.footer_details.main_subheader_home }}</p>
-                    <div class="row align-items-center">
-                        <div class="col-12 col-md-5 mb-2 mb-md-0"><a class="btn btn-block btn-lg btn-white text-primary" href="{{ info.footer_details.cta_url }}">{{ info.footer_details.cta_text }}</a></div>
-                        <div class="col-12 col-md-5 mb-2 mb-md-0">
-                                <div>
-                                        <a href="#" class="text-white">
-                                            <h3 class="text-white font-weight-bold"><i class="fa fa-arrow-circle-right"></i>{{ info.footer_details.cta_text }}</h3>
-                                        </a>
-                                      </div>
-                                    </div>
-                    </div>
+
+                                <a href="{{ info.footer_details.cta_url }}" class="text-white">
+                                    <h3 class="text-white font-weight-bold"><i class="fa fa-arrow-circle-right"></i>{{ info.footer_details.cta_text }}</h3>
+                                </a>
+
                 </div>
                 <!-- <div class="card-body card shadow-sm grad-blue">
                     <div class="row p-4">
@@ -52,52 +36,54 @@
     </div>
     {% endif %}
 
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-lg-4 pr-lg-0 mb-4 mb-lg-0">
-                <img src="{{site.logo}}" width="100">
-            </div>
+    <div class="bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-4 pr-lg-0 mb-4 mb-lg-0">
+                    <img src="{{site.logo}}" width="100">
+                </div>
 
-            <div class="col-12 col-lg-2"></div>
-            <div class="col-12 col-lg-2">
-                <div class="navbar-nav weight-500">
-                    {% for link in site.menus.navigation %}
-                    <div class="nav-item mb-1">
-                        <a class="text-white" href="{{ link.url | absolute_url }}" {% if link.target %} target="_blank" {% endif %}>
-                            {{ link.title }}
-                        </a>
+                <div class="col-12 col-lg-2"></div>
+                <div class="col-12 col-lg-2">
+                    <div class="navbar-nav weight-500">
+                        {% for link in site.menus.navigation %}
+                        <div class="nav-item mb-1">
+                            <a class="text-white" href="{{ link.url | absolute_url }}" {% if link.target %} target="_blank" {% endif %}>
+                                {{ link.title }}
+                            </a>
+                        </div>
+                        {% endfor %}
                     </div>
-                    {% endfor %}
                 </div>
-            </div>
-            <div class="col-12 col-lg-2">
-                <div class="navbar-nav weight-500">
-                    {% for link in site.menus.navigation %}
-                    <div class="nav-item mb-1">
-                        <a class="text-white" href="{{ link.url | absolute_url }}" {% if link.target %} target="_blank" {% endif %}>
-                            {{ link.title }}
-                        </a>
+                <div class="col-12 col-lg-2">
+                    <div class="navbar-nav weight-500">
+                        {% for link in site.menus.navigation %}
+                        <div class="nav-item mb-1">
+                            <a class="text-white" href="{{ link.url | absolute_url }}" {% if link.target %} target="_blank" {% endif %}>
+                                {{ link.title }}
+                            </a>
+                        </div>
+                        {% endfor %}
                     </div>
-                    {% endfor %}
                 </div>
-            </div>
-            <div class="col-12 col-lg-2">
-                <div class="navbar-nav weight-500">
-                    {% for link in site.menus.navigation %}
-                    <div class="nav-item mb-1">
-                        <a class="text-white" href="{{ link.url | absolute_url }}" {% if link.target %} target="_blank" {% endif %}>
-                            {{ link.title }}
-                        </a>
+                <div class="col-12 col-lg-2">
+                    <div class="navbar-nav weight-500">
+                        {% for link in site.menus.navigation %}
+                        <div class="nav-item mb-1">
+                            <a class="text-white" href="{{ link.url | absolute_url }}" {% if link.target %} target="_blank" {% endif %}>
+                                {{ link.title }}
+                            </a>
+                        </div>
+                        {% endfor %}
                     </div>
-                    {% endfor %}
                 </div>
-            </div>
 
-            <div class="border-top d-lg-none"></div>
-            <div class="d-block d-lg-flex justify-content-between py-3 py-lg-2">
-                <div class="small mb-2 mb-lg-0"><span class="text-muted mr-5">&copy; 2019 Empyr. All right reserved.</span>
-                </div>
-                <div class="small"><a class="d-block d-lg-inline text-muted ml-lg-2 mb-2 mb-lg-0" href=""><span>Privacy Policy</span></a><a class="d-block d-lg-inline text-muted ml-lg-2" href=""><span>Terms of Service</span></a>
+                <div class="border-top d-lg-none"></div>
+                <div class="d-block d-lg-flex justify-content-between py-3 mt-5 py-lg-2">
+                    <div class="small mb-2 mb-lg-0"><span class="text-muted mr-5">&copy; 2019 Empyr. All right reserved.</span>
+                    </div>
+                    <div class="small"><a class="d-block d-lg-inline text-muted ml-lg-2 mb-2 mb-lg-0" href=""><span>Privacy Policy</span></a><a class="d-block d-lg-inline text-muted ml-lg-2" href=""><span>Terms of Service</span></a>
+                    </div>
                 </div>
             </div>
         </div>

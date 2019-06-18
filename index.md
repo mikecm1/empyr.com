@@ -83,18 +83,15 @@ testimonials:
 company_types:
 - badge: ADVERTISERS
   heading: National Brands
-  description: Become one of the forward-thinking brands accelerating their revenue
-    with card-linked offers.
+  description: See how Empyr can drive significant revenue for your brand at scale
   icon: ''
 - badge: PUBLISHERS
   heading: Websites & Apps
-  description: Become one of the forward-thinking brands accelerating their revenue
-    with card-linked offers.
+  description: Earn offline revenue from your own custom card-linked offer program
   icon: ''
 - badge: RESELLERS
   heading: Channel Partners
-  description: Become one of the forward-thinking brands accelerating their revenue
-    with card-linked offers.
+  description: Share Empyr with your clients for a brand new revenue stream
   icon: ''
 cta_footer_header: Solutions for all company types
 cta_footer_subheader: Become one of the forward-thinking brands accelerating their

@@ -15,7 +15,7 @@ $( document ).ready(function() {
         autoplay: {
             delay: 5000,
         },
-        // loop: true,
+        loop: true,
         slidesPerView: 3,
         spaceBetween: 0,
         loopedSlides: 0,
