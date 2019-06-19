@@ -7,6 +7,14 @@
     }  
 }
 
+.modal-backdrop {
+    z-index: 1040 !important;
+}
+
+.modal {
+    z-index: 9999 !important;
+    background-color:transparent!important;
+}
 
 .modal-fluid {
     .modal-dialog {
