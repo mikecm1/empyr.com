@@ -138,7 +138,7 @@ $display4-margin-bottom: $spacer * 1.5;
 
 // Buttons
 
-$input-btn-padding-y: .625rem;
+$input-btn-padding-y: .525rem;
 $input-btn-padding-x: 1.25rem;
 $input-btn-line-height: 1.5;
 $input-btn-padding-y-sm: 0.15rem;
@@ -267,7 +267,7 @@ $dropdown-item-padding-x: 1.5rem;
 $dropdown-header-color: $gray-600;
 
 // Navs
-$nav-link-padding-y: 0.3rem;
+$nav-link-padding-y: 0.2rem;
 $nav-link-padding-x: 1rem;
 $nav-link-disabled-color: $gray-600;
 $nav-tabs-border-color: #ddd;
@@ -283,14 +283,14 @@ $nav-pills-link-active-bg: $component-active-bg;
 
 // Navbar
 $navbar-transition: all 0.15s linear !default;
-$navbar-padding-y: 0.3rem !default;
-$navbar-padding-x: 1.5rem;
+$navbar-padding-y: 0 !default;
+$navbar-padding-x: 1.8rem;
 
 $navbar-nav-link-padding-x: 1rem !default;
-$navbar-nav-link-padding-y: 0.7rem !default;
+$navbar-nav-link-padding-y: 1.05rem !default;
 
 $navbar-nav-link-font-family: $font-family-sans-serif !default;
-$navbar-nav-link-font-size: 17px !default;
+$navbar-nav-link-font-size: 16.3px !default;
 $navbar-nav-link-font-weight: 500 !default;
 $navbar-nav-link-text-transform: normal !default;
 $navbar-nav-link-letter-spacing: 0 !default;
