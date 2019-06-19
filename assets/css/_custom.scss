@@ -82,8 +82,16 @@
     }
 
     @include media-breakpoint-up(lg) {
-        padding: 120px 0 220px;
+        padding: 90px 0 170px;
 //         border-radius: 0 0 40px 0;
+    }
+
+    @include media-breakpoint-up(xxl) {
+        padding: 100px 0 200px;
+    }
+
+    @include media-breakpoint-up(xxxl) {
+        padding: 120px 0 200px;
     }
 
     svg {
@@ -1209,11 +1217,10 @@ img {
 
     @include media-breakpoint-up('xxl') {
         right: 5vw;
-        left: 27vw;
         width: 940px;
         min-width: auto;
-        top: -330px;
-        left: 29%;
+        top: -310px;
+        left: 27%;
     }
 
     @include media-breakpoint-up('xxxl') {
