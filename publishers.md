@@ -54,7 +54,7 @@ all_features:
   icon: "/uploads/2019/05/icon-place.svg"
 - heading: 100% Attribution to In-Store Revenue
   icon: "/uploads/2019/05/icon-place.svg"
-show_case_studies: false
+show_case_studies: true
 section_one:
   tagline: USER EXPERIENCE
   section_header: |-

@@ -13,7 +13,7 @@ layout: default
                     <div class="col-12 col-md-8 col-lg-8 col-1400-10 poster-home-text">
                         <h1 class="display-3">{{ page.heading | default: page.title }}</h1>
                         {% if page.sub_heading and page.sub_heading != "" %}
-                        <p class="large mb-4">{{ page.sub_heading }}</p>
+                        <p class="large mb-3 mb-sm-4">{{ page.sub_heading }}</p>
                         {% endif %}
                         {% if page.hero_button %}
                         <div class="d-flex flex-column flex-md-row">
@@ -183,17 +183,14 @@ layout: default
     </div>
     <div class="container full">
             <div class="testimonials">
-                    <h1 class="text-center pb-4" style="
-                    color: #342f54; color: #fff;
-                    font-size: 55px;
-                ">Trusted by the best.</h1>
+                    <h1 class="text-center pb-4 mb-4">Trusted by the best.</h1>
                             <div class="swiper-container">
                                 <div class="swiper-wrapper">
                 
                                     {% for item in page.testimonials %}
                                     <div class="swiper-slide col-12 col-md-6 col-lg-4 eq">
                                         
-                                        <div class="card shadow-sm">
+                                        <div class="card">
                                             <div class="card-body">
                                                 <p class="lead mb-2 mt-0">"{{ item.quote }}"</p>
                                                 <div class="media align-items-center">
@@ -249,9 +246,9 @@ layout: default
             {% if page.company_types %}
             <div class="row pt-3">
                 {% for item in page.company_types %}
-                <div class="col-12 col-lg-4 mb-3 mb-md-0">
-                    <div class="card shadow-sm">
-                        <div class="card-body">
+                <div class="col-12 col-lg-4 mb-3 mb-md-2">
+                    <div class="card">
+                        <div class="card-body ptop">
                             <p class="text-primary small mb-0">{{ item.badge }}</p>
                             <h2>{{ item.heading }}</h2>
                             <p class="mb-2">{{ item.description }}</p>
