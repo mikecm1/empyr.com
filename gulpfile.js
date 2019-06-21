@@ -11,6 +11,9 @@ var gulp = require('gulp'),
     stylelint = require('gulp-stylelint'),
     reporter = require('postcss-reporter'),
     pxtorem = require('gulp-pxtorem'),
+    concat = require('gulp-concat'),
+    uglify = require('gulp-uglify'),
+    replace = require('gulp-replace'),
     csso = require('postcss-csso');
 
 gulp.task('generate', shell.task('bundle exec jekyll serve --watch --incremental --livereload'));
@@ -41,6 +44,29 @@ gulp.task('scss-local', function () {
         .pipe(gulp.dest('css/'))
         .pipe(touch());
 });
+
+// gulp.task('jsTask', function () {
+//     return gulp.src('.assets/js/**/*.js')
+//         .pipe(concat('all.js'))
+//         .pipe(uglify())
+//         .pipe(gulp.dest('dist/')
+//     );
+// });
+
+
+gulp.task('jsTask', function() {
+    return gulp.src('.assets/js/**/*.js')
+      .pipe(concat('all.js'))
+      .pipe(gulp.dest('dist/'))
+  });
+
+// var cbString = new Date().getTime();
+// function cacheBustTask(){
+//     return src(['index.html'])
+//         .pipe(replace(/cb=\d+/g, 'cb=' + cbString))
+//         .pipe(dest('.'));
+// }
+
 
 // Deploy on forestry.io
 gulp.task('deploy', gulp.series(
