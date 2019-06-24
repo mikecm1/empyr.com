@@ -17,9 +17,9 @@ partners:
 - "/uploads/2019/05/cnn.svg"
 - "/uploads/2019/05/airbnb.svg"
 primary_body_copy_headline: Increase engagement. Make more money.
-primary_body_copy_subheadline: Give your users another reason to open your app more often.
-  Empyr gives leading websites & apps the power to build customized card-linked offer
-  reward programs that drive repeat interaction and helps turn users into advocates.
+primary_body_copy_subheadline: Give your users another reason to open your app more
+  often. Empyr gives leading websites & apps the power to build customized card-linked
+  offer reward programs that drive repeat interaction and helps turn users into advocates.
 show_mainfeatures: true
 mainfeatures:
 - heading: Unlimited revenue potential
@@ -78,11 +78,6 @@ section_two:
     text: Learn More
     link_url: index.md
 menu:
-#   navigation:
-#     weight: 2
-#     parent: partners
-#     title: Websites & Apps
-#     identifier: publishers
   partners:
     weight: 1
     title: Websites & Apps
