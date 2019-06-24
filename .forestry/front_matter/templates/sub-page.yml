@@ -290,5 +290,6 @@ fields:
     labelField: 
   label: Case Studies
 pages:
+- "./advertisers.md"
 - publishers.md
 - advertiser.md
