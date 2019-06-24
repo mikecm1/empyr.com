@@ -250,11 +250,13 @@ $form-feedback-invalid-color: theme-color("danger");
 
 // Dropdown
 $dropdown-min-width: 10rem;
-$dropdown-padding-y: 0.5rem;
+$dropdown-padding-y: 1.9rem;
+$dropdown-padding-x: 1.4rem;
 $dropdown-spacer: 0.125rem;
 $dropdown-bg: $white;
 $dropdown-border-color: rgba($black, 0);
 $dropdown-border-width: $border-width;
+$dropdown-border-radius: 0.45rem;
 $dropdown-divider-bg: $gray-200;
 $dropdown-box-shadow: rgba(67, 90, 111, 0.416) 0px 0px 1px, rgba(67, 90, 111, 0.3) 0px 2px 4px -2px;
 $dropdown-link-color: $gray-900;
@@ -263,8 +265,8 @@ $dropdown-link-hover-bg: $gray-100;
 $dropdown-link-active-color: $component-active-color;
 $dropdown-link-active-bg: $component-active-bg;
 $dropdown-link-disabled-color: $gray-600;
-$dropdown-item-padding-y: 0.25rem;
-$dropdown-item-padding-x: 1.5rem;
+$dropdown-item-padding-y: 0.2rem;
+$dropdown-item-padding-x: 0rem;
 $dropdown-header-color: $gray-600;
 
 // Navs

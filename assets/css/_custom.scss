@@ -338,16 +338,40 @@ h1 {
 }
 
 .site-header a:hover {
-    color: $white;
-    text-decoration: none;
+    // color: $white;
+    // text-decoration: none;
+    background: transparent;
 }
 
 li.nav-item {
     margin-bottom: 0 !important;
 }
 
-.navbar :hover>.dropdown-menu {
+// .navbar .dropdown-menu {
+//     display: block;
+// }
+
+.navbar {
+:hover>.dropdown-menu {
     display: block;
+}
+.dropdown-menu {
+    max-width: 400px;
+    left: 50% !important;
+  transform: translateX(-50%) !important;
+  top: 90% !important;
+}
+.dropdown-item {
+    white-space: normal;
+    span {
+        font-size: 1.1rem;
+        font-weight: 500;
+        border: 0;
+    }
+    &:hover {
+        text-decoration-style: none;
+    }
+}
 }
 
 .navbar li {

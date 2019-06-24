@@ -17,12 +17,29 @@ Displays the site's navigation using the jekyll-menus plugin
                     <a class="nav-link {% if item.children %}nested dropdown-toggle{% endif %}{% if url == item.url %}active{% endif %}" href="{{ item.url }}" title="{{ item.title }}" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ item.title }}</a>
                 {% if item.children %}
                 <div class="sub-menu dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    {% for item in item.children %}
+                        <div class="row">
+                                {% for item in item.children %}
+                                <div class="col-12 mb-5 mb-md-0">
+                                  <div class="media align-items-center pb-1 mb-1">
+                                    <div class="mr-2"><img class="rounded" src="./assets/pictures/userpic.png" width="44" height="44" /></div>
+                                    <div class="media-body">
+                                            <a class="dropdown-item" href="{{ item.url }}" title="{{ item.title }}"><span>{{ item.title }}</span>
+                                      <p class="small mb-0">Description Description Description Description Description Description</p></a>
+                                    </div>
+                                  </div>
+                    <!-- {% for item in item.children %} -->
                     <!-- <li class="menu-item-{{ loop.index }}"> -->
-                        <a class="dropdown-item" href="{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a>
+                        <!-- <div class="row">
+                            <div class="col-12 col-md-6 d-flex mb-4">
+                              <div class="mr-3"><img src="./assets/glyphs/rectangle-1.svg" width="32" /></div>
+                              <a class="dropdown-item" href="{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a>
+                              <div class="small">Gorgeous, high-quality video sharing on desktop, mobile, tablet</div>
+                            </div>
+                          </div> -->
                     <!-- </li> -->
-                    {% endfor %}
+                    <!-- {% endfor %} -->
                 </div>
+                {% endfor %}
             </div>
                 {% endif %}
             </li>

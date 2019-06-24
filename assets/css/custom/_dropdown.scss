@@ -6,12 +6,13 @@
 }
 
 .dropdown-menu {
-    min-width: 12rem;
+    min-width: 22rem;
+    padding: $dropdown-padding-y $dropdown-padding-x 1.2rem;
     @include border-radius($dropdown-border-radius);
     @include box-shadow($dropdown-box-shadow);
     border: none;
     .dropdown-item {
-        padding: .5rem 1rem;
+        // padding: .5rem 1rem;
         font-size: $font-size-sm;
         > i,
         > svg {
@@ -22,6 +23,42 @@
     }
 }
 
+.dropdown-item {
+    display: block;
+    width: 100%; // For `<button>`s
+    padding: $dropdown-item-padding-y $dropdown-item-padding-x;
+    clear: both;
+    font-weight: $font-weight-normal;
+    color: $dropdown-link-color;
+    text-align: inherit; // For `<button>`s
+    white-space: nowrap; // prevent links from randomly breaking onto new lines
+    background-color: transparent; // For `<button>`s
+    border: 0; // For `<button>`s
+  
+    @include hover-focus {
+      color: $dropdown-link-hover-color;
+      text-decoration: none;
+      @include gradient-bg($dropdown-link-hover-bg);
+    }
+  
+    &.active,
+    &:active {
+      color: $dropdown-link-active-color;
+      text-decoration: none;
+      @include gradient-bg($dropdown-link-active-bg);
+    }
+  
+    &.disabled,
+    &:disabled {
+      color: $dropdown-link-disabled-color;
+      background-color: transparent;
+      // Remove CSS gradients if they're enabled
+      @if $enable-gradients {
+        background-image: none;
+      }
+    }
+  }
+  
 .dropdown-header {
     padding-left: 1rem;
     padding-right: 1rem;
