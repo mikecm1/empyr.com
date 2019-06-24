@@ -40,6 +40,5 @@ all_features_headline: ''
 all_features: []
 show_case_studies: false
 case_studies: []
-published: false
 
 ---
