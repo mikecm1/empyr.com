@@ -291,6 +291,5 @@ fields:
   label: Case Studies
 pages:
 - whyyyy.md
-- "./advertisers.md"
 - publishers.md
 - advertiser.md
