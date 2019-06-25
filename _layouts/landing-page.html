@@ -83,7 +83,7 @@ layout: default
     <div class="intro container full">
         <div class="row pt-5">
             <div class="col-12">
-                <h1 class="headline mb-2 mt-2 aos-init aos-animate" data-aos="basic">{{ page.primary_body_copy_headline }}</h1>
+                <h1 class="headline mb-2 mt-2" data-aos="basic">{{ page.primary_body_copy_headline }}</h1>
             </div>
             <div class="col-md-7">
                 <p class="large mb-4" data-aos="basic" data-aos-delay="100">{{ page.primary_body_copy_subtext }}</p>
@@ -134,27 +134,29 @@ layout: default
             {% if page.section_one %}
             <section>
                 <div class="row justify-content-between align-items-center">
-                    <div class="col-12 col-md-5 order-2 order-md-1" data-aos="basic">
-                        <h4 class="mb-2 tag">{{ page.section_one.tagline }}</h4>
-                        <h1 class="display-4">{{ page.section_one.section_header }}</h1>
-                        <p class="lead large mb-4">{{ page.section_one.section_body_copy }}</p>
-                        <a href="{{ page.section_one.button.link_url }}" class="btn btn-lg btn-secondary">{{ page.section_one.button.text }}</a>
+                    <div class="col-12 col-md-5 order-2 order-md-1 pr-0">
+                        <h4 class="mb-2 tag" data-aos="basic">{{ page.section_one.tagline }}</h4>
+                        <h1 class="display-4" data-aos="basic">{{ page.section_one.section_header }}</h1>
+                        <img src="/img/headline-separator.svg" alt="" data-aos="basic">
+                        <p class="lead large mb-4" data-aos="basic" data-aos-delay="100">{{ page.section_one.section_body_copy }}</p>
+                        <a href="{{ page.section_one.button.link_url }}" class="btn btn-lg btn-secondary" data-aos="basic" data-aos-delay="200" data-aos-anchor=".lead">{{ page.section_one.button.text }}</a>
                     </div>
-                    <div class="col-12 col-md-6 order-1 order-md-2 pl-md-0 mb-4 mb-md-0">
-                        <img class="w-100" src="/assets/pictures/image-555x380.png" />
+                    <div class="col-12 col-md-7 order-1 order-md-2 pl-md-4 mb-4 mb-md-0 pr-0">
+                        <img class="w-100" src="/img/section-logo-rounded.png" data-aos="fade-left" data-aos-delay="300">
                     </div>
                 </div>
             </section>
             {% endif %}
             {% if page.section_two %}
-            <section>
+            <section class="bg-left">
                 <div class="row justify-content-between align-items-center">
-                    <div class="col-12 col-md-6 pl-md-0 mb-4 mb-md-0">
-                        <img class="w-100" src="/assets/pictures/image-555x380.png" />
+                    <div class="col-12 col-md-7 pl-md-0 mb-4 mb-md-0 pr-md-4">
+                        <img class="w-100" src="/img/section-roas.svg">
                     </div>
                     <div class="col-12 col-md-5" data-aos="basic">
                         <h4 class="mb-2 tag">{{ page.section_two.tagline }}</h4>
                         <h1 class="display-4">{{ page.section_two.section_header }}</h1>
+                        <img src="/img/headline-separator.svg" alt="">
                         <p class="lead large mb-4">{{ page.section_two.section_body_copy }}</p>
                         <a href="{{ page.section_two.button.link_url }}" class="btn btn-lg btn-secondary">{{ page.section_two.button.text }}</a>
                     </div>
@@ -162,12 +164,13 @@ layout: default
             </section>
             {% endif %}
             {% if page.section_three %}
-            <section class="mb-5 pb-5">
+            <section class="mb-0 pb-1">
                 <div class="row justify-content-between align-items-center home_analytics">
                     <div class="col-12 col-md-6 col-xl-5 z1" data-aos="basic">
                         <!-- <span class="badge badge-primary mb-2">{{ page.section_three.tagline }}</span> -->
                         <h4 class="mb-2 tag">{{ page.section_three.tagline }}</h4>
                         <h1 class="display-4">{{ page.section_three.section_header }}</h1>
+                        <img src="/img/headline-separator.svg" alt="">
                         <p class="lead large mb-4">{{ page.section_three.section_body_copy }}</p>
                         <a href="{{ page.section_three.button.link_url }}" class="btn btn-lg btn-secondary">{{ page.section_three.button.text }}</a>
                     </div>

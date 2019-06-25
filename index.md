@@ -10,6 +10,7 @@ partners:
 - "/uploads/2019/05/cisco.svg"
 - "/uploads/2019/05/airbnb.svg"
 - "/uploads/2019/05/uber.svg"
+partner_language: Empyr powers card-linked offer programs for leading brands and top digital companies.
 mainfeatures:
 - heading: Exclusive Distribution
   description: Vivamus sagittis lacus vel augue laoreet rutrum faucibus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus.
