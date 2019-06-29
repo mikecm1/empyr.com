@@ -57,7 +57,7 @@ $link-hover-decoration: none;
 
 // Grid
 $grid-breakpoints: (xs: 0, sm: 576px, md: 768px, lg: 992px, 1024: 1024px, xl: 1150px, xxl: 1400px, xxxl:1600px);
-$container-max-widths: (sm: 768px, md: 992px, lg: 1150px, xl: 1440px);
+$container-max-widths: (sm: 768px, md: 992px, lg: 1150px, xl: 1300px);
 $grid-columns: 12;
 $grid-gutter-width: 30px;
 
@@ -69,8 +69,9 @@ $border-radius: 0.25rem;
 $border-radius-lg: 0.8rem;
 $border-radius-sm: 0.2rem;
 // $box-shadow-sm: 0 0.125rem 0.25rem rgba(50, 50, 93, 0.1);
-$box-shadow-sm: 0 4px 15px -6px rgba(45,80,187,.15);
-$box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
+$box-shadow-sm: 0 4px 15px -6px rgba(45, 80, 187, .15);
+$box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1),
+0 5px 15px rgba(0, 0, 0, 0.07);
 $box-shadow-lg: 0 1rem 3rem rgba($black, 0.175);
 $component-active-color: $white;
 $component-active-bg: theme-color("primary");
@@ -80,8 +81,20 @@ $transition-fade: opacity 0.15s linear;
 $transition-collapse: height 0.35s ease;
 
 // Fonts
-$font-family-sans-serif: "Neurial Grotesk", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-$font-family-monospace: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+$font-family-sans-serif: "Neurial Grotesk",
+-apple-system,
+BlinkMacSystemFont,
+"Segoe UI",
+Roboto,
+"Helvetica Neue",
+Arial,
+sans-serif;
+$font-family-monospace: Menlo,
+Monaco,
+Consolas,
+"Liberation Mono",
+"Courier New",
+monospace;
 $font-family-base: $font-family-sans-serif;
 $font-size-base: 1.0625rem;
 $font-size-lg: 1.25rem;
@@ -128,7 +141,7 @@ $nested-kbd-font-weight: $font-weight-bold;
 $list-inline-padding: 5px;
 $mark-bg: #fcf8e3;
 $small-font-size: 87.5% !default;
-$large-font-size: 112.5% !default;
+$large-font-size: 109% !default;
 $large-line-height: 1.7 !default;
 
 $display1-margin-bottom: $spacer * 1.5;
@@ -149,9 +162,11 @@ $input-btn-padding-y-lg: 1.075rem;
 $input-btn-padding-x-lg: 2.6rem;
 $input-btn-line-height-lg: 1.5;
 $btn-font-weight: $font-weight-bold;
-$btn-box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+$btn-box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11),
+0 1px 3px rgba(0, 0, 0, 0.08);
 // $btn-box-shadow: inherit;
-$btn-focus-box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+$btn-focus-box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1),
+0 3px 6px rgba(0, 0, 0, 0.08);
 $btn-active-box-shadow: none;
 $btn-link-disabled-color: $gray-600;
 $btn-block-spacing-y: 0.5rem;
@@ -172,17 +187,19 @@ $input-border-radius-lg: $border-radius-lg;
 $input-border-radius-sm: $border-radius-sm;
 $input-focus-bg: $input-bg;
 $input-focus-border-color: lighten(theme-color("primary"), 25%);
-$input-focus-box-shadow: $input-box-shadow, $btn-focus-box-shadow;
+$input-focus-box-shadow: $input-box-shadow,
+$btn-focus-box-shadow;
 $input-focus-color: $input-color;
 $input-placeholder-color: $gray-600;
 $input-height-border: $input-btn-border-width * 2;
-$input-height-inner: $font-size-base * $input-btn-line-height + $input-btn-padding-y * 2;
+$input-height-inner: $font-size-base * $input-btn-line-height+$input-btn-padding-y * 2;
 $input-height: calc(#{$input-height-inner} + #{$input-height-border});
-$input-height-inner-sm: $font-size-sm * $input-btn-line-height-sm + $input-btn-padding-y-sm * 2;
+$input-height-inner-sm: $font-size-sm * $input-btn-line-height-sm+$input-btn-padding-y-sm * 2;
 $input-height-sm: calc(#{$input-height-inner-sm} + #{$input-height-border});
-$input-height-inner-lg: $font-size-sm * $input-btn-line-height-lg + $input-btn-padding-y-lg * 2;
+$input-height-inner-lg: $font-size-sm * $input-btn-line-height-lg+$input-btn-padding-y-lg * 2;
 $input-height-lg: calc(#{$input-height-inner-lg} + #{$input-height-border});
-$input-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+$input-transition: border-color ease-in-out 0.15s,
+box-shadow ease-in-out 0.15s;
 $form-text-margin-top: 0.25rem;
 $form-check-margin-bottom: 0.5rem;
 $form-check-input-gutter: 1.25rem;
@@ -204,7 +221,8 @@ $custom-control-description-disabled-color: $gray-600;
 $custom-control-indicator-checked-color: $white;
 $custom-control-indicator-checked-bg: theme-color("primary");
 $custom-control-indicator-checked-box-shadow: none;
-$custom-control-indicator-focus-box-shadow: 0 0 0 1px $body-bg, 0 0 0 3px theme-color("primary");
+$custom-control-indicator-focus-box-shadow: 0 0 0 1px $body-bg,
+0 0 0 3px theme-color("primary");
 $custom-control-indicator-active-color: $white;
 $custom-control-indicator-active-bg: lighten(theme-color("primary"), 35%);
 $custom-control-indicator-active-box-shadow: none;
@@ -228,12 +246,14 @@ $custom-select-border-width: $input-btn-border-width;
 $custom-select-border-color: $input-border-color;
 $custom-select-border-radius: $border-radius;
 $custom-select-focus-border-color: lighten(theme-color("primary"), 25%);
-$custom-select-focus-box-shadow: inset 0 1px 2px rgba($black, 0.075), 0 0 5px rgba($custom-select-focus-border-color, 0.5);
+$custom-select-focus-box-shadow: inset 0 1px 2px rgba($black, 0.075),
+0 0 5px rgba($custom-select-focus-border-color, 0.5);
 $custom-select-font-size-sm: 75%;
 $custom-select-height-sm: $input-height-sm;
 $custom-file-height: 2.5rem;
 $custom-file-width: 14rem;
-$custom-file-focus-box-shadow: 0 0 0 0.075rem $white, 0 0 0 0.2rem theme-color("primary");
+$custom-file-focus-box-shadow: 0 0 0 0.075rem $white,
+0 0 0 0.2rem theme-color("primary");
 $custom-file-padding-y: 1rem;
 $custom-file-padding-x: 0.5rem;
 $custom-file-line-height: 1.5;
@@ -258,7 +278,8 @@ $dropdown-border-color: rgba($black, 0);
 $dropdown-border-width: $border-width;
 $dropdown-border-radius: 0.45rem;
 $dropdown-divider-bg: $gray-200;
-$dropdown-box-shadow: rgba(67, 90, 111, 0.416) 0px 0px 1px, rgba(67, 90, 111, 0.3) 0px 2px 4px -2px;
+$dropdown-box-shadow: rgba(67, 90, 111, 0.416) 0px 0px 1px,
+rgba(67, 90, 111, 0.3) 0px 2px 4px -2px;
 $dropdown-link-color: $gray-900;
 $dropdown-link-hover-color: darken($gray-900, 5%);
 $dropdown-link-hover-bg: $gray-100;
@@ -299,10 +320,10 @@ $navbar-nav-link-text-transform: normal !default;
 $navbar-nav-link-letter-spacing: 0 !default;
 $navbar-nav-link-border-radius: $border-radius !default;
 
-$navbar-side-font-size:             1.225rem !default;
-$navbar-side-line-height-sm:        0.675rem !default;
-$navbar-side-line-height:           0.675rem !default;
-$navbar-side-line-height-lg:        1.225rem  !default;
+$navbar-side-font-size: 1.225rem !default;
+$navbar-side-line-height-sm: 0.675rem !default;
+$navbar-side-line-height: 0.675rem !default;
+$navbar-side-line-height-lg: 1.225rem !default;
 // Pagination
 
 $navbar-dark-bg: transparent !default;
@@ -421,7 +442,7 @@ $popover-body-padding-x: 14px;
 $popover-arrow-width: 10px;
 $popover-arrow-height: 5px;
 $popover-arrow-color: $popover-bg;
-$popover-arrow-outer-width: $popover-arrow-width + 1px;
+$popover-arrow-outer-width: $popover-arrow-width+1px;
 $popover-arrow-outer-color: fade-in($popover-border-color, 0.05);
 
 // Badges

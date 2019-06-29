@@ -1,5 +1,4 @@
 <footer>
-
     <div class="footer-cta">
         <!-- <div class="footer-cta"> -->
         <div class="container">
@@ -7,14 +6,27 @@
             {% assign info = site.data.information %}
             <div class="row fcta">
                 <div class="col-12 col-md-6">
-                    <p class="callout">Digital advertising. Redefined.</p>
+                    <!-- <p class="callout">Digital advertising. Redefined.</p> -->
                     <h1 class="display-4 mb-2">{{ info.footer_details.main_header_home }}</h1>
                     <p class="lead large mb-4">{{ info.footer_details.main_subheader_home }}</p>
-                    <a href="{{ info.footer_details.cta_url }}" class="text-white">
+                    <a href="{{ info.footer_details.cta_url }}"
+                       class="text-white">
                         <h3 class="text-white font-weight-bold"><i class="fa fa-arrow-circle-right"></i>{{ info.footer_details.cta_text }}</h3>
                     </a>
                 </div>
             </div>
+            {% if page.partners %}
+            <div class="pb-0 pt-5 mt-1">
+                <div class="row justify-content-center justify-content-lg-between text-center align-items-center">
+                    {% for logo in page.partners %}
+                    <div class="col mt-3 mb-lg-0">
+                        <img src="{{ logo | absolute_url }}"
+                             style="width: 100px; max-width: 65%" />
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+            {% endif %}
         </div>
     </div>
     {% endif %}
@@ -22,14 +34,27 @@
     <div class="bottom">
         <div class="container">
             <div class="d-lg-flex justify-content-between py-3 py-lg-2">
-                <div class="small mb-2 mb-lg-0"><span class="text-muted mr-5"><img src="{{site.logo}}" width="100">.</span></div>
+                <div class="small mb-2 mb-lg-0"><span class="text-muted mr-5"><img src="{{site.logo}}"
+                             width="100">.</span></div>
                 <div class="d-flex small align-items-end justify-content-between">
-                    <div><a class="d-block d-lg-inline text-muted ml-lg-3 mb-2 mb-lg-0" href=""><span>&copy; 2019 Empyr. All right reserved.</span></a><a class="d-block d-lg-inline text-muted ml-lg-3 mb-2 mb-lg-0" href=""><span>Terms of Service</span></a><a class="d-block d-lg-inline text-muted ml-lg-3 mb-2 mb-lg-0" href=""><span>Legal</span></a><a class="d-block d-lg-inline text-muted ml-lg-3" href=""><span>Site map</span></a><a class="d-block d-lg-inline text-muted ml-lg-3" href=""><span>Site map</span></a></div>
-                    <div class="d-none d-lg-block ml-3"><a class="transparent-link" href=""><img src="./assets/glyphs/instagram.svg" width="16" /></a><a class="transparent-link ml-2" href=""><img src="./assets/glyphs/facebook.svg" width="16" /></a></div>
-                    <div class="d-lg-none"><a class="transparent-link" href=""><img src="./assets/glyphs/instagram.svg" width="24" /></a><a class="transparent-link ml-2" href=""><img src="./assets/glyphs/facebook.svg" width="24" /></a></div>
+                    <div class="my-auto"><a class="d-block d-lg-inline text-muted ml-lg-3 mb-2 mb-lg-0"
+                           href=""><span>&copy; 2019 Empyr. All right reserved.</span></a><a class="d-block d-lg-inline text-muted ml-lg-3 mb-2 mb-lg-0"
+                           href=""><span>Terms of Service</span></a><a class="d-block d-lg-inline text-muted ml-lg-3 mb-2 mb-lg-0"
+                           href=""><span>Legal</span></a><a class="d-block d-lg-inline text-muted ml-lg-3"
+                           href=""><span>Site map</span></a><a class="d-block d-lg-inline text-muted ml-lg-3"
+                           href=""><span>Site map</span></a></div>
+                    <div class="d-none d-lg-block ml-3"><a class="transparent-link"
+                           href=""><img src="./assets/glyphs/instagram.svg"
+                                 width="16" /></a><a class="transparent-link ml-2"
+                           href=""><img src="./assets/glyphs/facebook.svg"
+                                 width="16" /></a></div>
+                    <div class="d-lg-none"><a class="transparent-link"
+                           href=""><img src="./assets/glyphs/instagram.svg"
+                                 width="24" /></a><a class="transparent-link ml-2"
+                           href=""><img src="./assets/glyphs/facebook.svg"
+                                 width="24" /></a></div>
                 </div>
             </div>
-
         </div>
     </div>
 </footer>
@@ -38,7 +63,7 @@
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
     document.documentElement.className = 'js';
-    AOS.init();
+    // AOS.init();
     AOS.init({
         once: !0,
         duration: 400,

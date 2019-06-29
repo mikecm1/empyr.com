@@ -21,9 +21,9 @@ mainfeatures:
 - description: Vivamus sagittis lacus vel augue laoreet rutrum faucibus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus.
   heading: Full Offline Attribution
   icon: "/uploads/2019/05/icon-place.svg"
-- description: Vivamus sagittis lacus vel augue laoreet rutrum faucibus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus.
-  heading: In-Depth Analytics
-  icon: "/uploads/2019/05/icon-place.svg"
+# - description: Vivamus sagittis lacus vel augue laoreet rutrum faucibus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus.
+#   heading: In-Depth Analytics
+#   icon: "/uploads/2019/05/icon-place.svg"
 sub_heading: Empyr is the leading card-linked offer engagement platform, providing
   retail brands with guaranteed revenue and an enhanced consumer experience, all while
   unlocking transparent offline sales analytics.
@@ -82,21 +82,20 @@ testimonials:
   company: Company
   icon: "/uploads/2019/05/icon-place.svg"
 company_types:
-- badge: ADVERTISERS
+- badge: Advertisers
   heading: National Brands
   description: See how Empyr can drive significant revenue for your brand at scale
   icon: ''
-- badge: PUBLISHERS
+- badge: Publishers
   heading: Websites & Apps
   description: Earn offline revenue from your own custom card-linked offer program
   icon: ''
-- badge: RESELLERS
+- badge: Agencies
   heading: Channel Partners
   description: Share Empyr with your clients for a brand new revenue stream
   icon: ''
-cta_footer_header: Solutions for all company types
-cta_footer_subheader: Become one of the forward-thinking brands accelerating their
-  revenue with card-linked offers.
+cta_footer_header: Get started with card-linked offers
+cta_footer_subheader: Make Empyr part of your digital strategy and start accelerating your revenue today.
 section_one:
   super: ''
   heading: ''
