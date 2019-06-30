@@ -1,7 +1,7 @@
 title: Empyr.com
 short_title: Empyr
 description: Empyr.com site
-baseurl:
+baseurl: /
 permalink: "/:path/"
 logo: /assets/logos/empyr.svg
 defaults:

@@ -4,16 +4,11 @@ Displays the site's navigation using the jekyll-menus plugin
 
 {% assign url = page.url | remove:'index.html' %}
 
-<nav class="sticky-top navbar navbar-expand-lg justify-content-between
+<nav class="fixed-top navbar navbar-expand-lg justify-content-between
     site-header navbar-dark">
-    <div class="d-lg-none"><a class="navbar-toggler mr-1"
-            href=""
-            data-id="headers-4-sidebar-toggle"><img
-                src="/assets/glyphs/burger.svg"></a></div>
-    <a href="{{ site.url }}"><img src="{{site.logo}}"
-            width="100"></a>
-    <div class="collapse navbar-collapse"
-        id="navigations-08">
+    <div class="d-lg-none"><a class="navbar-toggler mr-1" href="" data-id="headers-4-sidebar-toggle"><img src="/assets/glyphs/burger.svg"></a></div>
+    <a href="{{ site.url }}"><img src="{{site.logo}}" width="100"></a>
+    <div class="collapse navbar-collapse" id="navigations-08">
 
         <ul class="navbar-nav ml-auto">
             {% for item in site.menus.navigation %}
@@ -23,28 +18,16 @@ Displays the site's navigation using the jekyll-menus plugin
                     %}active{% endif %}{% endif %}">
                     <a class="nav-link {% if item.children %}nested
                         dropdown-toggle{% endif %}{% if url == item.url
-                        %}active{% endif %}"
-                        href="{{ item.url }}"
-                        title="{{ item.title }}"
-                        id="dropdownMenuButton"
-                        data-toggle="dropdown"
-                        aria-haspopup="true"
-                        aria-expanded="false">{{ item.title }}</a>
+                        %}active{% endif %}" href="{{ item.url }}" title="{{ item.title }}" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ item.title }}</a>
                     {% if item.children %}
-                    <div class="sub-menu dropdown-menu animate slideIn"
-                        aria-labelledby="dropdownMenuButton">
+                    <div class="sub-menu dropdown-menu animate slideIn" aria-labelledby="dropdownMenuButton">
                         <div class="row">
                             {% for item in item.children %}
                             <div class="col-12 mb-5 mb-md-0">
                                 <div class="media align-items-center pb-1 mb-1">
-                                    <div class="mr-2"><img class="rounded"
-                                            src="/assets/pictures/userpic.png"
-                                            width="44"
-                                            height="44" /></div>
+                                    <div class="mr-2"><img class="rounded" src="/assets/pictures/userpic.png" width="44" height="44" /></div>
                                     <div class="media-body">
-                                        <a class="dropdown-item"
-                                            href="{{ item.url }}"
-                                            title="{{ item.title }}"><span>{{
+                                        <a class="dropdown-item" href="{{ item.url }}" title="{{ item.title }}"><span>{{
                                                 item.title }}</span>
                                             <p class="small mb-0">Description
                                                 Description Description
@@ -68,93 +51,67 @@ Displays the site's navigation using the jekyll-menus plugin
                             {% endfor %}
                         </div>
                         {% endif %}
-                    </li>
-                    {% endfor %}
-                </ul>
+            </li>
+            {% endfor %}
+        </ul>
 
 
-                <!-- <a class="btn btn-outline-primary btn-sm mt-2 mt-md-0 ml-lg-3" href="#">Join</a> -->
-                <button type="button"
-                    class="btn btn-primary">Get Started</button>
-            </div>
+        <!-- <a class="btn btn-outline-primary btn-sm mt-2 mt-md-0 ml-lg-3" href="#">Join</a> -->
+        <button type="button" class="btn btn-primary">Get Started</button>
+    </div>
 
-        </nav>
+</nav>
 
-        <div class="navbar-side"
-            id="headers-4-sidebar"
-            data-id="headers-4-sidebar-close">
-            <div class="navbar-side-content d-flex flex-column
+<div class="navbar-side" id="headers-4-sidebar" data-id="headers-4-sidebar-close">
+    <div class="navbar-side-content d-flex flex-column
                 justify-content-between">
-                <div class="weight-700">
-                    <a class="navbar-side-close mb-4"
-                        href=""
-                        data-id="headers-4-sidebar-close">
-                        <img src="/assets/glyphs/close.svg"
-                            width="32" />
+        <div class="weight-700">
+            <a class="navbar-side-close mb-4" href="" data-id="headers-4-sidebar-close">
+                <img src="/assets/glyphs/close.svg" width="32" />
+            </a>
+            <div class="navbar-nav">
+                {% for link in site.menus.navigation %}
+                <div class="nav-item">
+                    <a class="nav-link text-dark pl-0" href="{{ link.url | absolute_url }}" {% if link.target %} target="_blank" {% endif %}>
+                        {{ link.title }}
                     </a>
-                    <div class="navbar-nav">
-                        {% for link in site.menus.navigation %}
-                        <div class="nav-item">
-                            <a class="nav-link text-dark pl-0"
-                                href="{{ link.url | absolute_url }}"
-                                {% if link.target %}
-                                target="_blank"
-                                {% endif %}>
-                                {{ link.title }}
-                            </a>
-                        </div>
-                        {% endfor %}
-                        <div class="nav-item d-none d-lg-block">
-                            <a class="nav-link text-dark pr-0"
-                                href="">
-                                <img src="/assets/glyphs/search.svg" />
-                            </a>
-                        </div>
-                    </div>
                 </div>
-                <div>
-                    <p class="mb-3">
-                        <a class="transparent-invert-link"
-                            href="">
-                            <img src="/assets/glyphs/instagram-small.svg"
-                                width="16" />
-                        </a>
-                        <a class="transparent-invert-link ml-2"
-                            href="">
-                            <img src="/assets/glyphs/facebook-small.svg"
-                                width="16" />
-                        </a>
-                        <a class="transparent-invert-link ml-2"
-                            href="">
-                            <img src="/assets/glyphs/twitter-small.svg"
-                                width="16" />
-                        </a>
-                        <a class="transparent-invert-link ml-2"
-                            href="">
-                            <img src="/assets/glyphs/pinterest-small.svg"
-                                width="16" />
-                        </a>
-                        <a class="transparent-invert-link ml-2"
-                            href="">
-                            <img src="/assets/glyphs/thumbler-small.svg"
-                                width="16" />
-                        </a>
-                    </p>
-                    <p class="small mb-0"><span class="d-block d-xl-inline
-                            text-muted mb-1 mb-xl-0 mr-2">&copy; 2019 Acme. All
-                            right reserved.</span><a class="text-muted mr-2"
-                            href=""><span>Privacy Policy</span></a><a
-                            class="text-muted"
-                            href=""><span>Terms of Service</span></a>
-                    </p>
+                {% endfor %}
+                <div class="nav-item d-none d-lg-block">
+                    <a class="nav-link text-dark pr-0" href="">
+                        <img src="/assets/glyphs/search.svg" />
+                    </a>
                 </div>
-            </div>
-            <div class="navbar-side-content weight-700">
-                <a class="navbar-side-close mb-4"
-                    href=""
-                    data-id="headers-4-sidebar-close">
-                    <img src="/assets/glyphs/close.svg"
-                        width="32" />
-                </a>
             </div>
         </div>
+        <div>
+            <p class="mb-3">
+                <a class="transparent-invert-link" href="">
+                    <img src="/assets/glyphs/instagram-small.svg" width="16" />
+                </a>
+                <a class="transparent-invert-link ml-2" href="">
+                    <img src="/assets/glyphs/facebook-small.svg" width="16" />
+                </a>
+                <a class="transparent-invert-link ml-2" href="">
+                    <img src="/assets/glyphs/twitter-small.svg" width="16" />
+                </a>
+                <a class="transparent-invert-link ml-2" href="">
+                    <img src="/assets/glyphs/pinterest-small.svg" width="16" />
+                </a>
+                <a class="transparent-invert-link ml-2" href="">
+                    <img src="/assets/glyphs/thumbler-small.svg" width="16" />
+                </a>
+            </p>
+            <p class="small mb-0"><span class="d-block d-xl-inline
+                            text-muted mb-1 mb-xl-0 mr-2">&copy; 2019 Acme. All
+                    right reserved.</span><a class="text-muted mr-2" href=""><span>Privacy Policy</span></a><a class="text-muted" href=""><span>Terms of Service</span></a>
+            </p>
+        </div>
+    </div>
+    <div class="navbar-side-content weight-700">
+        <a class="navbar-side-close mb-4" href="" data-id="headers-4-sidebar-close">
+            <img src="/assets/glyphs/close.svg" width="32" />
+        </a>
+    </div>
+</div>
+<div class="barba-container">

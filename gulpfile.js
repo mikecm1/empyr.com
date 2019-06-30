@@ -27,7 +27,7 @@ gulp.task('scss-local', function () {
     var processors = [
         utilities(),
         autoprefixer({
-            "browsers": ["> 1%","last 2 versions","IE 9"]
+            "browsers": ["> 1%", "last 2 versions", "IE 9"]
         }),
         csso({
             comments: false
@@ -54,11 +54,11 @@ gulp.task('scss-local', function () {
 // });
 
 
-gulp.task('jsTask', function() {
+gulp.task('jsTask', function () {
     return gulp.src('.assets/js/**/*.js')
-      .pipe(concat('all.js'))
-      .pipe(gulp.dest('dist/'))
-  });
+        .pipe(concat('all.js'))
+        .pipe(gulp.dest('dist/'))
+});
 
 // var cbString = new Date().getTime();
 // function cacheBustTask(){
@@ -108,7 +108,7 @@ gulp.task('scss-full', function () {
         }),
         utilities(),
         autoprefixer({
-            "browsers": ["> 1%","last 2 versions","IE 9"]
+            "browsers": ["> 1%", "last 2 versions", "IE 9"]
         }),
         csso({
             comments: false
@@ -137,4 +137,3 @@ gulp.task('compile', gulp.parallel(
     'watch-full',
     'generate'
 ));
-

@@ -10,6 +10,25 @@
     font-size: 11px;
 }
 
+#main-scrollbar {
+    display: block;
+    // width: 100%;
+    height: 100vh;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    outline: none;
+}
+
+// .scrollbar-track,
+// .scrollbar-thumb {
+//     display: none !important;
+// }
+
+// .scrollbar-track-x {
+//     display: none !important;
+// }
+
 // .content {
 .container {
     position: relative;
@@ -50,19 +69,34 @@
 }
 
 // }
+
 .hero {
-    $solid-bg1: #018EF5;
-    $solid-bg2: $gray-900;
-    $solid-bg3: #060812;
-    $solid-bg4: #ff8d67;
-    $gradient-bg1: linear-gradient(180deg, #FFFFFF 30%, #f7faff 100%);
-    $gradient-bg2: linear-gradient(-168deg, #46a7ff 0%, #002cff 100%);
-    $gradient-bg3: linear-gradient(-168deg, #46a7ff 0%, #1a1c27 100%);
-    $gradient-bg4: linear-gradient(-168deg, #ffad67 0%, #ee835f 100%);
-    $gradient-bg5: linear-gradient(-162deg, #83a9ff 0%, #000000 100%);
-    --background1: linear-gradient(180deg, #FFFFFF 30%, #f7faff 100%);
-    $background-solid: url(/img/sub-holder2.svg), url(/img/bg-sub.png), $solid-bg1;
-    $background-gradient: url(/img/sub-holder2.svg), url(/img/bg-sub.png), $gradient-bg2;
+    // this one works...
+    background: url(/img/sub-holder2.svg), url(/img/bg-sub.png), linear-gradient(-168deg, #46a7ff 0%, #002cff 100%);
+    background-position: 42vw 79px, -193px -33px, center center;
+    background-size: 72vw, 83%, 100%;
+    background-repeat: no-repeat;
+    padding: 50px 0 120px;
+    overflow: hidden;
+}
+
+$solid-bg1: #018EF5;
+$solid-bg2: $gray-900;
+$solid-bg3: #060812;
+$solid-bg4: #ff8d67;
+$gradient-bg1: linear-gradient(180deg, #FFFFFF 30%, #f7faff 100%);
+$gradient-bg2: linear-gradient(-168deg, #46a7ff 0%, #002cff 100%);
+$gradient-bg3: linear-gradient(-168deg, #46a7ff 0%, #1a1c27 100%);
+$gradient-bg4: linear-gradient(-168deg, #ffad67 0%, #ee835f 100%);
+$gradient-bg5: linear-gradient(-162deg, #83a9ff 0%, #000000 100%);
+$background-solid: url(/img/sub-holder2.svg),
+url(/img/bg-sub.png),
+$solid-bg1;
+$background-gradient: url(/img/sub-holder2.svg),
+url(/img/bg-sub.png),
+$gradient-bg2;
+
+.hero {
     background: $background-gradient;
     // background: $background-solid;
     background-position: 42vw 79px, -193px -33px, center center;
@@ -93,14 +127,16 @@
     }
 
     svg {
+        width: 189%;
         margin-top: -1px;
         position: absolute;
         bottom: -1px;
         height: 73%;
-        left: 0;
+        left: -20px;
 
         @include media-breakpoint-up(sm) {
             width: 189%;
+            left: 0;
         }
 
         @include media-breakpoint-up(md) {
