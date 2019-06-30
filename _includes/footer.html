@@ -50,7 +50,7 @@
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
     document.documentElement.className = 'js';
-    // AOS.init();
+    AOS.init();
     AOS.init({
         once: !0,
         duration: 400,
@@ -94,8 +94,13 @@
         continuousScrolling: true,
         wheelEventTarget: null
     };
+    Scrollbar.init(document.querySelector("html:not(.no-js) #main-scrollbar"), options);
+</script>
 
-    Scrollbar.init(document.querySelector("#main-scrollbar"), options);
+<script>
+    $(function () {
+        $('body').addClass('is-loaded');
+    });
 </script>
 </body>
 

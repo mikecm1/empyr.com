@@ -4,8 +4,81 @@ layout: default
 <!-- {% include hero.html %} -->
 <!-- Hero -->
 <main id="main-scrollbar" data-scrollbar>
+    <div class="wrap">
+        <header class="header-home -full" data-module="SliderHome" id="js-header">
+
+            <article class="hero d-flex">
+                <div class="container full container-fluid d-flex flex-column
+                    justify-content-between">
+                    <div class="header-home_background-parallax background js-parallax is-inview" data-speed="-1" data-position="top" data-target="#js-header" style="transform: translate3d(0px, 0.1px, 0px);">
+                        <div class="header-home_background-load-wrap background">
+                            <div class="hero header-home_image background"></div>
+                        </div>
+                    </div>
+                    <div class="break-out poster poster-home z1">
+                        <div class="row justify-content-between align-items-center
+                flex-grow">
+                            <div class="col-12 col-md-8 col-lg-8 col-1400-10
+                    poster-home-text">
+                                <div class="header-home_text-load">
+                                    <div class="header-home_text">
+                                        <h1 class="header-home_heading -full display-3" data-aos="basic">{{ page.heading | default:page.title }}</h1>
+                                        {% if page.sub_heading and page.sub_heading != "" %}
+                                        <p class="large mb-3 mb-sm-4 header-home_subheading -load hsub" data-aos="basic" data-aos-delay="100">{{ page.sub_heading }}</p>
+                                        {% endif %}
+                                        {% if page.hero_button %}
+                                        <div class="d-flex flex-column flex-md-row header-home_controls -nomobile button-group" data-aos="basic" data-aos-delay="200">
+                                            <a href="{{ page.hero_button.href | absolute_url }}" class="btn btn-lg btn-white mb-2 mb-md-0
+                                    primary">{{ page.hero_button.text }}</a>
+                                            {% endif %}
+                                            {% if page.second_button %}
+                                            <a href="{{ page.second_button.href | absolute_url
+                                    }}" class="btn btn-lg btn-secondary secondary d-non
+                                    d-lg-block">{{ page.second_button.text }}</a>
+                                        </div>
+                                        {% endif %}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="poster-home-image d-none d-md-block">
+                        <img class="fx-shadow" data-aos="basic" data-aos-delay="300" sizes="(max-width: 2970px) 100vw, 2970px" srcset="/assets/img/hero/devices_scz1uk_c_scale,w_190.png
+                    190w,
+                    /assets/img/hero/devices_scz1uk_c_scale,w_607.png 607w,
+                    /assets/img/hero/devices_scz1uk_c_scale,w_870.png 870w,
+                    /assets/img/hero/devices_scz1uk_c_scale,w_1108.png 1108w,
+                    /assets/img/hero/devices_scz1uk_c_scale,w_1295.png 1295w,
+                    /assets/img/hero/devices_scz1uk_c_scale,w_1451.png 1451w,
+                    /assets/img/hero/devices_scz1uk_c_scale,w_1595.png 1595w,
+                    /assets/img/hero/devices_scz1uk_c_scale,w_1738.png 1738w,
+                    /assets/img/hero/devices_scz1uk_c_scale,w_1875.png 1875w,
+                    /assets/img/hero/devices_scz1uk_c_scale,w_2001.png 2001w,
+                    /assets/img/hero/devices_scz1uk_c_scale,w_2120.png 2120w,
+                    /assets/img/hero/devices_scz1uk_c_scale,w_2224.png 2224w,
+                    /assets/img/hero/devices_scz1uk_c_scale,w_2339.png 2339w,
+                    /assets/img/hero/devices_scz1uk_c_scale,w_2453.png 2453w,
+                    /assets/img/hero/devices_scz1uk_c_scale,w_2559.png 2559w,
+                    /assets/img/hero/devices_scz1uk_c_scale,w_2663.png 2663w,
+                    /assets/img/hero/devices_scz1uk_c_scale,w_2766.png 2766w,
+                    /assets/img/hero/devices_scz1uk_c_scale,w_2860.png 2860w,
+                    /assets/img/hero/devices_scz1uk_c_scale,w_2959.png 2959w,
+                    /assets/img/hero/devices_scz1uk_c_scale,w_2970.png 2970w" src="/assets/img/hero/devices_scz1uk_c_scale,w_2970.png" alt="">
+                    </div>
+                </div>
+                <svg preserveAspectRatio="xMinYMax meet" viewBox="0 0 1440 97" xmlns="http://www.w3.org/2000/svg">
+                    <path fill="#fff" fill-rule="evenodd" d="M1440,739.664063 L1440,751 L0,751 L0,654.103407
+                L391.098799,654.103407 C403.055752,654.103407
+                414.740019,657.675918 424.652497,664.362585
+                L521.072794,729.404885 C530.985271,736.091551
+                542.669538,739.664063 554.626491,739.664063 L1440,739.664063 Z" transform="translate(0 -654)" /></svg>
+            </article>
+
+        </header>
+    </div>
     <div class="barba-container">
-        <header>
+        <!-- <header>
             <div class="hero d-flex">
                 <div class="container full container-fluid d-flex flex-column
             justify-content-between">
@@ -64,7 +137,7 @@ layout: default
                 L521.072794,729.404885 C530.985271,736.091551
                 542.669538,739.664063 554.626491,739.664063 L1440,739.664063 Z" transform="translate(0 -654)" /></svg>
             </div>
-        </header>
+        </header> -->
         {% if page.partners %}
         <div class="shad">
             <div class="logos">
