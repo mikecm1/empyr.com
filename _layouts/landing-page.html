@@ -4,7 +4,7 @@ layout: default
 <!-- {% include hero.html %} -->
 <!-- Hero -->
 <main id="main-scrollbar" data-scrollbar>
-    <div class="wrap">
+    <!-- <div class="wrap">
         <header class="header-home -full" data-module="SliderHome" id="js-header">
 
             <article class="hero d-flex">
@@ -76,9 +76,9 @@ layout: default
             </article>
 
         </header>
-    </div>
+    </div> -->
     <div class="barba-container">
-        <!-- <header>
+        <header>
             <div class="hero d-flex">
                 <div class="container full container-fluid d-flex flex-column
             justify-content-between">
@@ -136,16 +136,19 @@ layout: default
                 414.740019,657.675918 424.652497,664.362585
                 L521.072794,729.404885 C530.985271,736.091551
                 542.669538,739.664063 554.626491,739.664063 L1440,739.664063 Z" transform="translate(0 -654)" /></svg>
+                <div class="header-bg" data-aos="basic">
+
+                </div>
             </div>
-        </header> -->
+        </header>
         {% if page.partners %}
         <div class="shad">
             <div class="logos">
-                <div class="container full py-4 mt-1">
+                <div class="container full py-4">
                     <div class="row justify-content-center
                     justify-content-lg-between text-center align-items-center">
                         {% for logo in page.partners %}
-                        <div class="col mb-lg-0">
+                        <div class="col mb-lg-0" data-aos="basic" data-aos-delay="{{ forloop.index | times: 150 }}">
                             <img src="{{ logo | absolute_url }}" style="width: 100px; max-width: 70%" />
                         </div>
                         {% endfor %}

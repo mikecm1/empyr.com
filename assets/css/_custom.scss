@@ -481,6 +481,60 @@ body[data-route-option="keep-header"] .header-home_background-load {
 
 
 
+// wipes for barba
+
+.loader {
+    font-size: 26px;
+    font-weight: 600;
+    color: #FFF;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    opacity: 0;
+}
+
+
+
+.color-wipes-animate {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    left: 0;
+    position: fixed;
+    top: 100%;
+    width: 100%;
+    height: 100vh;
+    z-index: 5;
+}
+
+.color-wipe {
+    height: 100vh;
+    width: 100%;
+    background: #be2829;
+    display: none;
+}
+
+.color-wipe:nth-child(1) {
+    background-color: #011627;
+}
+
+.color-wipe:nth-child(2) {
+    background-color: #FF3366;
+}
+
+.color-wipe:nth-child(3) {
+    background-color: #2EC4B6;
+}
+
+.color-wipe:nth-child(4) {
+    background-color: #17A8A8;
+}
+
+.color-wipe:nth-child(5) {
+    background-color: #20A4F3;
+}
+
 
 
 
@@ -506,7 +560,7 @@ body[data-route-option="keep-header"] .header-home_background-load {
     font-size: 11px;
 }
 
-html:not(.no-js) #main-scrollbar {
+html:not(.no-js) .smooth #main-scrollbar {
     @include media-breakpoint-up(sm) {
         display: block;
         // width: 100%;
@@ -516,6 +570,10 @@ html:not(.no-js) #main-scrollbar {
         overflow: hidden;
         outline: none;
     }
+}
+
+main {
+    overflow: visible !important;
 }
 
 // .scrollbar-track,
@@ -588,65 +646,78 @@ $background-gradient: url(/img/sub-holder2.svg),
 url(/img/bg-sub.png),
 $gradient-bg2;
 
-article {
-    &.hero {
-        background: #fff;
-        padding: 50px 0 120px;
+// article {
+//     &.hero {
+//         background: #fff;
+//         padding: 50px 0 120px;
 
-        @include media-breakpoint-up(sm) {
-            padding: 120px 0 170px;
-        }
+//         @include media-breakpoint-up(sm) {
+//             padding: 120px 0 170px;
+//         }
 
-        @include media-breakpoint-up(md) {
-            padding: 140px 0 160px;
-            // border-radius: 0 0 40px 0;
-        }
+//         @include media-breakpoint-up(md) {
+//             padding: 140px 0 160px;
+//             // border-radius: 0 0 40px 0;
+//         }
 
-        @include media-breakpoint-up(lg) {
-            padding: 150px 0 190px;
-        }
+//         @include media-breakpoint-up(lg) {
+//             padding: 150px 0 190px;
+//         }
 
-        @include media-breakpoint-up(xxl) {
-            padding: 160px 0 170px;
-        }
+//         @include media-breakpoint-up(xxl) {
+//             padding: 160px 0 170px;
+//         }
 
-        @include media-breakpoint-up(xxxl) {
-            padding: 180px 0 200px;
-        }
-    }
-}
+//         @include media-breakpoint-up(xxxl) {
+//             padding: 180px 0 200px;
+//         }
+//     }
+// }
 
-.hero {
+.header-bg {
     background: $background-gradient;
-    // background: $background-solid;
     background-position: 42vw 79px, -193px -33px, center center;
     background-size: 72vw, 83%, 100%;
     background-repeat: no-repeat;
-    // padding: 50px 0 120px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.hero {
+    // background: $background-gradient;
+    // background: $background-solid;
+    // background-position: 42vw 79px, -193px -33px, center center;
+    // background-size: 72vw, 83%, 100%;
+    // background-repeat: no-repeat;
+    padding: 50px 0 120px;
     overflow: hidden;
 
-    // @include media-breakpoint-up(sm) {
-    //     padding: 120px 0 170px;
-    // }
+    @include media-breakpoint-up(sm) {
+        padding: 120px 0 170px;
+    }
 
-    // @include media-breakpoint-up(md) {
-    //     padding: 140px 0 160px;
-    //     // border-radius: 0 0 40px 0;
-    // }
+    @include media-breakpoint-up(md) {
+        padding: 140px 0 160px;
+        // border-radius: 0 0 40px 0;
+    }
 
-    // @include media-breakpoint-up(lg) {
-    //     padding: 170px 0 190px;
-    // }
+    @include media-breakpoint-up(lg) {
+        padding: 150px 0 190px;
+    }
 
-    // @include media-breakpoint-up(xxl) {
-    //     padding: 160px 0 170px;
-    // }
+    @include media-breakpoint-up(xxl) {
+        padding: 160px 0 170px;
+    }
 
-    // @include media-breakpoint-up(xxxl) {
-    //     padding: 180px 0 200px;
-    // }
+    @include media-breakpoint-up(xxxl) {
+        padding: 180px 0 200px;
+    }
+
     .container {
-        position: static;
+        // position: static;
     }
 
     svg {
@@ -656,6 +727,7 @@ article {
         bottom: -1px;
         height: 73%;
         left: -20px;
+        z-index: 1;
 
         @include media-breakpoint-up(sm) {
             width: 189%;
@@ -1046,6 +1118,11 @@ li.nav-item {
 //
 footer {
     background-color: #060609;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
 
     .card {
         top: -110px;
@@ -1365,7 +1442,7 @@ footer {
     position: relative;
     z-index: 1;
     padding: 70px 0 150px;
-    margin-top: 90px;
+    // margin-top: 90px;
     // border-top: 1px solid #332f531c;
 
     h1 {
@@ -1730,6 +1807,7 @@ img {
     right: 0;
     height: 100%;
     top: -12vw;
+    z-index: 1;
 
     // width: 100%;
     @include media-breakpoint-up(md) {
@@ -1745,7 +1823,7 @@ img {
     @include media-breakpoint-up(1024) {
         right: 4vw;
         position: absolute;
-        bottom: -13vw;
+        bottom: -30vw;
         height: auto;
         left: 33%;
         top: auto;
