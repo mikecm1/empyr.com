@@ -48,13 +48,14 @@
 </script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
+    $('document').ready(function () {
     document.documentElement.className = 'js';
-    // AOS.init();
     AOS.init({
         once: !0,
         duration: 400,
         disable: 'mobile',
     });
+});
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/barba.js/1.0.0/barba.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
@@ -67,9 +68,9 @@
             fadeInNewcontent: function (nc) {
                 nc.hide();
                 var _this = this;
-                $(this.oldContainer).fadeOut(500, "swing").promise().done(() => {
+                $(this.oldContainer).fadeOut(400, "swing").promise().done(() => {
                     nc.css('visibility', 'visible');
-                    nc.fadeIn(300, "swing", function () {
+                    nc.fadeIn(400, "swing", function () {
                         _this.done();
                     })
                 });
@@ -101,9 +102,7 @@ $('body').addClass('smooth');
     $(function () {
         $('body').addClass('is-loaded');
 	
-	// INITIATE THE FOOTER
   siteFooter();
-	// COULD BE SIMPLIFIED FOR THIS PEN BUT I WANT TO MAKE IT AS EASY TO PUT INTO YOUR SITE AS POSSIBLE
 	$(window).resize(function() {
 		siteFooter();
 	});
@@ -124,7 +123,8 @@ $('body').addClass('smooth');
 
 		siteContent.css({
 			"margin-bottom" : siteFooterHeight
-		});
+        });
+        $('footer').show();
 	};
 
     });

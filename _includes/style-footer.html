@@ -1,0 +1,30 @@
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="../../assets/vendor/popper/popper.min.js"></script>
+<script src="../../assets/vendor/bootstrap/bootstrap.min.js"></script>
+<script src="../../assets/vendor/headroom/headroom.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        // $('a[href="#"]:not([data-toggle="dropdown])').click(function() {
+        // 	return false;
+        // })
+    })
+</script>
+
+<script src="../../assets/js/vendor/anchor.min.js"></script>
+<script src="../../assets/js/vendor/clipboard.min.js"></script>
+
+<script src="../../assets/js/vendor/prism.min.js"></script>
+<script src="../../assets/js/docs.min.js"></script>
+<script>
+    var path = window.location.pathname;
+    console.log(path);
+    $('ul a').each(function() {
+     if (this.href === window.location.href) {
+      $(this).parent().addClass('active ct-sidenav-active');
+     }
+    });
+    
+</script>
+<!-- <script src="../../assets/js/argon.minn.js"></script> -->
+</body>
+</html>

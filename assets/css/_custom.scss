@@ -327,6 +327,10 @@ body[data-route-option="next-section"] .header-home_buttons {
     }
 }
 
+.content {
+    background: #fff;
+}
+
 .header-home_background-load-wrap {
     transition: -webkit-transform 0.9s cubic-bezier(0.4, 0, 0.2, 1);
     transition: transform 0.9s cubic-bezier(0.4, 0, 0.2, 1);
@@ -639,40 +643,13 @@ $gradient-bg2: linear-gradient(-168deg, #46a7ff 0%, #002cff 100%);
 $gradient-bg3: linear-gradient(-168deg, #46a7ff 0%, #1a1c27 100%);
 $gradient-bg4: linear-gradient(-168deg, #ffad67 0%, #ee835f 100%);
 $gradient-bg5: linear-gradient(-162deg, #83a9ff 0%, #000000 100%);
+$gradient-bg6: linear-gradient(-166deg, #616BFF 0%, #29C3F6 85%);
 $background-solid: url(/img/sub-holder2.svg),
 url(/img/bg-sub.png),
 $solid-bg1;
 $background-gradient: url(/img/sub-holder2.svg),
 url(/img/bg-sub.png),
 $gradient-bg2;
-
-// article {
-//     &.hero {
-//         background: #fff;
-//         padding: 50px 0 120px;
-
-//         @include media-breakpoint-up(sm) {
-//             padding: 120px 0 170px;
-//         }
-
-//         @include media-breakpoint-up(md) {
-//             padding: 140px 0 160px;
-//             // border-radius: 0 0 40px 0;
-//         }
-
-//         @include media-breakpoint-up(lg) {
-//             padding: 150px 0 190px;
-//         }
-
-//         @include media-breakpoint-up(xxl) {
-//             padding: 160px 0 170px;
-//         }
-
-//         @include media-breakpoint-up(xxxl) {
-//             padding: 180px 0 200px;
-//         }
-//     }
-// }
 
 .header-bg {
     background: $background-gradient;
@@ -684,6 +661,47 @@ $gradient-bg2;
     right: 0;
     bottom: 0;
     left: 0;
+    background-position: 48vw 115px, -203px 37px, center center;
+    background-size: 59vw, 83%, 100%;
+}
+
+// .header-bg {
+//     background: url(/img/sub-holdser2.svg),url(/img/bdg-sub.png),linear-gradient(135deg,#0a0a15,#4f2327);
+//     background-repeat: no-repeat;
+//     position: absolute;
+//     top: 0;
+//     right: 0;
+//     bottom: 0;
+//     left: 0;
+//     background-position: 48vw 115px,-203px 37px,center center;
+//     background-size: 59vw,83%,100%;
+// }
+
+.tag-lg {
+    display: inline-block;
+    padding: 6px 18px;
+    margin-top: 0;
+    font-size: 12px;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 2.8px;
+    line-height: 1.7;
+    text-transform: uppercase;
+    background: #e0e0ed17;
+    border-radius: 100px;
+    color: #ffffff;
+    margin-bottom: 22px;
+    display: inline-block;
+    padding: 10px 15px;
+    margin-top: 0;
+    font-size: 12px;
+    font-weight: 700;
+    color: #ff565b;
+    letter-spacing: 2px;
+    line-height: 1.7;
+    text-transform: uppercase;
+//     background-image: linear-gradient(135deg,rgba(255,132,74,.1),rgba(255,59,121,.1));
+    border-radius: 8px;
 }
 
 .hero {
@@ -692,7 +710,7 @@ $gradient-bg2;
     // background-position: 42vw 79px, -193px -33px, center center;
     // background-size: 72vw, 83%, 100%;
     // background-repeat: no-repeat;
-    padding: 50px 0 120px;
+    padding: 100px 0 130px;
     overflow: hidden;
 
     @include media-breakpoint-up(sm) {
@@ -709,12 +727,12 @@ $gradient-bg2;
     }
 
     @include media-breakpoint-up(xxl) {
-        padding: 160px 0 170px;
+        padding: 140px 0 190px;
     }
 
-    @include media-breakpoint-up(xxxl) {
-        padding: 180px 0 200px;
-    }
+    // @include media-breakpoint-up(xxxl) {
+    //     padding: 170px 0 210px;
+    // }
 
     .container {
         // position: static;
@@ -731,14 +749,21 @@ $gradient-bg2;
 
         @include media-breakpoint-up(sm) {
             width: 189%;
-            left: 0;
+            left: -50px;
         }
 
         @include media-breakpoint-up(md) {
-            /* width: 119%; */
-            bottom: -7px;
-            height: 9%;
+            bottom: -6px;
+            height: 12%;
+            left: 0;
         }
+
+        @include media-breakpoint-up(lg) {
+            height: 11%;
+            bottom: -8px;
+        }
+
+        @include media-breakpoint-up(xl) {}
     }
 
     .large {
@@ -919,28 +944,45 @@ header {
 
 .headline {
     @include media-breakpoint-up(md) {
-        font-size: 43px;
+        font-size: 45px;
         margin-top: 15px;
         letter-spacing: -1.4px;
         margin-bottom: 27px;
-        font-weight: 500;
+        // font-weight: 500;
     }
 }
 
 .shad {
-    // box-shadow: 0 1px 0 0 rgba(86, 93, 115, 0.11);
-    // box-shadow: 0 9px 22px -11px rgba(45,80,187,.1);
-    // box-shadow: $card-box-shadow;
+    box-shadow: 0 1px 0 0 rgba(86, 93, 115, 0.11);
+    box-shadow: 0 9px 22px -11px rgba(45, 80, 187, .1);
+    box-shadow: $card-box-shadow;
     position: relative;
-    // border-bottom-left-radius: 100px;
+    z-index: 1;
+    // border-bottom-left-radius: 60px;
     // padding-bottom: 130px;
     background: #fff;
     // background: #f9fafb;
 
     .logos {
-        // border-bottom: 1px solid #eceef1;
+        border-bottom: 1px solid #eceef1;
         // margin-bottom: 20px;
         background: #fff;
+    }
+    &::after {
+        position: absolute;
+        content: '';
+        width: 57vw;
+        height: 100%;
+        padding-bottom: 130px;
+        background: url(/img/bg-dots.svg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: 100% 29%;
+        top: 0;
+        right: 0;
+        z-index: -1;
+        opacity: 0.6;
+        max-width: 870px;
     }
 }
 
@@ -1118,11 +1160,12 @@ li.nav-item {
 //
 footer {
     background-color: #060609;
-    position: fixed;
+    // position: fixed;
     left: 0;
     right: 0;
     bottom: 0;
     z-index: -1;
+    display: none;
 
     .card {
         top: -110px;
@@ -1721,8 +1764,8 @@ img {
 
 .intro {
     &.container {
-        padding-top: 40px;
-        padding-bottom: 120px;
+        padding-top: 90px;
+        padding-bottom: 130px;
     }
 
     .large {
@@ -1776,12 +1819,12 @@ img {
 
 .home {
     &.offset {
-        // margin-top: -110px;
+        margin-top: -110px;
     }
 
     .content {
         // padding-top: 230px;
-        padding-top: 120px;
+        padding-top: 230px;
     }
 }
 
@@ -1823,7 +1866,7 @@ img {
     @include media-breakpoint-up(1024) {
         right: 4vw;
         position: absolute;
-        bottom: -30vw;
+        bottom: -27vw;
         height: auto;
         left: 33%;
         top: auto;
@@ -1832,15 +1875,17 @@ img {
     }
 
     @include media-breakpoint-up('xxl') {
-        right: 5vw;
-        width: 940px;
-        min-width: auto;
-        top: -340px;
-        left: 29%;
+        right: 12%;
+        left: auto;
+        width: 870px;
+        top: -290px;
     }
 
     @include media-breakpoint-up('xxxl') {
         left: 25%;
+        right: 5vw;
+        width: 940px;
+        top: -340px;
     }
 }
 
