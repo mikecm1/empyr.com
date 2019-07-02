@@ -89,6 +89,26 @@
         }
         Barba.Pjax.start();
         Barba.Prefetch.init();
+Barba.Dispatcher.on('transitionCompleted', function(currentStatus, prevStatus) {
+if (prevStatus) {
+    setTimeout(function() {
+
+        $('html').find('script').each(function (i, script) {
+        var $script = $(script);
+        $.ajax({
+            url: $script.attr('src'),
+            cache: true,
+            dataType: 'script',
+            success: function () {
+                $script.trigger('load');
+            }
+        });
+    });
+    }, 1);
+}
+
+});
+
     });
 </script>
 <!-- <script src="/assets/js/vendor/smooth-scrollbar.js"></script>
