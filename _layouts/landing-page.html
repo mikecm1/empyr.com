@@ -1,8 +1,6 @@
 ---
 layout: default
 ---
-<!-- {% include hero.html %} -->
-<!-- Hero -->
 <main id="main-scrollbar" data-scrollbar>
     <header>
         <div class="hero d-flex">
@@ -20,7 +18,7 @@ layout: default
                             {% endif %}
                             {% if page.hero_button %}
                             <div class="pb-2 d-flex flex-column flex-md-row" data-aos="basic" data-aos-delay="250">
-                                <a href="{{ page.hero_button.href | absolute_url }}" class="btn btn-lg btn-white mb-3 mb-md-0
+                                <a href="{{ page.hero_button.href | absolute_url }}" class="btn btn-lg btn-white mb-2 mb-md-0
                                 primary">{{ page.hero_button.text }}</a>
                                 {% endif %}
                                 {% if page.second_button %}
@@ -74,7 +72,7 @@ layout: default
                 <div class="row justify-content-center
                     justify-content-lg-between text-center align-items-center">
                     {% for logo in page.partners %}
-                    <div class="col mb-lg-0" data-aos="basic" data-aos-delay="{{ forloop.index | times: 150 }}">
+                    <div class="col-4 mb-4 col-md mb-md-0" data-aos="basic" data-aos-delay="{{ forloop.index | times: 150 }}">
                         <img src="{{ logo | absolute_url }}" style="width: 100px; max-width: 70%" />
                     </div>
                     {% endfor %}
@@ -86,7 +84,7 @@ layout: default
         <div class="intro container full">
             <div class="row">
                 <div class="col-12">
-                    <h1 class="headline mb-2 mt-0" data-aos="basic">{{ page.primary_body_copy_headline }}</h1>
+                    <h1 class="headline mb-3 mt-0" data-aos="basic">{{ page.primary_body_copy_headline }}</h1>
                 </div>
                 <!-- <div class="col-md-7">
                 <p class="large mb-4" data-aos="basic" data-aos-delay="100">{{ page.primary_body_copy_subtext
@@ -184,14 +182,10 @@ layout: default
                     {% endif %}
                     {% if page.section_three %}
                     <section class="mb-0 pb-1">
-                        <div class="row justify-content-between align-items-center
-                        home_analytics">
+                        <div class="row justify-content-between align-items-center home_analytics">
                             <div class="col-12 col-md-6 col-xl-5 z1" data-aos="basic">
-                                <!-- <span class="badge badge-primary mb-2">{{ page.section_three.tagline }}</span> -->
-                                <h4 class="mb-2 tag">{{ page.section_three.tagline
-                                }}</h4>
-                                <h1 class="display-4">{{
-                                page.section_three.section_header }}</h1>
+                                <h4 class="mb-2 tag">{{ page.section_three.tagline}}</h4>
+                                <h1 class="display-4">{{ page.section_three.section_header }}</h1>
                                 <img src="/img/headline-separator.svg" alt="">
                                 <p class="lead large mb-4" data-aos="basic" data-aos-delay="100">{{
                                 page.section_three.section_body_copy }}</p>
@@ -199,9 +193,6 @@ layout: default
                                 page.section_three.button.text }}</a>
                             </div>
                             <img class="analytics" src="img/home-analytics.png" data-reactid="25">
-                            <!-- <div class="col-12 col-md-6 order-1 order-md-2 pl-md-0 mb-4 mb-md-0">
-                <img class="w-100" src="/assets/pictures/image-555x380.png" />
-            </div> -->
                         </div>
                     </section>
                     {% endif %}
@@ -236,7 +227,6 @@ layout: default
                             </div>
                             {% endfor %}
                         </div>
-                        <!-- Add Pagination -->
                         <div class="swiper-pagination"></div>
                     </div>
                 </div>

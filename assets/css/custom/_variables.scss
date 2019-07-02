@@ -307,11 +307,11 @@ $nav-pills-link-active-bg: $component-active-bg;
 
 // Navbar
 $navbar-transition: all 0.15s linear !default;
-$navbar-padding-y: 0 !default;
+$navbar-padding-y: 0.4rem !default;
 $navbar-padding-x: 1.8rem;
 
-$navbar-nav-link-padding-x: 1rem !default;
-$navbar-nav-link-padding-y: 1.05rem !default;
+$navbar-nav-link-padding-x: 1.3rem !default;
+$navbar-nav-link-padding-y: 0.85rem !default;
 
 $navbar-nav-link-font-family: $font-family-sans-serif !default;
 $navbar-nav-link-font-size: 16.3px !default;

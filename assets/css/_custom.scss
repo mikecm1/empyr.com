@@ -710,7 +710,7 @@ $gradient-bg2;
     // background-position: 42vw 79px, -193px -33px, center center;
     // background-size: 72vw, 83%, 100%;
     // background-repeat: no-repeat;
-    padding: 100px 0 130px;
+    padding: 90px 0 90px;
     overflow: hidden;
 
     @include media-breakpoint-up(sm) {
@@ -723,11 +723,11 @@ $gradient-bg2;
     }
 
     @include media-breakpoint-up(lg) {
-        padding: 150px 0 190px;
+        padding: 130px 0 150px;
     }
 
     @include media-breakpoint-up(xxl) {
-        padding: 140px 0 190px;
+        padding: 150px 0 150px;
     }
 
     // @include media-breakpoint-up(xxxl) {
@@ -739,7 +739,7 @@ $gradient-bg2;
     }
 
     svg {
-        width: 189%;
+        width: 169%;
         margin-top: -1px;
         position: absolute;
         bottom: -1px;
@@ -890,7 +890,7 @@ header {
     overflow-x: hidden;
 
     section {
-        margin: 0 0 225px;
+        margin: 0 0 195px;
         position: relative;
 
         &.bg-left {
@@ -953,9 +953,9 @@ header {
 }
 
 .shad {
-    box-shadow: 0 1px 0 0 rgba(86, 93, 115, 0.11);
-    box-shadow: 0 9px 22px -11px rgba(45, 80, 187, .1);
-    box-shadow: $card-box-shadow;
+    // box-shadow: 0 1px 0 0 rgba(86, 93, 115, 0.11);
+    // box-shadow: 0 9px 22px -11px rgba(45, 80, 187, .1);
+    // box-shadow: $card-box-shadow;
     position: relative;
     z-index: 1;
     // border-bottom-left-radius: 60px;
@@ -1001,6 +1001,7 @@ h1 {
     @include media-breakpoint-down('xs') {
         font-size: 46px;
         letter-spacing: -1.9px;
+        font-size: 10vw;
     }
 
     @include media-breakpoint-up('sm') {
@@ -1053,6 +1054,10 @@ li.nav-item {
     margin-bottom: 0 !important;
 }
 
+#logo {
+    margin-right: 20px;
+}
+
 // .navbar .dropdown-menu {
 //     display: block;
 //     visibility: hidden;
@@ -1078,8 +1083,8 @@ li.nav-item {
 
     .dropdown-menu {
         max-width: 400px;
-        left: -100% !important;
-        transform: translateX(-50%) !important;
+        // left: -100% !important;
+        // transform: translateX(-50%) !important;
         top: 90% !important;
     }
 
@@ -1722,12 +1727,12 @@ h4.tag {
     // background-image: url(/img/home-analytics.png);
     background-size: 100%;
     overflow: visible;
-    padding-bottom: 240px !important;
+    padding-bottom: 370px!important;
     margin-right: -180px !important;
     background-position: -20px 10px;
     padding-top: 170px;
     padding-right: 180px;
-    margin-top: -70px;
+    margin-top: -90px;
     background-repeat: no-repeat;
 }
 
@@ -1764,8 +1769,8 @@ img {
 
 .intro {
     &.container {
-        padding-top: 90px;
-        padding-bottom: 130px;
+    padding-top: 110px;
+    padding-bottom: 140px;
     }
 
     .large {
@@ -1875,17 +1880,17 @@ img {
     }
 
     @include media-breakpoint-up('xxl') {
-        right: 12%;
-        left: auto;
-        width: 870px;
-        top: -290px;
+    right: 12%;
+    left: auto;
+    width: 870px;
+    top: -250px;
     }
 
     @include media-breakpoint-up('xxxl') {
         left: 25%;
         right: 5vw;
         width: 940px;
-        top: -340px;
+        top: -290px;
     }
 }
 

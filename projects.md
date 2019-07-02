@@ -1,9 +1,9 @@
 ---
 title: Projects
 layout: projects
-description: Projects by Belkirk College
-publish_date: '2017-11-01T03:00:00.000+00:00'
-heading: What...
+description: Projects by Empyr
+publish_date: '2019-11-01T03:00:00.000+00:00'
+heading: Projects
 banner_image: "/uploads/2018/12/07/compass.jpg"
 
 ---
