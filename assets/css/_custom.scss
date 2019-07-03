@@ -1342,7 +1342,7 @@ svg.fsvg {
         padding: 40px 30px;
     }
     @include media-breakpoint-up(xxl) {
-        padding: 50px;
+        padding: 50px 30px;
     }
 
     a {
@@ -1981,12 +1981,12 @@ img {
         letter-spacing: -.2px;
         position: relative;
         line-height: 1.2;
-        margin-bottom: 0 !important;
+        margin-bottom: 0!important;
         color: #0f3256;
-        padding-bottom: 7px !important;
+        padding-bottom: 4px!important;
 
         @include media-breakpoint-up(xl) {
-            font-size: 23.2px;
+            font-size: 22.3px;
         }
     }
 
