@@ -1,24 +1,25 @@
 <footer>
     <div class="footer-cta">
-            <svg class="fsvg" preserveAspectRatio="xMinYMax meet" viewBox="0 0 1440 97" xmlns="http://www.w3.org/2000/svg">
-                <path fill="#fff" fill-rule="evenodd" d="M1440,739.664063 L1440,751 L0,751 L0,654.103407
+        <svg class="fsvg" preserveAspectRatio="xMinYMax meet" viewBox="0 0 1440 97" xmlns="http://www.w3.org/2000/svg">
+            <path fill="#fff" fill-rule="evenodd" d="M1440,739.664063 L1440,751 L0,751 L0,654.103407
                 L391.098799,654.103407 C403.055752,654.103407
                 414.740019,657.675918 424.652497,664.362585
                 L521.072794,729.404885 C530.985271,736.091551
-                542.669538,739.664063 554.626491,739.664063 L1440,739.664063 Z" transform="translate(0 -654)"></path></svg>
+                542.669538,739.664063 554.626491,739.664063 L1440,739.664063 Z" transform="translate(0 -654)"></path>
+        </svg>
         <div class="container">
-                {% if page.partners %}
-                <div class="pb-5 mb-2 text-center">
-                        <p class="callout">Empyr powers card-linked offer solutions for leading websites, apps, and national brands</p>
-                    <div class="row justify-content-center justify-content-lg-between text-center align-items-center" style="opacity: 0.4">
-                        {% for logo in page.partners %}
-                        <div class="col-4 mb-4 col-md mb-md-0">
-                            <img src="{{ logo | absolute_url }}" style="width: 100px; max-width: 65%" />
-                        </div>
-                        {% endfor %}
+            {% if page.partners %}
+            <div class="pb-5 mb-2 text-center">
+                <p class="callout">Empyr powers card-linked offer solutions for leading websites, apps, and national brands</p>
+                <div class="row justify-content-center justify-content-lg-between text-center align-items-center" style="opacity: 0.4">
+                    {% for logo in page.partners %}
+                    <div class="col-4 mb-4 col-md mb-md-0">
+                        <img src="{{ logo | absolute_url }}" style="width: 100px; max-width: 65%" />
                     </div>
+                    {% endfor %}
                 </div>
-                {% endif %}
+            </div>
+            {% endif %}
             {% if site.data.information %}
             {% assign info = site.data.information %}
             <div class="row fcta">
@@ -27,10 +28,10 @@
                     <p class="lead large mt-1">{{ info.footer_details.main_subheader_home }}</p>
                 </div>
                 <div class="col-12 col-md-12 col-xl-4 text-center text-lg-right pt-2 pt-xl-0">
-                        <a href="{{ info.footer_details.cta_url }}">
-                                <h3 class="font-weight-bold"><i class="fa fa-arrow-circle-right"></i>{{ info.footer_details.cta_text }}</h3>
-                            </a>
-                    </div>
+                    <a href="{{ info.footer_details.cta_url }}">
+                        <h3 class="font-weight-bold"><i class="fa fa-arrow-circle-right"></i>{{ info.footer_details.cta_text }}</h3>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
@@ -56,13 +57,13 @@
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
     $('document').ready(function () {
-    document.documentElement.className = 'js';
-    AOS.init({
-        once: !0,
-        duration: 400,
-        disable: 'mobile',
+        document.documentElement.className = 'js';
+        AOS.init({
+            once: !0,
+            duration: 400,
+            disable: 'mobile',
+        });
     });
-});
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/barba.js/1.0.0/barba.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
@@ -76,6 +77,7 @@
                 nc.hide();
                 var _this = this;
                 $(this.oldContainer).fadeOut(400, "swing").promise().done(() => {
+                    $(window).scrollTop(0);
                     nc.css('visibility', 'visible');
                     nc.fadeIn(400, "swing", function () {
                         _this.done();
@@ -89,25 +91,28 @@
         }
         Barba.Pjax.start();
         Barba.Prefetch.init();
-Barba.Dispatcher.on('transitionCompleted', function(currentStatus, prevStatus) {
-if (prevStatus) {
-    setTimeout(function() {
+        Barba.Dispatcher.on('transitionCompleted', function (currentStatus, prevStatus) {
+            if (prevStatus) {
+                setTimeout(function () {
 
-        $('html').find('script').each(function (i, script) {
-        var $script = $(script);
-        $.ajax({
-            url: $script.attr('src'),
-            cache: true,
-            dataType: 'script',
-            success: function () {
-                $script.trigger('load');
+                    $('html').find('script').each(function (i, script) {
+                        var $script = $(script);
+                        $.ajax({
+                            url: $script.attr('src'),
+                            cache: true,
+                            dataType: 'script',
+                            success: function () {
+                                $script.trigger('load');
+                            }
+                        });
+                    });
+                }, 1);
             }
-        });
-    });
-    }, 1);
-}
 
-});
+        });
+        Barba.Dispatcher.on('newPageReady', function (current, prev, container) {
+            history.scrollRestoration = 'manual';
+        });
 
     });
 </script>
@@ -128,33 +133,34 @@ $('body').addClass('smooth');
 <script>
     $(function () {
         $('body').addClass('is-loaded');
-	
-//   siteFooter();
-// 	$(window).resize(function() {
-// 		siteFooter();
-// 	});
-	
-	// function siteFooter() {
-	// 	var siteContent = $('.barba-container');
-	// 	var siteContentHeight = siteContent.height();
-	// 	var siteContentWidth = siteContent.width();
 
-	// 	var siteFooter = $('footer');
-	// 	var siteFooterHeight = siteFooter.height();
-	// 	var siteFooterWidth = siteFooter.width();
+        //   siteFooter();
+        // 	$(window).resize(function() {
+        // 		siteFooter();
+        // 	});
 
-	// 	console.log('Content Height = ' + siteContentHeight + 'px');
-	// 	console.log('Content Width = ' + siteContentWidth + 'px');
-	// 	console.log('Footer Height = ' + siteFooterHeight + 'px');
-	// 	console.log('Footer Width = ' + siteFooterWidth + 'px');
+        // function siteFooter() {
+        // 	var siteContent = $('.barba-container');
+        // 	var siteContentHeight = siteContent.height();
+        // 	var siteContentWidth = siteContent.width();
 
-	// 	siteContent.css({
-	// 		"margin-bottom" : siteFooterHeight
-    //     });
-    //     $('footer').show();
-	// };
+        // 	var siteFooter = $('footer');
+        // 	var siteFooterHeight = siteFooter.height();
+        // 	var siteFooterWidth = siteFooter.width();
+
+        // 	console.log('Content Height = ' + siteContentHeight + 'px');
+        // 	console.log('Content Width = ' + siteContentWidth + 'px');
+        // 	console.log('Footer Height = ' + siteFooterHeight + 'px');
+        // 	console.log('Footer Width = ' + siteFooterWidth + 'px');
+
+        // 	siteContent.css({
+        // 		"margin-bottom" : siteFooterHeight
+        //     });
+        //     $('footer').show();
+        // };
 
     });
 </script>
 </body>
+
 </html>

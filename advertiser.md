@@ -26,7 +26,7 @@ mainfeatures:
   icon: "/uploads/2019/05/icon-place.svg"
 sub_heading: Empyr is the leading card-linked offer engagement platform, empowering
   retail brands with guaranteed revenue and an enhanced consumer experience– all while
-  unlocking fully transparent offline sales analytics..
+  unlocking fully transparent offline sales analytics.
 hero_button:
   text: Get Started
   href: "/about"
@@ -75,8 +75,7 @@ case_studies:
   incremental_revenue: 99%
   roi: "$8.42"
   incremental_roi: "$4.20"
-primary_body_copy_headline: Level-up your digital advertising with pure, <br> guaranteed
-  revenue.
+primary_body_copy_headline: Level-up your digital advertising with pure, guaranteed revenue.
 primary_body_copy_subheadline: Our pay-per-revenue model (CPR) accelerates and tracks
   in-store sales through digital publishers unavailable on any other platform.
 all_features_headline: Transform your bottom line with CPR

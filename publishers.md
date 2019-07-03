@@ -16,7 +16,7 @@ partners:
 - "/uploads/2019/05/09/ebay.svg"
 - "/uploads/2019/05/cnn.svg"
 - "/uploads/2019/05/airbnb.svg"
-primary_body_copy_headline: Increase engagement. Make more money.
+primary_body_copy_headline: Increase user engagement. <br> Make more money.
 primary_body_copy_subheadline: Give your users another reason to open your app more
   often. Empyr gives leading websites & apps the power to build customized card-linked
   offer reward programs that drive repeat interaction and helps turn users into advocates.

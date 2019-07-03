@@ -1,9 +1,9 @@
 ---
 navigation:
-- url: "/case"
-  title: Case Studies
-  identifier: studies
-  weight: 2
+- url: "/"
+  title: Home
+  identifier: home
+  weight: 1
 - url: "/blog"
   title: Blog
   identifier: blog
@@ -15,4 +15,4 @@ navigation:
 - url: "#"
   title: Solutions
   identifier: partners
-  weight: 1
+  weight: 2

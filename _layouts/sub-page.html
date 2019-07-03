@@ -5,8 +5,8 @@ layout: default
     <div class="hero sub">
         <div class="bg-cover">
             <div class="container">
-                <div class="row justify-content-between align-items-center pb-3">
-                    <div class="col-12 col-md-7 order-1 order-md-1 text-">
+                <div class="row poster-feature-row pb-3">
+                    <div class="col-12 col-md-7 order-1 order-sm-1 text-">
                         {% if page.tagline and page.tagline != "" %}
                         <h4 class="tag">{{ page.tagline }}</h4>
                         {% endif %}
@@ -14,18 +14,32 @@ layout: default
                         {% if page.sub_heading and page.sub_heading != "" %}
                         <p class="large mb-4">{{ page.sub_heading }}</p>
                         {% endif %}
-                        <div class="d-flex">
-                            {% if page.hero_button %}
-                            <a href="{{ page.hero_button.href | absolute_url }}" class="btn btn-lg btn-white">{{ page.hero_button.text }}</a>
-                            {% endif %}
-                            {% if page.second_button %}
-                            <a href="{{ page.second_button.href | absolute_url }}" class="btn btn-lg btn-secondary">{{ page.second_button.text }}</a>
-                            {% endif %}
-                        </div>
+                                {% if page.hero_button %}
+                                <div class="pb-2 d-flex flex-column flex-md-row" data-aos="basic" data-aos-delay="250">
+                                    <a href="{{ page.hero_button.href | absolute_url }}" class="btn btn-lg btn-white mb-2 mb-md-0
+                                    primary">{{ page.hero_button.text }}</a>
+                                    {% endif %}
+                                    {% if page.second_button %}
+                                    <a href="{{ page.second_button.href | absolute_url
+                                    }}" class="btn btn-lg btn-secondary secondary d-non
+                                    d-lg-block">{{ page.second_button.text }}</a>
+                                </div>
+                                {% endif %}
                     </div>
+                    <div class="col-12 col-md-4 order-2 order-sm-2 position-relative mt-5 mt-md-0">
+            
+                            <!-- Image -->
+                            <div class="img-skewed img-skewed-left">
+                              <img src="/img/hero-publisher.svg" alt="..." class="screenshot img-fluid mw-md-130" data-aos="fade-left" data-aos-delay="100">
+                            </div>
+                
+                          </div>
+                    <!-- <div class="poster poster-feature poster-feature-evidence d-flex align-items-center">
+                            <img src="https://everchron.com/assets/images/content/feature-evidence/everchron-chronology.jpg" srcset="https://everchron.com/assets/images/content/feature-evidence/everchron-chronology.jpg, https://everchron.com/assets/images/content/feature-evidence/everchron-chronology@2x.jpg 2x" alt="Everchron Chronology Feature" data-aos="basic" data-aos-delay="300" class="aos-init aos-animate">
+                          </div> -->
                 </div>
             </div>
-            <img src="/img/sub-holder.svg" />
+
         </div>
     </div>
     {% assign stripped_content = content | strip_newlines %}
@@ -49,8 +63,8 @@ layout: default
                         {% for item in page.mainfeatures %}
                         <div class="col-12 col-md-4 mb-4 mb-md-0">
                             <img class="mb-2" src="{{ item.icon | absolute_url }}" alt="" width="55">
-                            <h5 class="mb-1 xl">{{ item.heading }}</h5>
-                            <div class="lighten">{{ item.description }}</div>
+                            <h5 class="mb-1 pb-1 xl">{{ item.heading }}</h5>
+                            <div class="lighten mt-1">{{ item.description }}</div>
                         </div>
                         {% endfor %}
                     </div>
@@ -87,6 +101,7 @@ layout: default
                 <div class="col-12 col-md-5 order-2 order-md-1">
                     <h4 class="mb-2 tag">{{ page.section_one.tagline }}</h4>
                     <h1>{{ page.section_one.section_header }}</h1>
+                    <img src="/img/headline-separator.svg" alt="" data-aos="basic">
                     <p class="mb-4">{{ page.section_one.section_body_copy }}</p>
                     <!-- <a href="{{ page.section_one.button.link_url }}" class="btn btn-lg btn-secondary">{{ page.section_one.button.text }}</a> -->
                 </div>
@@ -105,6 +120,7 @@ layout: default
                 <div class="col-12 col-md-5">
                     <h4 class="mb-2 tag">{{ page.section_two.tagline }}</h4>
                     <h1>{{ page.section_two.section_header }}</h1>
+                    <img src="/img/headline-separator.svg" alt="" data-aos="basic">
                     <p class="mb-4">{{ page.section_two.section_body_copy }}</p>
                     <!-- <a href="{{ page.section_two.button.link_url }}" class="btn btn-lg btn-secondary">{{ page.section_two.button.text }}</a> -->
                 </div>
@@ -117,6 +133,7 @@ layout: default
                 <div class="col-12 col-md-5 order-2 order-md-1">
                     <h4 class="mb-2 tag">{{ page.section_three.tagline }}</h4>
                     <h1>{{ page.section_three.section_header }}</h1>
+                    <img src="/img/headline-separator.svg" alt="" data-aos="basic">
                     <p class="mb-4">{{ page.section_three.section_body_copy }}</p>
                     <!-- <a href="{{ page.section_three.button.link_url }}" class="btn btn-lg btn-secondary">{{ page.section_three.button.text }}</a> -->
                 </div>
@@ -128,23 +145,23 @@ layout: default
         {% endif %}
     </div>
     <div class="solutions bg-g50">
-        <div class="container pt-4 text-center">
+        <div class="container text-center">
             {% if page.all_features %}
-            <h1 class="my-4">{{ page.all_features_headline }}</h1>
+            <h1 class="mb-4">{{ page.all_features_headline }}</h1>
             <div class="row pt-3">
                 {% for item in page.all_features %}
                 <div class="col-12 col-md-4 mb-2">
-                    <div class="card">
+                    <div class="card py-3 px-3">
                         <div class="card-body">
                             <img class="mb-2" src="{{ item.icon | absolute_url }}" alt="" width="55">
-                            <h5 class="mb-1">{{ item.heading }}</h5>
+                            <h5 class="mb-0">{{ item.heading }}</h5>
                         </div>
                     </div>
                 </div>
                 {% endfor %}
             </div>
             {% endif %}
-            {% if page.case_studies %}
+            <!-- {% if page.case_studies %}
             <div class="text-left">
                 <div class="row pt-12 pt-5">
                     <div class="col-12 col-md-6">
@@ -180,7 +197,7 @@ layout: default
                     {% endfor %}
                 </div>
             </div>
-            {% endif %}
+            {% endif %} -->
         </div>
     </div>
 </div>

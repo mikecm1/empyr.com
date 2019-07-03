@@ -412,7 +412,8 @@ $card-deck-margin: $grid-gutter-width / 2;
 $card-columns-count: 3;
 $card-columns-gap: 1.25rem;
 $card-columns-margin: $card-spacer-y;
-$card-box-shadow: 0 10px 19px -6px rgba(45, 80, 187, 0.05);
+// $card-box-shadow: 0 10px 19px -6px rgba(45, 80, 187, 0.05);
+$card-box-shadow: 0 3px 9px -6px rgba(45,80,187,.27);
 
 // Tooltip
 $tooltip-max-width: 200px;
