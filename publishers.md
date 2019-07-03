@@ -43,17 +43,17 @@ second_button:
   link: "#"
 headerimage: "/img/hero-publisher.svg"
 all_features:
-- heading: 100% Attribution to In-Store Revenue
+- heading: Seamless and customized API integration
   icon: "/uploads/2019/05/icon-place.svg"
-- heading: 100% Attribution to In-Store Revenue
+- heading: Increase customer delight and engagement
   icon: "/uploads/2019/05/icon-place.svg"
-- heading: 100% Attribution to In-Store Revenue
+- heading: 1000s of local offers out-of-the-box
   icon: "/uploads/2019/05/icon-place.svg"
-- heading: 100% Attribution to In-Store Revenue
+- heading: Generate revenue with offline offer content
   icon: "/uploads/2019/05/icon-place.svg"
-- heading: 100% Attribution to In-Store Revenue
+- heading: Card-linked offer product and marketing support
   icon: "/uploads/2019/05/icon-place.svg"
-- heading: 100% Attribution to In-Store Revenue
+- heading: Designed for all digital product types
   icon: "/uploads/2019/05/icon-place.svg"
 show_case_studies: true
 section_one:
@@ -80,7 +80,7 @@ section_two:
     link_url: index.md
 menu:
   partners:
-    weight: 1
+    weight: 2
     title: Websites & Apps
-
+    description: Build your own card-linked offer program
 ---

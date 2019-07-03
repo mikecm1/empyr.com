@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="886" height="620" viewBox="0 0 886 620">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="818" height="667" viewBox="0 0 818 667">
   <defs>
-    <filter id="hero-publisher-a" width="116.9%" height="122.9%" x="-8.5%" y="-11.5%" filterUnits="objectBoundingBox">
+    <filter id="hero-publisher-a" width="118.6%" height="121.2%" x="-9.3%" y="-10.6%" filterUnits="objectBoundingBox">
       <feOffset dy="12" in="SourceAlpha" result="shadowOffsetOuter1"/>
       <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="11"/>
       <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0.127266525   0 0 0 0 0.0889654473   0 0 0 0 0.216966712  0 0 0 0.294990166 0"/>
@@ -9,7 +9,7 @@
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
-    <rect id="hero-publisher-b" width="779" height="576" x="0" y="0" rx="21"/>
+    <rect id="hero-publisher-b" width="711" height="623" x="0" y="0" rx="21"/>
     <rect id="hero-publisher-d" width="142" height="92" x="0" y="0" rx="7.7"/>
     <rect id="hero-publisher-f" width="142" height="92" x="0" y="0" rx="7.7"/>
     <rect id="hero-publisher-h" width="142" height="92" x="0" y="0" rx="7.7"/>
@@ -96,14 +96,7 @@
             <rect width="49" height="9" x="210" fill="#7E7DA0" opacity=".259" rx="4.5"/>
             <rect width="169" height="9" y="33" fill="#D7D8D9" rx="4.5"/>
           </g>
-          <g transform="translate(28 508)">
-            <rect width="50" height="9" fill="#B9BDC3" rx="4.5"/>
-            <rect width="272" height="9" x="80" fill="#D7D8D9" rx="4.5"/>
-          </g>
         </g>
-      </g>
-      <g fill="#F6F8F9" mask="url(#hero-publisher-c)">
-        <rect width="29" height="527" x="123" transform="translate(628 49)"/>
       </g>
       <rect width="779" height="49" fill="#343358" mask="url(#hero-publisher-c)"/>
       <rect width="87" height="11" x="27" y="19" fill="#FFF" mask="url(#hero-publisher-c)" opacity=".121" rx="5.5"/>

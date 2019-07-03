@@ -1,6 +1,5 @@
 $( document ).ready(function() {
 
-    $(function () {
         $('[data-id=headers-4-sidebar-toggle]').click(function (e) {
             e.preventDefault();
             $('#headers-4-sidebar').toggleClass('show');
@@ -9,7 +8,7 @@ $( document ).ready(function() {
             e.preventDefault();
             $('#headers-4-sidebar').removeClass('show');
         });
-    });
+
 
     var swiper = new Swiper('.swiper-container', {
         autoplay: {

@@ -66,7 +66,7 @@ $line-height-lg: 1.5;
 $line-height-sm: 1.5;
 $border-width: 1px;
 $border-radius: 0.25rem;
-$border-radius-lg: 0.8rem;
+$border-radius-lg: 0.7rem;
 $border-radius-sm: 0.2rem;
 // $box-shadow-sm: 0 0.125rem 0.25rem rgba(50, 50, 93, 0.1);
 $box-shadow-sm: 0 4px 15px -6px rgba(45,80,187,.15), 0 -3px 2px -3px rgba(45,80,187,.15);
@@ -272,7 +272,7 @@ $form-feedback-invalid-color: theme-color("danger");
 // Dropdown
 $dropdown-min-width: 10rem;
 $dropdown-padding-y: 1.9rem;
-$dropdown-padding-x: 1.4rem;
+$dropdown-padding-x: 1.9rem;
 $dropdown-spacer: 0.125rem;
 $dropdown-bg: $white;
 $dropdown-border-color: rgba($black, 0);
@@ -311,7 +311,7 @@ $navbar-transition: all 0.15s linear !default;
 $navbar-padding-y: 0.4rem !default;
 $navbar-padding-x: 1.8rem;
 
-$navbar-nav-link-padding-x: 1.3rem !default;
+$navbar-nav-link-padding-x: 1.2rem;
 $navbar-nav-link-padding-y: 0.85rem !default;
 
 $navbar-nav-link-font-family: $font-family-sans-serif !default;

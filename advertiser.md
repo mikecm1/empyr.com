@@ -38,15 +38,15 @@ second_button:
 all_features:
 - heading: 100% Attribution to In-Store Revenue
   icon: "/uploads/2019/05/icon-place.svg"
-- heading: 100% Attribution to In-Store Revenue
+- heading: No Cost for Impressions, Clicks, or Visits
   icon: "/uploads/2019/05/icon-place.svg"
-- heading: 100% Attribution to In-Store Revenue
+- heading: 5X - 20X ROAS Guaranteed
   icon: "/uploads/2019/05/icon-place.svg"
-- heading: 100% Attribution to In-Store Revenue
+- heading: Incremental Revenue Lift Reporting
   icon: "/uploads/2019/05/icon-place.svg"
-- heading: 100% Attribution to In-Store Revenue
+- heading: Self-Funding with No Upfront Costs or Minimums
   icon: "/uploads/2019/05/icon-place.svg"
-- heading: 100% Attribution to In-Store Revenue
+- heading: No Ad or Click Fraud
   icon: "/uploads/2019/05/icon-place.svg"
 show_case_studies: false
 case_studies:
@@ -109,7 +109,8 @@ section_three:
     href: "/advertiser"
 menu:
   partners:
-    weight: 2
-    identifier: advertisers
+    weight: 1
+    title: National Brands
+    description: Deploy campaigns across our network
 
 ---

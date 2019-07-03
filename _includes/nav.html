@@ -17,22 +17,24 @@ Displays the site's navigation using the jekyll-menus plugin
                     <a class="nav-link {% if item.children %}nested dropdown-toggle{% endif %}{% if url == item.url
                         %}active{% endif %}" href="{{ item.url }}" title="{{ item.title }}" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ item.title }}</a>
                     {% if item.children %}
-                    <div class="sub-menu dropdown-menu animate slideIn" aria-labelledby="dropdownMenuButton">
+                    <div class="sub-menu dropdown-menu animate slideIn rounded-lg" aria-labelledby="dropdownMenuButton">
                         <div class="row">
+                            <div class="col col-12 mb-md-0 pb-0">
+                            <p class="lead">By Partner Type</p>
+                            </div>
                             {% for item in item.children %}
-                            <div class="col-12 mb-5 mb-md-0">
-                                <div class="media align-items-center pb-1 mb-1">
+                            <div class="col col-12 mb-md-0">
+                                    <a class="dropdown-item" href="{{ item.url }}" title="{{ item.title }}">
+                                <div class="media align-items-top">
                                     <div class="mr-2"><img class="rounded" src="/assets/pictures/userpic.png" width="44" height="44" /></div>
                                     <div class="media-body">
-                                        <a class="dropdown-item" href="{{ item.url }}" title="{{ item.title }}"><span>{{
+                                        <span>{{
                                                 item.title }}</span>
-                                            <p class="small mb-0">Description
-                                                Description Description
-                                                Description Description
-                                                Description</p>
-                                        </a>
+                                            <p class="small mb-0">{{ item.description }}</p>
+                                        
                                     </div>
                                 </div>
+                            </a>
                                 <!-- {% for item in item.children %} -->
                                 <!-- <li class="menu-item-{{ loop.index }}"> -->
                                 <!-- <div class="row">
@@ -54,7 +56,7 @@ Displays the site's navigation using the jekyll-menus plugin
 
 
         <!-- <a class="btn btn-outline-primary btn-sm mt-2 mt-md-0 ml-lg-3" href="#">Join</a> -->
-        <button type="button" class="btn btn-primary">Get Started</button>
+        <a href="/contact" class="btn btn-primary">Get Started</a>
     </div>
 
 </nav>

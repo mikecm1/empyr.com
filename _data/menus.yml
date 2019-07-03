@@ -16,3 +16,7 @@ navigation:
   title: Solutions
   identifier: partners
   weight: 2
+- url: "/contact"
+  title: Contact
+  identifier: contact
+  weight: 5

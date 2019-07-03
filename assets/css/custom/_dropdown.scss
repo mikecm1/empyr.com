@@ -7,7 +7,7 @@
 
 .dropdown-menu {
     min-width: 22rem;
-    padding: $dropdown-padding-y $dropdown-padding-x 1.2rem;
+    padding: $dropdown-padding-y $dropdown-padding-x;
     @include border-radius($dropdown-border-radius);
     @include box-shadow($dropdown-box-shadow);
     border: none;
