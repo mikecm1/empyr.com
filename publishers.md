@@ -65,6 +65,7 @@ section_one:
     them from everyday offline purchases and generating revenue with each transaction.
     Build and deploy a customized card-linked offer program with complete strategic
     control of the UX, making your audience happy and increasing your bottom line.
+  image: "/img/test.png"
   button:
     text: Learn More
     link_url: index.md

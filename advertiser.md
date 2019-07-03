@@ -85,6 +85,7 @@ section_one:
     programs directly inside their products. Get rapid exposure to their members and
     instant engagement optimization– by allowing people to discover offers through
     products they know, trust, and use every day.
+  image: "/img/test.png"
   button:
     text: Learn More
     link_url: index.md
