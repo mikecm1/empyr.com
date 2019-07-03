@@ -24,12 +24,11 @@ mainfeatures:
 - description: Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
   heading: Full Online to Offline Attribution
   icon: "/uploads/2019/05/icon-place.svg"
-sub_heading: Empyr is the leading card-linked offer engagement platform, empowering
-  retail brands with guaranteed revenue and an enhanced consumer experience– all while
-  unlocking fully transparent offline sales analytics.
+sub_heading: Reach millions of consumers and ignite your in-store revenue without paying for clicks and impressions, while unlocking complete online to offline sales attribution.
 hero_button:
   text: Get Started
   href: "/about"
+headerimage: "/img/hero-advertiser.png"
 show_news: true
 show_staff: true
 show_mainfeatures: true

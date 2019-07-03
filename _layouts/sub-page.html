@@ -6,7 +6,7 @@ layout: default
         <div class="bg-cover">
             <div class="container">
                 <div class="row poster-feature-row pb-3">
-                    <div class="col-12 col-md-7 order-1 order-sm-1 text-">
+                    <div class="col-12 col-md-7 order-1 order-sm-1 mt-1 text-">
                         {% if page.tagline and page.tagline != "" %}
                         <h4 class="tag">{{ page.tagline }}</h4>
                         {% endif %}
@@ -26,11 +26,11 @@ layout: default
                                 </div>
                                 {% endif %}
                     </div>
-                    <div class="col-12 col-md-4 order-2 order-sm-2 position-relative mt-5 mt-md-0">
+                    <div class="col-12 col-md-4 order-2 order-sm-2 position-relative mt-5 mt-md-0 mb-5 mb-md-0 pb-5 pb-md-0">
             
                             <!-- Image -->
                             <div class="img-skewed img-skewed-left">
-                              <img src="/img/hero-publisher.svg" alt="..." class="screenshot img-fluid mw-md-130" data-aos="fade-left" data-aos-delay="100">
+                              <img src="{{ page.headerimage }}" alt="..." class="screenshot img-fluid mw-md-130" data-aos="fade-left" data-aos-delay="100">
                             </div>
                 
                           </div>

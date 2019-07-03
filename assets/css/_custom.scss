@@ -705,6 +705,12 @@ p.latest {
             background: linear-gradient(-90deg,#fff0 0%,hsla(223, 47%, 97%, 1) 90%);
         }
     }
+    &.hero {
+        p {
+            max-width: 625px;
+            padding-right: 10px;
+        }
+    }
 }
 
 .hero {
@@ -835,6 +841,7 @@ p.latest {
                     // font-weight: 500;
                     letter-spacing: -1.4px;
                     line-height: 1.15;
+                    padding-right: 20px;
                 }
             }
 
@@ -1861,22 +1868,24 @@ img {
 .img-skewed-left {
     perspective-origin: left bottom;
 @include media-breakpoint-down(sm) {
-    max-width: 80vw!important;
-    position: absolute;
-    right: -60px;
-    top: -50px;
+    max-width: 100vw!important;
+    top: -30px;
     padding-bottom: 100px;
+    width: 100%;
+    position: absolute;
+    right: -80px;
+    margin: 0 auto;
 }
 }
 .mw-md-30 {}
 @include media-breakpoint-up(md) {
     .mw-md-130 {
-        max-width: 90vw!important;
+        max-width: 890px!important;
         position: absolute;
         left: 30px;
-        top: -20px;
+        top: -10px;
         @include media-breakpoint-up(xl) {
-            left: -5vw;
+            left: -6vw;
         }
     }
 }
