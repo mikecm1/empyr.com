@@ -59,7 +59,7 @@ layout: default
                         {% for item in page.mainfeatures %}
                         <div class="col-12 col-md-4 mb-4 mb-md-0" data-aos="basic" data-aos-delay="{{ forloop.index | times: 150 }}">
                             <img class="mb-2" src="{{ item.icon | absolute_url }}" alt="" width="55">
-                            <h5 class="mb-1 pb-1 xl">{{ item.heading }}</h5>
+                            <h5 class="">{{ item.heading }}</h5>
                             <div class="lighten mt-1">{{ item.description }}</div>
                         </div>
                         {% endfor %}
@@ -101,7 +101,7 @@ layout: default
                     <p class="mb-4" data-aos="basic" data-aos-delay="100">{{ page.section_one.section_body_copy }}</p>
                     <!-- <a href="{{ page.section_one.button.link_url }}" class="btn btn-lg btn-secondary">{{ page.section_one.button.text }}</a> -->
                 </div>
-                <div class="col-12 col-md-6 order-1 order-md-2 pl-md-0 mb-4 mb-md-0">
+                <div class="col-12 col-md-7 order-2 pl-md-4 mb-4 mb-md-0 pr-md-0">
                     <img class="w-100" src="/assets/pictures/image-555x380.png" data-aos="fade-left" data-aos-delay="300" />
                 </div>
             </div>
@@ -110,10 +110,10 @@ layout: default
         {% if page.section_two %}
         <section>
             <div class="row justify-content-between align-items-top">
-                <div class="col-12 col-md-6 pl-md-0 mb-4 mb-md-0">
+                <div class="col-12 col-md-7 order-2 order-md-1 pr-md-4 mb-4 mb-md-0 pl-md-0">
                     <img class="w-100" src="/assets/pictures/image-555x380.png" data-aos="fade-right" data-aos-delay="300"/>
                 </div>
-                <div class="col-12 col-md-5">
+                <div class="col-12 col-md-5 order-1 order-md-2">
                  <div data-aos="basic"><h4 class="mb-2 tag">{{ page.section_one.tagline }}</h4></div>
                     <h1 data-aos="basic" data-aos-delay="50">{{ page.section_two.section_header }}</h1>
                     <img src="/img/headline-separator.svg" alt="" data-aos="basic" data-aos="fade-right" data-aos-delay="150">

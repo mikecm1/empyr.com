@@ -575,7 +575,7 @@ main {
 
 .features {
     p {
-        font-size: 18.3px;
+        font-size: 17.7px;
         letter-spacing: .09px;
         line-height: 1.9;
         color: #4b4b6c;
@@ -848,7 +848,7 @@ p.latest {
                 
             }
             @include media-breakpoint-up(lg) {
-                padding: 160px 0 130px;
+                padding: 150px 0 130px;
                 
             }
             &:before {
@@ -1198,7 +1198,7 @@ li.nav-item {
     .dropdown {
         .col {
             margin-bottom: 0;
-            padding-bottom: 25px;
+            padding-bottom: 13px;
             &:last-of-type {
                 padding-bottom: 7px;
             }
@@ -1541,7 +1541,7 @@ svg.fsvg {
     text-transform: uppercase;
     background: #ffffff0f;
     border-radius: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 
 // Swiper styles
@@ -1594,7 +1594,7 @@ svg.fsvg {
     z-index: 1;
     padding: 130px 0 230px;
     @include media-breakpoint-up(md) {
-        padding: 130px 0 230px;
+        padding: 110px 0 230px;
     }
     // margin-top: 90px;
     // border-top: 1px solid #332f531c;
@@ -1944,8 +1944,31 @@ img {
 
         @include media-breakpoint-up(xl) {
             font-size: 1.475rem;
+            margin-top: 0px;
+            margin-bottom: 4px;
         }
     }
+}
+
+.logo-wrap::before {
+    // position: absolute;
+    // top: 0;
+    // bottom: 0;
+    // width: 100%;
+    // background: #d4d5e1;
+    // content: '';
+    // z-index: 9999;
+    // height: 100%;
+    // mix-blend-mode: color;
+}
+
+.img-logo {
+    width: auto;
+    max-height: 40px;
+    max-width: 90%;
+    margin: 10px 0;
+    filter: grayscale(1);
+    opacity: 0.8;
 }
 
 .benefits {
@@ -1955,11 +1978,12 @@ img {
     }
     h5 {
         font-weight: 500;
-        letter-spacing: -0.2px;
+        letter-spacing: -.2px;
         position: relative;
         line-height: 1.2;
-        margin-bottom: .5rem;
-        color: #14161f;
+        margin-bottom: 0 !important;
+        color: #0f3256;
+        padding-bottom: 7px !important;
 
         @include media-breakpoint-up(xl) {
             font-size: 23.2px;

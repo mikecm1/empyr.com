@@ -72,8 +72,8 @@ layout: default
                 <div class="row justify-content-center
                     justify-content-lg-between text-center align-items-center">
                     {% for logo in page.partners %}
-                    <div class="col-4 mb-4 col-md mb-md-0" data-aos="basic" data-aos-delay="{{ forloop.index | times: 150 }}">
-                        <img src="{{ logo | absolute_url }}" style="width: 100px; max-width: 70%" />
+                    <div class="col-4 mb-4 col-md mb-md-0 logo-wrap" data-aos="basic" data-aos-delay="{{ forloop.index | times: 150 }}">
+                        <img src="{{ logo | absolute_url }}" class="img-logo" />
                     </div>
                     {% endfor %}
                 </div>
@@ -84,7 +84,7 @@ layout: default
         <div class="intro container full">
             <div class="row">
                 <div class="col-12">
-                    <h1 class="headline mb-1 mb-md-4 mt-0" data-aos="basic">{{ page.primary_body_copy_headline }}</h1>
+                    <h1 class="headline mb-2 mb-md-4 pb-md-1 mt-0" data-aos="basic">{{ page.primary_body_copy_headline }}</h1>
                 </div>
                 <!-- <div class="col-md-7">
                 <p class="large mb-4" data-aos="basic" data-aos-delay="100">{{ page.primary_body_copy_subtext
@@ -93,26 +93,16 @@ layout: default
             </div>
             <!-- {% if page.show_mainfeatures %}  -->
             {% if page.mainfeatures %}
-            <div class="row pt-2">
+            <div class="row pt-2 feat">
                 {% for item in page.mainfeatures %}
                 {% if forloop.length == 4 %}
-                <div class="eq col-12 col-lg-6 col-xl-3 mb-xl-0 mb-1" data-aos="fade-up" data-aos-delay="{{ forloop.index | times: 150 }}">
+                <div class="eq col-12 col-lg-6 col-xl-3 mb-xl-0 mb-4 mb-md-0" data-aos="fade-up" data-aos-delay="{{ forloop.index | times: 150 }}">
                     {% elsif forloop.length== 3 %}
-                    <div class="eq col-12 col-md-4" data-aos="fade-up" data-aos-delay="{{ forloop.index | times: 150 }}">
+                    <div class="eq col-12 mb-4 mb-md-0 col-md-4" data-aos="fade-up" data-aos-delay="{{ forloop.index | times: 150 }}">
                         {% endif %}
                         <div>
-                            <!-- <img class="mb-1" src="{{ item.icon | absolute_url }}" alt="" width="55"> -->
-                            <div class="icon text-primary mb-3">
-                                <!--?xml version="1.0" encoding="UTF-8"?-->
-                                <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="">
-                                    <g id="Stockholm-icons-/-Layout-/-Layout-arrange" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                        <rect id="bound" x="0" y="0" width="24" height="24"></rect>
-                                        <path d="M5.5,4 L9.5,4 C10.3284271,4 11,4.67157288 11,5.5 L11,6.5 C11,7.32842712 10.3284271,8 9.5,8 L5.5,8 C4.67157288,8 4,7.32842712 4,6.5 L4,5.5 C4,4.67157288 4.67157288,4 5.5,4 Z M14.5,16 L18.5,16 C19.3284271,16 20,16.6715729 20,17.5 L20,18.5 C20,19.3284271 19.3284271,20 18.5,20 L14.5,20 C13.6715729,20 13,19.3284271 13,18.5 L13,17.5 C13,16.6715729 13.6715729,16 14.5,16 Z" id="Combined-Shape" fill="#335EEA" class=""></path>
-                                        <path d="M5.5,10 L9.5,10 C10.3284271,10 11,10.6715729 11,11.5 L11,18.5 C11,19.3284271 10.3284271,20 9.5,20 L5.5,20 C4.67157288,20 4,19.3284271 4,18.5 L4,11.5 C4,10.6715729 4.67157288,10 5.5,10 Z M14.5,4 L18.5,4 C19.3284271,4 20,4.67157288 20,5.5 L20,12.5 C20,13.3284271 19.3284271,14 18.5,14 L14.5,14 C13.6715729,14 13,13.3284271 13,12.5 L13,5.5 C13,4.67157288 13.6715729,4 14.5,4 Z" id="Combined-Shape" fill="#335EEA" opacity="0.3" class=""></path>
-                                    </g>
-                                </svg>
-                            </div>
-                            <h5 class="h5 my-1">{{ item.heading }}</h5>
+                                    <img class="mb-1" src="{{ item.icon | absolute_url }}" alt="" width="50">
+                            <h5 class="h5 py-1">{{ item.heading }}</h5>
                             <div class="lighten">{{ item.description }}</div>
                         </div>
                     </div>
@@ -155,7 +145,7 @@ layout: default
                             </div>
                             <div class="col-12 col-md-7 order-2 pl-md-4
                             mb-4 mb-md-0 pr-0">
-                                <img class="w-100" src="/img/section-logo-rounded.png" data-aos="fade-left" data-aos-delay="300" data-aos-anchor=".lead">
+                                <img class="w-100" src="/img/section-logo-rounded.png" data-aos="fade-left" data-aos-delay="300">
                             </div>
                         </div>
                     </section>
@@ -167,7 +157,7 @@ layout: default
                             pr-md-4">
                                 <img class="w-100" src="/img/section-roas.svg" data-aos="fade-right" data-aos-delay="300">
                             </div>
-                            <div class="col-12 order-1 order-md-2 col-md-5 pt-md-2" data-aos="basic">
+                            <div class="col-12 order-1 order-md-2 col-md-5 pt-md-4" data-aos="basic">
                                 <h4 class="mb-2 tag">{{ page.section_two.tagline }}</h4>
                                 <h1 class="display-4">{{
                                 page.section_two.section_header }}</h1>
