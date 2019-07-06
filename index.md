@@ -21,11 +21,8 @@ mainfeatures:
 - description: Vivamus sagittis lacus vel augue laoreet rutrum faucibus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus.
   heading: Full Offline Attribution
   icon: "/img/icon-3.svg"
-# - description: Vivamus sagittis lacus vel augue laoreet rutrum faucibus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus.
-#   heading: In-Depth Analytics
-#   icon: "/uploads/2019/05/icon-place.svg"
 sub_heading: Empyr is the leading card-linked offer engagement platform, providing
-  retail brands with guaranteed revenue and an enhanced consumer experience, all while
+  brands with guaranteed revenue and an enhanced consumer experience, all while
   unlocking transparent offline sales analytics.
 hero_button:
   text: Get Started
