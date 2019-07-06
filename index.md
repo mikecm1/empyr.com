@@ -22,7 +22,7 @@ mainfeatures:
   heading: Full Offline Attribution
   icon: "/img/icon-3.svg"
 # sub_heading: Empyr is the leading card-linked offer engagement platform, providing brands with guaranteed revenue and an enhanced consumer experience, all while unlocking transparent offline sales analytics.
-sub_heading: Empyr is the leading card-linked offer engagement platform, driving guaranteed revenue and enhancing the customer experience for retail brands-- all while unlocking fully transparent offline sales analytics.
+sub_heading: Empyr is the leading card-linked offer engagement platform, driving guaranteed revenue and enhancing the customer experience for retail brands— all while unlocking fully transparent offline sales analytics.
 hero_button:
   text: Get Started
   href: "/about"
