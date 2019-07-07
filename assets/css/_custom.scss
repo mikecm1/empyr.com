@@ -1781,10 +1781,27 @@ svg.fsvg {
 }
 
 .bg-gradient-lighter {
-    background: url(/img/bg-corner-dotted.svg),linear-gradient(0deg,#fff 75%,#f4f6fb 100%);
+    background: url(/img/bg-corner-dotdted.svg),linear-gradient(0deg,#fff 75%,#f4f6fb 100%);
     background-position: right 35px top;
-    background-repeat: no-repeat,
-        repeat;
+    background-repeat: no-repeat,repeat;
+    position: relative;
+    &::before {
+        position: absolute;
+        content: '';
+        width: 1230px;
+        height: 960px;
+        padding-bottom: 130px;
+        background: linear-gradient(172deg,rgba(66,4,230,0) 25%,#e9eaf382 80%);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: 100% 23%;
+        top: -70px;
+        right: 0;
+        min-width: 830px;
+        z-index: 0;
+        clip-path: polygon(-70% -10%,100% 0,100% 100%,100% 88%);
+        transform: scaleX(1) scaleY(1);
+    }
 }
 
 .lighten {
@@ -1859,10 +1876,11 @@ h4.tag {
 img {
     &.analytics {
         position: relative;
-        left: -50px;
+        left: -40%;
         max-width: 1600px;
-        width: 120%;
+        width: 150%;
         bottom: 20px;
+        align-self: center;
         @include media-breakpoint-up(md) {
             position: absolute;
             top: 50px;
@@ -1871,14 +1889,18 @@ img {
             max-width: 1070px;
             }
         @include media-breakpoint-up(lg) {
-            top: 1px;
-            left: -200px;
+            top: 0px;
+            left: -10%;
             width: auto;
-            max-width: 1600px;
+            max-width: 1380px;
             bottom: auto;
         }
         @include media-breakpoint-up(xl) {
             left: -130px;
+            top: 1px;
+            width: auto;
+            max-width: 1600px;
+            bottom: auto;
         }
 
         }
@@ -2081,11 +2103,10 @@ img {
     }
 
     @include media-breakpoint-up(1024) {
-        right: 4vw;
         position: absolute;
         bottom: -27vw;
         height: auto;
-        left: 33%;
+        left: 32%;
         top: auto;
         max-width: 63vw;
         min-width: auto;
