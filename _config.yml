@@ -38,6 +38,8 @@ plugins:
 #   sass_dir: assets/css
 compress_html:
   comments: ["<!-- ", " -->"]
+exclude_from_watch:
+  - assets/css
 
 # PREVIEW COMMAND
 # bundle exec jekyll build --drafts --unpublished --future -d _site

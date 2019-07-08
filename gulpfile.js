@@ -14,10 +14,15 @@ var gulp = require('gulp'),
     concat = require('gulp-concat'),
     uglify = require('gulp-uglify'),
     replace = require('gulp-replace'),
+    imagemin = require('gulp-imagemin'),
+    pngquant = require('imagemin-pngquant'),
+    imageOptim = require('gulp-imageoptim'),
+    changed = require('gulp-changed'),
     csso = require('postcss-csso');
 
 gulp.task('generate', shell.task('bundle exec jekyll serve --watch --incremental --livereload'));
 gulp.task('buildit', shell.task('bundle exec jekyll build -d _site'));
+
 
 gulp.task('scss-local', function () {
     var postcssOptions = {
@@ -45,14 +50,6 @@ gulp.task('scss-local', function () {
         .pipe(touch());
 });
 
-// gulp.task('jsTask', function () {
-//     return gulp.src('.assets/js/**/*.js')
-//         .pipe(concat('all.js'))
-//         .pipe(uglify())
-//         .pipe(gulp.dest('dist/')
-//     );
-// });
-
 
 gulp.task('jsTask', function () {
     return gulp.src('.assets/js/**/*.js')
@@ -60,12 +57,14 @@ gulp.task('jsTask', function () {
         .pipe(gulp.dest('dist/'))
 });
 
-// var cbString = new Date().getTime();
-// function cacheBustTask(){
-//     return src(['index.html'])
-//         .pipe(replace(/cb=\d+/g, 'cb=' + cbString))
-//         .pipe(dest('.'));
-// }
+
+var cbString = new Date().getTime();
+
+function cacheBustTask() {
+    return src(['index.html'])
+        .pipe(replace(/cb=\d+/g, 'cb=' + cbString))
+        .pipe(dest('.'));
+}
 
 
 // Deploy on forestry.io
@@ -74,24 +73,56 @@ gulp.task('deploy', gulp.series(
 ));
 
 // Watch scss changes
+// gulp.task('watch', function () {
+//     gulp.watch('assets/**/*.scss', gulp.series('scss-local'));
+// });
+
+// gulp.task('watch', function () {
+//     gulp.watch(['assets/**/*.scss', 'img/*', 'assets/img/*', 'assets/pictures/*'], gulp.series('scss-local'));
+// });
+
+// gulp.task('watch', function () {
+//     gulp.watch(['assets/**/*.scss'], gulp.series('scss-local'));
+//     gulp.watch(['img/*', 'assets/img/*', 'assets/pictures/*'], gulp.series('images'));
+// });
+
 gulp.task('watch', function () {
-    gulp.watch('assets/**/*.scss', gulp.series('scss-local'));
+    gulp.watch(['assets/**/*.scss'], gulp.series('scss-local'));
+
+    gulp.watch(['img/*', 'assets/img/*', 'assets/pictures/*'], gulp.series('images'));
+
+
 });
 
+
+
+// Image optimizations
+gulp.task('images', function () {
+    return gulp.src([
+            'img/*.{png,gif,jpg}',
+            'assets/img/*.{png,gif,jpg}',
+            'assets/pictures/*.{png,gif,jpg}',
+        ])
+        .pipe(imageOptim.optimize())
+        .pipe(
+            gulp.dest(function (file) {
+                return file.base;
+            })
+        )
+});
+
+// 
 // Default: watch and build local
 gulp.task('default', gulp.parallel(
-    'watch',
-    'generate'
+    'generate',
+    'watch'
 ));
 
-/////////////////////// 
 
-/////////////////////// 
-/////////////////////// 
+
+// 
 // For final compile and watch, run 'gulp compile'
 // CSS compile speeds are slower due to uncss
-/////////////////////// 
-/////////////////////// 
 
 gulp.task('scss-full', function () {
     var pxtoremOptions = {
@@ -132,8 +163,9 @@ gulp.task('watch-full', function () {
     gulp.watch('assets/**/*.scss', gulp.series('scss-full'));
 });
 
-// Default: watch and compile full local with uncss
+// Watch and compile complete with uncss and optimizations
 gulp.task('compile', gulp.parallel(
-    'watch-full',
-    'generate'
+    'generate',
+    'images',
+    'watch-full'
 ));
