@@ -13,7 +13,7 @@ Displays the site's navigation using the jekyll-menus plugin
         <ul class="navbar-nav mr-auto">
             {% for item in site.menus.navigation %}
             <li class="menu-item-{{ loop.index }}">
-                <div class="{% if item.children %}dropdown{% if url == item.url %}active{% endif %}{% endif %}">
+                <div class="hello {% if item.children %}dropdown{% endif %}{% if url == item.url %}active{% endif %}">
                     <a class="nav-link {% if item.children %}nested dropdown-toggle{% endif %}{% if url == item.url
                         %}active{% endif %}" href="{{ item.url }}" title="{{ item.title }}" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ item.title }}</a>
                     {% if item.children %}
@@ -35,17 +35,6 @@ Displays the site's navigation using the jekyll-menus plugin
                                     </div>
                                 </div>
                             </a>
-                                <!-- {% for item in item.children %} -->
-                                <!-- <li class="menu-item-{{ loop.index }}"> -->
-                                <!-- <div class="row">
-                            <div class="col-12 col-md-6 d-flex mb-4">
-                              <div class="mr-3"><img src="./assets/glyphs/rectangle-1.svg" width="32" /></div>
-                              <a class="dropdown-item" href="{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a>
-                              <div class="small">Gorgeous, high-quality video sharing on desktop, mobile, tablet</div>
-                            </div>
-                          </div> -->
-                                <!-- </li> -->
-                                <!-- {% endfor %} -->
                             </div>
                             {% endfor %}
                         </div>
@@ -53,9 +42,6 @@ Displays the site's navigation using the jekyll-menus plugin
             </li>
             {% endfor %}
         </ul>
-
-
-        <!-- <a class="btn btn-outline-primary btn-sm mt-2 mt-md-0 ml-lg-3" href="#">Join</a> -->
         <a href="/contact" class="btn btn-primary">Get Started</a>
     </div>
 

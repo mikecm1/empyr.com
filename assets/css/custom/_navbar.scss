@@ -271,9 +271,9 @@
     .navbar-brand {
       color: $navbar-dark-active-color;
   
-      @include hover-focus {
-        color: $navbar-dark-active-color;
-      }
+    //   @include hover-focus {
+    //     color: $navbar-dark-active-color;
+    //   }
     }
   
     .navbar-nav {
@@ -289,11 +289,14 @@
         }
       }
   
-      .show > .nav-link,
       .active > .nav-link,
-      .nav-link.show,
       .nav-link.active {
         color: $navbar-dark-active-color;
+      }
+
+      .show > .nav-link,
+      .nav-link.show, {
+        color: $navbar-dark-color;
       }
     }
   
