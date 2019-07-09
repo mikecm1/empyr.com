@@ -63,6 +63,7 @@ gulp.task('scss-local', function () {
 
 gulp.task('cacheBustTask', function () {
     gulp.src('_includes/head.html')
+    .pipe(htmlmin({ collapseWhitespace: true }))
         .pipe(version({
             'value': '%MDS%',
             'append': {
@@ -75,7 +76,7 @@ gulp.task('cacheBustTask', function () {
 
 
 gulp.task('watch', function () {
-    gulp.watch(['assets/**/*.scss'], gulp.series('scss-local', 'cacheBustTask'));
+    gulp.watch(['assets/**/*.scss'], gulp.series('scss-local'));
 });
 
 // Image optimizations
@@ -138,7 +139,6 @@ gulp.task('watch-full', function () {
 // Default: watch and build local
 gulp.task('default', gulp.parallel(
     'generate',
-    'cacheBustTask',
     'watch'
 ));
 
