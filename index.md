@@ -10,19 +10,25 @@ partners:
 - "/img/logo-home-4.png"
 - "/img/logo-home-5.png"
 - "/img/logo-home-6.png"
-partner_language: Empyr powers card-linked offer programs for leading brands and top digital companies.
+partner_language: Empyr powers card-linked offer programs for leading brands and top
+  digital companies.
 mainfeatures:
 - heading: Exclusive Distribution
-  description: Vivamus sagittis lacus vel augue laoreet rutrum faucibus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus.
+  description: Vivamus sagittis lacus vel augue laoreet rutrum faucibus. Vivamus sagittis
+    lacus vel augue laoreet rutrum faucibus.
   icon: "/img/icon-1.svg"
 - heading: Guaranteed ROAS
-  description: Vivamus sagittis lacus vel augue laoreet rutrum faucibus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus.
+  description: Vivamus sagittis lacus vel augue laoreet rutrum faucibus. Vivamus sagittis
+    lacus vel augue laoreet rutrum faucibus.
   icon: "/img/icon-2.svg"
-- description: Vivamus sagittis lacus vel augue laoreet rutrum faucibus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus.
+- description: Vivamus sagittis lacus vel augue laoreet rutrum faucibus. Vivamus sagittis
+    lacus vel augue laoreet rutrum faucibus.
   heading: Full Offline Attribution
   icon: "/img/icon-3.svg"
-sub_heading: Empyr is the leading card-linked offer engagement platform, driving guaranteed revenue and enhancing customer experiences for retail brands— all while unlocking transparent offline sales attribution.
-header_screen_one: "/img/app-yelp.jpg"
+sub_heading: Empyr is the leading card-linked offer engagement platform, driving guaranteed
+  revenue and enhancing customer experiences for retail brands— all while unlocking
+  transparent offline sales attribution.
+header_screen_one: "/uploads/2018/02/17/city.jpg"
 header_screen_two: "/img/app-yelp.jpg"
 header_screen_three: "/img/app-yelp.jpg"
 hero_button:
@@ -93,7 +99,8 @@ company_types:
   description: Share Empyr with your clients for a brand new revenue stream
   icon: ''
 cta_footer_header: Get started with card-linked offers
-cta_footer_subheader: Make Empyr part of your digital strategy and start accelerating your revenue today.
+cta_footer_subheader: Make Empyr part of your digital strategy and start accelerating
+  your revenue today.
 section_one:
   super: ''
   heading: ''
