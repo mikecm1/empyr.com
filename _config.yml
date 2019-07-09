@@ -32,6 +32,7 @@ plugins:
   - jekyll-menus
   # - jekyll-feed
   - jekyll-archives
+  - jekyll-sitemap
   # - jekyll-autoprefixer
 # sass:
 #   style: compressed
