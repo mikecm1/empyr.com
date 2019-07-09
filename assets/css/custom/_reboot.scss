@@ -15,11 +15,12 @@ body {
     line-height: $line-height-base;
     color: $body-color;
     background-color: $body-bg;
+    overflow-x: hidden;
 }
-
 iframe {
     border: 0;
 }
+
 figcaption,
 figure,
 main {

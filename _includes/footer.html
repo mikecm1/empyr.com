@@ -52,129 +52,14 @@
 </div>
 </div>
 </main>
-<script>
-</script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/js/swiper.min.js"></script>
+<script src="{{ "assets/js/vendor/popper.min.js" | absolute_url }}"></script>
+<script src="{{ "assets/js/vendor/bootstrap.min.js" | absolute_url }}"></script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>
-    $('document').ready(function () {
-        document.documentElement.className = 'js';
-        AOS.init({
-            once: !0,
-            duration: 400,
-            disable: 'mobile',
-            anchorPlacement: 'top'
-        });
-    });
-</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/barba.js/1.0.0/barba.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
-<script>
-    $('document').ready(function () {
-        var transEffect = Barba.BaseTransition.extend({
-            start: function () {
-                this.newContainerLoading.then(val => this.fadeInNewcontent($(this.newContainer)));
-            },
-            fadeInNewcontent: function (nc) {
-                nc.hide();
-                var _this = this;
-                $(this.oldContainer).fadeOut(400, "swing").promise().done(() => {
-                    $(window).scrollTop(0);
-                    nc.css('visibility', 'visible');
-                    nc.fadeIn(400, "swing", function () {
-                        _this.done();
-                    })
-                });
-            }
-        });
-        Barba.Pjax.getTransition = function () {
-            return transEffect;
-            AOS.refresh();
-        }
-        Barba.Pjax.start();
-        Barba.Prefetch.init();
-        Barba.Dispatcher.on('transitionCompleted', function (currentStatus, prevStatus) {
-            if (prevStatus) {
-                setTimeout(function () {
-
-                    $('html').find('script').each(function (i, script) {
-                        var $script = $(script);
-                        $.ajax({
-                            url: $script.attr('src'),
-                            cache: true,
-                            dataType: 'script',
-                            success: function () {
-                                $script.trigger('load');
-                            }
-                        });
-                    });
-                }, 1);
-            }
-
-        });
-        Barba.Dispatcher.on('newPageReady', function (current, prev, container) {
-            history.scrollRestoration = 'manual';
-        });
-
-        Barba.Dispatcher.on('newPageReady', function (currentStatus) {
-            const link = currentStatus.url.split(window.location.origin)[1].substring(1); // get path of current page
-
-            const navigation = document.querySelector('.navbar-nav');
-            const navigationLinks = navigation.querySelectorAll('.nav-link');
-            const navigationLinkIsActive = navigation.querySelector(`[href="${link}"]`);
-
-            Array.prototype.forEach.call(navigationLinks, (navigationLink) => navigationLink.classList.remove('active')); // remove CSS class 'is-active' from all .navigation__links
-
-            navigationLinkIsActive.classList.add('active'); // add CSS class to current .navigation__link
-
-        });
-
-    });
-</script>
-<!-- <script src="/assets/js/vendor/smooth-scrollbar.js"></script>
-<script>
-    var Scrollbar = window.Scrollbar;
-$('body').addClass('smooth');
-    const options = {
-        damping: 0.1,
-        thumbMinSize: 20,
-        renderByPixels: true,
-        alwaysShowTracks: false,
-        continuousScrolling: true,
-        wheelEventTarget: null
-    };
-    Scrollbar.init(document.querySelector("html:not(.no-js) body.smooth #main-scrollbar"), options);
-</script> -->
-<script>
-    $(function () {
-        $('body').addClass('is-loaded');
-
-        //   siteFooter();
-        // 	$(window).resize(function() {
-        // 		siteFooter();
-        // 	});
-
-        // function siteFooter() {
-        // 	var siteContent = $('.barba-container');
-        // 	var siteContentHeight = siteContent.height();
-        // 	var siteContentWidth = siteContent.width();
-
-        // 	var siteFooter = $('footer');
-        // 	var siteFooterHeight = siteFooter.height();
-        // 	var siteFooterWidth = siteFooter.width();
-
-        // 	console.log('Content Height = ' + siteContentHeight + 'px');
-        // 	console.log('Content Width = ' + siteContentWidth + 'px');
-        // 	console.log('Footer Height = ' + siteFooterHeight + 'px');
-        // 	console.log('Footer Width = ' + siteFooterWidth + 'px');
-
-        // 	siteContent.css({
-        // 		"margin-bottom" : siteFooterHeight
-        //     });
-        //     $('footer').show();
-        // };
-
-    });
-</script>
+<script src="/assets/js/vendor/smooth-scrollbar.js"></script>
+<script src="{{ "assets/js/functions.js?cb=123" | absolute_url }}"></script>
 </body>
 
 </html>

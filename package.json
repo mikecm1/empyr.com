@@ -22,6 +22,7 @@
     "del": "^4.1.1",
     "gulp": "^4.0.2",
     "gulp-eslint": "^5.0.0",
+    "gulp-htmlmin": "^5.0.1",
     "gulp-install": "^1.1.0",
     "gulp-newer": "^1.4.0",
     "gulp-plumber": "^1.2.1",
@@ -40,6 +41,7 @@
     "webpack-stream": "^5.2.1"
   },
   "devDependencies": {
+    "gulp-cache-bust": "^1.4.1",
     "gulp-changed": "^3.2.0",
     "gulp-clean-css": "^4.2.0",
     "gulp-concat": "^2.6.1",
@@ -52,6 +54,7 @@
     "gulp-touch": "^1.0.1",
     "gulp-touch-cmd": "0.0.1",
     "gulp-uglify": "^3.0.2",
+    "gulp-version-number": "^0.2.4",
     "imagemin-pngquant": "^8.0.0",
     "postcss-cli": "^6.1.2",
     "postcss-font-magician": "^2.2.1",
