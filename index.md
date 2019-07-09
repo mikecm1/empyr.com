@@ -29,9 +29,9 @@ mainfeatures:
 sub_heading: Empyr is the leading card-linked offer engagement platform, driving guaranteed
   revenue and enhancing customer experiences for retail brands— all while unlocking
   transparent offline sales attribution.
-header_screen_one: "/img/app-yelp.jpg"
-header_screen_two: "/img/app-yelp.jpg"
-header_screen_three: "/img/app-yelp.jpg"
+header_screen_one: "/uploads/2019/07/app-nerd.jpg"
+header_screen_two: "/uploads/2019/07/app-partner.jpg"
+header_screen_three: "/uploads/2019/07/app-yelp.jpg"
 hero_button:
   text: Get Started
   href: "/about"
