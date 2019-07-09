@@ -331,5 +331,6 @@ fields:
   hidden: true
   default: home
 pages:
+- test.md
 - sdgdgfg.md
 - index.md

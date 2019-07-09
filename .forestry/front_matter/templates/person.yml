@@ -36,5 +36,4 @@ fields:
   hidden: true
   default: person
 pages:
-- test.md
 - _people/erika-carmichael.md
