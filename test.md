@@ -43,8 +43,8 @@ banner_image: ''
 second_button:
   text: ''
   link: ''
-primary_body_copy_headline: ''
-primary_body_copy_subtext: ''
+primary_body_copy_headline: Sections Sections
+primary_body_copy_subtext: Sections Sections Sections Sections Sections
 textline: sdfsdfsdfsdf
 show_mainfeatures: false
 mainfeatures: []
