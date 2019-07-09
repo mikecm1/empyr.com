@@ -2096,6 +2096,10 @@ img.lazyfade.lazyloaded {
   box-shadow: 4px 15px 1px -10px #000;
 }
 
+.phone.two .display-content {
+    transform: scaleX(1) translateZ(0);
+}
+
 .display-content {
     position: absolute;
     top: 7px;
