@@ -1,12 +1,12 @@
 ---
-title: Mike S
+title: Mike Stevenson
 date: '2019-11-14T10:54:31.000+00:00'
 role:
 - staff
-thumbnail: ''
-sub_heading: Administration
-email: ''
-linkedin: ''
+thumbnail: "/uploads/2019/07/Mike Stevenson.jpg"
+sub_heading: Title
+email: email@email.com
+linkedin: linkedin
 layout: person
 
 ---
