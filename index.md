@@ -2,6 +2,7 @@
 title: Home
 banner_image: ''
 layout: landing-page
+description: hello there
 heading: Online, Meet Offline.
 partners:
 - "/img/logo-home-1.png"
