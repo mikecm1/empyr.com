@@ -23,7 +23,6 @@ var gulp = require('gulp'),
 gulp.task('generate', shell.task('bundle exec jekyll serve --watch --incremental --livereload'));
 gulp.task('buildit', shell.task('bundle exec jekyll build -d _site'));
 
-
 gulp.task('scss-local', function () {
     var postcssOptions = {
         map: true,
@@ -50,51 +49,23 @@ gulp.task('scss-local', function () {
         .pipe(touch());
 });
 
-
 gulp.task('jsTask', function () {
     return gulp.src('.assets/js/**/*.js')
         .pipe(concat('all.js'))
         .pipe(gulp.dest('dist/'))
 });
 
-
 var cbString = new Date().getTime();
-
 function cacheBustTask() {
     return src(['index.html'])
         .pipe(replace(/cb=\d+/g, 'cb=' + cbString))
         .pipe(dest('.'));
 }
 
-
-// Deploy on forestry.io
-gulp.task('deploy', gulp.series(
-    'buildit'
-));
-
-// Watch scss changes
-// gulp.task('watch', function () {
-//     gulp.watch('assets/**/*.scss', gulp.series('scss-local'));
-// });
-
-// gulp.task('watch', function () {
-//     gulp.watch(['assets/**/*.scss', 'img/*', 'assets/img/*', 'assets/pictures/*'], gulp.series('scss-local'));
-// });
-
-// gulp.task('watch', function () {
-//     gulp.watch(['assets/**/*.scss'], gulp.series('scss-local'));
-//     gulp.watch(['img/*', 'assets/img/*', 'assets/pictures/*'], gulp.series('images'));
-// });
-
 gulp.task('watch', function () {
     gulp.watch(['assets/**/*.scss'], gulp.series('scss-local'));
-
     gulp.watch(['img/*', 'assets/img/*', 'assets/pictures/*'], gulp.series('images'));
-
-
 });
-
-
 
 // Image optimizations
 gulp.task('images', function () {
@@ -110,19 +81,6 @@ gulp.task('images', function () {
             })
         )
 });
-
-// 
-// Default: watch and build local
-gulp.task('default', gulp.parallel(
-    'generate',
-    'watch'
-));
-
-
-
-// 
-// For final compile and watch, run 'gulp compile'
-// CSS compile speeds are slower due to uncss
 
 gulp.task('scss-full', function () {
     var pxtoremOptions = {
@@ -158,14 +116,29 @@ gulp.task('scss-full', function () {
         .pipe(touch());
 });
 
-// Watch scss changes
 gulp.task('watch-full', function () {
     gulp.watch('assets/**/*.scss', gulp.series('scss-full'));
 });
 
+
+
+// ****** Build tasks ****** //
+
+// Default: watch and build local
+gulp.task('default', gulp.parallel(
+    'generate',
+    'watch'
+));
+
 // Watch and compile complete with uncss and optimizations
+// Run before final deploy to forestry if big changes made
 gulp.task('compile', gulp.parallel(
     'generate',
     'images',
     'watch-full'
+));
+
+// Deploy on forestry.io
+gulp.task('deploy', gulp.series(
+    'buildit'
 ));
