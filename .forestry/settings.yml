@@ -4,9 +4,6 @@ auto_deploy: true
 admin_path: "/admin"
 webhook_url: 
 sections:
-- type: document
-  path: _snippets
-  label: Snippets
 - type: heading
   label: Site Content
 - type: jekyll-pages
@@ -37,7 +34,10 @@ sections:
   - post
 - type: document
   path: _data/information.yml
-  label: Contact Information
+  label: Global settings
+- type: document
+  path: js/main.js
+  label: Delete me
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
@@ -53,7 +53,7 @@ build:
   preview_output_directory: _site
   output_directory: _site
   instant_preview_command: bundle exec jekyll serve --drafts --unpublished --future
-    --incremental --port 8080 --host 0.0.0.0 -d _site
+    --port 8080 --host 0.0.0.0 -d _site
   install_dependencies_command: bundle install --path vendor/bundle
   preview_docker_image: forestryio/ruby:2.6
   mount_path: "/srv"

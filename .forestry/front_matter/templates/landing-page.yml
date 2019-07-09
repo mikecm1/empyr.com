@@ -1,6 +1,6 @@
 ---
 label: landing-page
-hide_body: true
+hide_body: false
 fields:
 - name: title
   label: Title
@@ -330,6 +330,16 @@ fields:
   type: text
   hidden: true
   default: landing-page
+- name: custom_code
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Custom code
 pages:
+- mikes-test-page.md
 - test.md
 - index.md
