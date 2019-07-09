@@ -5,7 +5,7 @@ admin_path: "/admin"
 webhook_url: 
 sections:
 - type: document
-  path: _snippets
+  path: _snippets/*
   label: Snippets
 - type: heading
   label: Site Content
