@@ -48,6 +48,5 @@ cta_footer_subheader: ''
 show_news: false
 partners: []
 show_staff: false
-published: false
 
 ---
