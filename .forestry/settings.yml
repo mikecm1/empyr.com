@@ -5,10 +5,6 @@ admin_path: "/admin"
 webhook_url: 
 sections:
 - type: document
-  path: js/main.js
-  label: Delete me
-  match: "**/*"
-- type: document
   path: _snippets
   label: Snippets
 - type: heading
@@ -42,6 +38,9 @@ sections:
 - type: document
   path: _data/information.yml
   label: Global settings
+- type: document
+  path: js/main.js
+  label: Delete me
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
