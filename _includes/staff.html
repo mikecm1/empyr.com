@@ -3,12 +3,12 @@ Displays all of the people from the _people/ collection in a grid
 {% endcomment %}
 
 {% if page.show_staff %}
-<section class="team-area pt-100 pb-100" id="team">
+<section class="team-area pt-5 pb-100" id="team">
     <div class="container">
         <div class="row">
             {% assign people = site.people %}
             {% for person in people %}
-            <div class="col-md-4">
+            <div class="col-md-3 mb-4">
                 <div class="single-team">
                     {% if person.thumbnail %}
                     <img alt="{{ person.title }}" src="{{ person.thumbnail | absolute_url }}">
