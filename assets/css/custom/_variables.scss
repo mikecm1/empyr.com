@@ -119,12 +119,19 @@ $headings-line-height: 1.1;
 $display4-line-height: 1.15;
 $headings-color: $blue-black;
 
-$h1-margin-bottom:            ($spacer * 1.25) !default;
-$h2-margin-bottom:            ($spacer / 2);
-$h3-margin-bottom:            $spacer !default;
-$h4-margin-bottom:            0;
+$h1-margin-bottom:            ($spacer * 1.25);
+$h2-margin-bottom:            ($spacer * 0.75);
+$h3-margin-bottom:            ($spacer * 0.2);
+$h4-margin-bottom:            ($spacer * 0.3);
 $h5-margin-bottom:            ($spacer / 2);
-$h6-margin-bottom:            $spacer !default;
+$h6-margin-bottom:            $spacer;
+
+$h1-letter-spacing:           -0.5px;
+$h2-letter-spacing:           -0.1px;
+$h3-letter-spacing:           -0.5px;
+$h4-letter-spacing:           0.1px;
+$h5-letter-spacing:           0;
+$h6-letter-spacing:           0;
 
 $display1-size: 6rem;
 $display2-size: 85px;
@@ -158,6 +165,8 @@ $display1-margin-bottom: $spacer * 1.5;
 $display2-margin-bottom: 1.3rem;
 $display3-margin-bottom: $spacer * 1.5;
 $display4-margin-bottom: $spacer * 1.5;
+
+$paragraph-margin-bottom:   16px;
 
 // Buttons
 
