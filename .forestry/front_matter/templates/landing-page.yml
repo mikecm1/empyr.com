@@ -28,6 +28,21 @@ fields:
   description: 'Dimensions: 1200px by 580px'
   config:
     maxSize: '2'
+- name: header_screen_one
+  type: file
+  config:
+    maxSize: 250
+  label: 'Header: Device screen one'
+- name: header_screen_two
+  type: file
+  config:
+    maxSize: 250
+  label: 'Header device: screen two'
+- name: header_screen_three
+  type: file
+  config:
+    maxSize: 250
+  label: 'Header device: screen three'
 - type: field_group
   name: hero_button
   label: Hero Button
