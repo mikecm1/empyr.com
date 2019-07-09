@@ -1042,6 +1042,7 @@ svg.fsvg {
             margin-left: auto;
             margin-right: auto;
             margin-bottom: 28px;
+            margin-bottom: 16px;
             @include media-breakpoint-up(md) {
                 font-size: 39px;
                 max-width: 680px;
@@ -1075,7 +1076,7 @@ svg.fsvg {
         position: relative;
         background: #fff;
         box-shadow: 0 0 1px 0 rgba(53, 52, 110, 0.10), 0 2px 8px 0 rgba(55, 53, 195, 0.07), 0 1px 1px 0 rgba(18, 12, 33, 0.08);
-        padding: 70px 30px 30px;
+        padding: 110px 20px 20px;
         will-change: transform;
         transition: all .5s cubic-bezier(.03, .965, .25, .975);
         touch-action: manipulation;
@@ -1091,7 +1092,7 @@ svg.fsvg {
                 height: 4px;
                 width: 93%;
                 content: '';
-                background: #00adff;
+                // background: #00adff;
                 margin: 0 auto;
                 border-radius: 20px;
             }

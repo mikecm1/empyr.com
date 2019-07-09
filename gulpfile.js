@@ -26,9 +26,6 @@ gulp.task('generate', shell.task('bundle exec jekyll serve --watch --incremental
 gulp.task('buildit', shell.task('bundle exec jekyll build -d _site'));
 
 gulp.task('scss-local', function () {
-    var pxtoremOptions = {
-        replace: false
-    };
     var postcssOptions = {
         map: false,
         "map.inline": false
@@ -49,7 +46,7 @@ gulp.task('scss-local', function () {
         .pipe(sass())
         .on("error", sass.logError)
         .pipe(postcss(processors))
-        .pipe(pxtorem(pxtoremOptions))
+        // .pipe(pxtorem(pxtoremOptions))
         .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest('css/'))
         .pipe(touch());
