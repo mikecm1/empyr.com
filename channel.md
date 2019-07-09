@@ -113,6 +113,6 @@ menu:
   partners:
     weight: 3
     identifier: Channel Partners
-    title: Channel Partners
     description: Create a new revenue stream with Empyr
+
 ---
