@@ -331,5 +331,6 @@ fields:
   hidden: true
   default: landing-page
 pages:
+- mikes-test-page.md
 - test.md
 - index.md
