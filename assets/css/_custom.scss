@@ -1983,13 +1983,46 @@ img.lazyfade.lazyloaded {
 @media screen {
     html:not(.no-js) [data-aos^='basic'][data-aos^='basic'] {
         opacity: 0;
-        transform: translateY(50px);
+        transform: translateY(50px) !important;
         transition-property: opacity, transform;
     }
 
     html:not(.no-js) [data-aos^='basic'][data-aos^='basic'].aos-animate {
         opacity: 1;
-        transform: none;
+        transform: none !important;
+    }
+
+    html:not(.no-js) [data-aos^='device_one'][data-aos^='device_one'] {
+        opacity: 0;
+        top: -105px;
+        transition-property: top, opacity;
+    }
+
+    html:not(.no-js) [data-aos^='device_one'][data-aos^='device_one'].aos-animate {
+        opacity: 1;
+        top: -155px;
+    }
+
+    html:not(.no-js) [data-aos^='device_two'][data-aos^='device_two'] {
+        opacity: 0;
+        top: 780px;
+        transition-property: top, opacity;
+    }
+
+    html:not(.no-js) [data-aos^='device_two'][data-aos^='device_two'].aos-animate {
+        opacity: 1;
+        top: 730px;
+    }
+
+    html:not(.no-js) [data-aos^='device_three'][data-aos^='device_three'] {
+        opacity: 0;
+        top: 358px;
+        transition-property: top, opacity;
+    }
+
+    html:not(.no-js) [data-aos^='device_three'][data-aos^='device_three'].aos-animate {
+        opacity: 1;
+        top: 308px;
     }
 
     html:not(.no-js) [data-aos^='slide-in'][data-aos^='slide-in'] {
