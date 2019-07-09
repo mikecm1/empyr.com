@@ -9,6 +9,7 @@ html {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
 body {
     font-family: $font-family-base;
     font-size: $font-size-base;
@@ -17,6 +18,7 @@ body {
     background-color: $body-bg;
     overflow-x: hidden;
 }
+
 iframe {
     border: 0;
 }
