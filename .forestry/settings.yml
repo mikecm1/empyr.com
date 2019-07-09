@@ -4,9 +4,6 @@ auto_deploy: true
 admin_path: "/admin"
 webhook_url: 
 sections:
-- type: document
-  path: _snippets/*
-  label: Snippets
 - type: heading
   label: Site Content
 - type: jekyll-pages
