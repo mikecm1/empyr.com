@@ -6,9 +6,9 @@ banner_image: ''
 heading: |-
   Enhance your experience.
   Amplify your revenue.
-sub_heading: Generate revenue from offline commerce with your own fully custom
-  card-linked offer program. Get 1000s of offers out of the box with complete creative
-  control of the UX and functionality.
+sub_heading: Generate revenue from offline commerce with your own fully custom card-linked
+  offer program. Get 1000s of offers out of the box with complete creative control
+  of the UX and functionality.
 partners:
 - "/uploads/2019/05/google.svg"
 - "/uploads/2019/05/cisco.svg"
@@ -84,4 +84,5 @@ menu:
     weight: 2
     title: Websites & Apps
     description: Build your own card-linked offer program
+
 ---

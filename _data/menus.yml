@@ -1,5 +1,13 @@
 ---
 navigation:
+- url: "/contact"
+  title: Contact
+  identifier: contact
+  weight: 5
+- url: "#"
+  title: Solutions
+  identifier: partners
+  weight: 2
 - url: "/"
   title: Home
   identifier: home
@@ -8,15 +16,3 @@ navigation:
   title: Blog
   identifier: blog
   weight: 4
-- url: "#"
-  title: Company
-  identifier: company
-  weight: 3
-- url: "#"
-  title: Solutions
-  identifier: partners
-  weight: 2
-- url: "/contact"
-  title: Contact
-  identifier: contact
-  weight: 5
