@@ -329,8 +329,7 @@ fields:
   label: Layout
   type: text
   hidden: true
-  default: home
+  default: landing-page
 pages:
 - test.md
-- sdgdgfg.md
 - index.md
