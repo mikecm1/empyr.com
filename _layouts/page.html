@@ -5,12 +5,37 @@ layout: default
     A general page layout. Used by default for all content on the site.
 {% endcomment %}
 
-{% include breadcrumbs.html class="content-narrow" %}
-
-<div class="container pure-g">
-    <div class="pure-u-1">
-        <div class="content content-narrow">
-            {{ content }}
+<div class="sub">
+        <div class="hero sub default">
+            <div class="bg-cover">
+                <div class="container">
+                    <div class="row poster-feature-row pb-2">
+                        <div class="col-12 col-md-7 order-1 order-sm-1 mt-1 text-">
+                            {% if page.tagline and page.tagline != "" %}
+                            <div data-aos="basic"><h4 class="tag">{{ page.tagline }}</h4></div>
+                            {% endif %}
+                            <h1 class="mb-1 display-4" data-aos="basic" data-aos-delay="50">{{ page.heading | default: page.title }}</h1>
+                            {% if page.sub_heading and page.sub_heading != "" %}
+                            <p class="large mb-4" data-aos="basic" data-aos-delay="150">{{ page.sub_heading }}</p>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
         </div>
-    </div>
+        </div>
+                    <div class="content pure content-narrow py-5 mb-4">
+                    <div class="container">
+                            <div class="row">
+                                    <div class="col-8">
+                                            {{ content }}
+                                    </div>
+                                    <div class="col-4">
+                                      Variable width content
+                                    </div>
+                                  </div>
+
+                          </div>
 </div>
+

@@ -118,6 +118,14 @@ $headings-font-weight: 600;
 $headings-line-height: 1.1;
 $display4-line-height: 1.15;
 $headings-color: $blue-black;
+
+$h1-margin-bottom:            ($spacer * 1.25) !default;
+$h2-margin-bottom:            ($spacer / 2);
+$h3-margin-bottom:            $spacer !default;
+$h4-margin-bottom:            0;
+$h5-margin-bottom:            ($spacer / 2);
+$h6-margin-bottom:            $spacer !default;
+
 $display1-size: 6rem;
 $display2-size: 85px;
 $display3-size: 69px;

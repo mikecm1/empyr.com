@@ -1,13 +1,9 @@
 ---
 title: About
-date: '2017-11-01T03:00:00.000+00:00'
-banner_image: "/uploads/2018/02/17/college-building.jpg"
-heading: About Belkirk
+heading: About Empyr
 sub_heading: Ora et Labora
-layout: landing-page
 textline: A multidisciplinary centre of experts who are essential to patient-oriented
   research.
-publish_date: '2017-12-01T04:00:00.000+00:00'
 show_staff: true
 show_news: false
 hero_button:
@@ -17,8 +13,15 @@ mainfeatures: []
 show_mainfeatures: false
 
 ---
-The Belkirk College of Cool stuff (Belkirk) specializes in innovative research to support the healthcare and biotech industries. We are interested in advancing research in areas that are pressing and relevant to the health and biotech industries and regularly develop new projects and collaborations to accomplish this goal. We are currently engaged in a variety of ongoing projects within the areas of mental health, data analysis, knowledge translation, and cluster research.
 
-Students at Belkirk get to learn from leaders in the biotech industy, as well as get access to cutting edge projects and technologies to further their learning endeavours.
+# Welcome
+Nullam quis risus eget urna mollis ornare vel eu leo. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec sed odio dui. Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit sit amet non magna.
 
-mainfeatures hidden.
+##### Donec sed odio dui
+Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas faucibus mollis interdum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+##### Maecenas faucibus mollis interdum
+Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a pharetra augue. Curabitur blandit tempus porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+##### Nullam quis risus eget urna mollis
+Maecenas faucibus mollis interdum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Curabitur blandit tempus porttitor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
