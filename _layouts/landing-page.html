@@ -18,8 +18,9 @@ layout: default
                             {% if page.sub_heading and page.sub_heading != "" %}
                             <p class="large mb-3 mb-sm-4" data-aos="basic" data-aos-delay="150">{{ page.sub_heading }}</p>
                             {% endif %}
-                            {% if page.hero_button %}
+                            {% if page.hero_button.text and page.hero_button.text != "" %}
                             <div class="pb-2 d-flex flex-column flex-md-row" data-aos="basic" data-aos-delay="250">
+                                {% if page.hero_button %}
                                 <a href="{{ page.hero_button.href | absolute_url }}" class="btn btn-lg btn-white mb-2 mb-md-0
                                 primary">{{ page.hero_button.text }}</a>
                                 {% endif %}
@@ -27,6 +28,7 @@ layout: default
                                 <a href="{{ page.second_button.href | absolute_url
                                 }}" class="btn btn-lg btn-secondary secondary d-non
                                 d-lg-block">{{ page.second_button.text }}</a>
+                                {% endif %}
                             </div>
                             {% endif %}
                         </div>
@@ -43,34 +45,6 @@ layout: default
                                         <div class="phone-button bottom"></div>
                                         <div class="phone-antena bottom"></div>
                                     </div>
-                                    <div class="phone-bottom">
-                                        <div class="phone-antena"></div>
-                                        <div class="bottom-speaker">
-                                            <div></div>
-                                            <div></div>
-                                            <div></div>
-                                            <div></div>
-                                            <div></div>
-                                            <div></div>
-                                        </div>
-                                        <div class="phone-screw">
-                                            <div></div>
-                                        </div>
-                                        <div class="phone-charger">
-                                        </div>
-                                        <div class="phone-screw right">
-                                            <div></div>
-                                        </div>
-                                        <div class="bottom-speaker right">
-                                            <div></div>
-                                            <div></div>
-                                            <div></div>
-                                            <div></div>
-                                            <div></div>
-                                            <div></div>
-                                        </div>
-                                        <div class="phone-antena right"></div>
-                                    </div>
                                 </div>
                                 <div class="phone-screen"></div>
                                 <div class="phone-display">
@@ -84,11 +58,7 @@ layout: default
                                 <div class="phone-reflections">
                                     <div class="reflection-1"></div>
                                     <div class="reflection-2"></div>
-                                    <div class="reflection-3"></div>
-                                    <div class="reflection-4"></div>
                                     <div class="reflection-5"></div>
-                                    <div class="reflection-6"></div>
-                                    <div class="reflection-7"></div>
                                 </div>
                             </div>
                             <div class="phone two">
@@ -99,34 +69,6 @@ layout: default
                                         <div class="phone-button"></div>
                                         <div class="phone-button bottom"></div>
                                         <div class="phone-antena bottom"></div>
-                                    </div>
-                                    <div class="phone-bottom">
-                                        <div class="phone-antena"></div>
-                                        <div class="bottom-speaker">
-                                            <div></div>
-                                            <div></div>
-                                            <div></div>
-                                            <div></div>
-                                            <div></div>
-                                            <div></div>
-                                        </div>
-                                        <div class="phone-screw">
-                                            <div></div>
-                                        </div>
-                                        <div class="phone-charger">
-                                        </div>
-                                        <div class="phone-screw right">
-                                            <div></div>
-                                        </div>
-                                        <div class="bottom-speaker right">
-                                            <div></div>
-                                            <div></div>
-                                            <div></div>
-                                            <div></div>
-                                            <div></div>
-                                            <div></div>
-                                        </div>
-                                        <div class="phone-antena right"></div>
                                     </div>
                                 </div>
                                 <div class="phone-screen"></div>
@@ -141,11 +83,7 @@ layout: default
                                 <div class="phone-reflections">
                                     <div class="reflection-1"></div>
                                     <div class="reflection-2"></div>
-                                    <div class="reflection-3"></div>
-                                    <div class="reflection-4"></div>
                                     <div class="reflection-5"></div>
-                                    <div class="reflection-6"></div>
-                                    <div class="reflection-7"></div>
                                 </div>
                             </div>
                             <div class="phone three">
@@ -156,34 +94,6 @@ layout: default
                                         <div class="phone-button"></div>
                                         <div class="phone-button bottom"></div>
                                         <div class="phone-antena bottom"></div>
-                                    </div>
-                                    <div class="phone-bottom">
-                                        <div class="phone-antena"></div>
-                                        <div class="bottom-speaker">
-                                            <div></div>
-                                            <div></div>
-                                            <div></div>
-                                            <div></div>
-                                            <div></div>
-                                            <div></div>
-                                        </div>
-                                        <div class="phone-screw">
-                                            <div></div>
-                                        </div>
-                                        <div class="phone-charger">
-                                        </div>
-                                        <div class="phone-screw right">
-                                            <div></div>
-                                        </div>
-                                        <div class="bottom-speaker right">
-                                            <div></div>
-                                            <div></div>
-                                            <div></div>
-                                            <div></div>
-                                            <div></div>
-                                            <div></div>
-                                        </div>
-                                        <div class="phone-antena right"></div>
                                     </div>
                                 </div>
                                 <div class="phone-screen"></div>
@@ -198,11 +108,7 @@ layout: default
                                 <div class="phone-reflections">
                                     <div class="reflection-1"></div>
                                     <div class="reflection-2"></div>
-                                    <div class="reflection-3"></div>
-                                    <div class="reflection-4"></div>
                                     <div class="reflection-5"></div>
-                                    <div class="reflection-6"></div>
-                                    <div class="reflection-7"></div>
                                 </div>
                             </div>
                         </div>

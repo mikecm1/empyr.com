@@ -1812,12 +1812,24 @@ img.lazyfade.lazyloaded {
   background-image: linear-gradient(to bottom, #3a3b3f 70%, #1d1d1f);
   border-radius: 74px 40px 84px 50px;
   box-shadow: -26px 8px 8px -10px rgba(0,0,0,0.3), -6px 6px 6px 0 rgba(0,0,0,0.6), -30px 14px 10px -10px rgba(0,0,0,0.5), -20px 40px 8px 0 rgba(0,0,0,0.1), -20px 30px 8px 0 rgba(0,0,0,0.1), inset 20px 0 15px -6px rgba(0,0,0,0.6), inset 2px 0 4px -2px rgba(0,0,0,0.6), inset 2px 0 1px -2px rgba(255,255,255,0.1), inset 0 -15px 10px -10px rgba(255,255,255,0.15);
+
+//   Chrome
+// box-shadow: -26px 8px 8px -10px rgba(0,0,0,.3), -6px 6px 6px 0 rgba(0, 0, 0, 0), -30px 14px 10px -10px rgba(0, 0, 0, 0), -20px 40px 8px 0 rgba(0,0,0,.1), -20px 30px 8px 0 rgba(0,0,0,.1), inset 20px 0 15px -6px rgba(0,0,0,.6), inset 2px 0 4px -2px rgba(0,0,0,.6), inset 2px 0 1px -2px rgba(255,255,255,.1), inset 0 -15px 10px -10px rgba(255,255,255,.15), inset 0 0 0 0.1em #bdbdbd, inset 0 0 0.2em 0.2em #bebebe, inset 0 0.3em 0.3em 0.4em #070707, inset 0 -0.3em 0.1em 0.1em #070707, inset 0 0 0 0.9em #fff, inset 0 0 0 1.05em #00000061, inset 3.5em -0.5em 2em -2em #a4a4a4, inset -1.2em 0em 0.5em 0em #a4a4a4, inset -0.4em -1.1em 0.5em 0em #a4a4a4;
+// background-image: none;
+// background: #fff !important;
+//   Chrome
 }
 .phone.three .phone-back {
     top: -27px;
     border-radius: 48px 86px 84px 70px;
     box-shadow: -30px 24px 40px -10px rgba(0, 0, 0, 0.1), 0px 10px 0px 0 rgba(0, 0, 0, 0.1), 0px 27px 16px -11px rgba(0, 0, 0, 0.5);
     background-image: linear-gradient(to left, #3a3b3f 95%, #1d1d1f);
+   
+    // Chrome
+    // box-shadow: -26px 8px 8px -10px rgba(0,0,0,.3), -6px 6px 6px 0 rgba(0, 0, 0, 0), -30px 14px 10px -10px rgba(0, 0, 0, 0), -20px 40px 8px 0 rgba(0,0,0,.1), -20px 30px 8px 0 rgba(0,0,0,.1), inset 20px 0 15px -6px rgba(0,0,0,.6), inset 2px 0 4px -2px rgba(0,0,0,.6), inset 2px 0 1px -2px rgba(255,255,255,.1), inset 0 -15px 10px -10px rgba(255,255,255,.15), inset 0 0 0 0.1em #bdbdbd, inset 0 0 0.2em 0.2em #bebebe, inset 0 0.3em 0.3em 0.4em #070707, inset 0 -0.3em 0.1em 0.1em #070707, inset 0 0 0 0.9em #fff, inset 0 0 0 1.05em #00000061, inset 3.5em -0.5em 2em -2em #a4a4a4, inset -1.2em 0em 0.5em 0em #a4a4a4, inset -0.4em -1.1em 0.5em 0em #a4a4a4;
+    // background: #fff;
+    //   Chrome
+
 }
 .phone-back:before {
   content: "";
@@ -1893,6 +1905,7 @@ img.lazyfade.lazyloaded {
     height: 21px;
     z-index: 3;
     border-radius: 0 0 20px 20px;
+    display: none;
 }
 .phone-notch:after {
   content: "";
@@ -2057,31 +2070,6 @@ img.lazyfade.lazyloaded {
   width: 12px;
   background-color: #000;
   border-radius: 50%;
-}
-.phone-reflections .reflection-6 {
-  position: absolute;
-  width: 80px;
-  height: 20px;
-  background-color: #000;
-  border-radius: 50%;
-          transform: rotate(40deg);
-  bottom: -4px;
-  left: -14px;
-//   z-index: 12;
-  visibility: hidden;
-}
-
-.phone-reflections .reflection-6:after {
-  content: "";
-  display: block;
-  position: absolute;
-  height: 100px;
-  width: 20px;
-  background-color: #000;
-  right: -17px;
-  top: -78px;
-  border-radius: 40%;
-          transform: rotate(50deg);
 }
 .phone-reflections .reflection-6:before {
   content: "";
