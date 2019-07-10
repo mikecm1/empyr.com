@@ -1,7 +1,8 @@
 title: Empyr
 short_title: Empyr
-description: Empyr.com site
+description: Empyr empowers companies to track and monetize online to offline (o2o) commerce using card linked offers.
 baseurl: /
+url: "https://www.empyr.com"
 permalink: "/:path/"
 logo: /assets/logos/empyr.svg
 defaults:
