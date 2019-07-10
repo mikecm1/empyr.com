@@ -4,6 +4,7 @@ banner_image: ''
 layout: landing-page
 description: Empyr empowers companies to track and monetize online to offline (o2o) commerce using card linked offers.
 heading: Online, Meet Offline.
+homepage: yes
 partners:
 - "/img/logo-home-1.png"
 - "/img/logo-home-2.png"

@@ -4,30 +4,33 @@
 <head>
 <meta charset="utf-8">
 <title>{{ site.title }} - {{ page.title }}</title>
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link rel="canonical" href="https://www.empyr.com"/>
-<meta name="robots" content="noindex,nofollow">
-<meta http-equiv="x-ua-compatible" content="ie=edge">
-<meta property="og:site_name" content="{{ site.title }}"/>
-<meta property="og:title" content="{{ site.title }} - {{ page.title }}"/>
-<meta property="og:url" content="https://www.empyr.com"/>
-<meta property="og:type" content="website"/>
-<meta property="og:description" content="{% if .page.description %}{{ .page.description }}{% else %}{{ .site.description }}{% endif %}"/>
-<meta property="og:image" content="{{ "/img/meta/powered-black_white-side.png" | absolute_url }}"/>
-<meta property="og:image:width" content="206"/>
-<meta property="og:image:height" content="70"/>
-<meta itemprop="name" content="{{ site.title }} - {{ page.title }}"/>
-<meta itemprop="url" content="https://www.empyr.com"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="canonical" href="https://www.empyr.com"/>
+    <meta name="robots" content="noindex,nofollow">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta property="og:site_name" content="{{ site.title }}"/>
+    <meta property="og:title" content="{{ site.title }} - {{ page.title }}"/>
+    <meta property="og:url" content="{{ page.url | absolute_url }}"/>
+    <meta property="og:type" content="website"/>
+    <meta itemprop="name" content="{{ site.title }} - {{ page.title }}"/>
+    <meta itemprop="url" content="https://www.empyr.com"/>
+    <meta name="twitter:title" content="{{ site.title }} - {{ page.title }}"/>
+    <meta name="twitter:url" content="https://www.empyr.com"/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:description" content="{% if .page.description %}{{ .page.description }}{% else %}{{ .site.description }}{% endif %}"/>
+{% if page.homepage %}
 <meta itemprop="description" content="{% if .page.description %}{{ .page.description }}{% else %}{{ .site.description }}{% endif %}"/>
 <meta itemprop="thumbnailUrl" content="{{ "/img/meta/powered-black_white-side.png" | absolute_url }}"/>
 <link rel="image_src" href="{{ "/img/meta/powered-black_white-side.png" | absolute_url }}" />
 <meta itemprop="image" content="{{ "/img/meta/powered-black_white-side.png" | absolute_url }}"/>
-<meta name="twitter:title" content="{{ site.title }} - {{ page.title }}"/>
+<meta property="og:description" content="{% if .page.description %}{{ .page.description }}{% else %}{{ .site.description }}{% endif %}"/>
+<meta property="og:image" content="{{ "/img/meta/powered-black_white-side.png" | absolute_url }}"/>
+<meta property="og:image:width" content="206"/>
+<meta property="og:image:height" content="70"/>
 <meta name="twitter:image" content="{{ "/img/meta/powered-black_white-side.png" | absolute_url }}"/>
-<meta name="twitter:url" content="https://www.empyr.com"/>
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:description" content="{% if .page.description %}{{ .page.description }}{% else %}{{ .site.description }}{% endif %}"/>
+{% endif %}
 <meta name="description" content="{% if .page.description %}{{ .page.description }}{% else %}{{ .site.description }}{% endif %}">
+
 
 <link rel="shortcut icon" type="image/png" href="{{ "/img/favicon.ico" | absolute_url }}" />
 <link rel="stylesheet" href="{{ "/css/main.css" | absolute_url }}">
