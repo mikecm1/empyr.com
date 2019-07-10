@@ -1,6 +1,8 @@
 ---
 layout: sub-page
-title: Publishers
+title: Publishers - Grow Offline Revenue - Create Card Linked Offers
+description: Publishers can grow revenue by tapping into online to offline commerce. Offers consumers card linked offers with guaranteed revenue per sale.
+keywords: Card Linked Offers, Publishers, Revenue Per Sale
 tagline: Websites & Apps
 banner_image: ''
 heading: |-

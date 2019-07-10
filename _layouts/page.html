@@ -10,15 +10,15 @@ A general page layout. Used by default for all content on the site.
         <div class="bg-cover">
             <div class="container">
                 <div class="row poster-feature-row pb-2">
-                    <div class="col-12 col-md-7 order-1 order-sm-1 mt-1 text-">
+                    <div class="col-12 col-md-11 order-1 order-sm-1 mt-1 text-">
                         {% if page.tagline and page.tagline != "" %}
                         <div data-aos="basic">
                             <h4 class="tag">{{ page.tagline }}</h4>
                         </div>
                         {% endif %}
-                        <h1 class="mb-1 display-4" data-aos="basic" data-aos-delay="50">{{ page.heading | default: page.title }}</h1>
+                        <h1 class="font-weight-light mb-2 display-4 l0" data-aos="basic" data-aos-delay="50">{{ page.heading | default: page.title }}</h1>
                         {% if page.sub_heading and page.sub_heading != "" %}
-                        <p class="large mb-4" data-aos="basic" data-aos-delay="150">{{ page.sub_heading }}</p>
+                        <p class="mb-4" data-aos="basic" data-aos-delay="150">{{ page.sub_heading }}</p>
                         {% endif %}
                     </div>
                 </div>

@@ -1,7 +1,9 @@
 ---
-title: Advertisers
-banner_image: ''
 layout: sub-page
+title: Advertisers - Advertise Online - Guaranteed ROI - Pay Per Sale
+description: Empyr empowers companies to track and monetize online to offline (o2o) commerce using card linked offers.
+keywords: Pay Per Sale, Accurate ROI, Pay Per Purchase
+banner_image: ''
 thelink: Welcome to {{ site.url }}
 tagline: National Brands
 heading: |-

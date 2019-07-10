@@ -34,14 +34,11 @@ plugins:
   # - jekyll-feed
   - jekyll-archives
   - jekyll-sitemap
-  # - jekyll-autoprefixer
-# sass:
-#   style: compressed
-#   sass_dir: assets/css
 compress_html:
   comments: ["<!-- ", " -->"]
 exclude_from_watch:
   - assets/css
+keywords: Online to Offline, o2o, Card Linked Offers
 
 # PREVIEW COMMAND
 # bundle exec jekyll build --drafts --unpublished --future -d _site
