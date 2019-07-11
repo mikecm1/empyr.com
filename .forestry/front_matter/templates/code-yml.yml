@@ -2,31 +2,14 @@
 label: Custom code (global)
 hide_body: true
 fields:
-- name: nav_details
-  type: field_group
-  config: {}
-  fields:
-  - name: cta_text
-    type: text
-    config:
-      required: false
-    label: CTA button text
-  - name: cta_url
-    type: text
-    config:
-      required: false
-    label: CTA button URL
-  label: Navigation Details
-- name: xdfgfhfgh
-  type: field_group
-  config: {}
-  fields:
-  - name: fg
-    type: text
-    config:
-      required: false
-    label: fg
-  label: xdfgfhfgh
-  description: fdghdfhgf
+- name: code_snippets
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Code snippets
 pages:
 - _data/custom_code.yml
