@@ -60,6 +60,11 @@ fields:
       required: false
     default: ''
   label: Contact info
+- name: test
+  type: text
+  config:
+    required: false
+  label: TEST
 - name: footer_details
   type: field_group
   config: {}
