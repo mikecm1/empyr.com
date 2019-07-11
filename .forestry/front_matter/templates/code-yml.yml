@@ -32,3 +32,4 @@ fields:
   description: Exclude <style> tags from your CSS
 pages:
 - _data/custom_code.yml
+- _data/custom_code.yml
