@@ -1,5 +1,5 @@
 ---
-label: landing-page
+label: so-confused
 hide_body: true
 fields:
 - name: title
@@ -328,7 +328,7 @@ fields:
   label: Layout
   type: text
   hidden: true
-  default: landing-page
+  default: so-confused
 - name: custom_code
   type: textarea
   default: ''
@@ -338,3 +338,6 @@ fields:
     schema:
       format: markdown
   label: Custom code
+pages:
+- index.md
+- mikes-test-page.md
