@@ -1,12 +1,7 @@
 ---
 code_snippets: |-
-  $(document).ready(function () {
-      console.log('testing');
-      setTimeout(function () {
-          alert("SUp!");
-      }, 1000);
-  });
+      console.log('testing header');
 code_snippets_footer: |-
   $(document).ready(function () {
-      console.log('custom js');
+      console.log('testing footer');
   });

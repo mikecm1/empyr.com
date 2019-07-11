@@ -60,9 +60,11 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/barba.js/1.0.0/barba.min.js"></script>
 <script src="/assets/js/vendor/smooth-scrollbar.js"></script>
 <script src="{{ "assets/js/functions.js?cb=123" | absolute_url }}"></script>
+{% if site.data.custom_code.code_snippets_footer %}
 <script>
-    {{ site.data.custom_code.code_snippets }}
+    {{ site.data.custom_code.code_snippets_footer }}
 </script>
+{% endif %}
 <a class="twitter-timeline" data-height="300" data-dnt="true" data-tweet-limit="1" data-dnt="true" data-chrome="noheader nofooter noborders transparent noscrollbar" href="https://twitter.com/{{ site.data.information.twitter}}"></a>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 </body>
