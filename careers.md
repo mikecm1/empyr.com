@@ -10,11 +10,6 @@ hero_button:
   href: "/"
 mainfeatures: []
 show_mainfeatures: false
-menu:
-  navigation:
-    title: Company
-    identifier: company
-    weight: 3
 
 ---
 # Welcome
