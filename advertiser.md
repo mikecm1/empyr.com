@@ -1,7 +1,8 @@
 ---
 layout: sub-page
 title: Advertisers - Advertise Online - Guaranteed ROI - Pay Per Sale
-description: Empyr empowers companies to track and monetize online to offline (o2o) commerce using card linked offers.
+description: Advertise offers with accurate ROI through in store purchases. Pay only
+  when consumers make a purchase.
 keywords: Pay Per Sale, Accurate ROI, Pay Per Purchase
 banner_image: ''
 thelink: Welcome to {{ site.url }}
@@ -94,6 +95,7 @@ section_one:
   button:
     text: Learn More
     link_url: index.md
+    href: ''
 section_two:
   tagline: Revenue
   section_header: Real foot traffic. Real revenue.
@@ -104,6 +106,7 @@ section_two:
   button:
     text: Learn More
     link_url: index.md
+    href: ''
 section_three:
   tagline: Real-Time Analytics
   section_header: Real-time, fully transparent online to offline attribution
