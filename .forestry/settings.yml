@@ -34,7 +34,7 @@ sections:
   - post
 - type: document
   path: _data/information.yml
-  label: Site information (global)
+  label: Site info (global)
 - type: document
   path: _data/custom_code.yml
   label: Custom code (global)
