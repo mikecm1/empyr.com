@@ -39,3 +39,10 @@ fields:
 - type: boolean
   name: show_mainfeatures
   label: show_mainfeatures
+- type: text
+  name: layout
+  label: layout
+  default: standard-page
+  hidden: true
+pages:
+- joinus.md
