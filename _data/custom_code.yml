@@ -64,12 +64,20 @@ code_snippets: |-
           a.appendChild(r);
       })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
   </script>
-code_snippets_footer: |-
-  <script>
-  $(document).ready(function () {
-      console.log('testing footer');
-  });
-  </script>
+code_snippets_footer: "<script>\n\t$(document).ready(function(){\n\t\tvar path = window.location.pathname;\n
+  \   \tvar included_pages = [\n\t\t\t\"/\",\n            \"/fundraisers\",\n    \t
+  \ \t\"/advertiser\"\n\t\t];\n    \t\n    \tif ( $.inArray(path, included_pages)
+  !== -1 ) {\n    \t  $('#hs-cta-holder-fixed').show();\n    \t} else {\n    \t\t$('#hs-cta-holder-fixed').remove();\n
+  \   \t}\n        \n\t});\n</script>\n<!-- Google Tag Manager (noscript) -->\n<noscript><iframe
+  src=\"https://www.googletagmanager.com/ns.html?id=GTM-MZL5VPB\"\nheight=\"0\" width=\"0\"
+  style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag
+  Manager (noscript) -->\n<script type=\"text/javascript\">\n$(function() {\n    $('#tabs').tabs({
+  show: { effect: \"fade\", duration: 200 } });\n});\n</script>\n<script type=\"text/javascript\">\n/*
+  <![CDATA[ */\nvar google_conversion_id = 940869813;\nvar google_custom_params =
+  window.google_tag_params;\nvar google_remarketing_only = true;\n/* ]]> */\n</script>\n<script
+  type=\"text/javascript\" src=\"//www.googleadservices.com/pagead/conversion.js\">\n</script>\n<noscript>\n<div
+  style=\"display:inline;\">\n<img height=\"1\" width=\"1\" style=\"border-style:none;\"
+  alt=\"\" src=\"//googleads.g.doubleclick.net/pagead/viewthroughconversion/940869813/?guid=ON&amp;script=0\"/>\n</div>\n</noscript>"
 css: |-
   .el-x {
   color: custom;
