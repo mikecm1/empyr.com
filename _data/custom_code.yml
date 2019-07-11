@@ -6,3 +6,7 @@ code_snippets: |-
           alert("SUp!");
       }, 1000);
   });
+code_snippets_footer: |-
+  $(document).ready(function () {
+      console.log('custom js');
+  });
