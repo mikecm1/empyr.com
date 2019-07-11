@@ -36,8 +36,8 @@ sections:
   path: _data/information.yml
   label: Global settings
 - type: document
-  path: js/main.js
-  label: Delete me
+  path: _data/custom_code.yml
+  label: Custom code
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
