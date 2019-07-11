@@ -20,5 +20,14 @@ fields:
     schema:
       format: markdown
   label: Code snippets footer
+- name: css
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Custom CSS
 pages:
 - _data/custom_code.yml
