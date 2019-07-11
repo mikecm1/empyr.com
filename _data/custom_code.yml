@@ -1,10 +1,16 @@
 ---
 code_snippets: console.log('testing header');
+code_snippets: |-
+  <script>
+  console.log('testing header');
+  </script>
 code_snippets_footer: |-
+  <script>
   $(document).ready(function () {
       console.log('testing footer');
   });
+  </script>
 css: |-
-  body {
-  background: #000 !important
+  .el-x {
+  color: custom;
   }
