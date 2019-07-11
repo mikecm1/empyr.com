@@ -1,7 +1,6 @@
 // @import "delete";
 
 body {
-        font-family: segma;
     font-family: aeroport;
 }
 p {
@@ -14,7 +13,6 @@ p {
     line-height: 30px;
     font-size: 11px;
 }
-
 html:not(.no-js) .smooth #main-scrollbar {
     @include media-breakpoint-up(sm) {
         display: block;

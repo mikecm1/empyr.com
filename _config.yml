@@ -34,15 +34,16 @@ plugins:
 compress_html:
   comments: ["<!-- ", " -->"]
 exclude_from_watch:
-  - assets/css
+  - assets/scss
 keywords: Online to Offline, o2o, Card Linked Offers
 exclude:
   - package.json
   - package-lock.json
   - gulpfile.js
-  - gemfile.lock
+  - Gemfile.lock
   - maps
   - node_modules
+  - assets/scss
 
 # PREVIEW COMMAND
 # bundle exec jekyll build --drafts --unpublished --future -d _site

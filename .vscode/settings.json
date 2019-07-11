@@ -1,23 +1,6 @@
 {
     "favorites.resources": [
-        "assets/css/custom/_variables.scss",
-        "assets/css/_custom.scss",
-        "_config.yml",
-        "gulpfile.js",
-        ".forestry",
-        "assets/css/main.scss",
-        "_layouts",
-        "_includes",
-        "_data",
-        "assets",
-        "js",
-        "about.md",
-        "advertiser.md",
-        "contact.md",
-        "index.md",
-        "projects.md",
-        "publishers.md",
-        "package.json"
+
     ],
     "favorites.sortOrder": "ASC"
 }

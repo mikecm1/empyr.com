@@ -39,7 +39,7 @@ gulp.task('scss-local', function () {
             comments: false
         })
     ];
-    return gulp.src('./assets/css/main.scss')
+    return gulp.src('./assets/scss/main.scss')
         .pipe(sourcemaps.init({
             loadMaps: true
         }))
@@ -98,7 +98,7 @@ gulp.task('scss-full', function () {
             comments: false
         })
     ];
-    return gulp.src('./assets/css/main.scss')
+    return gulp.src('./assets/scss/main.scss')
         .pipe(sourcemaps.init({
             loadMaps: false
         }))
