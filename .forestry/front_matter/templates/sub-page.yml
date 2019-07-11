@@ -4,10 +4,21 @@ hide_body: true
 fields:
 - type: text
   name: title
-  label: title
-- type: file
-  name: banner_image
-  label: banner_image
+  label: Title
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Meta description
+- name: keywords
+  type: text
+  config:
+    required: false
+  label: Meta keywords
 - type: text
   name: layout
   label: layout
@@ -21,13 +32,13 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
-  label: Heading
+  label: Headline text
 - type: textarea
   name: sub_heading
-  label: sub_heading
+  label: Sub headline text
 - type: field_group
   name: hero_button
-  label: hero_button
+  label: Primary CTA
   fields:
   - type: text
     name: text
@@ -37,7 +48,7 @@ fields:
     label: href
 - type: field_group
   name: second_button
-  label: second_button
+  label: Secondary CTA
   fields:
   - type: text
     name: text
@@ -47,7 +58,7 @@ fields:
     label: link
 - type: boolean
   name: show_mainfeatures
-  label: show_mainfeatures
+  label: Show main features?
 - type: field_group_list
   name: mainfeatures
   label: mainfeatures
