@@ -1,13 +1,32 @@
 ---
-label: So confused
+label: so-confused
 hide_body: true
 fields:
-- name: sdfszdfzsdfzsdf
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+  config:
+    required: true
+- type: textarea
+  name: description
+  label: Meta description
+  config:
+    wysiwyg: true
+    required: false
+    schema:
+      format: markdown
+- name: keywords
   type: text
   config:
     required: false
-  label: sdfszdfzsdfzsdf
-- name: sdfsdfsdf
+  label: Meta keywords
+- type: text
+  label: Headline text
+  name: heading
+  default: Empyr
+- name: sub_heading
   type: textarea
   default: ''
   config:
@@ -15,4 +34,310 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
-  label: sdfsdfsdf
+  label: Sub headline text
+- name: header_screen_one
+  type: file
+  config:
+    maxSize: 250
+  label: 'Header: Device screen one'
+- name: header_screen_two
+  type: file
+  config:
+    maxSize: 250
+  label: 'Header device: screen two'
+- name: header_screen_three
+  type: file
+  config:
+    maxSize: 250
+  label: 'Header device: screen three'
+- type: field_group
+  name: hero_button
+  label: Header Button
+  fields:
+  - type: text
+    name: text
+    label: Text
+  - type: text
+    name: href
+    label: Link
+  - name: testing
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: pages
+        section: jekyll-pages
+        file: 
+        path: 
+    label: testing
+  - type: select
+    name: related_page
+    label: Related Page
+    description: Select a related page
+    hidden: false
+    config:
+      source:
+        type: pages
+        section: jekyll-pages
+- name: second_button
+  type: field_group
+  config: {}
+  fields:
+  - name: text
+    type: text
+    config:
+      required: false
+    label: Text
+  - name: link
+    type: text
+    config:
+      required: false
+    label: Link
+  label: Secondary button
+- name: primary_body_copy_headline
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Primary body copy headline
+- name: primary_body_copy_subtext
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Primary body copy subtext
+- name: show_mainfeatures
+  type: boolean
+  label: Show mainfeatures
+- name: mainfeatures
+  label: mainfeatures
+  type: field_group_list
+  fields:
+  - name: heading
+    label: Heading
+    type: text
+    hidden: false
+    default: ''
+  - name: description
+    label: Description
+    type: text
+    hidden: false
+    default: ''
+  - name: icon
+    label: Icon
+    type: file
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
+- name: section_one
+  type: field_group
+  config: {}
+  fields:
+  - name: tagline
+    type: text
+    config:
+      required: false
+    label: Tagline
+  - name: section_header
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Section Header
+  - name: section_body_copy
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Section body copy
+  - name: button
+    type: field_group
+    config: {}
+    fields:
+    - name: text
+      type: text
+      config:
+        required: false
+      label: Text
+      default: Learn More
+    - name: href
+      type: text
+      config:
+        required: false
+      label: Link URL
+    label: Button
+  label: Section One
+- name: section_two
+  type: field_group
+  config: {}
+  fields:
+  - name: tagline
+    type: text
+    config:
+      required: false
+    label: Tagline
+  - name: section_header
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Section Header
+  - name: section_body_copy
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Section body copy
+  - name: button
+    type: field_group
+    config: {}
+    fields:
+    - name: text
+      type: text
+      config:
+        required: false
+      label: Text
+      default: Learn More
+    - name: href
+      type: text
+      config:
+        required: false
+      label: Link URL
+    label: Button
+  label: Section Two
+- name: section_three
+  type: field_group
+  config: {}
+  fields:
+  - name: tagline
+    type: text
+    config:
+      required: false
+    label: Tagline
+  - name: section_header
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Section Header
+  - name: section_body_copy
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Section body copy
+  - name: button
+    type: field_group
+    config: {}
+    fields:
+    - name: text
+      type: text
+      config:
+        required: false
+      label: Text
+      default: Learn More
+    - name: href
+      type: text
+      config:
+        required: false
+      label: Link URL
+    label: Button
+  label: Section Three
+- type: field_group_list
+  name: company_types
+  label: Company Types CTAs
+  fields:
+  - type: text
+    name: badge
+    label: heading
+  - type: text
+    name: heading
+    label: heading
+  - type: text
+    name: description
+    label: description
+  - type: file
+    name: icon
+    label: icon
+  config:
+    max: '3'
+- type: field_group_list
+  name: testimonials
+  label: Testimonials
+  fields:
+  - type: text
+    name: quote
+    label: Quote
+  - type: text
+    name: name
+    label: Person Name
+  - type: text
+    name: job_title
+    label: Job Title
+  - type: text
+    name: company
+    label: Company Name
+  - type: file
+    name: icon
+    label: icon
+- name: cta_footer_header
+  label: CTA Footer Header Text
+  type: text
+- name: cta_footer_subheader
+  label: CTA Footer Header Text
+  type: text
+- type: boolean
+  name: show_news
+  label: Show News?
+  description: Enables a news section with a twitter feed & latest posts
+- type: image_gallery
+  name: partners
+  label: Partner Logos
+- type: boolean
+  name: show_staff
+  label: Show Staff?
+  description: Enables a staff section that lists each person in the People collection
+- name: layout
+  label: Layout
+  type: text
+  hidden: true
+  default: so-confused
+- name: custom_code
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Custom code
+pages:
+- mikes-test-page.md
+- index.md

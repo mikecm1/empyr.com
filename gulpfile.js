@@ -48,7 +48,7 @@ gulp.task('scss-local', function () {
         .pipe(postcss(processors))
         // .pipe(pxtorem(pxtoremOptions))
         .pipe(sourcemaps.write('.'))
-        .pipe(gulp.dest('css/'))
+        .pipe(gulp.dest('assets/css/'))
         .pipe(touch());
 });
 
@@ -106,7 +106,7 @@ gulp.task('scss-full', function () {
         .on("error", sass.logError)
         .pipe(postcss(processors))
         .pipe(pxtorem(pxtoremOptions))
-        .pipe(gulp.dest('css/'))
+        .pipe(gulp.dest('assets/css/'))
         .pipe(touch());
 });
 
