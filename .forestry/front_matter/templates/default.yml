@@ -18,6 +18,7 @@ fields:
   label: Publish Date
   config:
     required: true
+  hidden: true
 - type: text
   name: layout
   label: layout
