@@ -1,8 +1,68 @@
 ---
-code_snippets: console.log('testing header');
 code_snippets: |-
+  <!-- Chrome, Firefox OS, Opera and Vivaldi -->
+  <meta name="theme-color" content="#111111">
+  <!-- Windows Phone -->
+  <meta name="msapplication-navbutton-color" content="#111111">
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MZL5VPB');</script>
+  <!-- End Google Tag Manager -->
+  <!-- GA + Optimize-->
+  <style>.async-hide { opacity: 0 !important} </style>
+  <script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+  h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+  (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+  })(window,document.documentElement,'async-hide','dataLayer',4000,
+  {'GTM-TRCRRJM':true});</script>
   <script>
-  console.log('testing header');
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-77237997-1', 'auto');
+    ga('require', 'GTM-TRCRRJM');
+    ga('send', 'pageview');
+  </script>
+  <!-- End GA -->
+  <!-- iOS Safari -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="#111111">
+  <!-- Start of HubSpot Embed Code -->
+  <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/2556018.js"></script>
+  <!-- End of HubSpot Embed Code -->
+  <!-- Start of Linkedin Embed Code -->
+  <script type="text/javascript">
+  _linkedin_data_partner_id = "55210";
+  </script><script type="text/javascript">
+  (function(){var s = document.getElementsByTagName("script")[0];
+  var b = document.createElement("script");
+  b.type = "text/javascript";b.async = true;
+  b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+  s.parentNode.insertBefore(b, s);})();
+  </script>
+  <noscript>
+  <img height="1" width="1" style="display:none;" alt="" src="https://dc.ads.linkedin.com/collect/?pid=55210&fmt=gif" />
+  </noscript>
+  <!-- End of Linkedin Embed Code -->
+  <!-- Kickfire Code -->
+  <script type="text/javascript">
+  var DID=254175;
+  </script>
+  <script async src="//stats.sa-as.com/live.js"></script>
+  <!-- End Kickfire Code -->
+  <!-- Hotjar Tracking Code for http://www.empyr.com -->
+  <script>
+      (function(h,o,t,j,a,r){
+          h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+          h._hjSettings={hjid:289447,hjsv:6};
+          a=o.getElementsByTagName('head')[0];
+          r=o.createElement('script');r.async=1;
+          r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+          a.appendChild(r);
+      })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
   </script>
 code_snippets_footer: |-
   <script>
