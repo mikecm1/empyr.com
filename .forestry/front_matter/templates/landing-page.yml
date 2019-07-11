@@ -9,6 +9,19 @@ fields:
   default: ''
   config:
     required: true
+- type: textarea
+  name: description
+  label: Meta description
+  config:
+    wysiwyg: true
+    required: false
+    schema:
+      format: markdown
+- name: keywords
+  type: text
+  config:
+    required: false
+  label: Meta keywords
 - type: text
   label: Headline text
   name: heading
@@ -325,14 +338,6 @@ fields:
     schema:
       format: markdown
   label: Custom code
-- type: textarea
-  name: textline
-  label: Description
-  config:
-    wysiwyg: true
-    required: false
-    schema:
-      format: markdown
 pages:
 - mikes-test-page.md
 - index.md
