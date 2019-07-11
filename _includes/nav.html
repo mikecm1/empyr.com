@@ -13,9 +13,9 @@ Displays the site's navigation using the jekyll-menus plugin
         <ul class="navbar-nav mr-auto">
             {% for item in site.menus.navigation %}
             <li class="menu-item-{{ loop.index }}">
-                <div class="hello {% if item.children %}dropdown{% endif %}{% if url == item.url %}active{% endif %}">
+                <div class="{% if item.children %}dropdown{% endif %}{% if url == item.url %}active{% endif %}">
                     <a class="nav-link {% if item.children %}nested dropdown-toggle{% endif %}{% if url == item.url
-                        %}active{% endif %}" href="{{ item.url }}" title="{{ item.title }}" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ item.title }}</a>
+                        %}active{% endif %}" href="{{ item.url }}" title="{{ item.title }}" {% if item.children %}id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"{% endif %}>{{ item.title }}</a>
                     {% if item.children %}
                     <div class="sub-menu dropdown-menu animate slideIn rounded-lg" aria-labelledby="dropdownMenuButton">
                         <div class="row">
@@ -38,7 +38,9 @@ Displays the site's navigation using the jekyll-menus plugin
                             </div>
                             {% endfor %}
                         </div>
+                        </div>
                         {% endif %}
+                        </div>
             </li>
             {% endfor %}
         </ul>
