@@ -10,7 +10,7 @@ fields:
   config:
     required: true
 - type: text
-  label: Hero Heading
+  label: Header Headline text
   name: heading
   default: Empyr
 - name: sub_heading
@@ -21,13 +21,7 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
-  label: Hero Sub heading
-- type: file
-  name: banner_image
-  label: Hero Image
-  description: 'Dimensions: 1200px by 580px'
-  config:
-    maxSize: '2'
+  label: Header Sub headline text
 - name: header_screen_one
   type: file
   config:
@@ -45,7 +39,7 @@ fields:
   label: 'Header device: screen three'
 - type: field_group
   name: hero_button
-  label: Hero Button
+  label: Header Button
   fields:
   - type: text
     name: text
