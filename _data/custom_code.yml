@@ -1,7 +1,10 @@
 ---
-code_snippets: |-
-      console.log('testing header');
+code_snippets: console.log('testing header');
 code_snippets_footer: |-
   $(document).ready(function () {
       console.log('testing footer');
   });
+css: |-
+  body {
+  background: #000 !important
+  }
