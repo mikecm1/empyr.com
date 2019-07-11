@@ -57,6 +57,4 @@ build:
   install_dependencies_command: bundle install --path vendor/bundle
   preview_docker_image: forestryio/ruby:2.6
   mount_path: "/srv"
-exclude:
-  - docroot
-  - styleguide
+exclude: {/docroot,/styleguide}
