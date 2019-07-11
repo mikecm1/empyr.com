@@ -1,5 +1,5 @@
 ---
-label: Contact Information
+label: Global settings
 hide_body: true
 fields:
 - name: contact_info
