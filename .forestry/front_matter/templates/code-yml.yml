@@ -1,5 +1,5 @@
 ---
-label: Custom code
+label: Custom code (global)
 hide_body: true
 fields:
 - name: nav_details
