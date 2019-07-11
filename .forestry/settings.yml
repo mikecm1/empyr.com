@@ -9,7 +9,7 @@ sections:
   label: Pages 2
   create: documents
   match: "**/*"
-  exclude: "*foo*"
+  exclude: "*styleguide*"
   templates:
   - sub-page
   - landing-page
