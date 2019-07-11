@@ -2,119 +2,6 @@
 label: Custom code
 hide_body: true
 fields:
-- name: contact_info
-  type: field_group
-  config: {}
-  fields:
-  - name: email
-    type: text
-    config:
-      required: false
-    label: Email
-  - name: phone
-    label: Phone
-    type: text
-    config:
-      required: false
-    default: ''
-  - name: address_1
-    label: Address 1
-    type: text
-    config:
-      required: false
-    default: ''
-  - name: address_2
-    label: Address 2
-    type: text
-    config:
-      required: false
-    default: ''
-  - name: city
-    label: City
-    type: text
-    config:
-      required: false
-    default: ''
-  - name: state
-    label: State
-    type: text
-    config:
-      required: false
-    default: ''
-  - name: postal_code
-    label: Postal code
-    type: text
-    config:
-      required: false
-    default: ''
-  - name: country
-    label: Country
-    type: text
-    config:
-      required: false
-    default: ''
-  - name: twitter
-    label: Twitter
-    type: text
-    config:
-      required: false
-    default: ''
-  label: Contact info
-- name: test
-  type: text
-  config:
-    required: false
-  label: TEST
-- name: footer_details
-  type: field_group
-  config: {}
-  fields:
-  - name: main_header_home
-    type: text
-    config:
-      required: false
-    label: Footer Header Homepage
-  - name: main_subheader_home
-    type: text
-    config:
-      required: false
-    label: Footer Subheader Homepage
-  - name: cta_text
-    type: text
-    config:
-      required: false
-    label: CTA Text
-  - name: cta_url
-    type: text
-    config:
-      required: false
-    label: CTA URL
-  - name: copyright
-    type: text
-    config:
-      required: false
-    label: Copyright
-  - name: privacy_text
-    type: text
-    config:
-      required: false
-    label: Privacy Policy
-  - name: privacy_url
-    type: text
-    config:
-      required: false
-    label: Privacy Policy URL
-  - name: tos_text
-    type: text
-    config:
-      required: false
-    label: TOS
-  - name: tos_url
-    type: text
-    config:
-      required: false
-    label: TOS URL
-  label: Footer Details
 - name: nav_details
   type: field_group
   config: {}
@@ -130,5 +17,16 @@ fields:
       required: false
     label: CTA button URL
   label: Navigation Details
+- name: xdfgfhfgh
+  type: field_group
+  config: {}
+  fields:
+  - name: fg
+    type: text
+    config:
+      required: false
+    label: fg
+  label: xdfgfhfgh
+  description: fdghdfhgf
 pages:
 - _data/custom_code.yml
