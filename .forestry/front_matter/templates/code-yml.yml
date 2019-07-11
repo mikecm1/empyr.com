@@ -10,6 +10,15 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
-  label: Code snippets
+  label: Code snippets header
+- name: code_snippets_footer
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Code snippets footer
 pages:
 - _data/custom_code.yml
