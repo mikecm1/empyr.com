@@ -101,14 +101,6 @@ fields:
     schema:
       format: markdown
   label: Primary body copy subtext
-- type: textarea
-  name: textline
-  label: Description
-  config:
-    wysiwyg: true
-    required: false
-    schema:
-      format: markdown
 - name: show_mainfeatures
   type: boolean
   label: Show mainfeatures
@@ -333,6 +325,14 @@ fields:
     schema:
       format: markdown
   label: Custom code
+- type: textarea
+  name: textline
+  label: Description
+  config:
+    wysiwyg: true
+    required: false
+    schema:
+      format: markdown
 pages:
 - mikes-test-page.md
 - index.md
