@@ -36,5 +36,3 @@ fields:
     required: false
   label: Test field
   description: Does this do anything
-pages:
-- _projects/rhfghfgdh.md
