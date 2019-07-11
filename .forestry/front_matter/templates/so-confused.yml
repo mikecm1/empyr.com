@@ -1,4 +1,18 @@
 ---
 label: So confused
 hide_body: true
-fields: []
+fields:
+- name: sdfszdfzsdfzsdf
+  type: text
+  config:
+    required: false
+  label: sdfszdfzsdfzsdf
+- name: sdfsdfsdf
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: sdfsdfsdf
