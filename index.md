@@ -1,11 +1,10 @@
 ---
 title: Online to Offline Commerce - O2O - Card Linked Offers
-banner_image: ''
 layout: landing-page
 description: Empyr empowers companies to track and monetize online to offline (o2o) commerce using card linked offers.
 keywords: Online to Offline, o2o, Card Linked Offers
 heading: Online, Meet Offline.
-homepage: yes
+homepage: true
 partners:
 - "/img/logo-home-1.png"
 - "/img/logo-home-2.png"

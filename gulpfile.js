@@ -58,20 +58,6 @@ gulp.task('scss-local', function () {
 //         .pipe(gulp.dest('dist/'))
 // });
 
-gulp.task('cacheBustTask', function () {
-    gulp.src('_includes/head.html')
-    .pipe(htmlmin({ collapseWhitespace: true }))
-        .pipe(version({
-            'value': '%MDS%',
-            'append': {
-                'key': 'v',
-                'to': ['css', 'js'],
-            },
-        }))
-        .pipe(gulp.dest('docroot'));
-});
-
-
 gulp.task('watch', function () {
     gulp.watch(['assets/**/*.scss'], gulp.series('scss-local'));
 });

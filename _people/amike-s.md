@@ -1,13 +1,9 @@
 ---
 title: Mike Stevenson
-date: '2019-11-14T10:54:31.000+00:00'
-role:
-- staff
 thumbnail: "/uploads/2019/07/Mike Stevenson.jpg"
 sub_heading: Title
 email: email@email.com
 linkedin: linkedin
-layout: person
 
 ---
 Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam quis risus eget urna mollis ornare vel eu leo. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum. Cras mattis consectetur purus sit amet fermentum. Vestibulum id ligula porta felis euismod semper. Etiam porta sem malesuada magna mollis euismod.
