@@ -301,5 +301,7 @@ fields:
     labelField: 
   label: Case Studies
 pages:
+- advertiser.md
+- publisher.md
 - publisher.md
 - advertiser.md
