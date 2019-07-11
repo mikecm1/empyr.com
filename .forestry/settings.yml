@@ -9,6 +9,7 @@ sections:
 - type: jekyll-pages
   label: Pages
   create: all
+  exclude: "/styleguide"
   templates:
   - landing-page
   - standard-page
