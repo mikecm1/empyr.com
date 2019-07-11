@@ -1,2 +1,9 @@
 ---
-code:
+code: 
+code_snippets: |-
+  $(document).ready(function () {
+      console.log('testing');
+      setTimeout(function () {
+          alert("SUp!");
+      }, 1000);
+  });
