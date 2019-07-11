@@ -39,40 +39,53 @@ $( document ).ready(function() {
           return transEffect;
         }
         Barba.Pjax.start();
-        // Barba.Pjax.getTransition = function () {
-        //     return transEffect;
-        //     AOS.refresh();
-        // }
-        // Barba.Pjax.start();
-        // Barba.Prefetch.init();
-        // Barba.Dispatcher.on('transitionCompleted', function (currentStatus, prevStatus) {
-        //     if (prevStatus) {
-        //         setTimeout(function () {
-        //             $('html').find('script').each(function (i, script) {
-        //                 var $script = $(script);
-        //                 $.ajax({
-        //                     url: $script.attr('src'),
-        //                     cache: true,
-        //                     dataType: 'script',
-        //                     success: function () {
-        //                         $script.trigger('load');
-        //                     }
-        //                 });
-        //             });
-        //         }, 1);
-        //     }
-        // });
-        // Barba.Dispatcher.on('newPageReady', function (current, prev, container) {
-        //     history.scrollRestoration = 'manual';
-        // });
-        // Barba.Dispatcher.on('newPageReady', function (currentStatus) {
-        //     const link = currentStatus.url.split(window.location.origin)[1].substring(1);
-        //     const navigation = document.querySelector('.navbar-nav');
-        //     const navigationLinks = navigation.querySelectorAll('.nav-link');
-        //     const navigationLinkIsActive = navigation.querySelector(`[href="${link}"]`);
-        //     Array.prototype.forEach.call(navigationLinks, (navigationLink) => navigationLink.classList.remove('active'));
-        //     navigationLinkIsActive.classList.add('active');
-        // });
+                Barba.Prefetch.init();
+                Barba.Dispatcher.on('transitionCompleted', function(currentStatus, oldStatus, container) {
+                    var swiper = new Swiper('.swiper-container', {
+                        autoplay: {
+                            delay: 5000,
+                        },
+                        loop: true,
+                        effect: 'crossfade',
+                        spaceBetween: 0,
+                        slidesOffsetAfter: 100,
+                        centeredSlides: true,
+                        slideToClickedSlide: true,
+                        loopedSlides: 0,
+                        pagination: {
+                            el: '.swiper-pagination',
+                            clickable: true,
+                        },
+                        slidesPerView: 3,
+                        spaceBetween: 0,
+                        breakpoints: {
+                          320: {
+                            slidesPerView: 1,
+                          },
+                          480: {
+                            slidesPerView: 2,
+                          },
+                        }
+                    });
+            // const link = currentStatus.url.split(window.location.origin)[1].substring(1);
+            // const navigation = document.querySelector('.navbar-nav');
+            // const navigationLinks = navigation.querySelectorAll('.nav-link');
+            // const navigationLinkIsActive = navigation.querySelector(`[href="${link}"]`);
+            // Array.prototype.forEach.call(navigationLinks, (navigationLink) => navigationLink.classList.remove('active'));
+            // navigationLinkIsActive.classList.add('active');
+
+                  });
+        Barba.Dispatcher.on('newPageReady', function (current, prev, container) {
+            history.scrollRestoration = 'manual';
+        });
+        Barba.Dispatcher.on('newPageReady', function (currentStatus) {
+            const link = currentStatus.url.split(window.location.origin)[1].substring(1); // get path of current page
+            const navigation             = document.querySelector('.navbar-nav');
+            const navigationLinks        = navigation.querySelectorAll('.nav-link');
+            const navigationLinkIsActive = navigation.querySelector(("a[href='" + link + "']"));
+            Array.prototype.forEach.call(navigationLinks, (navigationLink) => navigationLink.classList.remove('active')); // remove CSS class 'is-active' from all .navigation__links
+            navigationLinkIsActive.classList.add('active'); // add CSS class to current .navigation__link
+        });
 
         document.documentElement.className = 'js';
         AOS.init({
@@ -99,17 +112,16 @@ $( document ).ready(function() {
         },
         slidesPerView: 3,
         spaceBetween: 0,
-        // Responsive breakpoints
         breakpoints: {
-          // when window width is <= 320px
           320: {
             slidesPerView: 1,
           },
-          // when window width is <= 480px
           480: {
             slidesPerView: 2,
           },
         }
     });
-
+    $(".navbar a").on('click',function(){
+        history.pushState({scrollTop:document.body.scrollTop},document.title,document.location.pathname);
+    });
 });
