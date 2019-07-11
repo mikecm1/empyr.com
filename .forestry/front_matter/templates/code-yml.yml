@@ -29,5 +29,6 @@ fields:
     schema:
       format: markdown
   label: Custom CSS
+  description: Exclude <style> tags from your CSS
 pages:
 - _data/custom_code.yml
