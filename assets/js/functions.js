@@ -67,24 +67,39 @@ $( document ).ready(function() {
                           },
                         }
                     });
-            // const link = currentStatus.url.split(window.location.origin)[1].substring(1);
-            // const navigation = document.querySelector('.navbar-nav');
-            // const navigationLinks = navigation.querySelectorAll('.nav-link');
-            // const navigationLinkIsActive = navigation.querySelector(`[href="${link}"]`);
-            // Array.prototype.forEach.call(navigationLinks, (navigationLink) => navigationLink.classList.remove('active'));
-            // navigationLinkIsActive.classList.add('active');
 
                   });
-        Barba.Dispatcher.on('newPageReady', function (current, prev, container) {
-            history.scrollRestoration = 'manual';
-        });
+                  Barba.Dispatcher.on('newPageReady', function(currentStatus, oldStatus, container, newPageRawHTML) {
+                    // html head parser borrowed from jquery pjax
+                    var $newPageHead = $( '<head />' ).html(
+                        $.parseHTML(
+                            newPageRawHTML.match(/<head[^>]*>([\s\S.]*)<\/head>/i)[0]
+                          , document
+                          , true
+                        )
+                    );
+                    var headTags = [
+                        "meta[name='keywords']"
+                      , "meta[name='description']"
+                      , "meta[property^='og']"
+                      , "meta[name^='twitter']"
+                      , "meta[itemprop]"
+                      , "link[itemprop]"
+                      , "link[rel='prev']"
+                      , "link[rel='next']"
+                      , "link[rel='canonical']"
+                    ].join(',');
+                    $( 'head' ).find( headTags ).remove(); // Remove current head tags
+                    $newPageHead.find( headTags ).appendTo( 'head' ); // Append new tags to the head
+                });
+
         Barba.Dispatcher.on('newPageReady', function (currentStatus) {
             const link = currentStatus.url.split(window.location.origin)[1].substring(1); // get path of current page
             const navigation             = document.querySelector('.navbar-nav');
             const navigationLinks        = navigation.querySelectorAll('.nav-link');
             const navigationLinkIsActive = navigation.querySelector(("a[href='" + link + "']"));
             Array.prototype.forEach.call(navigationLinks, (navigationLink) => navigationLink.classList.remove('active')); // remove CSS class 'is-active' from all .navigation__links
-            navigationLinkIsActive.classList.add('active'); // add CSS class to current .navigation__link
+            // navigationLinkIsActive.classList.add('active');
         });
 
         document.documentElement.className = 'js';
