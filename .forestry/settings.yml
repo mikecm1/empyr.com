@@ -34,10 +34,10 @@ sections:
   - post
 - type: document
   path: _data/information.yml
-  label: Global settings
+  label: Site information (global)
 - type: document
   path: _data/custom_code.yml
-  label: Custom code
+  label: Custom code (global)
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
