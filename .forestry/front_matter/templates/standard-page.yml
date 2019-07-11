@@ -45,4 +45,5 @@ fields:
   default: standard-page
   hidden: true
 pages:
+- careers.md
 - joinus.md
