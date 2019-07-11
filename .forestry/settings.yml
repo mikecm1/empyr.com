@@ -9,6 +9,7 @@ sections:
 - type: jekyll-pages
   label: Pages
   create: all
+  exclude: "/docroot"["/docroot", "styleguide"]
   templates:
   - landing-page
   - standard-page
