@@ -36,6 +36,7 @@ fields:
   hidden: true
   default: person
 pages:
+- _people/tabitha-buchanan.md
 - _people/anastasia-santos.md
 - _people/adam-tesan.md
 - _people/ryan-mcdonald.md

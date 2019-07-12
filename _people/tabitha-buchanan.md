@@ -2,8 +2,8 @@
 role:
 - staff
 layout: person
-title: Anastasia Santos
-sub_heading: Business Process Manager
+title: Tabitha Buchanan
+sub_heading: Publisher Integration Manager
 thumbnail: ''
 email: ''
 linkedin: ''
