@@ -4,7 +4,7 @@ role:
 layout: person
 title: Bryon Cook
 sub_heading: President & COO
-thumbnail: ''
+thumbnail: "/uploads/2019/07/bryon.jpg"
 email: ''
 linkedin: ''
 
