@@ -4,8 +4,9 @@ role:
 layout: person
 title: Adam Tesan
 sub_heading: Senior VP of Sales
-thumbnail: ''
+thumbnail: "/uploads/2019/07/adam bw.jpg"
 email: ''
 linkedin: ''
+published: false
 
 ---
