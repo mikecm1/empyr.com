@@ -36,6 +36,7 @@ fields:
   hidden: true
   default: person
 pages:
+- _people/dylan-thwaits.md
 - _people/jan-decino.md
 - _people/christopher-pedersen.md
 - _people/brittany-goloskie.md
