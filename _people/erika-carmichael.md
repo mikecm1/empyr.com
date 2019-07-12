@@ -4,7 +4,7 @@ role:
 layout: person
 title: Erika Carmichael
 sub_heading: Director of Marketing
-thumbnail: ''
+thumbnail: "/uploads/2019/07/erika.jpg"
 email: ''
 linkedin: ''
 

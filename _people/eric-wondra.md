@@ -4,7 +4,7 @@ role:
 layout: person
 title: Eric Wondra
 sub_heading: Customer Support Manager
-thumbnail: ''
+thumbnail: "/uploads/2019/07/wondra.jpg"
 email: ''
 linkedin: ''
 
