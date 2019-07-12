@@ -36,6 +36,7 @@ fields:
   hidden: true
   default: person
 pages:
+- _people/zack-miller.md
 - _people/jeff-skipper.md
 - _people/holly-hisel.md
 - _people/jason-fuentes.md
