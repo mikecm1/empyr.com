@@ -36,6 +36,7 @@ fields:
   hidden: true
   default: person
 pages:
+- _people/christian-gonzalez.md
 - _people/brett-elliott.md
 - _people/krista-hoglund-skipper.md
 - _people/erika-carmichael.md
