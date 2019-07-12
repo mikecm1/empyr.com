@@ -3,7 +3,7 @@ role:
 - staff
 layout: person
 title: Tabitha Buchanan
-sub_heading: Publisher Integration Manager
+sub_heading: Senior Manager, Publisher Operations
 thumbnail: ''
 email: ''
 linkedin: ''
