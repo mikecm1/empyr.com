@@ -4,7 +4,7 @@ role:
 layout: person
 title: Michael Waechter
 sub_heading: Senior Operations Manager
-thumbnail: ''
+thumbnail: "/uploads/2019/07/waechter.jpg"
 email: ''
 linkedin: ''
 
