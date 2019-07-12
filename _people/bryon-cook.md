@@ -7,6 +7,5 @@ sub_heading: President & COO
 thumbnail: ''
 email: ''
 linkedin: ''
-published: false
 
 ---
