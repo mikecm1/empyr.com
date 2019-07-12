@@ -14,6 +14,24 @@
     }
 }
 
+.btn {
+    position: relative;
+    // text-transform: $btn-text-transform;
+    transition: $transition-base;
+    will-change: transform;
+    // letter-spacing: $btn-letter-spacing;
+    // font-size: $input-btn-font-size;
+    
+    &:hover {
+        // @include box-shadow($btn-hover-box-shadow);
+        transform: translateY(-1px);
+    }  
+
+    &:not(:last-child) {
+        margin-right: .5rem;
+    }
+}
+
 .btn-group,
 .input-group {
     .btn {
@@ -51,7 +69,7 @@
 }
 
 .btn-neutral {
-    color: theme-color("primary");
+    color: $primary !important;
 }
 
 // Icons
@@ -140,9 +158,9 @@ a.btn-icon-only {
 
 // Brand buttons
 
-@each $color,
-$value in $brand-colors {
-    .btn-#{$color} {
-        @include button-variant($value, $value);
-    }
-}
+// @each $color,
+// $value in $brand-colors {
+//     .btn-#{$color} {
+//         @include button-variant($value, $value);
+//     }
+// }

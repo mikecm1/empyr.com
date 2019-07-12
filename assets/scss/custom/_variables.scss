@@ -14,7 +14,7 @@ $cyan: #6dcee0;
 $white: #fff;
 $gray-50: #f7f6f9;
 $gray-100: #e8ebed;
-$gray-200: #c5ced2;
+$gray-200: #f1f4f8;
 $gray-300: #a0aeb5;
 $gray-400: #7b8e98;
 $gray-500: #566f7a;
@@ -25,9 +25,10 @@ $gray-900: #11131c;
 $gray-dark: #110826 !default;
 $blue-black: #100625 !default;
 $black-blue: #1A1224;
+$black-blue-2: #030326;
 $black: #000;
 $grays: (100: $gray-100, 200: $gray-200, 300: $gray-300, 400: $gray-400, 500: $gray-500, 600: $gray-600, 700: $gray-700, 800: $gray-800, 900: $gray-900);
-$theme-colors: (primary: $primary, secondary: $indigo, success: $green, info: $cyan, warning: $yellow, danger: $red, light: $gray-100, dark: $gray-800, "blue-black":$blue-black);
+$theme-colors: (primary: $primary, "neutral":$white,secondary: $indigo, success: $green, info: $cyan, warning: $yellow, danger: $red, light: $gray-100, dark: $gray-800, "blue-black":$blue-black, "black-blue-2":$black-blue-2, "gray-200":$gray-200);
 $colors: (blue: $blue, indigo: $indigo, purple: $purple, pink: $pink, red: $red, orange: $orange, yellow: $yellow, green: $green, teal: $teal, cyan: $cyan, white: $white, gray: $gray-600, gray-dark: $gray-800);
 $theme-color-interval: 8%;
 
@@ -38,7 +39,7 @@ $sizes: (25: 25%, 50: 50%, 75: 75%, 100: 100%);
 
 // Options
 $enable-rounded: false;
-$enable-shadows: false;
+$enable-shadows: true;
 $enable-gradients: false;
 $enable-transitions: true;
 $enable-hover-media-query: false;
@@ -48,6 +49,7 @@ $enable-print-styles: true;
 // Body
 $body-bg: $white;
 $body-color: $gray-600;
+$default-section-padding: 4.4rem;
 
 // Links
 $link-color: theme-color("primary");
@@ -73,6 +75,7 @@ $box-shadow-sm: 0 4px 15px -6px rgba(45,80,187,.15), 0 -3px 2px -3px rgba(45,80,
 $box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1),
 0 5px 15px rgba(0, 0, 0, 0.07);
 $box-shadow-lg: 0 1rem 3rem rgba($black, 0.175);
+$box-shadow-md: 0 1.5rem 4rem rgba(22,28,45,.05)!important;
 $component-active-color: $white;
 $component-active-bg: theme-color("primary");
 $caret-width: 0.3rem;
@@ -179,6 +182,10 @@ $input-btn-line-height-sm: 1.5;
 $input-btn-padding-y-lg: 1.075rem;
 $input-btn-padding-x-lg: 2.6rem;
 $input-btn-line-height-lg: 1.5;
+$input-btn-focus-width:       0 !default;
+$input-btn-focus-color:       rgba($component-active-bg, 1);
+$input-btn-focus-box-shadow:  0 4px 10px 0 rgba(0, 0, 0, 0.04);
+$input-btn-focus-box-shadow:  none !default;
 $btn-font-weight: $font-weight-bold;
 $btn-box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11),
 0 1px 3px rgba(0, 0, 0, 0.08);
@@ -194,6 +201,9 @@ $btn-border-radius-sm: $border-radius-sm;
 $btn-transition: all 0.15s ease-in-out;
 
 // Forms
+$input-padding-y:                       .75rem !default;
+$input-padding-x:                       .625rem !default;
+$input-line-height:                     $input-btn-line-height !default;
 $input-bg: $white;
 $input-disabled-bg: $gray-200;
 $input-color: $gray-700;
@@ -207,7 +217,12 @@ $input-focus-bg: $input-bg;
 $input-focus-border-color: lighten(theme-color("primary"), 25%);
 $input-focus-box-shadow: $input-box-shadow,
 $btn-focus-box-shadow;
+$input-alternative-box-shadow:          0 1px 3px rgba(50,50,93,.15), 0 1px 0 rgba(0,0,0,.02);
+$input-focus-alternative-box-shadow:    0 4px 6px rgba(50,50,93,.11),0 1px 3px rgba(0,0,0,.08);
 $input-focus-color: $input-color;
+$input-group-addon-focus-color:               $input-focus-color !default;
+$input-group-addon-focus-bg:                  $input-focus-bg !default;
+$input-group-addon-focus-border-color:        $input-focus-border-color !default;
 $input-placeholder-color: $gray-600;
 $input-height-border: $input-btn-border-width * 2;
 $input-height-inner: $font-size-base * $input-btn-line-height+$input-btn-padding-y * 2;
@@ -218,6 +233,8 @@ $input-height-inner-lg: $font-size-sm * $input-btn-line-height-lg+$input-btn-pad
 $input-height-lg: calc(#{$input-height-inner-lg} + #{$input-height-border});
 $input-transition: border-color ease-in-out 0.15s,
 box-shadow ease-in-out 0.15s;
+$custom-forms-transition:               background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out !default;
+$custom-range-thumb-focus-box-shadow-width:  $input-btn-focus-width !default; // For focus box shadow issue in IE/Edge
 $form-text-margin-top: 0.25rem;
 $form-check-margin-bottom: 0.5rem;
 $form-check-input-gutter: 1.25rem;
@@ -227,24 +244,33 @@ $form-check-inline-margin-x: 0.75rem;
 $form-group-margin-bottom: 1rem;
 $input-group-addon-bg: $gray-200;
 $input-group-addon-border-color: $input-border-color;
-$custom-control-gutter: 1.5rem;
+$component-active-border-color: theme-color("primary") !default;
+$custom-control-gutter: 1.75rem;
 $custom-control-spacer-y: 0.25rem;
 $custom-control-spacer-x: 1rem;
-$custom-control-indicator-size: 1rem;
-$custom-control-indicator-bg: #ddd;
+$custom-control-indicator-size: 1.25rem;
+$custom-control-indicator-bg: $input-bg !default;
 $custom-control-indicator-bg-size: 50% 50%;
 $custom-control-indicator-box-shadow: inset 0 0.25rem 0.25rem rgba($black, 0.1);
 $custom-control-indicator-disabled-bg: $gray-200;
 $custom-control-description-disabled-color: $gray-600;
 $custom-control-indicator-checked-color: $white;
+$custom-control-indicator-active-border-color:  $component-active-border-color !default;
 $custom-control-indicator-checked-bg: theme-color("primary");
+$custom-control-indicator-checked-border-color: $component-active-border-color !default;
 $custom-control-indicator-checked-box-shadow: none;
+$custom-toggle-slider-bg:   #ddd !default;
+$custom-toggle-checked-bg:  theme-color("primary") !default;
 $custom-control-indicator-focus-box-shadow: 0 0 0 1px $body-bg,
 0 0 0 3px theme-color("primary");
+$custom-control-indicator-border-color:         $input-border-color !default;
+$custom-control-indicator-border-width:         1px !default;
 $custom-control-indicator-active-color: $white;
 $custom-control-indicator-active-bg: lighten(theme-color("primary"), 35%);
 $custom-control-indicator-active-box-shadow: none;
 $custom-checkbox-indicator-border-radius: $border-radius;
+$custom-checkbox-indicator-icon-checked:        str-replace(url('data:image/svg+xml;charset=utf8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 8 8\'%3E%3Cpath fill=\'%23fff\' d=\'M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z\'/%3E%3C/svg%3E'), "#", "%23") !default;
+$custom-radio-indicator-icon-checked:           str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3E%3Ccircle r='3' fill='#{$custom-control-indicator-checked-color}'/%3E%3C/svg%3E"), "#", "%23") !default;
 $custom-checkbox-indicator-indeterminate-bg: theme-color("primary");
 $custom-checkbox-indicator-indeterminate-color: $custom-control-indicator-checked-color;
 $custom-checkbox-indicator-indeterminate-box-shadow: none;
@@ -257,12 +283,20 @@ $custom-select-line-height: $input-btn-line-height;
 $custom-select-color: $input-color;
 $custom-select-disabled-color: $gray-600;
 $custom-select-bg: $white;
+$custom-file-height:                $input-height !default;
+$custom-file-height-inner:          $input-height-inner !default;
+$custom-file-focus-border-color:    $input-focus-border-color !default;
+$custom-file-focus-box-shadow:      $input-btn-focus-box-shadow !default;
+$custom-file-disabled-bg:           $input-disabled-bg !default;
 $custom-select-disabled-bg: $gray-200;
 $custom-select-bg-size: 8px 10px;
 $custom-select-indicator-color: #333;
+$custom-select-indicator:           str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='#{$custom-select-indicator-color}' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E"), "#", "%23") !default;
 $custom-select-border-width: $input-btn-border-width;
 $custom-select-border-color: $input-border-color;
 $custom-select-border-radius: $border-radius;
+$custom-select-box-shadow:          inset 0 1px 2px rgba($black, .075) !default;
+$custom-file-disabled-bg:           $input-disabled-bg !default;
 $custom-select-focus-border-color: lighten(theme-color("primary"), 25%);
 $custom-select-focus-box-shadow: inset 0 1px 2px rgba($black, 0.075),
 0 0 5px rgba($custom-select-focus-border-color, 0.5);
@@ -419,7 +453,7 @@ $jumbotron-bg: $gray-200;
 $card-spacer-y: 0.75rem;
 $card-spacer-x: 1.05rem;
 $card-border-width: 0.0625rem;
-$card-border-radius: $border-radius;
+$card-border-radius: .375rem;
 $card-border-color: rgba(0, 0, 0, 0.05);
 $card-inner-border-radius: calc(#{$card-border-radius} - #{$card-border-width});
 $card-cap-bg: rgba($black, 0.03);

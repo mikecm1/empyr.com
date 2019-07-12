@@ -8,31 +8,33 @@ layout: default
                 <div class="row poster-feature-row pb-2">
                     <div class="col-12 col-md-7 order-1 order-sm-1 mt-1 text-">
                         {% if page.tagline and page.tagline != "" %}
-                        <div data-aos="basic"><h4 class="tag">{{ page.tagline }}</h4></div>
+                        <div data-aos="basic">
+                            <h4 class="tag">{{ page.tagline }}</h4>
+                        </div>
                         {% endif %}
                         <h1 class="display-4" data-aos="basic" data-aos-delay="50">{{ page.heading | default: page.title }}</h1>
                         {% if page.sub_heading and page.sub_heading != "" %}
                         <p class="large mb-4" data-aos="basic" data-aos-delay="150">{{ page.sub_heading }}</p>
                         {% endif %}
-                                {% if page.hero_button %}
-                                <div class="pb-2 d-flex flex-column flex-md-row" data-aos="basic" data-aos-delay="250">
-                                    <a href="{{ page.hero_button.href | absolute_url }}" class="btn btn-lg btn-white mb-2 mb-md-0
+                        {% if page.hero_button %}
+                        <div class="pb-2 d-flex flex-column flex-md-row" data-aos="basic" data-aos-delay="250">
+                            <a href="{{ page.hero_button.href | absolute_url }}" class="btn btn-lg btn-white mb-2 mb-md-0
                                     primary">{{ page.hero_button.text }}</a>
-                                    {% endif %}
-                                    {% if page.second_button %}
-                                    <a href="{{ page.second_button.href | absolute_url
+                            {% endif %}
+                            {% if page.second_button %}
+                            <a href="{{ page.second_button.href | absolute_url
                                     }}" class="btn btn-lg btn-secondary secondary d-non
                                     d-lg-block">{{ page.second_button.text }}</a>
-                                </div>
-                                {% endif %}
+                        </div>
+                        {% endif %}
                     </div>
                     <div class="col-12 col-md-4 order-2 order-sm-2 position-relative mt-5 mt-md-0 mb-5 mb-md-0 pb-5 pb-md-0">
-            
-                            <!-- Image -->
-                            <div class="img-skewed img-skewed-left">
-                              <img src="{{ page.headerimage }}" alt="..." class="screenshot img-fluid mw-md-130" data-aos="fade-left" data-aos-delay="300">
-                            </div>
-                          </div>
+
+                        <!-- Image -->
+                        <div class="img-skewed img-skewed-left">
+                            <img src="{{ page.headerimage }}" alt="..." class="screenshot img-fluid mw-md-130" data-aos="fade-left" data-aos-delay="300">
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -52,7 +54,6 @@ layout: default
     {% endif %}
     <div class="bg-gradient-lighter">
         <div class="container full pt-4 vw">
-            <section class="s-m pb-2 mb-5">
                 {% if page.mainfeatures %}
                 <div class="benefits card-body card shadow-sm offset" data-aos="basic">
                     <div class="row py-2 px-2">
@@ -89,13 +90,14 @@ layout: default
                 </div>
         </div>
     </div>
-    </section>
     <div class="container full features">
         {% if page.section_one %}
         <section>
             <div class="row justify-content-between align-items-center">
                 <div class="col-12 col-md-5 order-2 order-md-1">
-                    <div data-aos="basic"><h4 class="mb-2 tag">{{ page.section_one.tagline }}</h4></div>
+                    <div data-aos="basic">
+                        <h4 class="mb-2 tag">{{ page.section_one.tagline }}</h4>
+                    </div>
                     <h1 data-aos="basic" data-aos-delay="50">{{ page.section_one.section_header }}</h1>
                     <img src="/img/headline-separator.svg" alt="" data-aos="basic">
                     <p class="mb-4" data-aos="basic" data-aos-delay="100">{{ page.section_one.section_body_copy }}</p>
@@ -111,10 +113,12 @@ layout: default
         <section>
             <div class="row justify-content-between align-items-top">
                 <div class="col-12 col-md-7 order-2 order-md-1 pr-md-4 mb-4 mb-md-0 pl-md-0">
-                    <img class="w-100" src="/assets/pictures/image-555x380.png" data-aos="fade-right" data-aos-delay="300"/>
+                    <img class="w-100" src="/assets/pictures/image-555x380.png" data-aos="fade-right" data-aos-delay="300" />
                 </div>
                 <div class="col-12 col-md-5 order-1 order-md-2">
-                 <div data-aos="basic"><h4 class="mb-2 tag">{{ page.section_one.tagline }}</h4></div>
+                    <div data-aos="basic">
+                        <h4 class="mb-2 tag">{{ page.section_one.tagline }}</h4>
+                    </div>
                     <h1 data-aos="basic" data-aos-delay="50">{{ page.section_two.section_header }}</h1>
                     <img src="/img/headline-separator.svg" alt="" data-aos="basic" data-aos="fade-right" data-aos-delay="150">
                     <p class="mb-4" data-aos="basic" data-aos-delay="250">{{ page.section_two.section_body_copy }}</p>
@@ -134,20 +138,55 @@ layout: default
                     <!-- <a href="{{ page.section_three.button.link_url }}" class="btn btn-lg btn-secondary">{{ page.section_three.button.text }}</a> -->
                 </div>
                 <div class="col-12 col-md-6 order-1 order-md-2 pl-md-0 mb-4 mb-md-0">
-                    <img class="w-100" src="/assets/pictures/image-555x380.png" data-aos="fade-left" data-aos-delay="300"/>
+                    <img class="w-100" src="/assets/pictures/image-555x380.png" data-aos="fade-left" data-aos-delay="300" />
                 </div>
             </div>
         </section>
         {% endif %}
     </div>
-    <div class="solutions bg-g50">
+    {% if page.user_testimonials %}
+    <section class="bg-gray-200 mb-0">
+        <div class="container my-5">
+            <div class="row text-center text-light mb-4">
+                <div class="col">
+                    <h3 class="h1">People love card-linked offers</h3>
+                </div>
+            </div>
+            <div class="row">
+                    {% for item in page.user_testimonials %}
+                <div class="col-sm-6 col-lg-4 mb-2">
+                    <div class="card card-body box-shadow-md">
+                        <div class="flex-grow-1 mb-3">
+                            <p class="lead">
+                                    "{{ item.quote }}"
+                            </p>
+                        </div>
+                        <div class="avatar-author align-items-center">
+                            <img src="{{ item.photo }}" alt="Avatar" class="avatar">
+                            <div class="ml-2">
+                                <h6>{{ item.person_name }}</h6>
+                                <span>- {{ item.program_name }} user</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+    {% endif %}
+    {% if page.user_testimonials %}
+    <div class="solutions bg-g50 bg-white">
+            {% else %}
+            <div class="solutions bg-g50">
+                    {% endif %}
         <div class="container text-center">
             {% if page.all_features %}
             <h1 class="mb-4">{{ page.all_features_headline }}</h1>
             <div class="row pt-3">
                 {% for item in page.all_features %}
                 <div class="col-12 col-md-4 mb-2" data-aos="basic" data-aos-anchor=".bg-g50" data-aos-delay="{{ forloop.index | times: 150 }}">
-                    <div class="card py-2 px-2 px-xxl-5">
+                    <div class="card py-2 px-2 px-xxl-5 box-shadow-md">
                         <div class="card-body">
                             <img class="mb-2" src="{{ item.icon | absolute_url }}" alt="" width="55">
                             <h5 class="mb-0">{{ item.heading }}</h5>

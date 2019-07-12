@@ -81,6 +81,31 @@ section_two:
   button:
     text: Learn More
     link_url: index.md
+user_testimonials:
+- quote: This is a top quality product. No need to think twice before purchasing, you simply could not go wrong
+  photo: "/uploads/2019/05/icon-place.svg"
+  person_name: Mike S
+  program_name: Yelp Cash Back
+- quote: This is a top quality product. No need to think twice before purchasing, you simply could not go wrong
+  photo: "/uploads/2019/05/icon-place.svg"
+  person_name: Mike S
+  program_name: Yelp Cash Back
+- quote: This is a top quality product. No need to think twice before purchasing, you simply could not go wrong
+  photo: "/uploads/2019/05/icon-place.svg"
+  person_name: Mike S
+  program_name: Yelp Cash Back
+- quote: This is a top quality product. No need to think twice before purchasing, you simply could not go wrong
+  photo: "/uploads/2019/05/icon-place.svg"
+  person_name: Mike S
+  program_name: Yelp Cash Back
+- quote: This is a top quality product. No need to think twice before purchasing, you simply could not go wrong
+  photo: "/uploads/2019/05/icon-place.svg"
+  person_name: Mike S
+  program_name: Yelp Cash Back
+- quote: This is a top quality product. No need to think twice before purchasing, you simply could not go wrong
+  photo: "/uploads/2019/05/icon-place.svg"
+  person_name: Mike S
+  program_name: Yelp Cash Back
 menu:
   partners:
     weight: 2
