@@ -36,6 +36,7 @@ fields:
   hidden: true
   default: person
 pages:
+- _people/krista-hoglund-skipper.md
 - _people/erika-carmichael.md
 - _people/alex-fanelli.md
 - _people/josh-lehmer.md
