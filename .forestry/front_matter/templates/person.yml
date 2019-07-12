@@ -36,4 +36,5 @@ fields:
   hidden: true
   default: person
 pages:
+- _people/jarrod-cuzens.md
 - _people/bryon-cook.md
