@@ -33,6 +33,7 @@ plugins:
   - jekyll-sitemap
 compress_html:
   comments: ["<!-- ", " -->"]
+  blanklines: true
 exclude_from_watch:
   - assets/scss
 keywords: Online to Offline, o2o, Card Linked Offers

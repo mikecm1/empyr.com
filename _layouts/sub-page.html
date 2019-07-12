@@ -54,40 +54,40 @@ layout: default
     {% endif %}
     <div class="bg-gradient-lighter">
         <div class="container full pt-4 vw">
-                {% if page.mainfeatures %}
-                <div class="benefits card-body card shadow-sm offset" data-aos="basic">
-                    <div class="row py-2 px-2">
-                        {% for item in page.mainfeatures %}
-                        <div class="col-12 col-md-4 mb-4 mb-md-0" data-aos="basic" data-aos-delay="{{ forloop.index | times: 150 }}">
-                            <img class="mb-2" src="{{ item.icon | absolute_url }}" alt="" width="55">
-                            <h5 class="">{{ item.heading }}</h5>
-                            <div class="lighten mt-1">{{ item.description }}</div>
+            {% if page.mainfeatures %}
+            <div class="benefits card-body card shadow-sm offset" data-aos="basic">
+                <div class="row py-2 px-2">
+                    {% for item in page.mainfeatures %}
+                    <div class="col-12 col-md-4 mb-4 mb-md-0" data-aos="basic" data-aos-delay="{{ forloop.index | times: 150 }}">
+                        <img class="mb-2" src="{{ item.icon | absolute_url }}" alt="" width="55">
+                        <h5 class="">{{ item.heading }}</h5>
+                        <div class="lighten mt-1">{{ item.description }}</div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+            {% endif %}
+            {% if page.partners %}
+            <div class="container">
+                <div class="py-4">
+                    <div class="row justify-content-center justify-content-lg-between text-center align-items-center">
+                        {% for logo in page.partners %}
+                        <div class="col-4 mb-4 col-md mb-md-0 mt-3 mb-lg-0" data-aos="basic" data-aos-delay="{{ forloop.index | times: 150 }}">
+                            <img src="{{ logo | absolute_url }}" style="width: 100px; max-width: 70%" />
                         </div>
                         {% endfor %}
                     </div>
                 </div>
-                {% endif %}
-                {% if page.partners %}
-                <div class="container">
-                    <div class="py-4">
-                        <div class="row justify-content-center justify-content-lg-between text-center align-items-center">
-                            {% for logo in page.partners %}
-                            <div class="col-4 mb-4 col-md mb-md-0 mt-3 mb-lg-0" data-aos="basic" data-aos-delay="{{ forloop.index | times: 150 }}">
-                                <img src="{{ logo | absolute_url }}" style="width: 100px; max-width: 70%" />
-                            </div>
-                            {% endfor %}
-                        </div>
-                    </div>
+            </div>
+            {% endif %}
+            <div class="row pt-md-5 px-2 px-md-0">
+                <div class="col-12">
+                    <h1 class="headline mt-2" data-aos="basic">{{ page.primary_body_copy_headline }}</h1>
                 </div>
-                {% endif %}
-                <div class="row pt-md-5 px-2 px-md-0">
-                    <div class="col-12">
-                        <h1 class="headline mt-2" data-aos="basic">{{ page.primary_body_copy_headline }}</h1>
-                    </div>
-                    <div class="col-md-7">
-                        <p class="large" data-aos="basic" data-aos-delay="100">{{ page.primary_body_copy_subheadline }}</p>
-                    </div>
+                <div class="col-md-7">
+                    <p class="large" data-aos="basic" data-aos-delay="100">{{ page.primary_body_copy_subheadline }}</p>
                 </div>
+            </div>
         </div>
     </div>
     <div class="container full features">
@@ -153,12 +153,12 @@ layout: default
                 </div>
             </div>
             <div class="row">
-                    {% for item in page.user_testimonials %}
+                {% for item in page.user_testimonials %}
                 <div class="col-sm-6 col-lg-4 mb-2">
                     <div class="card card-body box-shadow-md">
                         <div class="flex-grow-1 mb-3">
                             <p class="lead">
-                                    "{{ item.quote }}"
+                                "{{ item.quote }}"
                             </p>
                         </div>
                         <div class="avatar-author align-items-center">
@@ -177,26 +177,26 @@ layout: default
     {% endif %}
     {% if page.user_testimonials %}
     <div class="solutions bg-g50 bg-white">
-            {% else %}
-            <div class="solutions bg-g50">
-                    {% endif %}
-        <div class="container text-center">
-            {% if page.all_features %}
-            <h1 class="mb-4">{{ page.all_features_headline }}</h1>
-            <div class="row pt-3">
-                {% for item in page.all_features %}
-                <div class="col-12 col-md-4 mb-2" data-aos="basic" data-aos-anchor=".bg-g50" data-aos-delay="{{ forloop.index | times: 150 }}">
-                    <div class="card py-2 px-2 px-xxl-5 box-shadow-md">
-                        <div class="card-body">
-                            <img class="mb-2" src="{{ item.icon | absolute_url }}" alt="" width="55">
-                            <h5 class="mb-0">{{ item.heading }}</h5>
+        {% else %}
+        <div class="solutions bg-g50">
+            {% endif %}
+            <div class="container text-center">
+                {% if page.all_features %}
+                <h1 class="mb-4">{{ page.all_features_headline }}</h1>
+                <div class="row pt-3">
+                    {% for item in page.all_features %}
+                    <div class="col-12 col-md-4 mb-2" data-aos="basic" data-aos-anchor=".bg-g50" data-aos-delay="{{ forloop.index | times: 150 }}">
+                        <div class="card py-2 px-2 px-xxl-5 box-shadow-md">
+                            <div class="card-body">
+                                <img class="mb-2" src="{{ item.icon | absolute_url }}" alt="" width="55">
+                                <h5 class="mb-0">{{ item.heading }}</h5>
+                            </div>
                         </div>
                     </div>
+                    {% endfor %}
                 </div>
-                {% endfor %}
-            </div>
-            {% endif %}
-            <!-- {% if page.case_studies %}
+                {% endif %}
+                <!-- {% if page.case_studies %}
             <div class="text-left">
                 <div class="row pt-12 pt-5">
                     <div class="col-12 col-md-6">
@@ -233,6 +233,6 @@ layout: default
                 </div>
             </div>
             {% endif %} -->
+            </div>
         </div>
     </div>
-</div>
