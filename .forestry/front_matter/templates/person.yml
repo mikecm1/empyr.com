@@ -36,6 +36,8 @@ fields:
   hidden: true
   default: person
 pages:
+- _people/erika-carmichael.md
+- _people/alex-fanelli.md
 - _people/josh-lehmer.md
 - _people/steve-kwon.md
 - _people/zack-miller.md
