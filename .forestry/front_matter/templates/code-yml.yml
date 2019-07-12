@@ -2,15 +2,20 @@
 label: Custom code (global)
 hide_body: true
 fields:
-- name: code_snippets
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Code snippets header
+- name: header_code_snippets
+  type: field_group
+  config: {}
+  fields:
+  - name: delete_me
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Delete me
+  label: Header code snippets
 - name: code_snippets_footer
   type: textarea
   default: ''
@@ -30,5 +35,14 @@ fields:
       format: markdown
   label: Custom CSS
   description: Exclude <style> tags from your CSS
+- name: code_snippets
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Code snippets header
 pages:
 - _data/custom_code.yml
