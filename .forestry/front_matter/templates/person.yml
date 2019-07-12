@@ -36,6 +36,7 @@ fields:
   hidden: true
   default: person
 pages:
+- _people/holly-hisel.md
 - _people/jason-fuentes.md
 - _people/christian-lencsak.md
 - _people/alaina-box.md
