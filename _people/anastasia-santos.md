@@ -7,5 +7,6 @@ sub_heading: Business Process Manager
 thumbnail: ''
 email: ''
 linkedin: ''
+published: false
 
 ---
