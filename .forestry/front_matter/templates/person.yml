@@ -36,6 +36,7 @@ fields:
   hidden: true
   default: person
 pages:
+- _people/brittany-goloskie.md
 - _people/monica-ross.md
 - _people/tabitha-buchanan.md
 - _people/anastasia-santos.md
