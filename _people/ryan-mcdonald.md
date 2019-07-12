@@ -4,7 +4,7 @@ role:
 layout: person
 title: Ryan McDonald
 sub_heading: CFO
-thumbnail: ''
+thumbnail: "/uploads/2019/07/mcdonald.jpg"
 email: ''
 linkedin: ''
 

@@ -4,7 +4,7 @@ role:
 layout: person
 title: Steve Kwon
 sub_heading: Senior Accountant
-thumbnail: ''
+thumbnail: "/uploads/2019/07/kwon.jpg"
 email: ''
 linkedin: ''
 
