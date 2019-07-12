@@ -36,6 +36,8 @@ fields:
   hidden: true
   default: person
 pages:
+- _people/anastasia-santos.md
+- _people/adam-tesan.md
 - _people/ryan-mcdonald.md
 - _people/jarrod-cuzens.md
 - _people/bryon-cook.md
