@@ -36,12 +36,12 @@
     <link rel="stylesheet" href="{{ "assets/css/vendor/font-awesome/css/font-awesome.min.css" | absolute_url }}">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-    {% if site.data.custom_code.code_snippets %}
-        {{ site.data.custom_code.code_snippets }}
+    {% if site.data.custom_code.header_code_snippets %}
+        {{ site.data.custom_code.header_code_snippets.code_snippets }}
     {% endif %}
-    {% if site.data.custom_code.css %}
+    {% if site.data.custom_code.custom_styles %}
     <style>
-        {{ site.data.custom_code.css }}
+        {{ site.data.custom_code.custom_styles.css }}
     </style>
     {% endif %}
     </head>
