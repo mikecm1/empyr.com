@@ -20,8 +20,6 @@ sections:
   match: "*"
   templates:
   - person
-- path: styleguide
-  hidden: true
 - type: directory
   path: _projects
   label: Projects
