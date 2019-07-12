@@ -4,7 +4,7 @@ role:
 layout: person
 title: Jeff Skipper
 sub_heading: VP, Agency Sales
-thumbnail: ''
+thumbnail: "/uploads/2019/07/skipper.jpg"
 email: ''
 linkedin: ''
 
