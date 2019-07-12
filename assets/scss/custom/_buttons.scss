@@ -1,19 +1,4 @@
 // General
-
-.btn {
-    position: relative;
-    transition: $transition-base;
-    will-change: transform;
-    border-radius: 0;
-    &:hover {
-        transform: translateY(-1px);
-    }  
-
-    &:not(:last-child) {
-        margin-right: .5rem;
-    }
-}
-
 .btn {
     position: relative;
     // text-transform: $btn-text-transform;
@@ -26,10 +11,6 @@
         // @include box-shadow($btn-hover-box-shadow);
         transform: translateY(-1px);
     }  
-
-    &:not(:last-child) {
-        margin-right: .5rem;
-    }
 }
 
 .btn-group,
