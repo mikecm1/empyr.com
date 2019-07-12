@@ -36,6 +36,7 @@ fields:
   hidden: true
   default: person
 pages:
+- _people/michael-waechter.md
 - _people/michael-reed.md
 - _people/quinn-miller.md
 - _people/jason-bausewein.md
