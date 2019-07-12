@@ -20,7 +20,11 @@ sections:
   match: "*"
   templates:
   - person
-- path: styleguide
+- type: directory
+  path: styleguide
+  label: Styleguide
+  create: all
+  match: "**/*"
   hidden: true
 - type: directory
   path: _projects
