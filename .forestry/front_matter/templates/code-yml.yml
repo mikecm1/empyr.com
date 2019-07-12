@@ -2,33 +2,48 @@
 label: Custom code (global)
 hide_body: true
 fields:
-- name: code_snippets
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Code snippets header
-- name: code_snippets_footer
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Code snippets footer
-- name: css
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Custom CSS
-  description: Exclude <style> tags from your CSS
+- name: header_code_snippets
+  type: field_group
+  config: {}
+  fields:
+  - name: code_snippets
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Code snippets header
+  label: Header code snippets
+- name: custom_styles
+  type: field_group
+  config: {}
+  fields:
+  - name: css
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Custom CSS
+    description: Exclude <style> tags from your CSS
+  label: Custom styles
+- name: footer_code_snippets
+  type: field_group
+  config: {}
+  fields:
+  - name: code_snippets_footer
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Code snippets footer
+  label: Footer code snippets
 pages:
 - _data/custom_code.yml
