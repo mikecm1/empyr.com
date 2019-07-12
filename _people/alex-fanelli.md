@@ -4,7 +4,7 @@ role:
 layout: person
 title: Alex Fanelli
 sub_heading: HR Manager
-thumbnail: ''
+thumbnail: "/uploads/2019/07/alex.jpg"
 email: ''
 linkedin: ''
 
