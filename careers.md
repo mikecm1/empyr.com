@@ -1,15 +1,17 @@
 ---
 title: Careers
-description: 
-keywords: 
-sub_heading: 
-show_staff: true
+description: ''
+keywords: ''
+sub_heading: ''
+show_staff: false
 show_news: false
 hero_button:
   text: Sup homie
   href: "/"
 mainfeatures: []
 show_mainfeatures: false
+layout: standard-page
+heading: ''
 
 ---
 # Welcome
