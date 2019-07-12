@@ -4,7 +4,7 @@ role:
 layout: person
 title: Jason Fuentes
 sub_heading: Senior Director; Business Development
-thumbnail: ''
+thumbnail: "/uploads/2019/07/fuentes.jpg"
 email: ''
 linkedin: ''
 

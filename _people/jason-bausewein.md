@@ -4,7 +4,7 @@ role:
 layout: person
 title: Jason Bausewein
 sub_heading: Lead Server Engineer
-thumbnail: ''
+thumbnail: "/uploads/2019/07/jason.jpg"
 email: ''
 linkedin: ''
 
