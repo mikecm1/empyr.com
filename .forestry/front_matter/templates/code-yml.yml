@@ -31,7 +31,7 @@ fields:
     label: Custom CSS
     description: Exclude <style> tags from your CSS
   label: Custom styles
-- name: header_code_snippets
+- name: footer_code_snippets
   type: field_group
   config: {}
   fields:
