@@ -36,6 +36,7 @@ fields:
   hidden: true
   default: person
 pages:
+- _people/quinn-miller.md
 - _people/jason-bausewein.md
 - _people/dylan-thwaits.md
 - _people/jan-decino.md
