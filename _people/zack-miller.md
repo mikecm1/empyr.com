@@ -4,7 +4,7 @@ role:
 layout: person
 title: Zack Miller
 sub_heading: Senior Manager; Publisher Success
-thumbnail: ''
+thumbnail: "/uploads/2019/07/zack.jpg"
 email: ''
 linkedin: ''
 
