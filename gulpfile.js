@@ -95,9 +95,7 @@ gulp.task('scss-full', function () {
             "browsers": ["> 1%", "last 2 versions", "IE 9"]
         }),
         csso({
-            comments: false,
-            restructure: false,
-            forceMediaMerge: true
+            comments: false
         })
     ];
     return gulp.src('./assets/scss/main.scss')
@@ -137,5 +135,6 @@ gulp.task('compile', gulp.parallel(
 
 // Deploy on forestry.io
 gulp.task('deploy', gulp.series(
+    'scss-local',
     'buildit'
 ));
