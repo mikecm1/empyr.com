@@ -32,3 +32,18 @@ p {
 		font-weight: $font-weight-light;
 	}
 }
+
+.display-4 {
+  font-size: $display4-size * 0.758;
+  font-weight: $display4-weight;
+  line-height: $display4-line-height;
+  margin-bottom: $display4-margin-bottom;
+
+  @include media-breakpoint-up('sm') {
+    font-size: $display4-size * 0.714;
+  }
+
+  @include media-breakpoint-up('xl') {
+    font-size: $display4-size;
+  }
+}
