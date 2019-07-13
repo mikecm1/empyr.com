@@ -119,6 +119,8 @@ section_one:
     link_url: ''
     href: "/"
 section_two:
+  img: "/img/roas-home.svg"
+  img_width: 747
   tagline: Smarter Revenue
   section_header: Minimum 10X ROAS, Guaranteed.
   section_body_copy: Empyr powers CPR, a pay-per-revenue model that drives motivated

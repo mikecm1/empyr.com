@@ -79,8 +79,7 @@ case_studies:
   incremental_revenue: 99%
   roi: "$8.42"
   incremental_roi: "$4.20"
-primary_body_copy_headline: Level-up your digital advertising with pure, guaranteed
-  revenue.
+primary_body_copy_headline: A new approach to digital advertising
 primary_body_copy_subheadline: Our pay-per-revenue model (CPR) accelerates and tracks
   in-store sales through digital publishers unavailable on any other platform.
 all_features_headline: Transform your bottom line with CPR

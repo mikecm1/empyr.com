@@ -49,7 +49,7 @@ $enable-print-styles: true;
 // Body
 $body-bg: $white;
 $body-color: $gray-600;
-$default-section-padding: 4.4rem;
+$default-section-padding: 3rem;
 
 // Links
 $link-color: theme-color("primary");
@@ -70,6 +70,7 @@ $border-width: 1px;
 $border-radius: 0.25rem;
 $border-radius-lg: 0.7rem;
 $border-radius-sm: 0.2rem;
+$border-radius-xl: 1.5rem;
 // $box-shadow-sm: 0 0.125rem 0.25rem rgba(50, 50, 93, 0.1);
 $box-shadow-sm: 0 4px 15px -6px rgba(45,80,187,.15), 0 -3px 2px -3px rgba(45,80,187,.15);
 $box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1),
@@ -167,7 +168,7 @@ $display1-margin-bottom: $spacer * 1.5;
 // $display2-margin-bottom: $spacer * 1.2;
 $display2-margin-bottom: 1.3rem;
 $display3-margin-bottom: $spacer * 1.5;
-$display4-margin-bottom: $spacer * 1.5;
+$display4-margin-bottom: $spacer * 1;
 
 $paragraph-margin-bottom:   16px;
 

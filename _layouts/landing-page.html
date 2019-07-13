@@ -121,7 +121,6 @@ layout: default
                 L521.072794,729.404885 C530.985271,736.091551
                 542.669538,739.664063 554.626491,739.664063 L1440,739.664063 Z" transform="translate(0 -654)" /></svg>
             <div class="header-bg">
-
             </div>
         </div>
     </header>
@@ -172,7 +171,6 @@ layout: default
                 <!-- {% endif %} -->
             </div>
         </div>
-
         {% endif %}
         <!-- End Hero -->
         {% assign stripped_content = content | strip_newlines %}
@@ -192,13 +190,13 @@ layout: default
                 <div class="container full">
                     {% if page.section_one %}
                     <section>
-                        <div class="row justify-content-between align-items-top">
+                        <div class="row justify-content-between align-items-center">
                             <div class="col-12 col-md-5 order-1 pr-0 pt-md-2">
                                 <h4 class="mb-2 tag" data-aos="basic">{{ page.section_one.tagline }}</h4>
                                 <h1 class="display-4" data-aos="basic">{{
                                 page.section_one.section_header }}</h1>
                                 <img src="/img/headline-separator.svg" alt="" data-aos="basic">
-                                <p class="lead large mb-4" data-aos="basic" data-aos-delay="100">{{
+                                <p class="pt-1 mt-1 lead large mb-4" data-aos="basic" data-aos-delay="100">{{
                                 page.section_one.section_body_copy }}</p>
                                 <!-- <a href="{{ page.section_one.button.link_url }}" class="btn btn-lg btn-secondary" data-aos="basic" data-aos-delay="200" data-aos-anchor=".lead">{{
                                 page.section_one.button.text }}</a> -->
@@ -212,17 +210,103 @@ layout: default
                     {% endif %}
                     {% if page.section_two %}
                     <section class="bg-left">
-                        <div class="row justify-content-between align-items-top">
+                        <div class="row justify-content-between align-items-center">
                             <div class="col-12 order-2 order-md-1 col-md-7 pl-md-0 mb-4 mb-md-0
                             pr-md-4">
-                                <img class="w-100" src="/img/section-roas.svg" data-aos="fade-right" data-aos-delay="300">
+                                <img class="mw-100" src="{{
+                                    page.section_two.img }}" width="{{
+                                        page.section_two.img_width }}" data-aos="fade-right" data-aos-delay="300">
                             </div>
+                            <!-- <div class="col-12 col-md-6">
+                                <div class="row">
+                                    <div class="col-6 mt-8 mr-n5 aos-init aos-animate" data-aos="fade-up">
+                                        <div class="card mb-4 h-auto">
+                                            <div class="card-body">
+                                                <p class="lead mb-2 mt-0">"{{ item.quote }}"</p>
+                                                <div class="media align-items-center">
+                                                    <div class="mr-2">
+                                                        <img class="rounded" src="{{ item.icon | absolute_url
+                                                                }}" width="60" height="60" />
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <p class="mb-0"><span class="large
+                                                                    weight-500">{{ item.name }}</span>
+                                                        </p>
+                                                        <p class="small mb-0">{{
+                                                                item.job_title }}, {{
+                                                                item.company }}</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card h-auto">
+                                            <div class="card-body">
+                                                <p class="lead mb-2 mt-0">"{{ item.quote }}"</p>
+                                                <div class="media align-items-center">
+                                                    <div class="mr-2">
+                                                        <img class="rounded" src="{{ item.icon | absolute_url
+                                                                }}" width="60" height="60" />
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <p class="mb-0"><span class="large
+                                                                    weight-500">{{ item.name }}</span>
+                                                        </p>
+                                                        <p class="small mb-0">{{
+                                                                item.job_title }}, {{
+                                                                item.company }}</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+                                        <div class="card mb-4 h-auto">
+                                            <div class="card-body">
+                                                <p class="lead mb-2 mt-0">"{{ item.quote }}"</p>
+                                                <div class="media align-items-center">
+                                                    <div class="mr-2">
+                                                        <img class="rounded" src="{{ item.icon | absolute_url
+                                                                }}" width="60" height="60" />
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <p class="mb-0"><span class="large
+                                                                    weight-500">{{ item.name }}</span>
+                                                        </p>
+                                                        <p class="small mb-0">{{
+                                                                item.job_title }}, {{
+                                                                item.company }}</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card h-auto">
+                                            <div class="card-body">
+                                                <p class="lead mb-2 mt-0">"{{ item.quote }}"</p>
+                                                <div class="media align-items-center">
+                                                    <div class="mr-2">
+                                                        <img class="rounded" src="{{ item.icon | absolute_url
+                                                                }}" width="60" height="60" />
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <p class="mb-0"><span class="large
+                                                                    weight-500">{{ item.name }}</span>
+                                                        </p>
+                                                        <p class="small mb-0">{{
+                                                                item.job_title }}, {{
+                                                                item.company }}</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
                             <div class="col-12 order-1 order-md-2 col-md-5 pt-md-4" data-aos="basic">
                                 <h4 class="mb-2 tag">{{ page.section_two.tagline }}</h4>
                                 <h1 class="display-4">{{
                                 page.section_two.section_header }}</h1>
                                 <img src="/img/headline-separator.svg" alt="">
-                                <p class="lead large mb-4" data-aos="basic" data-aos-delay="100">{{
+                                <p class="pt-1 mt-1 lead large mb-4" data-aos="basic" data-aos-delay="100">{{
                                 page.section_two.section_body_copy }}</p>
                                 <!-- <a href="{{ page.section_two.button.link_url }}" class="btn btn-lg btn-secondary" data-aos="basic" data-aos-delay="200">{{
                                 page.section_two.button.text }}</a> -->
@@ -237,7 +321,7 @@ layout: default
                                 <h4 class="mb-2 tag">{{ page.section_three.tagline}}</h4>
                                 <h1 class="display-4">{{ page.section_three.section_header }}</h1>
                                 <img src="/img/headline-separator.svg" alt="">
-                                <p class="lead large mb-4" data-aos="basic" data-aos-delay="100">{{
+                                <p class="pt-1 mt-1 lead large mb-4" data-aos="basic" data-aos-delay="100">{{
                                 page.section_three.section_body_copy }}</p>
                                 <!-- <a href="{{ page.section_three.button.link_url }}" class="btn btn-lg btn-secondary" data-aos="basic" data-aos-delay="200">{{
                                 page.section_three.button.text }}</a> -->

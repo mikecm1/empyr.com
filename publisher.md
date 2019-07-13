@@ -65,9 +65,7 @@ section_one:
     complete creative control
   section_body_copy: Enhance your product with a feature your users will love, rewarding
     them from everyday offline purchases and generating revenue with each transaction.
-    Build and deploy a customized card-linked offer program with complete strategic
-    control of the UX, making your audience happy and increasing your bottom line.
-  image: "/img/test.png"
+  image: "/img/generic-app.jpg"
   button:
     text: Learn More
     link_url: index.md
@@ -81,6 +79,10 @@ section_two:
   button:
     text: Learn More
     link_url: index.md
+  stats:
+    merchants: 30K
+    cities: 3.5K
+    metros: 837
 user_testimonials:
 - quote: This is a top quality product. No need to think twice before purchasing, you simply could not go wrong
   photo: "/uploads/2019/05/icon-place.svg"

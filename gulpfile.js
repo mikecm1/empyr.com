@@ -95,7 +95,9 @@ gulp.task('scss-full', function () {
             "browsers": ["> 1%", "last 2 versions", "IE 9"]
         }),
         csso({
-            comments: false
+            comments: false,
+            restructure: false,
+            forceMediaMerge: true
         })
     ];
     return gulp.src('./assets/scss/main.scss')
