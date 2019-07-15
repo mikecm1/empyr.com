@@ -56,8 +56,12 @@
 {% if site.data.custom_code.footer_code_snippets %}
 {{ site.data.custom_code.footer_code_snippets.code_snippets_footer }}
 {% endif %}
-<a class="twitter-timeline" data-height="300" data-dnt="true" data-tweet-limit="1" data-dnt="true" data-chrome="noheader nofooter noborders transparent noscrollbar" href="https://twitter.com/{{ site.data.information.twitter}}"></a>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<script src="{{ "assets/js/vendor/antimoderate.min.js" | absolute_url }}"></script>
+<script>
+        var img = document.images;
+        AntiModerate.process(img);
+    </script>
 </body>
 
 </html>

@@ -1077,9 +1077,9 @@ footer {
     .bottom {
         padding: 200px 0 0;
         margin-top: -220px;
-        background-image: linear-gradient(15deg,#0e0c1b,#5c273b);
-        background: #131318;
-        background: #18162a;
+        background-image: linear-gradient(170deg,#10101a 50%,#1b1b3d 100%);
+//         background: #131318;
+//         background: #18162a;
     }
 }
 
@@ -1102,7 +1102,7 @@ svg.fsvg {
     /* background: #131318; */
     /* background: #18162a; */
     position: relative;
-    padding: 200px 0 100px;
+    padding: 230px 0 100px;
     /* background: #f7f7f9; */
     margin-top: -265px;
 //     background-image: linear-gradient(15deg,#0e0c1b,#5c273b);
@@ -1239,12 +1239,12 @@ svg.fsvg {
         background: $black-blue-2;
         background: #fff;
         box-shadow: 0 0 1px 0 rgba(53, 52, 110, 0.10), 0 2px 8px 0 rgba(55, 53, 195, 0.07), 0 1px 1px 0 rgba(18, 12, 33, 0.08);
-        padding: 110px 20px 20px;
+        padding: 130px 20px 20px;
         will-change: transform;
         transition: all .5s cubic-bezier(.03, .965, .25, .975);
         touch-action: manipulation;
         backface-visibility: hidden;
-        box-shadow: 0 24px 55px -10px rgba(99, 105, 140, .2);
+        box-shadow: $box-shadow-md;
 
         &.partner {
             &::before {
@@ -1392,10 +1392,13 @@ svg.fsvg {
 
     .card {
         // box-shadow: 0 9px 22px -11px rgba(45,80,187,.1) !important;
-        border-radius: 0 !important;
+        // border-radius: 0 !important;
     }
 }
 
+.sub-pad {
+    padding: 130px 0 230px;
+}
 .testimonials {
     position: relative;
     z-index: 1;
