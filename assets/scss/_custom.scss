@@ -17,6 +17,9 @@ body {
      max-width: 180%;
     }
     @include media-breakpoint-up(xl) {
+        max-width: 160%;
+       }
+       @include media-breakpoint-up(xxl) {
         max-width: 130%;
        }
  }
@@ -1490,7 +1493,7 @@ svg.fsvg {
         width: 1230px;
         height: 960px;
         padding-bottom: 130px;
-        background: linear-gradient(172deg,rgba(66,4,230,0) 25%,#e9eaf382 80%);
+        background: linear-gradient(172deg,rgba(255,255,255,0) 25%,rgba(233, 234, 243, 0.5) 80%);
         background-repeat: no-repeat;
         background-size: 100%;
         background-position: 100% 23%;
