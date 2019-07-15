@@ -2,7 +2,9 @@
   "favorites.resources": [
     "assets/scss",
     "assets/scss/_custom.scss",
-    "assets/scss/custom/_variables.scss"
+    "assets/scss/custom/_variables.scss",
+    "_includes/footer.html",
+    "_includes/head.html"
 ],
   "favorites.sortOrder": "ASC",
   "files.exclude": {
