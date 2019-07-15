@@ -5,7 +5,8 @@
     "assets/scss/custom/_variables.scss",
     "_includes/footer.html",
     "_includes/head.html",
-    "_layouts/sub-page.html"
+    "_layouts/sub-page.html",
+    "assets/js"
 ],
   "favorites.sortOrder": "ASC",
   "files.exclude": {
