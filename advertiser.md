@@ -119,6 +119,6 @@ menu:
   partners:
     weight: 1
     title: National Brands
-    description: Deploy campaigns across our network
+    description: Deploy card-linked offer campaigns
 
 ---

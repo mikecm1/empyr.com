@@ -1,5 +1,9 @@
 {
-  "favorites.resources": [],
+  "favorites.resources": [
+    "assets/scss",
+    "assets/scss/_custom.scss",
+    "assets/scss/custom/_variables.scss"
+],
   "favorites.sortOrder": "ASC",
   "files.exclude": {
     "webfonts": true,

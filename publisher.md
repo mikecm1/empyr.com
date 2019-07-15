@@ -112,6 +112,6 @@ menu:
   partners:
     weight: 2
     title: Websites & Apps
-    description: Build your own card-linked offer program
+    description: Build a custom card-linked offer program
 
 ---

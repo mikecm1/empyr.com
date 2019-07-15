@@ -11,15 +11,18 @@ $(document).ready(function () {
     //     };
     //     Scrollbar.init(document.querySelector("html:not(.no-js) body.smooth #main-scrollbar"), options);
 
-    $('[data-id=headers-4-sidebar-toggle]').click(function (e) {
-        e.preventDefault();
-        $('#headers-4-sidebar').toggleClass('show');
-    });
-    $('[data-id=headers-4-sidebar-close]').click(function (e) {
-        e.preventDefault();
-        $('#headers-4-sidebar').removeClass('show');
-    });
 
+    $('[data-id=nav-sidebar-toggle]').click(function (e) {
+        e.preventDefault();
+        $('#nav-sidebar').toggleClass('show');
+    });
+    $('[data-id=nav-sidebar-close]').click(function (e) {
+        e.preventDefault();
+        $('#nav-sidebar').removeClass('show');
+    });
+    $('.navbar-side a.nested').click(function(e) {
+        e.preventDefault();
+    });
     var transEffect = Barba.BaseTransition.extend({
         start: function () {
             this.newContainerLoading.then(val => this.fadeInNewcontent($(this.newContainer)));
