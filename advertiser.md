@@ -85,11 +85,8 @@ primary_body_copy_subheadline: Our pay-per-revenue model (CPR) accelerates and t
 all_features_headline: Transform your bottom line with CPR
 section_one:
   tagline: Customer Reach
-  section_header: Reach 316M+ consumers on our exclusive publisher network
-  section_body_copy: Leading sites and apps use Empyr to integrate card-linked offer
-    programs directly inside their products. Get rapid exposure to their members and
-    instant engagement optimization– by allowing people to discover offers through
-    products they know, trust, and use every day.
+  section_header: Exclusive reach to over 316M consumers
+  section_body_copy: Leading companies use Empyr to build and promote customized card-linked offer programs inside their websites and apps, providing rapid exposure to your brand through products people know, trust, and use every day.
   image: "/img/test.png"
   button:
     text: Learn More
