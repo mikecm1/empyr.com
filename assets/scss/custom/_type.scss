@@ -47,3 +47,13 @@ p {
     font-size: $display4-size;
   }
 }
+
+small,
+.small {
+  font-weight: 500;
+}
+
+footer .small, footer .small a, footer .small a span {
+  color: $gray-400 !important;
+}
+
