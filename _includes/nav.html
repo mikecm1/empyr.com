@@ -56,20 +56,38 @@ Displays the site's navigation using the jekyll-menus plugin
             <a class="navbar-side-close mb-4" href="" data-id="headers-4-sidebar-close">
                 <img src="/assets/glyphs/close.svg" width="32" />
             </a>
-            <div class="navbar-nav">
-                {% for link in site.menus.navigation %}
-                <div class="nav-item">
-                    <a class="nav-link text-dark pl-0" href="{{ link.url | absolute_url }}" {% if link.target %} target="_blank" {% endif %}>
-                        {{ link.title }}
-                    </a>
-                </div>
+            <ul class="navbar-nav mr-auto">
+                {% for item in site.menus.navigation %}
+                <li class="menu-item-{{ loop.index }} mb-0">
+                    <div class="{% if item.children %}dropdown{% endif %}">
+                        <a class="nav-link text-dark pl-0{% if item.children %}nested dropdown-toggle{% endif %}{% if url == item.url
+                            %}active{% endif %}" href="{{ item.url }}" title="{{ item.title }}" {% if item.children %}id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"{% endif %}>{{ item.title }}</a>
+                        {% if item.children %}
+                        <div class="sub-menu dropdown-menu side-drop pb-0" aria-labelledby="dropdownMenuButton">
+                            <div class="row">
+                                <div class="col col-12 mb-md-0 pb-0">
+                                <p class="lead d-none d-md-block">By Partner Type</p>
+                                </div>
+                                {% for item in item.children %}
+                                <div class="col col-12 mb-md-0 pb-1">
+                                        <a class="dropdown-item" href="{{ item.url }}" title="{{ item.title }}">
+                                    <div class="media align-items-center">
+                                        <div class="mr-2"><img class="rounded" src="/assets/pictures/userpic.png" width="40" /></div>
+                                        <div class="media-body">
+                                            <span>For {{ item.title }}</span>
+                                                <p class="small d-none d-md-block mb-0">{{ item.description }}</p>
+                                        </div>
+                                    </div>
+                                </a>
+                                </div>
+                                {% endfor %}
+                            </div>
+                            </div>
+                            {% endif %}
+                            </div>
+                </li>
                 {% endfor %}
-                <div class="nav-item d-none d-lg-block">
-                    <a class="nav-link text-dark pr-0" href="">
-                        <img src="/assets/glyphs/search.svg" />
-                    </a>
-                </div>
-            </div>
+            </ul>
         </div>
         <div>
             <p class="mb-3">
