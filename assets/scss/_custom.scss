@@ -311,7 +311,7 @@ p.latest {
     overflow: hidden;
     text-overflow: ellipsis;
     width: auto;
-    max-width: 500px !important;
+    max-width: 530px !important;
     text-transform: uppercase;
 }
 
@@ -382,7 +382,7 @@ p.latest {
     // background-position: 42vw 79px, -193px -33px, center center;
     // background-size: 72vw, 83%, 100%;
     // background-repeat: no-repeat;
-    padding: 90px 0 90px;
+    padding: 80px 0 60px;
     overflow: hidden;
 
     @include media-breakpoint-up(sm) {
@@ -416,7 +416,7 @@ p.latest {
         position: absolute;
         bottom: -1px;
         height: 73%;
-        left: -20px;
+        left: -70px;
         z-index: 1;
 
         @include media-breakpoint-up(sm) {
@@ -776,7 +776,7 @@ h1 {
 
 .display-3 {
     @include media-breakpoint-down('xs') {
-        font-size: 46px;
+        font-size: 38px;
         letter-spacing: -1.9px;
     }
 

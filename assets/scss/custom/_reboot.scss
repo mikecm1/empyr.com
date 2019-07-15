@@ -43,3 +43,52 @@ dl {
   padding-left: 0;
   margin-bottom: 1.5rem;
 }
+
+a {
+    color: $link-color;
+    text-decoration: $link-decoration;
+    background-color: transparent; // Remove the gray background on active links in IE 10.
+    -webkit-text-decoration-skip: objects; // Remove gaps in links underline in iOS 8+ and Safari 8+.
+  
+    @include hover {
+      color: $link-hover-color;
+      text-decoration: $link-hover-decoration;
+      span {
+        border-bottom: none;
+      }
+    }
+  
+    &.transparent-link {
+      opacity: 0.3;
+  
+      &:hover {
+        opacity: 1;
+      }
+    }
+  
+    &.transparent-invert-link {
+      opacity: 1;
+  
+      &:hover {
+        opacity: 0.3;
+      }
+    }
+  
+    &.action-link {
+      font-weight: 500;
+  
+      &::after {
+        content: '';
+        display: inline-block;
+        width: 5.5px;
+        height: 5.5px;
+        border-top: 1.5px solid;
+        border-right: 1.5px solid;
+        transform: rotate(45deg);
+        position: relative;
+        margin: -1px 0 0 6px;
+        vertical-align: middle;
+        top: -1px;
+      }
+    }
+}
