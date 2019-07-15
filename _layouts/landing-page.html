@@ -127,12 +127,12 @@ layout: default
     {% if page.partners %}
     <div class="shad">
         <div class="logos">
-            <div class="container full pt-4 pb-1 py-md-4">
+            <div class="container full pt-4 pb-1 py-md-3">
                 <div class="row justify-content-center
                     justify-content-lg-between text-center align-items-center">
                     {% for logo in page.partners %}
                     <div class="col-4 mb-4 col-md mb-md-0 logo-wrap" data-aos="basic" data-aos-delay="{{ forloop.index | times: 150 }}">
-                        <img src="{{ logo | absolute_url }}" class="img-logo" />
+                        <div class="rounder"><img src="{{ logo | absolute_url }}" class="img-logo" /></div>
                     </div>
                     {% endfor %}
                 </div>
@@ -190,13 +190,13 @@ layout: default
                 <div class="container full">
                     {% if page.section_one %}
                     <section>
-                        <div class="row justify-content-between align-items-center">
-                            <div class="col-12 col-md-5 order-1 pr-0 pt-md-2">
+                        <div class="row justify-content-between align-items-top">
+                            <div class="col-12 col-md-5 order-1 pr-md-2 pt-md-2">
                                 <h4 class="mb-2 tag" data-aos="basic">{{ page.section_one.tagline }}</h4>
                                 <h1 class="display-4" data-aos="basic">{{
                                 page.section_one.section_header }}</h1>
                                 <img src="/img/headline-separator.svg" alt="" data-aos="basic">
-                                <p class="pt-1 mt-1 lead large mb-4" data-aos="basic" data-aos-delay="100">{{
+                                <p class="pt-1 mt-1 lead large mb-2 mb-md-4" data-aos="basic" data-aos-delay="100">{{
                                 page.section_one.section_body_copy }}</p>
                                 <!-- <a href="{{ page.section_one.button.link_url }}" class="btn btn-lg btn-secondary" data-aos="basic" data-aos-delay="200" data-aos-anchor=".lead">{{
                                 page.section_one.button.text }}</a> -->
@@ -210,7 +210,7 @@ layout: default
                     {% endif %}
                     {% if page.section_two %}
                     <section>
-                        <div class="row justify-content-between align-items-center">
+                        <div class="row justify-content-between align-items-top">
                             <div class="col-12 order-2 order-md-1 col-md-7 pl-md-0 mb-4 mb-md-0
                             pr-md-4">
                                 <img class="mw-100" src="{{
@@ -306,7 +306,7 @@ layout: default
                                 <h1 class="display-4">{{
                                 page.section_two.section_header }}</h1>
                                 <img src="/img/headline-separator.svg" alt="">
-                                <p class="pt-1 mt-1 lead large mb-4" data-aos="basic" data-aos-delay="100">{{
+                                <p class="pt-1 mt-1 lead large mb-2 mb-md-4" data-aos="basic" data-aos-delay="100">{{
                                 page.section_two.section_body_copy }}</p>
                                 <!-- <a href="{{ page.section_two.button.link_url }}" class="btn btn-lg btn-secondary" data-aos="basic" data-aos-delay="200">{{
                                 page.section_two.button.text }}</a> -->
@@ -321,12 +321,12 @@ layout: default
                                 <h4 class="mb-2 tag">{{ page.section_three.tagline}}</h4>
                                 <h1 class="display-4">{{ page.section_three.section_header }}</h1>
                                 <img src="/img/headline-separator.svg" alt="">
-                                <p class="pt-1 mt-1 lead large mb-4 mb-md-5" data-aos="basic" data-aos-delay="100">{{
+                                <p class="pt-1 mt-1 lead large mb-2 mb-md-4 mb-md-5" data-aos="basic" data-aos-delay="100">{{
                                 page.section_three.section_body_copy }}</p>
                                 <!-- <a href="{{ page.section_three.button.link_url }}" class="btn btn-lg btn-secondary" data-aos="basic" data-aos-delay="200">{{
                                 page.section_three.button.text }}</a> -->
                             </div>
-                            <img class="analytics" src="img/home-analytics.png" data-reactid="25">
+                            <img class="analytics" src="img/home-analytics.png" data-aos="fade-left" data-aos-delay="300">
                         </div>
                     </section>
                     {% endif %}

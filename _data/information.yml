@@ -26,6 +26,13 @@ footer_details:
   privacy_url: "/"
   tos_text: Terms of Service
   tos_url: "/"
+  partners:
+  - "/img/logo-home-1.png"
+  - "/img/logo-home-2.png"
+  - "/img/logo-home-3.png"
+  - "/img/logo-home-4.png"
+  - "/img/logo-home-5.png"
+  - "/img/logo-home-6.png"
 nav_details:
   cta_url: "/"
   cta_text: Get Started

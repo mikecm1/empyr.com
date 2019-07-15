@@ -109,6 +109,9 @@ fields:
     config:
       required: false
     label: TOS URL
+  - type: image_gallery
+    name: partners
+    label: Partner Logos
   label: Footer Details
 - name: nav_details
   type: field_group

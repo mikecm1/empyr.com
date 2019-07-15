@@ -14,11 +14,11 @@
                     </a>
                 </div>
             </div>
-            {% if page.partners %}
+            {% if info.footer_details.partners %}
             <div class="pb-md-5 text-center">
                 <p class="callout mt-2">Empyr powers card-linked offer solutions for leading websites, apps, and national brands</p>
                 <div class="row justify-content-center justify-content-lg-between text-center align-items-center" style="opacity: 0.4">
-                    {% for logo in page.partners %}
+                    {% for logo in info.footer_details.partners %}
                     <div class="col-4 mb-4 col-md mb-md-0">
                         <img src="{{ logo | absolute_url }}" style="width: 100px; max-width: 65%" />
                     </div>
@@ -56,12 +56,6 @@
 {% if site.data.custom_code.footer_code_snippets %}
 {{ site.data.custom_code.footer_code_snippets.code_snippets_footer }}
 {% endif %}
-
-<script src="{{ "assets/js/vendor/antimoderate.min.js" | absolute_url }}"></script>
-<script>
-        var img = document.images;
-        AntiModerate.process(img);
-    </script>
 </body>
 
 </html>

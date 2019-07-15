@@ -142,7 +142,7 @@ $(document).ready(function () {
     AOS.init({
         once: !0,
         duration: 400,
-        // disable: 'mobile',
+        disable: 'mobile',
         anchorPlacement: 'top'
     });
 
