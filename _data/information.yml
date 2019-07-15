@@ -27,12 +27,12 @@ footer_details:
   tos_text: Terms of Service
   tos_url: "/"
   partners:
-  - "/uploads/2019/07/logo-footer-6.png"
-  - "/uploads/2019/07/logo-footer-5.png"
-  - "/uploads/2019/07/logo-footer-4.png"
-  - "/uploads/2019/07/logo-footer-3.png"
-  - "/uploads/2019/07/logo-footer-2.png"
   - "/uploads/2019/07/logo-footer-1.png"
+  - "/uploads/2019/07/logo-footer-2.png"
+  - "/uploads/2019/07/logo-footer-5.png"
+  - "/uploads/2019/07/logo-footer-6.png"
+  - "/uploads/2019/07/logo-footer-3.png"
+  - "/uploads/2019/07/logo-footer-4.png"
 nav_details:
   cta_url: "/"
   cta_text: Get Started
