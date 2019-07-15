@@ -96,9 +96,8 @@ section_two:
   tagline: Revenue
   section_header: Real foot traffic. Real revenue.
   section_body_copy: Drive motivated customers into your physical stores and only
-    pay a fee when they make a verified purchase. The impressions and clicks? 100%
-    free. Consumers enjoy real-time reward notifications, and you achieve guaranteed
-    revenue growth with a minimum ___ ROAS.
+    pay a fee when they make a verified purchase– the impressions and clicks are 
+    free. Consumers enjoy real-time reward notifications, and you get a guaranteed 10X-30X ROAS.
   button:
     text: Learn More
     link_url: index.md
@@ -107,8 +106,7 @@ section_three:
   tagline: Real-Time Analytics
   section_header: Real-time, fully transparent online to offline attribution
   section_body_copy: Watch in real-time as online offers convert to in-store sales
-    and gain holistic customer insights with comprehensive online to offline analytics.
-    Impressions and clicks don’t always equal cash in the bank, so eliminate the guesswork.
+    and gain holistic customer insights via comprehensive online to offline analytics. Impressions and clicks don’t always equal cash in the bank, so eliminate the guesswork.
   button:
     text: Learn More
     href: "/advertiser"

@@ -1664,11 +1664,13 @@ svg.fsvg {
 }
 
 h4.tag {
-    font-size: 13.5px;
+    font-size: 15px;
     text-transform: uppercase;
-    letter-spacing: 3.1px;
-    opacity: 0.5 !important;
-    // color: $black;
+    letter-spacing: 4.8px;
+    opacity: 0.8 !important;
+    color: $primary;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 600;
 }
 
 .bold {
