@@ -72,9 +72,11 @@ var rellax = new Rellax('.rellax', {
     wrapper: null,
   });
 </script>
+{% comment %}
 {% if site.data.custom_code.footer_code_snippets %}
 {{ site.data.custom_code.footer_code_snippets.code_snippets_footer }}
 {% endif %}
+{% endcomment %}
 </body>
 
 </html>
