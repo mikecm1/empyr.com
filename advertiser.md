@@ -113,7 +113,7 @@ section_three:
 menu:
   partners:
     weight: 1
-    title: National Brands
-    description: Deploy card-linked offer campaigns
+    title: Advertisers
+    description: Launch a card-linked offer campaign
 
 ---

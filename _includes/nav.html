@@ -20,16 +20,24 @@ Displays the site's navigation using the jekyll-menus plugin
                     <div class="sub-menu dropdown-menu animate slideIn rounded-lg" aria-labelledby="dropdownMenuButton">
                         <div class="row">
                             <div class="col col-12 mb-md-0 pb-0">
-                            <p class="lead">By Partner Type</p>
+                            <p class="lead mb-1">Solutions For</p>
                             </div>
                             {% for item in item.children %}
                             <div class="col col-12 mb-md-0">
-                                    <a class="dropdown-item" href="{{ item.url }}" title="{{ item.title }}">
+                                    <a class="dropdown-item dropdown-item pb-1 mb-1 pt-0" href="{{ item.url }}" title="{{ item.title }}">
                                 <div class="media align-items-center">
-                                    <div class="mr-2"><img class="rounded" src="/assets/pictures/userpic.png" width="60" height="60" /></div>
+                                    <div class="mr-2">
+                                        <!-- <img class="rounded" src="/assets/pictures/userpic.png" width="60" height="60" /> -->
+                                        <svg width="50px" height="" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="">
+                                            <g id="Stockholm-icons-/-Layout-/-Layout-arrange" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                <rect id="bound" x="0" y="0" width="24" height="24"></rect>
+                                                <path d="M5.5,4 L9.5,4 C10.3284271,4 11,4.67157288 11,5.5 L11,6.5 C11,7.32842712 10.3284271,8 9.5,8 L5.5,8 C4.67157288,8 4,7.32842712 4,6.5 L4,5.5 C4,4.67157288 4.67157288,4 5.5,4 Z M14.5,16 L18.5,16 C19.3284271,16 20,16.6715729 20,17.5 L20,18.5 C20,19.3284271 19.3284271,20 18.5,20 L14.5,20 C13.6715729,20 13,19.3284271 13,18.5 L13,17.5 C13,16.6715729 13.6715729,16 14.5,16 Z" id="Combined-Shape" fill="#335EEA" class=""></path>
+                                                <path d="M5.5,10 L9.5,10 C10.3284271,10 11,10.6715729 11,11.5 L11,18.5 C11,19.3284271 10.3284271,20 9.5,20 L5.5,20 C4.67157288,20 4,19.3284271 4,18.5 L4,11.5 C4,10.6715729 4.67157288,10 5.5,10 Z M14.5,4 L18.5,4 C19.3284271,4 20,4.67157288 20,5.5 L20,12.5 C20,13.3284271 19.3284271,14 18.5,14 L14.5,14 C13.6715729,14 13,13.3284271 13,12.5 L13,5.5 C13,4.67157288 13.6715729,4 14.5,4 Z" id="Combined-Shape" fill="#335EEA" opacity="0.3" class=""></path>
+                                            </g>
+                                        </svg>
+                                    </div>
                                     <div class="media-body">
-                                        <span>{{
-                                                item.title }}</span>
+                                        <span>{{ item.title }}</span>
                                             <p class="small mb-0">{{ item.description }}</p>
                                         
                                     </div>
@@ -38,7 +46,12 @@ Displays the site's navigation using the jekyll-menus plugin
                             </div>
                             {% endfor %}
                         </div>
+                        <div class="drop-btm">
+  <a class="dropdown-item text-secondary" href="#">Schedule a demo <i class="fa fa-long-arrow-right"></i></a>
+  <a class="dropdown-item text-secondary" href="#">Support options</a>
+  <a class="dropdown-item text-secondary" href="#">National Terms</a>
                         </div>
+                    </div>
                         {% endif %}
                         </div>
             </li>

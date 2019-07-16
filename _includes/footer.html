@@ -15,12 +15,12 @@
                 </div>
             </div>
             {% if info.footer_details.partners %}
-            <div class="pb-md-5 text-center">
-                <p class="callout mt-2">Empyr powers card-linked offer solutions for leading websites, apps, and national brands</p>
+            <div class="pb-md-5 mb-2 text-center">
+                <p class="callout mt-1 mb-4">Empyr powers card-linked offer solutions for leading websites, apps, and national brands</p>
                 <div class="row justify-content-center justify-content-lg-between text-center align-items-center" style="opacity: 0.4">
                     {% for logo in info.footer_details.partners %}
                     <div class="col-4 mb-4 col-md mb-md-0">
-                        <img src="{{ logo | absolute_url }}" style="width: 100px; max-width: 65%" />
+                        <img src="{{ logo | absolute_url }}" class="img-logo" />
                     </div>
                     {% endfor %}
                 </div>

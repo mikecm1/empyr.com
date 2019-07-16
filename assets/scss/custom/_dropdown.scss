@@ -7,18 +7,18 @@
 
 .dropdown-menu {
     min-width: 22rem;
-    padding: $dropdown-padding-y $dropdown-padding-x;
+    padding: $dropdown-padding-y 0 0;
     @include border-radius($dropdown-border-radius);
     @include box-shadow($dropdown-box-shadow);
     border: none;
     .dropdown-item {
         // padding: .5rem 1rem;
-        font-size: $font-size-sm;
+        font-size: $font-size-base;
         > i,
         > svg {
-            margin-right: 1rem;
-            font-size: 1rem;
-            vertical-align: -17%;
+    margin-right: 1rem;
+    font-size: 1rem;
+    vertical-align: 0%;
         }
     }
 }
@@ -26,9 +26,9 @@
 .dropdown-item {
     display: block;
     width: 100%; // For `<button>`s
-    padding: $dropdown-item-padding-y $dropdown-item-padding-x;
+    padding: $dropdown-item-padding-y 0;
     clear: both;
-    font-weight: $font-weight-normal;
+    font-weight: $font-weight-medium;
     color: $dropdown-link-color;
     text-align: inherit; // For `<button>`s
     white-space: nowrap; // prevent links from randomly breaking onto new lines

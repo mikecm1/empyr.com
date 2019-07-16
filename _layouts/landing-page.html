@@ -132,7 +132,7 @@ layout: default
                     justify-content-lg-between text-center align-items-center">
                     {% for logo in page.partners %}
                     <div class="col-4 mb-4 col-md mb-md-0 logo-wrap" data-aos="basic" data-aos-delay="{{ forloop.index | times: 150 }}">
-                        <div class="rounder"><img src="{{ logo | absolute_url }}" class="img-logo" /></div>
+                        <img src="{{ logo | absolute_url }}" class="img-logo" />
                     </div>
                     {% endfor %}
                 </div>
