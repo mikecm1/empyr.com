@@ -908,6 +908,12 @@ li.nav-item {
     }
 }
 
+.navbar {
+    a.dropdown-item:hover {
+    background: #f5f5fa!important;
+    }
+}
+
 .navbar-nav {
     // :hover>.dropdown-menu {
     //     -webkit-animation-name: slideIn;
@@ -955,7 +961,7 @@ li.nav-item {
         white-space: normal;
         font-size: 16.5px !important;
         span {
-    font-size: 18.2px;
+    font-size: 17.6px;
     font-weight: 500;
     border: 0;
     letter-spacing: 0;
@@ -1000,15 +1006,12 @@ li.nav-item {
 
 .sub-menu .col {
     .dropdown-item {
-        border-bottom: 1px solid #eceef1;
-            padding-bottom: 7px;
-    margin-bottom: 13px;
+    padding: .5rem 0 !important;
+    border-radius: 10px;
     }
     &:last-child {
       .dropdown-item {
-        border: none;
-            padding-bottom: 0;
-    margin-bottom: 13px;
+    margin-bottom: 15px;
     }
             }
     }

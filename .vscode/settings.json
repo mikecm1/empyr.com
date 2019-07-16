@@ -9,7 +9,8 @@
     "assets/js",
     "_layouts/landing-page.html",
     "gulpfile.js",
-    "_config.yml"
+    "_config.yml",
+    "_includes/nav.html"
 ],
   "favorites.sortOrder": "ASC",
   "files.exclude": {
