@@ -1,7 +1,8 @@
 ---
 layout: sub-page
 title: Publishers - Grow Offline Revenue - Create Card Linked Offers
-description: Publishers can grow revenue by tapping into online to offline commerce. Offers consumers card linked offers with guaranteed revenue per sale.
+description: Publishers can grow revenue by tapping into online to offline commerce.
+  Offers consumers card linked offers with guaranteed revenue per sale.
 keywords: Card Linked Offers, Publishers, Revenue Per Sale
 tagline: Websites & Apps
 banner_image: ''
@@ -69,6 +70,7 @@ section_one:
   button:
     text: Learn More
     link_url: index.md
+    href: ''
 section_two:
   tagline: Content
   section_header: Thousands of offline offers ready to go
@@ -79,6 +81,7 @@ section_two:
   button:
     text: Learn More
     link_url: index.md
+    href: ''
   stats:
     merchants: 30K
     cities: 3.5K
@@ -90,12 +93,20 @@ user_testimonials:
     program_name: Yelp Cash Back
     quote: '"This is a top quality product. No need to think twice before purchasing,
       you simply could not go wrong"'
+    user_photo: ''
   - person_name: Mike Stevenson
     program_name: Yelp Cash Back
     quote: '"This is a top quality product. No need to think twice before purchasing,
       you simply could not go wrong"'
+    user_photo: ''
   - person_name: Mike Stevenson
     program_name: Yelp Cash Back
+    quote: '"This is a top quality product. No need to think twice before purchasing,
+      you simply could not go wrong"'
+    user_photo: ''
+  - person_name: Mike Stevenson
+    program_name: Yelp Cash Back
+    user_photo: "/uploads/2019/07/Mike Stevenson.jpg"
     quote: '"This is a top quality product. No need to think twice before purchasing,
       you simply could not go wrong"'
   - person_name: Mike Stevenson
@@ -108,11 +119,15 @@ user_testimonials:
     user_photo: "/uploads/2019/07/Mike Stevenson.jpg"
     quote: '"This is a top quality product. No need to think twice before purchasing,
       you simply could not go wrong"'
-  - person_name: Mike Stevenson
-    program_name: Yelp Cash Back
-    user_photo: "/uploads/2019/07/Mike Stevenson.jpg"
-    quote: '"This is a top quality product. No need to think twice before purchasing,
-      you simply could not go wrong"'
+section_three:
+  tagline: ''
+  section_header: ''
+  section_body_copy: ''
+  button:
+    text: ''
+    href: ''
+show_user_testimonials: true
+case_studies: []
 menu:
   partners:
     weight: 2
