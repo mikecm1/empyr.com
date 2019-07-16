@@ -1486,23 +1486,21 @@ color: #ffffffba;
         line-height: 1.5;
         color: #575965;
     }
-
-    .card {
-        border-radius: 15px !important;
-        background: hsla(235, 20%, 47%, 0.05);
-        border: 0;
-        // box-shadow: 0 3px 3px -3px rgba(99,105,140,.3);
-        // box-shadow: 0 0 1px 0 rgba(53, 52, 110, .1), 0 2px 8px 0 rgba(57, 57, 104, 0.07), 0 1px 1px 0 rgba(18, 12, 33, .08);
-        box-shadow: none !important;
-        // border: 1px solid #e0edfb;
-    }
-
     .card-body {
-        padding: 1.65rem 2.35rem;
+        padding: 3.15rem 2.35rem;
     }
 
-    span {
-        // color: #fff;
+    &.prof {
+        .card {
+            border-radius: 15px !important;
+            background: hsla(235, 20%, 47%, 0.05);
+            border: 0;
+            // box-shadow: 0 3px 3px -3px rgba(99,105,140,.3);
+            // box-shadow: 0 0 1px 0 rgba(53, 52, 110, .1), 0 2px 8px 0 rgba(57, 57, 104, 0.07), 0 1px 1px 0 rgba(18, 12, 33, .08);
+            box-shadow: none !important;
+            // border: 1px solid #e0edfb;
+        }
+    
     }
 }
 
