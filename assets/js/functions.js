@@ -161,14 +161,11 @@ $(document).ready(function () {
             el: '.swiper-pagination',
             clickable: true,
         },
-        slidesPerView: 3,
+        slidesPerView: 2,
         spaceBetween: 0,
         breakpoints: {
-            320: {
+            768: {
                 slidesPerView: 1,
-            },
-            480: {
-                slidesPerView: 2,
             },
         }
     });
