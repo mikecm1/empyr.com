@@ -84,30 +84,35 @@ section_two:
     cities: 3.5K
     metros: 837
 user_testimonials:
-- quote: This is a top quality product. No need to think twice before purchasing, you simply could not go wrong
-  photo: "/uploads/2019/05/icon-place.svg"
-  person_name: Mike S
-  program_name: Yelp Cash Back
-- quote: This is a top quality product. No need to think twice before purchasing, you simply could not go wrong
-  photo: "/uploads/2019/05/icon-place.svg"
-  person_name: Mike S
-  program_name: Yelp Cash Back
-- quote: This is a top quality product. No need to think twice before purchasing, you simply could not go wrong
-  photo: "/uploads/2019/05/icon-place.svg"
-  person_name: Mike S
-  program_name: Yelp Cash Back
-- quote: This is a top quality product. No need to think twice before purchasing, you simply could not go wrong
-  photo: "/uploads/2019/05/icon-place.svg"
-  person_name: Mike S
-  program_name: Yelp Cash Back
-- quote: This is a top quality product. No need to think twice before purchasing, you simply could not go wrong
-  photo: "/uploads/2019/05/icon-place.svg"
-  person_name: Mike S
-  program_name: Yelp Cash Back
-- quote: This is a top quality product. No need to think twice before purchasing, you simply could not go wrong
-  photo: "/uploads/2019/05/icon-place.svg"
-  person_name: Mike S
-  program_name: Yelp Cash Back
+  title: Consumers love card-linked offers
+  testimonials:
+  - person_name: Mike Stevenson
+    program_name: Yelp Cash Back
+    quote: '"This is a top quality product. No need to think twice before purchasing,
+      you simply could not go wrong"'
+  - person_name: Mike Stevenson
+    program_name: Yelp Cash Back
+    quote: '"This is a top quality product. No need to think twice before purchasing,
+      you simply could not go wrong"'
+  - person_name: Mike Stevenson
+    program_name: Yelp Cash Back
+    quote: '"This is a top quality product. No need to think twice before purchasing,
+      you simply could not go wrong"'
+  - person_name: Mike Stevenson
+    program_name: Yelp Cash Back
+    user_photo: "/uploads/2019/07/Mike Stevenson.jpg"
+    quote: '"This is a top quality product. No need to think twice before purchasing,
+      you simply could not go wrong"'
+  - person_name: Mike Stevenson
+    program_name: Yelp Cash Back
+    user_photo: "/uploads/2019/07/Mike Stevenson.jpg"
+    quote: '"This is a top quality product. No need to think twice before purchasing,
+      you simply could not go wrong"'
+  - person_name: Mike Stevenson
+    program_name: Yelp Cash Back
+    user_photo: "/uploads/2019/07/Mike Stevenson.jpg"
+    quote: '"This is a top quality product. No need to think twice before purchasing,
+      you simply could not go wrong"'
 menu:
   partners:
     weight: 2
