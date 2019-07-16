@@ -116,7 +116,12 @@ section_three:
     href: "/advertiser"
 user_testimonials:
   title: Consumers love card-linked offers
-  testimonials: []
+  testimonials:
+  - person_name: Mike Stevenson
+    program_name: Yelp Cash Back
+    user_photo: "/uploads/2019/07/Mike Stevenson.jpg"
+    quote: '"This is a top quality product. No need to think twice before purchasing,
+      you simply could not go wrong"'
 menu:
   partners:
     weight: 1
