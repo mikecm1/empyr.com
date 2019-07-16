@@ -58,7 +58,7 @@ all_features:
   icon: "/uploads/2019/05/icon-place.svg"
 - heading: Designed for all digital product types
   icon: "/uploads/2019/05/icon-place.svg"
-show_case_studies: true
+show_case_studies: false
 section_one:
   tagline: USER EXPERIENCE
   section_header: |-
