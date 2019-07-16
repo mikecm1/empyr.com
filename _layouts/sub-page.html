@@ -19,12 +19,12 @@ layout: default
                         {% if page.hero_button %}
                         <div class="pb-2 d-flex flex-column flex-md-row" data-aos="basic" data-aos-delay="250">
                             <a href="{{ page.hero_button.href | absolute_url }}" class="btn btn-lg btn-white mb-2 mb-md-0
-                                    primary">{{ page.hero_button.text }}</a>
+                                primary">{{ page.hero_button.text }}</a>
                             {% endif %}
                             {% if page.second_button %}
                             <a href="{{ page.second_button.href | absolute_url
-                                    }}" class="btn btn-lg btn-secondary secondary d-non
-                                    d-lg-block">{{ page.second_button.text }}</a>
+                                }}" class="btn btn-lg btn-secondary secondary d-non
+                                d-lg-block">{{ page.second_button.text }}</a>
                         </div>
                         {% endif %}
                     </div>
@@ -122,22 +122,22 @@ layout: default
                     <img src="/img/headline-separator.svg" alt="" data-aos="basic" data-aos="fade-right" data-aos-delay="150">
                     <p class="mb-4" data-aos="basic" data-aos-delay="250">{{ page.section_two.section_body_copy }}</p>
                     <!-- {% if page.section_two.stats %}
-                    <div class="row">
-                        <div class="col-12 col-md-4 mb-md-0">
-                            <h3 class="mb-0">{{ page.section_two.stats.merchants }}</h3>
-                            <p class="small">Total Merchants</p><a class="weight-500" href="#"></a>
-                        </div>
-                        <div class="col-12 col-md-4 mb-md-0">
-                            <h3 class="mb-0">{{ page.section_two.stats.cities }}</h3>
-                            <p class="small">Cities with Merchants</p><a class="weight-500" href="#"></a>
-                        </div>
-                        <div class="col-12 col-md-4 mb-md-0">
-                            <h3 class="mb-0">{{ page.section_two.stats.metros }}</h3>
-                            <p class="small">Number of Metros</p><a class="weight-500" href="#"></a>
-                        </div>
-                </div>
-                {% endif %} -->
+                <div class="row">
+                    <div class="col-12 col-md-4 mb-md-0">
+                        <h3 class="mb-0">{{ page.section_two.stats.merchants }}</h3>
+                        <p class="small">Total Merchants</p><a class="weight-500" href="#"></a>
+                    </div>
+                    <div class="col-12 col-md-4 mb-md-0">
+                        <h3 class="mb-0">{{ page.section_two.stats.cities }}</h3>
+                        <p class="small">Cities with Merchants</p><a class="weight-500" href="#"></a>
+                    </div>
+                    <div class="col-12 col-md-4 mb-md-0">
+                        <h3 class="mb-0">{{ page.section_two.stats.metros }}</h3>
+                        <p class="small">Number of Metros</p><a class="weight-500" href="#"></a>
+                    </div>
             </div>
+            {% endif %} -->
+                </div>
         </section>
         {% endif %}
         {% if page.section_three.section_header and page.section_three.section_header != "" %}
@@ -156,64 +156,39 @@ layout: default
         </section>
         {% endif %}
     </div>
-    {% if page.user_testimonials.testimonials.person_name and page.user_testimonials.testimonials.person_name != "" %}
+    {% if page.show_user_testimonials %}
     <section>
-            <div class="sub-pad container full">
-                    <h1 class="text-center pb-4 mb-4">Consumers love card-linked offers</h1>
-                    <div class="swiper-container">
-                        <div class="swiper-wrapper">
-                            {% for item in page.user_testimonials %}
-                            <div class="swiper-slide col-12 col-md-6 eq">
-                                    <div class="card card-body box-shadow-md">
-                                    <div class="card-body">
-                                        <p class="lead mb-2 mt-0">"{{ item.quote }}"</p>
-                                        <div class="media align-items-center">
-                                            <div class="mr-2">
-                                                <img class="rounded" src="{{ item.icon | absolute_url | default: "/uploads/2019/05/icon-place.svg" | absolute_url }}" width="60" height="60" />
-                                            </div>
-                                            <div class="media-body">
-                                                <p class="mb-0"><span class="large
-                                                    weight-500">{{ item.person_name }}</span>
-                                                </p>
-                                                <p class="small mb-0">- {{
-                                                item.program_name }} user</p>
-                                            </div>
-                                        </div>
+        <div class="sub-pad container full">
+            <h1 class="text-center pb-4 mb-4">Consumers love card-linked offers</h1>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    {% for item in page.user_testimonials.testimonials %}
+                    <div class="swiper-slide col-12 col-md-6 eq">
+                        <div class="card card-body box-shadow-md">
+                                <p class="lead mb-2 mt-0">"{{ item.quote }}"</p>
+                                <div class="media align-items-center">
+                                    <div class="mr-2">
+                                        {% if item.user_photo == "" %}
+                                        <img class="rounded" src="/uploads/2019/05/icon-place.svg" width="60" height="60" />
+                                        {% else %}
+                                        <img class="rounded" src="{{ item.user_photo | absolute_url | default:"/uploads/2019/05/icon-place.svg" | absolute_url }}" width="60" height="60" />
+                                        {% endif %}
+                                    </div>
+                                    <div class="media-body">
+                                        <p class="mb-0"><span class="large
+                                                weight-500">{{ item.person_name }}</span>
+                                        </p>
+                                        <p class="small mb-0">- {{
+                                            item.program_name }} user</p>
                                     </div>
                                 </div>
-                            </div>
-                            {% endfor %}
-                        </div>
-                        <div class="swiper-pagination"></div>
-                    </div>
-                </div>
-        <!-- <div class="container my-5">
-            <div class="row text-center text-light mb-4">
-                <div class="col">
-                    <h3 class="h1">Consumers love card-linked offers</h3>
-                </div>
-            </div>
-            <div class="row">
-                {% for item in page.user_testimonials %}
-                <div class="col-sm-6 col-lg-4 mb-2">
-                    <div class="card card-body box-shadow-md">
-                        <div class="flex-grow-1 mb-3">
-                            <p class="lead">
-                                "{{ item.quote }}"
-                            </p>
-                        </div>
-                        <div class="avatar-author align-items-center">
-                            <img src="{{ item.photo }}" alt="Avatar" class="avatar">
-                            <div class="ml-2">
-                                <h6>{{ item.person_name }}</h6>
-                                <span>- {{ item.program_name }} user</span>
-                            </div>
                         </div>
                     </div>
+                    {% endfor %}
                 </div>
-                {% endfor %}
+                <div class="swiper-pagination"></div>
             </div>
-        </div> -->
+        </div>
     </section>
     {% endif %}
     {% if page.all_features %}
@@ -238,42 +213,42 @@ layout: default
                 </div>
                 {% endif %}
                 {% if page.case_studies %}
-            <div class="text-left">
-                <div class="row pt-12 pt-5">
-                    <div class="col-12 col-md-6">
-                        <h1>Case Studies Title</h1>
-                        <p>Case Studies Sub-text</p>
+                <div class="text-left">
+                    <div class="row pt-12 pt-5">
+                        <div class="col-12 col-md-6">
+                            <h1>Case Studies Title</h1>
+                            <p>Case Studies Sub-text</p>
+                        </div>
                     </div>
-                </div>
-                <div class="row pt-3">
-                    {% for item in page.case_studies %}
-                    <div class="col-12 col-md-4 mb-3 mb-md-2">
-                        <div class="card shadow-sm">
-                            <div class="card-body">
-                                <img class="mb-2" src="{{ item.partner_logo | absolute_url }}" alt="">
-                                <h2>{{ item.heading }}</h2>
-                                <p>{{ item.overview }}</p>
-                                <div class="row">
-                                    <div class="col-12 col-md-4 mb-md-0">
-                                        <h3 class="mb-0">{{ item.incremental_revenue }}</h3>
-                                        <p class="small">Incremental Revenue</p><a class="weight-500" href="#"></a>
-                                    </div>
-                                    <div class="col-12 col-md-4 mb-md-0">
-                                        <h3 class="mb-0">{{ item.roi }}</h3>
-                                        <p class="small">Total ROI per $1 Spent</p><a class="weight-500" href="#"></a>
-                                    </div>
-                                    <div class="col-12 col-md-4 mb-md-0">
-                                        <h3 class="mb-0">{{ item.incremental_roi }}</h3>
-                                        <p class="small">Incremental ROI per $1</p><a class="weight-500" href="#"></a>
+                    <div class="row pt-3">
+                        {% for item in page.case_studies %}
+                        <div class="col-12 col-md-4 mb-3 mb-md-2">
+                            <div class="card shadow-sm">
+                                <div class="card-body">
+                                    <img class="mb-2" src="{{ item.partner_logo | absolute_url }}" alt="">
+                                    <h2>{{ item.heading }}</h2>
+                                    <p>{{ item.overview }}</p>
+                                    <div class="row">
+                                        <div class="col-12 col-md-4 mb-md-0">
+                                            <h3 class="mb-0">{{ item.incremental_revenue }}</h3>
+                                            <p class="small">Incremental Revenue</p><a class="weight-500" href="#"></a>
+                                        </div>
+                                        <div class="col-12 col-md-4 mb-md-0">
+                                            <h3 class="mb-0">{{ item.roi }}</h3>
+                                            <p class="small">Total ROI per $1 Spent</p><a class="weight-500" href="#"></a>
+                                        </div>
+                                        <div class="col-12 col-md-4 mb-md-0">
+                                            <h3 class="mb-0">{{ item.incremental_roi }}</h3>
+                                            <p class="small">Incremental ROI per $1</p><a class="weight-500" href="#"></a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        {% endfor %}
                     </div>
-                    {% endfor %}
                 </div>
-            </div>
-            {% endif %}
+                {% endif %}
             </div>
         </div>
     </div>

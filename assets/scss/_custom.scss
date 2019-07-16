@@ -1448,10 +1448,10 @@ color: #ffffffba;
 .testimonials {
     position: relative;
     z-index: 1;
-    padding: 80px 0 180px;
+    padding: 40px 0 130px;
 
     @include media-breakpoint-up(md) {
-        padding: 110px 0 230px;
+        padding: 50px 0 150px;
     }
 
     // margin-top: 90px;
@@ -1463,21 +1463,6 @@ color: #ffffffba;
         &:first-of-type {
             // font-size: 48px;
         }
-    }
-
-    &:before {
-        content: '';
-        background: #efece7;
-        position: absolute;
-        width: 200vw;
-        height: 100%;
-        z-index: -1;
-        left: -54% !important;
-        top: 0;
-        background: #fff;
-        border-top: 1px solid #EEF2F7;
-        /* background-image: linear-gradient(135deg,#0e0c1b,#5c273b); */
-        /* margin-top: 350px; */
     }
 
     // &:after {
@@ -1748,7 +1733,7 @@ h4.tag {
     }
 
     @include media-breakpoint-up(lg) {
-        padding-bottom: 310px;
+        padding-bottom: 280px;
         // padding-top: 130px;
     }
 

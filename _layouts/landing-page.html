@@ -337,39 +337,41 @@ layout: default
                     {% endif %}
                 </div>
             </div>
-            <div class="container full">
-                <div class="testimonials">
-                    <h1 class="text-center pb-4 mb-4">Trusted by the best.</h1>
-                    <div class="swiper-container">
-                        <div class="swiper-wrapper">
-                            {% for item in page.testimonials %}
-                            <div class="swiper-slide col-12 col-md-6 eq">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <p class="lead mb-2 mt-0">"{{ item.quote }}"</p>
-                                        <div class="media align-items-center">
-                                            <div class="mr-2">
-                                                <img class="rounded" src="{{ item.icon | absolute_url
-                                                }}" width="60" height="60" />
-                                            </div>
-                                            <div class="media-body">
-                                                <p class="mb-0"><span class="large
-                                                    weight-500">{{ item.name }}</span>
-                                                </p>
-                                                <p class="small mb-0">{{
-                                                item.job_title }}, {{
-                                                item.company }}</p>
+<section class="border-top">
+                <div class="container full">
+                    <div class="testimonials">
+                        <h1 class="text-center mb-4 pb-md-4">Trusted by the best.</h1>
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                {% for item in page.testimonials %}
+                                <div class="swiper-slide col-12 col-md-6 eq">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <p class="lead mb-2 mt-0">"{{ item.quote }}"</p>
+                                            <div class="media align-items-center">
+                                                <div class="mr-2">
+                                                    <img class="rounded" src="{{ item.icon | absolute_url
+                                                    }}" width="60" height="60" />
+                                                </div>
+                                                <div class="media-body">
+                                                    <p class="mb-0"><span class="large
+                                                        weight-500">{{ item.name }}</span>
+                                                    </p>
+                                                    <p class="small mb-0">{{
+                                                    item.job_title }}, {{
+                                                    item.company }}</p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+                                {% endfor %}
                             </div>
-                            {% endfor %}
+                            <div class="swiper-pagination"></div>
                         </div>
-                        <div class="swiper-pagination"></div>
                     </div>
                 </div>
-            </div>
+</section>
             <div class="solutions bg-g50">
                 <div class="container">
                     <div class="text-center">

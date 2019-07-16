@@ -89,7 +89,7 @@ section_two:
 user_testimonials:
   title: Consumers love card-linked offers
   testimonials:
-  - person_name: Mike Stevenson
+  - person_name: Jim Halper
     program_name: Yelp Cash Back
     quote: '"This is a top quality product. No need to think twice before purchasing,
       you simply could not go wrong"'
