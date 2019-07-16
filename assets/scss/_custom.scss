@@ -1009,6 +1009,9 @@ li.nav-item {
     padding: 20px $dropdown-item-padding-x !important;
     position: relative;
     background: #f7f8fb !important;
+    a {
+        color: $blue;
+    }
 }
 
 @media (min-width: 992px) {
@@ -1178,7 +1181,7 @@ svg.fsvg {
         h3 {
             margin-bottom: 0;
             font-size: 22px;
-            color: $blue;
+            color: $primary;
         }
     }
 
@@ -1235,12 +1238,12 @@ color: #ffffffba;
             // color: #fff;
 
             @include media-breakpoint-up(md) {
-                font-size: 39px;
+                // font-size: 39px;
                 max-width: 680px;
             }
 
             @include media-breakpoint-up(xl) {
-                font-size: 48px;
+                // font-size: 48px;
                 max-width: 840px;
             }
         }
@@ -1444,7 +1447,7 @@ color: #ffffffba;
         // color: #342f54 !important;
 
         &:first-of-type {
-            font-size: 48px;
+            // font-size: 48px;
         }
     }
 
@@ -1692,7 +1695,7 @@ color: #ffffffba;
 .grad-blue {
     border: none !important;
     background-image: linear-gradient(-134deg, #00AEFF 0%, #0F51FB 100%);
-    background: $blue !important;
+    background: $primary !important;
 }
 
 h4.tag {

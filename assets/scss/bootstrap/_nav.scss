@@ -43,7 +43,7 @@
     @include border-top-radius($nav-tabs-border-radius);
 
     @include hover-focus {
-      color: $blue;
+      color: $primary;
       border-color: $nav-tabs-link-hover-border-color;
     }
 
