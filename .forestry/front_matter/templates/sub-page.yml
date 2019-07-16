@@ -227,6 +227,48 @@ fields:
       label: Link URL
     label: Button
   label: Section Three
+- name: user_testimonials
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Section title
+  - name: testimonials
+    type: field_group_list
+    fields:
+    - name: quote
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: false
+        schema:
+          format: markdown
+      label: quote
+    - name: person_name
+      type: text
+      config:
+        required: false
+      label: person name
+    - name: program_name
+      type: text
+      config:
+        required: false
+      label: program name
+    - name: user_photo
+      type: file
+      config:
+        maxSize: 250
+      label: User photo
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Testimonials
+  label: User testimonials
 - name: all_features_headline
   type: text
   config:
