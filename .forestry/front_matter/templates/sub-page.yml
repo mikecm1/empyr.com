@@ -227,6 +227,9 @@ fields:
       label: Link URL
     label: Button
   label: Section Three
+- name: show_user_testimonials
+  type: boolean
+  label: Show user testimonials?
 - name: user_testimonials
   type: field_group
   config: {}
