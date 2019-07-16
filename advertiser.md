@@ -86,7 +86,9 @@ all_features_headline: Transform your bottom line with CPR
 section_one:
   tagline: Customer Reach
   section_header: Exclusive reach to over 316M consumers
-  section_body_copy: Leading companies use Empyr to build and promote customized card-linked offer programs inside their websites and apps, providing rapid exposure to your brand through products people know, trust, and use every day.
+  section_body_copy: Leading companies use Empyr to build and promote customized card-linked
+    offer programs inside their websites and apps, providing rapid exposure to your
+    brand through products people know, trust, and use every day.
   image: "/img/test.png"
   button:
     text: Learn More
@@ -96,8 +98,9 @@ section_two:
   tagline: Revenue
   section_header: Real foot traffic. Real revenue.
   section_body_copy: Drive motivated customers into your physical stores and only
-    pay a fee when they make a verified purchase– the impressions and clicks are 
-    free. Consumers enjoy real-time reward notifications, and you get a guaranteed 10X-30X ROAS.
+    pay a fee when they make a verified purchase– the impressions and clicks are free.
+    Consumers enjoy real-time reward notifications, and you get a guaranteed 10X-30X
+    ROAS.
   button:
     text: Learn More
     link_url: index.md
@@ -106,10 +109,14 @@ section_three:
   tagline: Real-Time Analytics
   section_header: Real-time, fully transparent online to offline attribution
   section_body_copy: Watch in real-time as online offers convert to in-store sales
-    and gain holistic customer insights via comprehensive online to offline analytics. Impressions and clicks don’t always equal cash in the bank, so eliminate the guesswork.
+    and gain holistic customer insights via comprehensive online to offline analytics.
+    Impressions and clicks don’t always equal cash in the bank, so eliminate the guesswork.
   button:
     text: Learn More
     href: "/advertiser"
+user_testimonials:
+  title: Consumers love card-linked offers
+  testimonials: []
 menu:
   partners:
     weight: 1
