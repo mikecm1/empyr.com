@@ -46,6 +46,7 @@ exclude:
   - node_modules
   - assets/scss
   - Gemfile
+  - vendor
 
 # PREVIEW COMMAND
 # bundle exec jekyll build --drafts --unpublished --future -d _site
