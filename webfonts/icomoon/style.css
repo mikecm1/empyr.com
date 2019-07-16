@@ -1,0 +1,213 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?snltun');
+  src:  url('fonts/icomoon.eot?snltun#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.woff2?snltun') format('woff2'),
+    url('fonts/icomoon.ttf?snltun') format('truetype'),
+    url('fonts/icomoon.woff?snltun') format('woff'),
+    url('fonts/icomoon.svg?snltun#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-comment-fill:before {
+  content: "\e900";
+}
+.icon-checkmark:before {
+  content: "\e901";
+}
+.icon-check-alt:before {
+  content: "\e902";
+}
+.icon-x:before {
+  content: "\e903";
+}
+.icon-x-altx-alt:before {
+  content: "\e904";
+}
+.icon-layers:before {
+  content: "\e905";
+}
+.icon-display:before {
+  content: "\e956";
+}
+.icon-laptop:before {
+  content: "\e957";
+}
+.icon-mobile:before {
+  content: "\e958";
+}
+.icon-mobile2:before {
+  content: "\e959";
+}
+.icon-bubbles2:before {
+  content: "\e96d";
+}
+.icon-user:before {
+  content: "\e971";
+}
+.icon-users:before {
+  content: "\e972";
+}
+.icon-arrow-right2:before {
+  content: "\ea3c";
+}
+.icon-usb:before {
+  content: "\e906";
+}
+.icon-cloud_queue:before {
+  content: "\e907";
+}
+.icon-cloud_upload:before {
+  content: "\e908";
+}
+.icon-backup:before {
+  content: "\e908";
+}
+.icon-file_download:before {
+  content: "\e909";
+}
+.icon-get_app:before {
+  content: "\e909";
+}
+.icon-file_upload:before {
+  content: "\e90a";
+}
+.icon-keyboard_arrow_right:before {
+  content: "\e90b";
+}
+.icon-keyboard_backspace:before {
+  content: "\e90c";
+}
+.icon-arrow_back:before {
+  content: "\e90d";
+}
+.icon-arrow_forward:before {
+  content: "\e90e";
+}
+.icon-check:before {
+  content: "\e90f";
+}
+.icon-keyboard_control:before {
+  content: "\e910";
+}
+.icon-more_vert:before {
+  content: "\e911";
+}
+.icon-arrow_upward:before {
+  content: "\e912";
+}
+.icon-check_box:before {
+  content: "\e913";
+}
+.icon-check_circle:before {
+  content: "\e914";
+}
+.icon-done:before {
+  content: "\e915";
+}
+.icon-trending_neutral:before {
+  content: "\e916";
+}
+.icon-arrow-left:before {
+  content: "\e917";
+}
+.icon-arrow-right:before {
+  content: "\e918";
+}
+.icon-check1:before {
+  content: "\e919";
+}
+.icon-chevron-left:before {
+  content: "\e91a";
+}
+.icon-chevron-right:before {
+  content: "\e91b";
+}
+.icon-settings:before {
+  content: "\e91c";
+}
+.icon-zap:before {
+  content: "\e91d";
+}
+.icon-ellipsis-h:before {
+  content: "\f141";
+}
+.icon-ellipsis-v:before {
+  content: "\f142";
+}
+.icon-long-arrow-left:before {
+  content: "\f177";
+}
+.icon-long-arrow-right:before {
+  content: "\f178";
+}
+.icon-arrow-circle-o-left:before {
+  content: "\e91e";
+}
+.icon-arrow-circle-o-right:before {
+  content: "\e91f";
+}
+.icon-long-arrow-right1:before {
+  content: "\e920";
+}
+.icon-long-arrow-left1:before {
+  content: "\e921";
+}
+.icon-long-arrow-up:before {
+  content: "\e922";
+}
+.icon-long-arrow-down:before {
+  content: "\e923";
+}
+.icon-arrow-circle-down:before {
+  content: "\e924";
+}
+.icon-arrow-circle-up:before {
+  content: "\e925";
+}
+.icon-arrow-circle-right:before {
+  content: "\e926";
+}
+.icon-arrow-circle-left:before {
+  content: "\e927";
+}
+.icon-arrow-circle-o-up:before {
+  content: "\e928";
+}
+.icon-arrow-circle-o-down:before {
+  content: "\e929";
+}
+.icon-arrow-right1:before {
+  content: "\e92a";
+}
+.icon-arrow-left1:before {
+  content: "\e92b";
+}
+.icon-arrow-down:before {
+  content: "\e92c";
+}
+.icon-arrow-up:before {
+  content: "\e92d";
+}
+.icon-arrow-thin-left:before {
+  content: "\e92e";
+}
+.icon-arrow-thin-right:before {
+  content: "\e92f";
+}
