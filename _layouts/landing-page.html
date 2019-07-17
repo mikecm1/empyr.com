@@ -337,7 +337,7 @@ layout: default
                     {% endif %}
                 </div>
             </div>
-            <section class="border-top">
+            <section class="bg-gray-25">
                 <div class="container full">
                     <div class="testimonials prof">
                         <h1 class="text-center mb-4 pb-md-4">Trusted by the best.</h1>
@@ -345,7 +345,7 @@ layout: default
                             <div class="swiper-wrapper">
                                 {% for item in page.testimonials %}
                                 <div class="swiper-slide col-12 col-md-6 eq">
-                                    <div class="card">
+                                    <div class="card box-shadow-sm">
                                         <div class="card-body">
                                             <p class="lead mb-2 mt-0">"{{ item.quote }}"</p>
                                             <div class="media align-items-center">
@@ -392,8 +392,10 @@ layout: default
                     <div class="row pt-3 mb-1 mb-md-0">
                         {% for item in page.company_types %}
                         <div class="col-12 col-lg-4 mb-3 mb-lg-0 px-1">
+                            <a href="{{ item.url | absolute_url }}">
                             <div class="card partner">
                                 <div class="card-body ptop">
+                                        <img src="{{ item.icon }}" class="icon">
                                     <p class="text-primary small mb-0">{{ item.badge
                                     }}</p>
                                     <h2 class="mb-1">{{ item.heading }}</h2>
@@ -401,6 +403,7 @@ layout: default
                                     <!-- <a class="btn btn-lg btn-info" href="">Get Started</a> -->
                                 </div>
                             </div>
+                        </a>
                         </div>
                         {% endfor %}
                     </div>
