@@ -78,6 +78,7 @@ fields:
 - type: image_gallery
   name: partners
   label: partners
+  description: "***Maximum 6 logos***"
 - name: primary_body_copy_headline
   type: textarea
   default: ''
