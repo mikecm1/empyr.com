@@ -371,10 +371,10 @@ layout: default
                 </div>
             </section>
             <div class="solutions bg-g50">
-                <div class="container">
+                <div class="container full">
                     <div class="text-center">
-                        <h1>{{ page.cta_footer_header }}</h1>
-                        <p class="sub-text large">{{ page.cta_footer_subheader }}</p>
+                        <h1 class="mb-1">{{ page.cta_footer_header }}</h1>
+                        <p class="sub-text large mb-2">{{ page.cta_footer_subheader }}</p>
                     </div>
                     <!-- <div class="round-section row mt-2 py-3">
                 {% for item in page.company_types %}
@@ -389,9 +389,9 @@ layout: default
                 {% endfor %}
             </div> -->
                     {% if page.company_types %}
-                    <div class="row pt-3 mb-1">
+                    <div class="row pt-3 mb-1 mb-md-0">
                         {% for item in page.company_types %}
-                        <div class="col-12 col-lg-4 mb-3 mb-md-2">
+                        <div class="col-12 col-lg-4 mb-3 mb-lg-0 px-1">
                             <div class="card partner">
                                 <div class="card-body ptop">
                                     <p class="text-primary small mb-0">{{ item.badge

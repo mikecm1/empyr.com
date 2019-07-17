@@ -10,7 +10,7 @@ contact_info:
   country: US
   twitter: ''
 footer_details:
-  main_header_home: Ignite your in-store revenue.
+  main_header_home: It's time to ignite your<br> in-store revenue.
   main_subheader_home: Join the forward-thinking brands accelerating their revenue
     with card-linked offers.
   main_header_publisher: A new revenue channel. Happier users.
@@ -27,12 +27,12 @@ footer_details:
   tos_text: Terms of Service
   tos_url: "/"
   partners:
-  - "/uploads/2019/07/logo-footer-1.png"
-  - "/uploads/2019/07/logo-footer-2.png"
-  - "/uploads/2019/07/logo-footer-5.png"
-  - "/uploads/2019/07/logo-footer-6.png"
-  - "/uploads/2019/07/logo-footer-3.png"
-  - "/uploads/2019/07/logo-footer-4.png"
+  - "/img/logo-home-1.png"
+  - "/img/logo-home-2.png"
+  - "/img/logo-home-3.png"
+  - "/img/logo-home-4.png"
+  - "/img/logo-home-5.png"
+  - "/img/logo-home-6.png"
 nav_details:
   cta_url: "/"
   cta_text: Get Started
