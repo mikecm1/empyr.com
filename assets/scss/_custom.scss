@@ -437,7 +437,7 @@ p.latest {
     // background-size: 72vw, 83%, 100%;
     // background-repeat: no-repeat;
     // padding: 80px 0 70px;
-    padding: 90px 0 30px;
+    padding: 90px 0 70px;
     overflow: hidden;
 
     @include media-breakpoint-up(sm) {
@@ -467,15 +467,13 @@ p.latest {
 
     svg.wave {
 
-        @include media-breakpoint-up(sm) {
             margin-top: -1px;
         position: absolute;
         bottom: -1px;
         height: 73%;
         z-index: 1;
             width: 189%;
-            left: -50px;
-        }
+            left: -90px;
 
         @include media-breakpoint-up(md) {
             bottom: -6px;
@@ -714,8 +712,7 @@ p.latest {
 header {
     padding: inherit;
     position: relative;
-    overflow: hidden;
-    border-radius: 0 0 30px 30px;
+    overflow-x: hidden;
     @include media-breakpoint-up(sm) {
         border-radius: 0;
     }

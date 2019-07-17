@@ -28,7 +28,7 @@ mainfeatures:
     lacus vel augue laoreet rutrum faucibus.
   heading: Full Offline Attribution
   icon: "/img/icon-3.svg"
-sub_heading: Empyr is the leading card-linked offer solutions platform for top national
+sub_heading: Empyr is the leading card-linked offer engagement platform for national
   brands and digital publishers– increasing consumer engagement, driving guaranteed
   revenue, and unlocking transparent offline sales analytics.
 header_screen_one: "/uploads/2019/07/app-nerd.jpg"
