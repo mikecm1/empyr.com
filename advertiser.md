@@ -11,11 +11,12 @@ heading: |-
   Goodbye, guesswork.
   Hello, guaranteed revenue.
 partners:
-- "/uploads/2019/05/09/ebay.svg"
-- "/uploads/2019/05/cnn.svg"
-- "/uploads/2019/05/google.svg"
-- "/uploads/2019/05/cisco.svg"
-- "/uploads/2019/05/airbnb.svg"
+- "/uploads/2019/logo-natl-10.png"
+- "/uploads/2019/logo-natl-9.png"
+- "/uploads/2019/logo-natl-6.png"
+- "/uploads/2019/logo-natl-5.png"
+- "/uploads/2019/logo-natl-2.png"
+- "/uploads/2019/logo-natl-1.png"
 - "/uploads/2019/05/uber.svg"
 mainfeatures:
 - heading: Exclusive Publisher Network
@@ -114,6 +115,10 @@ section_three:
   button:
     text: Learn More
     href: "/advertiser"
+show_user_testimonials: false
+user_testimonials:
+  title: ''
+  testimonials: []
 menu:
   partners:
     weight: 1
