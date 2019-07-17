@@ -1871,13 +1871,14 @@ img {
 
 .benefits {
     &.card {
-        padding: 15px 20px;
+        padding: 15px 30px;
         border: 0;
     }
 
     h5 {
     font-weight: 500;
     line-height: 1.2;
+    margin-bottom: 5px !important;
 
         @include media-breakpoint-up(xl) {
             font-size: 21.5px;
@@ -1890,7 +1891,7 @@ img {
         @include media-breakpoint-up(lg) {
             font-size: 17.5px;
             line-height: 1.5;
-            max-width: 88%;
+            max-width: 95%;
         }
     }
 }
