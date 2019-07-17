@@ -17,7 +17,6 @@ partners:
 - "/uploads/2019/logo-natl-5.png"
 - "/uploads/2019/logo-natl-2.png"
 - "/uploads/2019/logo-natl-1.png"
-- "/uploads/2019/05/uber.svg"
 mainfeatures:
 - heading: Exclusive Publisher Network
   description: Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.

@@ -40,40 +40,34 @@ layout: default
 
         </div>
     </div>
-    {% assign stripped_content = content | strip_newlines %}
-    {% if content and stripped_content != "" %}
-    <section class="about">
-        <div class="container pure-g">
-            <div class="pure-u-1">
-                <div class="content content-narrow">
-                    {{ content }}
-                </div>
-            </div>
-        </div>
-    </section>
-    {% endif %}
     <div class="bg-gradient-lighter">
-        <div class="container full pt-4 vw">
+        <div class="container pt-4 full vw">
             {% if page.mainfeatures %}
             <div class="benefits card-body card shadow-sm offset box-shadow-md" data-aos="basic">
                 <div class="row py-2 px-2">
                     {% for item in page.mainfeatures %}
                     <div class="col-12 col-md-4 mb-4 mb-md-0" data-aos="basic" data-aos-delay="{{ forloop.index | times: 150 }}">
                         <img class="mb-2" src="{{ item.icon | absolute_url }}" alt="" width="55">
-                        <h5 class="">{{ item.heading }}</h5>
-                        <div class="lighten mt-1">{{ item.description }}</div>
+                        <h5 class="mb-0 pb-0">{{ item.heading }}</h5>
+                        <div class="lighten mt-0 pt-1">{{ item.description }}</div>
                     </div>
                     {% endfor %}
                 </div>
             </div>
             {% endif %}
             {% if page.partners %}
-            <div class="container">
-                <div class="py-4">
-                    <div class="row justify-content-center justify-content-lg-between text-center align-items-center">
+            <div class="logos pt-md-3">
+                <div class="container pt-3 pb-1 px-md-4">
+                    <!-- <p class="text-left pt-0 mb-2" data-aos="basic" data-aos-delay="100" style="
+    font-size: 15.5px;
+    letter-spacing: 0.2px;
+    color: rgba(77, 78, 98, 0.58);
+                        ">Empyr powers online to offline marketing solutions for top consumer-focused brands</p> -->
+                    <div class="row justify-content-center
+                            justify-content-lg-between text-left align-items-center">
                         {% for logo in page.partners %}
-                        <div class="col-4 mb-4 col-md mb-md-0 mt-3 mb-lg-0" data-aos="basic" data-aos-delay="{{ forloop.index | times: 150 }}">
-                            <img src="{{ logo | absolute_url }}" style="width: 100px; max-width: 70%" />
+                        <div class="col-4 mb-4 col-md mb-md-0 logo-wrap" data-aos="basic" data-aos-delay="{{ forloop.index | times: 150 }}">
+                            <img src="{{ logo | absolute_url }}" class="img-logo" />
                         </div>
                         {% endfor %}
                     </div>
@@ -165,23 +159,23 @@ layout: default
                     {% for item in page.user_testimonials.testimonials %}
                     <div class="swiper-slide col-12 col-md-6 eq">
                         <div class="card card-body box-shadow-md">
-                                <p class="lead mb-2 mt-0">"{{ item.quote }}"</p>
-                                <div class="media align-items-center">
-                                    <div class="mr-2">
-                                        {% if item.user_photo == "" %}
-                                        <img class="rounded" src="/uploads/2019/05/icon-place.svg" width="60" height="60" />
-                                        {% else %}
-                                        <img class="rounded" src="{{ item.user_photo | absolute_url | default:"/uploads/2019/05/icon-place.svg" | absolute_url }}" width="60" height="60" />
-                                        {% endif %}
-                                    </div>
-                                    <div class="media-body">
-                                        <p class="mb-0"><span class="large
-                                                weight-500">{{ item.person_name }}</span>
-                                        </p>
-                                        <p class="small mb-0">- {{
-                                            item.program_name }} user</p>
-                                    </div>
+                            <p class="lead mb-2 mt-0">"{{ item.quote }}"</p>
+                            <div class="media align-items-center">
+                                <div class="mr-2">
+                                    {% if item.user_photo == "" %}
+                                    <img class="rounded" src="/uploads/2019/05/icon-place.svg" width="60" height="60" />
+                                    {% else %}
+                                    <img class="rounded" src="{{ item.user_photo | absolute_url | default:"/uploads/2019/05/icon-place.svg" | absolute_url }}" width="60" height="60" />
+                                    {% endif %}
                                 </div>
+                                <div class="media-body">
+                                    <p class="mb-0"><span class="large
+                                                weight-500">{{ item.person_name }}</span>
+                                    </p>
+                                    <p class="small mb-0">- {{
+                                            item.program_name }} user</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     {% endfor %}

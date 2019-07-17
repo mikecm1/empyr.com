@@ -1876,16 +1876,11 @@ img {
     }
 
     h5 {
-        font-weight: 500;
-        letter-spacing: -.2px;
-        position: relative;
-        line-height: 1.2;
-        margin-bottom: 0 !important;
-        color: #0f3256;
-        padding-bottom: 4px !important;
+    font-weight: 500;
+    line-height: 1.2;
 
         @include media-breakpoint-up(xl) {
-            font-size: 22.3px;
+            font-size: 21.5px;
         }
     }
 
@@ -1916,6 +1911,10 @@ img {
         // padding-top: 230px;
         padding-top: 180px;
     }
+}
+
+.op-50 {
+    opacity: 0.5 !important;
 }
 
 .img-skewed {

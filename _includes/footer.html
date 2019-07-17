@@ -42,7 +42,7 @@
                     </div>
                     <div class="d-none d-lg-block ml-3">
                         <a class="transparent-link" href="">
-                        <img src="{{ "./assets/glyphs/instagram.svg" | absolute_url }}" width="16" /></a><a class="transparent-link ml-2" href=""><img src="{{ "./assets/glyphs/facebook.svg" | absolute_url }}" width="16" /></a>
+                            <img src="{{ "./assets/glyphs/instagram.svg" | absolute_url }}" width="16" /></a><a class="transparent-link ml-2" href=""><img src="{{ "./assets/glyphs/facebook.svg" | absolute_url }}" width="16" /></a>
                         <a class="transparent-link ml-2" href=""><img src="{{ "./assets/glyphs/linkedin.svg" | absolute_url }}" width="16" /></a>
                     </div>
                     <div class="d-lg-none">
@@ -68,9 +68,13 @@
 <script src="{{ "assets/js/functions.js?cb=123" | absolute_url }}"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.9.1/rellax.min.js"></script>
 <script>
-var rellax = new Rellax('.rellax', {
-    wrapper: null,
-  });
+    if (Modernizr.touch) {
+    }
+    else {
+        var rellax = new Rellax('.rellax', {
+        wrapper: null,
+    });
+    }
 </script>
 {% comment %}
 {% if site.data.custom_code.footer_code_snippets %}
