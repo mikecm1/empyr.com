@@ -2670,7 +2670,7 @@ img.lazyfade.lazyloaded {
     filter: drop-shadow(0px 8px 6px rgba(40, 34, 83, 0.5));
 }
 
-@media screen {
+@include media-breakpoint-up(sm) {
     html:not(.no-js) [data-aos^='basic'][data-aos^='basic'] {
         opacity: 0;
         transform: translateY(50px) !important;
