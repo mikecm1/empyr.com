@@ -31,7 +31,6 @@ plugins:
   # - jekyll-feed
   - jekyll-archives
   - jekyll-sitemap
-  - jekyll-include-cache
 compress_html:
   comments: ["<!-- ", " -->"]
   blanklines: true
