@@ -1,5 +1,6 @@
 // Brand Colors
 $blue: #343e88;
+// $primary: #0076fe;
 $primary: #1882fc;
 // $indigo: #102181;
 $indigo: #0B0B43;
@@ -40,7 +41,7 @@ $spacers: (0: 0, 1: $spacer * 0.5, 2: $spacer * 1.5, 3: $spacer * 2, 4: $spacer 
 $sizes: (25: 25%, 50: 50%, 75: 75%, 100: 100%);
 
 // Options
-$enable-rounded: false;
+$enable-rounded: true;
 $enable-shadows: true;
 $enable-gradients: false;
 $enable-transitions: true;
@@ -70,10 +71,11 @@ $line-height-lg: 1.5;
 $line-height-sm: 1.5;
 $border-width: 1px;
 $border-radius: 0.25rem;
-$border-radius: 0;
+// $border-radius: 0;
 $border-radius-lg: 0.7rem;
 $border-radius-sm: 0.2rem;
 $border-radius-xl: 1rem;
+$btn-border-radius-lg: .3rem;
 // $box-shadow-sm: 0 0.125rem 0.25rem rgba(50, 50, 93, 0.1);
 $box-shadow-sm: 0 4px 15px -6px rgba(45,80,187,.15), 0 -3px 2px -3px rgba(45,80,187,.15);
 $box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1),
@@ -88,7 +90,8 @@ $transition-fade: opacity 0.15s linear;
 $transition-collapse: height 0.35s ease;
 
 // Fonts
-$font-family-sans-serif: "Neurial Grotesk",
+// $font-family-sans-serif: "Neurial Grotesk",
+$font-family-sans-serif: "Sailec Web",
 -apple-system,
 BlinkMacSystemFont,
 "Segoe UI",
@@ -187,6 +190,8 @@ $input-btn-line-height-sm: 1.5;
 $input-btn-padding-y-lg: 0.775rem;
 $input-btn-padding-x-lg: 2.4rem;
 $input-btn-line-height-lg: 1.5;
+$input-btn-font-family:       null !default;
+$input-btn-font-size:         $font-size-base !default;
 $input-btn-focus-width:       0 !default;
 $input-btn-focus-color:       rgba($component-active-bg, 1);
 $input-btn-focus-box-shadow:  0 4px 10px 0 rgba(0, 0, 0, 0.04);
@@ -201,10 +206,23 @@ $btn-active-box-shadow: none;
 $btn-link-disabled-color: $gray-600;
 $btn-block-spacing-y: 0.5rem;
 $btn-border-radius: $border-radius;
-$btn-border-radius-lg: $border-radius;
+// $btn-border-radius-lg: $border-radius;
 $btn-border-radius-sm: $border-radius-sm;
 $btn-transition: all 0.15s ease-in-out;
-
+$btn-padding-y:               $input-btn-padding-y !default;
+$btn-padding-x:               $input-btn-padding-x !default;
+$btn-font-family:             $input-btn-font-family !default;
+$btn-font-size:               $input-btn-font-size !default;
+$btn-line-height:             $input-btn-line-height !default;
+$btn-link-color:              $link-color !default;
+$btn-link-hover-color:        $link-hover-color !default;
+$btn-link-disabled-color:     $gray-600 !default;
+$input-btn-font-size-lg:      $font-size-lg !default;
+$btn-font-size-lg:      $input-btn-font-size-lg !default;
+// $input-btn-font-size-md:      $font-size-md !default;
+// $btn-font-size-md:      $input-btn-font-size-md !default;
+$input-btn-font-size-sm:      $font-size-sm !default;
+$btn-font-size-sm:      $input-btn-font-size-sm !default;
 $border-color: #eef2f7;
 // Forms
 $input-padding-y:                       .75rem !default;
@@ -328,7 +346,7 @@ $form-feedback-invalid-color: theme-color("danger");
 
 // Dropdown
 $dropdown-min-width: 10rem;
-$dropdown-padding-y: 1.3rem;
+$dropdown-padding-y: 0.9rem;
 $dropdown-padding-x: 1.9rem;
 $dropdown-spacer: 0.125rem;
 $dropdown-bg: $white;
@@ -368,7 +386,7 @@ $navbar-transition: all 0.15s linear !default;
 $navbar-padding-y: 0.4rem !default;
 $navbar-padding-x: 1.8rem;
 
-$navbar-nav-link-padding-x: 1.2rem;
+$navbar-nav-link-padding-x: 1.3rem;
 $navbar-nav-link-padding-y: 0.85rem !default;
 
 $navbar-nav-link-font-family: $font-family-sans-serif !default;

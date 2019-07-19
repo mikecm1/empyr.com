@@ -78,4 +78,104 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Sailec Web';
+    src: url('/assets/fonts/Sailec-BoldItalic.woff2') format('woff2'),
+        url('/assets/fonts/Sailec-BoldItalic.woff') format('woff');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Sailec Web';
+    src: url('/assets/fonts/Sailec-Bold.woff2') format('woff2'),
+        url('/assets/fonts/Sailec-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sailec Web';
+    src: url('/assets/fonts/Sailec-Medium.woff2') format('woff2'),
+        url('/assets/fonts/Sailec-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Sailec Web';
+    src: url('/assets/fonts/Sailec-MediumItalic.woff2') format('woff2'),
+        url('/assets/fonts/Sailec-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Sailec Web';
+    src: url('/assets/fonts/Sailec-Light.woff2') format('woff2'),
+        url('/assets/fonts/Sailec-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Sailec Web';
+    src: url('/assets/fonts/Sailec-LightItalic.woff2') format('woff2'),
+        url('/assets/fonts/Sailec-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'Sailec Web';
+    src: url('/assets/fonts/Sailec-Regular.woff2') format('woff2'),
+        url('/assets/fonts/Sailec-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sailec-RegularItalic';
+    src: url('/assets/fonts/Sailec-RegularItalic.woff2') format('woff2'),
+        url('/assets/fonts/Sailec-RegularItalic.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Sailec Web';
+    src: url('/assets/fonts/Sailec-Black.woff2') format('woff2'),
+        url('/assets/fonts/Sailec-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sailec Web';
+    src: url('/assets/fonts/Sailec-BlackItalic.woff2') format('woff2'),
+        url('/assets/fonts/Sailec-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Sailec Web';
+    src: url('/assets/fonts/Sailec-Thin.woff2') format('woff2'),
+        url('/assets/fonts/Sailec-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sailec Web';
+    src: url('/assets/fonts/Sailec-ThinItalic.woff2') format('woff2'),
+        url('/assets/fonts/Sailec-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+}
+
+
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:600&display=swap');
