@@ -18,14 +18,14 @@ partners:
 - "/uploads/2019/logo-natl-2.png"
 - "/uploads/2019/logo-natl-1.png"
 mainfeatures:
-- heading: Exclusive Publisher Network
-  description: Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+- heading: Reach millions of people
+  description: One platform. 316M+ consumers. Easily distribute high performance campaigns on our exclusive publisher network.
   icon: "/uploads/2019/05/icon-place.svg"
-- heading: Guaranteed Minimum ROAS
-  description: Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+- heading: Amplify your revenue
+  description: Our cost per revenue (CPR) model generates a guaranteed ROAS. The impressions and clicks? 100% free.
   icon: "/uploads/2019/05/icon-place.svg"
-- description: Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-  heading: Full Online to Offline Attribution
+- description: Measure what truly matters. Track online impressions all the way to in-store sales with real-time offline analytics.
+  heading: Real-time sales attribution
   icon: "/uploads/2019/05/icon-place.svg"
 sub_heading: Reach millions of consumers and ignite your in-store revenue without
   paying for clicks and impressions, while unlocking complete online to offline sales

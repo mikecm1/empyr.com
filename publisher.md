@@ -13,12 +13,12 @@ sub_heading: Generate revenue from offline commerce with your own fully custom c
   offer program. Get 1000s of offers out of the box with complete creative control
   of the UX and functionality.
 partners:
-- "/uploads/2019/05/google.svg"
-- "/uploads/2019/05/cisco.svg"
-- "/uploads/2019/05/uber.svg"
-- "/uploads/2019/05/09/ebay.svg"
-- "/uploads/2019/05/cnn.svg"
-- "/uploads/2019/05/airbnb.svg"
+- "/img/logo-home-1.png"
+- "/img/logo-home-2.png"
+- "/img/logo-home-3.png"
+- "/img/logo-home-4.png"
+- "/img/logo-home-5.png"
+- "/img/logo-home-6.png"
 primary_body_copy_headline: Increase user engagement. <br> Make more money.
 primary_body_copy_subheadline: Give your users another reason to open your app more
   often. Empyr gives leading websites & apps the power to build customized card-linked

@@ -43,8 +43,8 @@ layout: default
     <div class="bg-gradient-lighter">
         <div class="container pt-4 full vw">
             {% if page.mainfeatures %}
-            <div class="benefits card-body card shadow-sm offset box-shadow-md" data-aos="basic">
-                <div class="row py-2 px-2">
+            <div class="intro card-body card shadow-sm offset box-shadow-md" data-aos="basic">
+                <div class="row py-1 px-1 px-lg-2">
                     {% for item in page.mainfeatures %}
                     <div class="col-12 col-md-4 mb-4 mb-md-0" data-aos="basic" data-aos-delay="{{ forloop.index | times: 150 }}">
                         <img class="mb-2" src="{{ item.icon | absolute_url }}" alt="" width="55">
@@ -57,14 +57,14 @@ layout: default
             {% endif %}
             {% if page.partners %}
             <div class="logos pt-md-3">
-                <div class="container pt-3 pb-1 px-md-4">
+                <div class="container pt-2 pb-1 px-md-5">
                     <!-- <p class="text-left pt-0 mb-2" data-aos="basic" data-aos-delay="100" style="
     font-size: 15.5px;
     letter-spacing: 0.2px;
     color: rgba(77, 78, 98, 0.58);
                         ">Empyr powers online to offline marketing solutions for top consumer-focused brands</p> -->
                     <div class="row justify-content-center
-                            justify-content-lg-between text-left align-items-center">
+                            justify-content-lg-between text-center align-items-center">
                         {% for logo in page.partners %}
                         <div class="col-4 mb-4 col-md mb-md-0 logo-wrap" data-aos="basic" data-aos-delay="{{ forloop.index | times: 150 }}">
                             <img src="{{ logo | absolute_url }}" class="img-logo" />
@@ -92,7 +92,7 @@ layout: default
                     <div data-aos="basic">
                         <h4 class="mb-2 tag">{{ page.section_one.tagline }}</h4>
                     </div>
-                    <h1 data-aos="basic" data-aos-delay="150">{{ page.section_one.section_header }}</h1>
+                    <h1 data-aos="basic" data-aos-delay="150" class="pr-xl-2">{{ page.section_one.section_header }}</h1>
                     <img src="/img/headline-separator.svg" alt="" data-aos="basic" data-aos-delay="150">
                     <p class="pr-xl-2 mb-4" data-aos="basic" data-aos-delay="250">{{ page.section_one.section_body_copy }}</p>
                 </div>
@@ -108,11 +108,11 @@ layout: default
                 <div class="col-12 col-md-6 order-2 order-md-1 pr-md-4 mb-4 mb-md-0 pl-md-0">
                     <img class="w-100" src="/assets/pictures/image-555x380.png" data-aos="fade-right" data-aos-delay="300" />
                 </div>
-                <div class="col-12 col-md-6 order-1 order-md-2">
+                <div class="col-12 col-md-6 order-1 order-md-2 pl-xxl-5">
                     <div data-aos="basic">
                         <h4 class="mb-2 tag">{{ page.section_two.tagline }}</h4>
                     </div>
-                    <h1 data-aos="basic" data-aos-delay="50">{{ page.section_two.section_header }}</h1>
+                    <h1 class= "pr-xl-5" data-aos="basic" data-aos-delay="50">{{ page.section_two.section_header }}</h1>
                     <img src="/img/headline-separator.svg" alt="" data-aos="basic" data-aos="fade-right" data-aos-delay="150">
                     <p class="mb-4" data-aos="basic" data-aos-delay="250">{{ page.section_two.section_body_copy }}</p>
                     <!-- {% if page.section_two.stats %}
