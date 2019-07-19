@@ -133,5 +133,6 @@ menu:
     weight: 2
     title: Websites & Apps
     description: Build a custom card-linked offer program
+    icon: "/img/icon-dropdown-2.svg"
 
 ---

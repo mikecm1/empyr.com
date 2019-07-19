@@ -114,5 +114,6 @@ menu:
     weight: 3
     identifier: Channel Partners
     description: Create a new revenue stream with Empyr
+    icon: /img/icon-dropdown-3.svg
 
 ---

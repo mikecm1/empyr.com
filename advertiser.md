@@ -123,5 +123,6 @@ menu:
     weight: 1
     title: Advertisers
     description: Launch a card-linked offer campaign
+    icon: /img/icon-dropdown-1.svg
 
 ---

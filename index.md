@@ -92,23 +92,22 @@ testimonials:
   icon: "/uploads/2019/05/icon-place.svg"
 company_types:
 - badge: Advertisers
-  heading: National Brands
+  heading: For National Brands
   description: See how Empyr can drive significant revenue for your brand at scale
   icon: '/img/icon-natl-dark-1.svg'
   url: /advertiser
 - badge: Publishers
-  heading: Websites & Apps
+  heading: For Websites & Apps
   description: Earn offline revenue from your own custom card-linked offer program
   icon: '/img/icon-pub-dark-1.svg'
   url: /publisher
-- badge: Agencies
-  heading: Channel Partners
+- badge: Sell with Empyr
+  heading: For Channel Partners
   description: Share Empyr with your clients for a brand new revenue stream
   icon: '/img/icon-cp-dark-1.svg'
   url: /channel
-cta_footer_header: Get started with card-linked offers
-cta_footer_subheader: Make Empyr part of your digital strategy and start accelerating
-  your revenue today.
+cta_footer_header: Customized solutions
+cta_footer_subheader: Join the forward-thinking brands accelerating their revenue with card-linked offers.
 section_one:
   super: ''
   heading: ''
