@@ -107,7 +107,7 @@ company_types:
   icon: '/img/icon-cp-dark-1.svg'
   url: /channel
 cta_footer_header: Customized solutions
-cta_footer_subheader: Join the forward-thinking brands accelerating their revenue with card-linked offers.
+cta_footer_subheader: Make card-linked offers part of your digital strategy and start accelerating your revenue today.
 section_one:
   super: ''
   heading: ''
