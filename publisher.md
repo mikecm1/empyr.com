@@ -26,15 +26,15 @@ mainfeatures:
 - heading: Unlimited revenue potential
   description: Launch an innovative new revenue stream from offline commerce with
     total control of the user experience.
-  icon: "/uploads/2019/05/icon-place.svg"
+  icon: "/img/icon-pub-1.svg"
 - description: Delight your users with 1000s of local offers out-of-the-box, from
     local restaurants to national brands.
-  icon: "/uploads/2019/05/icon-place.svg"
+  icon: "/img/icon-pub-2.svg"
   heading: Offer content ready to go
 - heading: Complete creative control
   description: When your users earn rewards, you generate revenue. Customers are happier,
     and so is your bottom line.
-  icon: "/uploads/2019/05/icon-place.svg"
+  icon: "/img/icon-pub-3.svg"
 all_features_headline: 93% of purchases are made offline. Get a piece of the pie.
 hero_button:
   text: Request a Demo

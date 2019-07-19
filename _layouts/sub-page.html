@@ -9,10 +9,10 @@ layout: default
                     <div class="col-12 col-md-7 order-1 order-sm-1 mt-1 text-">
                         {% if page.tagline and page.tagline != "" %}
                         <div data-aos="basic">
-                            <h4 class="tag">{{ page.tagline }}</h4>
+                            <h4 class="tag pb-1 mb-1">{{ page.tagline }}</h4>
                         </div>
                         {% endif %}
-                        <h1 class="display-4" data-aos="basic" data-aos-delay="50">{{ page.heading | default: page.title }}</h1>
+                        <h1 class="display-4 mb-2" data-aos="basic" data-aos-delay="50">{{ page.heading | default: page.title }}</h1>
                         {% if page.sub_heading and page.sub_heading != "" %}
                         <p class="large mb-4" data-aos="basic" data-aos-delay="150">{{ page.sub_heading }}</p>
                         {% endif %}
@@ -47,7 +47,7 @@ layout: default
                 <div class="row py-1 px-1 px-lg-2">
                     {% for item in page.mainfeatures %}
                     <div class="col-12 col-md-4 mb-4 mb-md-0" data-aos="basic" data-aos-delay="{{ forloop.index | times: 150 }}">
-                        <img class="mb-2" src="{{ item.icon | absolute_url }}" alt="" width="55">
+                        <img class="mb-2" src="{{ item.icon | absolute_url }}" alt="" height="65">
                         <h5 class="mb-0 pb-0">{{ item.heading }}</h5>
                         <div class="lighten mt-0 pt-1">{{ item.description }}</div>
                     </div>

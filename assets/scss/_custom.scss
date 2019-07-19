@@ -423,14 +423,12 @@ p.latest {
         font-size: 2.2rem;
 
         @include media-breakpoint-up('md') {
-            font-size: 38px;
-            font-size: 4.1vw;
+            font-size: 39px;
             padding-right: 0 !important;
         }
 
         @include media-breakpoint-up('lg') {
-            font-size: 43px;
-            font-size: 3.9vw;
+            font-size: 42px;
         }
 
         @include media-breakpoint-up('xl') {
@@ -438,6 +436,10 @@ p.latest {
         }
 
         @include media-breakpoint-up('xl') {
+            font-size: 3rem;
+            padding-right: 15px !important;
+        }
+                @include media-breakpoint-up('xxl') {
             font-size: 3.2rem;
             padding-right: 15px !important;
         }
@@ -554,7 +556,7 @@ p.latest {
             }
 
             @include media-breakpoint-up(lg) {
-                padding: 140px 0 110px;
+                padding: 150px 0 120px;
             }
 
             &:before {
