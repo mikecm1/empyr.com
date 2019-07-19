@@ -270,7 +270,7 @@ main {
     }
 
     h1 {
-        letter-spacing: -.8px;
+        letter-spacing: -1.1px;
         color: #0b0b43;
     }
 }
@@ -372,6 +372,18 @@ p.latest {
         // background-repeat: no-repeat,repeat;
         // background-size: 670px, 100%;
         background: linear-gradient(0deg, #fff 0%, #f8f9fc 80%);
+        &::before {
+                content: "";
+    position: absolute;
+    background: linear-gradient(18deg,rgba(255,255,255,0) 25%,rgba(233,234,243,.5) 80%);
+    width: 130%;
+    height: 155%;
+    /* bottom: 0; */
+    top: 0;
+    transform: skewX(57deg);
+    /* z-index: 2; */
+    right: -115%;
+        }
     }
 
     .headline {
@@ -379,6 +391,7 @@ p.latest {
         font-size: 26px;
         position: relative;
         z-index: 1;
+        font-weight: 400;
 
         &::before {
             // content: '';
@@ -395,7 +408,8 @@ p.latest {
         }
 
         @include media-breakpoint-up(md) {
-            font-size: 42px;
+    font-size: 48px;
+    
         }
     }
 
@@ -505,8 +519,8 @@ p.latest {
             &.tag {
                 color: #fff;
                 opacity: 0.9 !important;
-                font-size: 13px;
-                letter-spacing: 3.5px;
+                font-size: 15px;
+                letter-spacing: 3.2px;
 
                 &:after {
                     content: "";
@@ -540,7 +554,7 @@ p.latest {
             }
 
             @include media-breakpoint-up(lg) {
-                padding: 150px 0 130px;
+                padding: 140px 0 110px;
             }
 
             &:before {
@@ -1698,7 +1712,7 @@ display: inline-block;
 }
 
 .lighten {
-    color: lighten($body-color, 25%) !important;
+    color: lighten($body-color, 15%) !important;
 }
 
 // .alert-default {
@@ -1864,9 +1878,10 @@ img {
         color: #869ab8;
         margin-bottom: 0;
         margin-top: 0;
+            max-width: 95%;
     }
 
-    .h5 {
+    h5 {
         font-size: 1.4rem;
         box-sizing: border-box;
         font-size: 1.3125rem;

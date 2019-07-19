@@ -5,19 +5,19 @@ layout: default
     <div class="hero sub">
         <div class="bg-cover">
             <div class="container">
-                <div class="row poster-feature-row pb-2">
+                <div class="row poster-feature-row">
                     <div class="col-12 col-md-7 order-1 order-sm-1 mt-1 text-">
                         {% if page.tagline and page.tagline != "" %}
                         <div data-aos="basic">
                             <h4 class="tag">{{ page.tagline }}</h4>
                         </div>
                         {% endif %}
-                        <h1 class="display-4" data-aos="basic" data-aos-delay="50">{{ page.heading | default: page.title }}</h1>
+                        <h1 class="mt-2 display-4" data-aos="basic" data-aos-delay="50">{{ page.heading | default: page.title }}</h1>
                         {% if page.sub_heading and page.sub_heading != "" %}
                         <p class="large mb-4" data-aos="basic" data-aos-delay="150">{{ page.sub_heading }}</p>
                         {% endif %}
                         {% if page.hero_button %}
-                        <div class="pb-2 d-flex flex-column flex-md-row" data-aos="basic" data-aos-delay="250">
+                        <div class="d-flex flex-column flex-md-row" data-aos="basic" data-aos-delay="250">
                             <a href="{{ page.hero_button.href | absolute_url }}" class="btn btn-lg btn-white mb-2 mb-md-0
                                 primary">{{ page.hero_button.text }}</a>
                             {% endif %}
@@ -41,22 +41,24 @@ layout: default
         </div>
     </div>
     <div class="bg-gradient-lighter">
-        <div class="container pt-4 vw">
             {% if page.mainfeatures %}
-            <div class="intro py-2 card-body card shadow-sm offset box-shadow-md" data-aos="basic">
-                <div class="row py-1 px-1 px-lg-2">
-                    {% for item in page.mainfeatures %}
-                    <div class="col-12 col-md-4 mb-4 mb-md-0" data-aos="basic" data-aos-delay="{{ forloop.index | times: 150 }}">
-                        <img class="mb-2" src="{{ item.icon | absolute_url }}" alt="" width="55">
-                        <h5 class="mb-0 pb-0">{{ item.heading }}</h5>
-                        <div class="lighten mt-0 pt-1">{{ item.description }}</div>
+            <div class="intro card-body card py-3 shadow-sm box-shadow-md rounded-0 px-0" data-aos="basic">
+<div class="container">
+                    <div class="row py-1">
+                        {% for item in page.mainfeatures %}
+                        <div class="col-12 col-md-4 mb-4 mb-md-0" data-aos="basic" data-aos-delay="{{ forloop.index | times: 150 }}">
+                            <img class="mb-2" src="{{ item.icon | absolute_url }}" alt="" width="55">
+                            <h5 class="mb-0 pb-0">{{ item.heading }}</h5>
+                            <div class="lighten mt-0 pt-1">{{ item.description }}</div>
+                        </div>
+                        {% endfor %}
                     </div>
-                    {% endfor %}
-                </div>
+</div>
             </div>
             {% endif %}
+            <div class="container pt-4 full vw">
             {% if page.partners %}
-            <div class="logos pt-md-3">
+            <div class="logos">
                 <div class="container pt-2 pb-3 px-md-5 border-bottom">
                     <!-- <p class="text-left pt-0 mb-2" data-aos="basic" data-aos-delay="100" style="
     font-size: 15.5px;
@@ -74,7 +76,7 @@ layout: default
                 </div>
             </div>
             {% endif %}
-            <div class="row pt-md-5 px-2 px-md-0 mt-4">
+            <div class="row pt-md-5 px-2 px-md-0 mt-5">
                 <div class="col-12 mt-5">
                     <h1 class="headline mt-2" data-aos="basic">{{ page.primary_body_copy_headline }}</h1>
                 </div>
