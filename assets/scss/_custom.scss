@@ -988,7 +988,7 @@ li.nav-item {
         .col {
             margin-bottom: 0;
             padding-bottom: 5px;
-            padding: 0 2.4rem;
+            padding: 0 2.1rem;
             &:last-of-type {
                 padding-bottom: 0;
             }
@@ -1015,9 +1015,9 @@ li.nav-item {
 
 .sub-menu .col {
     .dropdown-item {
-//     padding: .5rem 0 !important;
     border-radius: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 0;
+    padding: 15px 20px;
     }
     &:last-child {
       .dropdown-item {
