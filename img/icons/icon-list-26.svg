@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-labelledby="title"
+aria-describedby="desc" role="img" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>Price Tag</title>
+  <desc>A line styled icon from Orion Icon Library.</desc>
+  <path data-name="layer2"
+  fill="none" stroke="#6f6a87" stroke-miterlimit="10" stroke-width="3" d="M25.6 61l-5.7-17L3 38.4 38.4 3l21.2 1.4L61 25.6 25.6 61z"
+  stroke-linejoin="round" stroke-linecap="round"></path>
+  <circle data-name="layer2" cx="48" cy="16" r="4" fill="none" stroke="#6f6a87"
+  stroke-miterlimit="10" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"></circle>
+  <path data-name="layer1" fill="none" stroke="#d2ccf8" stroke-miterlimit="10"
+  stroke-width="3" d="M22.8 35.5L37 21.4m-8.5 19.8l8.4-8.5" stroke-linejoin="round"
+  stroke-linecap="round"></path>
+</svg>

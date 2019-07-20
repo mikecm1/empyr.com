@@ -21,6 +21,7 @@ partners:
 - "/img/logo-home-6.png"
 primary_body_copy_headline: Increase user engagement. <br> Make more money.
 primary_body_copy_subheadline: Give your users another great reason to open your app. Empyr provides everything required to build a customized card-linked offer rewards programs that drives repeat interaction and helps turn your users into advocates.
+primary_body_icon: "/img/icon-pub-large.svg"
 show_mainfeatures: true
 mainfeatures:
 - heading: Unlimited revenue potential
@@ -30,7 +31,7 @@ mainfeatures:
 - description: Delight your users with 1000s of local offers out-of-the-box, from
     local restaurants to national brands.
   icon: "/img/icon-pub-2.svg"
-  heading: Offer content ready to go
+  heading: Offers ready to go
 - heading: Complete creative control
   description: When your users earn rewards, you generate revenue. Customers are happier,
     and so is your bottom line.
@@ -45,17 +46,17 @@ second_button:
 headerimage: "/img/hero-publisher.svg"
 all_features:
 - heading: Seamless and customized API integration
-  icon: "/uploads/2019/05/icon-place.svg"
+  icon: "/img/icons/icon-list-12.svg"
 - heading: Increase customer delight and engagement
-  icon: "/uploads/2019/05/icon-place.svg"
+  icon: "/img/icons/icon-list-20.svg"
 - heading: 1000s of local offers out-of-the-box
-  icon: "/uploads/2019/05/icon-place.svg"
+  icon: "/img/icons/icon-list-19.svg"
 - heading: Generate revenue with offline offer content
-  icon: "/uploads/2019/05/icon-place.svg"
+  icon: "/img/icons/icon-list-37.svg"
 - heading: Card-linked offer product and marketing support
-  icon: "/uploads/2019/05/icon-place.svg"
+  icon: "/img/icons/icon-list-10.svg"
 - heading: Designed for all digital product types
-  icon: "/uploads/2019/05/icon-place.svg"
+  icon: "/img/icons/icon-list-40.svg"
 show_case_studies: false
 section_one:
   tagline: USER EXPERIENCE

@@ -18,15 +18,15 @@ partners:
 - "/uploads/2019/logo-natl-2.png"
 - "/uploads/2019/logo-natl-1.png"
 mainfeatures:
-- heading: Reach millions of people
+- heading: Reach millions of users
   description: One platform. 316M+ consumers. Easily distribute high performance campaigns on our exclusive publisher network.
-  icon: "/uploads/2019/05/icon-place.svg"
+  icon: "/img/one.svg"
 - heading: Amplify your revenue
   description: Our cost per revenue (CPR) model generates a guaranteed ROAS. The impressions and clicks? 100% free.
-  icon: "/uploads/2019/05/icon-place.svg"
+  icon: "/img/two.svg"
 - description: Measure what truly matters. Track online impressions all the way to in-store sales with real-time offline analytics.
-  heading: Real-time sales attribution
-  icon: "/uploads/2019/05/icon-place.svg"
+  heading: Real-time offline attribution
+  icon: "/img/three.svg"
 sub_heading: Reach millions of consumers and ignite your in-store revenue without
   paying for clicks and impressions, while unlocking complete online to offline sales
   attribution.
@@ -42,17 +42,17 @@ second_button:
   link: "/"
 all_features:
 - heading: 100% Attribution to In-Store Revenue
-  icon: "/uploads/2019/05/icon-place.svg"
+  icon: "/img/icons/icon-list-2.svg"
 - heading: No Cost for Impressions, Clicks, or Visits
-  icon: "/uploads/2019/05/icon-place.svg"
+  icon: "/img/icons/icon-list-40.svg"
 - heading: 5X - 20X ROAS Guaranteed
-  icon: "/uploads/2019/05/icon-place.svg"
+  icon: "/img/icons/icon-list-13.svg"
 - heading: Incremental Revenue Lift Reporting
-  icon: "/uploads/2019/05/icon-place.svg"
+  icon: "/img/icons/icon-list-35.svg"
 - heading: Self-Funding with No Upfront Costs or Minimums
-  icon: "/uploads/2019/05/icon-place.svg"
+  icon: "/img/icons/icon-list-33.svg"
 - heading: No Ad or Click Fraud
-  icon: "/uploads/2019/05/icon-place.svg"
+  icon: "/img/icons/icon-list-6.svg"
 show_case_studies: false
 case_studies:
 - partner_logo: "/uploads/2019/05/google.svg"
@@ -79,9 +79,9 @@ case_studies:
   incremental_revenue: 99%
   roi: "$8.42"
   incremental_roi: "$4.20"
-primary_body_copy_headline: A new approach to digital advertising
-primary_body_copy_subheadline: Our pay-per-revenue model (CPR) accelerates and tracks
-  in-store sales through digital publishers unavailable on any other platform.
+primary_body_copy_headline: An improved approach to digital advertising
+primary_body_copy_subheadline: Empyr's cost-per-revenue model (CPR) accelerates and tracks in-store sales by distributing offers on an exclusive publisher network featuring top websites and apps– without charging for clicks or impressions.
+primary_body_icon: "/img/icon-pub-large.svg"
 all_features_headline: Transform your bottom line with CPR
 section_one:
   tagline: Customer Reach
