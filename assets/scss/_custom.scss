@@ -1178,7 +1178,7 @@ svg.fsvg {
 //     background-image: linear-gradient(150deg,#10101a 10%,#1b1b3d 100%);
     margin-top: 0;
     padding: 100px 0 50px;
-    background: #f5f5fa;
+    background: $gray-25;
 //     background: #131318;
 //     background: #18162a;
         margin-top: 0px;
@@ -2718,6 +2718,19 @@ img.lazyfade.lazyloaded {
     -o-object-position: 0 50%;
 }
 
+// @include media-breakpoint-up(md){
+//     .sub-offset{
+//       .row:last-of-type{
+//         margin-bottom: -11rem;
+//         z-index: 2;
+//         position: relative;
+//       }
+//       +div{
+//         padding-top: 11rem;
+//       }
+//     }
+//   }
+  
 .fx-shadow {
     filter: drop-shadow(0px 8px 6px rgba(40, 34, 83, 0.5));
 }
