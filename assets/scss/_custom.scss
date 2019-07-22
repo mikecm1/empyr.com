@@ -22,9 +22,13 @@ h1, h2, h3, h4 {
 
 .mw-130 {
     max-width: 160%;
+        max-width: 160%;
+    left: -13%;
+    position: relative;
 
     @include media-breakpoint-up(md) {
         max-width: 200%;
+        left: auto;
     }
 
     @include media-breakpoint-up(lg) {
@@ -260,12 +264,17 @@ main {
         line-height: 1.9;
         color: #4b4b6c;
         margin-top: 1rem;
-        color: lighten($body-color, 15%) !important;
+        color: lighten($body-color, 15%);
         font-weight: 400;
         letter-spacing: -0.4px;
-
+    
         @include media-breakpoint-up(md) {
             font-size: 21px;
+        }
+        &.small {
+                font-size: 16px;
+                line-height: 1.2;
+                margin-top: 7px;
         }
     }
 
@@ -556,7 +565,7 @@ p.latest {
             }
 
             @include media-breakpoint-up(lg) {
-                padding: 150px 0 120px;
+                padding: 130px 0 120px;
             }
 
             &:before {
@@ -801,10 +810,10 @@ header {
 }
 
 .headline {
+        letter-spacing: -1px;
     @include media-breakpoint-up(lg) {
         font-size: 45px;
         margin-top: 15px;
-        letter-spacing: -1.6px;
         margin-bottom: 27px;
     }
 }
@@ -1737,6 +1746,9 @@ display: inline-block;
 
 .card.offset {
     margin-top: -110px;
+    @include media-breakpoint-down(xs) {
+        border-radius: 0;
+    }
 }
 
 .bg-cover {
@@ -2009,14 +2021,14 @@ img {
 
 @include media-breakpoint-up(md) {
     .mw-md-130 {
-        max-width: 920px !important;
-        position: absolute;
-        left: 30px;
-        top: -10px;
+    max-width: 920px!important;
+    position: absolute;
+    left: 10px;
+    top: -30px;
 
         @include media-breakpoint-up(xl) {
-            left: -5vw;
-            top: -46px;
+    left: -3vw;
+    top: -25px;
         }
     }
 }
@@ -2711,57 +2723,57 @@ img.lazyfade.lazyloaded {
 }
 
 @include media-breakpoint-up(sm) {
-    html:not(.no-js) [data-aos^='basic'][data-aos^='basic'] {
+    html:not(.no-js):not(.touch) [data-aos^='basic'][data-aos^='basic'] {
         opacity: 0;
         transform: translateY(50px) !important;
         transition-property: opacity, transform;
     }
 
-    html:not(.no-js) [data-aos^='basic'][data-aos^='basic'].aos-animate {
+    html:not(.no-js):not(.touch) [data-aos^='basic'][data-aos^='basic'].aos-animate {
         opacity: 1;
         transform: none !important;
     }
 
-    html:not(.no-js) [data-aos^='device_one'][data-aos^='device_one'] {
+    html:not(.no-js):not(.touch) [data-aos^='device_one'][data-aos^='device_one'] {
         opacity: 0;
         top: -105px;
         transition-property: top, opacity;
     }
 
-    html:not(.no-js) [data-aos^='device_one'][data-aos^='device_one'].aos-animate {
+    html:not(.no-js):not(.touch) [data-aos^='device_one'][data-aos^='device_one'].aos-animate {
         opacity: 1;
         top: -155px;
     }
 
-    html:not(.no-js) [data-aos^='device_two'][data-aos^='device_two'] {
+    html:not(.no-js):not(.touch) [data-aos^='device_two'][data-aos^='device_two'] {
         opacity: 0;
         top: 780px;
         transition-property: top, opacity;
     }
 
-    html:not(.no-js) [data-aos^='device_two'][data-aos^='device_two'].aos-animate {
+    html:not(.no-js):not(.touch) [data-aos^='device_two'][data-aos^='device_two'].aos-animate {
         opacity: 1;
         top: 730px;
     }
 
-    html:not(.no-js) [data-aos^='device_three'][data-aos^='device_three'] {
+    html:not(.no-js):not(.touch) [data-aos^='device_three'][data-aos^='device_three'] {
         opacity: 0;
         top: 358px;
         transition-property: top, opacity;
     }
 
-    html:not(.no-js) [data-aos^='device_three'][data-aos^='device_three'].aos-animate {
+    html:not(.no-js):not(.touch) [data-aos^='device_three'][data-aos^='device_three'].aos-animate {
         opacity: 1;
         top: 308px;
     }
 
-    html:not(.no-js) [data-aos^='slide-in'][data-aos^='slide-in'] {
+    html:not(.no-js):not(.touch) [data-aos^='slide-in'][data-aos^='slide-in'] {
         opacity: 0;
         transform: translateX(-50px);
         transition-property: opacity, transform;
     }
 
-    html:not(.no-js) [data-aos^='slide-in'][data-aos^='slide-in'].aos-animate {
+    html:not(.no-js):not(.touch) [data-aos^='slide-in'][data-aos^='slide-in'].aos-animate {
         opacity: 1;
         transform: none;
     }

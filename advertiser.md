@@ -89,7 +89,7 @@ section_one:
   section_body_copy: Leading companies use Empyr to build and promote customized card-linked
     offer programs inside their websites and apps, providing rapid exposure to your
     brand through products people know, trust, and use every day.
-  image: "/img/test.png"
+  image: "/img/img-network.jpg"
   button:
     text: Learn More
     link_url: index.md

@@ -130,7 +130,7 @@ $(document).ready(function () {
         }
         return true;
     };
-    document.documentElement.className = 'js';
+    // document.documentElement.className = 'js';
 
     if (Modernizr.touch) {
     }
@@ -144,7 +144,7 @@ $(document).ready(function () {
     var rellax = new Rellax('.rellax', {
         wrapper: null,
     });
-    }
+}
 
     var swiper = new Swiper('.swiper-container', {
         autoplay: {

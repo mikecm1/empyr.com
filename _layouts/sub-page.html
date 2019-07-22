@@ -79,7 +79,7 @@ layout: default
                      <img src="{{ page.primary_body_icon | absolute_url }}" alt="" height="116" data-aos="basic">
                     <h1 class="headline mt-0 mx-auto" data-aos="basic" data-aos-delay="100">{{ page.primary_body_copy_headline }}</h1>
                 </div>
-                <div class="col-md-7 mx-auto">
+                <div class="col-md-9 col-xl-8 col-xxl-7 mx-auto">
                     <p class="large" data-aos="basic" data-aos-delay="150">{{ page.primary_body_copy_subheadline }}</p>
                 </div>
             </div>
@@ -97,7 +97,7 @@ layout: default
                     <img src="/img/headline-separator.svg" alt="" data-aos="basic" data-aos-delay="150">
                     <p class="pr-xl-2 mb-4" data-aos="basic" data-aos-delay="250">{{ page.section_one.section_body_copy }}</p>
                 </div>
-                <div class="col-12 col-md-6 col-xxl-6 order-2 px-md-0 offset-l">
+                <div class="col-12 col-md-6 col-xxl-6 order-2 px-md-0">
                     <img class="img-fluid mw-130 float-left" src="{{ page.section_one.image }}" data-aos="fade-left" data-aos-delay="0" />
                 </div>
             </div>
@@ -115,23 +115,20 @@ layout: default
                     </div>
                     <h1 class= "pr-xl-5" data-aos="basic" data-aos-delay="50">{{ page.section_two.section_header }}</h1>
                     <img src="/img/headline-separator.svg" alt="" data-aos="basic" data-aos="fade-right" data-aos-delay="150">
-                    <p class="mb-4" data-aos="basic" data-aos-delay="250">{{ page.section_two.section_body_copy }}</p>
-                    <!-- {% if page.section_two.stats %}
-                <div class="row">
-                    <div class="col-12 col-md-4 mb-md-0">
-                        <h3 class="mb-0">{{ page.section_two.stats.merchants }}</h3>
-                        <p class="small">Total Merchants</p><a class="weight-500" href="#"></a>
-                    </div>
-                    <div class="col-12 col-md-4 mb-md-0">
-                        <h3 class="mb-0">{{ page.section_two.stats.cities }}</h3>
-                        <p class="small">Cities with Merchants</p><a class="weight-500" href="#"></a>
-                    </div>
-                    <div class="col-12 col-md-4 mb-md-0">
-                        <h3 class="mb-0">{{ page.section_two.stats.metros }}</h3>
-                        <p class="small">Number of Metros</p><a class="weight-500" href="#"></a>
-                    </div>
-            </div>
-            {% endif %} -->
+                    <p class="mb-3" data-aos="basic" data-aos-delay="250">{{ page.section_two.section_body_copy }}</p>
+                    {% if page.section_two.stats %}
+                    <div class="d-flex flex-nowrap">
+                            <div class="order-1 pr-1 pr-lg-2 pr-xl-4">                      <h3 class="display-4 font-weight-normal mb-0">{{ page.section_two.stats.merchants }}</h3>
+                                <p class="small text-dark">Total Merchants</p><a class="weight-500" href="#"></a>
+                            </div>
+                            <div class="order-2 pr-1 pr-lg-2 pr-xl-4">               <h3 class="display-4 font-weight-normal mb-0">{{ page.section_two.stats.cities }}</h3>
+                                <p class="small text-dark">Cities with Merchants</p><a class="weight-500" href="#"></a>
+                            </div>
+                            <div class="order-3">               <h3 class="display-4 font-weight-normal mb-0">{{ page.section_two.stats.metros }}</h3>
+                                <p class="small text-dark">Number of Metros</p><a class="weight-500" href="#"></a>
+                            </div>
+                          </div>
+            {% endif %}
                 </div>
         </section>
         {% endif %}
