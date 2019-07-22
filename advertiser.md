@@ -101,6 +101,7 @@ section_two:
     pay a fee when they make a verified purchase– the impressions and clicks are free.
     Consumers enjoy real-time reward notifications, and you get a guaranteed 10X-30X
     ROAS.
+  image: "/img/devices-pub.jpg"
   button:
     text: Learn More
     link_url: index.md
