@@ -112,6 +112,7 @@ section_three:
   section_body_copy: Watch in real-time as online offers convert to in-store sales
     and gain holistic customer insights via comprehensive online to offline analytics.
     Impressions and clicks don’t always equal cash in the bank, so eliminate the guesswork.
+  image: "/img/attr-nat.svg"
   button:
     text: Learn More
     href: "/advertiser"
