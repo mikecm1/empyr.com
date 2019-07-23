@@ -2012,26 +2012,34 @@ img {
         padding-bottom: 100px;
         width: 100%;
         position: absolute;
-        right: -80px;
+        right: -13px;
         margin: 0 auto;
     }
 }
 
-.mw-md-30 {}
 
-@include media-breakpoint-up(md) {
+
     .mw-md-130 {
+    @include media-breakpoint-up(md) {
     max-width: 920px!important;
     position: absolute;
     left: 10px;
     top: -30px;
-
-        @include media-breakpoint-up(xl) {
-    left: -3vw;
+    }
+        @include media-breakpoint-up(lg) {
+    left: -9%;
     top: -25px;
         }
+        
+        @include media-breakpoint-up(xl) {
+    left: -14%;
+    top: -21px;
+        }
+                @include media-breakpoint-up(xxl) {
+    left: -27%;
+        }
     }
-}
+
 
 
 
