@@ -6,7 +6,7 @@ description: Advertise offers with accurate ROI through in store purchases. Pay 
 keywords: Pay Per Sale, Accurate ROI, Pay Per Purchase
 banner_image: ''
 thelink: Welcome to {{ site.url }}
-tagline: National Brands
+tagline: For Advertisers
 heading: |-
   Goodbye, guesswork.
   Hello, guaranteed revenue.

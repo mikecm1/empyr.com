@@ -17,7 +17,7 @@ Displays the site's navigation using the jekyll-menus plugin
                     <a class="nav-link {% if item.children %}nested dropdown-toggle{% endif %}{% if url == item.url
                         %}active{% endif %}" href="{{ item.url }}" title="{{ item.title }}" {% if item.children %}id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"{% endif %}>{{ item.title }}</a>
                     {% if item.children %}
-                    <div class="sub-menu dropdown-menu animate slideIn rounded-xl" aria-labelledby="dropdownMenuButton">
+                    <div class="sub-menu dropdown-menu anim slideIn rounded-xl" aria-labelledby="dropdownMenuButton">
                         <div class="row">
                             <div class="col col-12 mb-md-0 pb-0">
                             <!-- <p class="lead px-1">Solutions For</p> -->
