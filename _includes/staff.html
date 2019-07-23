@@ -10,22 +10,18 @@ Displays all of the people from the _people/ collection in a grid
             {% for person in people %}
             <div class="col-md-3 mb-4">
                 <div class="single-team">
-                    {% if person.thumbnail %}
+                    {% if person.thumbnail and person.thumbnail != "" %}
                     <img alt="{{ person.title }}" src="{{ person.thumbnail | absolute_url }}">
                     {% else %}
-                    <img alt="{{ person.title }}" src="{{ "/img/placeholder.png" | absolute_url }}>
+                    <img alt="{{ person.title }}" src="{{ "/assets/pictures/image-540x540-dark.png" | absolute_url }}">
                             {% endif %}
-						<div class=" team-hover">
+						<div class=" team-hover text-center">
                     <h4>{{ person.title }}
                         {% if person.sub_heading %}
-                        <span class="subtitle">
+                    </h4>
+                        <span class="subtitle small">
                             {{ person.sub_heading }}
                         </span>{% endif %}
-                    </h4>
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-youtube"></i></a>
-                    <a href=""><i class="fa fa-linkedin"></i></a>
                 </div>
             </div>
         </div>
