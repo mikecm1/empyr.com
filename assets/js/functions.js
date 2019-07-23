@@ -131,16 +131,15 @@ $(document).ready(function () {
         return true;
     };
     // document.documentElement.className = 'js';
-
-    if (Modernizr.touch) {
-    }
-    else {
     AOS.init({
         once: !0,
         duration: 400,
         disable: 'mobile',
         anchorPlacement: 'top'
     });
+    if (Modernizr.touch) {
+    }
+    else {
     var rellax = new Rellax('.rellax', {
         wrapper: null,
     });
