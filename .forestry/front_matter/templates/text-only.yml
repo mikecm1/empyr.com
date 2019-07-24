@@ -29,3 +29,30 @@ fields:
 - type: text
   name: keywords
   label: keywords
+- name: custom_copy
+  type: field_group_list
+  fields:
+  - name: custom_code
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Custom code
+  - name: custom_text
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Custom text
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Custom copy
+  description: e.g., incl. code snippets
