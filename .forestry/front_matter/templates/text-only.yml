@@ -50,6 +50,15 @@ fields:
       schema:
         format: markdown
     label: Custom text
+  - name: custom_markdown
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Custom markdown
   config:
     min: 
     max: 
