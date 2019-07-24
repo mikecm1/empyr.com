@@ -49,6 +49,7 @@ primary_body_copy_headline: |-
 second_button:
   text: Learn More
   href: "/advertiser"
+  link: ''
 textline: Primary home page
 primary_body_copy_subtext: Accelerate in-store revenue with card-linked offer campaigns
   on our exclusive publisher network. There’s no charge for clicks or impressions,
@@ -94,20 +95,21 @@ company_types:
 - badge: Advertisers
   heading: For National Brands
   description: See how Empyr can drive significant revenue for your brand at scale
-  icon: '/img/icon-natl-dark-1.svg'
-  url: /advertiser
+  icon: "/img/icon-natl-dark-1.svg"
+  url: "/advertiser"
 - badge: Publishers
   heading: For Websites & Apps
   description: Earn offline revenue from your own custom card-linked offer program
-  icon: '/img/icon-pub-dark-1.svg'
-  url: /publisher
+  icon: "/img/icon-pub-dark-1.svg"
+  url: "/publisher"
 - badge: Sell with Empyr
   heading: For Channel Partners
   description: Share Empyr with your clients for a brand new revenue stream
-  icon: '/img/icon-cp-dark-1.svg'
-  url: /channel
+  icon: "/img/icon-cp-dark-1.svg"
+  url: "/channel"
 cta_footer_header: Customized solutions
-cta_footer_subheader: Make card-linked offers part of your strategy and start accelerating revenue today
+cta_footer_subheader: Make card-linked offers part of your strategy and start accelerating
+  revenue today
 section_one:
   super: ''
   heading: ''
@@ -144,5 +146,6 @@ section_three:
   button:
     text: Learn More
     href: "/"
+custom_code: ''
 
 ---
