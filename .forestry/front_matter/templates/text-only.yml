@@ -11,15 +11,6 @@ fields:
   config:
     required: false
   label: headline
-- type: text
-  name: title
-  label: title
-- type: textarea
-  name: description
-  label: description
-- type: text
-  name: keywords
-  label: keywords
 - name: intro_paragraph
   type: textarea
   default: ''
@@ -29,3 +20,12 @@ fields:
     schema:
       format: markdown
   label: intro_paragraph
+- type: text
+  name: title
+  label: title
+- type: textarea
+  name: description
+  label: description
+- type: text
+  name: keywords
+  label: keywords
