@@ -15,32 +15,20 @@ intro_paragraph: ''
 custom_code: |-
   <script>
        $(document).ready(function(){
-       $('.markdown-block .sqs-block-content h2').css('cursor','pointer');
-       $(".markdown-block .sqs-block-content h2").nextUntil("h2").slideToggle();
-       $(".markdown-block .sqs-block-content h2").click(function() {$(this).nextUntil("h2").slideToggle();});
+       $('.modifier h2').css('cursor','pointer');
+       $(".modifier h2").nextUntil("h2").slideToggle();
+       $(".modifier h2").click(function() {$(this).nextUntil("h2").slideToggle();});
        });
        </script>
 custom_css: |-
   <style>
-  h2 {
-  background: #fff;
-  /* box-shadow: 0px 10px 11px -15px #332a503d; */
-  border-radius: 9px;
-  border: 1px solid #d6dde5;
-  font-size: 18px;
-  padding: 18px 20px;
-  text-transform: none;
-  letter-spacing: -0.2px;
-  font-family: Roboto, sans-serif;
-  margin-top: 0;
-  margin-bottom: -1px;
-  z-index: 1;
-  position: relative;
-  font-weight: 500;
-  color: #2f464f;
-  -webkit-font-smoothing: initial;
-  }
-
+    h2 {
+    border: 1px solid #d6dde5;
+    font-size: 18px;
+    padding: 18px 20px;
+    margin-top: 0;
+    margin-bottom: -1px;
+    }
   p {
   color: #29292e;
   margin-bottom: 0;
@@ -92,13 +80,12 @@ What is a Card Linked Offers Program?
 -----------------
 A Card Linked Offers Program is a discreet rewards program that gives you cash back at your favorite businesses. All you have to do is link your credit/debit card, choose your favorite location on the program, activate the offer and enjoy! Due to our official partnership with Visa, MasterCard, and American Express, your cash reward is credited automatically back to your card. No hassling with coupons or loyalty cards; it is for everyone!
 
-
-+ Is the program free? Does it cost anything?
+Is the program free? Does it cost anything?
 -----------------
 This program is totally free! Members will never be charged anything to participate. In fact, we only have the ability to credit money to your account, not take money out of it!
 
 
-+ How do I join?
+How do I join?
 -----------------
 What?! You&#39;re saying you aren&#39;t a member of the Mogl family yet? Well don&#39;t you worry because joining Mogl only takes a minute!
 
@@ -108,7 +95,7 @@ What?! You&#39;re saying you aren&#39;t a member of the Mogl family yet? Well do
 4. Find participating businesses near you and start earning your cash back!
 
 
-+ How much cash back can I get?
+How much cash back can I get?
 -----------------
 Businesses can give you as much cash back as they desire but most are limited at $250 per transaction. Make sure that you&#39;re using a card that&#39;s accepted at the business! Double check the accepted cards at the bottom of the business&#39; profile page.
 
@@ -121,14 +108,14 @@ What you need to know:
 - The cash back is based off of your subtotaled bill before tip
 
 
-+ Can I order through a delivery service or order online?
+Can I order through a delivery service or order online?
 -----------------
 **ANY** third-party ordering services and delivery companies **(for example: Square, Grubhub, Eat24, ChowNow, Groupon, Clover, Postmates etc.)** are not eligible for cash back or promotions. The purchase must be made through the business&#39; credit card machine.
 
 If you are ordering at a participating business online, please note that most use  **external ** resources to facilitate the online ordering. If you are entering your credit/debit card online, please call the business to make sure that they run their online orders through their credit card machine. If they do not run them through the credit card machine, you will not receive cash back or cash rewards.
 
 
-+ What is my &quot;Primary&quot; Card?
+What is my &quot;Primary&quot; Card?
 -----------------
 The primary card is the card where you will receive the cash back and cash reward payout. You will receive this payment around the 20th monthly (as long as you&#39;ve reached the $10 minimum in the previous month).
 
@@ -141,7 +128,7 @@ No way! Any card that you register on the program will earn you cash back at a p
 We&#39;re glad you asked! Any card registered on the program can help you receive cash back at participating businesses. However, only your primary card can receive the monthly deposits. So as long as your primary card is an active credit card, you&#39;ll successfully receive your payouts!
 
 
-+ Where can I view my cash back history?
+Where can I view my cash back history?
 -----------------
 We like to see users taking advantage of all of their resources, so we&#39;re glad you asked!
 
@@ -150,7 +137,7 @@ Go to your **Profile** in the top right-hand side of the page and click to the d
 If you notice you&#39;re missing a transaction, don&#39;t worry! Simply email our awesome Customer Support team at support@mogl.com with your receipt and your account email address.
 
 
-+ How long does it take for a purchase to show up?
+How long does it take for a purchase to show up?
 -----------------
 **We know how excited you are to get your cash back, so we do our best to have transactions show up as soon as possible! Earnings may take anywhere from a few minutes to 5 days to show up, depending on the type of card used and business visited.**  
 
@@ -161,7 +148,7 @@ If you notice you&#39;re missing a transaction, don&#39;t worry! Simply email ou
 On a rare occasion, earnings may not show up in your Mogl account. First, check out the payment methods on the business profile page to make sure the type of card (Amex, Visa, MC) you used is supported by the business. If it is accepted and it&#39;s been longer than 5 days, please email our amazing support department at support@mogl.com so we can get you the cash back you deserve! Please include your receipt or processing information. It&#39;s helpful if you have a receipt or processing information from the business as well as your Mogl account email. We&#39;ll contact you shortly!
 
 
-+ My account is missing a transaction!
+My account is missing a transaction!
 -----------------
 Oh no! We understand how frustrating this can be, so please understand that we will work with you to make sure that we&#39;re doing whatever it takes to get to the bottom of the issue! Please read the following information and see if it relates to your transaction:
 
@@ -177,7 +164,7 @@ In the event that your transaction does not fall under any of these circumstance
 If you do not see your purchase within 5 days of the transaction, please [email us](http://www.cashbackhelp.com/customer/portal/emails/new) about all purchases you made that didn&#39;t get credited to your account. If the transaction occurred more than 60 days before contacting us, then we will not be able to credit your account so please make sure to contact us as soon as you realize something is wrong. It&#39;s important to have a receipt or processing information from the business to ensure a registered card was used as well as your Mogl account email. We&#39;ll contact you shortly!
 
 
-+ How &amp; when do I get paid?
+How &amp; when do I get paid?
 -----------------
 Great question! First, make sure your primary card is updated to reflect your most recent and up to date credit card. Next, make sure that you&#39;ve earned over $10.00 in your account. Once you have an updated primary card and over $10.00 in your account, the money will be deposited back onto your card around the 20th of the following month. (i.e.: Your total May earnings will be deposited onto your card around June 20th).
 
@@ -194,7 +181,7 @@ Some more important information:
 - If your account is completely closed, please contact your former bank.
 
 
-+ Ineligible transaction - fulfilled by another program.
+Ineligible transaction - fulfilled by another program.
 -----------------
 While some businesses participate in multiple rewards programs, customers are only eligible to earn rewards through one program a business uses. Although you may have received a cash back notification, the cash back dropped from your account because it was blocked by another rewards program linked to the card you used.
 
@@ -221,14 +208,14 @@ In order to start receiving cash back through Mogl again (cash back directly on 
 If your card isn&#39;t enrolled in other rewards programs or you are running into any other issues, please email **support@mogl.com**  for assistance.
 
 
-+ Click-to-Activate Offers
+Click-to-Activate Offers
 -----------------
 Most businesses are now participating in what we call click-to-activate or CTA offers. This means that you as a user need to activate the offer on the businesses profile page before each separate transaction in order to ensure you receive the cash back reward. The great thing about these new offers is that we reward our engaged users by offering higher cash back percentages!
 
 If you activated the offer and then made your purchase at a participating business but did not receive your cash back notification, please contact our Customer Support team at [support@mogl.com](mailto:support@mogl.com). We will look into this matter and get things resolved for you!
 
 
-+ I&#39;m new to this program, is there anything I should know?
+I&#39;m new to this program, is there anything I should know?
 -----------------
 Though we recommend that you read all of the FAQ&#39;s, here are some of the main things you should know:
 
@@ -243,7 +230,7 @@ Though we recommend that you read all of the FAQ&#39;s, here are some of the mai
 - If a missing transaction occurred more than 60 days before contacting us, then we will not be able to credit your account so please make sure to contact us as soon as you realize something is wrong.
 
 
-+ Is your site secure?
+Is your site secure?
 -----------------
 We know giving out personal information and credit card numbers makes everyone uneasy. Recognizing this, we&#39;ve implemented bank level encryption to secure your log in credentials, which cannot be compromised. These include:
 
@@ -260,7 +247,7 @@ Plus, as a general policy
 - Your information will never be shared
 
 
-+ Why do you need my card details?
+Why do you need my card details?
 -----------------
 First off, we use bank level encryption to secure that your log in credentials cannot be compromised.
 
@@ -269,19 +256,19 @@ By securely registering your debit or credit cards with us, we are able to track
 We only have the ability to credit money to your account, not take money out of it. We&#39;re givers, not takers.
 
 
-+ I forgot my password!
+I forgot my password!
 -----------------
 Go to this link: [https://www.mogl.com/forgot/password](https://www.mogl.com/forgot/password) and type in your login email address. You will receive an email with instructions to reset your password within 15 minutes. The email will be from noreply@ymail.mogl.com. Please make sure to check your junk/spam folders if you don&#39;t receive the email!
 
 In the event that you are locked out of your account, please wait up to two hours before trying to log back in.
 
 
-+ How do I change my email address?
+How do I change my email address?
 -----------------
 Changing your email address on Mogl is super easy! Go to your profile settings here: [https://www.mogl.com/u/settings](https://www.mogl.com/u/settings). Select **My Account** on the left-hand side of the page, scroll down to where it says **Change Emai** l and enter your updated email address.
 
 
-+ How do I add a credit card?
+How do I add a credit card?
 -----------------
 To add a credit card to your Mogl account, please go to your **Settings** here: [https://www.mogl.com/u/settings](https://www.mogl.com/u/settings)
 
@@ -292,12 +279,12 @@ You will be able to earn cash back on any card that is registered with Mogl, but
 ​Also, please keep in mind that all businesses do not accept every credit card for Mogl purchases. To ensure you have a great Mogl experience, please check the business&#39; profile page to see if your card is accepted! Visa is accepted at all Mogl locations.
 
 
-+ How many Debit/Credit Cards can I sign up?
+How many Debit/Credit Cards can I sign up?
 -----------------
 We like your thinking!  You want to register all your cards to make sure you don&#39;t miss out on any earnings, are we right?! So, go ahead and register as many as you like, we have no limit!
 
 
-+ How do I unsubscribe from your emails?
+How do I unsubscribe from your emails?
 -----------------
 Drowning in too many emails? We&#39;re sorry to hear that! In order to unsubscribe from Mogl emails, follow the steps below:
 
@@ -309,7 +296,7 @@ Drowning in too many emails? We&#39;re sorry to hear that! In order to unsubscri
 **or** email support@mogl.com and ask to be unsubscribed or your account deactivated.
 
 
-+ What happens if my credit card expires or gets canceled?
+What happens if my credit card expires or gets canceled?
 -----------------
 Even if it has a different expiration number, we will still be able to track your purchases but you should delete the card and add it again if it is your primary card to ensure we have no issues completing a payment.
 
