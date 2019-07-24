@@ -35,15 +35,6 @@ fields:
     label: Edit contents
     hidden: false
     default: Edit contents
-  - name: custom_code
-    type: textarea
-    default: ''
-    config:
-      required: false
-      wysiwyg: true
-      schema:
-        format: html
-    label: Custom code (HTML Format)
   - name: custom_text
     type: textarea
     default: ''
