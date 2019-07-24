@@ -34,8 +34,6 @@ intro_paragraph: 'The IO and Terms and Conditions (collectively “Agreement”)
   and conditions set forth below. '
 
 ---
-# National Terms
-
 1\.**Engagement; Insertion Orders:**
 
 1\.1.Through its relationship with Empyr, Inc. (“**Empyr**”), Advertiser has elected to participate in Empyr’s Card Linked Offer Program, which includes programs managed by the Third Parties (“**Publishers**”) (collectively, the “**Empyr Platform**”).
