@@ -32,6 +32,13 @@ fields:
 - name: custom_copy
   type: field_group_list
   fields:
+  - name: edit_contents
+    type: text
+    config:
+      required: false
+    label: Edit contents
+    hidden: true
+    default: Edit contents
   - name: custom_code
     type: textarea
     default: ''
