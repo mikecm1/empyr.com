@@ -28,15 +28,17 @@ show_staff: true
 show_news: false
 mainfeatures: []
 show_mainfeatures: false
+headline: National Terms
+intro_paragraph: 'The IO and Terms and Conditions (collectively “Agreement”) govern
+  your participation in the Empyr Platform. By signing the IO you agree to the terms
+  and conditions set forth below. '
 
 ---
 # National Terms
 
-The IO and Terms and Conditions (collectively “Agreement”) govern your participation in the Empyr Platform. By signing the IO you agree to the terms and conditions set forth below.  
-
 1\.**Engagement; Insertion Orders:**
 
-1\.1.Through its relationship with Empyr, Inc. (“**Empyr**”), Advertiser has elected to participate in Empyr’s Card Linked Offer Program, which includes programs managed by the Third Parties (“**Publishers**”) (collectively, the “**Empyr Platform**”).  
+1\.1.Through its relationship with Empyr, Inc. (“**Empyr**”), Advertiser has elected to participate in Empyr’s Card Linked Offer Program, which includes programs managed by the Third Parties (“**Publishers**”) (collectively, the “**Empyr Platform**”).
 
 1\.2.Empyr has entered into Agreements with each Publisher for certain services, on behalf of itself and as the representative of Advertiser, to promote Advertiser to Publisher’s customers. In order for Publishers to perform services in accordance with the Empyr – Publisher Terms, MasterCard Incorporated, Visa U.S.A. Inc., American Express Company and one or more Payment Processors or Financial Institutions engaged by Empyr and/or Publisher (individually and collectively, “**Card Network / Processor**”) will need to provide Empyr and/or Publisher with certain information further described in this Agreement.
 
@@ -44,13 +46,13 @@ The IO and Terms and Conditions (collectively “Agreement”) govern your parti
 
 2\.1.**Fulfillment and Conduct of Campaigns:** As between the Parties, Advertiser shall be responsible for (i) ensuring that all Campaigns and their fulfillment comply with applicable laws; and (ii) ensuring that no Campaign or related Creative or Offer shall: (x) infringe or violate any third party’s intellectual property rights or other rights, be defamatory or obscene, or violate any law or regulation or the rights of privacy or personality of any third party.
 
-2\.2.**Offer Listing Information.** For each Campaign, Advertiser shall provide to Empyr the Offer Listing information and materials required by the IO (including applicable Offer terms and conditions to be presented to consumers), copy, photography, images, other descriptive materials, and links for all Offer Listings. Advertiser shall deliver such items to Empyr via email or other means as mutually determined by the Parties. 
+2\.2.**Offer Listing Information.** For each Campaign, Advertiser shall provide to Empyr the Offer Listing information and materials required by the IO (including applicable Offer terms and conditions to be presented to consumers), copy, photography, images, other descriptive materials, and links for all Offer Listings. Advertiser shall deliver such items to Empyr via email or other means as mutually determined by the Parties.
 
 2\.3.**Purchase Methods.** Advertiser acknowledges that the Card Network / Processor at any given time supported by the Empyr shall be the only permitted means for redeeming Offers.
 
 2\.4.**End User Terms of Service.** Advertiser acknowledges that the Empyr Platform is available to track purchases of consumers who establish accounts on the Empyr Platform and who accept and abide by the applicable end user terms of use/service and privacy policy (“**End User Terms**”). Empyr and Publishers may ban the participation of individual consumers in the Empyr Platform for any violation of the End User Terms or for any other reason determined in its sole discretion. Advertiser acknowledges that Empyr and/or Publishers will collect, use, and disclose end user data in accordance with the End User Terms as in effect from time to time, the current versions of which will be made available to Advertiser upon request.  Advertiser will have no liability for the violation by the End User of End User Terms or for any violation of End User Terms by Empyr and Publishers.
 
-2\.5.**Advertiser Authorization.** 
+2\.5.**Advertiser Authorization.**
 
 2\.5.1.Advertiser hereby authorizes Card Network / Processor to monitor and release the following information to and between Empyr and Publishers: Advertiser’s Card Network identification number(s) and Advertiser’s payment card transaction information (including, without limitation, date, purchase amount, encrypted or tokenized card numbers, and payment card type) (each of the foregoing items individually and collectively, “**Advertiser Information**”).
 
@@ -68,7 +70,7 @@ The IO and Terms and Conditions (collectively “Agreement”) govern your parti
 
 4\.1.**Invoices.** Invoices will be sent to the billing address as set forth on the IO and will include information reasonably specified by the IO, including the Marketing Fee and Offer.  Empyr shall invoice Advertiser on the 2nd of each month for the previous month’s transactions.
 
-4\.2.**Payment Terms.** Advertiser will make payment thirty (30) days from its receipt of invoice.  All payments under this Agreement shall be made in U.S. dollars by payment method set forth in the IO. 
+4\.2.**Payment Terms.** Advertiser will make payment thirty (30) days from its receipt of invoice.  All payments under this Agreement shall be made in U.S. dollars by payment method set forth in the IO.
 
 4\.3.**Expenses; Taxes.** Each Party shall bear its own costs and expenses that may be incurred as a result of its performance of this Agreement. All fees payable hereunder are exclusive of taxes. If any governmental authority levies any taxes with respect to the services performed by Empyr hereunder (excluding taxes on its properties or income), it shall invoice the Advertiser for the amount of such and Advertiser shall pay such amount within seven (7) days after receipt of invoice therefor.
 
@@ -86,11 +88,11 @@ The IO and Terms and Conditions (collectively “Agreement”) govern your parti
 
 7\.1.2.**Exclusions from Nondisclosure and Nonuse Obligations**.  The receiving party’s obligations under Section [bookmark](#bookmark).1 shall not apply to any of Confidential Information that the receiving party can document:  (a) was in the public domain at or subsequent to the time such Confidential Information was communicated to the receiving party by the disclosing party through no fault of the receiving party, or (b) was rightfully in the receiving party’s possession free of any obligation of confidence at or subsequent to the time such Confidential Information was communicated to the receiving party by the disclosing party.  A disclosure by the receiving party of Confidential Information (i) in response to a valid order by a court or other governmental body or (ii) as otherwise required by law shall not be considered to be a breach of this Agreement by the receiving party; provided, however, that the receiving party shall provide prompt prior written notice thereof to the disclosing party to enable the disclosing party to seek a protective order or otherwise prevent such disclosure.
 
-7\.1.3.Non-Circumvention.  In addition to the restrictions on disclosure and the handling of Confidential Information in Section 7.1.1, neither party shall use in any manner any of other party’s Confidential Information for the purpose of circumventing or attempting to circumvent, directly or indirectly, the intent of this Agreement, including but not limited to, use of such Confidential Information to reverse-engineer proprietary technology, to develop competitive products or services, or to directly compete with the other party. 
+7\.1.3.Non-Circumvention.  In addition to the restrictions on disclosure and the handling of Confidential Information in Section 7.1.1, neither party shall use in any manner any of other party’s Confidential Information for the purpose of circumventing or attempting to circumvent, directly or indirectly, the intent of this Agreement, including but not limited to, use of such Confidential Information to reverse-engineer proprietary technology, to develop competitive products or services, or to directly compete with the other party.
 
 7\.1.4.Neither party shall disclose any of the terms and conditions of this Agreement to any person or entity whatsoever other than legal counsel, except to the extent such disclosure may be required for accounting or tax reporting purposes or as otherwise may be required by law.  In addition, either party may disclose the existence, and the terms and conditions of this Agreement to such party’s current and prospective investors, acquirers, merger candidates and financing sources; provided that each such person or entity shall (a) be subject to reasonable obligations of confidentiality, (b) be informed of the confidential nature of the Confidential Information so disclosed, and (c) agree to hold such Confidential Information in confidence in a manner consistent with the terms thereof.  After written approval from the other party, either party to this Agreement may publish or circulate any type of press release regarding this Agreement.
 
-7\.2.Data Security and Privacy. Both Parties shall comply with all applicable laws, regulations, privacy guidelines and applicable agreements governing the collection and use of all non-public, personal information of any customer data, including without limitation the Gramm-Leach-Bliley Act (collectively, the “Privacy Rules”) to the extent applicable to the activities conducted under this Agreement.  Both parties agree to implement appropriate measures designed to meet the objectives of the Privacy Rules including to (a) maintain the security and confidentiality of customer data; (b) protect against threats or hazards to the security or integrity of customer data; and (c) protect against unauthorized access to or use of customer data that could result in substantial harm to any customer of any person.  The parties shall notify each other of any unauthorized disclosures of customer data on the same business day as the discovery.  Both Parties will take all reasonable steps to safeguard all login and password information provided by Empyr to Advertiser hereunder, so as to ensure that no unauthorized person will have access to the Empyr Platform, and that no persons authorized to have access will make any unauthorized use thereof.  Advertiser will promptly report to Empyr any unauthorized use of the Empyr Platform of which Advertiser becomes aware and will take such further steps as may reasonably be requested by Empyr to prevent unauthorized use thereof.  Advertiser will comply with all requirements provided by or on behalf of credit card companies to Company in order to ensure Empyr’s compliance with all credit card and payment-related processing Privacy Rules, and not knowingly take any action that would cause the other party to be in breach of its agreement with the credit card company, or any card association networks, as applicable, or any successor thereto.  
+7\.2.Data Security and Privacy. Both Parties shall comply with all applicable laws, regulations, privacy guidelines and applicable agreements governing the collection and use of all non-public, personal information of any customer data, including without limitation the Gramm-Leach-Bliley Act (collectively, the “Privacy Rules”) to the extent applicable to the activities conducted under this Agreement.  Both parties agree to implement appropriate measures designed to meet the objectives of the Privacy Rules including to (a) maintain the security and confidentiality of customer data; (b) protect against threats or hazards to the security or integrity of customer data; and (c) protect against unauthorized access to or use of customer data that could result in substantial harm to any customer of any person.  The parties shall notify each other of any unauthorized disclosures of customer data on the same business day as the discovery.  Both Parties will take all reasonable steps to safeguard all login and password information provided by Empyr to Advertiser hereunder, so as to ensure that no unauthorized person will have access to the Empyr Platform, and that no persons authorized to have access will make any unauthorized use thereof.  Advertiser will promptly report to Empyr any unauthorized use of the Empyr Platform of which Advertiser becomes aware and will take such further steps as may reasonably be requested by Empyr to prevent unauthorized use thereof.  Advertiser will comply with all requirements provided by or on behalf of credit card companies to Company in order to ensure Empyr’s compliance with all credit card and payment-related processing Privacy Rules, and not knowingly take any action that would cause the other party to be in breach of its agreement with the credit card company, or any card association networks, as applicable, or any successor thereto.
 
 7\.3.Advertiser obtains, or may obtain, sales information from various sources (e.g., Card Network/Processor monthly reports directly to Advertiser, Advertiser’s internal sales records, etc.). This sales information may include some elements of data that are the same as the Redemption Data (defined below). Advertiser’s use of this separately obtained sales information is not subject to the restrictions in Section 7.4.
 
@@ -146,9 +148,9 @@ The IO and Terms and Conditions (collectively “Agreement”) govern your parti
 
 13\.3.No Waiver.  The failure of either party to enforce at any time or for any period any of the provisions of this Agreement shall not be construed to be a waiver of those provisions or of the right of that party thereafter to enforce each and every provision hereof.
 
-13\.4.Notices.  Except where provided otherwise, notices hereunder shall be in writing and shall be deemed to have been fully given and received when sent electronically by Email, delivered by hand, sent by nationally recognized overnight courier, or sent by registered or certified mail, return receipt requested, postage prepaid, and properly addressed to the offices of the respective parties. 
+13\.4.Notices.  Except where provided otherwise, notices hereunder shall be in writing and shall be deemed to have been fully given and received when sent electronically by Email, delivered by hand, sent by nationally recognized overnight courier, or sent by registered or certified mail, return receipt requested, postage prepaid, and properly addressed to the offices of the respective parties.
 
-13\.5.Governing Law.  This Agreement shall be governed and construed in accordance with the laws of the State of Texas, without reference to rules regarding conflicts of law.  
+13\.5.Governing Law.  This Agreement shall be governed and construed in accordance with the laws of the State of Texas, without reference to rules regarding conflicts of law.
 
 13\.6.Severability.  If any provision of this Agreement shall be held to be illegal, invalid or unenforceable, each party agrees that such provision shall be enforced to the maximum extent permissible so as to effect the intent of the parties, and the validity, legality and enforceability of the remaining provisions of this Agreement shall not in any way be affected or impaired thereby. If necessary to effect the intent of the parties, the parties shall negotiate in good faith to amend this Agreement to replace the unenforceable language with enforceable language that reflects such intent as closely as possible.
 
@@ -162,32 +164,32 @@ The IO and Terms and Conditions (collectively “Agreement”) govern your parti
 
 14\.Defined Terms
 
-14\.1.**“**Advertiser**”** means company or brand contracting with Empyr to conduct campaigns to reach and engage consumers to drive purchases. 
+14\.1.**“Advertiser**” means company or brand contracting with Empyr to conduct campaigns to reach and engage consumers to drive purchases.
 
-14\.2.**“**Affiliate**”** means any person or entity which controls, is controlled by or is under common control with the subject entity, due to ownership or control of more than fifty percent (50%) of the equity securities of the subject entity entitled to vote in the election of directors, or otherwise having the power to control the management and policies of the subject entity.
+14\.2.**“Affiliate**” means any person or entity which controls, is controlled by or is under common control with the subject entity, due to ownership or control of more than fifty percent (50%) of the equity securities of the subject entity entitled to vote in the election of directors, or otherwise having the power to control the management and policies of the subject entity.
 
-14\.3.**“**Campaign**”** means advertising, promotional, or marketing campaigns featuring Offers enabled by the Empyr Platform so as to allow consumers to link Offers to a registered payment card in order earn the reward as described in the Offer terms and conditions.
+14\.3.**“Campaign**” means advertising, promotional, or marketing campaigns featuring Offers enabled by the Empyr Platform so as to allow consumers to link Offers to a registered payment card in order earn the reward as described in the Offer terms and conditions.
 
-14\.4. **“**Empyr Platform**”** means the technology and platform (including software, servers, website(s), and associated user interface) through which Empyr and its Publisher performs the services described in the Agreement.
+14\.4. **“Empyr Platform**” means the technology and platform (including software, servers, website(s), and associated user interface) through which Empyr and its Publisher performs the services described in the Agreement.
 
 **14.5.“Financial Institutions” means those financial services institutions that have arrangements with Empyr or Publishers to facilitate the services described in the Agreement.**
 
-14\.6.**“**Marketing Fee**”** means the marketing fee as described in the IO.  For clarity, the Marketing Fee is separate from the Offer advertised to the consumer.
+14\.6.**“Marketing Fee**” means the marketing fee as described in the IO.  For clarity, the Marketing Fee is separate from the Offer advertised to the consumer.
 
-14\.7.**“**IO**”** means a mutually agreed insertion order or other written instrument that incorporates these Terms, under which Empyr will perform the services specified therein.
+14\.7.**“IO**” means a mutually agreed insertion order or other written instrument that incorporates these Terms, under which Empyr will perform the services specified therein.
 
-14\.8.**“**Offer**”** means an advertising, marketing, or promotional offer pursuant to which an Advertiser agrees to credit the Redemption Value to consumers who make an eligible Redemption with a linked payment card.
+14\.8.**“Offer**” means an advertising, marketing, or promotional offer pursuant to which an Advertiser agrees to credit the Redemption Value to consumers who make an eligible Redemption with a linked payment card.
 
-14\.9.**“**Offer Listing**”** means a web page, links, or other information about a CLO that the Advertiser makes available for presentation to consumers on the Empyr Platform.
+14\.9.**“Offer Listing**” means a web page, links, or other information about a CLO that the Advertiser makes available for presentation to consumers on the Empyr Platform.
 
-14\.10.**“**Party**”** refers to the Advertiser, Empyr, and Publisher and collectively (“Parties”).
+14\.10.**“Party**” refers to the Advertiser, Empyr, and Publisher and collectively (“Parties”).
 
-14\.11.**“**Payment Processor**”** means the company or companies authorized by a merchant to collect, process, or settle payment card transactions.
+14\.11.**“Payment Processor**” means the company or companies authorized by a merchant to collect, process, or settle payment card transactions.
 
-14\.12.**“**Redemption**”** (and variations thereof) means the act of consummating a purchase of goods or services as advertised in, and in accordance with the terms and conditions of the Offer.
+14\.12.**“Redemption**” (and variations thereof) means the act of consummating a purchase of goods or services as advertised in, and in accordance with the terms and conditions of the Offer.
 
-14\.13.**“**Redemption Matching**”** means the act of identifying Qualified Purchases by validating the occurrence of a Redemption by matching transaction data with the terms and conditions of the Offer as defined by the Advertiser in the IO.
+14\.13.**“Redemption Matching**” means the act of identifying Qualified Purchases by validating the occurrence of a Redemption by matching transaction data with the terms and conditions of the Offer as defined by the Advertiser in the IO.
 
-14\.14.**“**Redemption Value**”** means the value of the reward available to a consumer upon Redemption of an Offer.
+14\.14.**“Redemption Value**” means the value of the reward available to a consumer upon Redemption of an Offer.
 
-14\.15. **“**Settlement Funds**”** means cash funds collected from Advertiser to be credited to consumers’ accounts of validated Redemptions.
+14\.15. **“Settlement Funds**” means cash funds collected from Advertiser to be credited to consumers’ accounts of validated Redemptions.
