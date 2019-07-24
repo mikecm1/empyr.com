@@ -68,4 +68,4 @@ fields:
     labelField: 
   label: Custom copy
   description: e.g., incl. code snippets
-  hidden: true
+  hidden: false
