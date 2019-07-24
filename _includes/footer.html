@@ -71,6 +71,9 @@
 {% if site.data.custom_code.footer_code_snippets %}
 {{ site.data.custom_code.footer_code_snippets.code_snippets_footer }}
 {% endif %}
+{% if page.custom_code %}
+{{ page.custom_code }}
+{% endif %}
 {% endcomment %}
 </body>
 

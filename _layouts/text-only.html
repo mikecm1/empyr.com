@@ -20,6 +20,16 @@ layout: default
                                     {{ page.intro_paragraph }}
                                 </p>
                                 {% endif %}
+                                {% if page.custom_css %}
+                                {{ page.custom_css }}
+                                {% endif %}
+                                {% if page.custom_code %}
+                                {{ page.custom_code }}
+                                {% endif %}
+                                {% if page.custom_text %}
+                                {{ page.custom_text }}
+                                {% endif %}
+
                                 {% if page.custom_copy %}
                                 {% for item in page.custom_copy %}
                                 {{ item.custom_text }}

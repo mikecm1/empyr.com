@@ -12,21 +12,14 @@ mainfeatures: []
 show_mainfeatures: false
 headline: Submit a Support Request
 intro_paragraph: ''
-custom_copy:
-- edit_contents: Edit contents
-  custom_code: '&lt;iframe style="border:none; height: 570px" src="<a href="https://empyrnationalsubmissions.secure.force.com/empyr/"
-    title="https://empyrnationalsubmissions.secure.force.com/empyr/">https://empyrnationalsubmissions.secure.force.com/empyr/</a>"
-    scrolling="no"&gt;&lt;/iframe&gt;    &lt;script src="<a href="https://0f0b683ca70a66959785-07de6309e194794c2878958de6e66f45.ssl.cf5.rackcdn.com/iframeResizer.min.js"
-    title="https://0f0b683ca70a66959785-07de6309e194794c2878958de6e66f45.ssl.cf5.rackcdn.com/iframeResizer.min.js">https://0f0b683ca70a66959785-07de6309e194794c2878958de6e66f45.ssl.cf5.rackcdn.com/iframeResizer.min.js</a>"&gt;&lt;/script&gt;    &lt;script&gt;        iFrameResize({            log:
-    true        })    &lt;/script&gt;'
-  custom_text: |-
-    <iframe style="border:none;min-height: 570px" src="https://empyrnationalsubmissions.secure.force.com/empyr/" scrolling="no"></iframe>
+custom_text: |-
+  <iframe style="border:none;min-height: 570px" src="https://empyrnationalsubmissions.secure.force.com/empyr/" scrolling="no"></iframe>
 
-        <script src="https://0f0b683ca70a66959785-07de6309e194794c2878958de6e66f45.ssl.cf5.rackcdn.com/iframeResizer.min.js"></script>
-        <script>
-            iFrameResize({
-                log: true
-            })
+    <script src="https://0f0b683ca70a66959785-07de6309e194794c2878958de6e66f45.ssl.cf5.rackcdn.com/iframeResizer.min.js"></script>
+    <script>
+        iFrameResize({
+            log: true
+        })
         </script>
 custom_code: "<script>\n     $(document).ready(function(){\n     $('.markdown-block
   .sqs-block-content h2').css('cursor','pointer');\n     $(\".markdown-block .sqs-block-content
