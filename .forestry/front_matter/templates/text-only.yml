@@ -5,30 +5,13 @@ fields:
 - type: text
   name: layout
   label: layout
+  hidden: true
 - type: text
   name: title
   label: title
-- type: text
-  name: heading
-  label: heading
 - type: textarea
   name: description
   label: description
 - type: text
   name: keywords
   label: keywords
-- type: textarea
-  name: sub_heading
-  label: sub_heading
-- type: boolean
-  name: show_staff
-  label: show_staff
-- type: boolean
-  name: show_news
-  label: show_news
-- type: list
-  name: mainfeatures
-  label: mainfeatures
-- type: boolean
-  name: show_mainfeatures
-  label: show_mainfeatures
