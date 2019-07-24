@@ -2,10 +2,6 @@
 label: Text Only
 hide_body: false
 fields:
-- type: text
-  name: layout
-  label: layout
-  hidden: true
 - name: headline
   type: text
   config:
