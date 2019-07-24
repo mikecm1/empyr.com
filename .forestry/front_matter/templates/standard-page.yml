@@ -45,5 +45,6 @@ fields:
   default: standard-page
   hidden: true
 pages:
+- about-empyr.md
 - careers.md
 - joinus.md
