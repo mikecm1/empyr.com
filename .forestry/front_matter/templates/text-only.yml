@@ -40,7 +40,7 @@ fields:
       wysiwyg: true
       schema:
         format: html-blocks
-    label: Custom code
+    label: Custom code (HTML Format)
   - name: custom_text
     type: textarea
     default: ''
@@ -58,7 +58,7 @@ fields:
       wysiwyg: true
       schema:
         format: markdown
-    label: Custom markdown
+    label: Custom code (Markdown Format)
   config:
     min: 
     max: 
