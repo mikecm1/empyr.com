@@ -37,7 +37,7 @@ fields:
     config:
       required: false
     label: Edit contents
-    hidden: true
+    hidden: false
     default: Edit contents
   - name: custom_code
     type: textarea
