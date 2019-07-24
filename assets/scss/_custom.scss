@@ -2894,7 +2894,7 @@ img.lazyfade.lazyloaded {
     }
     p{
       &:not(:last-child){
-        margin-bottom: $spacer;
+        margin-bottom: $spacer*1.5;
       }
     }
     blockquote{

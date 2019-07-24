@@ -73,7 +73,7 @@ $(document).ready(function () {
             slidesPerView: 2,
             spaceBetween: 0,
         });
-
+        AOS.refresh();
     });
     Barba.Dispatcher.on('newPageReady', function (currentStatus, oldStatus, container, newPageRawHTML) {
         var $newPageHead = $('<head />').html(
@@ -95,6 +95,7 @@ $(document).ready(function () {
         const navigationLinkIsActive = navigation.querySelector(("a[href='" + link + "']"));
         Array.prototype.forEach.call(navigationLinks, (navigationLink) => navigationLink.classList.remove('active'));
         // navigationLinkIsActive.classList.add('active');
+
     });
     Barba.Dispatcher.on('initStateChange', function () {
         if (Barba.HistoryManager.history.length <= 1) {
