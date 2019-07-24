@@ -30,7 +30,7 @@ Displays the site's navigation using the jekyll-menus plugin
                                         <img src="{{ item.icon }}" width="48" height="48" />
                                     </div>
                                     <div class="media-body">
-                                        <span>{{ item.title }}</span>
+                                        <span>For {{ item.title }}</span>
                                             <p class="small mb-0">{{ item.description }}</p>
                                         
                                     </div>
@@ -40,9 +40,9 @@ Displays the site's navigation using the jekyll-menus plugin
                             {% endfor %}
                         </div>
                         <div class="drop-btm">
-  <a class="dropdown-item pb-1 pt-0" href="#">Questions? Schedule a demo <i class="icon-arrow_forward"></i></a>
-  <a class="dropdown-item pb-1" href="#">Support options</a>
-  <a class="dropdown-item" href="#">National Terms</a>
+  <a class="dropdown-item pb-0 pt-0" href="#">Questions? Schedule a demo <i class="icon-arrow_forward"></i></a>
+  <!-- <a class="dropdown-item pb-1" href="#">Support options</a>
+  <a class="dropdown-item" href="#">National Terms</a> -->
                         </div>
                     </div>
                         {% endif %}
