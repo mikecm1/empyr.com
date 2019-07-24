@@ -20,18 +20,63 @@ custom_code: |-
        $(".markdown-block .sqs-block-content h2").click(function() {$(this).nextUntil("h2").slideToggle();});
        });
        </script>
-custom_css: "<style>\nh2 {\n    background: #fff;\n    /* box-shadow: 0px 10px 11px
-  -15px #332a503d; */\n    border-radius: 9px;\n    border: 1px solid #d6dde5;\n    font-size:
-  18px;\n    padding: 18px 20px;\n    text-transform: none;\n    letter-spacing: -0.2px;\n
-  \   font-family: Roboto, sans-serif;\n    margin-top: 0;\n    margin-bottom: -1px;\n
-  \   z-index: 1;\n    position: relative;\n    font-weight: 500;\n    color: #2f464f;\n
-  \   -webkit-font-smoothing: initial;\n}\n  \np {\n    color: #29292e;\n    margin-bottom:
-  0;\n    padding: 0 30px 0px;\n    position: relative;\n    z-index: 0;\n    margin-top:
-  15px;\n    margin-bottom: 15px;\n}\n  \n  #content-wrapper .content {\n    background-color:
-  #f6f8f9;\n}\n  \n  .content-inner {\n    background-color: transparent;\n}\n  \n
-  \ {\n    clear: none;\n    padding-top: 0;\n}\n  \n  h3 {\n    font-size: 37px;\n
-  \   letter-spacing: 0;\n    margin: 0;\n    padding: 0;\n}\n  \n              iframe
-  {\n                width: 100%\n            }\n  \n  \n</style>"
+custom_css: |-
+  <style>
+  h2 {
+  background: #fff;
+  /* box-shadow: 0px 10px 11px -15px #332a503d; */
+  border-radius: 9px;
+  border: 1px solid #d6dde5;
+  font-size: 18px;
+  padding: 18px 20px;
+  text-transform: none;
+  letter-spacing: -0.2px;
+  font-family: Roboto, sans-serif;
+  margin-top: 0;
+  margin-bottom: -1px;
+  z-index: 1;
+  position: relative;
+  font-weight: 500;
+  color: #2f464f;
+  -webkit-font-smoothing: initial;
+  }
+
+  p {
+  color: #29292e;
+  margin-bottom: 0;
+  padding: 0 30px 0px;
+  position: relative;
+  z-index: 0;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  }
+
+  #content-wrapper .content {
+  background-color: #f6f8f9;
+  }
+
+  .content-inner {
+  background-color: transparent;
+  }
+
+  {
+  clear: none;
+  padding-top: 0;
+  }
+
+  h3 {
+  font-size: 37px;
+  letter-spacing: 0;
+  margin: 0;
+  padding: 0;
+  }
+
+  iframe {
+  width: 100%
+  }
+
+
+  </style>
 custom_text: |-
   <iframe style="border:none;min-height: 570px" src="https://empyrnationalsubmissions.secure.force.com/empyr/" scrolling="no"></iframe>
 
