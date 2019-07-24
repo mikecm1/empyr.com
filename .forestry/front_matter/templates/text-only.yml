@@ -25,6 +25,15 @@ fields:
 - type: text
   name: keywords
   label: keywords
+- name: custom_code
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: custom code
 - name: custom_copy
   type: field_group_list
   fields:
@@ -59,3 +68,4 @@ fields:
     labelField: 
   label: Custom copy
   description: e.g., incl. code snippets
+  hidden: true
