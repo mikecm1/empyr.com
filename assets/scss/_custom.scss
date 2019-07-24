@@ -629,7 +629,7 @@ p.latest {
                 @include media-breakpoint-up(md) {
                     // font-size: 56px;
                     // font-weight: 500;
-                    letter-spacing: -1.4px;
+                    letter-spacing: -0.7px;
                     line-height: 1.15;
                     padding-right: 20px;
                 }
@@ -660,7 +660,16 @@ p.latest {
         position: relative;
         background: #fff;
         padding: inherit;
-
+        h1,
+        p {
+            color: initial;
+        }
+        .display-4 {
+            @include media-breakpoint-up('xxl') {
+                font-size: 2.7rem;
+                line-height: 1.2;
+            }
+        }
         h4 {
             &.tag {
                 color: #fff;
@@ -683,10 +692,11 @@ p.latest {
 
         .bg-cover {
             // background-image: linear-gradient(-168deg,#64b5ff 0%,#002cff 100%);
-            background: $background-gradient;
-            background-repeat: no-repeat !important;
-            background-position: -203px 37px, center center;
-            background-size: 83%, 100%;
+//             background: $background-gradient;
+//             background-repeat: no-repeat !important;
+//             background-position: -203px 37px, center center;
+//             background-size: 83%, 100%;
+background: #fff;
             padding: 90px 0 130px;
 
             @include media-breakpoint-up(sm) {
@@ -704,22 +714,7 @@ p.latest {
             }
 
             &:before {
-                position: absolute;
-                content: '';
-                width: 55vw;
-                height: 100%;
-                padding-bottom: 130px;
-                background: linear-gradient(165deg, #fff0 15%, #4204e6 50%);
-                background-repeat: no-repeat;
-                background-size: 100%;
-                background-position: 100% 23%;
-                bottom: 2vw;
-                right: 0;
-                opacity: .365;
-                min-width: 830px;
-                z-index: 0;
-                -webkit-clip-path: polygon(-29% 0%, 100% 0, 100% 100%, 124% 100%);
-                clip-path: polygon(-29% 0%, 100% 0, 100% 100%, 124% 100%);
+              display: none;
             }
         }
     }
