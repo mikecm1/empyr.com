@@ -16,10 +16,10 @@ Displays all of the people from the _people/ collection in a grid
                     <img alt="{{ person.title }}" src="{{ "/assets/pictures/image-540x540-dark.png" | absolute_url }}">
                             {% endif %}
 						<div class=" team-hover text-center">
-                    <h4>{{ person.title }}
+                    <h4 class="">{{ person.title }}
                         {% if person.sub_heading %}
                     </h4>
-                        <span class="subtitle small">
+                        <span class="subtitle">
                             {{ person.sub_heading }}
                         </span>{% endif %}
                 </div>
