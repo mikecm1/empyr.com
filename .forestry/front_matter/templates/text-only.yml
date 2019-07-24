@@ -6,6 +6,11 @@ fields:
   name: layout
   label: layout
   hidden: true
+- name: headline
+  type: text
+  config:
+    required: false
+  label: headline
 - type: text
   name: title
   label: title
@@ -15,3 +20,12 @@ fields:
 - type: text
   name: keywords
   label: keywords
+- name: intro_paragraph
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: intro_paragraph
