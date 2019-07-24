@@ -117,6 +117,7 @@ section_three:
     text: Learn More
     href: "/advertiser"
 show_user_testimonials: false
+show_lift: true
 user_testimonials:
   title: ''
   testimonials: []
