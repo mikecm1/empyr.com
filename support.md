@@ -14,11 +14,11 @@ headline: Support
 intro_paragraph: ''
 custom_copy:
 - edit_contents: Edit contents
-  custom_code: '<p>&lt;iframe style="border:none" src="<a href="https://empyrnationalsubmissions.secure.force.com/empyr/"
+  custom_code: '&lt;iframe style="border:none" src="<a href="https://empyrnationalsubmissions.secure.force.com/empyr/"
     title="https://empyrnationalsubmissions.secure.force.com/empyr/">https://empyrnationalsubmissions.secure.force.com/empyr/</a>"
-    scrolling="no"&gt;&lt;/iframe&gt;</p><p>    &lt;script src="<a href="https://0f0b683ca70a66959785-07de6309e194794c2878958de6e66f45.ssl.cf5.rackcdn.com/iframeResizer.min.js"
-    title="https://0f0b683ca70a66959785-07de6309e194794c2878958de6e66f45.ssl.cf5.rackcdn.com/iframeResizer.min.js">https://0f0b683ca70a66959785-07de6309e194794c2878958de6e66f45.ssl.cf5.rackcdn.com/iframeResizer.min.js</a>"&gt;&lt;/script&gt;</p><p>    &lt;script&gt;</p><p>        iFrameResize({</p><p>            log:
-    true</p><p>        })</p><p>    &lt;/script&gt;</p>'
+    scrolling="no"&gt;&lt;/iframe&gt;    &lt;script src="<a href="https://0f0b683ca70a66959785-07de6309e194794c2878958de6e66f45.ssl.cf5.rackcdn.com/iframeResizer.min.js"
+    title="https://0f0b683ca70a66959785-07de6309e194794c2878958de6e66f45.ssl.cf5.rackcdn.com/iframeResizer.min.js">https://0f0b683ca70a66959785-07de6309e194794c2878958de6e66f45.ssl.cf5.rackcdn.com/iframeResizer.min.js</a>"&gt;&lt;/script&gt;    &lt;script&gt;        iFrameResize({            log:
+    true        })    &lt;/script&gt;'
   custom_text: ''
   custom_markdown: "What is a Card Linked Offers Program?\n\n\\-----------------\n\nA
     Card Linked Offers Program is a discreet rewards program that gives you cash back
