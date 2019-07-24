@@ -23,19 +23,19 @@ custom_copy:
     .sqs-block-content h2').css('cursor','pointer');\n     $(\".markdown-block .sqs-block-content
     h2\").nextUntil(\"h2\").slideToggle();\n     $(\".markdown-block .sqs-block-content
     h2\").click(function() {$(this).nextUntil(\"h2\").slideToggle();});\n     });\n
-    \    </script>\n\n<style>\n.sqs-block-markdown h2 {\n    background: #fff;\n    /*
-    box-shadow: 0px 10px 11px -15px #332a503d; */\n    border-radius: 9px;\n    border:
-    1px solid #d6dde5;\n    font-size: 18px;\n    padding: 18px 20px;\n    text-transform:
-    none;\n    letter-spacing: -0.2px;\n    font-family: Roboto, sans-serif;\n    margin-top:
+    \    </script>\n\n<style>\nh2 {\n    background: #fff;\n    /* box-shadow: 0px
+    10px 11px -15px #332a503d; */\n    border-radius: 9px;\n    border: 1px solid
+    #d6dde5;\n    font-size: 18px;\n    padding: 18px 20px;\n    text-transform: none;\n
+    \   letter-spacing: -0.2px;\n    font-family: Roboto, sans-serif;\n    margin-top:
     0;\n    margin-bottom: -1px;\n    z-index: 1;\n    position: relative;\n    font-weight:
-    500;\n    color: #2f464f;\n    -webkit-font-smoothing: initial;\n}\n  \n.sqs-block-markdown
-    p {\n    color: #29292e;\n    margin-bottom: 0;\n    padding: 0 30px 0px;\n    position:
+    500;\n    color: #2f464f;\n    -webkit-font-smoothing: initial;\n}\n  \np {\n
+    \   color: #29292e;\n    margin-bottom: 0;\n    padding: 0 30px 0px;\n    position:
     relative;\n    z-index: 0;\n    margin-top: 15px;\n    margin-bottom: 15px;\n}\n
     \ \n  #content-wrapper .content {\n    background-color: #f6f8f9;\n}\n  \n  .content-inner
-    {\n    background-color: transparent;\n}\n  \n  .sqs-block-markdown {\n    clear:
-    none;\n    padding-top: 0;\n}\n  \n  h3 {\n    font-size: 37px;\n    letter-spacing:
-    0;\n    margin: 0;\n    padding: 0;\n}\n  \n              iframe {\n                width:
-    100%\n            }\n  \n  \n</style>\n<iframe style=\"border:none\" src=\"https://empyrnationalsubmissions.secure.force.com/empyr/\"
+    {\n    background-color: transparent;\n}\n  \n  {\n    clear: none;\n    padding-top:
+    0;\n}\n  \n  h3 {\n    font-size: 37px;\n    letter-spacing: 0;\n    margin: 0;\n
+    \   padding: 0;\n}\n  \n              iframe {\n                width: 100%\n
+    \           }\n  \n  \n</style>\n<iframe style=\"border:none\" src=\"https://empyrnationalsubmissions.secure.force.com/empyr/\"
     scrolling=\"no\"></iframe>\n\n    <script src=\"https://0f0b683ca70a66959785-07de6309e194794c2878958de6e66f45.ssl.cf5.rackcdn.com/iframeResizer.min.js\"></script>\n
     \   <script>\n        iFrameResize({\n            log: true\n        })\n    </script>"
   custom_markdown: "What is a Card Linked Offers Program?\n-----------------\nA Card
