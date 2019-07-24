@@ -23,6 +23,10 @@ layout: default
                                 {% if page.custom_copy %}
                                 {% for item in page.custom_copy %}
                                 {{ item.custom_text }}
+                                <div class="sqs-block-content">
+                                        {{ item.custom_markdown }}
+                                </div>
+
                                 {% endfor %}
                                 {% endif %}
                                 {{ content }}
