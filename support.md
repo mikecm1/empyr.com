@@ -12,6 +12,26 @@ mainfeatures: []
 show_mainfeatures: false
 headline: Submit a Support Request
 intro_paragraph: ''
+custom_code: |-
+  <script>
+       $(document).ready(function(){
+       $('.markdown-block .sqs-block-content h2').css('cursor','pointer');
+       $(".markdown-block .sqs-block-content h2").nextUntil("h2").slideToggle();
+       $(".markdown-block .sqs-block-content h2").click(function() {$(this).nextUntil("h2").slideToggle();});
+       });
+       </script>
+custom_css: "<style>\nh2 {\n    background: #fff;\n    /* box-shadow: 0px 10px 11px
+  -15px #332a503d; */\n    border-radius: 9px;\n    border: 1px solid #d6dde5;\n    font-size:
+  18px;\n    padding: 18px 20px;\n    text-transform: none;\n    letter-spacing: -0.2px;\n
+  \   font-family: Roboto, sans-serif;\n    margin-top: 0;\n    margin-bottom: -1px;\n
+  \   z-index: 1;\n    position: relative;\n    font-weight: 500;\n    color: #2f464f;\n
+  \   -webkit-font-smoothing: initial;\n}\n  \np {\n    color: #29292e;\n    margin-bottom:
+  0;\n    padding: 0 30px 0px;\n    position: relative;\n    z-index: 0;\n    margin-top:
+  15px;\n    margin-bottom: 15px;\n}\n  \n  #content-wrapper .content {\n    background-color:
+  #f6f8f9;\n}\n  \n  .content-inner {\n    background-color: transparent;\n}\n  \n
+  \ {\n    clear: none;\n    padding-top: 0;\n}\n  \n  h3 {\n    font-size: 37px;\n
+  \   letter-spacing: 0;\n    margin: 0;\n    padding: 0;\n}\n  \n              iframe
+  {\n                width: 100%\n            }\n  \n  \n</style>"
 custom_text: |-
   <iframe style="border:none;min-height: 570px" src="https://empyrnationalsubmissions.secure.force.com/empyr/" scrolling="no"></iframe>
 
@@ -21,22 +41,6 @@ custom_text: |-
             log: true
         })
         </script>
-custom_code: "<script>\n     $(document).ready(function(){\n     $('.markdown-block
-  .sqs-block-content h2').css('cursor','pointer');\n     $(\".markdown-block .sqs-block-content
-  h2\").nextUntil(\"h2\").slideToggle();\n     $(\".markdown-block .sqs-block-content
-  h2\").click(function() {$(this).nextUntil(\"h2\").slideToggle();});\n     });\n
-  \    </script>\n\n<style>\nh2 {\n    background: #fff;\n    /* box-shadow: 0px 10px
-  11px -15px #332a503d; */\n    border-radius: 9px;\n    border: 1px solid #d6dde5;\n
-  \   font-size: 18px;\n    padding: 18px 20px;\n    text-transform: none;\n    letter-spacing:
-  -0.2px;\n    font-family: Roboto, sans-serif;\n    margin-top: 0;\n    margin-bottom:
-  -1px;\n    z-index: 1;\n    position: relative;\n    font-weight: 500;\n    color:
-  #2f464f;\n    -webkit-font-smoothing: initial;\n}\n  \np {\n    color: #29292e;\n
-  \   margin-bottom: 0;\n    padding: 0 30px 0px;\n    position: relative;\n    z-index:
-  0;\n    margin-top: 15px;\n    margin-bottom: 15px;\n}\n  \n  #content-wrapper .content
-  {\n    background-color: #f6f8f9;\n}\n  \n  .content-inner {\n    background-color:
-  transparent;\n}\n  \n  {\n    clear: none;\n    padding-top: 0;\n}\n  \n  h3 {\n
-  \   font-size: 37px;\n    letter-spacing: 0;\n    margin: 0;\n    padding: 0;\n}\n
-  \ \n              iframe {\n                width: 100%\n            }\n  \n  \n</style>"
 
 ---
 What is a Card Linked Offers Program?
