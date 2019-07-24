@@ -10,15 +10,18 @@ layout: default
             <div class="col">
               <div class="row justify-content-center">
                 <div class="col-xl-9 col-lg-8">
+                        {% if page.headline and page.headline != "" %}
                   <h1 class="my-2">{{ page.headline }}</h1>
                   <hr>
+                  {% endif %}
                   <article class="article">
+                        {% if page.intro_paragraph and page.intro_paragraph != "" %}
                     <p class="lead">
                     {{ page.intro_paragraph }}
                     </p>
+                    {% endif %}
                     {{ content }}
                   </article>
-                  <hr>
                 </div>
               </div>
             </div>
