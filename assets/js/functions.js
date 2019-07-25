@@ -74,6 +74,13 @@ $(document).ready(function () {
             spaceBetween: 0,
         });
         AOS.refresh();
+        $.getScript( "https://js.hsforms.net/forms/v2.js", function( data, textStatus, jqxhr ) {
+            hbspt.forms.create({
+            portalId: "2556018",
+            formId: "2cea4183-12c8-465b-a317-33a3d62f0874",
+            css: ""
+            });
+            });
     });
     Barba.Dispatcher.on('newPageReady', function (currentStatus, oldStatus, container, newPageRawHTML) {
         var $newPageHead = $('<head />').html(

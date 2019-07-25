@@ -7,16 +7,16 @@ A general page layout. Used by default for all content on the site.
 
 <div class="sub">
     <div class="hero sub default">
-        <div class="bg-cover">
-            <div class="container pt-1">
-                <div class="row poster-feature-row pb-4">
-                        <div class="col-12 col-md-10 order-1 order-md-1">
+        <div>
+            <div class="container pt-5">
+                <div class="row poster-feature-row pt-5">
+                        <div class="col-12 col-md-10 order-1 order-md-1 pt-2 pb-3">
                         {% if page.tagline and page.tagline != "" %}
                         <div data-aos="basic">
                             <h4 class="tag">{{ page.tagline }}</h4>
                         </div>
                         {% endif %}
-                        <h1 class="mb-2 display-4" data-aos="basic" data-aos-delay="50">{{ page.heading | default: page.title }}</h1>
+                        <h1 class="mb-2 display-5" data-aos="basic" data-aos-delay="50">{{ page.heading | default: page.title }}</h1>
                         {% if page.sub_heading and page.sub_heading != "" %}
                         <div class="opacity-6"><h5 class="text-blue-black mb-4" data-aos="basic" data-aos-delay="150"><small class="font-weight-normal">{{ page.sub_heading }}</small></h5></div>
                         {% endif %}
@@ -32,9 +32,24 @@ A general page layout. Used by default for all content on the site.
     <div class="container">
         <div class="row">
             <div class="col-8">
+                    <div class="modifier">
                 {{ content }}
+                    </div>
             </div>
         </div>
     </div>
+    {% if page.custom_css %}
+    {{ page.custom_css }}
+    {% endif %}
+    {% if page.custom_text %}
+    {{ page.custom_text }}
+    {% endif %}
+
+    {% if page.custom_copy %}
+    {% for item in page.custom_copy %}
+    {{ item.custom_text }}
+
+    {% endfor %}
+    {% endif %}
     {% include staff.html %}
 </div>

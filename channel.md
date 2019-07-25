@@ -109,11 +109,5 @@ section_three:
   button:
     text: Learn More
     href: "/advertiser"
-menu:
-  partners:
-    weight: 3
-    identifier: Channel Partners
-    description: Create a new revenue stream with Empyr
-    icon: /img/icon-dropdown-3.svg
 
 ---
