@@ -9,11 +9,11 @@
     border-color: $border;
     @include box-shadow($btn-box-shadow);
   
-    @include hover {
-      color: color-yiq($hover-background);
-      @include gradient-bg($hover-background);
-      border-color: $hover-border;
-    }
+//     @include hover {
+//       color: color-yiq($hover-background);
+//       @include gradient-bg($hover-background);
+//       border-color: $hover-border;
+//     }
   
     &:focus,
     &.focus {

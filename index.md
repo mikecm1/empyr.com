@@ -36,7 +36,7 @@ header_screen_two: "/uploads/2019/07/app-partner.jpg"
 header_screen_three: "/uploads/2019/07/app-yelp.jpg"
 hero_button:
   text: Get Started
-  href: "/contact"
+  href: "/joinus"
   testing: publisher.md
   related_page: advertiser.md
 show_news: true

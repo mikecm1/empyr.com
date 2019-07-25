@@ -936,7 +936,7 @@ h1 {
 
 .site-header a {
     // color: $gray-300;
-    transition: ease-in-out color .15s;
+    transition: ease-in-out color .1s;
 
     &.current {
         color: $red !important;
@@ -946,7 +946,7 @@ h1 {
 .site-header a:hover {
     // color: $white;
     // text-decoration: none;
-    background: transparent;
+//     background: transparent;
 }
 
 li.nav-item {
