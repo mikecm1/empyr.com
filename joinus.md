@@ -11,6 +11,7 @@ mainfeatures: []
 show_mainfeatures: false
 headline: Partner with Us
 intro_paragraph: ''
+show_contact: true
 custom_code: |-
   <script>
        $(document).ready(function(){
@@ -209,12 +210,26 @@ custom_text: |-
     <!--[if lte IE 8]>
     <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
     <![endif]-->
-    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
-    <script>
+    <script data-inject>
+    function defer(method) {
+    if (window.jQuery) {
+    method();
+    } else {
+    setTimeout(function() { defer(method) }, 50);
+    }
+    }
+    defer(function () {
+    var element = document.querySelector('[id^="hbspt-form"]');
+    if (typeof (element) != 'undefined' && element != null) {
+    } else {
+    $.getScript("https://js.hsforms.net/forms/v2.js", function (data, textStatus, jqxhr) {
     hbspt.forms.create({
     portalId: "2556018",
     formId: "2cea4183-12c8-465b-a317-33a3d62f0874",
     css: ""
+    });
+    });
+    }
     });
     </script>
 menu:
