@@ -280,6 +280,11 @@ fields:
   - type: text
     name: heading
     label: heading
+  - name: logo
+    type: file
+    config:
+      maxSize: 250
+    label: Logo
   - type: text
     name: description
     label: description
