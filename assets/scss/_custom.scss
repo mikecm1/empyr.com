@@ -513,7 +513,7 @@ p.latest {
     }
 
     @include media-breakpoint-up(lg) {
-        padding: 120px 0 130px;
+        padding: 130px 0;
     }
 
     @include media-breakpoint-up(xxl) {
