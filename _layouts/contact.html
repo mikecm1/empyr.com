@@ -14,12 +14,13 @@ A general page layout. Used by default for all content on the site.
                 <p class="small text-white text-center mb-1 opacity-8" style="letter-spacing: 3.3px; font-size: 12px">
                    PARTNER WITH EMPYR
                 </p>
-                    <h1 class="display-4 mb-2 text-center text-white pb-2">{{ page.heading | default: page.title }}</h1>
+                    <h1 class="mb-2 text-center text-white pb-2">{{ page.heading | default: page.title }}</h1>
               <div class="card bg-gray-10 shadow border-0 h-auto">
                 <!-- <div class="card-header bg-white pb-5">
                         <h1 class="mb-2 display-4 text-center text-whit pb-2" data-aos="basic" data-aos-delay="50">{{ page.heading | default: page.title }}</h1>
                 </div> -->
                 <div class="card-body px-3 pt-2 pb-3 px-md-4 pt-md-1 pb-md-4">
+                    <p class="text-center pt-2">Please complete the form below and we will be in touch shortly.</p>
                   {% if page.show_contact %}
                   {{ page.custom_text }}
                   {% endif %}
