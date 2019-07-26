@@ -257,7 +257,10 @@ layout: default
             <section class="border-top py-md-5">
                 <div class="container full">
                     <div class="testimonials prof">
-                        <h1 class="text-center mb-4 pb-md-4">You're in good company.</h1>
+                        <div class="text-center">
+                            <h1 class="mb-2">You're in good company.</h1>
+                            <p class="sub-text large mb-5">{{ page.cta_footer_subheader }}</p>
+                        </div>
                         <div class="swiper-container">
                             <div class="swiper-wrapper">
                                 {% for item in page.testimonials %}
@@ -298,7 +301,7 @@ layout: default
                         {% for item in page.company_types %}
                         <div class="col-12 col-lg-4 mb-3 mb-lg-0 px-1">
                             <a href="{{ item.url | absolute_url }}">
-                                <div class="card partner py-5 px-3 p-xxl-">
+                                <div class="card partner py-5 px-3">
                                     <img src="{{ item.icon }}" class="icon">
                                     <p class="text-primary small mb-0">{{ item.badge
                                     }}</p>
