@@ -275,9 +275,6 @@ fields:
   label: Company Types CTAs
   fields:
   - type: text
-    name: badge
-    label: heading
-  - type: text
     name: heading
     label: heading
   - name: logo
