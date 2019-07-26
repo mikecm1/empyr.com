@@ -9,7 +9,9 @@ p {
 .lead {
 	font-size: $lead-font-size;
   	font-weight: $lead-font-weight;
-	// line-height: $paragraph-line-height;
+  	color: lighten($body-color, 20%);
+// 	line-height: $paragraph-line-height;
+	    line-height: 1.9;
 // 	margin-top: 1rem;
 
 	+ .btn-wrapper {
