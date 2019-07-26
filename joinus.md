@@ -105,6 +105,16 @@ custom_css: |-
     -webkit-font-smoothing: antialiased;
     text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
     }
+    
+    .footer-cta {
+        background: #060609;
+    }
+
+    .footer-cta:before {
+    transform: scaleY(-1);
+    top: 2px;
+        opacity: 0.6;
+    }
 
     .hs-form fieldset {
     max-width: 100% !important;

@@ -1,7 +1,7 @@
 ---
 layout: standard-page
 title: About Empyr
-heading: Our Mission– To Make Earning Rewards On In-Store Purchases as Effortless
+heading: Make Earning Rewards On In-Store Purchases as Effortless
   as Breathing
 description: Empyr's technology makes earning rewards on in-store purchases so easy,
   sometimes it happens without you even thinking about it, kinda like breathing.  We

@@ -6,50 +6,69 @@ A general page layout. Used by default for all content on the site.
 {% endcomment %}
 
 <div class="sub">
-    <div class="hero sub default">
-        <div>
-            <div class="container pt-5">
-                <div class="row poster-feature-row pt-5">
-                        <div class="col-12 col-md-10 order-1 order-md-1 pt-2 pb-3 modify">
-                        {% if page.tagline and page.tagline != "" %}
-                        <div data-aos="basic">
-                            <h4 class="tag">{{ page.tagline }}</h4>
+        <div class="hero d-flex py-5" style="position: relative !important;">
+                <div class="container full container-fluid d-flex flex-column
+                justify-content-between pt-5">
+                    <div class="break-out poster poster-home z1">
+                        <div class="row justify-content-between align-items-center
+                        flex-grow">
+                            <div class="col-12 col-md-8 col-lg-10 col-1400-10
+                            poster-home-text">
+                                <h1 class="display-5 mb-1 mb-sm-2" data-aos="basic" data-aos-delay="100">{{ page.heading | default:page.title }}</h1>
+                                {% if page.sub_heading and page.sub_heading != "" %}
+                                <p class="mb-2 pt-1 pt-sm-0" data-aos="basic" data-aos-delay="150" style="max-width: 100% !important;">{{ page.sub_heading }}</p>
+                                {% endif %}
+                                {% if page.hero_button.text and page.hero_button.text != "" %}
+                                <div class="pb-2 d-flex flex-column flex-md-row" data-aos="basic" data-aos-delay="250">
+                                    {% if page.hero_button %}
+                                    <a href="{{ page.hero_button.href | absolute_url }}" class="btn btn-lg btn-white mb-2 mb-md-0
+                                    primary">{{ page.hero_button.text }}</a>
+                                    {% endif %}
+                                    {% if page.second_button %}
+                                    <a href="{{ page.second_button.href | absolute_url
+                                    }}" class="btn btn-lg btn-secondary secondary d-non
+                                    d-lg-block">{{ page.second_button.text }}</a>
+                                    {% endif %}
+                                </div>
+                                {% endif %}
+                            </div>
                         </div>
-                        {% endif %}
-                        <h1 class="mb-2 display-4" data-aos="basic" data-aos-delay="50">{{ page.heading | default: page.title }}</h1>
-                        {% if page.sub_heading and page.sub_heading != "" %}
-                        <div class="opacity-6"><h5 class="text-blue-black mb-4" data-aos="basic" data-aos-delay="150"><small class="font-weight-normal">{{ page.sub_heading }}</small></h5></div>
-                        {% endif %}
                     </div>
-                    <!-- <div class="col-12 col-md-3 order-1 order-md-2 pl-md-0 mb-4 mb-md-0"><img class="w-100" src="./assets/pictures/cover-2.png" /></div> -->
+
+                </div>
+                <!-- <svg class="wave" preserveAspectRatio="xMinYMax meet" viewBox="0 0 1440 97" xmlns="http://www.w3.org/2000/svg">
+                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <g transform="translate(0.000000, -583.000000)" fill="#f9fafb">
+                            <path d="M1440,680 L0,680 L0,583 L373.174127,583 C383.828357,583 394.290441,585.836954 403.485166,591.2193 L522.240124,660.735284 C531.434849,666.11763 541.896934,668.954584 552.551164,668.954584 L1440,668.954584 L1440,680 Z" id="Path"></path>
+                        </g>
+                    </g>
+                </svg> -->
+                <div class="header-bg">
                 </div>
             </div>
-
-        </div>
-    </div>
 </div>
 <div class="bg-gray-10 content content-narrow py-5">
     <div class="container">
-        <div class="row mx-auto">
+        <div class="row">
             <div class="col-8">
-                    {% if page.custom_css %}
-                    {{ page.custom_css }}
-                    {% endif %}
-                    {% if page.show_contact %}
-                    {{ page.custom_text }}
-                    {% endif %}
-
-                    {% if page.custom_copy %}
-                    {% for item in page.custom_copy %}
-                    {{ item.custom_text }}
-
-                    {% endfor %}
-                    {% endif %}
                     <div class="modifier">
                 {{ content }}
                     </div>
             </div>
         </div>
     </div>
+    {% if page.custom_css %}
+    {{ page.custom_css }}
+    {% endif %}
+    {% if page.custom_text %}
+    {{ page.custom_text }}
+    {% endif %}
+
+    {% if page.custom_copy %}
+    {% for item in page.custom_copy %}
+    {{ item.custom_text }}
+
+    {% endfor %}
+    {% endif %}
     {% include staff.html %}
 </div>
