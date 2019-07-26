@@ -4,8 +4,38 @@ layout: default
 {% comment %}
 A general page layout. Used by default for all content on the site.
 {% endcomment %}
+{% if page.custom_css %}
+{{ page.custom_css }}
+{% endif %}
+<section class="section section-shaped section-lg header-bg" style="position: relative">
+        <div class="container pt-4">
+          <div class="row justify-content-center">
+            <div class="col-md-10 col-lg-9 col-xxl-7">
+                <p class="small text-white text-center mb-1 opacity-8" style="letter-spacing: 3.3px; font-size: 12px">
+                   PARTNER WITH EMPYR
+                </p>
+                    <h1 class="display-4 mb-2 text-center text-white pb-2">{{ page.heading | default: page.title }}</h1>
+              <div class="card bg-gray-10 shadow border-0 h-auto">
+                <!-- <div class="card-header bg-white pb-5">
+                        <h1 class="mb-2 display-4 text-center text-whit pb-2" data-aos="basic" data-aos-delay="50">{{ page.heading | default: page.title }}</h1>
+                </div> -->
+                <div class="card-body px-3 pt-2 pb-3 px-md-4 pt-md-1 pb-md-4">
+                  {% if page.show_contact %}
+                  {{ page.custom_text }}
+                  {% endif %}
+                  {% if page.custom_copy %}
+                  {% for item in page.custom_copy %}
+                  {{ item.custom_text }}
+                  {% endfor %}
+                  {% endif %}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-<div class="sub">
+<!-- <div class="sub">
     <div class="hero sub default">
         <div>
             <div class="container pt-5">
@@ -21,7 +51,6 @@ A general page layout. Used by default for all content on the site.
                         <div class="opacity-6"><h5 class="text-blue-black mb-4" data-aos="basic" data-aos-delay="150"><small class="font-weight-normal">{{ page.sub_heading }}</small></h5></div>
                         {% endif %}
                     </div>
-                    <!-- <div class="col-12 col-md-3 order-1 order-md-2 pl-md-0 mb-4 mb-md-0"><img class="w-100" src="./assets/pictures/cover-2.png" /></div> -->
                 </div>
             </div>
 
@@ -51,5 +80,4 @@ A general page layout. Used by default for all content on the site.
             </div>
         </div>
     </div>
-    {% include staff.html %}
-</div>
+</div> -->

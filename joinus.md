@@ -1,7 +1,7 @@
 ---
-layout: standard-page
+layout: contact
 title: Channel Partners
-heading: Partner with Us
+heading: Talk to our Sales Team
 description: 
 keywords: 
 sub_heading: 
@@ -9,7 +9,6 @@ show_staff: false
 show_news: false
 mainfeatures: []
 show_mainfeatures: false
-headline: Partner with Us
 intro_paragraph: ''
 show_contact: true
 custom_code: |-
@@ -64,13 +63,9 @@ custom_css: |-
     padding-top: 0;
     }
 
-    .hbspt-form {
-            padding-bottom: 70px;
-    }
-
     input.hs-input, textarea.hs-input {
     width: 100%;
-    padding: 17px 12px;
+    padding: 14px 12px;
     margin: 6px 0 0;
     border: none;
     background: #fff;
@@ -81,25 +76,24 @@ custom_css: |-
     border-color: #fff;
     box-shadow: 0 1px 3px 1px rgba(160,161,188,.14);
     }
+    textarea.hs-input {
+            min-height: 130px;
+    }
     .fcta {
         display: none;
     } 
     .footer-cta, .hero.default {
         background: #f9fafb;
     }
-    .bg-gray-10 {
-    background: #f9fafb;
-    padding-top: 10px !important;
-    }
     .hs-form label {
-    padding-top: 22px;
-    font-size: 16px;
-    line-height: 18px;
+    font-size: 15px;
     font-weight: 400 !important;
     float: left;
-    color: #414141;
+    color: #19395e;
     font-family: inherit !important;
-    margin-bottom: 3px;
+    margin-bottom: 2px;
+    letter-spacing: .3px;
+        padding-top: 25px;
     }
 
     .hs-form.stacked fieldset {
@@ -113,7 +107,7 @@ custom_css: |-
     }
 
     .hs-form fieldset {
-    max-width: 630px !important;
+    max-width: 100% !important;
     }
 
     .hs-form fieldset select {
@@ -144,7 +138,7 @@ custom_css: |-
 
     .hs-form.stacked .actions {
     text-align: center;
-    margin-top: 25px;
+    margin-top: 35px;
     }
 
     .hs-form .hs-button {
@@ -172,7 +166,6 @@ custom_css: |-
 
     .hs-form fieldset.form-columns-1 .hs-input {
     width: 100% !important;
-    margin-bottom: 0;
     }
 
     ul.hs-error-msgs.inputs-list {
@@ -183,10 +176,9 @@ custom_css: |-
     }
 
     ul.hs-error-msgs.inputs-list label{
-    color: #6d97ff;
+    color: #ff4747;
     padding-top: 9px;
-    font-size: 14px;
-    font-weight: 500 !important;
+    font-size: 14.5px;
     }
 
     ul.hs-error-msgs.inputs-list li {
