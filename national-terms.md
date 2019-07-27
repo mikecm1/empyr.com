@@ -14,7 +14,7 @@ headline: National Terms
 intro_paragraph: 'The IO and Terms and Conditions (collectively “Agreement”) govern
   your participation in the Empyr Platform. By signing the IO you agree to the terms
   and conditions set forth below. '
-page_name: National Terms  & Conditions
+page_name: "* National Terms  & Conditions"
 
 ---
 1\.**Engagement; Insertion Orders:**

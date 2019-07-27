@@ -144,6 +144,6 @@ section_three:
     text: Learn More
     href: "/"
 custom_code: ''
-page_name: Homepage
+page_name: "* Homepage"
 
 ---
