@@ -70,12 +70,12 @@ h1, h2, h3, h4 {
     }
 
     @include media-breakpoint-up(xl) {
-        max-width: 150%;
+    max-width: 160%;
     }
 
     @include media-breakpoint-up(xxl) {
-        max-width: 140%;
-        margin-left: -50px;
+        max-width: 160%;
+        margin-left: -40px;
     }
 }
 
@@ -1916,7 +1916,7 @@ img {
 
         @include media-breakpoint-up(lg) {
             padding-top: 110px;
-            padding-bottom: 140px;
+            padding-bottom: 120px;
         }
     }
 

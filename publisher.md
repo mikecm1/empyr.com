@@ -9,7 +9,7 @@ banner_image: ''
 heading: |-
   Enhance your experience.
   Amplify your revenue.
-sub_heading: Generate revenue from offline commerce with your own fully custom card-linked
+sub_heading: Generate revenue from offline commerce with your own fully customized card-linked
   offer program. Get 1000s of offers out of the box with complete creative control
   of the UX and functionality.
 partners:
