@@ -2,6 +2,11 @@
 label: standard-page
 hide_body: true
 fields:
+- name: page_name
+  type: text
+  config:
+    required: false
+  label: page name
 - type: text
   name: title
   label: title
