@@ -1,6 +1,7 @@
 ---
 label: sub-page
 hide_body: true
+display_field: page_name
 fields:
 - name: page_name
   type: text
