@@ -58,33 +58,26 @@ testimonials:
 - quote: An Empyr/Yelp partnership brings thousands of offline offers directly to
     where millions of consumers search for and discover local businesses every day.
     There is zero friction, no coupons, and is enormous added value to all Yelp users.
-  name: Tony Smith 1
-  job_title: CEO
+  name: Chad Richard
   company: Yelp
   icon: "/uploads/2019/yelp-avatar.png"
   logo: "/uploads/2019/logo-yelp.png"
-- quote: Living Social partnered with Empyr to bring a new type of local offer to
-    their 40 million consumers. Earning revenue for Living Social and cash-back for
-    their consumers without the friction of coupons.
-  name: Tony Smith 2
-  job_title: CEO
+- quote: Living Social partnered with Empyr to bring a new type of local offer to their 40 million consumers. With Living Social's new Restaurants Plus program, powered by Empyr, consumers earn by simply paying with any linked credit or debit card.
+  name: Chad Crutchfield
   company: Living Social
   icon: "/uploads/2019/ls-avatar.png"
   logo: "/uploads/2019/logo-livingsocial.png"
 - quote: Virgin America partnered with Empyr to create a frictionless way for consumers
     to earn points at offline merchants with any linked debit or credit card. Consumers
     love the ease of use and Virgin loves providing customers with a free way to earn.
-  name: Tony Smith 3
-  job_title: CEO
-  company: Virgin America
+  name: Virgin America
   icon: "/uploads/2019/va-avatar.png"
   logo: "/uploads/2019/logo-virgin.png"
-- quote: Facebook worked with Empyr to see how consumers responded to nearby offline
-    offers in their feed, such as get $5 cash-back at Jack In The Box. Empyr's technology
-    helps with offline attribution while also giving Facebook users cash-back which
+- quote: Facebook worked with Empyr to see how consumers responded to offline
+    offers in their feed, such as $5 cash-back at Jack In The Box. Empyr
+    helps with offline attribution while giving users cash-back which
     increases engagement.
-  name: Tony Smith 4
-  job_title: CEO
+  name: P.J. Linarducci
   company: Facebook
   icon: "/uploads/2019/fb-avatar.png"
   logo: "/uploads/2019/logo-facebook.png"
