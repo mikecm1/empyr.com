@@ -74,6 +74,11 @@ $(document).ready(function () {
             spaceBetween: 0,
         });
         AOS.refresh();
+        if (Modernizr.touch) {} else {
+            var rellax = new Rellax('.rellax', {
+                wrapper: null,
+            });
+        }
     });
     Barba.Dispatcher.on('newPageReady', function (currentStatus, oldStatus, container, newPageRawHTML) {
         var $newPageHead = $('<head />').html(
