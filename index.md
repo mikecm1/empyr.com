@@ -17,17 +17,14 @@ partner_language: Empyr powers card-linked offer programs for leading brands and
   digital companies.
 mainfeatures:
 - heading: Exclusive Distribution
-  description: Vivamus sagittis lacus vel augue laoreet rutrum faucibus. Vivamus sagittis
-    lacus vel augue laoreet rutrum faucibus.
+  description: Showcase your brand on the engagement and loyalty programs of leading digital publishers, unavailable through any other platform.
   icon: "/img/icon-1.svg"
-- heading: Guaranteed ROAS
-  description: Vivamus sagittis lacus vel augue laoreet rutrum faucibus. Vivamus sagittis
-    lacus vel augue laoreet rutrum faucibus.
-  icon: "/img/icon-2.svg"
-- description: Vivamus sagittis lacus vel augue laoreet rutrum faucibus. Vivamus sagittis
-    lacus vel augue laoreet rutrum faucibus.
+- description: Close the online to offline gap– unlock transparent in-store sales attribution using our comprehensive, real-time analytics dashboard. 
   heading: Full Offline Attribution
   icon: "/img/icon-3.svg"
+- heading: Guaranteed ROAS
+  description: Your brand is promoted to millions of potential consumers, with zero fees for clicks or impressions.
+  icon: "/img/icon-2.svg"
 sub_heading: Empyr is the leading card-linked offer engagement platform for national
   brands and digital publishers– increasing consumer engagement, driving guaranteed
   revenue, and unlocking transparent offline sales analytics.
