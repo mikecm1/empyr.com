@@ -277,11 +277,6 @@ fields:
   - type: text
     name: heading
     label: heading
-  - name: logo
-    type: file
-    config:
-      maxSize: 250
-    label: Logo
   - type: text
     name: description
     label: description
@@ -309,6 +304,11 @@ fields:
   - type: file
     name: icon
     label: icon
+  - name: logo
+    type: file
+    config:
+      maxSize: 250
+    label: logo
 - name: cta_footer_header
   label: CTA Footer Header Text
   type: text
