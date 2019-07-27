@@ -3,6 +3,11 @@ label: landing-page
 hide_body: true
 display_field: heading
 fields:
+- name: page_name
+  type: text
+  config:
+    required: false
+  label: page name
 - name: title
   label: Title
   type: text
