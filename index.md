@@ -17,13 +17,16 @@ partner_language: Empyr powers card-linked offer programs for leading brands and
   digital companies.
 mainfeatures:
 - heading: Exclusive Distribution
-  description: Showcase your brand on the engagement and loyalty programs of leading digital publishers, unavailable through any other platform.
+  description: Showcase your brand on the engagement and loyalty programs of leading
+    digital publishers, unavailable through any other platform.
   icon: "/img/icon-1.svg"
-- description: Close the online to offline gap– unlock transparent in-store sales attribution using our comprehensive, real-time analytics dashboard. 
+- description: Close the online to offline gap– unlock transparent in-store sales
+    attribution using our comprehensive, real-time analytics dashboard.
   heading: Full Offline Attribution
   icon: "/img/icon-3.svg"
 - heading: Guaranteed ROAS
-  description: Your brand is promoted to millions of potential consumers, with zero fees for clicks or impressions.
+  description: Your brand is promoted to millions of potential consumers, with zero
+    fees for clicks or impressions.
   icon: "/img/icon-2.svg"
 sub_heading: Empyr is the leading card-linked offer engagement platform for national
   brands and digital publishers– increasing consumer engagement, driving guaranteed
@@ -52,26 +55,39 @@ primary_body_copy_subtext: Accelerate in-store revenue with card-linked offer ca
   on our exclusive publisher network. There’s no charge for clicks or impressions,
   and purchases are tracked in real-time, providing full online to offline attribution.
 testimonials:
-- quote: An Empyr/Yelp partnership brings thousands of offline offers directly to where millions of consumers search for and discover local businesses every day. There is zero friction, no coupons, and is enormous added value to all Yelp users.
+- quote: An Empyr/Yelp partnership brings thousands of offline offers directly to
+    where millions of consumers search for and discover local businesses every day.
+    There is zero friction, no coupons, and is enormous added value to all Yelp users.
   name: Tony Smith 1
   job_title: CEO
   company: Yelp
   icon: "/uploads/2019/05/icon-place.svg"
-- quote: Living Social partnered with Empyr to bring a new type of local offer to their 40 million consumers. Earning revenue for Living Social and cash-back for their consumers without the friction of coupons.
+  logo: "/uploads/2019/logo-yelp.png"
+- quote: Living Social partnered with Empyr to bring a new type of local offer to
+    their 40 million consumers. Earning revenue for Living Social and cash-back for
+    their consumers without the friction of coupons.
   name: Tony Smith 2
   job_title: CEO
   company: Living Social
   icon: "/uploads/2019/05/icon-place.svg"
-- quote: Virgin America partnered with Empyr to create a frictionless way for consumers to earn points at offline merchants with any linked debit or credit card. Consumers love the ease of use and Virgin loves providing customers with a free way to earn.
+  logo: "/uploads/2019/logo-livingsocial.png"
+- quote: Virgin America partnered with Empyr to create a frictionless way for consumers
+    to earn points at offline merchants with any linked debit or credit card. Consumers
+    love the ease of use and Virgin loves providing customers with a free way to earn.
   name: Tony Smith 3
   job_title: CEO
   company: Virgin America
   icon: "/uploads/2019/05/icon-place.svg"
-- quote: Facebook worked with Empyr to see how consumers responded to nearby offline offers in their feed, such as get $5 cash-back at Jack In The Box. Empyr's technology helps with offline attribution while also giving Facebook users cash-back which increases engagement.
+  logo: "/uploads/2019/logo-virgin.png"
+- quote: Facebook worked with Empyr to see how consumers responded to nearby offline
+    offers in their feed, such as get $5 cash-back at Jack In The Box. Empyr's technology
+    helps with offline attribution while also giving Facebook users cash-back which
+    increases engagement.
   name: Tony Smith 4
   job_title: CEO
   company: Facebook
   icon: "/uploads/2019/05/icon-place.svg"
+  logo: "/uploads/2019/logo-facebook.png"
 company_types:
 - badge: Advertisers
   heading: For National Brands
