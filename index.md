@@ -61,7 +61,7 @@ testimonials:
   name: Tony Smith 1
   job_title: CEO
   company: Yelp
-  icon: "/uploads/2019/05/icon-place.svg"
+  icon: "/uploads/2019/yelp-avatar.png"
   logo: "/uploads/2019/logo-yelp.png"
 - quote: Living Social partnered with Empyr to bring a new type of local offer to
     their 40 million consumers. Earning revenue for Living Social and cash-back for
@@ -69,7 +69,7 @@ testimonials:
   name: Tony Smith 2
   job_title: CEO
   company: Living Social
-  icon: "/uploads/2019/05/icon-place.svg"
+  icon: "/uploads/2019/ls-avatar.png"
   logo: "/uploads/2019/logo-livingsocial.png"
 - quote: Virgin America partnered with Empyr to create a frictionless way for consumers
     to earn points at offline merchants with any linked debit or credit card. Consumers
@@ -77,7 +77,7 @@ testimonials:
   name: Tony Smith 3
   job_title: CEO
   company: Virgin America
-  icon: "/uploads/2019/05/icon-place.svg"
+  icon: "/uploads/2019/va-avatar.png"
   logo: "/uploads/2019/logo-virgin.png"
 - quote: Facebook worked with Empyr to see how consumers responded to nearby offline
     offers in their feed, such as get $5 cash-back at Jack In The Box. Empyr's technology
@@ -86,7 +86,7 @@ testimonials:
   name: Tony Smith 4
   job_title: CEO
   company: Facebook
-  icon: "/uploads/2019/05/icon-place.svg"
+  icon: "/uploads/2019/fb-avatar.png"
   logo: "/uploads/2019/logo-facebook.png"
 company_types:
 - badge: Advertisers
