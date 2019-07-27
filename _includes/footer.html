@@ -3,7 +3,23 @@
         <div class="container">
             {% if site.data.information %}
             {% assign info = site.data.information %}
-            <div class="row fcta">
+            <div class="row mb-5 fcta">
+                <div class="col">
+                    <div class="border-0 o-hidden mb-0 text-light">
+                        <div class="position-relative d-flex flex-column flex-md-row justify-content-between align-items-center">
+                            <div class="mb-md-0">
+                                <h1 class="mb-1">{{ info.footer_details.main_header_home }}</h1>
+                                <p class="lead large pt-1">{{ info.footer_details.main_subheader_home }}</p>
+                            </div>
+                            <a href="{{ info.footer_details.cta_url }}">
+                                <h3 class="font-weight-bold">{{ info.footer_details.cta_text }} <i class="icon-trending_neutral" style="top: 2px;position: relative;margin-left: 5px;"></i></h3>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- <div class="row fcta">
                 <div class="col-12 text-center">
                     <h1 class="mb-2">{{ info.footer_details.main_header_home }}</h1>
                     <p class="lead large mt-1">{{ info.footer_details.main_subheader_home }}</p>
@@ -13,10 +29,10 @@
                         <h3 class="font-weight-bold">{{ info.footer_details.cta_text }} <i class="icon-trending_neutral" style="top: 2px;position: relative;margin-left: 5px;"></i></h3>
                     </a>
                 </div>
-            </div>
-            <!-- {% if info.footer_details.partners %}
+            </div> -->
+            {% if info.footer_details.partners %}
             <div class="text-center">
-                <p class="callout mt-2 mb-4">Empyr powers card-linked offer solutions for leading websites, apps, and national brands</p>
+                <!-- <p class="callout mt-2 mb-4">Empyr powers card-linked offer solutions for leading websites, apps, and national brands</p> -->
                 <div class="row justify-content-center justify-content-lg-between text-center align-items-center mb-5">
                     {% for logo in info.footer_details.partners %}
                     <div class="col-4 mb-4 col-md mb-md-0">
@@ -25,7 +41,7 @@
                     {% endfor %}
                 </div>
             </div>
-            {% endif %} -->
+            {% endif %}
         </div>
     </div>
     {% endif %}

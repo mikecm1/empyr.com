@@ -1205,14 +1205,14 @@ svg.fsvg {
 }
 
 .footer-cta {
-//     padding: 230px 0 100px;
-//     margin-top: -265px;
+    padding: 230px 0 100px;
+    margin-top: -265px;
     position: relative;
-//     padding: 100px 0;
-//     background-image: linear-gradient(150deg,#10101a 10%,#1b1b3d 100%);
+    padding: 100px 0;
+    background-image: linear-gradient(150deg,#10101a 10%,#1b1b3d 100%);
     margin-top: 0;
     padding: 100px 0 50px;
-    background: $gray-25;
+//     background: $gray-25;
 //     background: #131318;
 //     background: #18162a;
         margin-top: 0px;
@@ -1243,7 +1243,7 @@ svg.fsvg {
     background: #495eff;
     // background: url(/img/bg-sub.png),saturate(lighten($primary, 5%), 0%);
     background: url(/img/bg-sub.png),linear-gradient(170deg,#2e47fc 30%,#18b6ff 100%);
-    background: #fff;
+    // background: #fff;
     background-repeat: no-repeat!important;
     background-position: -138px -43px, center;
     background-size: 94%, 100%;
@@ -1261,7 +1261,7 @@ svg.fsvg {
 
     a {
         padding: 15px 45px;
-//         background: #fff;
+        background: #fff;
         width: 100%;
         display: inline-block;
         position: relative;
@@ -1270,16 +1270,17 @@ svg.fsvg {
         max-width: 260px;
         box-shadow: 0 7px 10px -2px #2f48ff33, 0 1px 3px rgba(0,0,0,.08);
         border-radius: $border-radius;
-            background: $primary;
+//             background: $primary;
         h3 {
             margin-bottom: 0;
             font-size: 22px;
             color: $white;
+            color: $primary;
         }
     }
 
     .lead {
-color: #496370;
+color: #fff;
     margin-bottom: 0!important;
     font-size: 1.18rem;
     line-height: 1.7;
@@ -1295,19 +1296,19 @@ color: #496370;
     font-size: 34px;
     margin-bottom: 1.2rem;
     margin-top: 0;
-    color: #0e0627;
+    // color: #0e0627;
     letter-spacing: -1.8px;
     line-height: 1.1;
         font-weight: 500;
 
         @include media-breakpoint-up(lg) {
-            font-size: 47px;
+            font-size: 43px;
         }
     }
 }
 
   .sub-text {
-       color: lighten($body-color, 20%);
+       color: lighten($body-color, 35%);
         font-size: 21px;
     }
     
@@ -1400,7 +1401,7 @@ color: #496370;
         }
         h2 {
     margin-bottom: 10px!important;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 //     color: #fff;
     letter-spacing: -.1px;
     font-weight: 500;
@@ -1409,7 +1410,7 @@ color: #496370;
         p {
             color: lighten($body-color, 30%);
             line-height: 1.5;
-            font-size: 18.5px;
+                font-size: 1.05rem;
             letter-spacing: -0.1px;
         }
 
@@ -1948,7 +1949,7 @@ img {
         @include media-breakpoint-up(xl) {
             font-size: 1.475rem;
             margin-top: 0px;
-            margin-bottom: 4px;
+            margin-bottom: 10px;
         }
     }
 }
