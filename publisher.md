@@ -9,9 +9,9 @@ banner_image: ''
 heading: |-
   Enhance your experience.
   Amplify your revenue.
-sub_heading: Generate revenue from offline commerce with your own fully customized card-linked
-  offer program. Get 1000s of offers out of the box with complete creative control
-  of the UX and functionality.
+sub_heading: Generate revenue from offline commerce with your own fully customized
+  card-linked offer program. Get 1000s of offers out of the box with complete creative
+  control of the UX and functionality.
 partners:
 - "/img/logo-home-1.png"
 - "/img/logo-home-2.png"
@@ -20,7 +20,9 @@ partners:
 - "/img/logo-home-5.png"
 - "/img/logo-home-6.png"
 primary_body_copy_headline: Increase user engagement. <br> Make more money.
-primary_body_copy_subheadline: Give your users another great reason to open your app. Empyr provides everything required to build a customized card-linked offer rewards programs that drives repeat interaction and helps turn your users into advocates.
+primary_body_copy_subheadline: Give your users another great reason to open your app.
+  Empyr provides everything required to build a customized card-linked offer rewards
+  programs that drives repeat interaction and helps turn your users into advocates.
 primary_body_icon: "/img/icon-pub-large.svg"
 show_mainfeatures: true
 mainfeatures:
@@ -127,6 +129,7 @@ section_three:
     href: ''
 show_user_testimonials: true
 case_studies: []
+page_name: Publishers
 menu:
   partners:
     weight: 2

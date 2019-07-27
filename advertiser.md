@@ -126,7 +126,7 @@ show_lift: true
 user_testimonials:
   title: ''
   testimonials: []
-page_name: Advertisers
+page_name: "* Advertisers"
 menu:
   partners:
     weight: 1

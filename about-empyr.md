@@ -37,7 +37,7 @@ custom_css: |-
   opacity: 0.065;
   }
   </style>
-page_name: About Empyr
+page_name: "* About Empyr"
 menu:
   navigation:
     title: Company

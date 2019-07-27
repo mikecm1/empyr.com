@@ -74,6 +74,7 @@ custom_text: |-
             log: true
         })
         </script>
+page_name: "* Support"
 
 ---
 ### Example FAQs

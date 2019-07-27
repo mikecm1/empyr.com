@@ -51,5 +51,6 @@ show_staff: false
 custom_code: ''
 description: ''
 keywords: ''
+page_name: Test Page
 
 ---

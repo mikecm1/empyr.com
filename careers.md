@@ -12,7 +12,7 @@ mainfeatures: []
 show_mainfeatures: false
 layout: standard-page
 heading: ''
-page_name: Careers
+page_name: "* Careers"
 
 ---
 # Welcome
