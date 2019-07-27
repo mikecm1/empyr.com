@@ -1,7 +1,7 @@
 ---
 label: landing-page
 hide_body: true
-display_field: heading
+display_field: page_name
 fields:
 - name: page_name
   type: text
