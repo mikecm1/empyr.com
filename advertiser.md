@@ -19,12 +19,15 @@ partners:
 - "/uploads/2019/logo-natl-1.png"
 mainfeatures:
 - heading: Reach millions of users
-  description: One platform. 316M+ consumers. Easily distribute high performance campaigns on our exclusive publisher network.
+  description: One platform. 316M+ consumers. Easily distribute high performance campaigns
+    on our exclusive publisher network.
   icon: "/img/one.svg"
 - heading: Amplify your revenue
-  description: Our cost per revenue (CPR) model generates a guaranteed ROAS. The impressions and clicks? 100% free.
+  description: Our cost per revenue (CPR) model generates a guaranteed ROAS. The impressions
+    and clicks? 100% free.
   icon: "/img/two.svg"
-- description: Measure what truly matters. Track online impressions all the way to in-store sales with real-time offline analytics.
+- description: Measure what truly matters. Track online impressions all the way to
+    in-store sales with real-time offline analytics.
   heading: Real-time offline attribution
   icon: "/img/three.svg"
 sub_heading: Reach millions of consumers and ignite your in-store revenue without
@@ -80,7 +83,9 @@ case_studies:
   roi: "$8.42"
   incremental_roi: "$4.20"
 primary_body_copy_headline: An improved approach to digital advertising
-primary_body_copy_subheadline: Empyr's cost-per-revenue model (CPR) accelerates and tracks in-store sales by distributing offers on an exclusive publisher network featuring top websites and apps– without charging for clicks or impressions.
+primary_body_copy_subheadline: Empyr's cost-per-revenue model (CPR) accelerates and
+  tracks in-store sales by distributing offers on an exclusive publisher network featuring
+  top websites and apps– without charging for clicks or impressions.
 primary_body_icon: "/img/icon-pub-large.svg"
 all_features_headline: Transform your bottom line with CPR
 section_one:
@@ -121,11 +126,12 @@ show_lift: true
 user_testimonials:
   title: ''
   testimonials: []
+page_name: Advertisers
 menu:
   partners:
     weight: 1
     title: Advertisers
     description: Launch a card-linked offer campaign
-    icon: /img/icon-dropdown-1.svg
+    icon: "/img/icon-dropdown-1.svg"
 
 ---

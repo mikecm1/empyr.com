@@ -109,5 +109,6 @@ section_three:
   button:
     text: Learn More
     href: "/advertiser"
+page_name: Channel Partners
 
 ---
