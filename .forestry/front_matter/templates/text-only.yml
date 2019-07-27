@@ -2,6 +2,11 @@
 label: Text Only
 hide_body: false
 fields:
+- name: page_name
+  type: text
+  config:
+    required: false
+  label: page name
 - name: headline
   type: text
   config:
