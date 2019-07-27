@@ -1,6 +1,7 @@
 ---
 label: Text Only
 hide_body: false
+display_field: page_name
 fields:
 - name: page_name
   type: text
