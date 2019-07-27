@@ -1059,7 +1059,7 @@ li.nav-item {
 
         .small {
             font-size: 16px;
-            color: $gray-400;
+            color: lighten($body-color, 30%);
             line-height: 1.45;
             font-weight: 400;
         }
