@@ -89,7 +89,7 @@ layout: default
         {% if page.section_one %}
         <section>
             <div class="row justify-content-between align-items-center">
-                <div class="col-12 col-md-6 col-xxl-6 order-2 order-md-1 mt-n1 pr-xxl-5">
+                <div class="col-12 col-md-6 col-xxl-6 order-2 order-md-1 mt-n pr-xxl-5">
                     <div data-aos="basic">
                         <h4 class="mb-2 tag">{{ page.section_one.tagline }}</h4>
                     </div>
@@ -217,7 +217,7 @@ layout: default
                     <div class="col-12 col-md-4 mb-2" data-aos="basic" data-aos-anchor=".bg-g50" data-aos-delay="{{ forloop.index | times: 150 }}">
                         <div class="card py-1 py-md-2 px-1 px-lg-2 box-shadow-md">
                             <div class="card-body">
-                                <img class="mb-2 icon" src="{{ item.icon | absolute_url }}" alt="" width="100">
+                                <img class="mb-2" src="{{ item.icon | absolute_url }}" alt="" width="50">
                                 <h5 class="mb-0">{{ item.heading }}</h5>
                             </div>
                         </div>

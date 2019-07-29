@@ -75,9 +75,9 @@ section_one:
 section_two:
   tagline: Content
   section_header: Thousands of offline offers ready to go
-  section_body_copy: Get access to thousands of local offers, from local stores to
-    popular national brands. Choose to automatically issue rewards directly to users’
-    linked  cards or use a digital currency to help gamify your product. It’s all
+  section_body_copy: Get access to thousands of offline offers, from local stores and restaurants to
+    popular national brands. You can issue user rewards direct to their
+    linked cards automatically or use a digital currency to gamify your product. It’s all
     up to you.
   image: "/img/globe.jpg"
   button:

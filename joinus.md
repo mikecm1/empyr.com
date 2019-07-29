@@ -31,7 +31,7 @@ custom_css: "<style>\n  .order-1 {\n      margin: 0 auto !important;\n  }\n  .ro
   textarea.hs-input {\n  width: 100%;\n  padding: 14px 12px;\n  margin: 6px 0 0;\n
   \ border: none;\n  background: #fff;\n  font-size: 17px;\n  line-height: normal;\n
   \ box-sizing: border-box;\n  border-radius: 5px;\n  border-color: #fff;\n  box-shadow:
-  0 1px 3px 1px rgba(160,161,188,.14);\n  }\n  textarea.hs-input {\n          min-height:
+  0 2px 3px 0px rgba(160, 161, 188, 0.28);\n  }\n  textarea.hs-input {\n          min-height:
   130px;\n  }\n  .fcta {\n      display: none;\n  } \n  .footer-cta, .hero.default
   {\n      background: #f9fafb;\n  }\n  .hs-form label {\n  font-size: 15px;\n  font-weight:
   400 !important;\n  float: left;\n  color: #19395e;\n  font-family: inherit !important;\n
