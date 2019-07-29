@@ -23,7 +23,7 @@ sections:
   - person
 - type: directory
   path: _projects
-  label: Projects
+  label: Case Studies
   create: all
   match: "*"
   templates:
