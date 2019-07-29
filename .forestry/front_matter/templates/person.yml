@@ -30,11 +30,6 @@ fields:
   type: text
   hidden: false
   default: ''
-- name: layout
-  label: Layout
-  type: text
-  hidden: true
-  default: person
 pages:
 - _people/adam-tesan.md
 - _people/jason-bausewein.md
