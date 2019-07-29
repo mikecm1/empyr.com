@@ -28,16 +28,16 @@ custom_css: "<style>\n  .order-1 {\n      margin: 0 auto !important;\n  }\n  .ro
   .title-desc-inner {\n  padding: 40px 0 80px;\n  }\n\n  .extra-description-formatting.title-background
   .title-desc-wrapper.over-image.has-main-image .page-desc, .extra-description-formatting.title-background:not(.collection-type-index)
   .title-desc-wrapper .page-desc {\n  margin-top: 0;\n  padding-top: 0;\n  }\n\n  input.hs-input,
-  textarea.hs-input {\nwidth: 100%;\n    padding: 18px 12px;\n    margin: 6px 0 0;\n
-  \   border: none;\n    background: hsla(213, 59%, 96%, 1);\n    font-size: 17px;\n
+  textarea.hs-input {\n    width: 100%;\n    padding: 18px 12px;\n    margin: 6px
+  0 0;\n    border: 1px solid #dbe4f0;\n    background: #fff;\n    font-size: 17px;\n
   \   line-height: normal;\n    box-sizing: border-box;\n    border-radius: 5px;\n
-  \   border-color: #fff;\n    /* box-shadow: 0 2px 3px 0px rgba(160, 161, 188, 0.28);
-  */\n  }\n  textarea.hs-input {\n          min-height: 130px;\n  }\n  .fcta {\n      display:
-  none;\n  } \n  .footer-cta, .hero.default {\n      background: #f9fafb;\n  }\n  .hs-form
-  label {\n  font-size: 15px;\n  font-weight: 400 !important;\n  float: left;\n  color:
-  #19395e;\n  font-family: inherit !important;\n  margin-bottom: 2px;\n  letter-spacing:
-  .3px;\n      padding-top: 25px;\n  }\n\n  .hs-form.stacked fieldset {\n  padding:
-  0;\n  margin: 0 auto;\n  text-rendering: optimizeLegibility;\n  -moz-osx-font-smoothing:
+  \   /* border-color: #fff; */\n    /* box-shadow: 0 2px 3px 0px rgba(160, 161, 188,
+  0.28);\n  }\n  textarea.hs-input {\n          min-height: 130px;\n  }\n  .fcta {\n
+  \     display: none;\n  } \n  .footer-cta, .hero.default {\n      background: #f9fafb;\n
+  \ }\n  .hs-form label {\n  font-size: 15px;\n  font-weight: 400 !important;\n  float:
+  left;\n  color: #19395e;\n  font-family: inherit !important;\n  margin-bottom: 2px;\n
+  \ letter-spacing: .3px;\n      padding-top: 25px;\n  }\n\n  .hs-form.stacked fieldset
+  {\n  padding: 0;\n  margin: 0 auto;\n  text-rendering: optimizeLegibility;\n  -moz-osx-font-smoothing:
   grayscale;\n  font-smoothing: antialiased;\n  -webkit-font-smoothing: antialiased;\n
   \ text-shadow: rgba(0, 0, 0, .01) 0 0 1px;\n  }\n  \n  .footer-cta {\n      background:
   #060609;\n  }\n\n  .footer-cta:before {\n  transform: scaleY(-1);\n  top: 2px;\n
