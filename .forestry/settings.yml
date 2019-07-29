@@ -10,6 +10,7 @@ sections:
   label: Pages
   create: all
   templates:
+  - contact
   - text-only
   - landing-page
   - standard-page

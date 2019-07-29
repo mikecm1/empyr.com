@@ -1,0 +1,64 @@
+---
+label: Contact
+hide_body: true
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: title
+  label: title
+- type: text
+  name: heading
+  label: heading
+- type: text
+  name: description
+  label: description
+- type: text
+  name: keywords
+  label: keywords
+- type: text
+  name: sub_heading
+  label: sub_heading
+- type: boolean
+  name: show_staff
+  label: show_staff
+- type: boolean
+  name: show_news
+  label: show_news
+- type: list
+  name: mainfeatures
+  label: mainfeatures
+- type: boolean
+  name: show_mainfeatures
+  label: show_mainfeatures
+- type: text
+  name: intro_paragraph
+  label: intro_paragraph
+- type: boolean
+  name: show_contact
+  label: show_contact
+- type: textarea
+  name: custom_code
+  label: custom_code
+- type: textarea
+  name: custom_css
+  label: custom_css
+- type: textarea
+  name: custom_text
+  label: custom_text
+- type: text
+  name: page_name
+  label: page_name
+- type: field_group
+  name: hero_button
+  label: hero_button
+  fields:
+  - type: text
+    name: text
+    label: text
+  - type: text
+    name: href
+    label: href
+pages:
+- joinus.md
