@@ -21,7 +21,7 @@ partners:
 - "/img/logo-home-6.png"
 primary_body_copy_headline: Increase user engagement. <br> Make more money.
 primary_body_copy_subheadline: Give your users another great reason to open your app.
-  Empyr provides everything required to build a customized card-linked offer rewards
+  Empyr's RESTful API provides everything you need to build a customized card-linked offer rewards
   programs that drives repeat interaction and helps turn your users into advocates.
 primary_body_icon: "/img/icon-pub-large.svg"
 show_mainfeatures: true
@@ -79,6 +79,7 @@ section_two:
     popular national brands. Choose to automatically issue rewards directly to users’
     linked  cards or use a digital currency to help gamify your product. It’s all
     up to you.
+  image: "/img/globe.jpg"
   button:
     text: Learn More
     link_url: index.md
