@@ -58,7 +58,7 @@ custom_css: "<style>\n  .order-1 {\n      margin: 0 auto !important;\n  }\n  .ro
   5px;\n  cursor: pointer;\n  }\n\n  .hs-form .hs-button:hover:not(.inactive), .hs-form
   .hs-button:focus:not(.inactive), .hs-form .hs-button.hovered:not(.inactive) {\n
   \ background: #000;\n  color: #fff;\n  }\n\n  input.hs-input:focus, textarea.hs-input:focus
-  {\n  outline: none;\n  box-shadow: 0px 0px 0px 2px #cfd2d8 inset;\n  }\n\n  .hs-form
+  {\n  outline: none;\n  box-shadow: 0px 0px 0px 2px #6acfff inset;\n  }\n\n  .hs-form
   fieldset.form-columns-1 .hs-input {\n  width: 100% !important;\n  }\n\n  ul.hs-error-msgs.inputs-list
   {\n  list-style: none;\n  padding: 0;\n  margin-top: 0;\n  margin-bottom: 25px;\n
   \ }\n\n  ul.hs-error-msgs.inputs-list label{\n  color: #ff4747;\n  padding-top:
