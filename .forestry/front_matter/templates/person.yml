@@ -31,10 +31,13 @@ fields:
   hidden: false
   default: ''
 pages:
+- _people/jason-fuentes.md
+- _people/christian-gonzalez.md
+- _people/alex-fanelli.md
+- _people/anastasia-santos.md
+- _people/tabitha-buchanan.md
 - _people/adam-tesan.md
 - _people/jason-bausewein.md
-- _people/alex-fanelli.md
-- _people/christian-gonzalez.md
 - _people/brett-elliott.md
 - _people/krista-hoglund-skipper.md
 - _people/erika-carmichael.md
@@ -43,7 +46,6 @@ pages:
 - _people/zack-miller.md
 - _people/jeff-skipper.md
 - _people/holly-hisel.md
-- _people/jason-fuentes.md
 - _people/christian-lencsak.md
 - _people/alaina-box.md
 - _people/eric-wondra.md
@@ -55,8 +57,6 @@ pages:
 - _people/christopher-pedersen.md
 - _people/brittany-goloskie.md
 - _people/monica-ross.md
-- _people/tabitha-buchanan.md
-- _people/anastasia-santos.md
 - _people/ryan-mcdonald.md
 - _people/jarrod-cuzens.md
 - _people/bryon-cook.md
