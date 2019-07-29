@@ -20,9 +20,9 @@ collections:
     output: true
   posts:
     output: true
-  casestudies:
+  projects:
     output: true
-    permalink: "/casestudies/:path/"
+    permalink: "/projects/:path/"
 # tag_page_layout: tag_page
 # tag_page_dir: tag
 plugins:
