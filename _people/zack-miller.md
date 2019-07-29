@@ -1,7 +1,6 @@
 ---
 role:
 - staff
-layout: person
 title: Zack Miller
 sub_heading: Senior Manager; Publisher Success
 thumbnail: "/uploads/2019/07/zack.jpg"
