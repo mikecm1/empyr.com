@@ -30,5 +30,5 @@ Sed posuere consectetur est at lobortis. Duis mollis, est non commodo luctus, ni
 ## Team
 
 ### Staff
-- [Mike Stevenson](/about/mike-s/)
-- [Mike Stevenson](/about/mike-s/)
+- [Mike Stevenson]
+- [Mike Stevenson]
