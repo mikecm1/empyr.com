@@ -111,7 +111,6 @@ Barba.Dispatcher.on('newPageReady', function(currentStatus, oldStatus, container
         if (Barba.HistoryManager.history.length <= 1) {
             return;
         }
-        // Google Analytics
         if (typeof gtag === 'function') {
             gtag('config', 'UA-77237997-1', {
                 'page_path': location.pathname,
