@@ -31,12 +31,15 @@ fields:
   hidden: false
   default: ''
 pages:
+<<<<<<< HEAD
 - _people/jason-fuentes.md
 - _people/christian-gonzalez.md
 - _people/alex-fanelli.md
 - _people/anastasia-santos.md
 - _people/tabitha-buchanan.md
 - _people/adam-tesan.md
+=======
+>>>>>>> parent of af4731f... Update from Forestry.io
 - _people/jason-bausewein.md
 - _people/brett-elliott.md
 - _people/krista-hoglund-skipper.md
@@ -57,6 +60,12 @@ pages:
 - _people/christopher-pedersen.md
 - _people/brittany-goloskie.md
 - _people/monica-ross.md
+<<<<<<< HEAD
+=======
+- _people/tabitha-buchanan.md
+- _people/anastasia-santos.md
+- _people/adam-tesan.md
+>>>>>>> parent of af4731f... Update from Forestry.io
 - _people/ryan-mcdonald.md
 - _people/jarrod-cuzens.md
 - _people/bryon-cook.md
