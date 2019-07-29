@@ -21,9 +21,9 @@ collections:
     permalink: "/about/:path/"
   posts:
     output: true
-  projects:
+  casestudies:
     output: true
-    permalink: "/projects/:path/"
+    permalink: "/casestudies/:path/"
 # tag_page_layout: tag_page
 # tag_page_dir: tag
 plugins:

@@ -22,12 +22,12 @@ sections:
   templates:
   - person
 - type: directory
-  path: _projects
+  path: _casestudies
   label: Case Studies
   create: all
   match: "*"
   templates:
-  - project
+  - casestudy
 - type: jekyll-posts
   label: Posts
   create: all

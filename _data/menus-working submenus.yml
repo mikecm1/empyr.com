@@ -9,18 +9,3 @@ navigation:
   weight: 1
   parent: _index
   title: WHY!
-- url: "/hello"
-  weight: 2
-  identifier: _projects
-  title: Testing1234
-  parent: _about
-# api:
-# - title: Project1
-#   url: "/projects/project1"
-#   identifier: project1
-#   weight: 1
-# _index:
-# - title: Project2
-#   url: "/projects/project1"
-#   identifier: project2
-#   weight: 1

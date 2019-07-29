@@ -7,6 +7,5 @@ thumbnail: "/uploads/2019/07/Mike Stevenson.jpg"
 sub_heading: Dir of B2C Marketing & Design
 email: ''
 linkedin: ''
-layout: person
 
 ---
