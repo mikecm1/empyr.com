@@ -43,7 +43,7 @@ layout: default
     <div class="bg-gradient-lighter">
         <div class="container pt-4 vw">
             {% if page.mainfeatures %}
-            <div class="intro py-2 card-body card shadow-sm offset box-shadow-md" data-aos="basic">
+            <div class="intro px-3 py-4 card-body card shadow-sm offset box-shadow-md" data-aos="basic">
                 <div class="row py-1 px-1 px-lg-2">
                     {% for item in page.mainfeatures %}
                     <div class="col-12 col-md-4 mb-4 mb-md-0" data-aos="basic" data-aos-delay="{{ forloop.index | times: 150 }}">
@@ -93,9 +93,9 @@ layout: default
                     <div data-aos="basic">
                         <h4 class="mb-2 tag">{{ page.section_one.tagline }}</h4>
                     </div>
-                    <h1 data-aos="basic" data-aos-delay="150" class="pr-xl-4 pr-xxl-5">{{ page.section_one.section_header }}</h1>
+                    <h1 data-aos="basic" data-aos-delay="150" class="pr-xl-4 pr-xxl-5 mb-md-2">{{ page.section_one.section_header }}</h1>
                     <img src="/img/headline-separator.svg" alt="" data-aos="basic" data-aos-delay="150">
-                    <p class="pr-xl-2 mb-4" data-aos="basic" data-aos-delay="250">{{ page.section_one.section_body_copy }}</p>
+                    <p class="pr-xl-2 mb-4 mt-md-2" data-aos="basic" data-aos-delay="250">{{ page.section_one.section_body_copy }}</p>
                 </div>
                 <div class="col-12 col-md-6 col-xxl-6 order-2 px-md-0">
                     <img class="img-fluid mw-130 float-left" src="{{ page.section_one.image }}" data-aos="fade-left" data-aos-delay="0" />
@@ -113,9 +113,9 @@ layout: default
                     <div data-aos="basic">
                         <h4 class="mb-2 tag">{{ page.section_two.tagline }}</h4>
                     </div>
-                    <h1 class= "pr-xl-5" data-aos="basic" data-aos-delay="50">{{ page.section_two.section_header }}</h1>
+                    <h1 class= "pr-xl-5 mb-md-2" data-aos="basic" data-aos-delay="50">{{ page.section_two.section_header }}</h1>
                     <img src="/img/headline-separator.svg" alt="" data-aos="basic" data-aos="fade-right" data-aos-delay="150">
-                    <p class="mb-3" data-aos="basic" data-aos-delay="250">{{ page.section_two.section_body_copy }}</p>
+                    <p class="mb-3 mt-md-2" data-aos="basic" data-aos-delay="250">{{ page.section_two.section_body_copy }}</p>
                     {% if page.section_two.stats %}
                     <div class="d-flex flex-nowrap">
                             <div class="order-1 pr-1 pr-lg-2 pr-xl-4">                      <h3 class="display-4 font-weight-normal mb-0">{{ page.section_two.stats.merchants }}</h3>
@@ -137,9 +137,9 @@ layout: default
             <div class="row justify-content-between align-items-top">
                 <div class="col-12 col-md-6 order-1 order-md-1">
                     <h4 class="mb-2 tag" data-aos="basic">{{ page.section_three.tagline }}</h4>
-                    <h1 data-aos="basic" data-aos-delay="50">{{ page.section_three.section_header }}</h1>
+                    <h1 data-aos="basic mb-md-2" data-aos-delay="50">{{ page.section_three.section_header }}</h1>
                     <img src="/img/headline-separator.svg" alt="" data-aos="basic" data-aos-delay="150">
-                    <p class="mb-4" data-aos="basic" data-aos-delay="200">{{ page.section_three.section_body_copy }}</p>
+                    <p class="mb-4 mt-md-2" data-aos="basic" data-aos-delay="200">{{ page.section_three.section_body_copy }}</p>
                 </div>
                 <div class="col-12 col-md-6 order-2 order-md-2 mb-4 mb-md-0">
                     <img class="w-100" src="{{ page.section_three.image }}" data-aos="fade-left" data-aos-delay="300" />
@@ -214,7 +214,7 @@ layout: default
                 <h1 class="mb-4 text-md-center">{{ page.all_features_headline }}</h1>
                 <div class="row pt-3 text-m-center">
                     {% for item in page.all_features %}
-                    <div class="col-12 col-md-4 mb-2" data-aos="basic" data-aos-anchor=".bg-g50" data-aos-delay="{{ forloop.index | times: 150 }}">
+                    <div class="col-12 col-md-4 mb-2 px-1" data-aos="basic" data-aos-anchor=".bg-g50" data-aos-delay="{{ forloop.index | times: 150 }}">
                         <div class="card py-1 py-md-2 px-1 px-lg-2 box-shadow-md">
                             <div class="card-body">
                                 <img class="mb-2" src="{{ item.icon | absolute_url }}" alt="" width="50">

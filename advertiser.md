@@ -91,9 +91,7 @@ all_features_headline: Transform your bottom line with CPR
 section_one:
   tagline: Customer Reach
   section_header: Exclusive reach to over 316M consumers
-  section_body_copy: Leading companies use Empyr to build and promote customized card-linked
-    offer programs inside their websites and apps, providing rapid exposure to your
-    brand through products people know, trust, and use every day.
+  section_body_copy: Promote your brand through products that people know, trust, and use every day. Leading websites & apps use Empyr to build customized card-linked offer rewards and loyalty programs, providing extensive reach unavailable on any other platform.
   image: "/img/img-network.jpg"
   button:
     text: Learn More
