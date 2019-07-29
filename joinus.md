@@ -42,22 +42,22 @@ custom_css: "<style>\n  .order-1 {\n      margin: 0 auto !important;\n  }\n  .ro
   \ text-shadow: rgba(0, 0, 0, .01) 0 0 1px;\n  }\n  \n  .footer-cta {\n      background:
   #060609;\n  }\n\n  .footer-cta:before {\n  transform: scaleY(-1);\n  top: 2px;\n
   \     opacity: 0.6;\n  }\n\n  .hs-form fieldset {\n  max-width: 100% !important;\n
-  \ }\n\n  .hs-form fieldset select {\n  height: 54px;\n  padding: 17px 15px;\n  margin:
-  6px 0 0;\n  border: none;\n  background: #fff;\n  font-size: 17px;\n  line-height:
-  normal;\n  box-sizing: border-box;\n  border-radius: 5px;\n  color: #000;\n  -webkit-appearance:
-  none;\n  -moz-appearance: none;\n  appearance: none;\n  background-image: url(\"data:image/svg+xml;utf8,<svg
-  xmlns='http://www.w3.org/2000/svg' width='100' height='100' fill='%23000000'><polygon
-  points='20,0 80,0 50,52'/></svg>\");\n  background-size: 12px;\n  background-position-x:
-  calc(100% - 16px);\n  background-position-y: calc(100% - 16px);\n  background-repeat:
-  no-repeat;\n  box-shadow: 0 1px 3px 1px rgba(160,161,188,.14);\n  }\n\n  .hs-form
-  .hs-input, .hs-form textarea.hs-input {\n  max-width: auto !important;\n  }\n\n
-  \ .hs-form.stacked .actions {\n  text-align: center;\n  margin-top: 35px;\n  }\n\n
-  \ .hs-form .hs-button {\n  background-color: #1882fc!important;\n  border-radius:
-  8px;\n  transition: all 0.15s linear;\n  text-transform: uppercase;\n  color: #fff;\n
-  \ padding: 18px 67px;\n  font-size: 19px;\n  font-weight: 700;\n  letter-spacing:
-  5px;\n  cursor: pointer;\n  }\n\n  .hs-form .hs-button:hover:not(.inactive), .hs-form
-  .hs-button:focus:not(.inactive), .hs-form .hs-button.hovered:not(.inactive) {\n
-  \ background: #000;\n  color: #fff;\n  }\n\n  input.hs-input:focus, textarea.hs-input:focus
+  \ }\n\n  .hs-form fieldset select {\nheight: 54px;\n    padding: 17px 15px;\n    margin:
+  6px 0 0;\n    border: 1px solid #dbe4f0;\n    background: #fff;\n    font-size:
+  17px;\n    line-height: normal;\n    box-sizing: border-box;\n    border-radius:
+  5px;\n    color: #000;\n    -webkit-appearance: none;\n    -moz-appearance: none;\n
+  \   appearance: none;\n    background-image: url(data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'
+  width='100' height='100' fill='%23000000'><polygon points='20,0 80,0 50,52'/></svg>);\n
+  \   background-size: 12px;\n    background-position-x: calc(100% - 16px);\n    background-position-y:
+  calc(100% - 16px);\n    background-repeat: no-repeat;\n    /* box-shadow: 0 1px
+  3px 1px rgba(160,161,188,.14); */\n  }\n\n  .hs-form .hs-input, .hs-form textarea.hs-input
+  {\n  max-width: auto !important;\n  }\n\n  .hs-form.stacked .actions {\n  text-align:
+  center;\n  margin-top: 35px;\n  }\n\n  .hs-form .hs-button {\n  background-color:
+  #1882fc!important;\n  border-radius: 8px;\n  transition: all 0.15s linear;\n  text-transform:
+  uppercase;\n  color: #fff;\n  padding: 18px 67px;\n  font-size: 19px;\n  font-weight:
+  700;\n  letter-spacing: 5px;\n  cursor: pointer;\n  }\n\n  .hs-form .hs-button:hover:not(.inactive),
+  .hs-form .hs-button:focus:not(.inactive), .hs-form .hs-button.hovered:not(.inactive)
+  {\n  background: #000;\n  color: #fff;\n  }\n\n  input.hs-input:focus, textarea.hs-input:focus
   {\n  outline: none;\n  box-shadow: 0px 0px 0px 2px #cfd2d8 inset;\n  }\n\n  .hs-form
   fieldset.form-columns-1 .hs-input {\n  width: 100% !important;\n  }\n\n  ul.hs-error-msgs.inputs-list
   {\n  list-style: none;\n  padding: 0;\n  margin-top: 0;\n  margin-bottom: 25px;\n
