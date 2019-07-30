@@ -56,8 +56,8 @@ layout: default
             </div>
             {% endif %}
             {% if page.partners %}
-            <div class="logos pt-md-3">
-                <div class="container pt-2 pb-3 px-md-5 border-bottom">
+            <div class="logos pt-md-4">
+                <div class="container pt-2 pb-4 px-md-5 border-bottom">
                     <!-- <p class="text-left pt-0 mb-2" data-aos="basic" data-aos-delay="100" style="
     font-size: 15.5px;
     letter-spacing: 0.2px;
@@ -80,7 +80,7 @@ layout: default
                     <h1 class="headline mt-0 mx-auto" data-aos="basic" data-aos-delay="100">{{ page.primary_body_copy_headline }}</h1>
                 </div>
                 <div class="col-md-12 col-xl-8 col-xxl-7 mx-auto">
-                    <p class="large mb-3" data-aos="basic" data-aos-delay="150">{{ page.primary_body_copy_subheadline }}</p>
+                    <p class="lighten large mb-3" data-aos="basic" data-aos-delay="150">{{ page.primary_body_copy_subheadline }}</p>
                 </div>
             </div>
         </div>
@@ -170,9 +170,9 @@ layout: default
 
     </div>
     {% if page.show_user_testimonials %}
-    <section class="bg-gray-25 mt-4">
+    <section class="border-top py-md-5">
         <div class="testimonials reviews container full">
-            <h1 class="text-center pb-4 mb-4">Consumers love card-linked offers</h1>
+            <h1 class="text-center pb-4 mb-4">{{ page.user_testimonials.title }}</h1>
             <div class="swiper-container">
                 <div class="swiper-wrapper">
                     {% for item in page.user_testimonials.testimonials %}
