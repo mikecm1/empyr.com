@@ -89,7 +89,7 @@ section_two:
     cities: 3.5K
     metros: 837
 user_testimonials:
-  title: People love card-linked offers
+  title: Consumers love card-linked offers
   testimonials:
   - person_name: Jim Halper
     program_name: Yelp Cash Back

@@ -12,12 +12,12 @@ A general page layout. Used by default for all content on the site.
                     <div class="break-out poster poster-home z1">
                         <div class="row justify-content-between align-items-center
                         flex-grow">
-                            <div class="col-12 poster-home-text">
+                            <div class="col-12 col-md-10 poster-home-text">
                             <p class="small mb-1 text-muted" style="letter-spacing: 3.3px; font-size: 12px" data-aos="basic">
                                 ABOUT EMPYR
                              </p>
                                 <h1 class="display-4 mb-1 mb-sm-2 text-dark font-weight-light" style="letter-spacing: -1.2px;
-                                line-height: 1.2;" data-aos="basic" data-aos-delay="100">{{ page.heading | default:page.title }}</h1>
+                                line-height: 1.5;" data-aos="basic" data-aos-delay="100">{{ page.heading | default:page.title }}</h1>
                                 {% if page.sub_heading and page.sub_heading != "" %}
                                 <p class="mb-2 pt-1 pt-sm-0 text-muted" style="max-width: 100% !important; font-size: 16px;" data-aos="basic" data-aos-delay="200">{{ page.sub_heading }}</p>
                                 {% endif %}

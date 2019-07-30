@@ -31,15 +31,13 @@ custom_css: "<style>\n  .order-1 {\n      margin: 0 auto !important;\n  }\n  .ro
   textarea.hs-input {\n    width: 100%;\n    padding: 18px 12px;\n    margin: 6px
   0 0;\n    border: 1px solid hsla(213, 32%, 89%, 1);\n    background: #fff;\n    font-size:
   17px;\n    line-height: normal;\n    box-sizing: border-box;\n    border-radius:
-  5px;\n  }\n  textarea.hs-input {\n          min-height: 130px;\n  }\n  .fcta {\n
-  \     display: none;\n  } \n  .footer-cta, .hero.default {\n      background: #f9fafb;\n
-  \ }\n  .hs-form label {\n  font-size: 15px;\n  font-weight: 400 !important;\n  float:
+  5px;\n  }\n  textarea.hs-input {\n          min-height: 130px;\n  }\n  .footer-cta {\n
+  \     display: none;\n  } \n  .hs-form label {\n  font-size: 15px;\n  font-weight: 400 !important;\n  float:
   left;\n  color: #19395e;\n  font-family: inherit !important;\n  margin-bottom: 2px;\n
   \ letter-spacing: .3px;\n      padding-top: 25px;\n  }\n\n  .hs-form.stacked fieldset
   {\n  padding: 0;\n  margin: 0 auto;\n  text-rendering: optimizeLegibility;\n  -moz-osx-font-smoothing:
   grayscale;\n  font-smoothing: antialiased;\n  -webkit-font-smoothing: antialiased;\n
-  \ text-shadow: rgba(0, 0, 0, .01) 0 0 1px;\n  }\n  \n  .footer-cta {\n      background:
-  #060609;\n  }\n\n  .footer-cta:before {\n  transform: scaleY(-1);\n  top: 2px;\n
+  \ text-shadow: rgba(0, 0, 0, .01) 0 0 1px;\n  }\n  \n  .footer-cta:before {\n  transform: scaleY(-1);\n  top: 2px;\n
   \     opacity: 0.6;\n  }\n\n  .hs-form fieldset {\n  max-width: 100% !important;\n
   \ }\n\n  .hs-form fieldset select {\n  height: 54px;\n  padding: 17px 15px;\n  margin:
   6px 0 0;\n  border: 1px solid hsla(213, 32%, 89%, 1);\n  background: #fff;\n  font-size:

@@ -1,8 +1,7 @@
 ---
 layout: standard-page
 title: About Empyr
-heading: Our Mission&#58; To Make Earning Rewards On In-Store Purchases as Effortless
-  as Breathing
+heading: We help companies generate revenue and delight their users with card linked offers
 description: Empyr's technology makes earning rewards on in-store purchases so easy,
   sometimes it happens without you even thinking about it, kinda like breathing.  We
   used this mission to build out the Empyr API, which powers online-to-offline (O2O)
