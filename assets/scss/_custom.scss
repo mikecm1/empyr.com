@@ -503,8 +503,7 @@ p.latest {
             padding-right: 15px !important;
         }
                 @include media-breakpoint-up('xxl') {
-            font-size: 3.2rem;
-            padding-right: 15px !important;
+//             font-size: 3.2rem;
         }
     }
 }
@@ -1387,6 +1386,7 @@ color: #fff;
         transition: all 1.1s cubic-bezier(.03, .965, .25, .975);
         touch-action: manipulation;
         backface-visibility: hidden;
+            padding: 60px 20px !important;
 //         box-shadow: $box-shadow-md;
             background-color: #fff;
             text-align: center;
@@ -1741,7 +1741,7 @@ display: inline-block;
 
 .display-4 {
     @include media-breakpoint-up('xxl') {
-        font-size: 2.9rem !important;
+//         font-size: 2.9rem;
     }
 }
 
