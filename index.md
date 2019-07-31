@@ -7,8 +7,8 @@ keywords: Online to Offline, o2o, Card Linked Offers
 heading: Online, Meet Offline.
 homepage: true
 partners:
+- "/uploads/2019/sofi.png"
 - "/img/logo-home-1.png"
-- "/img/logo-home-2.png"
 - "/img/logo-home-3.png"
 - "/img/logo-home-4.png"
 - "/img/logo-home-5.png"
@@ -105,7 +105,8 @@ company_types:
   icon: "/img/icon-cp-dark-1.svg"
   url: "/channel"
 cta_footer_header: Customized solutions
-cta_footer_subheader: Make card-linked offers part of your digital strategy and accelerate your consumer engagement
+cta_footer_subheader: Make card-linked offers part of your digital strategy and accelerate
+  your consumer engagement
 section_one:
   super: ''
   heading: ''
