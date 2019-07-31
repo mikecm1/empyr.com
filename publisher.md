@@ -21,8 +21,9 @@ partners:
 - "/img/logo-home-6.png"
 primary_body_copy_headline: Increase user engagement. <br> Make more money.
 primary_body_copy_subheadline: Give your users another great reason to open your app.
-  Empyr's RESTful API provides everything you need to build a customized card-linked offer rewards
-  programs that drives repeat interaction and helps turn your users into advocates.
+  Empyr's RESTful API provides everything you need to build a customized card-linked
+  offer rewards programs that drives repeat interaction and helps turn your users
+  into advocates.
 primary_body_icon: "/img/icon-pub-large.svg"
 show_mainfeatures: true
 mainfeatures:
@@ -75,10 +76,10 @@ section_one:
 section_two:
   tagline: Content
   section_header: Thousands of offline offers ready to go
-  section_body_copy: Get access to thousands of offline offers, from local stores and restaurants to
-    popular national brands. You can issue user rewards direct to their
-    linked cards automatically or use a digital currency to gamify your product. It’s all
-    up to you.
+  section_body_copy: Get access to thousands of offline offers, from local stores
+    and restaurants to popular national brands. You can issue user rewards direct
+    to their linked cards automatically or use a digital currency to gamify your product.
+    It’s all up to you.
   image: "/img/globe.jpg"
   button:
     text: Learn More
@@ -91,36 +92,33 @@ section_two:
 user_testimonials:
   title: Consumers love card-linked offers
   testimonials:
-  - person_name: Jim Halper
+  - person_name: Grace W.
     program_name: Yelp Cash Back
-    quote: '"This is a top quality product. No need to think twice before purchasing,
-      you simply could not go wrong"'
+    quote: This whole thing with Yelp giving cash back for buying things online is
+      literally the best thing ever.
+    user_photo: "/uploads/2019/grace.jpg"
+  - person_name: Lou C.
+    program_name: Yelp Cash Back
+    quote: 'Yo! I’ve gotta tell ya. #YelpCashBack brought me here.'
     user_photo: ''
-  - person_name: Mike Stevenson
+  - person_name: Nicole
     program_name: Yelp Cash Back
-    quote: '"This is a top quality product. No need to think twice before purchasing,
-      you simply could not go wrong"'
+    quote: 'Loving Yelp Cash back so much, you guys. '
     user_photo: ''
-  - person_name: Mike Stevenson
+  - person_name: Ingy
     program_name: Yelp Cash Back
-    quote: '"This is a top quality product. No need to think twice before purchasing,
-      you simply could not go wrong"'
     user_photo: ''
-  - person_name: Mike Stevenson
+    quote: " So Yelp Cash Back is amazing. I got $2 back from a restaurant in credit.
+      I’ll take it. That’s like an entire bagel."
+  - person_name: Andrew H.
     program_name: Yelp Cash Back
-    user_photo: "/uploads/2019/07/Mike Stevenson.jpg"
-    quote: '"This is a top quality product. No need to think twice before purchasing,
-      you simply could not go wrong"'
-  - person_name: Mike Stevenson
+    user_photo: ''
+    quote: Just got my first payment, couple bucks got credited to my CC, sweet!
+  - person_name: Polina W.
     program_name: Yelp Cash Back
-    user_photo: "/uploads/2019/07/Mike Stevenson.jpg"
-    quote: '"This is a top quality product. No need to think twice before purchasing,
-      you simply could not go wrong"'
-  - person_name: Mike Stevenson
-    program_name: Yelp Cash Back
-    user_photo: "/uploads/2019/07/Mike Stevenson.jpg"
-    quote: '"This is a top quality product. No need to think twice before purchasing,
-      you simply could not go wrong"'
+    user_photo: ''
+    quote: " It was so nice to get a notification from Yelp telling me I’ll see some
+      of that money back next month :)"
 section_three:
   tagline: ''
   section_header: ''
