@@ -27,7 +27,7 @@ section_three:
   section_header: ''
   section_body_copy: ''
 layout: landing-page
-title: Mikes test page
+title: Test page
 sub_heading: Nulla vitae elit libero, a pharetra augue.
 banner_image: ''
 header_screen_one: "/uploads/2019/07/app-yelp.jpg"
