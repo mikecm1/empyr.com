@@ -7,11 +7,11 @@ keywords: Online to Offline, o2o, Card Linked Offers
 heading: Online, Meet Offline.
 homepage: true
 partners:
-- "/uploads/2019/sofi.png"
 - "/img/logo-home-1.png"
-- "/img/logo-home-3.png"
 - "/img/logo-home-4.png"
+- "/img/logo-home-3.png"
 - "/img/logo-home-5.png"
+- "/uploads/2019/sofi.png"
 - "/img/logo-home-6.png"
 partner_language: Empyr powers card-linked offer programs for leading brands and top
   digital companies.
