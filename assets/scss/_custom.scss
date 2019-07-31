@@ -528,11 +528,11 @@ p.latest {
     }
 
     @include media-breakpoint-up(lg) {
-        padding: 130px 0;
+        padding: 130px 0 140px;
     }
 
     @include media-breakpoint-up(xxl) {
-        padding: 130px 0 140px;
+        padding: 160px 0 190px;
     }
 
     // @include media-breakpoint-up(xxxl) {
@@ -1615,8 +1615,8 @@ display: inline-block;
     // &.prof {
         .card {
 //     border-top: 3px solid #c4c4ff;
-    box-shadow: 0 7px 27px -9px rgba(42,57,135,.13)!important;
-    border: 0.5px solid #dee5ed!important;
+box-shadow: 0 7px 27px -9px rgba(42,57,135,.13)!important;
+    border: .5px solid #e8eaec!important;
         }
     
     // }
