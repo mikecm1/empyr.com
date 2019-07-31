@@ -14,14 +14,13 @@ h1,
 h2,
 h3,
 h4 {
+    br {
+        display: none;
+    }
     @include media-breakpoint-up(lg) {
         br {
             display: inline-block;
         }
-    }
-
-    br {
-        display: none;
     }
 }
 
