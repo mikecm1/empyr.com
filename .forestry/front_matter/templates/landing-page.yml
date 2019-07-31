@@ -347,5 +347,5 @@ fields:
       format: markdown
   label: Custom code
 pages:
-- index.md
 - mikes-test-page.md
+- index.md
