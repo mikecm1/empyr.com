@@ -134,6 +134,7 @@ section_two:
     link_url: ''
     href: "/"
 section_three:
+  img: "/img/home-analytics.png"
   tagline: Real-Time Analytics
   section_header: 100% In-Store Revenue Attribution
   section_body_copy: No more guesswork, no more wasting time with manual reporting.

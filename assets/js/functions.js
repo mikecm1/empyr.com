@@ -11,7 +11,6 @@ $(document).ready(function () {
     //     };
     //     Scrollbar.init(document.querySelector("html:not(.no-js) body.smooth #main-scrollbar"), options);
 
-
     $('[data-id=nav-sidebar-toggle]').click(function (e) {
         e.preventDefault();
         $('#nav-sidebar').toggleClass('show');
@@ -53,7 +52,10 @@ $(document).ready(function () {
         return transEffect;
     }
     Barba.Pjax.start();
-    Barba.Prefetch.init();
+    var is_safari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+    if (!is_safari) Barba.Prefetch.init();
+    //   Barba.Prefetch.init();
+
     Barba.Dispatcher.on('transitionCompleted', function (currentStatus, oldStatus, container) {
         var swiper = new Swiper('.swiper-container', {
             autoplay: {
