@@ -275,8 +275,7 @@ layout: default
                                             <p class="lead mb-2 mt-0">"{{ item.quote }}"</p>
                                             <div class="media align-items-center">
                                                 <div class="mr-2">
-                                                    <img class="rounded" src="{{ item.icon | absolute_url
-                                                    }}" width="60" height="60" />
+                                                    <img class="rounded" src="{{ item.icon | absolute_url | default:"/uploads/2019/05/icon-place.svg" | absolute_url }}" width="60" height="60" />
                                                 </div>
                                                 <div class="media-body">
                                                     <h6 class="mb-0">{{ item.name }}</h6>

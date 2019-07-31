@@ -497,7 +497,7 @@ p.latest {
     background-repeat: no-repeat;
 
     @include media-breakpoint-up(md) {
-        height: 40vw;
+        height: 42vw;
         background-position: center;
         background-size: 92%, 100%;
     }
