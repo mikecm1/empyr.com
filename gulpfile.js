@@ -6,10 +6,7 @@ var gulp = require('gulp'),
     postcss = require('gulp-postcss'),
     autoprefixer = require('autoprefixer'),
     uncss = require('postcss-uncss'),
-    pfm = require('postcss-font-magician'),
     utilities = require('postcss-utilities'),
-    stylelint = require('gulp-stylelint'),
-    reporter = require('postcss-reporter'),
     pxtorem = require('gulp-pxtorem'),
     concat = require('gulp-concat'),
     uglify = require('gulp-uglify'),
@@ -17,9 +14,6 @@ var gulp = require('gulp'),
     imagemin = require('gulp-imagemin'),
     pngquant = require('imagemin-pngquant'),
     imageOptim = require('gulp-imageoptim'),
-    changed = require('gulp-changed'),
-    version = require('gulp-version-number'),
-    htmlmin = require('gulp-htmlmin'),
     csso = require('postcss-csso');
 
 gulp.task('generate', shell.task('bundle exec jekyll serve --watch --incremental --livereload'));
@@ -52,17 +46,10 @@ gulp.task('scss-local', function () {
         .pipe(touch());
 });
 
-// gulp.task('jsTask', function () {
-//     return gulp.src('.assets/js/**/*.js')
-//         .pipe(concat('all.js'))
-//         .pipe(gulp.dest('dist/'))
-// });
-
 gulp.task('watch', function () {
     gulp.watch(['assets/**/*.scss'], gulp.series('scss-local'));
 });
 
-// Image optimizations
 gulp.task('images', function () {
     return gulp.src([
             'img/*.{png,gif,jpg}',
@@ -115,18 +102,18 @@ gulp.task('watch-full', function () {
     gulp.watch(['img/*', 'assets/img/*', 'assets/pictures/*'], gulp.series('images'));
 });
 
-
-
 // ****** Build tasks ****** //
 
-// Default: watch and build local
+// Default: build and watch local
+// Run -> 'gulp'
 gulp.task('default', gulp.parallel(
     'generate',
     'watch'
 ));
 
 // Watch and compile complete with uncss and optimizations
-// Run before final deploy to forestry if big changes made
+// Run before final deploy to forestry if large changes made
+// Run -> 'gulp compile'
 gulp.task('compile', gulp.parallel(
     'generate',
     'images',
