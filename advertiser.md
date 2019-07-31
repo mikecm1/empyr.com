@@ -121,6 +121,7 @@ section_three:
     href: "/advertiser"
 show_user_testimonials: false
 show_lift: true
+lift_img: "/img/incremental.png"
 user_testimonials:
   title: ''
   testimonials: []

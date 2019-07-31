@@ -299,7 +299,7 @@ main {
 
     &.features {
         @include media-breakpoint-up(md) {
-        padding-bottom: 60px;
+        padding-bottom: 50px;
         }
     }
 }
@@ -483,7 +483,7 @@ p.latest {
 
     .display-4 {
         font-size: 2.2rem;
-            max-width: 610px;
+            max-width: 620px;
 
         @include media-breakpoint-up('md') {
             font-size: 39px;
@@ -503,8 +503,13 @@ p.latest {
             padding-right: 15px !important;
         }
                 @include media-breakpoint-up('xxl') {
-            font-size: 3.2rem;
+    padding-right: 0!important;
+    font-size: 3.1rem;
+    max-width: 630px;
         }
+//                         @include media-breakpoint-up('xxl') {
+//             font-size: 3.3rem;
+//         }
     }
 }
 
@@ -528,16 +533,12 @@ p.latest {
     }
 
     @include media-breakpoint-up(lg) {
-        padding: 130px 0 140px;
+        padding: 140px 0;
     }
 
     @include media-breakpoint-up(xxl) {
         padding: 160px 0 190px;
     }
-
-    // @include media-breakpoint-up(xxxl) {
-    //     padding: 170px 0 210px;
-    // }
 
     .container {
         // position: static;
@@ -1257,8 +1258,9 @@ svg.fsvg {
     /* padding: 30px 0; */
     /* background: #4959cc; */
     background: #495eff;
-    background: url(/img/bg-sub.png),linear-gradient(7deg,#2e47fc 30%,#18b6ff 100%);
+//     background: url(/img/bg-sub.png),linear-gradient(7deg,#2e47fc 30%,#18b6ff 100%);
 //     background: url(/img/bg-sub.png),linear-gradient(-2deg,#0524ff,#6c7dff);
+    background: url(/img/bg-sub.png),#495eff;
     background-repeat: no-repeat!important;
     background-position: -138px -43px, center;
     background-size: 120%, 100%;
@@ -1609,7 +1611,7 @@ display: inline-block;
     color: lighten($body-color, 0%);
     }
     .card-body {
-        padding: 3.3rem 3.15rem;
+        padding: 2rem 3.15rem;
     }
 
     // &.prof {
