@@ -11,7 +11,7 @@
     "gulpfile.js",
     "_config.yml",
     "_includes/nav.html"
-],
+  ],
   "favorites.sortOrder": "ASC",
   "files.exclude": {
     "webfonts": true,
@@ -27,7 +27,6 @@
     "img": true,
     "admin": true,
     "node_modules": true,
-    "styleguide": true,
     "assets/glyphs": true,
     "assets/logos": true,
     "assets/fonts": true,
@@ -35,7 +34,7 @@
     ".vscode": true,
     "assets/css": true,
     "assets/pictures": true
-},
-"explorer.sortOrder": "type",
-"editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "explorer.sortOrder": "type",
+  "editor.defaultFormatter": "HookyQR.beautify"
 }
