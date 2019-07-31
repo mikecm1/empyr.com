@@ -439,7 +439,7 @@ p.latest {
 }
 
 .sub {
-    .solutions {
+    &.solutions {
         .card {
             padding: 30px 20px !important;
         }
@@ -549,7 +549,7 @@ p.latest {
     background-position: 79% 50%, center;
 
     @include media-breakpoint-up(md) {
-        height: 39.1vw;
+        height: 40vw;
         background-size: 92%, 100%;
         background-position: center;
     }
