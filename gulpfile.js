@@ -46,10 +46,6 @@ gulp.task('scss-local', function () {
         .pipe(touch());
 });
 
-gulp.task('watch', function () {
-    gulp.watch(['assets/**/*.scss'], gulp.series('scss-local'));
-});
-
 gulp.task('images', function () {
     return gulp.src([
             'img/*.{png,gif,jpg}',
@@ -65,18 +61,15 @@ gulp.task('images', function () {
 });
 
 gulp.task('scss-full', function () {
-    var pxtoremOptions = {
-        replace: false
-    };
     var postcssOptions = {
-        map: true,
+        map: false,
         "map.inline": false
     };
     var processors = [
-        uncss({
-            html: ['./_site/**/*.html'],
-            ignore: ['.fade']
-        }),
+        // uncss({
+        //     html: ['./_site/**/*.html'],
+        //     ignore: ['.fade']
+        // }),
         utilities(),
         autoprefixer({
             "browsers": ["> 1%", "last 2 versions", "IE 9"]
@@ -87,19 +80,23 @@ gulp.task('scss-full', function () {
     ];
     return gulp.src('./assets/scss/main.scss')
         .pipe(sourcemaps.init({
-            loadMaps: false
+            loadMaps: true
         }))
         .pipe(sass())
         .on("error", sass.logError)
         .pipe(postcss(processors))
-        .pipe(pxtorem(pxtoremOptions))
+        // .pipe(pxtorem(pxtoremOptions))
         .pipe(gulp.dest('assets/css/'))
         .pipe(touch());
 });
 
+gulp.task('watch', function () {
+    gulp.watch(['assets/**/*.scss'], gulp.series('scss-local'));
+});
+
 gulp.task('watch-full', function () {
-    gulp.watch('assets/**/*.scss', gulp.series('scss-full'));
-    gulp.watch(['img/*', 'assets/img/*', 'assets/pictures/*'], gulp.series('images'));
+    gulp.watch(['assets/**/*.scss'], gulp.series('scss-full'));
+    // gulp.watch(['img/*', 'assets/img/*', 'assets/pictures/*'], gulp.series('images'));
 });
 
 // ****** Build tasks ****** //
@@ -112,7 +109,6 @@ gulp.task('default', gulp.parallel(
 ));
 
 // Watch and compile complete with uncss and optimizations
-// Run before final deploy to forestry if large changes made
 // Run -> 'gulp compile'
 gulp.task('compile', gulp.parallel(
     'generate',
@@ -122,6 +118,6 @@ gulp.task('compile', gulp.parallel(
 
 // Deploy on forestry.io
 gulp.task('deploy', gulp.series(
-    'scss-local',
+    'scss-full',
     'buildit'
 ));
