@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-labelledby="title"
+aria-describedby="desc" role="img" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>Code Window</title>
+  <desc>A line styled icon from Orion Icon Library.</desc>
+  <path data-name="layer1"
+  fill="none" stroke="#d2ccf8" stroke-linecap="round" stroke-linejoin="round"
+  stroke-width="3" d="M2 8h60v12H2zm0 12v36h60V20"></path>
+  <path data-name="layer2" fill="none" stroke="#6f6a87" stroke-linecap="round"
+  stroke-linejoin="round" stroke-width="3" d="M38 30l7 8-7 8M26 30l-7 8 7 8"></path>
+  <circle data-name="layer1" cx="8" cy="14" r="1" fill="none" stroke="#d2ccf8"
+  stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></circle>
+  <circle data-name="layer1" cx="15" cy="14" r="1" fill="none"
+  stroke="#d2ccf8" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></circle>
+  <circle data-name="layer1" cx="22" cy="14" r="1" fill="none"
+  stroke="#d2ccf8" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></circle>
+</svg>

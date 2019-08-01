@@ -1,9 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="69" height="69" viewBox="0 0 69 69">
-  <g fill="none" fill-rule="evenodd">
-    <path fill="#E9E7F5" d="M34.5,0 C53.5538239,-3.50013066e-15 69,15.4461761 69,34.5 C69,53.5538239 53.5538239,69 34.5,69 C15.4461761,69 2.33342044e-15,53.5538239 0,34.5 C-2.33342044e-15,15.4461761 15.4461761,3.50013066e-15 34.5,0 Z"/>
-    <g stroke="#6953BC" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.917" transform="translate(18 25)">
-      <polyline points="32.542 .75 18.687 14.604 11.396 7.312 .458 18.25"/>
-      <polyline points="23.792 .75 32.542 .75 32.542 9.5"/>
-    </g>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="69" height="69"><g fill="none" fill-rule="evenodd"><path fill="#E9E7F5" d="M34.5 0C53.554 0 69 15.446 69 34.5 69 53.554 53.554 69 34.5 69 15.446 69 0 53.554 0 34.5 0 15.446 15.446 0 34.5 0z"/><g stroke="#6953BC" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.917" transform="translate(18 25)"><path d="M32.542 0.75L18.687 14.604 11.396 7.312 0.458 18.25"/><path d="M23.792 0.75L32.542 0.75 32.542 9.5"/></g></g></svg>
