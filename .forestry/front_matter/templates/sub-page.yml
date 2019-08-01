@@ -355,5 +355,5 @@ fields:
     labelField: 
   label: Case Studies
 pages:
-- publisher.md
 - advertiser.md
+- publisher.md
