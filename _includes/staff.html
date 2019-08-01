@@ -3,20 +3,20 @@ Displays all of the people from the _people/ collection in a grid
 {% endcomment %}
 
 {% if page.show_staff %}
-<section class="team-area pt-5 pb-100" id="team">
+<section class="team-area pt-3 pb-100" id="team">
     <div class="container">
         <div class="row">
             {% assign people = site.people %}
             {% for person in people %}
-            <div class="col-6 col-md-3 mb-4">
+            <div class="col-6 col-md-3 mb-4 mb-md-5">
                 <div class="single-team">
                     {% if person.thumbnail and person.thumbnail != "" %}
                     <img alt="{{ person.title }}" src="{{ person.thumbnail | absolute_url }}">
                     {% else %}
                     <img alt="{{ person.title }}" src="{{ "/assets/pictures/image-540x540-dark.png" | absolute_url }}">
                             {% endif %}
-						<div class=" team-hover text-center">
-                    <h4 class="">{{ person.title }}
+						<div class=" team-hover text-left">
+                    <h4 class="mb-0">{{ person.title }}
                         {% if person.sub_heading %}
                     </h4>
                         <span class="subtitle">
