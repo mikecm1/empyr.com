@@ -110,7 +110,7 @@ user_testimonials:
     logo: "/img/yelp-cb-logo.png"
   - person_name: Ingy
     program_name: Yelp Cash Back
-    user_photo: ''
+    user_photo: "/uploads/2019/ing.jpg"
     logo: "/img/yelp-cb-logo.png"
     quote: " So Yelp Cash Back is amazing. I got $2 back from a restaurant in credit.
       I’ll take it. That’s like an entire bagel."
