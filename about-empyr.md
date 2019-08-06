@@ -23,9 +23,10 @@ hero_button:
   href: ''
 custom_css: |-
   <style>
-  .header-bg::before {
+  .sub.header-bg::before {
   opacity: 0.065;
   opacity: 0;
+  display: none;
   }
   </style>
 page_name: "* About Empyr"

@@ -97,26 +97,32 @@ user_testimonials:
     quote: This whole thing with Yelp giving cash back for buying things online is
       literally the best thing ever.
     user_photo: "/uploads/2019/grace.jpg"
+    logo: "/img/yelp-cb-logo.png"
   - person_name: Lou C.
     program_name: Yelp Cash Back
     quote: 'Yo! I’ve gotta tell ya. #YelpCashBack brought me here.'
     user_photo: ''
+    logo: "/img/yelp-cb-logo.png"
   - person_name: Nicole
     program_name: Yelp Cash Back
     quote: 'Loving Yelp Cash back so much, you guys. '
     user_photo: ''
+    logo: "/img/yelp-cb-logo.png"
   - person_name: Ingy
     program_name: Yelp Cash Back
     user_photo: ''
+    logo: "/img/yelp-cb-logo.png"
     quote: " So Yelp Cash Back is amazing. I got $2 back from a restaurant in credit.
       I’ll take it. That’s like an entire bagel."
   - person_name: Andrew H.
     program_name: Yelp Cash Back
     user_photo: ''
+    logo: "/img/yelp-cb-logo.png"
     quote: Just got my first payment, couple bucks got credited to my CC, sweet!
   - person_name: Polina W.
     program_name: Yelp Cash Back
     user_photo: ''
+    logo: "/img/yelp-cb-logo.png"
     quote: " It was so nice to get a notification from Yelp telling me I’ll see some
       of that money back next month :)"
 section_three:

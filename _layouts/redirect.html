@@ -1,11 +1,49 @@
 ---
-layout: default
+layout: redirect
 ---
 {% comment %}
 A general page layout. Used by default for all content on the site.
 {% endcomment %}
+<script>
+function defer(method) {
+    if (window.jQuery) {
+        method();
+    } else {
+        setTimeout(function() { defer(method) }, 50);
+    }
+}
+defer(function () {
 
-<div>
+var str = window.location.href;
+var n = str.lastIndexOf('/');
+var result = str.substring(n + 1);
+console.log("Hey");
+console.log(result);
+url = "http://empyr.com/" + result;
+// window.location.replace(url);
+
+
+
+fetch(url, {mode: 'no-cors'}).then(r=>{
+  console.log('SITE is reachable');
+  })
+  .catch(e=>{
+    console.log('SITE is not there');
+    });
+fetch('http://empyr.com', {mode: 'no-cors'}).then(r=>{
+  console.log('empyr is reachable');
+  })
+  .catch(e=>{
+    console.log('empyr is not there');
+    });
+
+});
+
+
+
+
+</script>
+<!-- <div>
     <div class="hero d-flex pt-5 pb-2" style="position: relative">
         <div class="container full container-fluid d-flex flex-column
 justify-content-between my-5">
@@ -45,14 +83,7 @@ d-lg-block">{{ page.second_button.text }}</a>
                 </div>
             </div>
         </div>
-        <!-- <svg class="wave" preserveAspectRatio="xMinYMax meet" viewBox="0 0 1440 97" xmlns="http://www.w3.org/2000/svg">
-<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-<g transform="translate(0.000000, -583.000000)" fill="#f7fbff">
-<path d="M1440,680 L0,680 L0,583 L373.174127,583 C383.828357,583 394.290441,585.836954 403.485166,591.2193 L522.240124,660.735284 C531.434849,666.11763 541.896934,668.954584 552.551164,668.954584 L1440,668.954584 L1440,680 Z" id="Path"></path>
-</g>
-</g>
-</svg> -->
-        <div class="sub header-bg">
+        <div class="header-bg">
         </div>
     </div>
 </div>
@@ -80,4 +111,4 @@ d-lg-block">{{ page.second_button.text }}</a>
     {% endfor %}
     {% endif %}
     {% include staff.html %}
-</div>
+</div> -->

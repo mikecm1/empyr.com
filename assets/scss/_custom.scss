@@ -17,6 +17,7 @@ h4 {
     br {
         display: none;
     }
+
     @include media-breakpoint-up(lg) {
         br {
             display: inline-block;
@@ -220,6 +221,7 @@ main {
     position: relative;
     box-shadow: 0px 1px 0px rgb(226, 226, 226);
     border-radius: 10px;
+
     img {
         display: inline-block;
         max-width: 100%;
@@ -365,6 +367,10 @@ $gradient-bg2;
     background-size: 83%, 100%;
     background-size: 83%, 100%;
     background-repeat: no-repeat !important;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    animation: fadein 500ms ease-in-out;
 
     &::before {
         position: absolute;
@@ -380,9 +386,34 @@ $gradient-bg2;
         background-size: 100%;
         background-repeat: no-repeat;
         content: '';
-        opacity: .365;
-
         clip-path: polygon(-29% 0%, 100% 0, 100% 100%, 124% 100%);
+        transform: translateZ(0);
+        backface-visibility: hidden;
+        perspective: 1000;
+        opacity: .365;
+        animation: fadein2 1000ms ease-in-out;
+    }
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadein2 {
+    0% {
+        opacity: 0;
+    }
+    // 50% {
+    //     opacity: 0;
+    // }
+    100% {
+        opacity: .365;
     }
 }
 
@@ -561,7 +592,9 @@ p.latest {
     }
 
     .large {
-        @include media-breakpoint-up(lg) {}
+        @include media-breakpoint-down(sm) {
+            font-size: 16.5px;
+        }
     }
 
     &.sub {
@@ -944,6 +977,12 @@ li.nav-item {
     }
 }
 
+.navbar-side {
+    .btn {
+        padding: 15px 0;
+    }
+}
+
 .navbar-nav {
 
     .dropdown-toggle::after {
@@ -1009,7 +1048,7 @@ li.nav-item {
         .col {
             margin-bottom: 0;
             padding: 0 2rem;
-            padding-bottom: 5px;
+            // padding-bottom: 5px;
 
             &:last-of-type {
                 padding-bottom: 0;
