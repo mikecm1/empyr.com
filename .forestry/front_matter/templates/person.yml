@@ -1,13 +1,8 @@
 ---
 label: person
 hide_body: false
-display_field: page_title
+display_field: title
 fields:
-- name: page_title
-  type: text
-  config:
-    required: false
-  label: Page Title
 - type: text
   name: title
   label: Name
