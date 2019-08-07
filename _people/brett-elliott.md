@@ -2,7 +2,7 @@
 role:
 - staff
 title: Brett Elliott
-sub_heading: Sales Development; National Accounts
+sub_heading: Sales Dev, Natl. Accounts
 thumbnail: ''
 email: ''
 linkedin: ''
