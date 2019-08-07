@@ -36,8 +36,8 @@ fields:
   hidden: true
   default: person
 pages:
-- _people/alaina-box.md
 - _people/adam-tesan.md
+- _people/alaina-box.md
 - _people/brett-elliott.md
 - _people/quinn-miller.md
 - _people/jan-decino.md
