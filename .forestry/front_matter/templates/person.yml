@@ -3,6 +3,9 @@ label: person
 hide_body: false
 display_field: title
 fields:
+- name: exec_team
+  type: boolean
+  label: Exec team?
 - type: text
   name: title
   label: Name
