@@ -24,7 +24,7 @@ hero_button:
 custom_text: |-
   <script data-inject>
   function defer(method) {
-  if (window.jQuery) {
+  if (window.Swiper) {
   method();
   } else {
   setTimeout(function() { defer(method) }, 50);
@@ -47,7 +47,6 @@ custom_text: |-
             el: '.swiper-pagination',
             clickable: true,
         },
-        slidesPerView: 2,
         spaceBetween: 0,
   });
   });
@@ -72,13 +71,13 @@ slides:
 - "/img/company-1.jpg"
 ---
 
-<div class="swiper pt-4 pb-5 mb-4 offset-lg">
+<div class="swiper pt-4 pb-5 mb-1 offset-lg">
   <div class="container position-relative mb-3">
     <div class="swiper-container row standard" id="slider-gallery-14">
       <div class="swiper-wrapper">
-      {% for slide in page.slides %}
+      {% for item in page.slides %}
         <div class="swiper-slide col-11 col-md-6 p-">
-          <div class="rounded-lg" style="background-image: url({{ slide | absolute_url }});height: 400px;"></div>
+          <div class="rounded-lg" style="background-image: url({{ item | absolute_url }});height: 400px;"></div>
         </div>
         {% endfor %}
       </div>
