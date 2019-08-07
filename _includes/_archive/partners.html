@@ -1,5 +1,5 @@
 {% comment %}
-    Displays a list of partner logos from a document's front matter
+Displays a list of partner logos from a document's front matter
 {% endcomment %}
 
 {% if page.partners %}
@@ -9,9 +9,9 @@
         <div class="flexslider">
             <ul class="slides">
                 {% for logo in page.partners %}
-                    <li>
-                        <img src="{{ logo | absolute_url }}" alt="{{ logo }}" />
-                    </li>
+                <li>
+                    <img src="{{ logo | absolute_url }}" alt="{{ logo }}" />
+                </li>
                 {% endfor %}
             </ul>
         </div>

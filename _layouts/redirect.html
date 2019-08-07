@@ -20,7 +20,7 @@ var result = str.substring(n + 1);
 console.log("Hey");
 console.log(result);
 url = "http://empyr.com/" + result;
-// window.location.replace(url);
+window.location.replace(url);
 
 
 
@@ -43,72 +43,3 @@ fetch('http://empyr.com', {mode: 'no-cors'}).then(r=>{
 
 
 </script>
-<!-- <div>
-    <div class="hero d-flex pt-5 pb-2" style="position: relative">
-        <div class="container full container-fluid d-flex flex-column
-justify-content-between my-5">
-            <div class="break-out poster poster-home z1">
-                <div class="row justify-content-between align-items-center
-flex-grow">
-                    <div class="pr-md-5 col-12
-poster-home-text">
-                        <p class="small mb-1 text-white" style="letter-spacing: 3.3px; font-size: 12px"
-                            data-aos="basic">
-                            ABOUT EMPYR
-                        </p>
-                        <h1 class="display-4 mb-1 mb-sm-2" data-aos="basic" data-aos-delay="100" style="
-                                font-size: 54px;
-                                font-weight: 400;
-                                letter-spacing: -1.4px;
-                                padding-right: 0;
-                                ">{{ page.heading | default:page.title }}</h1>
-                        {% if page.sub_heading and page.sub_heading != "" %}
-                        <p class="mb-0 pt-1 pt-sm-0 pb-0" data-aos="basic" data-aos-delay="150"
-                            style="max-width: 100%;">{{ page.sub_heading }}</p>
-                        {% endif %}
-                        {% if page.hero_button.text and page.hero_button.text != "" %}
-                        <div class="pb-2 d-flex flex-column flex-md-row" data-aos="basic" data-aos-delay="250">
-                            {% if page.hero_button %}
-                            <a href="{{ page.hero_button.href | absolute_url }}" class="btn btn-lg btn-white mb-2 mb-md-0
-primary">{{ page.hero_button.text }}</a>
-                            {% endif %}
-                            {% if page.second_button %}
-                            <a href="{{ page.second_button.href | absolute_url
-}}" class="btn btn-lg btn-secondary secondary d-non
-d-lg-block">{{ page.second_button.text }}</a>
-                            {% endif %}
-                        </div>
-                        {% endif %}
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="header-bg">
-        </div>
-    </div>
-</div>
-<div class="bg-gray-10 content content-narrow py-5">
-    <div class="container">
-        <div class="row">
-            <div class="col-8">
-                <div class="modifier">
-                    {{ content }}
-                </div>
-            </div>
-        </div>
-    </div>
-    {% if page.custom_css %}
-    {{ page.custom_css }}
-    {% endif %}
-    {% if page.custom_text %}
-    {{ page.custom_text }}
-    {% endif %}
-
-    {% if page.custom_copy %}
-    {% for item in page.custom_copy %}
-    {{ item.custom_text }}
-
-    {% endfor %}
-    {% endif %}
-    {% include staff.html %}
-</div> -->

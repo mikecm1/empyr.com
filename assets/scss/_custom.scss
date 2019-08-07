@@ -219,7 +219,7 @@ main {
 
 .single-team {
     position: relative;
-    box-shadow: 0 30px 40px 0 rgba(22,41,68,.1);
+    box-shadow: 0 30px 40px 0 rgba(22, 41, 68, .1);
     border-radius: 10px;
 
     img {
@@ -241,8 +241,8 @@ main {
     left: 0;
     padding: 20px 10px;
     width: 100%;
-//     background-color: #272a30;
-background: #fff;
+    //     background-color: #272a30;
+    background: #fff;
     text-align: center;
     -webkit-transition: .4s;
     transition: .4s;
@@ -252,7 +252,7 @@ background: #fff;
 .team-hover h4 {
     text-transform: capitalize;
     font-size: 18px;
-//         color: #fff;
+    //         color: #fff;
 }
 
 .team-hover .subtitle {
@@ -260,7 +260,8 @@ background: #fff;
     font-size: 13.5px;
     line-height: 1.4;
     opacity: .9;
-//         color: #fff;
+
+    //         color: #fff;
     @include media-breakpoint-up(xl) {
         font-size: 15.5px;
     }
@@ -570,7 +571,7 @@ p.latest {
     }
 
     @include media-breakpoint-up(xxl) {
-        padding: 150px 0 170px;
+        padding: 140px 0 150px;
     }
 
     .container {}
@@ -814,6 +815,7 @@ header {
 .overflow-x-hidden {
     overflow-x: hidden;
 }
+
 .home,
 .sub {
     overflow-x: hidden;
@@ -925,7 +927,7 @@ h1 {
 
     @include media-breakpoint-up('sm') {
         font-size: 40px;
-            letter-spacing: -1.4px;
+        letter-spacing: -1.4px;
     }
 
     @include media-breakpoint-up('md') {
@@ -936,7 +938,7 @@ h1 {
         font-size: 54px;
     }
 
-  }
+}
 
 .display-2,
 .display-3,
@@ -1266,13 +1268,13 @@ svg.fsvg {
     /* -webkit-box-align: center; */
     -ms-flex-align: center;
     margin: 0;
-//     padding: 4.35rem 3.375rem !important;
+    //     padding: 4.35rem 3.375rem !important;
     border: 0;
     border-radius: 15px !important;
     /* padding: 30px 0; */
     /* background: #4959cc; */
-//     background: #495eff;
-//     background: url(/img/bg-sub.png), #495eff;
+    //     background: #495eff;
+    //     background: url(/img/bg-sub.png), #495eff;
     background-position: -138px -43px, center;
     background-size: 120%, 100%;
     background-repeat: no-repeat !important;
@@ -1301,10 +1303,10 @@ svg.fsvg {
     }
 
     .lead {
-    margin-bottom: 0!important;
-    color: #aeaec1;
-    font-size: 1.26rem;
-    line-height: 1.7;
+        margin-bottom: 0 !important;
+        color: #aeaec1;
+        font-size: 1.26rem;
+        line-height: 1.7;
 
         @include media-breakpoint-down(sm) {
             font-size: 17px;
@@ -1333,6 +1335,7 @@ svg.fsvg {
 
 .sub-text {
     color: lighten($body-color, 35%);
+    color: desaturate(lighten($body-color, 28%), 5%);
 }
 
 .solutions {
@@ -1425,6 +1428,7 @@ svg.fsvg {
 
         p {
             color: lighten($body-color, 30%);
+            color: desaturate(lighten($body-color, 28%), 5%);
             letter-spacing: -0.1px;
             font-size: 1.05rem;
             line-height: 1.5;
@@ -1471,6 +1475,7 @@ svg.fsvg {
 .vw-100 {
     width: 100vw !important;
 }
+
 .callout {
     display: inline-block;
     margin-top: 0;
@@ -1491,21 +1496,23 @@ svg.fsvg {
 
 .swiper-container.standard {
     .rounded-lg {
-        box-shadow: -80px 90px 90px 0 rgba(22,41,68,0.2);
+        box-shadow: -80px 90px 90px 0 rgba(22, 41, 68, 0.2);
         background-position: center;
-            background-size: cover;
+        background-size: cover;
     }
+
     @include media-breakpoint-up(lg) {
         .swiper-slide:not(.swiper-slide-active) {
             transition: all .3s ease;
             // transform: scale(0.97);
             // opacity: 0.5;
         }
-        .swiper-slide-active {
 
-        }
+        .swiper-slide-active {}
 
-        .swiper-slide-next, .swiper-slide-prev {
+        .swiper-slide-next,
+        .swiper-slide-prev {
+
             // top: 50px;
             .embed-responsive-custom::before {
                 // padding-top: 30%;
@@ -1707,9 +1714,11 @@ svg.fsvg {
 .font-weight-100 {
     font-weight: 100;
 }
+
 .font-weight-300 {
     font-weight: 300;
 }
+
 .font-weight-400 {
     font-weight: 400;
 }
@@ -1721,9 +1730,11 @@ svg.fsvg {
 .font-weight-600 {
     font-weight: 600;
 }
+
 .font-weight-700 {
     font-weight: 700;
 }
+
 .font-weight-800 {
     font-weight: 800;
 }

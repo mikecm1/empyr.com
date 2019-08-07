@@ -1,16 +1,4 @@
 $(document).ready(function () {
-    //     var Scrollbar = window.Scrollbar;
-    // $('body').addClass('smooth');
-    //     const options = {
-    //         damping: 0.1,
-    //         thumbMinSize: 20,
-    //         renderByPixels: true,
-    //         alwaysShowTracks: false,
-    //         continuousScrolling: true,
-    //         wheelEventTarget: null
-    //     };
-    //     Scrollbar.init(document.querySelector("html:not(.no-js) body.smooth #main-scrollbar"), options);
-
     $('[data-id=nav-sidebar-toggle]').click(function (e) {
         e.preventDefault();
         $('#nav-sidebar').toggleClass('show');
@@ -30,16 +18,6 @@ $(document).ready(function () {
             nc.hide();
             var _this = this;
             $(this.oldContainer).fadeOut(300).promise().done(() => {
-                // $(function () {
-                //     var pathName = document.location.pathname;
-                //     window.onbeforeunload = function () {
-                //         var scrollPosition = $(document).scrollTop();
-                //         sessionStorage.setItem("scrollPosition_" + pathName, scrollPosition.toString());
-                //     }
-                //     if (sessionStorage["scrollPosition_" + pathName]) {
-                //         $(document).scrollTop(sessionStorage.getItem("scrollPosition_" + pathName));
-                //     }
-                // });
                 nc.css('visibility', 'visible');
                 document.body.scrollTop = 0;
                 nc.fadeIn(300, function () {
@@ -54,7 +32,6 @@ $(document).ready(function () {
     Barba.Pjax.start();
     var is_safari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
     if (!is_safari) Barba.Prefetch.init();
-    //   Barba.Prefetch.init();
 
     Barba.Dispatcher.on('transitionCompleted', function (currentStatus, oldStatus, container) {
         var swiper = new Swiper('.swiper-container', {
@@ -89,12 +66,12 @@ $(document).ready(function () {
         $('head').find(headTags).remove();
         $newPageHead.find(headTags).appendTo('head');
     });
-Barba.Dispatcher.on('newPageReady', function(currentStatus, oldStatus, container) {
-    var js = container.querySelector("[data-inject]");
-    if(js != null){
-        eval(js.innerHTML);
-    }
-});
+    Barba.Dispatcher.on('newPageReady', function (currentStatus, oldStatus, container) {
+        var js = container.querySelector("[data-inject]");
+        if (js != null) {
+            eval(js.innerHTML);
+        }
+    });
     Barba.Dispatcher.on('newPageReady', function (currentStatus) {
         const link = currentStatus.url.split(window.location.origin)[1].substring(1);
         const navigation = document.querySelector('.navbar-nav');

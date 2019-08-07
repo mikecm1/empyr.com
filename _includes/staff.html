@@ -14,19 +14,19 @@ Displays all of the people from the _people/ collection in a grid
                     <img alt="{{ person.title }}" src="{{ person.thumbnail | absolute_url }}">
                     {% else %}
                     <img alt="{{ person.title }}" src="{{ "/assets/pictures/image-540x540-dark.png" | absolute_url }}">
-                            {% endif %}
-						<div class=" team-hover text-center">
-                    <h4 class="mb-0">{{ person.title }}
-                        {% if person.sub_heading %}
-                    </h4>
+                    {% endif %}
+                    <div class=" team-hover text-center">
+                        <h4 class="mb-0">{{ person.title }}
+                            {% if person.sub_heading %}
+                        </h4>
                         <span class="subtitle">
                             {{ person.sub_heading }}
                         </span>{% endif %}
+                    </div>
                 </div>
             </div>
+            {% endfor %}
         </div>
-        {% endfor %}
-    </div>
     </div>
 </section>
 {% endif %}
