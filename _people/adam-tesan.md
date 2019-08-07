@@ -9,6 +9,5 @@ email: ''
 linkedin: ''
 page_title: Exec
 exec_team: true
-testing: {{ site.title }}
 
 ---
