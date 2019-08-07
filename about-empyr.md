@@ -38,7 +38,6 @@ custom_text: |-
         loop: true,
         effect: 'crossfade',
         spaceBetween: 0,
-        slidesOffsetAfter: 100,
         centeredSlides: true,
         slideToClickedSlide: true,
         loopedSlides: 0,
@@ -48,6 +47,7 @@ custom_text: |-
             clickable: true,
         },
         spaceBetween: 0,
+        slidesPerView: 3
   });
   });
   </script>
@@ -69,10 +69,11 @@ slides:
 - "/img/company-6.jpg"
 - "/img/company-2.jpg"
 - "/img/company-1.jpg"
+body_headline: Meet the Empyr team
 ---
 
-<div class="swiper pt-4 pb-5 mb-1 offset-lg">
-  <div class="container position-relative mb-3">
+<div class="swiper pt-4 pb-5 mb-1 offset-lg vw-100">
+  <div class="position-relative mb-3">
     <div class="swiper-container row standard" id="slider-gallery-14">
       <div class="swiper-wrapper">
       {% for item in page.slides %}
@@ -84,6 +85,3 @@ slides:
     </div>
   </div>
 </div>
-
-
-## Meet the Empyr team
