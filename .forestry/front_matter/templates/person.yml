@@ -36,6 +36,7 @@ fields:
   hidden: true
   default: person
 pages:
+- _people/adam-tesan.md
 - _people/brett-elliott.md
 - _people/quinn-miller.md
 - _people/jan-decino.md
@@ -50,7 +51,6 @@ pages:
 - _people/zack-miller.md
 - _people/steve-kwon.md
 - _people/tabitha-buchanan.md
-- _people/adam-tesan.md
 - _people/holly-hisel.md
 - _people/michael-waechter.md
 - _people/michael-reed.md
