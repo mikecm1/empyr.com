@@ -33,7 +33,8 @@
     "jekyll-metadata": true,
     ".vscode": true,
     "assets/css": true,
-    "assets/pictures": true
+    "assets/pictures": true,
+    "_layouts/not-found.html": true
   },
   "explorer.sortOrder": "type",
   "editor.defaultFormatter": "HookyQR.beautify"

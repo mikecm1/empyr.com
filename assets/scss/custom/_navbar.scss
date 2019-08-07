@@ -345,6 +345,7 @@
       .nav-link {
         font-size: $navbar-side-font-size;
         line-height: $navbar-side-line-height-sm;
+        margin-bottom: 5px;
         @include media-breakpoint-up('md') {
           font-size: $navbar-side-font-size * 1.25;
           line-height: $navbar-side-line-height;
@@ -363,7 +364,7 @@ right: 0;
       }
   
       @include media-breakpoint-up('sm') {
-        max-width: 40%;
+        max-width: 50%;
       }
   
       @include media-breakpoint-up('md') {

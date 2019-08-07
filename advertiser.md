@@ -86,7 +86,7 @@ primary_body_copy_headline: An improved approach to digital advertising
 primary_body_copy_subheadline: Empyr's cost-per-revenue model (CPR) accelerates and
   tracks in-store sales by distributing offers on an exclusive publisher network featuring
   top websites and apps– without charging for clicks or impressions.
-primary_body_icon: "/img/icon-pub-large.svg"
+primary_body_icon: "/img/icon-cards.svg"
 all_features_headline: Transform your bottom line with CPR
 section_one:
   tagline: Customer Reach

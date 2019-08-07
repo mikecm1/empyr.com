@@ -14,17 +14,17 @@ sub_heading: Generate revenue from offline commerce with your own fully customiz
   control of the UX and functionality.
 partners:
 - "/img/logo-home-1.png"
-- "/img/logo-home-2.png"
 - "/img/logo-home-3.png"
 - "/img/logo-home-4.png"
 - "/img/logo-home-5.png"
+- "/uploads/2019/sofi.png"
 - "/img/logo-home-6.png"
 primary_body_copy_headline: Increase user engagement. <br> Make more money.
 primary_body_copy_subheadline: Give your users another great reason to open your app.
   Empyr's RESTful API provides everything you need to build a customized card-linked
   offer rewards programs that drives repeat interaction and helps turn your users
   into advocates.
-primary_body_icon: "/img/icon-pub-large.svg"
+primary_body_icon: "/img/icon-cards.svg"
 show_mainfeatures: true
 mainfeatures:
 - heading: Unlimited revenue potential

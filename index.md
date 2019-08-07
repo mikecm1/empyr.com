@@ -105,8 +105,7 @@ company_types:
   icon: "/img/icon-cp-dark-1.svg"
   url: "/channel"
 cta_footer_header: Customized solutions
-cta_footer_subheader: Make card-linked offers part of your digital strategy and accelerate
-  your consumer engagement
+cta_footer_subheader: Make card-linked offers part of your digital strategy and accelerate consumer engagement today
 section_one:
   super: ''
   heading: ''

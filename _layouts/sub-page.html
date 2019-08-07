@@ -76,7 +76,7 @@ layout: default
             {% endif %}
             <div class="row pt-md-3 px-2 px-md-0 mt-4 text-left text-md-center">
                 <div class="col-12 mt-4">
-                     <img src="{{ page.primary_body_icon | absolute_url }}" alt="" height="116" data-aos="basic">
+                        <div class="rounded-circle bg-white mx-md-auto d-flex flex-wrap align-items-center justify-content-center icon-loud mb-2" style="width:87px; height: 87px;" data-aos="basic"><img src="{{ page.primary_body_icon | absolute_url }}" class="align-self-center"></div>
                     <h1 class="headline mt-1 mx-auto mb-2" data-aos="basic" data-aos-delay="100">{{ page.primary_body_copy_headline }}</h1>
                 </div>
                 <div class="col-md-12 col-xl-8 col-xxl-7 mx-auto">
@@ -184,9 +184,9 @@ layout: default
                                 <div class="media align-items-center">
                                     <div class="mr-2">
                                         {% if item.user_photo == "" %}
-                                        <img class="rounded" src="/uploads/2019/05/icon-place.svg" width="60" height="60" />
+                                        <img class="rounded" src="/img/genericUser.jpg" width="60" height="60" />
                                         {% else %}
-                                        <img class="rounded" src="{{ item.user_photo | absolute_url | default:"/uploads/2019/05/icon-place.svg" | absolute_url }}" width="60" height="60" />
+                                        <img class="rounded" src="{{ item.user_photo | absolute_url | default:"/img/genericUser.jpg" | absolute_url }}" width="60" height="60" />
                                         {% endif %}
                                     </div>
                                     <div class="media-body">

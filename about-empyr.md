@@ -21,6 +21,37 @@ show_mainfeatures: false
 hero_button:
   text: ''
   href: ''
+custom_text: |-
+  <script data-inject>
+  function defer(method) {
+  if (window.jQuery) {
+  method();
+  } else {
+  setTimeout(function() { defer(method) }, 50);
+  }
+  }
+  defer(function () {
+  var mySwiper14 = new Swiper('#slider-gallery-14', {
+          autoplay: {
+            delay: 5000,
+        },
+        loop: true,
+        spaceBetween: 0,
+        slidesOffsetAfter: 100,
+        centeredSlides: true,
+        slideToClickedSlide: true,
+               slidesPerView: 2,
+    navigation: {
+      nextEl: '#slider-gallery-14-next',
+      prevEl: '#slider-gallery-14-prev',
+    },
+    pagination: {
+      el: '#slider-gallery-14-pagination',
+      clickable: true
+    },
+  });
+  });
+  </script>
 custom_css: |-
   <style>
   .sub.header-bg::before {
@@ -35,6 +66,25 @@ menu:
     title: Company
     identifier: company
     weight: 3
-
+slides:
+- "/img/company-6.jpg"
+- "/img/company-2.jpg"
+- "/img/company-1.jpg"
 ---
-# Our Team
+
+<div class="swiper pt-4 pb-5 mb-4 offset-lg">
+  <div class="container position-relative mb-3">
+    <div class="swiper-container row standard" id="slider-gallery-14">
+      <div class="swiper-wrapper">
+      {% for slide in page.slides %}
+        <div class="swiper-slide col-11 col-md-6 p-">
+          <div class="rounded-lg" style="background-image: url({{ slide | absolute_url }});height: 400px;"></div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+
+## Meet the Empyr team

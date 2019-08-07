@@ -167,6 +167,7 @@ Barba.Dispatcher.on('newPageReady', function(currentStatus, oldStatus, container
         centeredSlides: true,
         slideToClickedSlide: true,
         loopedSlides: 0,
+        disableOnInteraction: true,
         pagination: {
             el: '.swiper-pagination',
             clickable: true,
