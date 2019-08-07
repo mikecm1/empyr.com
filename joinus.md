@@ -59,6 +59,7 @@ custom_css: "<style>\n  .order-1 {\n      margin: 0 auto !important;\n  }\n  .ro
   .hs-form-field .hs-input, form.hs-form .form-columns-3 .hs-form-field .hs-input
   {\n  width: 100% !important;\n\n  }\n\n\n</style>"
 custom_text: |-
+  <script>
   <!--[if lte IE 8]>
   <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
   <![endif]-->
