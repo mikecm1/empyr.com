@@ -1266,13 +1266,13 @@ svg.fsvg {
     /* -webkit-box-align: center; */
     -ms-flex-align: center;
     margin: 0;
-    padding: 4.35rem 3.375rem !important;
+//     padding: 4.35rem 3.375rem !important;
     border: 0;
     border-radius: 15px !important;
     /* padding: 30px 0; */
     /* background: #4959cc; */
-    background: #495eff;
-    background: url(/img/bg-sub.png), #495eff;
+//     background: #495eff;
+//     background: url(/img/bg-sub.png), #495eff;
     background-position: -138px -43px, center;
     background-size: 120%, 100%;
     background-repeat: no-repeat !important;
@@ -1301,10 +1301,10 @@ svg.fsvg {
     }
 
     .lead {
-        margin-bottom: 0 !important;
-        color: #fff;
-        font-size: 1.18rem;
-        line-height: 1.7;
+    margin-bottom: 0!important;
+    color: #aeaec1;
+    font-size: 1.26rem;
+    line-height: 1.7;
 
         @include media-breakpoint-down(sm) {
             font-size: 17px;
