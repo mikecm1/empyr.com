@@ -32,23 +32,23 @@ custom_text: |-
   }
   defer(function () {
   var mySwiper14 = new Swiper('#slider-gallery-14', {
-          autoplay: {
+            autoplay: {
             delay: 5000,
         },
         loop: true,
+        effect: 'crossfade',
         spaceBetween: 0,
         slidesOffsetAfter: 100,
         centeredSlides: true,
         slideToClickedSlide: true,
-               slidesPerView: 2,
-    navigation: {
-      nextEl: '#slider-gallery-14-next',
-      prevEl: '#slider-gallery-14-prev',
-    },
-    pagination: {
-      el: '#slider-gallery-14-pagination',
-      clickable: true
-    },
+        loopedSlides: 0,
+        disableOnInteraction: true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        slidesPerView: 2,
+        spaceBetween: 0,
   });
   });
   </script>
