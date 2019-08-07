@@ -42,8 +42,6 @@ fields:
   hidden: true
   default: person
 pages:
-- _people/bryon-cook.md
-- _people/jarrod-cuzens.md
 - _people/adam-tesan.md
 - _people/alaina-box.md
 - _people/brett-elliott.md
@@ -65,6 +63,8 @@ pages:
 - _people/christian-gonzalez.md
 - _people/jason-fuentes.md
 - _people/krista-hoglund-skipper.md
+- _people/bryon-cook.md
+- _people/jarrod-cuzens.md
 - _people/ryan-mcdonald.md
 - _people/monica-ross.md
 - _people/dylan-thwaits.md
