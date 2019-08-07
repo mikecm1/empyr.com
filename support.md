@@ -88,7 +88,7 @@ custom_text: |-
 page_name: "* Support"
 
 ---
-### Example FAQs
+<h3 class="mb-3">Example FAQs</h3>
 
 ## What is a Card Linked Offers Program?
 

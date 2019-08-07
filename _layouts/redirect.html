@@ -1,9 +1,13 @@
 ---
 layout: redirect
 ---
-{% comment %}
-A general page layout. Used by default for all content on the site.
-{% endcomment %}
+
+<!doctype html>
+<html class="no-js" lang="en">
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
 <script>
 function defer(method) {
     if (window.jQuery) {
@@ -43,3 +47,4 @@ fetch('http://empyr.com', {mode: 'no-cors'}).then(r=>{
 
 
 </script>
+</html>
