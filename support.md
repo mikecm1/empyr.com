@@ -13,13 +13,24 @@ show_mainfeatures: false
 headline: Submit a Support Request
 intro_paragraph: ''
 custom_code: |-
-  <script>
-       $(document).ready(function(){
-       $('.modifier h2').css('cursor','pointer');
-       $(".modifier h2").nextUntil("h2").slideToggle();
-       $(".modifier h2").click(function() {$(this).nextUntil("h2").slideToggle();});
-       });
-       </script>
+  <script data-inject>
+      function defer(method) {
+          if (window.jQuery) {
+              method();
+          } else {
+              setTimeout(function () {
+                  defer(method)
+              }, 50);
+          }
+      }
+      defer(function () {
+          $('.modifier h2').css('cursor', 'pointer');
+          $(".modifier h2").nextUntil("h2").slideToggle();
+          $(".modifier h2").click(function () {
+              $(this).nextUntil("h2").slideToggle();
+          });
+      });
+  </script>
 custom_css: |-
   <style>
     h2 {
