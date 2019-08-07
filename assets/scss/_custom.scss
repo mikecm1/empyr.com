@@ -232,7 +232,7 @@ main {
         -o-object-fit: cover;
         object-fit: cover;
         -o-object-position: center top;
-        max-height: 240px;
+        max-height: 300px;
         /* border-radius: 9px; */
     }
 }
@@ -241,7 +241,8 @@ main {
     left: 0;
     padding: 20px 10px;
     width: 100%;
-    background-color: #fff;
+//     background-color: #272a30;
+background: #fff;
     text-align: center;
     -webkit-transition: .4s;
     transition: .4s;
@@ -251,6 +252,7 @@ main {
 .team-hover h4 {
     text-transform: capitalize;
     font-size: 18px;
+//         color: #fff;
 }
 
 .team-hover .subtitle {
@@ -258,11 +260,11 @@ main {
     font-size: 13.5px;
     line-height: 1.4;
     opacity: .9;
+//         color: #fff;
     @include media-breakpoint-up(xl) {
         font-size: 15.5px;
     }
 }
-
 
 .team-hover h4 span {
     display: block;
@@ -1702,8 +1704,36 @@ svg.fsvg {
     @include media-breakpoint-up('xxl') {}
 }
 
+.font-weight-100 {
+    font-weight: 100;
+}
+.font-weight-300 {
+    font-weight: 300;
+}
+.font-weight-400 {
+    font-weight: 400;
+}
+
+.font-weight-500 {
+    font-weight: 500;
+}
+
+.font-weight-600 {
+    font-weight: 600;
+}
+.font-weight-700 {
+    font-weight: 700;
+}
+.font-weight-800 {
+    font-weight: 800;
+}
+
 .bg-gray-25 {
     background: $gray-10;
+}
+
+.bg-gray-900 {
+    background: $gray-900;
 }
 
 .bg-gray-10 {

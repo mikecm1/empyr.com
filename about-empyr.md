@@ -72,7 +72,7 @@ slides:
 body_headline: Meet the Empyr team
 ---
 
-<div class="swiper pt-4 pb-5 mb-1 offset-lg vw-100">
+<div class="swiper pt-4 pb-5 mb-5 offset-lg vw-100">
   <div class="position-relative mb-3">
     <div class="swiper-container row standard" id="slider-gallery-14">
       <div class="swiper-wrapper">
