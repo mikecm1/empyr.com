@@ -355,5 +355,6 @@ fields:
     labelField: 
   label: Case Studies
 pages:
+- "./publishers-grow-offline-revenue-create-card-linked-offers.md"
 - publisher.md
 - advertiser.md
