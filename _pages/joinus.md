@@ -23,22 +23,21 @@ custom_css: "<style>\n  .order-1 {\n      margin: 0 auto !important;\n  }\n  .ro
   .title-desc-wrapper.over-image.has-main-image .page-desc, .extra-description-formatting.title-background:not(.collection-type-index)
   .title-desc-wrapper .page-desc {\n  margin-top: 0;\n  padding-top: 0;\n  }\n\n  input.hs-input,
   textarea.hs-input {\n    width: 100%;\n    padding: 18px 12px;\n    margin: 6px
-  0 0;\n    border: 1px solid hsla(213, 32%, 89%, 1);\n    background: #fff;\n    font-size:
-  17px;\n    line-height: normal;\n    box-sizing: border-box;\n    border-radius:
-  5px;\n  }\n  textarea.hs-input {\n          min-height: 130px;\n  }\n  .footer-cta
-  {\n      display: none;\n  } \n  .hs-form label {\n  font-size: 15px;\n  font-weight:
-  400 !important;\n  float: left;\n  color: #19395e;\n  font-family: inherit !important;\n
-  \ margin-bottom: 2px;\n  letter-spacing: .3px;\n      padding-top: 25px;\n  }\n\n
-  \ .hs-form.stacked fieldset {\n  padding: 0;\n  margin: 0 auto;\n  text-rendering:
-  optimizeLegibility;\n  -moz-osx-font-smoothing: grayscale;\n  font-smoothing: antialiased;\n
-  \ -webkit-font-smoothing: antialiased;\n  text-shadow: rgba(0, 0, 0, .01) 0 0 1px;\n
-  \ }\n  \n  .footer-cta:before {\n  transform: scaleY(-1);\n  top: 2px;\n      opacity:
-  0.6;\n  }\n\n  .hs-form fieldset {\n  max-width: 100% !important;\n  }\n\n  .hs-form
-  fieldset select {\n  height: 54px;\n  padding: 17px 15px;\n  margin: 6px 0 0;\n
-  \ border: 1px solid hsla(213, 32%, 89%, 1);\n  background: #fff;\n  font-size: 17px;\n
-  \ line-height: normal;\n  box-sizing: border-box;\n  border-radius: 5px;\n  color:
-  #000;\n  -webkit-appearance: none;\n  -moz-appearance: none;\n  appearance: none;\n
-  \ background-image: url(\"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'
+  0 0;\n    border: none;\n    background: #f3f7fc;\n    font-size: 17px;\n    line-height:
+  normal;\n    box-sizing: border-box;\n    border-radius: 5px;\n  }\n  textarea.hs-input
+  {\n          min-height: 130px;\n  }\n  .footer-cta {\n      display: none;\n  }
+  \n  .hs-form label {\n  font-size: 15px;\n  font-weight: 400 !important;\n  float:
+  left;\n  color: #19395e;\n  font-family: inherit !important;\n  margin-bottom: 2px;\n
+  \ letter-spacing: .3px;\n      padding-top: 25px;\n  }\n\n  .hs-form.stacked fieldset
+  {\n  padding: 0;\n  margin: 0 auto;\n  text-rendering: optimizeLegibility;\n  -moz-osx-font-smoothing:
+  grayscale;\n  font-smoothing: antialiased;\n  -webkit-font-smoothing: antialiased;\n
+  \ text-shadow: rgba(0, 0, 0, .01) 0 0 1px;\n  }\n  \n  .footer-cta:before {\n  transform:
+  scaleY(-1);\n  top: 2px;\n      opacity: 0.6;\n  }\n\n  .hs-form fieldset {\n  max-width:
+  100% !important;\n  }\n\n  .hs-form fieldset select {\n  height: 54px;\n  padding:
+  17px 15px;\n  margin: 6px 0 0;\n  border: 1px solid hsla(213, 32%, 89%, 1);\n  background:
+  #fff;\n  font-size: 17px;\n  line-height: normal;\n  box-sizing: border-box;\n  border-radius:
+  5px;\n  color: #000;\n  -webkit-appearance: none;\n  -moz-appearance: none;\n  appearance:
+  none;\n  background-image: url(\"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'
   width='100' height='100' fill='%23000000'><polygon points='20,0 80,0 50,52'/></svg>\");\n
   \ background-size: 12px;\n  background-position-x: calc(100% - 16px);\n  background-position-y:
   calc(100% - 16px);\n  background-repeat: no-repeat;\n   /* box-shadow: 0 1px 3px
@@ -89,11 +88,5 @@ page_name: "* Contact / Join Us"
 hero_button:
   text: ''
   href: ''
-menu:
-  partners:
-    weight: 3
-    identifier: Channel Partners
-    description: Create a new revenue stream with Empyr
-    icon: "/img/icon-dropdown-3.svg"
 
 ---
