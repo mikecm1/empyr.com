@@ -33,7 +33,12 @@ site-header navbar-dark">
                                             <img src="{{ item.icon }}" width="48" height="48" />
                                         </div>
                                         <div class="media-body">
-                                            <span>For {{ item.title }}</span>
+                                            <span>For   {% if item.contact_page == true %}
+                                                Channel Partners
+                                                {% else %}
+                                                {{ item.title }}
+                                                {{ item.contact_page }}
+                                                {% endif %}</span>
                                             <p class="small mb-0">{{ item.description }}</p>
                                         </div>
                                     </div>

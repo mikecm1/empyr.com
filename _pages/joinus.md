@@ -1,7 +1,7 @@
 ---
 layout: contact
 permalink: "/joinus/"
-title: Channel Partners
+title: Contact Us
 heading: Talk to our Sales Team
 description: ''
 keywords: ''
@@ -88,5 +88,12 @@ page_name: "* Contact / Join Us"
 hero_button:
   text: ''
   href: ''
-
+contact_page: true
+menu:
+  partners:
+    weight: 3
+    identifier: Channel Partners
+    description: Create a new revenue stream with Empyr
+    icon: "/img/icon-dropdown-3.svg"
+    contact_page: true
 ---

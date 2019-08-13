@@ -3,8 +3,9 @@
 
 <head>
     <meta charset="utf-8">
-    {% if page.homepage %}<title>{{ site.title }} - {{ page.title }}</title>{% else %}<title>{{ page.title }} -
-        {{ site.title }}</title>{% endif %}
+    {% if page.homepage %}<title>{{ site.title }} - {{ page.title }}</title>{% elsif page.contact_page == true %}<title>Join us -
+            {{ site.title }}</title>{% else %}<title>{{ page.title }} -
+                {{ site.title }}</title>{% endif %}
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="canonical" href="https://www.empyr.com" />
     <meta name="robots" content="noindex,nofollow">
