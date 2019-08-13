@@ -81,6 +81,12 @@ h4 {
     max-width: 160%;
     max-width: 160%;
 
+    &.float-right {
+        @include media-breakpoint-down(md) {
+        left: 20%;
+        }
+    }
+
     @include media-breakpoint-up(md) {
         left: auto;
         max-width: 200%;
@@ -472,7 +478,7 @@ p.latest {
             right: -115%;
             width: 130%;
             height: 155%;
-            background: linear-gradient(18deg, rgba(255, 255, 255, 0) 25%, rgba(233, 234, 243, .5) 80%);
+            background: linear-gradient(18deg, rgba(255, 255, 255, 0) 25%, rgba(233, 234, 243, .2) 80%);
             content: "";
             transform: skewX(57deg);
         }
