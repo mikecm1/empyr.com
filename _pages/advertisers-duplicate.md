@@ -130,6 +130,5 @@ user_testimonials:
   title: ''
   testimonials: []
 page_name: "* Advertisers Duplicate"
-published: false
 
 ---
