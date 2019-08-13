@@ -2,6 +2,12 @@
 label: Contact
 hide_body: true
 fields:
+- name: url_permalink
+  type: text
+  config:
+    required: false
+  label: URL Permalink
+  description: 'Must be in the format: "/pagename/"'
 - type: text
   name: layout
   label: layout

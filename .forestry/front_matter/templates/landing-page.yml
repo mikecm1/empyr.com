@@ -8,6 +8,12 @@ fields:
   config:
     required: false
   label: page name
+- name: url_permalink
+  type: text
+  config:
+    required: false
+  label: URL Permalink
+  description: 'Must be in the format: "/pagename/"'
 - name: title
   label: Title
   type: text
