@@ -136,6 +136,5 @@ section_three:
 show_user_testimonials: true
 case_studies: []
 page_name: "* Publishers"
-published: false
 
 ---
