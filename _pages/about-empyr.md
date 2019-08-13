@@ -1,5 +1,6 @@
 ---
 layout: standard-page
+permalink: "/about-empyr/"
 title: About Empyr
 heading: We help companies generate revenue and delight their users with card linked offers
 description: Empyr's technology makes earning rewards on in-store purchases so easy,

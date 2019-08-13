@@ -1,5 +1,6 @@
 ---
 title: Posts
+permalink: "/posts/"
 layout: posts
 sub_heading: ''
 description: Posts by Empyr

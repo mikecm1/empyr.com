@@ -1,6 +1,7 @@
 title: Empyr
 short_title: Empyr
 description: Empyr empowers companies to track and monetize online to offline (o2o) commerce using card linked offers.
+include: ['_pages']
 baseurl: /
 url: "https://www.empyr.site"
 permalink: "/:path/"
@@ -46,6 +47,7 @@ exclude:
   - assets/scss
   - Gemfile
   - vendor
+  - _pages-backup-root
 
 # PREVIEW COMMAND
 # bundle exec jekyll build --drafts --unpublished --future -d _site

@@ -1,5 +1,6 @@
 ---
 layout: contact
+permalink: "/joinus/"
 title: Channel Partners
 heading: Talk to our Sales Team
 description: ''

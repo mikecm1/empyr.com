@@ -1,5 +1,6 @@
 ---
 layout: sub-page
+permalink: "/advertiser/"
 title: Advertisers - Advertise Online - Guaranteed ROI - Pay Per Sale
 description: Advertise offers with accurate ROI through in store purchases. Pay only
   when consumers make a purchase.

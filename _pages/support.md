@@ -1,5 +1,6 @@
 ---
 layout: text-only
+permalink: "/support/"
 title: Support
 heading: Our Mission– To Make Earning Rewards On In-Store Purchases as Effortless
   as Breathing

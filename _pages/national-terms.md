@@ -1,5 +1,6 @@
 ---
 layout: text-only
+permalink: "/national-terms/"
 title: National Advertiser Terms & Conditions
 heading: Our Mission– To Make Earning Rewards On In-Store Purchases as Effortless
   as Breathing

@@ -1,5 +1,6 @@
 ---
 title: Channel Partners
+permalink: "/channel/"
 banner_image: ''
 layout: sub-page
 thelink: Welcome to {{ site.url }}

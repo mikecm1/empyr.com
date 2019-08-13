@@ -1,5 +1,6 @@
 ---
 title: Careers
+permalink: "/careers/"
 description: ''
 keywords: ''
 sub_heading: ''
