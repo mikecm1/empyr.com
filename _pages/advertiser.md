@@ -24,10 +24,10 @@ mainfeatures:
     on our exclusive publisher network.
   icon: "/img/one.svg"
 - heading: Amplify your revenue
-  description: Our cost per revenue (CPR) model generates a guaranteed ROAS. The impressions
+  description: Our cost per revenue (CPR™) model generates a guaranteed ROAS. The impressions
     and clicks? 100% free.
   icon: "/img/two.svg"
-- description: Measure what truly matters. Track online impressions all the way to
+- description: Measure what truly matters. Track online ads all the way to
     in-store sales with real-time offline analytics.
   heading: Real-time offline attribution
   icon: "/img/three.svg"
@@ -36,12 +36,12 @@ sub_heading: Reach millions of consumers and ignite your in-store revenue withou
   attribution.
 hero_button:
   text: Get Started
-  href: "/about"
+  href: "/joinus/"
 headerimage: "/img/hero-advertiser.png"
 show_news: true
 show_staff: true
 show_mainfeatures: true
-second_button:
+second_button_:
   text: Learn More
   link: "/"
 all_features:
@@ -84,7 +84,7 @@ case_studies:
   roi: "$8.42"
   incremental_roi: "$4.20"
 primary_body_copy_headline: An improved approach to digital advertising
-primary_body_copy_subheadline: Empyr's cost-per-revenue model (CPR) accelerates and
+primary_body_copy_subheadline: Empyr's Cost-Per-Tevenue model (CPR™) accelerates and
   tracks in-store sales by distributing offers on an exclusive publisher network featuring
   top websites and apps– without charging for clicks or impressions.
 primary_body_icon: "/img/icon-cards.svg"

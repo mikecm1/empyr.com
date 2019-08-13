@@ -10,9 +10,7 @@ banner_image: ''
 heading: |-
   Enhance your experience.
   Amplify your revenue.
-sub_heading: Generate revenue from offline commerce with your own fully customized
-  card-linked offer program. Get 1000s of offers out of the box with complete creative
-  control of the UX and functionality.
+sub_heading: Generate revenue and increase engagement from offline commerce with your own fully customized card-linked offer program. Get 1000s of offers with complete creative control of the UX and functionality.
 partners:
 - "/img/logo-home-1.png"
 - "/img/logo-home-3.png"
@@ -43,8 +41,8 @@ mainfeatures:
 all_features_headline: 93% of purchases are made offline. Get a piece of the pie.
 hero_button:
   text: Request a Demo
-  href: "#"
-second_button:
+  href: "/joinus/"
+second_button_:
   text: How it Works
   link: "#"
 headerimage: "/img/hero-publisher.svg"

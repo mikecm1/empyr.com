@@ -347,7 +347,7 @@ main {
     }
 
     h1 {
-        color: #0b0b43;
+//         color: #0b0b43;
         letter-spacing: -1.1px;
         font-weight: 600;
     }
@@ -692,13 +692,13 @@ p.latest {
         }
 
         .btn {
-            &:first-of-type {
+            &.btn-white {
                 border: none;
                 box-shadow: 0 5px 6px -1px rgba(16, 38, 62, 0.07);
                 color: $primary;
             }
 
-            &:last-of-type {
+            &.btn-secondary {
                 color: $white;
             }
         }
@@ -1114,8 +1114,8 @@ li.nav-item {
 }
 
 .icon-loud {
-    background: #FFFFFF;
-    box-shadow: 0 9px 28px -12px rgba(22, 42, 106, 0.27), inset 0 -6px 0 0 rgba(234, 232, 238, 0.22);
+    background: #f5f8ff;
+//     box-shadow: 0 9px 28px -12px rgba(22, 42, 106, 0.27), inset 0 -6px 0 0 rgba(234, 232, 238, 0.22);
 }
 
 .sub-menu .col {
@@ -1765,7 +1765,7 @@ svg.fsvg {
         &::before {
             position: absolute;
             top: -70px;
-            right: 0;
+            right: -280px;
             z-index: 0;
             padding-bottom: 130px;
             min-width: 830px;

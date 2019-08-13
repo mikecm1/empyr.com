@@ -19,15 +19,14 @@ layout: default
                         {% endif %}
                         {% if page.hero_button %}
                         <div class="pb-2 d-flex flex-column flex-md-row" data-aos="basic" data-aos-delay="250">
-                            <a href="{{ page.hero_button.href | absolute_url }}" class="btn btn-lg btn-white mb-2 mb-md-0
+                            <a href="{{ page.hero_button.href | absolute_url }}" class="btn btn-lg btn-secondary mb-2 mb-md-0
                                 primary">{{ page.hero_button.text }}</a>
                             {% endif %}
                             {% if page.second_button %}
                             <a href="{{ page.second_button.href | absolute_url
-                                }}" class="btn btn-lg btn-secondary secondary d-non
-                                d-lg-block">{{ page.second_button.text }}</a>
-                        </div>
+                                }}" class="btn btn-lg btn-white secondary">{{ page.second_button.text }}</a>
                         {% endif %}
+                    </div>
                     </div>
                     <div
                         class="col-12 col-md-4 order-2 order-sm-2 position-relative mt-5 mt-md-0 mb-5 mb-md-0 pb-5 pb-md-0">
@@ -61,7 +60,7 @@ layout: default
             {% endif %}
             {% if page.partners %}
             <div class="logos pt-4">
-                <div class="container pt-2 pb-4 px-md-5 border-bottom">
+                <div class="container pt-2 pb-4 px-md-5">
                     <div class="row justify-content-center
                             justify-content-lg-between text-center align-items-center">
                         {% for logo in page.partners %}
@@ -76,7 +75,7 @@ layout: default
             {% endif %}
             <div class="row pt-md-3 px-2 px-md-0 mt-4 text-left text-md-center">
                 <div class="col-12 mt-4">
-                    <div class="rounded-circle bg-white mx-md-auto d-flex flex-wrap align-items-center justify-content-center icon-loud mb-2"
+                    <div class="rounded-circle mx-md-auto d-flex flex-wrap align-items-center justify-content-center icon-loud mb-2"
                         style="width:87px; height: 87px;" data-aos="basic"><img
                             src="{{ page.primary_body_icon | absolute_url }}" class="align-self-center"></div>
                     <h1 class="headline mt-1 mx-auto mb-2" data-aos="basic" data-aos-delay="100">

@@ -26,8 +26,7 @@ mainfeatures:
   heading: Full Offline Attribution
   icon: "/img/icon-3.svg"
 - heading: Guaranteed ROAS
-  description: Your brand is promoted to millions of potential consumers, with zero
-    fees for clicks or impressions.
+  description: Your brand is promoted to millions of potential consumers and you only pay for sales, with zero fees for clicks or impressions.
   icon: "/img/icon-2.svg"
 sub_heading: Empyr is the leading card-linked offer engagement platform for national
   brands and digital publishers– increasing consumer engagement, driving guaranteed
@@ -94,17 +93,17 @@ company_types:
   heading: For National Brands
   description: See how Empyr can drive significant revenue for your brand at scale
   icon: "/img/icon-natl-dark-1.svg"
-  url: "/advertiser"
+  url: "/advertiser/"
 - badge: Publishers
   heading: For Websites & Apps
   description: Earn offline revenue from your own custom card-linked offer program
   icon: "/img/icon-pub-dark-1.svg"
-  url: "/publisher"
+  url: "/publisher/"
 - badge: Sell with Empyr
   heading: For Channel Partners
   description: Share Empyr with your clients for a brand new revenue stream
   icon: "/img/icon-cp-dark-1.svg"
-  url: "/channel"
+  url: "/joinus/"
 cta_footer_header: Customized solutions
 cta_footer_subheader: Make card-linked offers part of your digital strategy and accelerate consumer engagement today
 section_one:
@@ -127,7 +126,7 @@ section_two:
   img_width: 700
   tagline: Smarter Revenue
   section_header: Minimum 10X ROAS, Guaranteed.
-  section_body_copy: Empyr powers CPR, a pay-per-revenue model that drives motivated
+  section_body_copy: Empyr powers CPR™, a pay-per-revenue model that drives motivated
     customers to your stores without charging for clicks and impressions. You only
     pay a small fee when the sale happens.
   button:
@@ -139,7 +138,7 @@ section_three:
   tagline: Real-Time Analytics
   section_header: 100% In-Store Revenue Attribution
   section_body_copy: No more guesswork, no more wasting time with manual reporting.
-    Track online impressions all the way through to in-store sales with personalized
+    Track online ads all the way through to in-store sales with personalized
     real-time analytics.
   button:
     text: Learn More
