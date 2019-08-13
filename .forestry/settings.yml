@@ -8,7 +8,7 @@ sections:
   label: Site Content
 - type: directory
   path: _pages
-  label: Pages (New Test)
+  label: Pages
   create: all
   match: "*"
   templates:
@@ -17,15 +17,6 @@ sections:
   - text-only
   - landing-page
   - standard-page
-- type: jekyll-pages
-  label: Pages
-  create: all
-  templates:
-  - contact
-  - text-only
-  - landing-page
-  - standard-page
-  - sub-page
 - type: directory
   path: _people
   label: People
