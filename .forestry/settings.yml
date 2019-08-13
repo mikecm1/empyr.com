@@ -10,7 +10,7 @@ sections:
   path: _pages
   label: Pages (New Test)
   create: all
-  match: "**/*"
+  match: "*"
   templates:
   - sub-page
   - contact
