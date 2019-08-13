@@ -2,7 +2,7 @@
 label: Contact
 hide_body: true
 fields:
-- name: url_permalink
+- name: permalink
   type: text
   config:
     required: false
