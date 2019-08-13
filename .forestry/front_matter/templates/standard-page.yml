@@ -50,6 +50,3 @@ fields:
   label: layout
   default: standard-page
   hidden: true
-pages:
-- careers.md
-- about-empyr.md

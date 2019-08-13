@@ -354,6 +354,3 @@ fields:
     max: '3'
     labelField: 
   label: Case Studies
-pages:
-- publisher.md
-- advertiser.md

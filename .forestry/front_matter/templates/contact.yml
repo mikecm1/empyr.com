@@ -60,5 +60,3 @@ fields:
   - type: text
     name: href
     label: href
-pages:
-- joinus.md
