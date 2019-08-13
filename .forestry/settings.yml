@@ -4,6 +4,17 @@ auto_deploy: true
 admin_path: "/admin"
 webhook_url: 
 sections:
+- type: directory
+  path: _pages
+  label: Pages (New Test)
+  create: all
+  match: "**/*"
+  templates:
+  - sub-page
+  - contact
+  - text-only
+  - landing-page
+  - standard-page
 - type: heading
   label: Site Content
 - type: jekyll-pages
