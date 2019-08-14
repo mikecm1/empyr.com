@@ -8,6 +8,9 @@ sections:
   label: Pages old
   create: all
   templates:
+  - contact
+  - text-only
+  - standard-page
   - sub-page
   - landing-page
 - type: heading
