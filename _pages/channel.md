@@ -12,7 +12,14 @@ heading: |-
   Amplify your revenue.
 sub_heading: Generate revenue and increase engagement from offline commerce with your
   own fully customized card-linked offer program. Get 1000s of offers and complete
-  creative control of the UX and functionality.
+  creative control of the UX and functionality.Generate revenue and increase engagement
+  from offline commerce with your own fully customized card-linked offer program.
+  Get 1000s of offers and complete creative control of the UX and functionality.Generate
+  revenue and increase engagement from offline commerce with your own fully customized
+  card-linked offer program. Get 1000s of offers and complete creative control of
+  the UX and functionality.Generate revenue and increase engagement from offline commerce
+  with your own fully customized card-linked offer program. Get 1000s of offers and
+  complete creative control of the UX and functionality.
 partners:
 - "/img/logo-home-1.png"
 - "/img/logo-home-3.png"
