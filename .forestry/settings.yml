@@ -7,7 +7,6 @@ sections:
 - type: jekyll-pages
   label: Pages old
   create: all
-  match: "**/*"
   templates:
   - sub-page
   - landing-page
