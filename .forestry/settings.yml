@@ -4,15 +4,6 @@ auto_deploy: true
 admin_path: "/admin"
 webhook_url: 
 sections:
-- type: jekyll-pages
-  label: Pages old
-  create: all
-  templates:
-  - contact
-  - text-only
-  - standard-page
-  - sub-page
-  - landing-page
 - type: heading
   label: Site Content
 - type: directory
@@ -40,11 +31,6 @@ sections:
   match: "*"
   templates:
   - project
-- type: jekyll-posts
-  label: Posts
-  create: all
-  templates:
-  - post
 - type: document
   path: _data/information.yml
   label: Site info (global)
