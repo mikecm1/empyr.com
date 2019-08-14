@@ -1,7 +1,7 @@
 ---
 layout: sub-page
 permalink: "/channel/"
-title: Publishers - Grow Offline Revenue - Create Card Linked Offers
+title: Channel Test
 description: Publishers can grow revenue by tapping into online to offline commerce.
   Offers consumers card linked offers with guaranteed revenue per sale.
 keywords: Card Linked Offers, Publishers, Revenue Per Sale
@@ -82,15 +82,12 @@ section_one:
     link_url: index.md
     href: ''
 section_two:
-  tagline: Content
-  section_header: Thousands of offline offers ready to go
-  section_body_copy: Get access to thousands of offline offers, from local stores
-    and restaurants to popular national brands. You can issue user rewards direct
-    to their linked cards automatically or use a digital currency to gamify your product.
-    It’s all up to you.
+  tagline: ''
+  section_header: ''
+  section_body_copy: ''
   image: "/img/globe.jpg"
   button:
-    text: Learn More
+    text: ''
     link_url: index.md
     href: ''
   stats:
