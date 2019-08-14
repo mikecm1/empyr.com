@@ -68,7 +68,7 @@ all_features:
   icon: "/img/icons/icon-list-10.svg"
 - heading: Designed for all digital product types
   icon: "/img/icons/icon-list-40.svg"
-show_case_studies: false
+show_case_studies: true
 section_one:
   tagline: USER EXPERIENCE
   section_header: |-
@@ -138,7 +138,13 @@ section_three:
     text: ''
     href: ''
 show_user_testimonials: true
-case_studies: []
+case_studies:
+- partner_logo: "/uploads/2019/05/google.svg"
+  heading: sdfjdfbg
+  overview: dgsdngdfngdgndsgn
+  incremental_revenue: "20"
+  roi: "20"
+  incremental_roi: "20"
 page_name: "* Channel Partners"
 published: false
 
