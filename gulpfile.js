@@ -15,6 +15,7 @@ var gulp = require('gulp'),
     pngquant = require('imagemin-pngquant'),
     imageOptim = require('gulp-imageoptim'),
     csso = require('postcss-csso'),
+    autoreload = require('autoreload-gulp'),
     purgecss = require('gulp-purgecss');
 
 gulp.task('generate', shell.task('bundle exec jekyll serve --watch --incremental --livereload'));
@@ -41,7 +42,6 @@ gulp.task('scss-local', function () {
         .pipe(sass())
         .on("error", sass.logError)
         .pipe(postcss(processors))
-        // .pipe(pxtorem(pxtoremOptions))
         .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest('assets/css/'))
         .pipe(touch());
@@ -69,11 +69,12 @@ gulp.task('scss-full', function () {
         .on("error", sass.logError)
         .pipe(
             purgecss({
-              content: ['./_site/**/*.html'],
-              whitelistPatterns: [/aos/],
+                content: ['./_site/**/*.html'],
+                whitelistPatterns: [/aos/],
             })
-          )
+        )
         .pipe(postcss(processors))
+        .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest('assets/css/'))
         .pipe(touch());
 });
@@ -85,8 +86,6 @@ gulp.task('watch', function () {
 gulp.task('watch-full', function () {
     gulp.watch(['assets/**/*.scss'], gulp.series('scss-full'));
 });
-
-// ****** Build tasks ****** //
 
 // Default: build and watch local
 // Run -> 'gulp'
