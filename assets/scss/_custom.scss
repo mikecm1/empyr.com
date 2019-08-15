@@ -6,10 +6,6 @@ body {
     }
 }
 
-body {
-    // font-family: aeroport;
-}
-
 h1,
 h2,
 h3,
@@ -167,13 +163,6 @@ main {
 .rounded-xl {
     border-radius: $border-radius-xl !important;
 }
-
-.content {
-    &.pure {
-        p {}
-    }
-}
-
 .pt-100 {
     padding-top: 100px;
 }
@@ -237,7 +226,6 @@ main {
         height: 100%;
         -o-object-fit: cover;
         object-fit: cover;
-        -o-object-position: center top;
         max-height: 300px;
         /* border-radius: 9px; */
     }
@@ -505,7 +493,6 @@ p.latest {
 
         }
 
-        &::before {}
     }
 
     &.hero:not(.default) {
@@ -579,8 +566,6 @@ p.latest {
     @include media-breakpoint-up(xxl) {
         padding: 140px 0 150px;
     }
-
-    .container {}
 
     svg.wave {
         position: absolute;
@@ -997,16 +982,9 @@ h1 {
     }
 }
 
-.site-header a:hover {}
-
 li.nav-item {
     margin-bottom: 0 !important;
 }
-
-.nav-link {
-    &.dropdown-toggle {}
-}
-
 #logo {
     margin-right: 20px;
 }
@@ -1462,11 +1440,6 @@ svg.fsvg {
 
     }
 
-    .card-body {
-
-        &.ptop {}
-    }
-
     &:before {
         content: '';
 
@@ -1514,16 +1487,14 @@ svg.fsvg {
             // opacity: 0.5;
         }
 
-        .swiper-slide-active {}
+        // .swiper-slide-next,
+        // .swiper-slide-prev {
 
-        .swiper-slide-next,
-        .swiper-slide-prev {
-
-            // top: 50px;
-            .embed-responsive-custom::before {
-                // padding-top: 30%;
-            }
-        }
+        //     // top: 50px;
+        //     // .embed-responsive-custom::before {
+        //     //     // padding-top: 30%;
+        //     // }
+        // }
     }
 }
 
@@ -1563,7 +1534,6 @@ svg.fsvg {
     list-style: none;
     cursor: pointer;
 
-    .card {}
 }
 
 .sub-pad {
@@ -1577,11 +1547,6 @@ svg.fsvg {
 
     @include media-breakpoint-up(md) {
         padding: 50px 0 150px;
-    }
-
-    h1 {
-
-        &:first-of-type {}
     }
 
     .lead {
@@ -2046,7 +2011,6 @@ img {
 .img-skewed {
     perspective: 1500px;
 
-    img {}
 }
 
 @include media-breakpoint-down(sm) {
@@ -2500,7 +2464,7 @@ img.lazyfade.lazyloaded {
     border-radius: 37px 37px 41px 41px;
     background-size: cover !important;
     transform: scaleX(-1) translateZ(0);
-
+    backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
 }
 

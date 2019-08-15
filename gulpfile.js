@@ -14,7 +14,8 @@ var gulp = require('gulp'),
     imagemin = require('gulp-imagemin'),
     pngquant = require('imagemin-pngquant'),
     imageOptim = require('gulp-imageoptim'),
-    csso = require('postcss-csso');
+    csso = require('postcss-csso'),
+    purgecss = require('gulp-purgecss');
 
 gulp.task('generate', shell.task('bundle exec jekyll serve --watch --incremental --livereload'));
 gulp.task('buildit', shell.task('bundle exec jekyll build -d _site'));
@@ -27,7 +28,7 @@ gulp.task('scss-local', function () {
     var processors = [
         utilities(),
         autoprefixer({
-            "browsers": ["> 1%", "last 2 versions", "IE 9"]
+            "overrideBrowserslist": ["> 1%", "last 2 versions", "IE 9"]
         }),
         csso({
             comments: false
@@ -46,33 +47,15 @@ gulp.task('scss-local', function () {
         .pipe(touch());
 });
 
-gulp.task('images', function () {
-    return gulp.src([
-            'img/*.{png,gif,jpg}',
-            'assets/img/*.{png,gif,jpg}',
-            'assets/pictures/*.{png,gif,jpg}',
-        ])
-        .pipe(imageOptim.optimize())
-        .pipe(
-            gulp.dest(function (file) {
-                return file.base;
-            })
-        )
-});
-
 gulp.task('scss-full', function () {
     var postcssOptions = {
         map: false,
         "map.inline": false
     };
     var processors = [
-        // uncss({
-        //     html: ['./_site/**/*.html'],
-        //     ignore: ['.fade']
-        // }),
         utilities(),
         autoprefixer({
-            "browsers": ["> 1%", "last 2 versions", "IE 9"]
+            "overrideBrowserslist": ["> 1%", "last 2 versions", "IE 9"]
         }),
         csso({
             comments: false
@@ -84,8 +67,13 @@ gulp.task('scss-full', function () {
         }))
         .pipe(sass())
         .on("error", sass.logError)
+        .pipe(
+            purgecss({
+              content: ['./_site/**/*.html'],
+              whitelistPatterns: [/aos/],
+            })
+          )
         .pipe(postcss(processors))
-        // .pipe(pxtorem(pxtoremOptions))
         .pipe(gulp.dest('assets/css/'))
         .pipe(touch());
 });
@@ -96,7 +84,6 @@ gulp.task('watch', function () {
 
 gulp.task('watch-full', function () {
     gulp.watch(['assets/**/*.scss'], gulp.series('scss-full'));
-    // gulp.watch(['img/*', 'assets/img/*', 'assets/pictures/*'], gulp.series('images'));
 });
 
 // ****** Build tasks ****** //
@@ -105,15 +92,13 @@ gulp.task('watch-full', function () {
 // Run -> 'gulp'
 gulp.task('default', gulp.parallel(
     'generate',
-    'watch'
+    'watch-full'
 ));
 
-// Watch and compile complete with uncss and optimizations
-// Run -> 'gulp compile'
-gulp.task('compile', gulp.parallel(
+// Watch and compile complete with uncss
+gulp.task('standard', gulp.parallel(
     'generate',
-    'images',
-    'watch-full'
+    'watch'
 ));
 
 // Deploy on forestry.io
