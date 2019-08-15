@@ -83,7 +83,7 @@ h4 {
 
     &.float-right {
         @include media-breakpoint-down(md) {
-        left: 20%;
+            left: 20%;
         }
     }
 
@@ -347,7 +347,7 @@ main {
     }
 
     h1 {
-//         color: #0b0b43;
+        //         color: #0b0b43;
         letter-spacing: -1.1px;
         font-weight: 600;
     }
@@ -1115,7 +1115,7 @@ li.nav-item {
 
 .icon-loud {
     background: #f5f8ff;
-//     box-shadow: 0 9px 28px -12px rgba(22, 42, 106, 0.27), inset 0 -6px 0 0 rgba(234, 232, 238, 0.22);
+    //     box-shadow: 0 9px 28px -12px rgba(22, 42, 106, 0.27), inset 0 -6px 0 0 rgba(234, 232, 238, 0.22);
 }
 
 .sub-menu .col {
