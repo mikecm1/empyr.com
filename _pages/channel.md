@@ -1,115 +1,151 @@
 ---
-title: Channel Partners
-permalink: "/channel/"
-banner_image: ''
 layout: sub-page
-thelink: Welcome to {{ site.url }}
-tagline: National Brands
+permalink: "/channel/"
+title: Channel Test
+description: Publishers can grow revenue by tapping into online to offline commerce.
+  Offers consumers card linked offers with guaranteed revenue per sale.
+keywords: Card Linked Offers, Publishers, Revenue Per Sale
+tagline: For Websites & Apps
+banner_image: ''
 heading: |-
-  Goodbye, guesswork.
-  Hello, guaranteed revenue.
+  Enhance your experience.
+  Amplify your revenue.
+sub_heading: Generate revenue and increase engagement from offline commerce with your
+  own fully customized card-linked offer program. Get 1000s of offers and complete
+  creative control of the UX and functionality.Generate revenue and increase engagement
+  from offline commerce with your own fully customized card-linked offer program.
+  Get 1000s of offers and complete creative control of the UX and functionality.Generate
+  revenue and increase engagement from offline commerce with your own fully customized
+  card-linked offer program. Get 1000s of offers and complete creative control of
+  the UX and functionality.Generate revenue and increase engagement from offline commerce
+  with your own fully customized card-linked offer program. Get 1000s of offers and
+  complete creative control of the UX and functionality.
 partners:
-- "/uploads/2019/05/09/ebay.svg"
-- "/uploads/2019/05/cnn.svg"
-- "/uploads/2019/05/google.svg"
-- "/uploads/2019/05/cisco.svg"
-- "/uploads/2019/05/airbnb.svg"
-- "/uploads/2019/05/uber.svg"
-mainfeatures:
-- heading: Exclusive Publisher Network
-  description: Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-  icon: "/uploads/2019/05/icon-place.svg"
-- heading: Guaranteed Minimum ROAS
-  description: Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-  icon: "/uploads/2019/05/icon-place.svg"
-- description: Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-  heading: Full Online to Offline Attribution
-  icon: "/uploads/2019/05/icon-place.svg"
-sub_heading: Empyr is the leading card-linked offer engagement platform, empowering
-  retail brands with guaranteed revenue and an enhanced consumer experience– all while
-  unlocking fully transparent offline sales analytics..
-hero_button:
-  text: Get Started
-  href: "/about"
-show_news: true
-show_staff: true
+- "/img/logo-home-1.png"
+- "/img/logo-home-3.png"
+- "/img/logo-home-4.png"
+- "/img/logo-home-5.png"
+- "/uploads/2019/sofi.png"
+- "/img/logo-home-6.png"
+primary_body_copy_headline: Increase user engagement. <br> Make more money.
+primary_body_copy_subheadline: Give your users another great reason to open your app.
+  Empyr's RESTful API provides everything you need to build a customized card-linked
+  offer rewards programs that drives repeat interaction and helps turn your users
+  into advocates.
+primary_body_icon: "/img/icon-cards.svg"
 show_mainfeatures: true
-second_button:
-  text: Learn More
-  link: "/"
+mainfeatures:
+- heading: Unlimited revenue potential
+  description: Launch an innovative new revenue stream from offline commerce with
+    total control of the user experience.
+  icon: "/img/icon-pub-1.svg"
+- description: Delight your users with 1000s of local offers out-of-the-box, from
+    local restaurants to national brands.
+  icon: "/img/icon-pub-2.svg"
+  heading: Offers ready to go
+- heading: Complete creative control
+  description: When your users earn rewards, you generate revenue. Customers are happier,
+    and so is your bottom line.
+  icon: "/img/icon-pub-3.svg"
+all_features_headline: 93% of purchases are made offline. Get a piece of the pie.
+hero_button:
+  text: Request a Demo
+  href: "/joinus/"
+second_button_:
+  text: How it Works
+  link: "#"
+headerimage: "/img/hero-publisher.svg"
 all_features:
-- heading: 100% Attribution to In-Store Revenue
-  icon: "/uploads/2019/05/icon-place.svg"
-- heading: 100% Attribution to In-Store Revenue
-  icon: "/uploads/2019/05/icon-place.svg"
-- heading: 100% Attribution to In-Store Revenue
-  icon: "/uploads/2019/05/icon-place.svg"
-- heading: 100% Attribution to In-Store Revenue
-  icon: "/uploads/2019/05/icon-place.svg"
-- heading: 100% Attribution to In-Store Revenue
-  icon: "/uploads/2019/05/icon-place.svg"
-- heading: 100% Attribution to In-Store Revenue
-  icon: "/uploads/2019/05/icon-place.svg"
-show_case_studies: false
+- heading: Seamless and customized API integration
+  icon: "/img/icons/icon-list-12.svg"
+- heading: Increase customer delight and engagement
+  icon: "/img/icons/icon-list-20.svg"
+- heading: 1000s of local offers out-of-the-box
+  icon: "/img/icons/icon-list-19.svg"
+- heading: Generate revenue with offline offer content
+  icon: "/img/icons/icon-list-37.svg"
+- heading: Card-linked offer product and marketing support
+  icon: "/img/icons/icon-list-10.svg"
+- heading: Designed for all digital product types
+  icon: "/img/icons/icon-list-40.svg"
+show_case_studies: true
+section_one:
+  tagline: USER EXPERIENCE
+  section_header: |-
+    Seamless integration,
+    complete creative control
+  section_body_copy: Enhance your product with a feature your users will love, rewarding
+    them from everyday offline purchases and generating revenue with each transaction.
+  image: "/img/generic-app.jpg"
+  button:
+    text: Learn More
+    link_url: index.md
+    href: ''
+section_two:
+  tagline: ''
+  section_header: ''
+  section_body_copy: ''
+  image: "/img/globe.jpg"
+  button:
+    text: ''
+    link_url: index.md
+    href: ''
+  stats:
+    merchants: 30K
+    cities: 3.5K
+    metros: 837
+user_testimonials:
+  title: Consumers love card-linked offers
+  testimonials:
+  - person_name: Grace W.
+    program_name: Yelp Cash Back
+    quote: This whole thing with Yelp giving cash back for buying things online is
+      literally the best thing ever.
+    user_photo: "/uploads/2019/grace.jpg"
+    logo: "/img/yelp-cb-logo.png"
+  - person_name: Lou C.
+    program_name: Yelp Cash Back
+    quote: 'Yo! I’ve gotta tell ya. #YelpCashBack brought me here.'
+    user_photo: ''
+    logo: "/img/yelp-cb-logo.png"
+  - person_name: Nicole
+    program_name: Yelp Cash Back
+    quote: 'Loving Yelp Cash back so much, you guys. '
+    user_photo: ''
+    logo: "/img/yelp-cb-logo.png"
+  - person_name: Ingy
+    program_name: Yelp Cash Back
+    user_photo: "/uploads/2019/ing.jpg"
+    logo: "/img/yelp-cb-logo.png"
+    quote: " So Yelp Cash Back is amazing. I got $2 back from a restaurant in credit.
+      I’ll take it. That’s like an entire bagel."
+  - person_name: Andrew H.
+    program_name: Yelp Cash Back
+    user_photo: ''
+    logo: "/img/yelp-cb-logo.png"
+    quote: Just got my first payment, couple bucks got credited to my CC, sweet!
+  - person_name: Polina W.
+    program_name: Yelp Cash Back
+    user_photo: ''
+    logo: "/img/yelp-cb-logo.png"
+    quote: " It was so nice to get a notification from Yelp telling me I’ll see some
+      of that money back next month :)"
+section_three:
+  tagline: ''
+  section_header: ''
+  section_body_copy: ''
+  button:
+    text: ''
+    href: ''
+show_user_testimonials: true
 case_studies:
 - partner_logo: "/uploads/2019/05/google.svg"
-  heading: Acquiring new customers while eliminating wasteful ad spend
-  overview: Of equal importance was their desire to re-engage lapsed customers who
-    occasionally frequented its locations to reactivate and stimulate additional purchase
-    opportunity.
-  incremental_revenue: 99%
-  roi: "$8.42"
-  incremental_roi: "$4.20"
-- partner_logo: "/uploads/2019/05/google.svg"
-  heading: Acquiring new customers while eliminating wasteful ad spend
-  overview: Of equal importance was their desire to re-engage lapsed customers who
-    occasionally frequented its locations to reactivate and stimulate additional purchase
-    opportunity.
-  incremental_revenue: 99%
-  roi: "$8.42"
-  incremental_roi: "$4.20"
-- partner_logo: "/uploads/2019/05/google.svg"
-  heading: Acquiring new customers while eliminating wasteful ad spend
-  overview: Of equal importance was their desire to re-engage lapsed customers who
-    occasionally frequented its locations to reactivate and stimulate additional purchase
-    opportunity.
-  incremental_revenue: 99%
-  roi: "$8.42"
-  incremental_roi: "$4.20"
-primary_body_copy_headline: Level-up your digital advertising with pure, <br> guaranteed
-  revenue.
-primary_body_copy_subheadline: Our pay-per-revenue model (CPR) accelerates and tracks
-  in-store sales through digital publishers unavailable on any other platform.
-all_features_headline: Transform your bottom line with CPR
-section_one:
-  tagline: Customer Reach
-  section_header: Reach 316M+ consumers on our exclusive publisher network
-  section_body_copy: Leading sites and apps use Empyr to integrate card-linked offer
-    programs directly inside their products. Get rapid exposure to their members and
-    instant engagement optimization– by allowing people to discover offers through
-    products they know, trust, and use every day.
-  button:
-    text: Learn More
-    link_url: index.md
-section_two:
-  tagline: Revenue
-  section_header: Real foot traffic. Real revenue.
-  section_body_copy: Drive motivated customers into your physical stores and only
-    pay a fee when they make a verified purchase. The impressions and clicks? 100%
-    free. Consumers enjoy real-time reward notifications, and you achieve guaranteed
-    revenue growth with a minimum ___ ROAS.
-  button:
-    text: Learn More
-    link_url: index.md
-section_three:
-  tagline: Real-Time Analytics
-  section_header: Real-time, fully transparent online to offline attribution
-  section_body_copy: Watch in real-time as online offers convert to in-store sales
-    and gain holistic customer insights with comprehensive online to offline analytics.
-    Impressions and clicks don’t always equal cash in the bank, so eliminate the guesswork.
-  button:
-    text: Learn More
-    href: "/advertiser"
+  heading: sdfjdfbg
+  overview: dgsdngdfngdgndsgn
+  incremental_revenue: "20"
+  roi: "20"
+  incremental_roi: "20"
 page_name: "* Channel Partners"
+published: false
 
 ---
