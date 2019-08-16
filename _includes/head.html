@@ -46,6 +46,7 @@
     <link rel="stylesheet" class="dev" media="screen and (min-width: 576px)"
         href="https://unpkg.com/aos@next/dist/aos.css">
     <link rel="preload" href="{{ "/assets/fonts/hinted-NeurialGrotesk-Regular.woff2" | absolute_url }}" as="font" type="font/woff2" crossorigin>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
     {% if site.data.custom_code.header_code_snippets %}
     {{ site.data.custom_code.header_code_snippets.code_snippets }}
     {% endif %}
@@ -58,9 +59,6 @@
         }
     </style>
     {% endif %}
-    <!--[if lt IE 9 ]>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-<![endif]-->
 </head>
 
 <body>
