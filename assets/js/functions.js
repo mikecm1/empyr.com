@@ -67,6 +67,7 @@ $(document).ready(function () {
         });
         AOS.refresh();
     });
+    
     Barba.Dispatcher.on('newPageReady', function (currentStatus, oldStatus, container, newPageRawHTML) {
         var $newPageHead = $('<head />').html(
             $.parseHTML(

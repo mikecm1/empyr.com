@@ -32,7 +32,6 @@
     "assets/fonts": true,
     "jekyll-metadata": true,
     ".vscode": true,
-    "assets/css": true,
     "assets/pictures": true,
     "_layouts/not-found.html": true
   },

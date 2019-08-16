@@ -9,14 +9,17 @@ var gulp = require('gulp'),
     utilities = require('postcss-utilities'),
     pxtorem = require('gulp-pxtorem'),
     concat = require('gulp-concat'),
-    uglify = require('gulp-uglify'),
     replace = require('gulp-replace'),
     imagemin = require('gulp-imagemin'),
     pngquant = require('imagemin-pngquant'),
     imageOptim = require('gulp-imageoptim'),
     csso = require('postcss-csso'),
-    autoreload = require('autoreload-gulp'),
+    rename = require("gulp-rename"),
+    minify = require('gulp-minify'),
     purgecss = require('gulp-purgecss');
+
+    var uglify = require('gulp-uglify-es').default;
+    const srcset = require('gulp-srcset').default;
 
 gulp.task('generate', shell.task('bundle exec jekyll serve --watch --incremental --livereload'));
 gulp.task('buildit', shell.task('bundle exec jekyll build -d _site'));
@@ -79,18 +82,46 @@ gulp.task('scss-full', function () {
         .pipe(touch());
 });
 
+//   var jsFiles = './assets/js/**/*.js',
+var jsFiles = ['./assets/js/**/*.js','!./assets/js/**/min*/**/*'];
+var scssFiles = ['./assets/scss/main.scss'];
+  var jsDest = 'assets/js/min/';
+
+  gulp.task('js-full', function() {
+    return gulp.src(jsFiles)
+        .pipe(concat('scripts.js'))
+        .pipe(gulp.dest(jsDest))
+        .pipe(rename('scripts.min.js'))
+        .pipe(uglify())
+        .on('error', function (err) { gutil.log(gutil.colors.red('[Error]'), err.toString()); })
+        .pipe(gulp.dest(jsDest));
+});
+
+gulp.task('images', () =>
+    gulp.src('img/resize/*.{jpg,png}')
+        .pipe(srcset([{
+            match:  '(min-width: 3000px)',
+            width:  [1920, 1280, 1024, 860, 540, 320],
+            format: ['jpg', 'webp']
+        }], {
+            skipOptimization: true
+        }))
+        .pipe(gulp.dest('img/resize/done'))
+);
+
 gulp.task('watch', function () {
     gulp.watch(['assets/**/*.scss'], gulp.series('scss-local'));
 });
 
 gulp.task('watch-full', function () {
-    gulp.watch(['assets/**/*.scss'], gulp.series('scss-full'));
+    gulp.watch(['assets/**/*.scss', 'jsFiles'], gulp.parallel('scss-full', 'js-full'));
 });
 
 // Default: build and watch local
 // Run -> 'gulp'
 gulp.task('default', gulp.parallel(
     'generate',
+    // 'js-full',
     'watch-full'
 ));
 
