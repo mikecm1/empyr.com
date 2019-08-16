@@ -75,11 +75,9 @@
 <!-- <script src="/assets/js/vendor/smooth-scrollbar.js"></script> -->
 <script src="{{ "assets/js/functions.js?cb=123" | absolute_url }}"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.9.1/rellax.min.js"></script>
-{% comment %}
 {% if site.data.custom_code.footer_code_snippets %}
 {{ site.data.custom_code.footer_code_snippets.code_snippets_footer }}
 {% endif %}
-{% endcomment %}
 {% if page.custom_code %}
 {{ page.custom_code }}
 {% endif %}
