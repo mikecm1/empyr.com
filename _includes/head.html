@@ -39,14 +39,13 @@
     <meta name="keywords"
         content="{% if .page.keywords %}{{ .page.keywords }}{% else %}{{ .site.keywords }}{% endif %}">
     <meta name="google-site-verification" content="6d7ajfNPjGclWDKqwXwWqV5NIk8RNWxBuBMJRS8-Bx8" />
-    <link rel="preconnect" href="{{ "/assets/css/main.css" | absolute_url }}" crossorigin>
-    <link rel="preload" href="{{ "/assets/css/main.css" | absolute_url }}" as="style" onload="this.rel='stylesheet'">
-    <link rel="stylesheet" href="{{ "/assets/css/main.css" | absolute_url }}">
     <link rel="shortcut icon" type="image/png" href="{{ "/img/favicon.ico" | absolute_url }}" />
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | absolute_url }}">
+    <link rel="stylesheet" href="https://i.icomoon.io/public/2db8c572c5/Empyrcom/style.css">
     <link rel="stylesheet" class="dev" media="screen and (min-width: 576px)"
-        href="{{ "/assets/css/vendor/aos.css" | absolute_url }}">
-    <link rel="preload" href="{{ "/assets/fonts/hinted-NeurialGrotesk-Regular.woff2" | absolute_url }}" as="font" type="font/woff2" crossorigin>
+        href="https://unpkg.com/aos@next/dist/aos.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    {% comment %}
     {% if site.data.custom_code.header_code_snippets %}
     {{ site.data.custom_code.header_code_snippets.code_snippets }}
     {% endif %}
@@ -59,6 +58,7 @@
         }
     </style>
     {% endif %}
+    {% endcomment %}
 </head>
 
 <body>
