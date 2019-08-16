@@ -52,7 +52,7 @@ second_button:
   link: ''
 textline: Primary home page
 primary_body_copy_subtext: Accelerate in-store revenue with card-linked offer campaigns
-  on our exclusive publisher network. There’s no charge for clicks or impressions,
+  on our exclusive consumer marketplace. There’s no charge for clicks or impressions,
   and purchases are tracked in real-time, providing full online to offline attribution.
 testimonials:
 - quote: An Empyr/Yelp partnership brings thousands of offline offers directly to
@@ -113,7 +113,7 @@ section_one:
   primary_copy: ''
   button_text: ''
   button_link: ''
-  tagline: Publisher Network
+  tagline: Consumer Marketplace
   section_header: 316M+ Consumers, Unlimited Revenue
   section_body_copy: Easily deploy high performance card-linked offer campaigns on
     some of the best sites and apps, reaching 316M+ consumers at lightning speed.
@@ -125,7 +125,7 @@ section_two:
   img: "/img/roas-home.svg"
   img_width: 700
   tagline: Smarter Revenue
-  section_header: Minimum 10X ROAS, Guaranteed.
+  section_header: Minimum 10X ROAS, Guaranteed
   section_body_copy: Empyr powers CPR™, a pay-per-revenue model that drives motivated
     customers to your stores without charging for clicks and impressions. You only
     pay a small fee when the sale happens.

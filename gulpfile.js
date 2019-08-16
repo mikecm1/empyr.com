@@ -70,12 +70,12 @@ gulp.task('scss-full', function () {
         }))
         .pipe(sass())
         .on("error", sass.logError)
-        .pipe(
-            purgecss({
-                content: ['./_site/**/*.html'],
-                whitelistPatterns: [/aos/],
-            })
-        )
+        // .pipe(
+        //     purgecss({
+        //         content: ['./_site/**/*.html'],
+        //         whitelistPatterns: [/aos/],
+        //     })
+        // )
         .pipe(postcss(processors))
         .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest('assets/css/'))

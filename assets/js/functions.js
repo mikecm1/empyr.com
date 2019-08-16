@@ -171,4 +171,10 @@ $(document).ready(function () {
             scrollTop: document.body.scrollTop
         }, document.title, document.location.pathname);
     });
+    
+    $(".modal a").click(function(){
+        $('body').removeClass('modal-open');
+        $('.modal-backdrop').remove();
+    });
+      
 });

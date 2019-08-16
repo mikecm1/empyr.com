@@ -1274,8 +1274,7 @@ svg.fsvg {
         width: 100% !important;
         border-radius: $border-radius;
         background: #fff;
-        -webkit-box-shadow: 0 7px 10px -2px #2f48ff33, 0 1px 3px rgba(0, 0, 0, .08);
-        box-shadow: 0 7px 10px -2px #2f48ff33, 0 1px 3px rgba(0, 0, 0, .08);
+//         box-shadow: 0 7px 10px -2px #2f48ff33, 0 1px 3px rgba(0, 0, 0, .08);
         text-align: center;
 
         h3 {
@@ -1980,7 +1979,14 @@ img {
         }
     }
 }
-
+.modal.show {
+    padding-right: 0px !important;
+}
+.modal .close {
+    right: 20px;
+    top: 5px;
+    font-size: 41px;
+}
 .home {
     .display-4 {
         max-width: 490px;

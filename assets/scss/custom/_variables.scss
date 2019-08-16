@@ -92,7 +92,7 @@ $component-active-color: $white;
 $component-active-bg: theme-color("primary");
 $caret-width: 0.3rem;
 $transition-base: all 0.2s ease-in-out;
-$transition-fade: opacity 0.15s linear;
+$transition-fade: opacity 0.15s ease;
 $transition-collapse: height 0.35s ease;
 
 // Fonts
@@ -555,9 +555,9 @@ $modal-footer-border-color: $modal-header-border-color;
 $modal-header-border-width: $modal-content-border-width;
 $modal-footer-border-width: $modal-header-border-width;
 $modal-header-padding: 15px;
-$modal-lg: 800px;
-$modal-md: 500px;
-$modal-sm: 300px;
+$modal-lg: 1060px;
+$modal-md: $modal-lg;
+$modal-sm: $modal-lg;
 $modal-transition: transform 0.3s ease-out;
 
 // Alerts

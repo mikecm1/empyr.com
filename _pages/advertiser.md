@@ -21,7 +21,7 @@ partners:
 mainfeatures:
 - heading: Reach millions of users
   description: One platform. 316M+ consumers. Easily distribute high performance campaigns
-    on our exclusive publisher network.
+    on our exclusive consumer marketplace.
   icon: "/img/one.svg"
 - heading: Amplify your revenue
   description: Our cost per revenue (CPR™) model generates a guaranteed ROAS. The impressions
@@ -49,7 +49,7 @@ all_features:
   icon: "/img/icons/icon-list-2.svg"
 - heading: No Cost for Impressions, Clicks, or Visits
   icon: "/img/icons/icon-list-40.svg"
-- heading: 5X - 20X ROAS Guaranteed
+- heading: Minimum 10X ROAS Guaranteed
   icon: "/img/icons/icon-list-13.svg"
 - heading: Incremental Revenue Lift Reporting
   icon: "/img/icons/icon-list-35.svg"
@@ -85,7 +85,7 @@ case_studies:
   incremental_roi: "$4.20"
 primary_body_copy_headline: An improved approach to digital advertising
 primary_body_copy_subheadline: Empyr's Cost-Per-Tevenue model (CPR™) accelerates and
-  tracks in-store sales by distributing offers on an exclusive publisher network featuring
+  tracks in-store sales by distributing offers on an exclusive consumer marketplace featuring
   top websites and apps– without charging for clicks or impressions.
 primary_body_icon: "/img/icon-cards.svg"
 all_features_headline: Transform your bottom line with CPR
@@ -103,7 +103,7 @@ section_two:
   section_header: Real foot traffic. Real revenue.
   section_body_copy: Drive motivated customers into your physical stores and only
     pay a fee when they make a verified purchase– the impressions and clicks are free.
-    Consumers enjoy real-time reward notifications, and you get a guaranteed 10X-30X
+    Consumers enjoy real-time reward notifications, and you get a guaranteed minimum 10X
     ROAS.
   image: "/img/devices-pub.jpg"
   button:

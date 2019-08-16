@@ -28,9 +28,9 @@ layout: default
                                 primary">{{ page.hero_button.text }}</a>
                                 {% endif %}
                                 {% if page.second_button %}
-                                <a href="{{ page.second_button.href | absolute_url
-                                }}" class="btn btn-lg btn-secondary secondary d-non
-                                d-lg-block">{{ page.second_button.text }}</a>
+                                <button type="button" class="btn btn-lg btn-secondary secondary
+                                d-lg-block" data-toggle="modal" data-target="#exampleModal">{{ page.second_button.text }}</button>
+
                                 {% endif %}
                             </div>
                             {% endif %}
@@ -272,7 +272,7 @@ layout: default
                 <div class="container full">
                     <div class="testimonials prof">
                         <div class="text-center">
-                            <h1 class="mb-2">You're in good company.</h1>
+                            <h1 class="mb-2">You're in good company</h1>
                             <p class="sub-text large mb-5">Trusted by the top forward-thinking national brands and
                                 digital publishers</p>
                         </div>
@@ -339,3 +339,37 @@ layout: default
                 </div>
             </div>
         </div>
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="padding-right: 0 !important">
+                <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                  <div class="modal-content" style="overflow: hidden;">
+                    <div class="modal-body" style="padding: 0">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                  </button>
+                            <div class="solutions bg-g50 px-2 px-md-4 pt-4 pb-5">
+                                        <div class="text-center">
+                                            <h1 class="mb-1" style="font-size: 38px">Customized Solutions</h1>
+                                        </div>
+                                        {% if page.company_types %}
+                                        <div class="row pt-3 mb-1 mb-md-0">
+                                            {% for item in page.company_types %}
+                                            <div class="col-12 col-lg-4 mb-3 mb-lg-0 px-1">
+                                                <a href="{{ item.url | absolute_url }}">
+                                                    <div class="card partner py-5 px-3" style="padding: 30px 20px!important">
+                                                        <img src="{{ item.icon }}" class="icon" style="height: 130px;    margin-bottom: 20px;">
+                                                        <p class="text-primary small mb-0">{{ item.badge
+                                                        }}</p>
+                                                        <h2 class="mb-1">{{ item.heading }}</h2>
+                                                        <p class="mb-0">{{ item.description }}</p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            {% endfor %}
+                                        </div>
+                                        {% endif %}
+                                
+                                </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
