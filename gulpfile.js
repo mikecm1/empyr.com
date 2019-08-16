@@ -83,7 +83,7 @@ gulp.task('scss-full', function () {
 });
 
 //   var jsFiles = './assets/js/**/*.js',
-var jsFiles = ['./assets/js/**/*.js','!./assets/js/**/min*/**/*'];
+var jsFiles = ['./assets/js/**/*.js','!./assets/js/**/min*/**/*','!./assets/js/**/jQuery*/**/*'];
 var scssFiles = ['./assets/scss/main.scss'];
   var jsDest = 'assets/js/min/';
 
@@ -114,14 +114,14 @@ gulp.task('watch', function () {
 });
 
 gulp.task('watch-full', function () {
-    gulp.watch(['assets/**/*.scss', 'jsFiles'], gulp.parallel('scss-full', 'js-full'));
+    gulp.watch(['assets/**/*.scss'], gulp.series('scss-full'));
+    gulp.watch(['./assets/js/**/*.js','!./assets/js/**/min*/**/*'], gulp.series('js-full'));
 });
 
 // Default: build and watch local
 // Run -> 'gulp'
 gulp.task('default', gulp.parallel(
     'generate',
-    // 'js-full',
     'watch-full'
 ));
 
