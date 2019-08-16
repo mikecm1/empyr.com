@@ -10,9 +10,9 @@ homepage: true
 partners:
 - "/img/logo-home-1.png"
 - "/img/logo-home-4.png"
-- "/img/logo-home-3.png"
+- "/uploads/2019/logo-natl-5.png"
 - "/img/logo-home-5.png"
-- "/uploads/2019/sofi.png"
+- "/uploads/2019/logo-natl-1.png"
 - "/img/logo-home-6.png"
 partner_language: Empyr powers card-linked offer programs for leading brands and top
   digital companies.
@@ -26,7 +26,8 @@ mainfeatures:
   heading: Full Offline Attribution
   icon: "/img/icon-3.svg"
 - heading: Guaranteed ROAS
-  description: Your brand is promoted to millions of potential consumers and you only pay for sales, with zero fees for clicks or impressions.
+  description: Your brand is promoted to millions of potential consumers and you only
+    pay for sales, with zero fees for clicks or impressions.
   icon: "/img/icon-2.svg"
 sub_heading: Empyr is the leading card-linked offer engagement platform for national
   brands and digital publishers– increasing consumer engagement, driving guaranteed
@@ -105,7 +106,8 @@ company_types:
   icon: "/img/icon-cp-dark-1.svg"
   url: "/joinus/"
 cta_footer_header: Customized solutions
-cta_footer_subheader: Make card-linked offers part of your digital strategy and accelerate consumer engagement today
+cta_footer_subheader: Make card-linked offers part of your digital strategy and accelerate
+  consumer engagement today
 section_one:
   super: ''
   heading: ''
@@ -138,8 +140,8 @@ section_three:
   tagline: Real-Time Analytics
   section_header: 100% In-Store Revenue Attribution
   section_body_copy: No more guesswork, no more wasting time with manual reporting.
-    Track online ads all the way through to in-store sales with personalized
-    real-time analytics.
+    Track online ads all the way through to in-store sales with personalized real-time
+    analytics.
   button:
     text: Learn More
     href: "/"
