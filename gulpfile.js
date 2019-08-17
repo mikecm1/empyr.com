@@ -44,6 +44,12 @@ gulp.task('scss-local', function () {
         }))
         .pipe(sass())
         .on("error", sass.logError)
+        // .pipe(
+        //     purgecss({
+        //         content: ['./_site/**/*.html'],
+        //         whitelistPatterns: [/aos/],
+        //     })
+        // )
         .pipe(postcss(processors))
         .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest('assets/css/'))
@@ -66,16 +72,16 @@ gulp.task('scss-full', function () {
     ];
     return gulp.src('./assets/scss/main.scss')
         .pipe(sourcemaps.init({
-            loadMaps: true
+            loadMaps: false
         }))
         .pipe(sass())
         .on("error", sass.logError)
-        // .pipe(
-        //     purgecss({
-        //         content: ['./_site/**/*.html'],
-        //         whitelistPatterns: [/aos/],
-        //     })
-        // )
+        .pipe(
+            purgecss({
+                content: ['./_site/**/*.html'],
+                whitelistPatterns: [/aos/],
+            })
+        )
         .pipe(postcss(processors))
         .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest('assets/css/'))
@@ -119,7 +125,7 @@ gulp.task('watch-full', function () {
 });
 
 gulp.task('watch-scss', function () {
-    gulp.watch(['assets/**/*.scss'], gulp.series('scss-full'));
+    gulp.watch(['assets/**/*.scss'], gulp.series('scss-local'));
 });
 
 // Default: build and watch local
