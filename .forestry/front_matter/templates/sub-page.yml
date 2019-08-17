@@ -48,6 +48,12 @@ fields:
 - type: textarea
   name: sub_heading
   label: Sub headline text
+- name: cta_with_email
+  type: text
+  config:
+    required: false
+  label: CTA with email input
+  description: Remove this to show standard buttons only (below)
 - type: field_group
   name: hero_button
   label: Primary CTA
