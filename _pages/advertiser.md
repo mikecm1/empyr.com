@@ -19,7 +19,7 @@ partners:
 - "/uploads/2019/logo-natl-2.png"
 - "/uploads/2019/logo-natl-1.png"
 mainfeatures:
-- heading: Reach millions of people
+- heading: Reach millions of peopless
   description: One platform. 316M+ consumers. Easily distribute high performance campaigns
     on our exclusive consumer marketplace.
   icon: "/img/one.svg"
@@ -131,5 +131,11 @@ user_testimonials:
   title: ''
   testimonials: []
 page_name: "* Advertisers"
+menu:
+  partners:
+    weight: 1
+    title: Advertisers
+    description: Launch a card-linked offer campaign
+    icon: "/img/icon-dropdown-1.svg"
 
 ---

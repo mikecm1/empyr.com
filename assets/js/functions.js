@@ -72,6 +72,7 @@ $(document).ready(function () {
             window.location.href ='/joinus#load'
         }
         });
+        $(".navbar-nav .dropdown-menu").removeClass("d-none");
         AOS.refresh();
     });
 
@@ -182,6 +183,11 @@ $(document).ready(function () {
     $(".modal a").click(function () {
         $('body').removeClass('modal-open');
         $('.modal-backdrop').remove();
+    });
+
+    $(".navbar-nav .dropdown-menu a").click(function () {
+        $(".dropdown:hover>.dropdown-menu").addClass("d-none");
+
     });
 
     function savedata() {

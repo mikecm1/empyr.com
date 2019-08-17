@@ -39,6 +39,7 @@ mainfeatures:
     and so is your bottom line.
   icon: "/img/icon-pub-3.svg"
 all_features_headline: 93% of purchases are made offline. Get a piece of the pie.
+cta_with_email: Get Started
 hero_button:
   text: Request a Demo
   href: "/joinus/"
