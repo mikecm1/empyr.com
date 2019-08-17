@@ -187,7 +187,10 @@ $(document).ready(function () {
 
     $(".navbar-nav .dropdown-menu a").click(function () {
         $(".dropdown:hover>.dropdown-menu").addClass("d-none");
+    });
 
+    $(".navbar-nav .dropdown-toggle").hover(function () {
+        $(".dropdown:hover>.dropdown-menu").removeClass("d-none");
     });
 
     function savedata() {

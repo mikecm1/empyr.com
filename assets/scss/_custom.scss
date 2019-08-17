@@ -506,7 +506,7 @@ p.latest {
         font-size: 2.2rem;
 
         @include media-breakpoint-up('md') {
-            padding-right: 0 !important;
+//             padding-right: 0 !important;
             font-size: 39px;
         }
 
@@ -519,7 +519,7 @@ p.latest {
         }
 
         @include media-breakpoint-up('xl') {
-    padding-right: 15px!important;
+    padding-right: 35px!important;
     font-size: 3.1rem;
         }
 
@@ -635,7 +635,7 @@ p.latest {
             }
 
             @include media-breakpoint-up(md) {
-                padding: 130px 0 130px;
+                padding: 110px 0 120px;
 
             }
 
