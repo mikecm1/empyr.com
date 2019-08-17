@@ -34,9 +34,7 @@ mainfeatures:
 sub_heading: Reach millions of consumers and ignite your in-store revenue without
   paying for clicks and impressions, while unlocking complete online to offline sales
   attribution.
-contact_button:
-  text: Get Started
-  href: "/joinus/"
+cta_with_email: Get Started
 hero_button:
   text: Get Started
   href: "/joinus/"
