@@ -1808,9 +1808,12 @@ h4.tag {
 }
 
 .input-max {
-    max-width: 450px;
+    @include media-breakpoint-up(md) {
+        max-width: 450px;
+    }
     .btn {
         padding: $input-padding-y-lg $input-padding-x-lg;
+            font-size: 17.5px;
     }
 }
 

@@ -9,8 +9,7 @@ banner_image: ''
 thelink: Welcome to {{ site.url }}
 tagline: For Advertisers
 heading: |-
-  Goodbye, guesswork.
-
+  Goodbye, guesswork.<br>
   Hello, guaranteed revenue.
 partners:
 - "/uploads/2019/logo-natl-10.png"
