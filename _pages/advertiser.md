@@ -10,6 +10,7 @@ thelink: Welcome to {{ site.url }}
 tagline: For Advertisers
 heading: |-
   Goodbye, guesswork.
+
   Hello, guaranteed revenue.
 partners:
 - "/uploads/2019/logo-natl-10.png"
@@ -24,11 +25,11 @@ mainfeatures:
     on our exclusive consumer marketplace.
   icon: "/img/one.svg"
 - heading: Amplify your revenue
-  description: Our cost per revenue (CPR™) model generates a guaranteed ROAS. The impressions
-    and clicks? 100% free.
+  description: Our cost per revenue (CPR™) model generates a guaranteed ROAS. The
+    impressions and clicks? 100% free.
   icon: "/img/two.svg"
-- description: Measure what truly matters. Track online ads all the way to
-    in-store sales with real-time offline analytics.
+- description: Measure what truly matters. Track online ads all the way to in-store
+    sales with real-time offline analytics.
   heading: Real-time offline attribution
   icon: "/img/three.svg"
 sub_heading: Reach millions of consumers and ignite your in-store revenue without
@@ -86,14 +87,17 @@ case_studies:
   incremental_roi: "$4.20"
 primary_body_copy_headline: An improved approach to digital advertising
 primary_body_copy_subheadline: Empyr's Cost-Per-Tevenue model (CPR™) accelerates and
-  tracks in-store sales by distributing offers on an exclusive consumer marketplace featuring
-  top websites and apps– without charging for clicks or impressions.
+  tracks in-store sales by distributing offers on an exclusive consumer marketplace
+  featuring top websites and apps– without charging for clicks or impressions.
 primary_body_icon: "/img/icon-cards.svg"
 all_features_headline: Transform your bottom line with CPR
 section_one:
   tagline: Customer Reach
   section_header: Exclusive reach to over 316M consumers
-  section_body_copy: Promote your brand through products that people know, trust, and use every day. Leading websites & apps use Empyr to build customized card-linked offer rewards and loyalty programs, providing extensive reach unavailable on any other platform.
+  section_body_copy: Promote your brand through products that people know, trust,
+    and use every day. Leading websites & apps use Empyr to build customized card-linked
+    offer rewards and loyalty programs, providing extensive reach unavailable on any
+    other platform.
   image: "/img/img-network.jpg"
   button:
     text: Learn More
@@ -104,8 +108,8 @@ section_two:
   section_header: Real foot traffic. Real revenue.
   section_body_copy: Drive motivated customers into your physical stores and only
     pay a fee when they make a verified purchase– the impressions and clicks are free.
-    Consumers enjoy real-time reward notifications, and you get a guaranteed minimum 10X
-    ROAS.
+    Consumers enjoy real-time reward notifications, and you get a guaranteed minimum
+    10X ROAS.
   image: "/img/devices-pub.jpg"
   button:
     text: Learn More
@@ -128,11 +132,5 @@ user_testimonials:
   title: ''
   testimonials: []
 page_name: "* Advertisers"
-menu:
-  partners:
-    weight: 1
-    title: Advertisers
-    description: Launch a card-linked offer campaign
-    icon: "/img/icon-dropdown-1.svg"
 
 ---
