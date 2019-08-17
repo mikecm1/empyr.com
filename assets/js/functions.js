@@ -65,9 +65,16 @@ $(document).ready(function () {
             slidesPerView: 2,
             spaceBetween: 0,
         });
+        $('button.join').click(function () {
+            if ($('button.join').length) {
+            var fieldValue = document.getElementById('emailContact').value;
+            sessionStorage.setItem('emailContact', fieldValue);
+            window.location.href ='/joinus#load'
+        }
+        });
         AOS.refresh();
     });
-    
+
     Barba.Dispatcher.on('newPageReady', function (currentStatus, oldStatus, container, newPageRawHTML) {
         var $newPageHead = $('<head />').html(
             $.parseHTML(
@@ -171,10 +178,47 @@ $(document).ready(function () {
             scrollTop: document.body.scrollTop
         }, document.title, document.location.pathname);
     });
-    
-    $(".modal a").click(function(){
+
+    $(".modal a").click(function () {
         $('body').removeClass('modal-open');
         $('.modal-backdrop').remove();
     });
-      
+
+    function savedata() {
+        var input = document.getElementById("autonumero");
+        sessionStorage.setItem("autonumero", input.value);
+        return true;
+    }
+
+    $(function(){
+        $('button.join').on('keypress click', function(){
+        var fieldValue = document.getElementById('emailContact').value;
+        sessionStorage.setItem('emailContact', fieldValue);
+        window.location.href ='/joinus#load';
+    });
+    });
+
+    if (window.location.hash === "#load") {
+    function exists(method) {
+        if ($('#email-2cea4183-12c8-465b-a317-33a3d62f0874').length) {
+            method();
+        } else {
+            setTimeout(function() { exists(method) }, 50);
+        }
+    }
+    exists(function () {
+        if (window.location.hash === "#load") {
+            var emailStore = sessionStorage.getItem('emailContact');
+            $("#email-2cea4183-12c8-465b-a317-33a3d62f0874").val(emailStore);
+        }
+    
+    });
+}
+
+$(document).on("keypress", ".input-group:has(input:input, span.input-group-btn:has(div.btn)) input:input", function(e){
+    if (e.which == 13){
+        $(this).closest(".input-group").find("button").click();
+    }
+});
+
 });

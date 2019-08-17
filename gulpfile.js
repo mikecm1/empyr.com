@@ -118,11 +118,15 @@ gulp.task('watch-full', function () {
     gulp.watch(['./assets/js/**/*.js','!./assets/js/**/min*/**/*'], gulp.series('js-full'));
 });
 
+gulp.task('watch-scss', function () {
+    gulp.watch(['assets/**/*.scss'], gulp.series('scss-full'));
+});
+
 // Default: build and watch local
 // Run -> 'gulp'
 gulp.task('default', gulp.parallel(
     'generate',
-    'watch-full'
+    'watch-scss'
 ));
 
 // Watch and compile complete with uncss

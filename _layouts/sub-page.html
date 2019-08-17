@@ -17,27 +17,47 @@ layout: default
                         {% if page.sub_heading and page.sub_heading != "" %}
                         <p class="large mb-4" data-aos="basic" data-aos-delay="150">{{ page.sub_heading }}</p>
                         {% endif %}
+                        {% if page.contact_button.text %}
+                        <div class="row pb-2" data-aos="basic" data-aos-delay="250">
+                            <div class="col-12">
+                                <div class="row">
+                                    <div class="col-12 col-md-10 col-lg-8">
+                                            <div class="input-group input-max mb-0 d-block d-sm-flex">
+                                                <input class="form-control form-control-lg rounded-0 w-md-100 mr-sm-1 mb-1 mb-md-0"
+                                                    placeholder="Your work email" id="emailContact" type="email" />
+                                                <div class="input-group-append">
+                                                    <button class="btn btn-lg btn-secondary primary join mr-0 w-md-100" type="submit">{{ page.contact_button.text }}</button>
+                                                </div>
+
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {% endif %}
+                        {% if page.contact_button.text == "" or page.contact_button.text == nil %}
+                        {% if page.hero_button or page.second_button %}
                         {% if page.hero_button %}
                         <div class="pb-2 d-flex flex-column flex-md-row" data-aos="basic" data-aos-delay="250">
-                            <a href="{{ page.hero_button.href | absolute_url }}" class="btn btn-lg btn-secondary mb-2 mb-md-0
-                                primary">{{ page.hero_button.text }}</a>
+                            <a href="{{ page.hero_button.href | absolute_url }}" class="btn btn-lg btn-secondary mb-2 mb-md-0 primary">{{ page.hero_button.text }}</a>
                             {% endif %}
                             {% if page.second_button %}
-                            <a href="{{ page.second_button.href | absolute_url
-                                }}" class="btn btn-lg btn-white secondary">{{ page.second_button.text }}</a>
+                            <a href="{{ page.second_button.href | absolute_url }}" class="btn btn-lg btn-white secondary">{{ page.second_button.text }}</a>
+                            {% endif %}
+                        </div>
                         {% endif %}
-                    </div>
+                        {% endif %}
                     </div>
                     <div
                         class="col-12 col-md-4 order-2 order-sm-2 position-relative mt-5 mt-md-0 mb-5 mb-md-0 pb-5 pb-md-0">
-
-                        <!-- Image -->
                         <div class="img-skewed img-skewed-left">
                             <img src="{{ page.headerimage }}" alt="..." class="screenshot img-fluid mw-md-130"
                                 data-aos="fade-left" data-aos-delay="300">
                         </div>
                     </div>
+
                 </div>
+
             </div>
 
         </div>
@@ -45,11 +65,12 @@ layout: default
     <div class="bg-gradient-lighter">
         <div class="container pt-4 vw">
             {% if page.mainfeatures %}
-            <div class="intro px-3 py-4 card-body card offset shadow-sm" data-aos="basic">
+            <div class="intro px-3 py-4 card-body card offset shadow-sm" data-aos="basic"
+                data-aos-anchor-placement="top">
                 <div class="row py-1 px-1 px-lg-2">
                     {% for item in page.mainfeatures %}
                     <div class="col-12 col-md-4 mb-4 mb-md-0" data-aos="basic"
-                        data-aos-delay="{{ forloop.index | times: 150 }}">
+                        data-aos-delay="{{ forloop.index | times: 150 }}" data-aos-anchor-placement="top">
                         <img class="mb-2" src="{{ item.icon | absolute_url }}" alt="" height="65">
                         <h5 class="mb-0 pb-0">{{ item.heading }}</h5>
                         <div class="lighten mt-0 pt-1">{{ item.description }}</div>
@@ -61,8 +82,7 @@ layout: default
             {% if page.partners %}
             <div class="logos pt-4">
                 <div class="container pt-2 pb-4 px-md-5">
-                    <div class="row justify-content-center
-                            justify-content-lg-between text-center align-items-center">
+                    <div class="row justify-content-center justify-content-lg-between text-center align-items-center">
                         {% for logo in page.partners %}
                         <div class="col-4 mb-4 col-md mb-md-0 logo-wrap" data-aos="basic"
                             data-aos-delay="{{ forloop.index | times: 150 }}">
@@ -193,8 +213,7 @@ layout: default
                     <div class="card box-shadow-md">
                         <div class="card-body">
                             <div class="mb-2">
-                                <img class="rounded" src="{{ item.logo | absolute_url
-                                            }}" height="50" />
+                                <img class="rounded" src="{{ item.logo | absolute_url }}" height="50" />
                             </div>
                             <p class="lead mb-2 mt-0">"{{ item.quote }}"</p>
                             <div class="media align-items-center">
@@ -209,8 +228,7 @@ layout: default
                                 </div>
                                 <div class="media-body">
                                     <h6 class="mb-0">{{ item.person_name }}</h6>
-                                    <p class="small mb-0">- {{
-                                            item.program_name }} user</p>
+                                    <p class="small mb-0">- {{ item.program_name }} user</p>
                                 </div>
                             </div>
                         </div>

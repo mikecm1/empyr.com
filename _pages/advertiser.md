@@ -19,7 +19,7 @@ partners:
 - "/uploads/2019/logo-natl-2.png"
 - "/uploads/2019/logo-natl-1.png"
 mainfeatures:
-- heading: Reach millions of users
+- heading: Reach millions of people
   description: One platform. 316M+ consumers. Easily distribute high performance campaigns
     on our exclusive consumer marketplace.
   icon: "/img/one.svg"
@@ -34,6 +34,9 @@ mainfeatures:
 sub_heading: Reach millions of consumers and ignite your in-store revenue without
   paying for clicks and impressions, while unlocking complete online to offline sales
   attribution.
+contact_button:
+  text: Get Started
+  href: "/joinus/"
 hero_button:
   text: Get Started
   href: "/joinus/"
