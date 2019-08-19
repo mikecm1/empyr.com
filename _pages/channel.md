@@ -2,8 +2,8 @@
 layout: sub-page
 permalink: "/channel/"
 title: Channel Partners - Expand Your Digital Footprint with Card Linked Offers
-description: Join the Channel Partner Program and generate $1M in recurring revenue
-  from your existing partners
+description: Join the Channel Partner Program and generate an additional $1M in recurring
+  revenue from your existing customers with Card Linked Offers
 keywords: 'Card Linked Offers, Channel Partners, Recurring Revenue '
 tagline: For Websites & Apps
 banner_image: ''
