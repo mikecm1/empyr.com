@@ -1,7 +1,7 @@
 ---
 layout: sub-page
 permalink: "/channel/"
-title: Channel Test
+title: Channel Partners - Expand Your Digital Footprint with Card Linked Offers
 description: Publishers can grow revenue by tapping into online to offline commerce.
   Offers consumers card linked offers with guaranteed revenue per sale.
 keywords: Card Linked Offers, Publishers, Revenue Per Sale
