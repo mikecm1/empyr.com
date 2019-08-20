@@ -32,10 +32,9 @@ mainfeatures:
 - heading: 'Unlimited recurring revenue '
   description: Launch an innovative new revenue stream from offline commerce.
   icon: "/img/icon-pub-1.svg"
-- description: Delight your users with 1000s of local offers out-of-the-box, from
-    local restaurants to national brands.
+- description: 'Complete creative control over UX and functionality. '
   icon: "/img/icon-pub-2.svg"
-  heading: Offers ready to go
+  heading: Seamless Integration
 - heading: Complete creative control
   description: When your users earn rewards, you generate revenue. Customers are happier,
     and so is your bottom line.
