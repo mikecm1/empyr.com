@@ -21,11 +21,11 @@ partners:
 - "/img/logo-home-5.png"
 - "/uploads/2019/sofi.png"
 - "/img/logo-home-6.png"
-primary_body_copy_headline: Empower your sales team with the latest Digital Tool
-primary_body_copy_subheadline: Give your users another great reason to open your app.
-  Empyr's RESTful API provides everything you need to build a customized card-linked
-  offer rewards programs that drives repeat interaction and helps turn your users
-  into advocates.
+primary_body_copy_headline: Accelerate your Sales Pipeline with the latest Digital
+  Ad Tool
+primary_body_copy_subheadline: 'Give your sales team a tool to spark ''closed won''
+  opportunities with their existing clients. Adding Card Linked Offers to your tool
+  kit is a sure-fire way land and expand your current book of business. '
 primary_body_icon: "/img/icon-cards.svg"
 show_mainfeatures: true
 mainfeatures:
@@ -62,12 +62,14 @@ all_features:
   icon: "/img/icons/icon-list-40.svg"
 show_case_studies: true
 section_one:
-  tagline: USER EXPERIENCE
+  tagline: REVENUE
   section_header: |-
-    Seamless integration,
-    complete creative control
-  section_body_copy: Enhance your product with a feature your users will love, rewarding
-    them from everyday offline purchases and generating revenue with each transaction.
+    Add recurring revenue,
+    increase predictability
+  section_body_copy: Monthly Recurring Revenue is something we should all be able
+    to count on. Through our proprietary dashboard, highlight which customers are
+    driving the most revenue and learn how to accelerate your program with our data
+    analytics and insights reports.
   image: "/img/generic-app.jpg"
   button:
     text: Learn More
