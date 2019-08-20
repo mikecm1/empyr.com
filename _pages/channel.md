@@ -32,7 +32,7 @@ mainfeatures:
 - heading: 'Unlimited recurring revenue '
   description: Launch an innovative new revenue stream from offline commerce.
   icon: "/img/icon-pub-1.svg"
-- description: Hands on sales training jump starts sales
+- description: Hands on, customized sales training jump starts sales
   icon: "/img/icon-pub-2.svg"
   heading: Seamless Integration
 - heading: Complements Digital Tech Stack
