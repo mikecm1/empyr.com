@@ -76,9 +76,15 @@ section_one:
     link_url: index.md
     href: ''
 section_two:
-  tagline: ''
-  section_header: ''
-  section_body_copy: ''
+  tagline: LATEST AND GREATEST
+  section_header: |-
+    Newest Digital Ad Product,
+    Stand out amongst your competitors
+  section_body_copy: Your existing customers will be featured on Empyr's Exclusive
+    Consumer Marketplace consisting of 316M+ consumers across the most popular websites
+    and apps. This massive consumer reach guarantees there is revenue to be generate.
+    The integration with the 3 major credit card brands guarantees attribution from
+    to their advertising to revenue.
   image: "/img/globe.jpg"
   button:
     text: ''
