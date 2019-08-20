@@ -35,9 +35,9 @@ mainfeatures:
 - description: 'Complete creative control over UX and functionality. '
   icon: "/img/icon-pub-2.svg"
   heading: Seamless Integration
-- heading: Complete creative control
-  description: When your users earn rewards, you generate revenue. Customers are happier,
-    and so is your bottom line.
+- heading: Complements Digital Tech Stack
+  description: 'Layer in a digital tool that already fits in with your digital product
+    suite. '
   icon: "/img/icon-pub-3.svg"
 all_features_headline: 93% of purchases are made offline. Get a piece of the pie.
 hero_button:
