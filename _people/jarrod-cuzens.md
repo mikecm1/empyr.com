@@ -7,6 +7,6 @@ thumbnail: "/uploads/2019/Jarrod Cuzens_Co-Founder & CTO - Normal.jpg"
 email: ''
 linkedin: ''
 exec_team: true
-layout: ''
+layout: person
 
 ---

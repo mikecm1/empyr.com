@@ -18,7 +18,7 @@ defaults:
       layout: post
 collections:
   people:
-    output: true
+    output: false
   posts:
     output: true
   projects:

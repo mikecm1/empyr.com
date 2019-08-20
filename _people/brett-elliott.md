@@ -7,6 +7,6 @@ thumbnail: "/uploads/2019/brett-2.jpg"
 email: ''
 linkedin: ''
 exec_team: false
-layout: ''
+layout: person
 
 ---
