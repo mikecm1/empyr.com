@@ -538,7 +538,7 @@ p.latest {
     background-position: 79% 50%, center;
     background-size: 172%, 100%;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 15px;
 
     @include media-breakpoint-up(md) {
         height: 37vw;
@@ -1236,7 +1236,8 @@ svg.fsvg {
     padding: 0px 0 50px;
     padding: 0;
     background: #18162a;
-    background: linear-gradient(170deg, #10101a 40%, #1b1b3d 100%);
+//     background: linear-gradient(170deg, #10101a 40%, #1b1b3d 100%);
+background: #05052e;
 
     &:before {
         position: absolute;
@@ -1293,10 +1294,12 @@ svg.fsvg {
     }
 
     .lead {
-        margin-bottom: 0 !important;
-        color: #aeaec1;
-        font-size: 1.26rem;
-        line-height: 1.7;
+    margin-bottom: 0!important;
+    color: #c7c7d2;
+    font-size: 1.56rem;
+    line-height: inherit;
+    max-width: 720px;
+    margin: 0 auto;
 
         @include media-breakpoint-down(sm) {
             font-size: 17px;
@@ -1314,11 +1317,7 @@ svg.fsvg {
         line-height: 1.1;
 
         @include media-breakpoint-up(lg) {
-            font-size: 48px;
-        }
-
-        @include media-breakpoint-up(xxl) {
-            font-size: 50px;
+            font-size: 51px;
         }
     }
 }
