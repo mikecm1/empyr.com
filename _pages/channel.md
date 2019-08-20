@@ -21,7 +21,7 @@ partners:
 - "/img/logo-home-5.png"
 - "/uploads/2019/sofi.png"
 - "/img/logo-home-6.png"
-primary_body_copy_headline: Increase user engagement. <br> Make more money.
+primary_body_copy_headline: Empower your sales team with the latest Digital Tool
 primary_body_copy_subheadline: Give your users another great reason to open your app.
   Empyr's RESTful API provides everything you need to build a customized card-linked
   offer rewards programs that drives repeat interaction and helps turn your users
@@ -32,7 +32,7 @@ mainfeatures:
 - heading: 'Unlimited recurring revenue '
   description: Launch an innovative new revenue stream from offline commerce.
   icon: "/img/icon-pub-1.svg"
-- description: 'Complete creative control over UX and functionality. '
+- description: Hands on sales training jump starts sales
   icon: "/img/icon-pub-2.svg"
   heading: Seamless Integration
 - heading: Complements Digital Tech Stack
