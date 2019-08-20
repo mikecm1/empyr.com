@@ -8,7 +8,7 @@ keywords: 'Card Linked Offers, Channel Partners, Recurring Revenue '
 tagline: For Websites & Apps
 banner_image: ''
 heading: |-
-  Expand your digital footprint.
+  Expand your digital footprint. <br>
   Grow recurring revenue.
 sub_heading: Empyr offers an innovative, digital marketing tool allowing you to generate
   recurring revenue through your existing customers. Complement your existing suite
