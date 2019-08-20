@@ -8,18 +8,12 @@ keywords: 'Card Linked Offers, Channel Partners, Recurring Revenue '
 tagline: For Websites & Apps
 banner_image: ''
 heading: |-
-  Expand your digital footprint.
+  Expand your digital footprint. <br>
   Grow recurring revenue.
-sub_heading: Generate revenue and increase engagement from offline commerce with your
-  own fully customized card-linked offer program. Get 1000s of offers and complete
-  creative control of the UX and functionality.Generate revenue and increase engagement
-  from offline commerce with your own fully customized card-linked offer program.
-  Get 1000s of offers and complete creative control of the UX and functionality.Generate
-  revenue and increase engagement from offline commerce with your own fully customized
-  card-linked offer program. Get 1000s of offers and complete creative control of
-  the UX and functionality.Generate revenue and increase engagement from offline commerce
-  with your own fully customized card-linked offer program. Get 1000s of offers and
-  complete creative control of the UX and functionality.
+sub_heading: Empyr offers an innovative, digital marketing tool allowing you to generate
+  recurring revenue through your existing customers. Complement your existing suite
+  of products with card linked offers and expose your customers to our exclusive consumer
+  marketplace.
 partners:
 - "/img/logo-home-1.png"
 - "/img/logo-home-3.png"
@@ -35,17 +29,15 @@ primary_body_copy_subheadline: Give your users another great reason to open your
 primary_body_icon: "/img/icon-cards.svg"
 show_mainfeatures: true
 mainfeatures:
-- heading: Unlimited revenue potential
-  description: Launch an innovative new revenue stream from offline commerce with
-    total control of the user experience.
+- heading: 'Unlimited recurring revenue '
+  description: Launch an innovative new revenue stream from offline commerce.
   icon: "/img/icon-pub-1.svg"
-- description: Delight your users with 1000s of local offers out-of-the-box, from
-    local restaurants to national brands.
+- description: 'Complete creative control over UX and functionality. '
   icon: "/img/icon-pub-2.svg"
-  heading: Offers ready to go
-- heading: Complete creative control
-  description: When your users earn rewards, you generate revenue. Customers are happier,
-    and so is your bottom line.
+  heading: Seamless Integration
+- heading: Complements Digital Tech Stack
+  description: 'Layer in a digital tool that already fits in with your digital product
+    suite. '
   icon: "/img/icon-pub-3.svg"
 all_features_headline: 93% of purchases are made offline. Get a piece of the pie.
 hero_button:
