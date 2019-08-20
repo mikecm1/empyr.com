@@ -47,17 +47,17 @@ second_button_:
   link: "/"
 all_features:
 - heading: 100% Attribution to In-Store Revenue
-  icon: "/img/icons/icon-list-2.svg"
+  icon: "/img/icons/small/icon-line-2.svg"
 - heading: No Cost for Impressions, Clicks, or Visits
-  icon: "/img/icons/icon-list-40.svg"
+  icon: "/img/icons/small/icon-line-24.svg"
 - heading: Minimum 10X ROAS Guaranteed
-  icon: "/img/icons/icon-list-13.svg"
+  icon: "/img/icons/small/icon-line-11.svg"
 - heading: Incremental Revenue Lift Reporting
-  icon: "/img/icons/icon-list-35.svg"
+  icon: "/img/icons/small/icon-line-35.svg"
 - heading: Self-Funding with No Upfront Costs or Minimums
-  icon: "/img/icons/icon-list-33.svg"
+  icon: "/img/icons/small/icon-line-32.svg"
 - heading: No Ad or Click Fraud
-  icon: "/img/icons/icon-list-6.svg"
+  icon: "/img/icons/small/icon-line-10.svg"
 show_case_studies: false
 case_studies:
 - partner_logo: "/uploads/2019/05/google.svg"
