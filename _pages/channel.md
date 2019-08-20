@@ -131,9 +131,11 @@ user_testimonials:
     quote: " It was so nice to get a notification from Yelp telling me I’ll see some
       of that money back next month :)"
 section_three:
-  tagline: ''
-  section_header: ''
-  section_body_copy: ''
+  tagline: UP AND RUNNING
+  section_header: Hands On Training
+  section_body_copy: Matched with a Customer Success Manager that fits your team,
+    Empyr will deliver customized on-boarding and sales training to ensure your team
+    and their customers are set up for success.
   button:
     text: ''
     href: ''
