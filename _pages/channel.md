@@ -79,7 +79,7 @@ section_two:
   tagline: LATEST AND GREATEST
   section_header: |-
     Newest Digital Ad Product,
-    Stand out amongst your competitors
+    gives 100% attribution to your customers
   section_body_copy: Your existing customers will be featured on Empyr's Exclusive
     Consumer Marketplace consisting of 316M+ consumers across the most popular websites
     and apps. This massive consumer reach guarantees there is revenue to be generate.
