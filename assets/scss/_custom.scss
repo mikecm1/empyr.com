@@ -533,12 +533,12 @@ p.latest {
 
 .lift {
     height: 75vw;
-    border-radius: 25px;
     background: linear-gradient(30deg, #0b0b43 30%, #1b1b6c 100%);
     background: url(/img/incremental.png), linear-gradient(30deg, #0b0b43 30%, #1b1b6c 100%);
     background-position: 79% 50%, center;
     background-size: 172%, 100%;
     background-repeat: no-repeat;
+    border-radius: 10px;
 
     @include media-breakpoint-up(md) {
         height: 37vw;
@@ -640,8 +640,13 @@ p.latest {
             }
 
             @include media-breakpoint-up(lg) {
-                padding: 120px 0 130px;
+                padding: 125px 0 130px;
             }
+
+         @include media-breakpoint-up(xxl) {
+                padding: 140px 0 150px;
+            }
+
 
             &:before {
                 position: absolute;
