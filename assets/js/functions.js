@@ -211,7 +211,6 @@ $(document).ready(function () {
             window.location.href = '/joinus#load';
         });
     });
-    $(window).on("load",function(){
     if (window.location.hash === "#load") {
         function exists(method) {
             if ($('#email-2cea4183-12c8-465b-a317-33a3d62f0874').length) {
@@ -219,7 +218,7 @@ $(document).ready(function () {
             } else {
                 setTimeout(function () {
                     exists(method)
-                }, 50);
+                }, 100);
             }
         }
         exists(function () {
@@ -230,7 +229,6 @@ $(document).ready(function () {
 
         });
     }
-  });
 
     $(document).on("keypress", ".input-group:has(input:input, span.input-group-btn:has(div.btn)) input:input", function (e) {
         if (e.which == 13) {
