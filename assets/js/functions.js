@@ -1,5 +1,14 @@
 $(document).ready(function () {
-    
+
+  $(window).on("load",function(){
+    AOS.init({
+      once: !0,
+      duration: 400,
+      disable: 'mobile',
+      anchorPlacement: 'top'
+  });
+});
+
     $('[data-id=nav-sidebar-toggle]').click(function (e) {
         e.preventDefault();
         $('#nav-sidebar').toggleClass('show');
@@ -144,16 +153,6 @@ $(document).ready(function () {
         return true;
     };
     // document.documentElement.className = 'js';
-
-    $(window).on("load",function(){
-      AOS.init({
-        once: !0,
-        duration: 400,
-        disable: 'mobile',
-        anchorPlacement: 'top'
-    });
-  });
-
     
     if (Modernizr.touch) {} else {
         var rellax = new Rellax('.rellax', {
