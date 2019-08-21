@@ -84,6 +84,11 @@ $(document).ready(function () {
         });
         $(".navbar-nav .dropdown-menu").removeClass("d-none");
         AOS.refresh();
+
+        $(".modal a").click(function () {
+          $('body').removeClass('modal-open');
+          $('.modal-backdrop').remove();
+      });
     });
 
     Barba.Dispatcher.on('newPageReady', function (currentStatus, oldStatus, container, newPageRawHTML) {
