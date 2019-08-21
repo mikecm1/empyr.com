@@ -2533,6 +2533,18 @@ img.lazyfade.lazyloaded {
         transform: translateY(0px) !important;
     }
 
+    html:not(.no-js) [data-aos^='resize'][data-aos^='resize'] {
+      transform: scale(1.2) !important;
+      opacity: 0;
+      transform-origin: top left;
+      transition-property: opacity, transform;
+  }
+
+  html:not(.no-js) [data-aos^='resize'][data-aos^='resize'].aos-animate {
+    opacity: 1;
+    transform: none !important;
+  }
+
     html:not(.no-js) [data-aos^='device_one'][data-aos^='device_one'] {
         top: -105px;
         opacity: 0;
