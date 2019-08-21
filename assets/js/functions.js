@@ -144,12 +144,17 @@ $(document).ready(function () {
         return true;
     };
     // document.documentElement.className = 'js';
-    AOS.init({
+
+    $(window).on("load",function(){
+      AOS.init({
         once: !0,
         duration: 400,
         disable: 'mobile',
         anchorPlacement: 'top'
     });
+  });
+
+    
     if (Modernizr.touch) {} else {
         var rellax = new Rellax('.rellax', {
             wrapper: null,
