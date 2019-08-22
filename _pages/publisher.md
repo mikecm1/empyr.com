@@ -32,7 +32,7 @@ mainfeatures:
   description: Launch an innovative new revenue stream from offline commerce with
     total control of the user experience.
   icon: "/img/icon-pub-1.svg"
-- description: Delight your users with 1000s of local offers out-of-the-box, from
+- description: Delight your users with 1000s of offers out-of-the-box, from
     local restaurants to national brands.
   icon: "/img/icon-pub-2.svg"
   heading: Offers ready to go

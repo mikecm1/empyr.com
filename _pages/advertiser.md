@@ -14,10 +14,10 @@ heading: |-
 partners:
 - "/uploads/2019/logo-natl-10.png"
 - "/uploads/2019/logo-natl-9.png"
-- "/uploads/2019/logo-natl-6.png"
 - "/uploads/2019/logo-natl-5.png"
-- "/uploads/2019/logo-natl-2.png"
+- "/uploads/2019/logo-natl-6.png"
 - "/uploads/2019/logo-natl-1.png"
+- "/uploads/2019/logo-natl-2.png"
 mainfeatures:
 - heading: Reach millions of people
   description: One platform. 316M+ consumers. Easily distribute high performance campaigns
