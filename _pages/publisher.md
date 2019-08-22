@@ -87,10 +87,6 @@ section_two:
     text: Learn More
     link_url: index.md
     href: ''
-  stats:
-    merchants: 30K
-    cities: 3.5K
-    metros: 837
   stats_data:
   - number_of: 30K
     text_display: Merchants
