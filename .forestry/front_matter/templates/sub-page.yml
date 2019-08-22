@@ -205,7 +205,7 @@ fields:
     config:
       min: 
       max: '3'
-      labelField: 
+      labelField: text_display
     label: Stats Data
   - name: button
     type: field_group
