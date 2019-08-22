@@ -127,7 +127,10 @@ section_three:
 section_four:
   tagline: In-Depth Data Analysis
   section_header: Analyze campaign impact and validate results
-  section_body_copy: Easily visualize the true effect of your in-store card-linked offer campaigns across cohorts with reporting that measures incremental lift, pre-campaign vs. during-campaign spend, transaction analysis, average order value, and geo-spacial distribution.
+  section_body_copy: Easily visualize the true effect of your in-store card-linked
+    offer campaigns across cohorts with reporting that measures incremental lift,
+    pre-campaign vs. during-campaign spend, transaction analysis, average order value,
+    and geo-spacial distribution.
   image: "/img/img-method-control.svg"
   button:
     text: Learn More
@@ -142,7 +145,7 @@ page_name: "* Advertisers"
 menu:
   partners:
     title: Advertisers
-    description: Launch a card-linked offer campaign
-    icon: "/img/icon-dropdown-1.svg"
-    weight: 1
+    description: Launch a card-linked offer campaignn
+    icon: "/uploads/2019/icon-dropdown-1.svg"
+
 ---
