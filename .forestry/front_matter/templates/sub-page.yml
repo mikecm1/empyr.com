@@ -104,6 +104,16 @@ fields:
           file: 
           path: 
       label: Weight_four
+    - name: weight_five
+      type: text
+      config:
+        required: false
+      label: Weight_five
+    - name: weight_six
+      type: text
+      config:
+        required: false
+      label: Weight Six
     label: partners
   label: Navigation dropdown item?
 - name: heading
