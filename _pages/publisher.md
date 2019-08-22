@@ -143,11 +143,11 @@ case_studies: []
 page_name: "* Publishers"
 menu:
   partners:
-    title: "3.14"
+    title: Websites & Apps
     description: Build a custom card-linked offer program
     weight: "2"
     icon: "/uploads/2019/icon-dropdown-2.svg"
-    weight_two: "2"
+    weight_two: " 7"
     weight_three: '2.00'
     weight_four: '2'
     weight_five: two
