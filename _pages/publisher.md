@@ -10,7 +10,9 @@ banner_image: ''
 heading: |-
   Enhance your experience.
   Amplify your revenue.
-sub_heading: Generate revenue and increase engagement from offline commerce with your own fully customized card-linked offer program. Get 1000s of offers and complete creative control of the UX and functionality.
+sub_heading: Generate revenue and increase engagement from offline commerce with your
+  own fully customized card-linked offer program. Get 1000s of offers and complete
+  creative control of the UX and functionality.
 partners:
 - "/img/logo-home-1.png"
 - "/img/logo-home-3.png"
@@ -89,6 +91,13 @@ section_two:
     merchants: 30K
     cities: 3.5K
     metros: 837
+  stats_data:
+  - number_of: 30K
+    text_display: Merchants
+  - number_of: 3.5K
+    text_display: Cities
+  - number_of: "837"
+    text_display: Metros
 user_testimonials:
   title: Consumers love card-linked offers
   testimonials:
@@ -135,11 +144,5 @@ section_three:
 show_user_testimonials: true
 case_studies: []
 page_name: "* Publishers"
-menu:
-  partners:
-    weight: 2
-    title: Websites & Apps
-    description: Build a custom card-linked offer program
-    icon: "/img/icon-dropdown-2.svg"
 
 ---
