@@ -60,7 +60,7 @@ all_features:
   icon: "/img/icons/icon-list-10.svg"
 - heading: Designed for all digital product types
   icon: "/img/icons/icon-list-40.svg"
-show_case_studies: true
+show_case_studies: false
 section_one:
   tagline: REVENUE
   section_header: |-
