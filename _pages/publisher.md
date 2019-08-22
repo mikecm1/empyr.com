@@ -147,5 +147,8 @@ menu:
     description: Build a custom card-linked offer program
     weight: "2"
     icon: "/uploads/2019/icon-dropdown-2.svg"
+    weight_two: "2"
+    weight_three: '2'
+    weight_four: '2'
 
 ---
