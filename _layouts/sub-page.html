@@ -152,13 +152,16 @@ layout: default
                     <p class="mb-4 mt-md-2" data-aos="basic" data-aos-delay="250">
                         {{ page.section_two.section_body_copy }}</p>
                     {% if page.section_two.stats %}
-                    <div class="mb-5 d-flex flex-nowrap">
+                    <div class="d-flex flex-nowrap" data-aos="basic" data-aos-delay="450">
                         {% for item in page.section_two.stats_data %}
-                        <div class="pr-1 pr-lg-2 pr-xl-4">
+                        <div class="pr-3 pr-lg-2 pr-xl-2 pr-xxl-4 mstat">
                           <h3 class="display-4 font-weight-normal mb-0">{{ item.number_of }}</h3>
                           <p class="small text-dark">{{ item.text_display }}</p><a class="weight-500" href="#"></a>
                       </div>
                         {% endfor %}
+                    </div>
+                    <div data-aos="basic" data-aos-delay="650">
+                        <p class="text-light font-italic mb-0" style="font-size: 12px">* Offer count is variable and subject to change</p>
                     </div>
                     {% endif %}
                 </div>

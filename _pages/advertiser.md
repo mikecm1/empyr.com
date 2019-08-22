@@ -19,7 +19,7 @@ partners:
 - "/uploads/2019/logo-natl-2.png"
 - "/uploads/2019/logo-natl-1.png"
 mainfeatures:
-- heading: Reach millions of peopless
+- heading: Reach millions of people
   description: One platform. 316M+ consumers. Easily distribute high performance campaigns
     on our exclusive consumer marketplace.
   icon: "/img/one.svg"
