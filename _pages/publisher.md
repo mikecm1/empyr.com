@@ -148,7 +148,7 @@ menu:
     weight: "2"
     icon: "/uploads/2019/icon-dropdown-2.svg"
     weight_two: "2"
-    weight_three: '2'
+    weight_three: '2.00'
     weight_four: '2'
     weight_five: two
     weight_six: "2"
