@@ -186,6 +186,27 @@ fields:
       schema:
         format: markdown
     label: Section body copy
+  - name: stats
+    type: boolean
+    label: Show merchant stats?
+  - name: stats_data
+    type: field_group_list
+    fields:
+    - name: number_of
+      type: text
+      config:
+        required: false
+      label: Number of...
+    - name: text_display
+      type: text
+      config:
+        required: false
+      label: Text to display
+    config:
+      min: 
+      max: '3'
+      labelField: 
+    label: Stats Data
   - name: button
     type: field_group
     config: {}
