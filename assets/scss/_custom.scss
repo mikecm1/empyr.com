@@ -1299,9 +1299,9 @@ background: #121627;
     .lead {
     margin-bottom: 0!important;
     color: #c7c7d2;
-    font-size: 1.56rem;
+    font-size: 1.3rem;
     line-height: inherit;
-    max-width: 720px;
+    max-width: 580px;
     margin: 0 auto;
 
         @include media-breakpoint-down(sm) {
@@ -1316,11 +1316,11 @@ background: #121627;
         color: #fff;
         letter-spacing: -1.8px;
         font-weight: 500;
-        font-size: 39px;
+        font-size: 37px;
         line-height: 1.1;
 
         @include media-breakpoint-up(lg) {
-            font-size: 51px;
+            font-size: 43px;
         }
     }
 }
