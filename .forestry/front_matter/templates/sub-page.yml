@@ -60,15 +60,11 @@ fields:
         maxSize: 250
       label: icon
     - name: weight
-      type: number
-      label: Weight
-      description: ''
-      default: 0
-      required: true
+      type: text
       config:
-        min: 
-        max: 
-        step: 
+        required: false
+      label: Weight
+      default: ''
     label: partners
   label: Navigation dropdown item?
 - name: heading
