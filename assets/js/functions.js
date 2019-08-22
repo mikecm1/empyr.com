@@ -14,11 +14,11 @@ $(document).ready(function () {
         $('#nav-sidebar').toggleClass('show');
     });
     $('[data-id=nav-sidebar-close]').click(function (e) {
-        e.preventDefault();
+        // e.preventDefault();
         $('#nav-sidebar').removeClass('show');
     });
     $('.navbar-side a.nested').click(function (e) {
-        e.preventDefault();
+        // e.preventDefault();
     });
 
     var links = document.querySelectorAll('a[href]');
