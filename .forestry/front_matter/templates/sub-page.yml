@@ -59,8 +59,14 @@ fields:
       config:
         maxSize: 250
       label: icon
+    - name: weight
+      type: text
+      config:
+        required: false
+      label: weight
+      description: What order displayed in dropdown
     label: partners
-  label: Sub-menu navigation?
+  label: Navigation dropdown item?
 - name: heading
   type: textarea
   default: ''
