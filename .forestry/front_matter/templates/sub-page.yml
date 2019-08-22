@@ -36,6 +36,31 @@ fields:
   label: layout
   default: sub-page
   hidden: true
+- name: menu
+  type: field_group
+  config: {}
+  fields:
+  - name: partners
+    type: field_group
+    config: {}
+    fields:
+    - name: title
+      type: text
+      config:
+        required: false
+      label: Title
+    - name: description
+      type: text
+      config:
+        required: false
+      label: Description
+    - name: icon
+      type: file
+      config:
+        maxSize: 250
+      label: icon
+    label: partners
+  label: Sub-menu navigation?
 - name: heading
   type: textarea
   default: ''
