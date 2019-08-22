@@ -91,9 +91,9 @@ section_two:
   - number_of: 30K
     text_display: Total Merchants
   - number_of: 3.5K
-    text_display: Cities
+    text_display: Cities with Merchants
   - number_of: "837"
-    text_display: Metros
+    text_display: Number of Metros
   stats: true
 user_testimonials:
   title: Consumers love card-linked offers
