@@ -150,5 +150,7 @@ menu:
     weight_two: "2"
     weight_three: '2'
     weight_four: '2'
+    weight_five: two
+    weight_six: "2"
 
 ---
