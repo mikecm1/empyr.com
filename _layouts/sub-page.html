@@ -153,18 +153,12 @@ layout: default
                         {{ page.section_two.section_body_copy }}</p>
                     {% if page.section_two.stats %}
                     <div class="mb-5 d-flex flex-nowrap">
-                        <div class="order-1 pr-1 pr-lg-2 pr-xl-4">
-                            <h3 class="display-4 font-weight-normal mb-0">{{ page.section_two.stats.merchants }}</h3>
-                            <p class="small text-dark">Total Merchants</p><a class="weight-500" href="#"></a>
-                        </div>
-                        <div class="order-2 pr-1 pr-lg-2 pr-xl-4">
-                            <h3 class="display-4 font-weight-normal mb-0">{{ page.section_two.stats.cities }}</h3>
-                            <p class="small text-dark">Cities with Merchants</p><a class="weight-500" href="#"></a>
-                        </div>
-                        <div class="order-3">
-                            <h3 class="display-4 font-weight-normal mb-0">{{ page.section_two.stats.metros }}</h3>
-                            <p class="small text-dark">Number of Metros</p><a class="weight-500" href="#"></a>
-                        </div>
+                        {% for item in page.section_two.stats_data %}
+                        <div class="pr-1 pr-lg-2 pr-xl-4">
+                          <h3 class="display-4 font-weight-normal mb-0">{{ item.number_of }}</h3>
+                          <p class="small text-dark">{{ item.text_display }}</p><a class="weight-500" href="#"></a>
+                      </div>
+                        {% endfor %}
                     </div>
                     {% endif %}
                 </div>
