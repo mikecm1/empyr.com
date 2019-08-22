@@ -145,7 +145,7 @@ menu:
   partners:
     title: Websites & Apps
     description: Build a custom card-linked offer program
-    weight: "2"
+    weight: '"2"'
     icon: "/uploads/2019/icon-dropdown-2.svg"
 
 ---
