@@ -94,6 +94,7 @@ section_two:
     text_display: Cities
   - number_of: "837"
     text_display: Metros
+  stats: true
 user_testimonials:
   title: Consumers love card-linked offers
   testimonials:
