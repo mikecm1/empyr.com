@@ -89,7 +89,7 @@ section_two:
     href: ''
   stats_data:
   - number_of: 30K
-    text_display: Merchants
+    text_display: Total Merchants
   - number_of: 3.5K
     text_display: Cities
   - number_of: "837"
