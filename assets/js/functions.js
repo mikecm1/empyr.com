@@ -218,7 +218,7 @@ $(document).ready(function () {
     });
     if (window.location.hash === "#load") {
         function exists(method) {
-            if ($('#email-2cea4183-12c8-465b-a317-33a3d62f0874').length) {
+            if ($('[id*="email-"]').length) {
                 method();
             } else {
                 setTimeout(function () {
@@ -229,7 +229,7 @@ $(document).ready(function () {
         exists(function () {
             if (window.location.hash === "#load") {
                 var emailStore = sessionStorage.getItem('emailContact');
-                $("#email-2cea4183-12c8-465b-a317-33a3d62f0874").val(emailStore);
+                $('[id*="email-"]').val(emailStore);
             }
 
         });
