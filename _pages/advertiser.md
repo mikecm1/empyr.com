@@ -142,5 +142,9 @@ user_testimonials:
   title: ''
   testimonials: []
 page_name: "* Advertisers"
+menu:
+  partners:
+    description: Launch a card-linked offer campaignn
+    title: Advertisers
 
 ---
