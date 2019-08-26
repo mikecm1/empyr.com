@@ -1,5 +1,5 @@
 ---
-layout: sub-page
+layout: sub-page_standard-width
 permalink: "/channel/"
 title: Channel Partners - Expand Your Digital Footprint with Card Linked Offers
 description: Join the Channel Partner Program and generate an additional $1M in recurring

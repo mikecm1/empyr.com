@@ -1,0 +1,309 @@
+---
+layout: default
+---
+<div class="sub">
+    <div class="hero sub">
+        <div class="bg-cover">
+            <div class="container">
+                <div class="row poster-feature-row pb-2">
+                    <div class="col-12 col-md-7 order-1 order-sm-1 mt-1 text-">
+                        {% if page.tagline and page.tagline != "" %}
+                        <div data-aos="basic">
+                            <h4 class="tag pb-1 mb-1">{{ page.tagline }}</h4>
+                        </div>
+                        {% endif %}
+                        <h1 class="display-4 mb-2" data-aos="basic" data-aos-delay="50">
+                            {{ page.heading | default: page.title }}</h1>
+                        {% if page.sub_heading and page.sub_heading != "" %}
+                        <p class="large mb-4" data-aos="basic" data-aos-delay="150">{{ page.sub_heading }}</p>
+                        {% endif %}
+                        {% if page.cta_with_email %}
+                        <div class="row pb-2" data-aos="basic" data-aos-delay="250">
+                            <div class="col-12">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="input-group input-max mb-0 d-block d-sm-flex">
+                                            <input
+                                                class="form-control form-control-lg rounded-0 w-md-100 mr-md-1 mb-1 mb-md-0"
+                                                placeholder="Your work email" id="emailContact" type="email" />
+                                            <div class="input-group-append w-md-100">
+                                                <button class="btn btn-lg btn-secondary primary join mr-0 w-md-100"
+                                                    type="submit">{{ page.cta_with_email }}</button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {% endif %}
+                        {% if page.cta_with_email == "" or page.cta_with_email == nil %}
+                        {% if page.hero_button or page.second_button %}
+                        {% if page.hero_button %}
+                        <div class="pb-2 d-flex flex-column flex-md-row" data-aos="basic" data-aos-delay="250">
+                            <a href="{{ page.hero_button.href | absolute_url }}"
+                                class="btn btn-lg btn-secondary mb-2 mb-md-0 primary">{{ page.hero_button.text }}</a>
+                            {% endif %}
+                            {% if page.second_button %}
+                            <a href="{{ page.second_button.href | absolute_url }}"
+                                class="btn btn-lg btn-white secondary">{{ page.second_button.text }}</a>
+                            {% endif %}
+                        </div>
+                        {% endif %}
+                        {% endif %}
+                    </div>
+                    <div
+                        class="col-12 col-md-4 order-2 order-sm-2 position-relative mt-5 mt-md-0 mb-5 mb-md-0 pb-5 pb-md-0">
+                        <div class="img-skewed img-skewed-left">
+                            <img src="{{ page.headerimage }}" alt="..." class="screenshot img-fluid mw-md-130"
+                                data-aos="fade-left" data-aos-delay="300">
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="bg-gradient-lighter">
+        <div class="container pt-4 vw">
+            {% if page.mainfeatures %}
+            <div class="intro px-3 py-4 card-body card offset shadow-sm" data-aos="basic"
+                data-aos-anchor-placement="top">
+                <div class="row py-1 px-1 px-lg-2">
+                    {% for item in page.mainfeatures %}
+                    <div class="col-12 col-md-4 mb-4 mb-md-0" data-aos="basic"
+                        data-aos-delay="{{ forloop.index | times: 150 }}" data-aos-anchor-placement="top">
+                        <img class="mb-2" src="{{ item.icon | absolute_url }}" alt="" height="65">
+                        <h5 class="mb-0 pb-0">{{ item.heading }}</h5>
+                        <div class="lighten mt-0 pt-1">{{ item.description }}</div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+            {% endif %}
+            {% if page.partners %}
+            <div class="logos pt-4">
+                <div class="container pt-2 pb-4 px-md-5">
+                    <div class="row justify-content-center justify-content-lg-between text-center align-items-center">
+                        {% for logo in page.partners %}
+                        <div class="col-4 mb-4 col-md mb-md-0 logo-wrap" data-aos="basic"
+                            data-aos-delay="{{ forloop.index | times: 150 }}">
+                            <img src="{{ logo | absolute_url }}" class="img-logo" />
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+            <div class="row pt-md-3 px-2 px-md-0 mt-4 text-left text-md-center">
+                <div class="col-12 mt-4">
+                    <div class="rounded-circle mx-md-auto d-flex flex-wrap align-items-center justify-content-center icon-loud mb-2"
+                        style="width:87px; height: 87px;" data-aos="basic"><img
+                            src="{{ page.primary_body_icon | absolute_url }}" class="align-self-center"></div>
+                    <h1 class="headline mt-1 mx-auto mb-2" data-aos="basic" data-aos-delay="100">
+                        {{ page.primary_body_copy_headline }}</h1>
+                </div>
+                <div class="col-md-12 col-xl-8 col-xxl-7 mx-auto">
+                    <p class="lighten large mb-3" data-aos="basic" data-aos-delay="150">
+                        {{ page.primary_body_copy_subheadline }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container full features">
+        {% if page.section_one %}
+        <section>
+            <div class="row justify-content-between align-items-center">
+                <div class="col-12 col-md-6 col-xxl-6 order-2 order-md-1 pr-xxl-5">
+                    <div data-aos="basic">
+                        <h4 class="mb-2 tag">{{ page.section_one.tagline }}</h4>
+                    </div>
+                    <h1 data-aos="basic" data-aos-delay="150" class="pr-xl-4 pr-xxl-5 mb-md-2">
+                        {{ page.section_one.section_header }}</h1>
+                    <img src="/img/headline-separator.svg" alt="" data-aos="basic" data-aos-delay="150">
+                    <p class="pr-xl-4 mb-4 mt-md-2" data-aos="basic" data-aos-delay="250">
+                        {{ page.section_one.section_body_copy }}</p>
+                </div>
+                <div class="col-12 col-md-6 col-xxl-6 order-2 px-md-0">
+                    <img class="img-fluid" src="{{ page.section_one.image }}" data-aos="fade-left"
+                        data-aos-delay="0" />
+                </div>
+            </div>
+        </section>
+        {% endif %}
+        {% if page.section_two %}
+        <section>
+            <div class="row justify-content-between align-items-center">
+                <div class="col-12 col-md-6 col-xxl-6 order-2 px-md-0">
+                    <img class="img-fluid"
+                        src="{{ page.section_two.image | default: '/assets/pictures/image-555x380.png' }}"
+                        data-aos="fade-right" data-aos-delay="0" />
+                </div>
+                <div class="col-12 col-md-6 order-1 order-md-2 pl-xl-5 pl-xxl-5">
+                    <div data-aos="basic">
+                        <h4 class="mb-2 tag">{{ page.section_two.tagline }}</h4>
+                    </div>
+                    <h1 class="pr-xl-5 mb-md-2" data-aos="basic" data-aos-delay="50">
+                        {{ page.section_two.section_header }}</h1>
+                    <img src="/img/headline-separator.svg" alt="" data-aos="basic" data-aos="fade-right"
+                        data-aos-delay="150">
+                    <p class="mb-4 mt-md-2" data-aos="basic" data-aos-delay="250">
+                        {{ page.section_two.section_body_copy }}</p>
+                    {% if page.section_two.stats %}
+                    <div class="d-flex flex-nowrap" data-aos="basic" data-aos-delay="450">
+                        {% for item in page.section_two.stats_data %}
+                        <div class="pr-3 pr-lg-2 pr-xl-2 pr-xxl-4 mstat">
+                          <h3 class="display-4 font-weight-normal mb-0">{{ item.number_of }}</h3>
+                          <p class="small text-dark">{{ item.text_display }}</p><a class="weight-500" href="#"></a>
+                      </div>
+                        {% endfor %}
+                    </div>
+                    <div data-aos="basic" data-aos-delay="650">
+                        <p class="text-light font-italic mb-0" style="font-size: 12px">* Offer count is variable and subject to change</p>
+                    </div>
+                    {% endif %}
+                </div>
+        </section>
+        {% endif %}
+        {% if page.section_three.section_header and page.section_three.section_header != "" %}
+        <section>
+            <div class="row justify-content-between align-items-top">
+                <div class="col-12 col-md-6 order-1 order-md-1">
+                    <h4 class="mb-2 tag" data-aos="basic">{{ page.section_three.tagline }}</h4>
+                    <h1 class="pr-xl-4 pr-xxl-5 mb-md-2" data-aos="basic mb-md-2" data-aos-delay="50">
+                        {{ page.section_three.section_header }}</h1>
+                    <img src="/img/headline-separator.svg" alt="" data-aos="basic" data-aos-delay="150">
+                    <p class="mb-4 mt-md-2 pr-xl-4" data-aos="basic" data-aos-delay="200">
+                        {{ page.section_three.section_body_copy }}</p>
+                </div>
+                <div class="col-12 col-md-6 order-2 order-md-2 mb-4 mb-md-0">
+                    <img class="w-100" src="{{ page.section_three.image }}" data-aos="fade-left" data-aos-delay="300" />
+                </div>
+            </div>
+        </section>
+        {% endif %}
+        {% if page.section_four %}
+        <section>
+            <div class="row justify-content-between align-items-top pt-md-5 pb-md-3">
+                <div class="col-12 col-md-6 col-xl-6 col-xxl-5 order-2 order-md-1 mb-4 mb-md-0 pr-xl-5">
+                    <img class="w-100" src="{{ page.section_four.image }}" data-aos="fade-right" data-aos-delay="300" />
+                </div>
+                <div class="col-12 col-md-6 col-xl-6 col-xxl-7 pl-md-2 pl-xxl-4 order-1 order-md-2">
+                    <h4 class="mb-2 tag" data-aos="basic">{{ page.section_four.tagline }}</h4>
+                    <h1 class="pr-xl-4 pr-xxl-5 mb-md-2" data-aos="basic mb-md-2" data-aos-delay="50">
+                        {{ page.section_four.section_header }}</h1>
+                    <img src="/img/headline-separator.svg" alt="" data-aos="basic" data-aos-delay="150">
+                    <p class="mb-4 mt-md-2" data-aos="basic" data-aos-delay="200">
+                        {{ page.section_four.section_body_copy }}</p>
+                </div>
+            </div>
+            {% if page.show_lift %}
+            <div class="mt-2 mt-md-5 mb-4 bg-secondary col-lg-12 shadow-lg lift" data-aos="basic" data-aos-delay="150">
+                </div>
+                {% endif %}
+        </section>
+        {% endif %}
+
+</div>
+{% if page.show_user_testimonials %}
+<section class="border-top py-md-5">
+    <div class="testimonials reviews container full">
+        <h1 class="text-center pb-4 mb-4">{{ page.user_testimonials.title }}</h1>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                {% for item in page.user_testimonials.testimonials %}
+                <div class="swiper-slide col-12 col-md-6 eq">
+                    <div class="card box-shadow-md">
+                        <div class="card-body">
+                            <div class="mb-2">
+                                <img class="rounded" src="{{ item.logo | absolute_url }}" height="50" />
+                            </div>
+                            <p class="lead mb-2 mt-0">"{{ item.quote }}"</p>
+                            <div class="media align-items-center">
+                                <div class="mr-2">
+                                    {% if item.user_photo == "" %}
+                                    <img class="rounded" src="/img/genericUser.jpg" width="60" height="60" />
+                                    {% else %}
+                                    <img class="rounded"
+                                        src="{{ item.user_photo | absolute_url | default:"/img/genericUser.jpg" | absolute_url }}"
+                                        width="60" height="60" />
+                                    {% endif %}
+                                </div>
+                                <div class="media-body">
+                                    <h6 class="mb-0">{{ item.person_name }}</h6>
+                                    <p class="small mb-0">- {{ item.program_name }} user</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</section>
+{% endif %}
+{% if page.all_features %}
+<div class="solutions bg-g50 sub">
+    {% else %}
+    <div class="solutions bg-g50 sub">
+        {% endif %}
+        <div class="container text-left">
+            {% if page.all_features %}
+            <h1 class="mb-4 text-md-center">{{ page.all_features_headline }}</h1>
+            <div class="row pt-3 text-m-center">
+                {% for item in page.all_features %}
+                <div class="col-12 col-md-4 mb-2 px-1" data-aos="basic" data-aos-anchor=".bg-g50"
+                    data-aos-delay="{{ forloop.index | times: 150 }}">
+                    <div class="card py-1 py-md-2 px-1 px-lg-2">
+                        <div class="card-body">
+                            <img class="mb-2" src="{{ item.icon | absolute_url }}" alt="" width="70">
+                            <h5 class="mb-0">{{ item.heading }}</h5>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            {% endif %}
+            {% if page.show_case_studies %}
+            <div class="text-left">
+                <div class="row pt-12 pt-5">
+                    <div class="col-12 col-md-6">
+                        <h1>Case Studies Title</h1>
+                        <p>Case Studies Sub-text</p>
+                    </div>
+                </div>
+                <div class="row pt-3">
+                    {% for item in page.case_studies %}
+                    <div class="col-12 col-md-4 mb-3 mb-md-2">
+                        <div class="card shadow-sm">
+                            <div class="card-body">
+                                <img class="mb-2" src="{{ item.partner_logo | absolute_url }}" alt="">
+                                <h2>{{ item.heading }}</h2>
+                                <p>{{ item.overview }}</p>
+                                <div class="row">
+                                    <div class="col-12 col-md-4 mb-md-0">
+                                        <h3 class="mb-0">{{ item.incremental_revenue }}</h3>
+                                        <p class="small">Incremental Revenue</p><a class="weight-500" href="#"></a>
+                                    </div>
+                                    <div class="col-12 col-md-4 mb-md-0">
+                                        <h3 class="mb-0">{{ item.roi }}</h3>
+                                        <p class="small">Total ROI per $1 Spent</p><a class="weight-500" href="#"></a>
+                                    </div>
+                                    <div class="col-12 col-md-4 mb-md-0">
+                                        <h3 class="mb-0">{{ item.incremental_roi }}</h3>
+                                        <p class="small">Incremental ROI per $1</p><a class="weight-500" href="#"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+            {% endif %}
+        </div>
+    </div>
