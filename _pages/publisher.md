@@ -48,7 +48,7 @@ hero_button:
 second_button_:
   text: How it Works
   link: "#"
-headerimage: "/img/hero-publisher.svg"
+headerimage: "/img/hero-publisher.png"
 all_features:
 - heading: Seamless and customized API integration
   icon: "/img/icons/small/icon-line-10.svg"
