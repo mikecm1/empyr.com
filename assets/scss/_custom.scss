@@ -520,19 +520,21 @@ p.latest {
 
         @include media-breakpoint-up('xl') {
     padding-right: 35px!important;
-    font-size: 3.1rem;
+    font-size: 2.9rem;
         }
 
         @include media-breakpoint-up('xxl') {
-            padding-right: 0 !important;
+//             padding-right: 0 !important;
             max-width: 700px;
             font-size: 3.1rem;
         }
     }
 }
+
 .mstat:last-child {
   padding-right: 0 !important;
 }
+
 .lift {
     height: 75vw;
     background: linear-gradient(30deg, #0b0b43 30%, #1b1b6c 100%);
