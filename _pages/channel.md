@@ -132,6 +132,7 @@ section_three:
   section_body_copy: Matched with a Customer Success Manager that fits your team,
     Empyr will deliver customized on-boarding and sales training to ensure your team
     and their customers are set up for success and delivering results in 30 days.
+  image: "/img/attr-nat.svg"
   button:
     text: ''
     href: ''

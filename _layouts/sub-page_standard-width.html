@@ -67,21 +67,21 @@ layout: default
         </div>
     </div>
     <div class="bg-gradient-lighter">
-        <div class="container pt-4 vw">
-            {% if page.mainfeatures %}
-            <div class="intro px-3 py-4 card-body card offset shadow-sm" data-aos="basic"
-                data-aos-anchor-placement="top">
-                <div class="row py-1 px-1 px-lg-2">
-                    {% for item in page.mainfeatures %}
-                    <div class="col-12 col-md-4 mb-4 mb-md-0" data-aos="basic"
-                        data-aos-delay="{{ forloop.index | times: 150 }}" data-aos-anchor-placement="top">
-                        <img class="mb-2" src="{{ item.icon | absolute_url }}" alt="" height="65">
-                        <h5 class="mb-0 pb-0">{{ item.heading }}</h5>
-                        <div class="lighten mt-0 pt-1">{{ item.description }}</div>
-                    </div>
-                    {% endfor %}
+      <div class="container pt-4 vw">
+        {% if page.mainfeatures %}
+        <div class="intro px-3 py-4 card-body card offset shadow-sm" data-aos="basic"
+            data-aos-anchor-placement="top">
+            <div class="row py-1 px-1 px-lg-2">
+                {% for item in page.mainfeatures %}
+                <div class="col-12 col-md-4 mb-4 mb-md-0" data-aos="basic"
+                    data-aos-delay="{{ forloop.index | times: 150 }}" data-aos-anchor-placement="top">
+                    <img class="mb-2" src="{{ item.icon | absolute_url }}" alt="" height="65">
+                    <h5 class="pb-0">{{ item.heading }}</h5>
+                    <div class="lighten mt-0">{{ item.description }}</div>
                 </div>
+                {% endfor %}
             </div>
+        </div>
             {% endif %}
             {% if page.partners %}
             <div class="logos pt-4">
@@ -106,7 +106,7 @@ layout: default
                         {{ page.primary_body_copy_headline }}</h1>
                 </div>
                 <div class="col-md-12 col-xl-8 col-xxl-7 mx-auto">
-                    <p class="lighten large mb-3" data-aos="basic" data-aos-delay="150">
+                    <p class="lighten large mb-5" data-aos="basic" data-aos-delay="150">
                         {{ page.primary_body_copy_subheadline }}</p>
                 </div>
             </div>
