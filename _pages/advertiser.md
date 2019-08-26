@@ -146,5 +146,6 @@ menu:
   partners:
     description: Launch a card-linked offer campaignn
     title: Advertisers
+    icon: "/uploads/2019/icon-dropdown-1-1.svg"
 
 ---
