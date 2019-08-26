@@ -7,8 +7,7 @@ description: Join the Channel Partner Program and generate an additional $1M in 
 keywords: 'Card Linked Offers, Channel Partners, Recurring Revenue '
 tagline: For Websites & Apps
 banner_image: ''
-heading: |-
-  Expand your digital footprint. Grow recurring revenue.
+heading: Expand your digital footprint. Grow recurring revenue.
 sub_heading: Empyr offers an innovative, digital marketing tool allowing you to generate
   recurring revenue through your existing customers. Complement your existing suite
   of products with card linked offers and expose your customers to our exclusive consumer
@@ -90,10 +89,7 @@ section_two:
     text: ''
     link_url: index.md
     href: ''
-  stats:
-    merchants: 30K
-    cities: 3.5K
-    metros: 837
+  stats: false
 user_testimonials:
   title: Consumers love card-linked offers
   testimonials:
