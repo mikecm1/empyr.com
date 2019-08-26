@@ -76,8 +76,8 @@ layout: default
                     <div class="col-12 col-md-4 mb-4 mb-md-0" data-aos="basic"
                         data-aos-delay="{{ forloop.index | times: 150 }}" data-aos-anchor-placement="top">
                         <img class="mb-2" src="{{ item.icon | absolute_url }}" alt="" height="65">
-                        <h5 class="mb-0 pb-0">{{ item.heading }}</h5>
-                        <div class="lighten mt-0 pt-1">{{ item.description }}</div>
+                        <h5 class="pb-0">{{ item.heading }}</h5>
+                        <div class="lighten mt-0">{{ item.description }}</div>
                     </div>
                     {% endfor %}
                 </div>

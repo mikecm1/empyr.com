@@ -644,7 +644,7 @@ p.latest {
             }
 
             @include media-breakpoint-up(lg) {
-                padding: 135px 0 140px;
+                padding: 135px 0 145px;
             }
 
          @include media-breakpoint-up(xxl) {
@@ -1951,11 +1951,12 @@ img {
         margin-bottom: .5rem;
         font-size: 1.4rem;
         font-size: 1.3125rem;
+            font-weight: 600;
 
         @include media-breakpoint-up(xl) {
-            margin-top: 0px;
-            margin-bottom: 10px;
-            font-size: 1.375rem;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 20.5px;
         }
     }
 }
