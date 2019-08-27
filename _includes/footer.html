@@ -1,96 +1,85 @@
 <footer>
-    {% if site.data.information %}
-    <div class="footer-cta">
-        <div class="py-5">
-            <div class="container my-4">
-                {% assign info = site.data.information %}
-                <div class="row fcta mb-5">
-                    <div class="col-12 text-center">
-                        <h1 class="mb-2">
-                            {% if page.page_name contains 'Advertiser' and info.footer_details.main_header_advertiser !='' %}
-                            {{ info.footer_details.main_header_advertiser }}
-                            {% elsif page.page_name contains 'Publisher' and info.footer_details.main_header_publisher !='' %}
-                            {{ info.footer_details.main_header_publisher }}
-                            {% else %}
-                            {{ info.footer_details.main_header_home }}
-                            {% endif %}
-                        </h1>
-                        <p class="lead large mt-1">
-                            {% if page.page_name contains 'Advertiser' and info.footer_details.main_subheader_advertiser !='' %}
-                            {{ info.footer_details.main_subheader_advertiser }}
-                            {% elsif page.page_name contains 'Publisher' and info.footer_details.main_subheader_publisher !='' %}
-                            {{ info.footer_details.main_subheader_publisher }}
-                            {% else %}
-                            {{ info.footer_details.main_subheader_home }}
-                            {% endif %}</p>
-                    </div>
-                    <div class="col-12 mt-3 pt-xl-0 text-center">
-                        <a href="{{ info.footer_details.cta_url }}">
-                            <h3 class="font-weight-bold">
-                                {{ info.footer_details.cta_text }} <i class="icon-trending_neutral"
-                                    style="top: 2px;position: relative;margin-left: 5px;"></i></h3>
-                        </a>
-                    </div>
-                </div>
-                {% if info.footer_details.partners %}
-                <div class="text-center pt-1">
-                    <div
-                        class="row justify-content-center justify-content-lg-between text-center align-items-center mx-md-5">
-                        {% if page.page_name contains 'Advertiser' and info.footer_details.partners_national %}
-                        {% for partnerlogo in info.footer_details.partners_national %}
-                        <div class="col-4 mb-4 col-md mb-md-0">
-                            <img src="{{ partnerlogo | absolute_url }}" class="img-logo"
-                                style="opacity: 0.5; width: 100px" />
-                        </div>
-                        {% endfor %}
-                        {% else %}
-                        {% for partnerlogo in info.footer_details.partners %}
-                        <div class="col-4 mb-4 col-md mb-md-0">
-                            <img src="{{ partnerlogo | absolute_url }}" class="img-logo"
-                                style="opacity: 0.5; width: 100px" />
-                        </div>
-                        {% endfor %}
-                        {% endif %}
-                    </div>
-                </div>
-                {% endif %}
-            </div>
+  {% if site.data.information %}
+  <div class="footer-cta">
+    <div class="py-5">
+      <div class="container my-4">
+        {% assign info = site.data.information %}
+        <div class="row fcta mb-5">
+          <div class="col-12 text-center">
+            <h1 class="mb-2">
+              {% if page.page_name contains 'Advertiser' and info.footer_details.main_header_advertiser !='' %}
+              {{ info.footer_details.main_header_advertiser }}
+              {% elsif page.page_name contains 'Publisher' and info.footer_details.main_header_publisher !='' %}
+              {{ info.footer_details.main_header_publisher }}
+              {% else %}
+              {{ info.footer_details.main_header_home }}
+              {% endif %}
+            </h1>
+            <p class="lead large mt-1">
+              {% if page.page_name contains 'Advertiser' and info.footer_details.main_subheader_advertiser !='' %}
+              {{ info.footer_details.main_subheader_advertiser }}
+              {% elsif page.page_name contains 'Publisher' and info.footer_details.main_subheader_publisher !='' %}
+              {{ info.footer_details.main_subheader_publisher }}
+              {% else %}
+              {{ info.footer_details.main_subheader_home }}
+              {% endif %}</p>
+          </div>
+          <div class="col-12 mt-3 pt-xl-0 text-center">
+            <a href="{{ info.footer_details.cta_url }}">
+              <h3 class="font-weight-bold">
+                {{ info.footer_details.cta_text }} <i class="icon-trending_neutral" style="top: 2px;position: relative;margin-left: 5px;"></i></h3>
+            </a>
+          </div>
         </div>
-    </div>
-    {% endif %}
-    <div class="bottom">
-        <div class="container">
-            <div class="d-lg-flex justify-content-between py-3">
-                <div class="small mb-2 mb-lg-0"><span class="mr-5"><img src="{{site.logo}}" width="100"></span></div>
-                <div class="d-lg-flex small align-items-end align-items-lg-center justify-content-between">
-                    <div class="my-auto">
-                        <span class="d-block d-lg-inline ml-lg-3 mb-2 mb-lg-0">Patent Pending ©
-                            2016-{{ 'now' | date: "%Y" }} | All Rights Reserved</span>
-                        <a class="d-block d-lg-inline ml-lg-3 mb-2 mb-lg-0"
-                            href={{ "/national-terms" | absolute_url }}><span>National Terms</span></a>
-                        <a class="d-block d-lg-inline ml-lg-3 mb-2 mb-lg-0"
-                            href={{ "/support" | absolute_url }}><span>Support</span></a>
-                        <a class="d-block d-lg-inline ml-lg-3 mb-2 mb-lg-0"
-                            href={{ "/merchant-enrollment" | absolute_url }}><span>Partner Login</span></a>
-                    </div>
-                    <div class="d-block ml-3">
-                        <a class="transparent-link" href="https://www.instagram.com/empyrinc"><img
-                                src="{{ "./assets/glyphs/instagram.svg" | absolute_url }}" width="16" /></a>
-                        <a class="transparent-link ml-2" href="https://www.facebook.com/EmpyrInc/"><img
-                                src="{{ "./assets/glyphs/facebook.svg" | absolute_url }}" width="16" /></a>
-                        <a class="transparent-link ml-2" href="https://www.linkedin.com/company/empyr"><img
-                                src="{{ "./assets/glyphs/linkedin.svg" | absolute_url }}" width="16" /></a>
-                    </div>
-                </div>
+        {% if info.footer_details.partners %}
+        <div class="text-center pt-1">
+          <div class="row justify-content-center justify-content-lg-between text-center align-items-center mx-md-5">
+            {% if page.page_name contains 'Advertiser' and info.footer_details.partners_national %}
+            {% for partnerlogo in info.footer_details.partners_national %}
+            <div class="col-4 mb-4 col-md mb-md-0">
+              <img src="{{ partnerlogo | absolute_url }}" class="img-logo" style="opacity: 0.5; width: 100px" />
             </div>
+            {% endfor %}
+            {% else %}
+            {% for partnerlogo in info.footer_details.partners %}
+            <div class="col-4 mb-4 col-md mb-md-0">
+              <img src="{{ partnerlogo | absolute_url }}" class="img-logo" style="opacity: 0.5; width: 100px" />
+            </div>
+            {% endfor %}
+            {% endif %}
+          </div>
         </div>
+        {% endif %}
+      </div>
     </div>
+  </div>
+  {% endif %}
+  <div class="bottom">
+    <div class="container">
+      <div class="d-lg-flex justify-content-between py-3">
+        <div class="small mb-2 mb-lg-0"><span class="mr-5"><img src="{{site.logo}}" width="100"></span></div>
+        <div class="d-lg-flex small align-items-end align-items-lg-center justify-content-between">
+          <div class="my-auto">
+            <span class="d-block d-lg-inline ml-lg-3 mb-2 mb-lg-0">Patent Pending ©
+              2016-{{ 'now' | date: "%Y" }} | All Rights Reserved</span>
+            <a class="d-block d-lg-inline ml-lg-3 mb-2 mb-lg-0" href={{ "/national-terms" | absolute_url }}><span>National Terms</span></a>
+            <a class="d-block d-lg-inline ml-lg-3 mb-2 mb-lg-0" href={{ "/support" | absolute_url }}><span>Support</span></a>
+            <a class="d-block d-lg-inline ml-lg-3 mb-2 mb-lg-0" href={{ "/merchant-enrollment" | absolute_url }}><span>Partner Login</span></a>
+          </div>
+          <div class="d-block ml-3">
+            <a class="transparent-link" href="https://www.instagram.com/empyrinc"><img src="{{ "./assets/glyphs/instagram.svg" | absolute_url }}" width="16" /></a>
+            <a class="transparent-link ml-2" href="https://www.facebook.com/EmpyrInc/"><img src="{{ "./assets/glyphs/facebook.svg" | absolute_url }}" width="16" /></a>
+            <a class="transparent-link ml-2" href="https://www.linkedin.com/company/empyr"><img src="{{ "./assets/glyphs/linkedin.svg" | absolute_url }}" width="16" /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </footer>
 </div>
 </div>
 </main>
-<script src="https://code.jquery.com/jquery-3.3.1.min.js"
-    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/js/swiper.min.js" async></script>
 <script src="{{ "assets/js/vendor/popper.min.js" | absolute_url }}" async></script>
 <script src="{{ "assets/js/vendor/bootstrap.min.js" | absolute_url }}" async></script>
