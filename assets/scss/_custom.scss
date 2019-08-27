@@ -553,7 +553,8 @@ p.latest {
 
 .hero {
     overflow: hidden;
-    padding: 90px 0 70px;
+//     padding: 90px 0 70px;
+padding: 100px 0 280px;
 
     @include media-breakpoint-up(sm) {
         padding: 120px 0 170px;
@@ -2101,13 +2102,18 @@ img {
 }
 
 .poster-home-image {
-    position: absolute;
-    top: -12vw;
-    right: 0;
-    z-index: 1;
-    max-width: 1440px;
-    width: 100%;
-    height: 100%;
+  position: absolute;
+  top: -12vw;
+  z-index: 1;
+  max-width: 1440px;
+  width: 100%;
+  height: 100%;
+  transform: scale(0.75);
+  bottom: -22vw;
+  top: auto;
+  transform-origin: bottom center;
+  right: auto;
+  left: -23vw;
 
     @include media-breakpoint-up(md) {
         top: -58%;
