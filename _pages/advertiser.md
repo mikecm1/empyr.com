@@ -138,6 +138,8 @@ section_four:
 show_user_testimonials: false
 show_lift: false
 lift_img: "/img/incremental.png"
+show_offset_image: true
+offset_img_url: "/img/dash-nat.jpg"
 user_testimonials:
   title: ''
   testimonials: []

@@ -102,7 +102,7 @@ company_types:
   url: "/publisher/"
 - badge: Sell with Empyr
   heading: For Channel Partners
-  description: Share Empyr with your clients for a brand new revenue stream
+  description: Share Empyr with your clients for a recurring revenue stream
   icon: "/img/icon-cp-dark-1.svg"
   url: "/joinus/"
 cta_footer_header: Customized solutions

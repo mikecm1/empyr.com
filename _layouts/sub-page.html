@@ -170,7 +170,7 @@ layout: default
     {% endif %}
     {% if page.section_four %}
     <section>
-      <div class="row justify-content-between align-items-top pt-md-5 pb-md-3">
+      <div class="row justify-content-between align-items-top pt-md-5">
         <div class="col-12 col-md-6 col-xl-6 order-2 order-md-1 mb-4 mb-md-0 pr-xl-5">
           <img class="w-100" src="{{ page.section_four.image }}" data-aos="fade-right" data-aos-delay="300" />
         </div>
@@ -189,8 +189,32 @@ layout: default
       {% endif %}
     </section>
     {% endif %}
-
   </div>
+  {% if page.show_offset_image %}
+  <section class="text-center has-divider offset-large-img features pb-0 border-top">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-xl-7 col-lg-8 col-md-9">
+          <h1 class="display-4 pt-4">True offline analytics</h1>
+          <p class="lead pb-3">Analyze, measure, and improve campaign performance with 24/7 access to your real-time online to offline sales dashboard.</p>
+        </div>
+      </div>
+      <div class="row justify-content-center mt-6">
+        <div class="col-lg-9 rounded-10 rounded-xl box-shadow-xl mx-2 mx-md-0 p-0">
+          <img src="{{ page.offset_img_url }}" class="img-fluid">
+        </div>
+      </div>
+    </div>
+    <div class="divider">
+      <!-- <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="96px" viewBox="0 0 100 100" version="1.1" preserveAspectRatio="none">
+        <path d="M0,0 C16.6666667,66 33.3333333,99 50,99 C66.6666667,99 83.3333333,66 100,0 L100,100 L0,100 L0,0 Z"></path>
+      </svg> -->
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="96px" viewBox="0 0 100 100" version="1.1" preserveAspectRatio="none">
+          <polygon points="0,100 100,0 100,100" />
+      </svg>
+    </div>
+  </section>
+  {% endif %}
   {% if page.show_user_testimonials %}
   <section class="border-top py-md-5">
     <div class="testimonials reviews container full">
@@ -229,7 +253,7 @@ layout: default
   </section>
   {% endif %}
   {% if page.all_features %}
-  <div class="solutions bg-g50 sub">
+  <section class="solutions bg-g50 sub">
     {% else %}
     <div class="solutions bg-g50 sub">
       {% endif %}
@@ -238,7 +262,8 @@ layout: default
         <h1 class="mb-4 text-md-center">{{ page.all_features_headline }}</h1>
         <div class="row pt-3 text-m-center">
           {% for item in page.all_features %}
-          <div class="col-12 col-md-4 mb-2 px-1" data-aos="basic" data-aos-anchor=".bg-g50" data-aos-delay="{{ forloop.index | times: 150 }}">
+          <!-- <div class="col-12 col-md-4 mb-2 px-1" data-aos="basic" data-aos-anchor=".bg-g50" data-aos-delay="{{ forloop.index | times: 150 }}"> -->
+          <div class="col-12 col-md-4 mb-2 px-1">
             <div class="card py-1 py-md-2 px-1 px-lg-2">
               <div class="card-body">
                 <img class="mb-2" src="{{ item.icon | absolute_url }}" alt="" width="70">
