@@ -1,0 +1,58 @@
+---
+label: standard-page
+hide_body: true
+display_field: page_name
+fields:
+- name: page_name
+  type: text
+  config:
+    required: false
+  label: page name
+- name: permalink
+  type: text
+  config:
+    required: false
+  label: URL Permalink
+  description: 'Must be in the format: "/pagename/"'
+- type: text
+  name: title
+  label: title
+- type: text
+  name: heading
+  label: heading
+- type: textarea
+  name: description
+  label: description
+- type: text
+  name: keywords
+  label: keywords
+- type: textarea
+  name: sub_heading
+  label: sub_heading
+- type: boolean
+  name: show_staff
+  label: show_staff
+- type: boolean
+  name: show_news
+  label: show_news
+- type: field_group
+  name: hero_button
+  label: hero_button
+  fields:
+  - type: text
+    name: text
+    label: text
+  - type: text
+    name: href
+    label: href
+- type: list
+  name: mainfeatures
+  label: mainfeatures
+- type: boolean
+  name: show_mainfeatures
+  label: show_mainfeatures
+- type: text
+  name: layout
+  label: layout
+  default: standard-page
+  hidden: true
