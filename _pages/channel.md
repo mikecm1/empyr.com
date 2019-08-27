@@ -146,10 +146,12 @@ case_studies:
   incremental_roi: "20"
 page_name: "* Channel Partners"
 custom_css: |-
+  <style>
   @media (min-width: 1400px) {
   .sub .display-4 {
       font-size: 2.9rem;
   }
   }
+  </style>
 
 ---
