@@ -1,5 +1,5 @@
 ---
-label: standard-page
+label: standard-page standard width
 hide_body: true
 display_field: page_name
 fields:
