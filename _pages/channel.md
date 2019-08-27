@@ -145,5 +145,11 @@ case_studies:
   roi: "20"
   incremental_roi: "20"
 page_name: "* Channel Partners"
+custom_css: |-
+  @media (min-width: 1400px) {
+  .sub .display-4 {
+      font-size: 2.9rem;
+  }
+  }
 
 ---
