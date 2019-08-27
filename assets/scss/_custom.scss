@@ -2125,13 +2125,12 @@ img {
     }
 
     @include media-breakpoint-up(1024) {
-        position: absolute;
-        top: -46%;
-        bottom: auto;
-        left: 30vw;
-        z-index: 1;
-        height: auto;
-        transform: scale(0.9) !important;
+      top: -51%;
+      bottom: auto;
+      left: 25vw;
+      z-index: 1;
+      height: auto;
+      transform: scale(.9)!important;
     }
 
     @include media-breakpoint-up('xxl') {

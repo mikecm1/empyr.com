@@ -48,17 +48,17 @@ second_button_:
 headerimage: "/img/hero-publisher.svg"
 all_features:
 - heading: Seamless and customized API integration
-  icon: "/img/icons/icon-list-12.svg"
+  icon: "/img/icons/small/icon-line-10.svg"
 - heading: Increase customer delight and engagement
-  icon: "/img/icons/icon-list-20.svg"
+  icon: "/img/icons/small/icon-line-20.svg"
 - heading: 1000s of local offers out-of-the-box
-  icon: "/img/icons/icon-list-19.svg"
+  icon: "/img/icons/small/icon-line-19.svg"
 - heading: Generate revenue with offline offer content
-  icon: "/img/icons/icon-list-37.svg"
+  icon: "/img/icons/small/icon-line-24.svg"
 - heading: Card-linked offer product and marketing support
-  icon: "/img/icons/icon-list-10.svg"
+  icon: "/img/icons/small/icon-line-34.svg"
 - heading: Designed for all digital product types
-  icon: "/img/icons/icon-list-40.svg"
+  icon: "/img/icons/small/icon-line-40.svg"
 show_case_studies: false
 section_one:
   tagline: REVENUE
@@ -150,6 +150,12 @@ custom_css: |-
   @media (min-width: 1400px) {
   .sub .display-4 {
       font-size: 2.9rem;
+  }
+  }
+  @media (min-width: 1150px) {
+  .sub .headline {
+  font-size: 40px;
+  max-width: 610px;
   }
   }
   </style>
