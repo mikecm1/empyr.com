@@ -54,7 +54,7 @@ all_features:
   icon: "/img/icons/small/icon-line-10.svg"
 - heading: Increase customer delight and engagement
   icon: "/img/icons/small/icon-line-20.svg"
-- heading: 1000s of local offers out-of-the-box
+- heading: 1000s of offers out-of-the-box
   icon: "/img/icons/small/icon-line-19.svg"
 - heading: Generate revenue with offline offer content
   icon: "/img/icons/small/icon-line-24.svg"

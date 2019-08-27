@@ -89,7 +89,7 @@ primary_body_copy_subheadline: Empyr's Cost-Per-Tevenue model (CPR™) accelerat
   tracks in-store sales by distributing offers on an exclusive consumer marketplace
   featuring top websites and apps– without charging for clicks or impressions.
 primary_body_icon: "/img/icon-cards.svg"
-all_features_headline: Transform your bottom line with CPR
+all_features_headline: Transform your bottom line with CPR<sup>&trade;</sup>
 section_one:
   tagline: Customer Reach
   section_header: Exclusive reach to over 316M consumers
@@ -136,7 +136,7 @@ section_four:
     text: Learn More
     href: "/advertiser"
 show_user_testimonials: false
-show_lift: true
+show_lift: false
 lift_img: "/img/incremental.png"
 user_testimonials:
   title: ''
