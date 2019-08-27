@@ -567,7 +567,7 @@ p.latest {
   }
 
   @include media-breakpoint-up(lg) {
-    padding: 150px 0 155px;
+    padding: 145px 0 155px;
   }
 
   @include media-breakpoint-up(xxl) {
@@ -981,7 +981,7 @@ h1 {
 
   @include media-breakpoint-up('xl') {
     font-size: 59px;
-    font-size: 5vw;
+    font-size: 4.7vw;
   }
 
   @include media-breakpoint-up('xxl') {
