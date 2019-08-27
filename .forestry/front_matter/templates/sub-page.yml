@@ -412,3 +412,21 @@ fields:
     max: '3'
     labelField: 
   label: Case Studies
+- name: custom_css
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Custom CSS
+- name: custom_text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Custom Text
