@@ -65,7 +65,7 @@ fields:
     schema:
       format: markdown
   label: Custom CSS
-- name: custom_text
+- name: custom_code
   type: textarea
   default: ''
   config:
@@ -73,4 +73,4 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
-  label: Custom Text
+  label: Custom Code
