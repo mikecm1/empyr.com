@@ -1,6 +1,7 @@
 ---
 label: Contact
 hide_body: true
+display_field: page_name
 fields:
 - type: text
   name: page_name
