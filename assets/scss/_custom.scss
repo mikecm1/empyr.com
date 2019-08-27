@@ -981,7 +981,7 @@ h1 {
 
   @include media-breakpoint-up('xl') {
     font-size: 59px;
-    font-size: 4.7vw;
+    font-size: 5vw;
   }
 
   @include media-breakpoint-up('xxl') {
@@ -2151,7 +2151,7 @@ img {
   @include media-breakpoint-up(lg) {
     top: -51%;
     bottom: auto;
-    right: -30%;
+    right: -29%;
     z-index: 1;
     height: auto;
     transform: scale(.9) !important;
