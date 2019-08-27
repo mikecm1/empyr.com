@@ -2,6 +2,9 @@
 label: Contact
 hide_body: true
 fields:
+- type: text
+  name: page_name
+  label: page_name
 - name: permalink
   type: text
   config:
@@ -53,9 +56,6 @@ fields:
 - type: textarea
   name: custom_text
   label: custom_text
-- type: text
-  name: page_name
-  label: page_name
 - type: field_group
   name: hero_button
   label: hero_button
