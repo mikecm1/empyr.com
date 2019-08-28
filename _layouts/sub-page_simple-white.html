@@ -3,19 +3,20 @@ layout: default
 ---
 <div class="sub">
   <div class="hero sub">
-    <div class="bg-cover">
+    <div class="bg-cover white">
       <div class="container">
         <div class="row poster-feature-row pb-2">
-          <div class="col-12 col-md-7 order-1 order-sm-1 mt-1 text-">
+          <!-- <div class="col-12 col-md-10 col-xl-8 mx-md-auto order-1 order-sm-1 mt-1 text-center"> -->
+              <div class="col-12 col-md-7 order-1 order-sm-1 mt-1 text-">
             {% if page.tagline and page.tagline != "" %}
             <div data-aos="basic">
-              <h4 class="tag pb-1 mb-1">{{ page.tagline }}</h4>
+              <h4 class="tag pb-1 mb-1 text-muted">{{ page.tagline }}</h4>
             </div>
             {% endif %}
-            <h1 class="display-4 mb-2" data-aos="basic" data-aos-delay="50">
+            <h1 class="display-4 mb-2 text-blue-black" data-aos="basic" data-aos-delay="50" style="padding-right:0 !important;max-width: 100%">
               {{ page.heading | default: page.title }}</h1>
             {% if page.sub_heading and page.sub_heading != "" %}
-            <p class="large mb-4" data-aos="basic" data-aos-delay="150">{{ page.sub_heading }}</p>
+            <p class="large mb-4 text-muted pr-0" data-aos="basic" data-aos-delay="150">{{ page.sub_heading }}</p>
             {% endif %}
             {% if page.cta_with_email %}
             <div class="row pb-2" data-aos="basic" data-aos-delay="250">
@@ -23,7 +24,7 @@ layout: default
                 <div class="row">
                   <div class="col-12">
                     <div class="input-group input-max mb-0 d-block d-sm-flex">
-                      <input class="form-control form-control-lg rounded-0 w-md-100 mr-md-1 mb-1 mb-md-0" placeholder="Your work email" id="emailContact" type="email" />
+                      <input class="form-control form-control-lg rounded-0 w-md-100 mr-md-1 mb-1 mb-md-0" style="background-color:#f2f2f7" placeholder="Your work email" id="emailContact" type="email" />
                       <div class="input-group-append w-md-100">
                         <button class="btn btn-lg btn-secondary primary join mr-0 w-md-100" type="submit">{{ page.cta_with_email }}</button>
                       </div>
@@ -47,9 +48,9 @@ layout: default
             {% endif %}
             {% endif %}
           </div>
-          <div class="col-12 col-md-4 order-2 order-sm-2 position-relative mt-5 mt-md-0 mb-5 mb-md-0 pb-5 pb-md-0">
+          <div class="col-12 col-md-4 order-2 order-sm-2 position-relative mt-5 mt-md-0 mb-5 mb-md-0 pb-5 pb-md-0 d-none d-md-block">
             <div class="img-skewed img-skewed-left">
-              <img src="{{ page.headerimage }}" alt="..." class="screenshot img-fluid mw-md-130" data-aos="fade-left" data-aos-delay="300">
+              <img src="{{ page.headerimage }}" alt="..." class="screenshot img-fluid mw-md-130" data-aos="basic" data-aos-delay="300">
             </div>
           </div>
 
@@ -59,10 +60,11 @@ layout: default
 
     </div>
   </div>
-  <div class="bg-gradient-lighter">
-    <div class="container pt-4 vw">
+  <div>
+        <div style="background: #f9fafc;">
+            <div class="container pt-0 vw">
       {% if page.mainfeatures %}
-      <div class="intro px-2 px-xl-3 py-3 py-xl-4 card-body card offset shadow-sm" data-aos="basic" data-aos-anchor-placement="top">
+      <div class="intro px-2 px-xl-3 py-3 py-xl-5 card-body card shadow-sm shadow-none bg-transparent">
         <div class="row py-1 px-1 px-lg-2">
           {% for item in page.mainfeatures %}
           <div class="col-12 col-md-4 mb-4 mb-md-0" data-aos="basic" data-aos-delay="{{ forloop.index | times: 150 }}" data-aos-anchor-placement="top">
@@ -73,6 +75,8 @@ layout: default
           {% endfor %}
         </div>
       </div>
+    </div>
+  </div>
       {% endif %}
       {% if page.partners %}
       <div class="logos pt-4">
@@ -87,7 +91,7 @@ layout: default
         </div>
       </div>
       {% endif %}
-      <div class="row pt-md-1 px-2 px-md-0 mt-md-4 text-left text-md-center mb-4">
+      <div class="row pt-md-1 px-2 px-md-0 mt-md-1 text-left text-md-center mb-4">
         <div class="col-12 mt-4">
             <div class="rounded-circle mx-md-auto d-flex flex-wrap align-items-center justify-content-center icon-loud mb-2" style="width:77px; height: 77px;" data-aos="basic"><img src="{{ page.primary_body_icon | absolute_url }}" class="align-self-center" width="40"></div>
           <h1 class="headline mt-1 mx-auto mb-2" data-aos="basic" data-aos-delay="100">
@@ -98,13 +102,12 @@ layout: default
             {{ page.primary_body_copy_subheadline }}</p>
         </div>
       </div>
-    </div>
   </div>
   <div class="container full features">
     {% if page.section_one %}
     <section>
       <div class="row justify-content-between align-items-center">
-        <div class="col-12 col-md-6 col-xxl-6 order-2 order-md-1 mt-n1 pr-xxl-5">
+        <div class="col-12 col-md-6 col-xxl-6 order-2 order-md-1 pr-xxl-3">
           <div data-aos="basic">
             <h4 class="mb-2 tag">{{ page.section_one.tagline }}</h4>
           </div>
@@ -115,22 +118,22 @@ layout: default
             {{ page.section_one.section_body_copy }}</p>
         </div>
         <div class="col-12 col-md-6 col-xxl-6 order-2 px-md-0">
-          <img class="img-fluid mw-130 float-left" src="{{ page.section_one.image }}" data-aos="fade-left" data-aos-delay="0" />
+          <img class="img-fluid" src="{{ page.section_one.image }}" data-aos="fade-left" data-aos-delay="0" />
         </div>
       </div>
     </section>
     {% endif %}
     {% if page.section_two %}
-    <section class="pt-3">
+    <section>
       <div class="row justify-content-between align-items-center">
-        <div class="col-12 col-md-6 col-xxl-6 order-2 px-md-0">
-          <img class="img-fluid mw-130 float-right" src="{{ page.section_two.image | default: '/assets/pictures/image-555x380.png' }}" data-aos="fade-right" data-aos-delay="0" />
+        <div class="col-12 col-md-6 col-xxl-6 order-2 px-md-0 pr-md-2">
+          <img class="img-fluid" src="{{ page.section_two.image | default: '/assets/pictures/image-555x380.png' }}" data-aos="fade-right" data-aos-delay="0" />
         </div>
-        <div class="col-12 col-md-6 order-1 order-md-2 mt-n1 pl-xl-5 pl-xxl-5">
+        <div class="col-12 col-md-6 order-1 order-md-2 pl-xl-4">
           <div data-aos="basic">
             <h4 class="mb-2 tag">{{ page.section_two.tagline }}</h4>
           </div>
-          <h1 class="pr-xl-5 mb-md-2" data-aos="basic" data-aos-delay="50">
+          <h1 class="mb-md-2" data-aos="basic" data-aos-delay="50">
             {{ page.section_two.section_header }}</h1>
           <img src="/img/headline-separator.svg" alt="" data-aos="basic" data-aos="fade-right" data-aos-delay="150">
           <p class="mb-4 mt-md-2" data-aos="basic" data-aos-delay="250">
@@ -216,7 +219,7 @@ layout: default
   </section>
   {% endif %}
   {% if page.show_user_testimonials %}
-  <section class="border-top py-md-5">
+  <section class="border-top">
     <div class="testimonials reviews container full">
       <h1 class="text-center pb-4 mb-4">{{ page.user_testimonials.title }}</h1>
       <div class="swiper-container">

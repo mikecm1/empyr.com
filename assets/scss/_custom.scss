@@ -687,6 +687,49 @@ p.latest {
       background-size: 83%, 100%;
       background-repeat: no-repeat !important;
 
+      &.white {
+        background: url(/img/bg-corner-dotted-ledft.svg),#fff;
+        padding: 90px 0 40px;
+        &:before {
+          // background: linear-gradient(165deg,#fff 15%,#6d78ad 50%);
+          // opacity: 0.065;
+          // clip-path: polygon(-41% 0%,100% 0,100% 100%,168% 100%);
+          position: absolute;
+          top: 70px;
+          right: 0;
+          z-index: 0;
+          padding-bottom: 0;
+          max-width: 760px;
+          width: 51vw;
+          height: 100%;
+          background: url(/img/bg-dots.svg);
+          background-position: top right;
+          background-size: 100%;
+          background-repeat: repeat-x;
+          content: '';
+          opacity: .8;
+          clip-path: none;
+          min-width: auto;
+        }
+        @include media-breakpoint-up(sm) {
+          padding: 100px 0 80px;
+  
+        }
+  
+        @include media-breakpoint-up(md) {
+          padding: 110px 0 105px;
+  
+        }
+  
+        @include media-breakpoint-up(lg) {
+          padding: 145px 0 105px;
+        }
+  
+        @include media-breakpoint-up(xxl) {
+          padding: 155px 0 105px;
+        }
+      }
+
       @include media-breakpoint-up(sm) {
         padding: 100px 0 130px;
 

@@ -1,11 +1,11 @@
 ---
-layout: sub-page_standard-width
+layout: sub-page_simple-white
 permalink: "/channel/"
 title: Channel Partners - Expand Your Digital Footprint with Card Linked Offers
 description: Join the Channel Partner Program and generate an additional $1M in recurring
   revenue from your existing customers with Card Linked Offers
 keywords: 'Card Linked Offers, Channel Partners, Recurring Revenue '
-tagline: For Websites & Apps
+tagline: Partner with Empyr
 banner_image: ''
 heading: Expand your digital footprint. Grow recurring revenue.
 sub_heading: Empyr offers an innovative, digital marketing tool allowing you to generate
@@ -38,14 +38,14 @@ mainfeatures:
     suite. '
   icon: "/img/icon-pub-3.svg"
 all_features_headline: 93% of purchases are made offline. Get a piece of the pie.
-cta_with_email: Get Started
+cta_with_email: Partner with us
 hero_button:
   text: Request a Demo
   href: "/joinus/"
 second_button_:
   text: How it Works
   link: "#"
-headerimage: "/img/hero-publisher.svg"
+headerimage: "/img/credit-cards.png"
 all_features:
 - heading: Seamless and customized API integration
   icon: "/img/icons/small/icon-line-10.svg"
@@ -69,7 +69,7 @@ section_one:
     to count on. Through our proprietary dashboard, highlight which customers are
     driving the most revenue and learn how to accelerate your program with our data
     analytics and insights reports.
-  image: "/img/generic-app.jpg"
+  image: "/img/dash-nat.jpg"
   button:
     text: Learn More
     link_url: index.md
@@ -84,7 +84,7 @@ section_two:
     and apps. This massive consumer reach guarantees there is revenue to be generate.
     The integration with the 3 major credit card brands guarantees attribution from
     to their advertising to revenue.
-  image: "/img/globe.jpg"
+  image: "/img/section-logo-rounded.png"
   button:
     text: ''
     link_url: index.md
@@ -154,16 +154,71 @@ menu:
     contact_page: true
 custom_css: |-
   <style>
-  @media (min-width: 1400px) {
-  .sub .display-4 {
-      font-size: 2.9rem;
-  }
-  }
+  # @media (min-width: 768px) {
+  # .sub .display-4 {
+  # font-size: 47px;
+  # }
+  # }
+  # @media (min-width: 1150px) {
+  # .sub .display-4 {
+  #     font-size: 3.2rem;
+  # }
+  # }
+  # @media (min-width: 1400px) {
+  # .sub .display-4 {
+  #     font-size: 3.2rem;
+  # }
+  # }
   @media (min-width: 1150px) {
   .sub .headline {
-  font-size: 40px;
-  max-width: 610px;
+    font-size: 2.5rem;
+    max-width: 39rem;
   }
+  }
+  section {
+  padding: 3rem 0;
+  }
+  @media (min-width: 768px) {
+    section {
+  padding: 4.9rem 0;
+  }
+  }
+  @media (min-width: 768px){
+  .mw-md-130 {
+        position: absolute;
+    top: -310px;
+    left: 10px;
+    max-width: 590px!important;
+  }
+  }
+  @media (min-width: 992px){
+  .mw-md-130 {
+    top: -310px;
+    left: 12%;
+    max-width: 590px!important;
+  }
+  }
+  @media (min-width: 1024px){
+  .mw-md-130 {
+    top: -260px;
+    left: 18%;
+  }
+  }
+  @media (min-width: 1150px){
+  .mw-md-130 {
+        top: -260px;
+    left: 3%;
+  }
+  }
+  @media (min-width: 1400px) {
+  .mw-md-130 {
+        left: 5%;
+    max-width: 590px!important;
+    top: -300px;
+  }
+  }
+  .intro.card {
+    border-radius: 0 0 15px 15px;
   }
   </style>
 
