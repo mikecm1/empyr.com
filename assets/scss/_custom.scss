@@ -22,22 +22,28 @@ h4 {
     }
   }
 }
+
 .divider:not(:first-child) {
   top: 1px;
 }
+
 .offset-large-img {
-.divider {
-  position: relative;
-  margin-bottom: -6px;
-  svg {
-    background: none !important;
-    height: 10vw;
+  .divider {
+    position: relative;
+    margin-bottom: -6px;
+
+    svg {
+      background: none !important;
+      height: 10vw;
+    }
+  }
+
+  path,
+  polygon {
+    fill: #f6fafd;
   }
 }
-path, polygon {
-  fill: #f6fafd;
-}
-}
+
 sup {
   position: relative;
   font-size: 40%;
@@ -47,16 +53,17 @@ sup {
 }
 
 
-  .offset-large-img{
-    .row:last-of-type{
-      margin-bottom: -$spacer*15;
-      z-index: 2;
-      position: relative;
-    }
-    +section{
-      padding-top: $spacer*17;
-    }
+.offset-large-img {
+  .row:last-of-type {
+    margin-bottom: -$spacer*15;
+    z-index: 2;
+    position: relative;
   }
+
+  +section {
+    padding-top: $spacer*17;
+  }
+}
 
 
 .opacity-0 {
@@ -667,6 +674,7 @@ p.latest {
       @include media-breakpoint-up('xl') {
         padding-right: 35px !important;
       }
+
       @include media-breakpoint-up('xxl') {
         max-width: 700px;
       }
@@ -852,6 +860,7 @@ p.latest {
     @include media-breakpoint-up(md) {
       max-width: 535px;
     }
+
     @include media-breakpoint-up(lg) {
       max-width: 625px;
     }
@@ -1621,13 +1630,13 @@ svg.fsvg {
   }
 
   .lead {
-    color: lighten($body-color, 0%);
-    font-size: 16px;
+    color: #203037;
+    font-size: 17px;
     line-height: 1.8;
   }
 
   .card-body {
-    padding: 2rem 3.15rem;
+    padding: 1.7rem 2.75rem 2.5rem;
   }
 
   .card {
@@ -1838,7 +1847,7 @@ svg.fsvg {
 }
 
 .box-shadow-xl {
-  box-shadow: 0 40px 90px 0 rgba(22,41,68,.2)!important;
+  box-shadow: 0 40px 90px 0 rgba(22, 41, 68, .2) !important;
 }
 
 .offset-lg {
@@ -2149,6 +2158,11 @@ img {
   @include media-breakpoint-up(lg) {
     top: -45px;
     left: -9%;
+  }
+
+  @include media-breakpoint-up(1024) {
+    top: -30px;
+    left: -12%;
   }
 
   @include media-breakpoint-up(xl) {
