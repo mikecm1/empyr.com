@@ -1571,22 +1571,22 @@ svg.fsvg {
 
 @include media-breakpoint-up(lg) {
   .swiper-container:not(.standard) {
-    .swiper-slide:not(.swiper-slide-active) {
-      opacity: 0.75;
-      transform: scale(0.97);
-    }
+    // .swiper-slide:not(.swiper-slide-active) {
+    //   opacity: 0.75;
+    //   transform: scale(0.97);
+    // }
 
-    .swiper-slide-active {
-      transform: scale(1.1);
-    }
+    // .swiper-slide-active {
+    //   transform: scale(1.1);
+    // }
 
-    .swiper-slide-prev {
-      right: 25px;
-    }
+    // .swiper-slide-prev {
+    //   right: 25px;
+    // }
 
-    .swiper-slide-next {
-      left: 25px;
-    }
+    // .swiper-slide-next {
+    //   left: 25px;
+    // }
   }
 }
 
@@ -1631,8 +1631,8 @@ svg.fsvg {
   }
 
   .card {
-    border: .5px solid #e8eaec !important;
-    box-shadow: 0 7px 27px -9px rgba(42, 57, 135, .13) !important;
+    // border: .5px solid #e8eaec !important;
+    box-shadow: 0 30px 80px -20px rgba(6, 41, 91, 0.15);
   }
 
 }
