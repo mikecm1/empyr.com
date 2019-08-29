@@ -211,5 +211,6 @@ menu:
     description: Create a new revenue stream with Empyr
     icon: "/uploads/2019/icon-dropdown-3.svg"
     weight: '11'
+integer_delete: 1
 
 ---
