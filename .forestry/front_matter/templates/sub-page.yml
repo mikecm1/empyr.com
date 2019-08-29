@@ -8,6 +8,16 @@ fields:
   config:
     required: false
   label: page name
+- name: integer_delete
+  type: number
+  label: Integer delete
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
 - name: permalink
   type: text
   config:
