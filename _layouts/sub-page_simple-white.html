@@ -64,8 +64,8 @@ layout: default
         <div style="background: #f9fafc;">
             <div class="container pt-0 vw">
       {% if page.mainfeatures %}
-      <div class="intro px-2 px-xl-3 py-3 py-xl-5 card-body card shadow-sm shadow-none bg-transparent">
-        <div class="row py-1 px-1 px-lg-2">
+      <div class="intro px-0 py-3 py-xl-5 card-body card shadow-sm shadow-none bg-transparent">
+        <div class="row py-2">
           {% for item in page.mainfeatures %}
           <div class="col-12 col-md-4 mb-4 mb-md-0" data-aos="basic" data-aos-delay="{{ forloop.index | times: 150 }}" data-aos-anchor-placement="top">
             <img class="mb-2" src="{{ item.icon | absolute_url }}" alt="" height="65">
@@ -73,6 +73,7 @@ layout: default
             <div class="lighten mt-0">{{ item.description }}</div>
           </div>
           {% endfor %}
+          <!-- <button class="btn btn-lg btn-secondary primary join mr-0 w-md-100" type="submit">{{ page.cta_with_email }}</button> -->
         </div>
       </div>
     </div>
@@ -92,12 +93,14 @@ layout: default
       </div>
       {% endif %}
       <div class="row pt-md-1 px-2 px-md-0 mt-md-1 text-left text-md-center mb-4">
-        <div class="col-12 mt-4">
+        <div class="col-12 col-md-8 mt-4 mx-auto">
+            {% if page.primary_body_icon != "" or page.primary_body_icon != nil %}
             <div class="rounded-circle mx-md-auto d-flex flex-wrap align-items-center justify-content-center icon-loud mb-2" style="width:65px; height: 65px;" data-aos="basic"><img src="{{ page.primary_body_icon | absolute_url }}" class="align-self-center" width="35"></div>
+            {% endif %}
           <h1 class="headline mt-1 mx-auto mb-2" data-aos="basic" data-aos-delay="100">
             {{ page.primary_body_copy_headline }}</h1>
         </div>
-        <div class="col-md-12 col-xl-8 col-xxl-7 mx-auto">
+        <div class="col-12 col-md-8 col-xl-7 col-xxl-5 mx-auto">
           <p class="lighten large" data-aos="basic" data-aos-delay="150">
             {{ page.primary_body_copy_subheadline }}</p>
         </div>

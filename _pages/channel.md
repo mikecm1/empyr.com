@@ -192,7 +192,7 @@ custom_css: |-
   .mw-md-130 {
         left: 5%;
     max-width: 590px!important;
-    top: -300px;
+    top: -270px;
   }
   }
   .intro.card {
@@ -205,5 +205,11 @@ custom_css: |-
     max-width: 680px;
   }
   </style>
-
+menu:
+  partners:
+    weight: 3
+    identifier: Channel Partners
+    description: Create a new revenue stream with Empyr
+    icon: "/img/icon-dropdown-3.svg"
+    contact_page: true
 ---
