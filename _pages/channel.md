@@ -154,21 +154,6 @@ menu:
     contact_page: true
 custom_css: |-
   <style>
-  # @media (min-width: 768px) {
-  # .sub .display-4 {
-  # font-size: 47px;
-  # }
-  # }
-  # @media (min-width: 1150px) {
-  # .sub .display-4 {
-  #     font-size: 3.2rem;
-  # }
-  # }
-  # @media (min-width: 1400px) {
-  # .sub .display-4 {
-  #     font-size: 3.2rem;
-  # }
-  # }
   @media (min-width: 1150px) {
   .sub .headline {
     font-size: 2.5rem;
@@ -180,7 +165,7 @@ custom_css: |-
   }
   @media (min-width: 768px) {
     section {
-  padding: 4.9rem 0;
+  padding: 5.4rem 0;
   }
   }
   @media (min-width: 768px){
@@ -219,6 +204,12 @@ custom_css: |-
   }
   .intro.card {
     border-radius: 0 0 15px 15px;
+  }
+  .fcta h1 {
+    font-weight: 700;
+  }
+  .fcta .lead {
+    max-width: 680px;
   }
   </style>
 

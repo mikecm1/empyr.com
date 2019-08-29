@@ -11,6 +11,8 @@
               {{ info.footer_details.main_header_advertiser }}
               {% elsif page.page_name contains 'Publisher' and info.footer_details.main_header_publisher !='' %}
               {{ info.footer_details.main_header_publisher }}
+              {% elsif page.page_name contains 'Channel' and info.footer_details.main_header_channel !='' %}
+              {{ info.footer_details.main_header_channel }}
               {% else %}
               {{ info.footer_details.main_header_home }}
               {% endif %}
@@ -20,6 +22,8 @@
               {{ info.footer_details.main_subheader_advertiser }}
               {% elsif page.page_name contains 'Publisher' and info.footer_details.main_subheader_publisher !='' %}
               {{ info.footer_details.main_subheader_publisher }}
+              {% elsif page.page_name contains 'Channel' and info.footer_details.main_subheader_channel !='' %}
+              {{ info.footer_details.main_subheader_channel }}
               {% else %}
               {{ info.footer_details.main_subheader_home }}
               {% endif %}</p>
