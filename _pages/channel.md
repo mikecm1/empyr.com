@@ -145,30 +145,8 @@ case_studies:
   roi: "20"
   incremental_roi: "20"
 page_name: "* Channel Partners"
-menu:
-  partners:
-    weight: 3
-    identifier: Channel Partners
-    description: Create a new revenue stream with Empyr
-    icon: "/img/icon-dropdown-3.svg"
-    contact_page: true
 custom_css: |-
   <style>
-  # @media (min-width: 768px) {
-  # .sub .display-4 {
-  # font-size: 47px;
-  # }
-  # }
-  # @media (min-width: 1150px) {
-  # .sub .display-4 {
-  #     font-size: 3.2rem;
-  # }
-  # }
-  # @media (min-width: 1400px) {
-  # .sub .display-4 {
-  #     font-size: 3.2rem;
-  # }
-  # }
   @media (min-width: 1150px) {
   .sub .headline {
     font-size: 2.5rem;
