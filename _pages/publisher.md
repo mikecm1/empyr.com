@@ -32,8 +32,8 @@ mainfeatures:
   description: Launch an innovative new revenue stream from offline commerce with
     total control of the user experience.
   icon: "/img/icon-pub-1.svg"
-- description: Delight your users with 1000s of offers out-of-the-box, from
-    local restaurants to national brands.
+- description: Delight your users with 1000s of offers out-of-the-box, from local
+    restaurants to national brands.
   icon: "/img/icon-pub-2.svg"
   heading: Offers ready to go
 - heading: Complete creative control
@@ -146,6 +146,5 @@ menu:
     title: Websites & Apps
     description: Build a custom card-linked offer program
     icon: "/uploads/2019/icon-dropdown-2.svg"
-    weight: 2
 
 ---

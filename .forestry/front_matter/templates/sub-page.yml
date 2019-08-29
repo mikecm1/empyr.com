@@ -49,16 +49,6 @@ fields:
       config:
         required: false
       label: title
-    - name: weight
-      type: number
-      description: ''
-      default: '1'
-      required: true
-      config:
-        min: 
-        max: 
-        step: 
-      label: weight
     - name: description
       type: text
       config:
