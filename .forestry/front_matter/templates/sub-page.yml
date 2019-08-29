@@ -59,6 +59,16 @@ fields:
       config:
         maxSize: 250
       label: icon
+    - name: sort_order
+      type: number
+      label: Sort order
+      description: ''
+      default: 0
+      required: true
+      config:
+        min: 
+        max: 
+        step: 
     label: partners
   label: Navigation dropdown item?
 - name: heading
