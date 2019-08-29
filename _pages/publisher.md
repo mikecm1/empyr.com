@@ -143,8 +143,8 @@ case_studies: []
 page_name: "* Publishers"
 menu:
   partners:
-    title: Websites & Apps
     description: Build a custom card-linked offer program
+    title: Websites & Apps
     icon: "/uploads/2019/icon-dropdown-2.svg"
-    sort_order: '2'
+
 ---

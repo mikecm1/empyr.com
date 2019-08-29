@@ -147,7 +147,8 @@ page_name: "* Advertisers"
 menu:
   partners:
     title: Advertisers
-    description: Launch a card-linked offer campaignn
-    icon: "/uploads/2019/icon-dropdown-1.svg"
+    description: Launch a card-linked offer campaign
     sort_order: '1'
+    icon: "/uploads/2019/icon-dropdown-1.svg"
+
 ---
