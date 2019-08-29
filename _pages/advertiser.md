@@ -149,6 +149,5 @@ menu:
     title: Advertisers
     description: Launch a card-linked offer campaignn
     icon: "/uploads/2019/icon-dropdown-1.svg"
-    weight: '1'
-
+    sort_order: '1'
 ---
