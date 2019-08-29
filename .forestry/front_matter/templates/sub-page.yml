@@ -44,9 +44,8 @@ fields:
     type: field_group
     config: {}
     fields:
-    - name: integer_delete
+    - name: weight
       type: number
-      label: integer delete
       description: ''
       default: 0
       required: true
@@ -54,31 +53,12 @@ fields:
         min: 
         max: 
         step: 
+      label: weight
     - name: title
       type: text
       config:
         required: false
-      label: Title
-    - name: description
-      type: text
-      config:
-        required: false
-      label: Description
-    - name: icon
-      type: file
-      config:
-        maxSize: 250
-      label: icon
-    - name: weight
-      type: number
-      label: Weight
-      description: What order displayed in dropdown
-      default: 0
-      required: true
-      config:
-        min: 
-        max: 
-        step: 
+      label: title
     label: partners
   label: Navigation dropdown item?
 - name: heading
