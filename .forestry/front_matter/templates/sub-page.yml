@@ -167,6 +167,11 @@ fields:
       schema:
         format: markdown
     label: Section body copy
+  - name: image
+    type: file
+    config:
+      maxSize: 250
+    label: Image
   - name: button
     type: field_group
     config: {}
