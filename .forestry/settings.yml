@@ -37,16 +37,6 @@ sections:
 - type: document
   path: _data/custom_code.yml
   label: Custom code (global)
-- type: number
-  name: weight
-  label: Weight
-  description: Set the page's sort order
-  default: -99
-  hidden: false
-  config:
-  - min: 0
-  - max: 2
-  - step: 1
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
