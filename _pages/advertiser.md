@@ -146,8 +146,9 @@ user_testimonials:
 page_name: "* Advertisers"
 menu:
   partners:
-    description: Launch a card-linked offer campaignn
     title: Advertisers
-    icon: "/uploads/2019/icon-dropdown-1-1.svg"
+    description: Launch a card-linked offer campaignn
+    icon: "/uploads/2019/icon-dropdown-1.svg"
+    weight: '1'
 
 ---
