@@ -205,5 +205,8 @@ custom_css: |-
     max-width: 680px;
   }
   </style>
+menu:
+  partners:
+    weight: '3'
 
 ---
