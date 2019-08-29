@@ -216,6 +216,11 @@ fields:
       schema:
         format: markdown
     label: Section body copy
+  - name: image
+    type: file
+    config:
+      maxSize: 250
+    label: Image
   - name: stats
     type: boolean
     label: Show merchant stats?
@@ -281,6 +286,11 @@ fields:
       schema:
         format: markdown
     label: Section body copy
+  - name: image
+    type: file
+    config:
+      maxSize: 250
+    label: Image
   - name: button
     type: field_group
     config: {}
@@ -298,6 +308,55 @@ fields:
       label: Link URL
     label: Button
   label: Section Three
+- name: section_four
+  type: field_group
+  config: {}
+  fields:
+  - name: tagline
+    type: text
+    config:
+      required: false
+    label: Tagline
+  - name: section_header
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Section Header
+  - name: section_body_copy
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Section body copy
+  - name: image
+    type: file
+    config:
+      maxSize: 250
+    label: Image
+  - name: button
+    type: field_group
+    config: {}
+    fields:
+    - name: text
+      type: text
+      config:
+        required: false
+      label: Text
+      default: Learn More
+    - name: href
+      type: text
+      config:
+        required: false
+      label: Link URL
+    label: Button
+  label: Section Four
 - name: show_user_testimonials
   type: boolean
   label: Show user testimonials?
