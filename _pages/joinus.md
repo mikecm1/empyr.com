@@ -186,13 +186,10 @@ custom_css: |-
   }
 
   @media screen and (max-width: 480px) {
-
   form.hs-form .form-columns-2 .hs-form-field .hs-input, form.hs-form .form-columns-3 .hs-form-field .hs-input {
   width: 100% !important;
-
   }
-
-
+  }
   </style>
 custom_text: |-
   <!--[if lte IE 8]>

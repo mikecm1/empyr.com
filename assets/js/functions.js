@@ -39,6 +39,8 @@ $(document).ready(function () {
       var _this = this;
       $(this.oldContainer).fadeOut(300).promise().done(() => {
         nc.css('visibility', 'visible');
+        // $('head').find("style[id='custom_style']").remove();
+        // $('head').find("style[id='custom_style']").appendTo('head');
         document.body.scrollTop = 0;
         nc.fadeIn(300, function () {
           _this.done();
@@ -55,49 +57,8 @@ $(document).ready(function () {
 
   Barba.Dispatcher.on('transitionCompleted', function (currentStatus, oldStatus, container) {
 
-    AOS.refresh();
+    styles_reloaded();
 
-    var swiper = new Swiper('.swiper-container', {
-      autoplay: {
-        delay: 5000,
-      },
-      loop: true,
-      effect: 'crossfade',
-      spaceBetween: 0,
-      slidesOffsetAfter: 100,
-      centeredSlides: true,
-      slideToClickedSlide: true,
-      loopedSlides: 0,
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-      slidesPerView: 2,
-      spaceBetween: 0,
-    });
-    $('button.join').click(function () {
-      if ($('button.join').length) {
-        var fieldValue = document.getElementById('emailContact').value;
-        sessionStorage.setItem('emailContact', fieldValue);
-        window.location.href = '/joinus#load'
-      }
-    });
-
-    $(".navbar-nav .dropdown-menu").removeClass("d-none");
-
-    $(".modal a").click(function () {
-      $('body').removeClass('modal-open');
-      $('.modal-backdrop').remove();
-    });
-    $(function () {
-      if (Modernizr.touch) {
-
-      } else if ($(".rellax")[0]) {
-        var rellax = new Rellax('.rellax', {
-          wrapper: null,
-        });
-      }
-    });
   });
 
   Barba.Dispatcher.on('newPageReady', function (currentStatus, oldStatus, container, newPageRawHTML) {
@@ -168,42 +129,10 @@ $(document).ready(function () {
   };
   // document.documentElement.className = 'js';
 
-  $(function () {
-    if (Modernizr.touch) {} else if ($(".rellax")[0]) {
-      var rellax = new Rellax('.rellax', {
-        wrapper: null,
-      });
-    }
-  });
-
-  var swiper = new Swiper('.swiper-container', {
-    autoplay: {
-      delay: 5000,
-    },
-    loop: true,
-    effect: 'crossfade',
-    spaceBetween: 0,
-    slidesOffsetAfter: 100,
-    centeredSlides: true,
-    slideToClickedSlide: true,
-    loopedSlides: 0,
-    disableOnInteraction: true,
-    pagination: {
-      el: '.swiper-pagination',
-      clickable: true,
-    },
-    slidesPerView: 2,
-    spaceBetween: 0,
-  });
   $(".navbar a").on('click', function () {
     history.pushState({
       scrollTop: document.body.scrollTop
     }, document.title, document.location.pathname);
-  });
-
-  $(".modal a").click(function () {
-    $('body').removeClass('modal-open');
-    $('.modal-backdrop').remove();
   });
 
   $(".navbar-nav .dropdown-menu a").click(function () {
@@ -251,5 +180,55 @@ $(document).ready(function () {
       $(this).closest(".input-group").find("button").click();
     }
   });
+
+
+  function styles_reloaded() {
+
+    AOS.refresh();
+
+    var swiper = new Swiper('.swiper-container', {
+      autoplay: {
+        delay: 5000,
+      },
+      loop: true,
+      effect: 'crossfade',
+      spaceBetween: 0,
+      slidesOffsetAfter: 100,
+      centeredSlides: true,
+      slideToClickedSlide: true,
+      loopedSlides: 0,
+      disableOnInteraction: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      slidesPerView: 2,
+      spaceBetween: 0,
+    });
+
+    $('button.join').click(function () {
+      if ($('button.join').length) {
+        var fieldValue = document.getElementById('emailContact').value;
+        sessionStorage.setItem('emailContact', fieldValue);
+        window.location.href = '/joinus#load'
+      }
+    });
+
+    $(".navbar-nav .dropdown-menu").removeClass("d-none");
+
+    $(".modal a").click(function () {
+      $('body').removeClass('modal-open');
+      $('.modal-backdrop').remove();
+    });
+
+    $(function () {
+      if (Modernizr.touch) {
+      } else if ($(".rellax")[0]) {
+        var rellax = new Rellax('.rellax', {
+          wrapper: null,
+        });
+      }
+    });
+  }
 
 });
