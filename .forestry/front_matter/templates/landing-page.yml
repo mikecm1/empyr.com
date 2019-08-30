@@ -310,6 +310,11 @@ fields:
   - type: file
     name: icon
     label: icon
+  - name: url
+    type: text
+    config:
+      required: false
+    label: page url
   config:
     max: '3'
 - type: field_group_list
