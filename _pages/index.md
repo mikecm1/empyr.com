@@ -104,7 +104,7 @@ company_types:
   heading: For Channel Partners
   description: Share Empyr with your clients for a recurring revenue stream
   icon: "/img/icon-cp-dark-1.svg"
-  url: "/joinus/"
+  url: "/channel/"
 cta_footer_header: Customized solutions
 cta_footer_subheader: Make card-linked offers part of your digital strategy and accelerate
   consumer engagement today
