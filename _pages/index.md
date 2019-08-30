@@ -40,8 +40,8 @@ hero_button:
   href: "/joinus/"
   testing: publisher.md
   related_page: advertiser.md
-show_news: true
-show_staff: true
+show_news: false
+show_staff: false
 show_mainfeatures: true
 primary_body_copy_headline: |-
   Advertise on the best sites & apps,
@@ -123,6 +123,7 @@ section_one:
     text: Learn More
     link_url: ''
     href: "/"
+  image: ''
 section_two:
   img: "/img/roas-home.svg"
   img_width: 700
@@ -135,6 +136,7 @@ section_two:
     text: Learn More
     link_url: ''
     href: "/"
+  image: ''
 section_three:
   img: "/img/home-analytics.png"
   tagline: Real-Time Analytics
@@ -145,6 +147,7 @@ section_three:
   button:
     text: Learn More
     href: "/"
+  image: ''
 custom_code: ''
 page_name: "* Homepage"
 

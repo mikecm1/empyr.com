@@ -367,3 +367,5 @@ fields:
     schema:
       format: markdown
   label: Custom code
+pages:
+- _pages/index.md
