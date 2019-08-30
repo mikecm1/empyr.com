@@ -175,6 +175,9 @@ custom_css: |-
     left: 12%;
     max-width: 590px!important;
   }
+  .hero:not(.default) p {
+  max-width: 645px;
+  }
   }
   @media (min-width: 1024px){
   .mw-md-130 {
@@ -184,7 +187,7 @@ custom_css: |-
   }
   @media (min-width: 1150px){
   .mw-md-130 {
-        top: -260px;
+        top: -300px;
     left: 3%;
   }
   }
