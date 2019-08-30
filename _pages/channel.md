@@ -149,31 +149,34 @@ custom_css: |-
   <style>
   @media (min-width: 1150px) {
   .sub .headline {
-    font-size: 2.5rem;
-    max-width: 39rem;
+  font-size: 2.5rem;
+  max-width: 39rem;
   }
   }
   section {
   padding: 3rem 0;
   }
   @media (min-width: 768px) {
-    section {
+  section {
   padding: 5.4rem 0;
   }
   }
   @media (min-width: 768px){
   .mw-md-130 {
-        position: absolute;
-    top: -310px;
-    left: 10px;
-    max-width: 590px!important;
+  position: absolute;
+  top: -310px;
+  left: 10px;
+  max-width: 590px!important;
   }
   }
   @media (min-width: 992px){
   .mw-md-130 {
-    top: -310px;
-    left: 12%;
-    max-width: 590px!important;
+  top: -310px;
+  left: 12%;
+  max-width: 590px!important;
+  }
+  .hero:not(.default) p {
+  max-width: 645px;
   }
   .hero:not(.default) p {
   max-width: 645px;
@@ -181,8 +184,8 @@ custom_css: |-
   }
   @media (min-width: 1024px){
   .mw-md-130 {
-    top: -260px;
-    left: 18%;
+  top: -260px;
+  left: 18%;
   }
   }
   @media (min-width: 1150px){
@@ -193,19 +196,19 @@ custom_css: |-
   }
   @media (min-width: 1400px) {
   .mw-md-130 {
-        left: 5%;
-    max-width: 590px!important;
-    top: -270px;
+  left: 5%;
+  max-width: 590px!important;
+  top: -270px;
   }
   }
   .intro.card {
-    border-radius: 0 0 15px 15px;
+  border-radius: 0 0 15px 15px;
   }
   .fcta h1 {
-    font-weight: 700;
+  font-weight: 700;
   }
   .fcta .lead {
-    max-width: 680px;
+  max-width: 680px;
   }
   </style>
 menu:
