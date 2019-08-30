@@ -236,6 +236,11 @@ $(document).ready(function() {
   spaceBetween: 0
  });
 
+ $(".modal a").click(function() {
+  $("body").removeClass("modal-open");
+  $(".modal-backdrop").remove();
+ });
+
  function styles_reloaded() {
   AOS.refresh();
 
