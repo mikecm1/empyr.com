@@ -216,31 +216,6 @@ $(document).ready(function() {
   }
  });
 
- var swiper = new Swiper(".swiper-container", {
-  autoplay: {
-   delay: 5000
-  },
-  loop: true,
-  effect: "crossfade",
-  spaceBetween: 0,
-  slidesOffsetAfter: 100,
-  centeredSlides: true,
-  slideToClickedSlide: true,
-  loopedSlides: 0,
-  disableOnInteraction: true,
-  pagination: {
-   el: ".swiper-pagination",
-   clickable: true
-  },
-  slidesPerView: 2,
-  spaceBetween: 0
- });
-
- $(".modal a").click(function() {
-  $("body").removeClass("modal-open");
-  $(".modal-backdrop").remove();
- });
-
  function styles_reloaded() {
   AOS.refresh();
 
@@ -288,4 +263,6 @@ $(document).ready(function() {
    }
   });
  }
+
+ styles_reloaded();
 });
