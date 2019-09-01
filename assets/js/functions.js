@@ -1,12 +1,11 @@
 $(document).ready(function() {
- $(window).on("load", function() {
+
   AOS.init({
    once: !0,
    duration: 400,
    disable: "mobile",
    anchorPlacement: "top"
   });
- });
 
  $("[data-id=nav-sidebar-toggle]").click(function(e) {
   e.preventDefault();
