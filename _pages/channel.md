@@ -187,7 +187,7 @@ custom_css: |-
   }
   @media (min-width: 1150px){
   .mw-md-130 {
-        top: -300px;
+        top: -270px;
     left: 3%;
   }
   }
