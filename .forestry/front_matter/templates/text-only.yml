@@ -64,3 +64,5 @@ fields:
     schema:
       format: markdown
   label: Custom CSS
+pages:
+- _pages/national-terms.md
