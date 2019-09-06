@@ -4,8 +4,8 @@ permalink: "/national-terms/"
 title: National Advertiser Terms & Conditions
 heading: Our Mission– To Make Earning Rewards On In-Store Purchases as Effortless
   as Breathing
-description: 
-keywords: 
+description: ''
+keywords: ''
 sub_heading: 
 show_staff: true
 show_news: false
@@ -16,6 +16,9 @@ intro_paragraph: 'The IO and Terms and Conditions (collectively “Agreement”)
   your participation in the Empyr Platform. By signing the IO you agree to the terms
   and conditions set forth below. '
 page_name: "* National Terms  & Conditions"
+custom_text: ''
+custom_code: ''
+custom_css: ''
 
 ---
 1\.**Engagement; Insertion Orders:**
