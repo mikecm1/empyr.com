@@ -17,25 +17,6 @@ fields:
 - type: text
   name: title
   label: Title
-- name: description
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Meta description
-- name: keywords
-  type: text
-  config:
-    required: false
-  label: Meta keywords
-- type: text
-  name: layout
-  label: layout
-  default: sub-page
-  hidden: true
 - name: menu
   type: field_group
   config: {}
@@ -71,6 +52,25 @@ fields:
         step: 
     label: partners
   label: Navigation dropdown item?
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Meta description
+- name: keywords
+  type: text
+  config:
+    required: false
+  label: Meta keywords
+- type: text
+  name: layout
+  label: layout
+  default: sub-page
+  hidden: true
 - name: heading
   type: textarea
   default: ''
