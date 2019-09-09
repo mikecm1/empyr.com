@@ -208,5 +208,11 @@ custom_css: |-
     max-width: 680px;
   }
   </style>
+menu:
+  partners:
+    description: Create a new revenue stream with Empyr
+    title: Channel Partners
+    icon: "/uploads/2019/icon-dropdown-3.svg"
+    sort_order: '3'
 
 ---
