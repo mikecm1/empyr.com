@@ -21,9 +21,9 @@ partners:
 - "/img/logo-home-6.png"
 primary_body_copy_headline: Accelerate your Sales Pipeline with the latest Digital
   Ad Tool
-primary_body_copy_subheadline: 'Give your sales team a tool to spark ''closed won''
-  opportunities with their existing clients. Adding Card Linked Offers to your tool
-  kit is a sure-fire way land and expand your current book of business. '
+primary_body_copy_subheadline: 'Give your sales team a tool to spark closing more
+  deals with their existing clients. Adding Card Linked Offers to your tool kit is
+  a sure-fire way to land and expand your current book of business. '
 primary_body_icon: "/img/icon-cards.svg"
 show_mainfeatures: true
 mainfeatures:
@@ -81,7 +81,7 @@ section_two:
     gives 100% attribution to your customers
   section_body_copy: Your existing customers will be featured on Empyr's Exclusive
     Consumer Marketplace consisting of 316M+ consumers across the most popular websites
-    and apps. This massive consumer reach guarantees there is revenue to be generate.
+    and apps. This massive consumer reach guarantees there is revenue to be generated.
     The integration with the 3 major credit card brands guarantees attribution from
     to their advertising to revenue.
   image: "/img/section-logo-rounded.png"
@@ -187,7 +187,7 @@ custom_css: |-
   }
   @media (min-width: 1150px){
   .mw-md-130 {
-        top: -270px;
+        top: -300px;
     left: 3%;
   }
   }
@@ -208,11 +208,5 @@ custom_css: |-
     max-width: 680px;
   }
   </style>
-menu:
-  partners:
-    description: Create a new revenue stream with Empyr
-    title: Channel Partners
-    sort_order: '3'
-    icon: "/uploads/2019/icon-dropdown-3.svg"
 
 ---
