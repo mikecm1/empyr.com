@@ -85,7 +85,7 @@ case_studies:
   roi: "$8.42"
   incremental_roi: "$4.20"
 primary_body_copy_headline: An improved approach to digital advertising
-primary_body_copy_subheadline: Empyr's Cost-Per-Tevenue model (CPR™) accelerates and
+primary_body_copy_subheadline: Empyr's Cost-Per-Revenue model (CPR™) accelerates and
   tracks in-store sales by distributing offers on an exclusive consumer marketplace
   featuring top websites and apps– without charging for clicks or impressions.
 primary_body_icon: "/img/icon-cards.svg"
@@ -144,11 +144,5 @@ user_testimonials:
   title: ''
   testimonials: []
 page_name: "* Advertisers"
-menu:
-  partners:
-    title: Advertisers
-    description: Launch a card-linked offer campaign
-    sort_order: '1'
-    icon: "/uploads/2019/icon-dropdown-1.svg"
 
 ---
