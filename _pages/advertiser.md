@@ -146,9 +146,8 @@ user_testimonials:
 page_name: "* Advertisers"
 menu:
   partners:
-    title: Advertisers
+    title: No space left on device
     description: Launch a card-linked offer campaign
-    sort_order: '1'
     icon: "/uploads/2019/icon-dropdown-1.svg"
 
 ---
