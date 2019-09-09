@@ -129,7 +129,7 @@ section_two:
   img_width: 700
   tagline: Smarter Revenue
   section_header: Minimum 10X ROAS, Guaranteed
-  section_body_copy: Empyr powers CPR™, a pay-per-revenue model that drives motivated
+  section_body_copy: Empyr powers CPR™, a Cost-Per-Revenue model that drives motivated
     customers to your stores without charging for clicks and impressions. You only
     pay a small fee when the sale happens.
   button:
