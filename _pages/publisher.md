@@ -146,6 +146,5 @@ menu:
     title: Websites & Apps
     description: Build a custom card-linked offer program
     icon: "/uploads/2019/icon-dropdown-2.svg"
-    sort_order: '3'
 
 ---
