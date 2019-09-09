@@ -107,7 +107,7 @@ company_types:
   url: "/channel/"
 cta_footer_header: Customized solutions
 cta_footer_subheader: Make card-linked offers part of your digital strategy and accelerate
-  consumer engagement today
+  consumer and revenue engagement today
 section_one:
   super: ''
   heading: ''
