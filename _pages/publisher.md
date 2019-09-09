@@ -8,7 +8,7 @@ keywords: Card Linked Offers, Publishers, Revenue Per Sale
 tagline: For Websites & Apps
 banner_image: ''
 heading: |-
-  Enhance your experience.
+  Enhance your experience..
   Amplify your revenue.
 sub_heading: Generate revenue and increase engagement from offline commerce with your
   own fully customized card-linked offer program. Get 1000s of offers and complete
