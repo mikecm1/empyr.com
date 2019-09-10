@@ -12,7 +12,7 @@ navigation:
   title: Home
   identifier: home
   weight: 1
-- url: "https://blog.empyr.com/sandbox/"
+- url: "https://blog.empyr.com/"
   title: Blog
   identifier: blog
   weight: 4
