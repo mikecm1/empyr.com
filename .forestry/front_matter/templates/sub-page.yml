@@ -504,3 +504,36 @@ fields:
     schema:
       format: markdown
   label: Custom Code
+- name: add_sticky_bar
+  type: boolean
+  label: Add Sticky Bar
+  description: Used to call out different things, like blog posts or other highlights
+- name: sticky_ad_bar
+  type: field_group
+  config: {}
+  fields:
+  - name: background_image
+    type: file
+    config:
+      maxSize: 250
+    label: Background image
+  - name: content
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Content
+  - name: button_text
+    type: text
+    config:
+      required: false
+    label: Button Text
+  - name: button_url
+    type: text
+    config:
+      required: false
+    label: Button URL
+  label: Sticky Bar Details
