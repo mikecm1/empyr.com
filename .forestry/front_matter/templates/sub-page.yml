@@ -486,24 +486,6 @@ fields:
     max: '3'
     labelField: 
   label: Case Studies
-- name: custom_css
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Custom CSS
-- name: custom_code
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Custom Code
 - name: add_sticky_bar
   type: boolean
   label: Add Sticky Bar
@@ -537,3 +519,21 @@ fields:
       required: false
     label: Button URL
   label: Sticky Bar Details
+- name: custom_css
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Custom CSS
+- name: custom_code
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Custom Code

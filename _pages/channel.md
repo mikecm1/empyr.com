@@ -214,5 +214,6 @@ sticky_ad_bar:
     revenue stream for your business.
   button_text: Read Now
   button_url: https://blog.empyr.com/add-the-newest-digital-ad-product-to-your-toolkit-and-generate-a-1m-annual-recurring-revenue-stream-to-your-business
+add_sticky_bar: true
 
 ---
