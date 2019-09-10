@@ -1,0 +1,375 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1492" height="72" viewBox="0 0 1492 72">
+  <defs>
+    <rect id="bg-sticky-a" width="1492" height="72" x="0" y="0"/>
+    <rect id="bg-sticky-c" width="2518" height="864" x="0" y="0"/>
+    <linearGradient id="bg-sticky-e" x1="-.025%" x2="100.02%" y1="50.042%" y2="50.042%">
+      <stop offset="0%" stop-color="#D80A84"/>
+      <stop offset="54%" stop-color="#DD0782"/>
+      <stop offset="100%" stop-color="#E6007E"/>
+    </linearGradient>
+    <linearGradient id="bg-sticky-f" x1="-.025%" x2="100.017%" y1="50.034%" y2="50.034%">
+      <stop offset="0%" stop-color="#C9148B"/>
+      <stop offset="36%" stop-color="#CE1189"/>
+      <stop offset="77%" stop-color="#DB0783"/>
+      <stop offset="100%" stop-color="#E6007E"/>
+    </linearGradient>
+    <linearGradient id="bg-sticky-g" x1="-.024%" x2="100.014%" y1="50.023%" y2="50.023%">
+      <stop offset="0%" stop-color="#BB1E91"/>
+      <stop offset="29%" stop-color="#C01B8F"/>
+      <stop offset="62%" stop-color="#CD1189"/>
+      <stop offset="97%" stop-color="#E4027F"/>
+      <stop offset="100%" stop-color="#E6007E"/>
+    </linearGradient>
+    <linearGradient id="bg-sticky-h" x1="-.022%" x2="100.014%" y1="50.027%" y2="50.027%">
+      <stop offset="0%" stop-color="#AD2897"/>
+      <stop offset="25%" stop-color="#B22595"/>
+      <stop offset="53%" stop-color="#BF1B8F"/>
+      <stop offset="83%" stop-color="#D60B85"/>
+      <stop offset="100%" stop-color="#E6007E"/>
+    </linearGradient>
+    <linearGradient id="bg-sticky-i" x1="-.021%" x2="100.013%" y1="50.02%" y2="50.02%">
+      <stop offset="0%" stop-color="#9E329E"/>
+      <stop offset="22%" stop-color="#A32F9C"/>
+      <stop offset="47%" stop-color="#B02596"/>
+      <stop offset="73%" stop-color="#C7168C"/>
+      <stop offset="100%" stop-color="#E6007E"/>
+    </linearGradient>
+    <linearGradient id="bg-sticky-j" x1="-.02%" x2="100.011%" y1="50.02%" y2="50.02%">
+      <stop offset="0%" stop-color="#903CA4"/>
+      <stop offset="20%" stop-color="#9539A2"/>
+      <stop offset="43%" stop-color="#A22F9C"/>
+      <stop offset="66%" stop-color="#B92092"/>
+      <stop offset="91%" stop-color="#D80A84"/>
+      <stop offset="100%" stop-color="#E6007E"/>
+    </linearGradient>
+    <linearGradient id="bg-sticky-k" x1="-.019%" x2="100.012%" y1="50.017%" y2="50.017%">
+      <stop offset="0%" stop-color="#8146AA"/>
+      <stop offset="18%" stop-color="#8643A8"/>
+      <stop offset="39%" stop-color="#9339A2"/>
+      <stop offset="61%" stop-color="#AA2A98"/>
+      <stop offset="83%" stop-color="#C9148B"/>
+      <stop offset="100%" stop-color="#E6007E"/>
+    </linearGradient>
+    <linearGradient id="bg-sticky-l" x1="-.017%" x2="100.011%" y1="50.014%" y2="50.014%">
+      <stop offset="0%" stop-color="#7350B0"/>
+      <stop offset="17%" stop-color="#784DAE"/>
+      <stop offset="36%" stop-color="#8543A8"/>
+      <stop offset="56%" stop-color="#9C349E"/>
+      <stop offset="77%" stop-color="#BB1E91"/>
+      <stop offset="99%" stop-color="#E3027F"/>
+      <stop offset="100%" stop-color="#E6007E"/>
+    </linearGradient>
+    <linearGradient id="bg-sticky-m" x1="-.016%" x2="100.01%" y1="50.013%" y2="50.013%">
+      <stop offset="0%" stop-color="#6559B7"/>
+      <stop offset="16%" stop-color="#6A56B5"/>
+      <stop offset="34%" stop-color="#774CAF"/>
+      <stop offset="53%" stop-color="#8E3DA5"/>
+      <stop offset="73%" stop-color="#AD2797"/>
+      <stop offset="93%" stop-color="#D50B85"/>
+      <stop offset="100%" stop-color="#E6007E"/>
+    </linearGradient>
+    <linearGradient id="bg-sticky-n" x1="-.016%" x2="100.01%" y1="50.012%" y2="50.012%">
+      <stop offset="0%" stop-color="#5663BD"/>
+      <stop offset="15%" stop-color="#5B60BB"/>
+      <stop offset="32%" stop-color="#6856B5"/>
+      <stop offset="50%" stop-color="#7F47AB"/>
+      <stop offset="68%" stop-color="#9E319D"/>
+      <stop offset="87%" stop-color="#C6168C"/>
+      <stop offset="100%" stop-color="#E6007E"/>
+    </linearGradient>
+    <linearGradient id="bg-sticky-o" x1="-.015%" x2="100.009%" y1="50.012%" y2="50.012%">
+      <stop offset="0%" stop-color="#486DC3"/>
+      <stop offset="14%" stop-color="#4D6AC1"/>
+      <stop offset="30%" stop-color="#5A60BB"/>
+      <stop offset="47%" stop-color="#7151B1"/>
+      <stop offset="65%" stop-color="#903BA3"/>
+      <stop offset="83%" stop-color="#B81F92"/>
+      <stop offset="100%" stop-color="#E6007E"/>
+    </linearGradient>
+    <linearGradient id="bg-sticky-p" x1="-.014%" x2="100.009%" y1="50.011%" y2="50.011%">
+      <stop offset="0%" stop-color="#3A77CA"/>
+      <stop offset="14%" stop-color="#3F74C8"/>
+      <stop offset="29%" stop-color="#4C6AC2"/>
+      <stop offset="45%" stop-color="#635BB8"/>
+      <stop offset="62%" stop-color="#8245AA"/>
+      <stop offset="79%" stop-color="#AB2998"/>
+      <stop offset="97%" stop-color="#DC0782"/>
+      <stop offset="100%" stop-color="#E6007E"/>
+    </linearGradient>
+    <linearGradient id="bg-sticky-q" x1="-.013%" x2="100.009%" y1="50.008%" y2="50.008%">
+      <stop offset="0%" stop-color="#2B81D0"/>
+      <stop offset="13%" stop-color="#307ECE"/>
+      <stop offset="28%" stop-color="#3D74C8"/>
+      <stop offset="43%" stop-color="#5465BE"/>
+      <stop offset="59%" stop-color="#734FB0"/>
+      <stop offset="76%" stop-color="#9C339E"/>
+      <stop offset="92%" stop-color="#CD1189"/>
+      <stop offset="100%" stop-color="#E6007E"/>
+    </linearGradient>
+    <linearGradient id="bg-sticky-r" x1="-.012%" x2="100.008%" y1="50.009%" y2="50.009%">
+      <stop offset="0%" stop-color="#1D8BD6"/>
+      <stop offset="13%" stop-color="#2288D4"/>
+      <stop offset="27%" stop-color="#2F7ECE"/>
+      <stop offset="42%" stop-color="#466FC4"/>
+      <stop offset="57%" stop-color="#6559B6"/>
+      <stop offset="73%" stop-color="#8E3DA5"/>
+      <stop offset="89%" stop-color="#BF1B8F"/>
+      <stop offset="100%" stop-color="#E6007E"/>
+    </linearGradient>
+    <linearGradient id="bg-sticky-s" x1="-.012%" x2="100.008%" y1="50.004%" y2="50.004%">
+      <stop offset="0%" stop-color="#0E95DD"/>
+      <stop offset="12%" stop-color="#1392DB"/>
+      <stop offset="26%" stop-color="#2088D5"/>
+      <stop offset="40%" stop-color="#3779CB"/>
+      <stop offset="55%" stop-color="#5663BD"/>
+      <stop offset="70%" stop-color="#7F47AB"/>
+      <stop offset="85%" stop-color="#B02596"/>
+      <stop offset="100%" stop-color="#E6007E"/>
+    </linearGradient>
+    <linearGradient id="bg-sticky-t" x1="-.013%" x2="100.008%" y1="50.007%" y2="50.007%">
+      <stop offset="0%" stop-color="#009FE3"/>
+      <stop offset="12%" stop-color="#059CE1"/>
+      <stop offset="25%" stop-color="#1292DB"/>
+      <stop offset="39%" stop-color="#2983D1"/>
+      <stop offset="53%" stop-color="#486DC3"/>
+      <stop offset="68%" stop-color="#7151B1"/>
+      <stop offset="83%" stop-color="#A32E9B"/>
+      <stop offset="98%" stop-color="#DD0682"/>
+      <stop offset="100%" stop-color="#E6007E"/>
+    </linearGradient>
+    <linearGradient id="bg-sticky-u" x1="-.066%" x2="100.049%" y1="49.978%" y2="50.076%">
+      <stop offset="0%" stop-color="#009FE3"/>
+      <stop offset="12%" stop-color="#059CE1"/>
+      <stop offset="25%" stop-color="#1292DB"/>
+      <stop offset="39%" stop-color="#2983D1"/>
+      <stop offset="53%" stop-color="#486DC3"/>
+      <stop offset="68%" stop-color="#7151B1"/>
+      <stop offset="83%" stop-color="#A32E9B"/>
+      <stop offset="98%" stop-color="#DD0682"/>
+      <stop offset="100%" stop-color="#E6007E"/>
+    </linearGradient>
+    <linearGradient id="bg-sticky-v" x1="-.117%" x2="100.098%" y1="49.957%" y2="50.151%">
+      <stop offset="0%" stop-color="#009FE3"/>
+      <stop offset="12%" stop-color="#059CE1"/>
+      <stop offset="25%" stop-color="#1292DB"/>
+      <stop offset="39%" stop-color="#2983D1"/>
+      <stop offset="53%" stop-color="#486DC3"/>
+      <stop offset="68%" stop-color="#7151B1"/>
+      <stop offset="83%" stop-color="#A32E9B"/>
+      <stop offset="98%" stop-color="#DD0682"/>
+      <stop offset="100%" stop-color="#E6007E"/>
+    </linearGradient>
+    <linearGradient id="bg-sticky-w" x1="-.171%" x2="100.149%" y1="49.934%" y2="50.231%">
+      <stop offset="0%" stop-color="#009FE3"/>
+      <stop offset="12%" stop-color="#059CE1"/>
+      <stop offset="25%" stop-color="#1292DB"/>
+      <stop offset="39%" stop-color="#2983D1"/>
+      <stop offset="53%" stop-color="#486DC3"/>
+      <stop offset="68%" stop-color="#7151B1"/>
+      <stop offset="83%" stop-color="#A32E9B"/>
+      <stop offset="98%" stop-color="#DD0682"/>
+      <stop offset="100%" stop-color="#E6007E"/>
+    </linearGradient>
+    <linearGradient id="bg-sticky-x" x1="-.221%" x2="100.208%" y1="49.913%" y2="50.311%">
+      <stop offset="0%" stop-color="#009FE3"/>
+      <stop offset="12%" stop-color="#059CE1"/>
+      <stop offset="25%" stop-color="#1292DB"/>
+      <stop offset="39%" stop-color="#2983D1"/>
+      <stop offset="53%" stop-color="#486DC3"/>
+      <stop offset="68%" stop-color="#7151B1"/>
+      <stop offset="83%" stop-color="#A32E9B"/>
+      <stop offset="98%" stop-color="#DD0682"/>
+      <stop offset="100%" stop-color="#E6007E"/>
+    </linearGradient>
+    <linearGradient id="bg-sticky-y" x1="-.273%" x2="100.269%" y1="49.811%" y2="50.33%">
+      <stop offset="0%" stop-color="#009FE3"/>
+      <stop offset="12%" stop-color="#059CE1"/>
+      <stop offset="25%" stop-color="#1292DB"/>
+      <stop offset="39%" stop-color="#2983D1"/>
+      <stop offset="53%" stop-color="#486DC3"/>
+      <stop offset="68%" stop-color="#7151B1"/>
+      <stop offset="83%" stop-color="#A32E9B"/>
+      <stop offset="98%" stop-color="#DD0682"/>
+      <stop offset="100%" stop-color="#E6007E"/>
+    </linearGradient>
+    <linearGradient id="bg-sticky-z" x1="-.325%" x2="100.337%" y1="49.675%" y2="50.33%">
+      <stop offset="0%" stop-color="#009FE3"/>
+      <stop offset="12%" stop-color="#059CE1"/>
+      <stop offset="25%" stop-color="#1292DB"/>
+      <stop offset="39%" stop-color="#2983D1"/>
+      <stop offset="53%" stop-color="#486DC3"/>
+      <stop offset="68%" stop-color="#7151B1"/>
+      <stop offset="83%" stop-color="#A32E9B"/>
+      <stop offset="98%" stop-color="#DD0682"/>
+      <stop offset="100%" stop-color="#E6007E"/>
+    </linearGradient>
+    <linearGradient id="bg-sticky-A" x1="-.387%" x2="100.398%" y1="49.601%" y2="50.406%">
+      <stop offset="0%" stop-color="#009FE3"/>
+      <stop offset="12%" stop-color="#059CE1"/>
+      <stop offset="25%" stop-color="#1292DB"/>
+      <stop offset="39%" stop-color="#2983D1"/>
+      <stop offset="53%" stop-color="#486DC3"/>
+      <stop offset="68%" stop-color="#7151B1"/>
+      <stop offset="83%" stop-color="#A32E9B"/>
+      <stop offset="98%" stop-color="#DD0682"/>
+      <stop offset="100%" stop-color="#E6007E"/>
+    </linearGradient>
+    <linearGradient id="bg-sticky-B" x1="-.453%" x2="100.462%" y1="49.52%" y2="50.488%">
+      <stop offset="0%" stop-color="#009FE3"/>
+      <stop offset="12%" stop-color="#059CE1"/>
+      <stop offset="25%" stop-color="#1292DB"/>
+      <stop offset="39%" stop-color="#2983D1"/>
+      <stop offset="53%" stop-color="#486DC3"/>
+      <stop offset="68%" stop-color="#7151B1"/>
+      <stop offset="83%" stop-color="#A32E9B"/>
+      <stop offset="98%" stop-color="#DD0682"/>
+      <stop offset="100%" stop-color="#E6007E"/>
+    </linearGradient>
+    <linearGradient id="bg-sticky-C" x1="-.549%" x2="100.584%" y1="49.44%" y2="50.575%">
+      <stop offset="0%" stop-color="#009FE3"/>
+      <stop offset="12%" stop-color="#059CE1"/>
+      <stop offset="25%" stop-color="#1292DB"/>
+      <stop offset="39%" stop-color="#2983D1"/>
+      <stop offset="53%" stop-color="#486DC3"/>
+      <stop offset="68%" stop-color="#7151B1"/>
+      <stop offset="83%" stop-color="#A32E9B"/>
+      <stop offset="98%" stop-color="#DD0682"/>
+      <stop offset="100%" stop-color="#E6007E"/>
+    </linearGradient>
+    <linearGradient id="bg-sticky-E" x1="36.926%" x2="25.266%" y1="50.751%" y2="50.418%">
+      <stop offset="0%" stop-color="#211D30" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#211D30"/>
+    </linearGradient>
+    <path id="bg-sticky-D" d="M340.472794,44.3064489 C340.472794,44.3064489 1662.94263,1019.96687 1297.04334,380.862557 C1059.13093,-37.6820944 2703.57959,707.822537 2703.57959,707.822537"/>
+    <linearGradient id="bg-sticky-F" x1="-.593%" x2="100.6%" y1="49.34%" y2="50.667%">
+      <stop offset="0%" stop-color="#009FE3"/>
+      <stop offset="12%" stop-color="#059CE1"/>
+      <stop offset="25%" stop-color="#1292DB"/>
+      <stop offset="39%" stop-color="#2983D1"/>
+      <stop offset="53%" stop-color="#486DC3"/>
+      <stop offset="68%" stop-color="#7151B1"/>
+      <stop offset="83%" stop-color="#A32E9B"/>
+      <stop offset="98%" stop-color="#DD0682"/>
+      <stop offset="100%" stop-color="#E6007E"/>
+    </linearGradient>
+    <linearGradient id="bg-sticky-G" x1="-.731%" x2="100.731%" y1="49.237%" y2="50.79%">
+      <stop offset="0%" stop-color="#009FE3"/>
+      <stop offset="12%" stop-color="#059CE1"/>
+      <stop offset="25%" stop-color="#1292DB"/>
+      <stop offset="39%" stop-color="#2983D1"/>
+      <stop offset="53%" stop-color="#486DC3"/>
+      <stop offset="68%" stop-color="#7151B1"/>
+      <stop offset="83%" stop-color="#A32E9B"/>
+      <stop offset="98%" stop-color="#DD0682"/>
+      <stop offset="100%" stop-color="#E6007E"/>
+    </linearGradient>
+    <linearGradient id="bg-sticky-H" x1="-.745%" x2="100.749%" y1="49.134%" y2="50.872%">
+      <stop offset="0%" stop-color="#009FE3"/>
+      <stop offset="12%" stop-color="#059CE1"/>
+      <stop offset="25%" stop-color="#1292DB"/>
+      <stop offset="39%" stop-color="#2983D1"/>
+      <stop offset="53%" stop-color="#486DC3"/>
+      <stop offset="68%" stop-color="#7151B1"/>
+      <stop offset="83%" stop-color="#A32E9B"/>
+      <stop offset="98%" stop-color="#DD0682"/>
+      <stop offset="100%" stop-color="#E6007E"/>
+    </linearGradient>
+    <linearGradient id="bg-sticky-I" x1="-.933%" x2="100.894%" y1="49.005%" y2="51.037%">
+      <stop offset="0%" stop-color="#009FE3"/>
+      <stop offset="12%" stop-color="#059CE1"/>
+      <stop offset="25%" stop-color="#1292DB"/>
+      <stop offset="39%" stop-color="#2983D1"/>
+      <stop offset="53%" stop-color="#486DC3"/>
+      <stop offset="68%" stop-color="#7151B1"/>
+      <stop offset="83%" stop-color="#A32E9B"/>
+      <stop offset="98%" stop-color="#DD0682"/>
+      <stop offset="100%" stop-color="#E6007E"/>
+    </linearGradient>
+    <linearGradient id="bg-sticky-J" x1="-.911%" x2="100.911%" y1="48.9%" y2="51.105%">
+      <stop offset="0%" stop-color="#009FE3"/>
+      <stop offset="12%" stop-color="#059CE1"/>
+      <stop offset="25%" stop-color="#1292DB"/>
+      <stop offset="39%" stop-color="#2983D1"/>
+      <stop offset="53%" stop-color="#486DC3"/>
+      <stop offset="68%" stop-color="#7151B1"/>
+      <stop offset="83%" stop-color="#A32E9B"/>
+      <stop offset="98%" stop-color="#DD0682"/>
+      <stop offset="100%" stop-color="#E6007E"/>
+    </linearGradient>
+    <linearGradient id="bg-sticky-K" x1="-1.155%" x2="101.071%" y1="48.742%" y2="51.317%">
+      <stop offset="0%" stop-color="#009FE3"/>
+      <stop offset="12%" stop-color="#059CE1"/>
+      <stop offset="25%" stop-color="#1292DB"/>
+      <stop offset="39%" stop-color="#2983D1"/>
+      <stop offset="53%" stop-color="#486DC3"/>
+      <stop offset="68%" stop-color="#7151B1"/>
+      <stop offset="83%" stop-color="#A32E9B"/>
+      <stop offset="98%" stop-color="#DD0682"/>
+      <stop offset="100%" stop-color="#E6007E"/>
+    </linearGradient>
+    <linearGradient id="bg-sticky-L" x1="-1.092%" x2="101.087%" y1="48.635%" y2="51.366%">
+      <stop offset="0%" stop-color="#009FE3"/>
+      <stop offset="12%" stop-color="#059CE1"/>
+      <stop offset="25%" stop-color="#1292DB"/>
+      <stop offset="39%" stop-color="#2983D1"/>
+      <stop offset="53%" stop-color="#486DC3"/>
+      <stop offset="68%" stop-color="#7151B1"/>
+      <stop offset="83%" stop-color="#A32E9B"/>
+      <stop offset="98%" stop-color="#DD0682"/>
+      <stop offset="100%" stop-color="#E6007E"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="bg-sticky-b" fill="#fff">
+      <use xlink:href="#bg-sticky-a"/>
+    </mask>
+    <use fill="#0E0B6B" fill-rule="nonzero" xlink:href="#bg-sticky-a"/>
+    <g mask="url(#bg-sticky-b)">
+      <g transform="matrix(-1 0 0 1 1995 -471)">
+        <mask id="bg-sticky-d" fill="#fff">
+          <use xlink:href="#bg-sticky-c"/>
+        </mask>
+        <use fill="#211D30" fill-rule="nonzero" xlink:href="#bg-sticky-c"/>
+        <g mask="url(#bg-sticky-d)">
+          <g transform="translate(-192 86.452)">
+            <path stroke="#E6007E" d="M718.312047,0.248548372 C718.312047,0.248548372 901.164356,722.51931 1593.50915,334.751431 C2285.85394,-53.0164483 2555.66032,223.25047 2555.66032,223.25047"/>
+            <path stroke="url(#bg-sticky-e)" d="M676.381581,4.47387069 C676.381581,4.47387069 942.802813,736.265116 1574.78806,337.31256 C2205.64854,-60.915964 2556.11456,240.821759 2556.11456,240.821759"/>
+            <path stroke="url(#bg-sticky-f)" d="M634.516005,8.70999946 C634.516005,8.70999946 983.846434,750.56205 1556.12106,339.938527 C2124.99971,-68.2211248 2556.62287,258.468694 2556.62287,258.468694"/>
+            <path stroke="url(#bg-sticky-g)" d="M592.617984,12.9677411 C592.617984,12.9677411 1024.14381,765.658662 1537.43242,342.564495 C2043.74524,-74.8130599 2557.142,276.072402 2557.142,276.072402"/>
+            <path stroke="url(#bg-sticky-h)" d="M550.719963,17.1714505 C550.719963,17.1714505 1063.77064,781.760274 1518.74378,345.125624 C1962.10142,-80.3783821 2557.59624,293.686917 2557.59624,293.686917"/>
+            <path stroke="url(#bg-sticky-i)" d="M508.832757,21.4075793 C508.832757,21.4075793 1102.93242,799.223499 1500.04433,347.762398 C1880.26292,-84.4956399 2558.08292,311.344658 2558.08292,311.344658"/>
+            <path stroke="url(#bg-sticky-j)" d="M466.934736,25.6329016 C466.934736,25.6329016 1141.94279,818.329304 1481.39895,350.301914 C1798.64073,-87.1648333 2558.59124,328.905141 2558.59124,328.905141"/>
+            <path stroke="url(#bg-sticky-k)" d="M425.036714,29.8690304 C425.036714,29.8690304 1181.35332,839.283012 1462.64543,352.895462 C1717.61338,-87.9428978 2559.03466,346.519656 2559.03466,346.519656"/>
+            <path stroke="url(#bg-sticky-l)" d="M383.138693,34.0943527 C383.138693,34.0943527 1221.88862,862.052205 1443.9676,355.532236 C1637.94874,-86.9378978 2559.53216,364.177397 2559.53216,364.177397"/>
+            <path stroke="url(#bg-sticky-m)" d="M341.240672,38.3304815 C341.240672,38.3304815 1264.38148,886.312687 1425.27897,358.082558 C1560.14431,-84.6793496 2560.01884,381.73788 2560.01884,381.73788"/>
+            <path stroke="url(#bg-sticky-n)" d="M299.353466,42.5558038 C299.353466,42.5558038 1309.49161,911.39446 1406.57951,360.676107 C1484.55699,-81.6967691 2560.49471,399.341588 2560.49471,399.341588"/>
+            <path stroke="url(#bg-sticky-o)" d="M257.455445,46.7919326 C257.455445,46.7919326 1357.73815,936.23849 1387.89088,363.269655 C1411.1976,-78.8870919 2560.98139,416.956103 2560.98139,416.956103"/>
+            <path stroke="url(#bg-sticky-p)" d="M215.557424,51.0280613 C215.557424,51.0280613 1408.71011,959.947844 1369.20224,365.863203 C1339.74168,-77.1256404 2561.46808,434.570618 2561.46808,434.570618"/>
+            <path stroke="url(#bg-sticky-q)" d="M173.659403,55.2533837 C173.659403,55.2533837 1461.96407,981.776875 1350.50279,368.499977 C1269.57277,-76.8878985 2561.95476,452.174327 2561.95476,452.174327"/>
+            <path stroke="url(#bg-sticky-r)" d="M131.761381,59.4895124 C131.761381,59.4895124 1516.58075,1001.36897 1331.78171,371.0503 C1200.05277,-78.4224145 2562.43063,469.788842 2562.43063,469.788842"/>
+            <path stroke="url(#bg-sticky-s)" d="M89.8633603,63.7580606 C89.8633603,63.7580606 1571.69492,1018.77816 1313.1147,373.643848 C1130.61929,-81.6967691 2562.91731,487.370937 2562.91731,487.370937"/>
+            <path stroke="url(#bg-sticky-t)" d="M48.0194151,67.9509635 C48.0194151,67.9509635 1626.63605,1034.35026 1294.42606,376.237396 C1060.86136,-86.4516075 2563.404,505.007065 2563.404,505.007065"/>
+            <path stroke="url(#bg-sticky-u)" d="M80.4649658,65.3249959 C80.4649658,65.3249959 1630.67012,1032.7509 1294.71807,376.745299 C1060.6775,-81.0483821 2578.97786,527.538516 2578.97786,527.538516"/>
+            <path stroke="url(#bg-sticky-v)" d="M112.975408,62.6774155 C112.975408,62.6774155 1634.70418,1031.15155 1295.01008,377.264009 C1060.48283,-75.6451566 2594.55172,550.048353 2594.55172,550.048353"/>
+            <path stroke="url(#bg-sticky-w)" d="M145.475034,60.0730608 C145.475034,60.0730608 1638.73825,1029.55219 1295.30209,377.782718 C1060.3206,-70.2419311 2610.1364,572.601416 2610.1364,572.601416"/>
+            <path stroke="url(#bg-sticky-x)" d="M177.974661,57.4578997 C177.974661,57.4578997 1642.77231,1027.96365 1295.58329,378.290622 C1060.09348,-64.7738669 2625.69945,595.143673 2625.69945,595.143673"/>
+            <path stroke="url(#bg-sticky-y)" d="M210.474287,54.8319321 C210.474287,54.8319321 1646.80637,1026.33187 1295.8753,378.809331 C1059.89881,-59.359835 2641.28413,617.631897 2641.28413,617.631897"/>
+            <path stroke="url(#bg-sticky-z)" d="M242.973914,52.2059645 C242.973914,52.2059645 1650.82962,1024.76494 1296.16731,379.306428 C1059.70413,-53.9349967 2656.858,640.206573 2656.858,640.206573"/>
+            <path stroke="url(#bg-sticky-A)" d="M275.473541,49.5799969 C275.473541,49.5799969 1654.8745,1023.16558 1296.42687,379.835944 C1059.52027,-48.5209647 2672.43186,662.738023 2672.43186,662.738023"/>
+            <path stroke="url(#bg-sticky-B)" d="M307.973167,46.9648358 C307.973167,46.9648358 1658.90856,1021.56623 1296.75133,380.387073 C1059.3256,-43.1069328 2688.00572,685.269474 2688.00572,685.269474"/>
+            <use stroke="url(#bg-sticky-C)" xlink:href="#bg-sticky-D"/>
+            <use stroke="url(#bg-sticky-E)" xlink:href="#bg-sticky-D"/>
+            <path stroke="url(#bg-sticky-F)" d="M372.983236,41.7129006 C372.983236,41.7129006 1666.97669,1018.37832 1297.32453,381.37046 C1058.93625,-32.2680625 2719.15345,730.34318 2719.15345,730.34318"/>
+            <path stroke="url(#bg-sticky-G)" d="M405.482862,39.0869331 C405.482862,39.0869331 1670.99994,1016.77897 1297.61654,381.88917 C1058.74158,-26.8432241 2734.72732,752.874631 2734.72732,752.874631"/>
+            <path stroke="url(#bg-sticky-H)" d="M437.982489,36.4717719 C437.982489,36.4717719 1675.034,1015.17961 1297.90855,382.397073 C1058.54691,-21.4291922 2750.312,775.406081 2750.312,775.406081"/>
+            <path stroke="url(#bg-sticky-I)" d="M470.482116,33.8458044 C470.482116,33.8458044 1679.06806,1013.58026 1298.25464,382.915783 C1058.35223,-16.0043538 2765.87505,797.937531 2765.87505,797.937531"/>
+            <path stroke="url(#bg-sticky-J)" d="M502.981742,31.2198368 C502.981742,31.2198368 1683.10213,1011.9809 1298.49257,383.423686 C1058.15756,-10.5903219 2781.45973,820.479788 2781.45973,820.479788"/>
+            <path stroke="url(#bg-sticky-K)" d="M535.481369,28.5938692 C535.481369,28.5938692 1687.13619,1010.40316 1298.78458,383.942396 C1057.9737,-5.16548355 2797.03359,843.011238 2797.03359,843.011238"/>
+            <path stroke="url(#bg-sticky-L)" d="M567.980996,25.9354823 C567.980996,25.9354823 1691.17026,1008.74978 1299.08741,384.407073 C1057.77903,0.248548372 2812.60745,865.59672 2812.60745,865.59672"/>
+          </g>
+        </g>
+        <rect width="3124" height="966" x="-798" y="-77" fill="#7AE6F7" mask="url(#bg-sticky-d)" style="mix-blend-mode:hue"/>
+      </g>
+    </g>
+  </g>
+</svg>

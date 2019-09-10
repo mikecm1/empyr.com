@@ -10,7 +10,7 @@ layout: default
       <div class="container">
         <div class="row poster-feature-row pb-2">
           <!-- <div class="col-12 col-md-10 col-xl-8 mx-md-auto order-1 order-sm-1 mt-1 text-center"> -->
-              <div class="col-12 col-md-7 order-1 order-sm-1 mt-1 text-">
+          <div class="col-12 col-md-7 order-1 order-sm-1 mt-1 text-">
             {% if page.tagline and page.tagline != "" %}
             <div data-aos="basic">
               <h4 class="tag pb-1 mb-1 text-muted">{{ page.tagline }}</h4>
@@ -64,50 +64,50 @@ layout: default
     </div>
   </div>
   <div>
-        <div style="background: #f9fafc;">
-            <div class="container pt-0 vw">
-      {% if page.mainfeatures %}
-      <div class="intro px-0 py-3 py-xl-5 card-body card shadow-sm shadow-none bg-transparent">
-        <div class="row py-2">
-          {% for item in page.mainfeatures %}
-          <div class="col-12 col-md-4 mb-4 mb-md-0" data-aos="basic" data-aos-delay="{{ forloop.index | times: 150 }}" data-aos-anchor-placement="top">
-            <img class="mb-2" src="{{ item.icon | absolute_url }}" alt="" height="65">
-            <h5 class="pb-0">{{ item.heading }}</h5>
-            <div class="lighten mt-0">{{ item.description }}</div>
+    <div style="background: #f9fafc;">
+      <div class="container pt-0 vw">
+        {% if page.mainfeatures %}
+        <div class="intro px-0 py-3 py-xl-5 card-body card shadow-sm shadow-none bg-transparent">
+          <div class="row py-2">
+            {% for item in page.mainfeatures %}
+            <div class="col-12 col-md-4 mb-4 mb-md-0" data-aos="basic" data-aos-delay="{{ forloop.index | times: 150 }}" data-aos-anchor-placement="top">
+              <img class="mb-2" src="{{ item.icon | absolute_url }}" alt="" height="65">
+              <h5 class="pb-0">{{ item.heading }}</h5>
+              <div class="lighten mt-0">{{ item.description }}</div>
+            </div>
+            {% endfor %}
+            <!-- <button class="btn btn-lg btn-secondary primary join mr-0 w-md-100" type="submit">{{ page.cta_with_email }}</button> -->
           </div>
-          {% endfor %}
-          <!-- <button class="btn btn-lg btn-secondary primary join mr-0 w-md-100" type="submit">{{ page.cta_with_email }}</button> -->
         </div>
       </div>
     </div>
-  </div>
-      {% endif %}
-      {% if page.partners %}
-      <div class="logos pt-4">
-        <div class="container pt-2 pb-4 px-md-5">
-          <div class="row justify-content-center justify-content-lg-between text-center align-items-center">
-            {% for logo in page.partners %}
-            <div class="col-4 mb-4 col-md mb-md-0 logo-wrap" data-aos="basic" data-aos-delay="{{ forloop.index | times: 150 }}">
-              <img src="{{ logo | absolute_url }}" class="img-logo" />
-            </div>
-            {% endfor %}
+    {% endif %}
+    {% if page.partners %}
+    <div class="logos pt-4">
+      <div class="container pt-2 pb-4 px-md-5">
+        <div class="row justify-content-center justify-content-lg-between text-center align-items-center">
+          {% for logo in page.partners %}
+          <div class="col-4 mb-4 col-md mb-md-0 logo-wrap" data-aos="basic" data-aos-delay="{{ forloop.index | times: 150 }}">
+            <img src="{{ logo | absolute_url }}" class="img-logo" />
           </div>
+          {% endfor %}
         </div>
       </div>
-      {% endif %}
-      <div class="row pt-md-1 px-2 px-md-0 mt-md-1 text-left text-md-center mb-4">
-        <div class="col-12 col-md-8 mt-4 mx-auto">
-            {% if page.primary_body_icon != "" or page.primary_body_icon != nil %}
-            <div class="rounded-circle mx-md-auto d-flex flex-wrap align-items-center justify-content-center icon-loud mb-2" style="width:65px; height: 65px;" data-aos="basic"><img src="{{ page.primary_body_icon | absolute_url }}" class="align-self-center" width="35"></div>
-            {% endif %}
-          <h1 class="headline mt-1 mx-auto mb-2" data-aos="basic" data-aos-delay="100">
-            {{ page.primary_body_copy_headline }}</h1>
-        </div>
-        <div class="col-12 col-md-8 col-xl-7 col-xxl-6 mx-auto">
-          <p class="lighten large" data-aos="basic" data-aos-delay="150">
-            {{ page.primary_body_copy_subheadline }}</p>
-        </div>
+    </div>
+    {% endif %}
+    <div class="row pt-md-1 px-2 px-md-0 mt-md-1 text-left text-md-center mb-4">
+      <div class="col-12 col-md-8 mt-4 mx-auto">
+        {% if page.primary_body_icon != "" or page.primary_body_icon != nil %}
+        <div class="rounded-circle mx-md-auto d-flex flex-wrap align-items-center justify-content-center icon-loud mb-2" style="width:65px; height: 65px;" data-aos="basic"><img src="{{ page.primary_body_icon | absolute_url }}" class="align-self-center" width="35"></div>
+        {% endif %}
+        <h1 class="headline mt-1 mx-auto mb-2" data-aos="basic" data-aos-delay="100">
+          {{ page.primary_body_copy_headline }}</h1>
       </div>
+      <div class="col-12 col-md-8 col-xl-7 col-xxl-6 mx-auto">
+        <p class="lighten large" data-aos="basic" data-aos-delay="150">
+          {{ page.primary_body_copy_subheadline }}</p>
+      </div>
+    </div>
   </div>
   <div class="container full features">
     {% if page.section_one %}
@@ -219,7 +219,7 @@ layout: default
         <path d="M0,0 C16.6666667,66 33.3333333,99 50,99 C66.6666667,99 83.3333333,66 100,0 L100,100 L0,100 L0,0 Z"></path>
       </svg> -->
       <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="96px" viewBox="0 0 100 100" version="1.1" preserveAspectRatio="none">
-          <polygon points="0,100 100,0 100,100" />
+        <polygon points="0,100 100,0 100,100" />
       </svg>
     </div>
   </section>
@@ -322,3 +322,20 @@ layout: default
         {% endif %}
       </div>
     </div>
+
+    {% if page.add_sticky_bar %}
+<a href="{{ page.sticky_ad_bar.button_url }}" target="_blank" >
+      <div class="d-flex fixed-bottom align-items-center py-2 py-md-1 text-white sticky" style="background-image:url('{{ page.sticky_ad_bar.background_image }}')">
+        <div class="container" style="max-width: 860px;">
+          <div class="row">
+            <div class="col-md-8 sidebar mb-2 mb-md-0 d-flex align-items-center">
+              <div class="d-flex align-items-center text-white text-left font-weight-500" style="font-size: 16px; line-height: 1.4;">{{ page.sticky_ad_bar.content }}</div>
+            </div>
+            <div class="col-md">
+              <div class="btn btn-outline-white w-100 py-1">{{ page.sticky_ad_bar.button_text }}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+</a>
+{% endif %}

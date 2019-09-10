@@ -2276,6 +2276,22 @@ img {
   }
 }
 
+a[class*="btn-outline"], button[class*="btn-outline"], div[class*="btn-outline"] {
+  border-width: 2px;
+}
+.sticky {
+    background-color: #080738;
+    background-size: cover;
+    position: relative;
+    z-index: 11;
+    outline: none;
+    text-decoration: none;
+    border: none;
+    background-position: center center;
+    transition: height 150ms ease-in-out 0s;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
 img.lazyfade.lazyloaded {
   opacity: 1;
   transform: translateY(0);
