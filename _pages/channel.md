@@ -208,10 +208,11 @@ custom_css: |-
     max-width: 680px;
   }
   </style>
-menu:
-  partners:
-    description: Create a new revenue stream with Empyr
-    title: Channel Partners
-    icon: "/uploads/2019/icon-dropdown-3.svg"
+sticky_ad_bar:
+  background_image: "/uploads/2019/bg-sticky.png"
+  content: Learn how the newest digital ad product can generate a $1M+ annual recurring
+    revenue stream for your business.
+  button_text: Read Now
+  button_url: https://blog.empyr.com/add-the-newest-digital-ad-product-to-your-toolkit-and-generate-a-1m-annual-recurring-revenue-stream-to-your-business
 
 ---
