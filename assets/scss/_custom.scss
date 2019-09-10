@@ -597,7 +597,7 @@ p.latest {
 .hero {
   overflow: hidden;
   //     padding: 90px 0 70px;
-  padding: 100px 0 280px;
+  padding: 100px 0 240px;
 
   @include media-breakpoint-up(sm) {
     padding: 120px 0 170px;
@@ -608,7 +608,7 @@ p.latest {
   }
 
   @include media-breakpoint-up(lg) {
-    padding: 140px 0 160px;
+    padding: 140px 0 150px;
   }
 
   @include media-breakpoint-up(xxl) {
@@ -623,6 +623,11 @@ p.latest {
     margin-top: -1px;
     width: 189%;
     height: 73%;
+    display: none;
+
+    @include media-breakpoint-up(sm) {
+      display: block;
+    }
 
     @include media-breakpoint-up(md) {
       bottom: -6px;
@@ -2242,8 +2247,8 @@ img {
   left: -23vw;
 
   @include media-breakpoint-up(md) {
-    top: -40%;
-    right: -18vw;
+    top: -37%;
+    right: -17vw;
     left: auto;
     height: 100%;
   }
@@ -2284,7 +2289,7 @@ img.lazyfade.lazyloaded {
   transform-origin: center;
 
   @include media-breakpoint-up(md) {
-    transform: scale(0.6) !important;
+    transform: scale(.7)!important;
   }
 
   @include media-breakpoint-up(1024) {
