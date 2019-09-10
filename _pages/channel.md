@@ -210,9 +210,8 @@ custom_css: |-
   </style>
 menu:
   partners:
-    title: Channel Partners
     description: Create a new revenue stream with Empyr
+    title: Channel Partners
     icon: "/uploads/2019/icon-dropdown-3.svg"
-    sort_order: '4'
 
 ---

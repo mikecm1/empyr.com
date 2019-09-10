@@ -52,7 +52,7 @@ second_button:
   href: "/advertiser"
   link: ''
 textline: Primary home page
-primary_body_copy_subtext: Accelerate in-store revenue with card-linked offer campaigns
+primary_body_copy_subtext: Accelerate in store revenue with card-linked offer campaigns
   on our exclusive consumer marketplace. There’s no charge for clicks or impressions,
   and purchases are tracked in real-time, providing full online to offline attribution.
 testimonials:
