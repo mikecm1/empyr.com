@@ -34,6 +34,15 @@ fields:
   config:
     required: false
   label: Meta keywords
+- name: custom_head_tag
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Custom head tag
 - type: text
   label: Headline text
   name: heading

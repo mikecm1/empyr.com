@@ -149,6 +149,7 @@ section_three:
     href: "/"
   image: ''
 custom_code: ''
-page_name: "* Homepage"
+page_name: "* Homepage (delete)"
+custom_head_tag: <meta name="robots" content="noindex,nofollow">
 
 ---
