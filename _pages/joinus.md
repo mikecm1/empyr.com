@@ -48,10 +48,10 @@ custom_css: "<style>\n.order-1 {\nmargin: 0 auto !important;\n}\n.row.mx-auto, .
   uppercase;\ncolor: #fff;\npadding: 18px 67px;\nfont-size: 19px;\nfont-weight: 700;\nletter-spacing:
   5px;\ncursor: pointer;\n}\n\n.hs-form .hs-button:hover:not(.inactive), .hs-form
   .hs-button:focus:not(.inactive), .hs-form .hs-button.hovered:not(.inactive) {\nbackground:
-  #000;\ncolor: #fff;\n}\n\ninput.hs-input:focus, textarea.hs-input:focus {\noutline:
-  none;\n    border-color: #d4d7df;\n    box-shadow: none;\n}\n\n.hs-form fieldset.form-columns-1
-  .hs-input {\nwidth: 100% !important;\n}\n\nul.hs-error-msgs.inputs-list {\nlist-style:
-  none;\npadding: 0;\nmargin-top: 0;\nmargin-bottom: 0;\n}\n\nul.hs-error-msgs.inputs-list
+  #000;\ncolor: #fff;\n}\n\ninput.hs-input:focus, textarea.hs-input:focus, select.hs-input:focus
+  {\noutline: none;\n    border-color: #d4d7df;\n    box-shadow: none;\n}\n\n.hs-form
+  fieldset.form-columns-1 .hs-input {\nwidth: 100% !important;\n}\n\nul.hs-error-msgs.inputs-list
+  {\nlist-style: none;\npadding: 0;\nmargin-top: 0;\nmargin-bottom: 0;\n}\n\nul.hs-error-msgs.inputs-list
   label{\ncolor: #ff4747;\npadding-top: 9px;\nfont-size: 14.5px;\n}\n\nul.hs-error-msgs.inputs-list
   li {\npadding-bottom: 0;\nmargin-bottom: 0;\n}\n\nul.hs-error-msgs.inputs-list .hs-form
   label {\npadding: 0 !important;\n}\n\n@media screen and (max-width: 480px) {\nform.hs-form
