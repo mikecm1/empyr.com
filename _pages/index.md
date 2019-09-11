@@ -62,7 +62,7 @@ testimonials:
   name: Laura Soriano
   company: Earnin
   icon: ''
-  logo: "/uploads/2019/logo-earnin.png"
+  logo: "/uploads/2019/earnin.png"
   job_title: Senior Brand Marketing Writer
 - quote: The most exciting aspect of Cash Back is how it works in tandem with our
     existing app features and enhances the data-driven insights and recommendations
@@ -70,12 +70,12 @@ testimonials:
   name: Tapan Bhat
   company: NerdWallet
   icon: ''
-  logo: "/uploads/2019/logo-nw.png"
+  logo: "/uploads/2019/nerdwallet.png"
   job_title: Chief Product Officer
 - quote: Working with Empyr means we can bring retail offers to cardholders, but crucially the myGini engine can target these and make sure that the consumer gets the offers and rewards that matter on their smartphones at the point of transaction.
   name: Reka Agopcsa
   icon: ''
-  logo: "/uploads/2019/logo-mygini.png"
+  logo: "/uploads/2019/mygini.png"
   job_title: Public Relations
   company: MyGini
 - quote: Card Linked Offers provide a seamless client experience, to earn back money
@@ -83,7 +83,7 @@ testimonials:
   name: Allyson Federbush
   company: Stash
   icon: ''
-  logo: "/uploads/2019/logo-stash.png"
+  logo: "/uploads/2019/stash.png"
   job_title: Head of Communications
 company_types:
 - badge: Advertisers
