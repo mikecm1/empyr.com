@@ -277,12 +277,14 @@ layout: default
                       </div>
                       <p class="lead mb-2 mt-0">"{{ item.quote }}"</p>
                       <div class="media align-items-center">
+                          {% if item.icon and item.icon != "" %}
                         <div class="mr-2">
                           <img class="rounded" src="{{ item.icon | absolute_url | default:"/uploads/2019/05/icon-place.svg" | absolute_url }}" width="60" height="60" />
                         </div>
+                        {% endif %}
                         <div class="media-body">
-                          <h6 class="mb-0">{{ item.name }}</h6>
-                          <p class="small mb-0">{{
+                          <h5 class="mb-0">{{ item.name }}</h5>
+                          <p class="text-muted mb-0">{{
                                                     item.company }}</p>
                         </div>
                       </div>
