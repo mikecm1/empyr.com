@@ -1,5 +1,5 @@
 ---
-title: Online to Offline Commerce - O2O - Card Linked Offers
+title: Remove page
 permalink: "/delete"
 layout: landing-page
 description: Empyr empowers companies to track and monetize online to offline (o2o)
