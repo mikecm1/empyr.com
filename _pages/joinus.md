@@ -34,14 +34,15 @@ custom_css: "<style>\n.order-1 {\nmargin: 0 auto !important;\n}\n.row.mx-auto, .
   grayscale;\nfont-smoothing: antialiased;\n-webkit-font-smoothing: antialiased;\ntext-shadow:
   rgba(0, 0, 0, .01) 0 0 1px;\n}\n\n.footer-cta:before {\ntransform: scaleY(-1);\ntop:
   2px;\nopacity: 0.6;\n}\n\n.hs-form fieldset {\nmax-width: 100% !important;\n}\n\n.hs-form
-  fieldset select {\nheight: 54px;\npadding: 17px 15px;\nmargin: 6px 0 0;\nborder:
-  none;\nbackground: #f3f7fc;\nfont-size: 17px;\nline-height: normal;\nbox-sizing:
-  border-box;\nborder-radius: 5px;\ncolor: #000;\n-webkit-appearance: none;\n-moz-appearance:
-  none;\nappearance: none;\nbackground-image: url(\"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'
-  width='100' height='100' fill='%23000000'><polygon points='20,0 80,0 50,52'/></svg>\");\nbackground-size:
-  12px;\nbackground-position-x: calc(100% - 16px);\nbackground-position-y: calc(100%
-  - 16px);\nbackground-repeat: no-repeat;\n/* box-shadow: 0 1px 3px 1px rgba(160,161,188,.14);
-  */\n}\n\n.hs-form .hs-input, .hs-form textarea.hs-input {\nmax-width: auto !important;\n}\n\n.hs-form.stacked
+  fieldset select {\n    background-image: url(data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'
+  width='100' height='100' fill='%23000000'><polygon points='20,0 80,0 50,52'/></svg>);\n
+  \   background-size: 12px;\n    background-position-x: calc(100% - 16px);\n    background-position-y:
+  calc(100% - 16px);\n    background-repeat: no-repeat;\n    line-height: normal;\n
+  \   box-sizing: border-box;\n    background-color: #fcfcfd;\n    border: 2px solid
+  hsla(213, 25%, 93%, 1);\n    padding: 15px;\n    width: 100%;\n    display: block;\n
+  \   border-radius: 5px;\n    font-size: 18px;\n    transition: opacity 0.4s;\n    text-align:
+  left;\n    height: auto;\n    -webkit-appearance: none;\n}\n\n.hs-form .hs-input,
+  .hs-form textarea.hs-input {\nmax-width: auto !important;\n}\n\n.hs-form.stacked
   .actions {\ntext-align: center;\nmargin-top: 35px;\n}\n\n.hs-form .hs-button {\nbackground-color:
   #1882fc!important;\nborder-radius: 8px;\ntransition: all 0.15s linear;\ntext-transform:
   uppercase;\ncolor: #fff;\npadding: 18px 67px;\nfont-size: 19px;\nfont-weight: 700;\nletter-spacing:
