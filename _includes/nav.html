@@ -80,7 +80,8 @@ justify-content-between">
                                 <div class="col col-12 mb-md-0 pb-0">
                                     <p class="lead d-none d-lg-block">By Partner Type</p>
                                 </div>
-                                {% for item in item.children %}
+                                {% assign items = item.children | sort: 'sort_order' %}
+                                {% for item in items %}
                                 <div class="col col-12 mb-0 pb-0 px-1">
                                     <a class="dropdown-item text-dark py-1 mb-0" href="{{ item.url }}"
                                         title="{{ item.title }}">
