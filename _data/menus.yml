@@ -1,9 +1,9 @@
 ---
 navigation:
-# - url: "/contact"
-#   title: Contact
-#   identifier: contact
-#   weight: 5
+- url: https://blog.empyr.com/
+  title: Blog
+  identifier: blog
+  weight: 4
 - url: "#"
   title: Solutions
   identifier: partners
@@ -12,7 +12,3 @@ navigation:
   title: Home
   identifier: home
   weight: 1
-- url: "https://blog.empyr.com/"
-  title: Blog
-  identifier: blog
-  weight: 4

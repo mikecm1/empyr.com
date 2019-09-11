@@ -2,7 +2,8 @@
 layout: standard-page
 permalink: "/about-empyr/"
 title: About Empyr
-heading: We help companies generate revenue and delight their users with card linked offers
+heading: We help companies generate revenue and delight their users with card linked
+  offers
 description: Empyr's technology makes earning rewards on in-store purchases so easy,
   sometimes it happens without you even thinking about it, kinda like breathing.  We
   used this mission to build out the Empyr API, which powers online-to-offline (O2O)
@@ -14,7 +15,13 @@ description: Empyr's technology makes earning rewards on in-store purchases so e
   Empyr’s growing network of publisher partners includes Yelp, Microsoft, LivingSocial,
   Coupons.com, Swagbucks and over 1,500 other websites and apps.
 keywords: ''
-sub_heading: Empyr's platform makes earning rewards on in-store purchases so easy, it happens without extra work, kinda like breathing. We used this mission to build out the Empyr API, which powers online-to-offline (O2O) card linked marketing programs for leading websites and apps. Direct integration with the three leading credit card associations allow consumers to automatically earn rewards at offline merchants by simply paying with linked debit or credit cards, while generating revenue and unlocking offline attribution for advertisers and digital publishers.
+sub_heading: Empyr's platform makes earning rewards on in-store purchases so easy,
+  it happens without extra work, kinda like breathing. We used this mission to build
+  out the Empyr API, which powers online-to-offline (O2O) card linked marketing programs
+  for leading websites and apps. Direct integration with the three leading credit
+  card associations allow consumers to automatically earn rewards at offline merchants
+  by simply paying with linked debit or credit cards, while generating revenue and
+  unlocking offline attribution for advertisers and digital publishers.
 show_staff: true
 show_news: false
 mainfeatures: []
@@ -61,18 +68,17 @@ custom_css: |-
   }
   </style>
 page_name: "* About Empyr"
-menu:
-  navigation:
-    title: Company
-    identifier: company
-    weight: 3
 slides:
 - "/img/company-6.jpg"
 - "/img/company-2.jpg"
 - "/img/company-1.jpg"
 body_headline: Meet the Empyr team
----
+menu:
+  navigation:
+    weight: 3
+    title: Company
 
+---
 <div class="swiper pt-4 pb-5 mb-5 offset-lg vw-100">
   <div class="position-relative mb-3">
     <div class="swiper-container row standard" id="slider-gallery-14">
