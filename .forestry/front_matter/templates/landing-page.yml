@@ -373,4 +373,5 @@ fields:
       format: markdown
   label: Custom code
 pages:
+- _pages/online-to-offline-commerce-o2o-card-linked-offers.md
 - _pages/index.md
