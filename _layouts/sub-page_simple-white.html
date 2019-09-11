@@ -67,7 +67,7 @@ layout: default
     <div style="background: #f9fafc;">
       <div class="container pt-0 vw">
         {% if page.mainfeatures %}
-        <div class="intro px-0 py-3 py-xl-5 card-body card shadow-sm shadow-none bg-transparent">
+        <div class="intro px-2 px-md-0 py-3 py-xl-5 card-body card shadow-sm shadow-none bg-transparent">
           <div class="row py-2">
             {% for item in page.mainfeatures %}
             <div class="col-12 col-md-4 mb-4 mb-md-0" data-aos="basic" data-aos-delay="{{ forloop.index | times: 150 }}" data-aos-anchor-placement="top">
@@ -323,15 +323,20 @@ layout: default
       </div>
     </div>
     {% if page.add_sticky_bar %}
+    <style>
+    footer {
+      padding-bottom: 70px;
+    }
+    </style>
 <a href="{{ page.sticky_ad_bar.button_url }}" target="_blank" >
-      <div class="d-flex fixed-bottom align-items-center py-2 py-md-1 text-white sticky" style="background-image:url('{{ page.sticky_ad_bar.background_image }}')">
+      <div class="d-flex fixed-bottom align-items-center py-1 text-white sticky" style="background-image:url('{{ page.sticky_ad_bar.background_image }}')">
         <div class="container" style="max-width: 860px;">
           <div class="row">
-            <div class="col-md-8 sidebar mb-2 mb-md-0 d-flex align-items-center">
-              <div class="d-flex align-items-center text-white text-left font-weight-500" style="font-size: 16.5px; line-height: 1.35;">{{ page.sticky_ad_bar.content }}</div>
+            <div class="col-md-8 sidebar mb-0 d-flex align-items-center">
+              <div class="d-flex align-items-center text-white text-center text-md-left font-weight-500" style="font-size: 16.5px; line-height: 1.35;">{{ page.sticky_ad_bar.content }}</div>
             </div>
-            <div class="col-md">
-              <div class="btn btn-outline-white w-100 py-1">{{ page.sticky_ad_bar.button_text }}</div>
+            <div class="col-md d-none d-md-block">
+              <div class="btn btn-outline-white w-100 py-1 py-md-1">{{ page.sticky_ad_bar.button_text }}</div>
             </div>
           </div>
         </div>
