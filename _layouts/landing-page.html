@@ -164,9 +164,9 @@ layout: default
       <div class="row pt-2 feat">
         {% for item in page.mainfeatures %}
         {% if forloop.length == 4 %}
-        <div class="eq col-12 col-lg-6 col-xl-3 mb-xl-0 mb-4 mb-md-0" data-aos="fade-up" data-aos-delay="{{ forloop.index | times: 150 }}">
+        <div class="eq col-12 col-lg-6 col-xl-3 mb-xl-0 mb-4 mb-md-0" data-aos="basic" data-aos-delay="{{ forloop.index | times: 150 }}">
           {% elsif forloop.length== 3 %}
-          <div class="eq col-12 mb-4 mb-md-0 col-md-4" data-aos="fade-up" data-aos-delay="{{ forloop.index | times: 150 }}">
+          <div class="eq col-12 mb-4 mb-md-0 col-md-4" data-aos="basic" data-aos-delay="{{ forloop.index | times: 150 }}">
             {% endif %}
             <div>
               <img class="mb-2" src="{{ item.icon | absolute_url }}" alt="" width="50">
@@ -212,7 +212,7 @@ layout: default
               </div>
               <div class="col-12 col-md-7 order-2 pl-0 pl-md-4
                             mb-4 mb-md-0 pr-0">
-                <img class="w-100" src="/img/section-logo-rounded.png" data-aos="fade-left" data-aos-delay="300">
+                <img class="w-100" src="/img/section-logo-rounded.png" data-aos="basic" data-aos-delay="300">
               </div>
             </div>
           </section>
@@ -223,7 +223,7 @@ layout: default
               <div class="col-12 order-2 order-md-1 col-md-7 pl-md-0 mb-4 mb-md-0 pr-0 pr-md-5">
                 <img class="mw-100" src="{{
                                     page.section_two.img }}" width="{{
-                                        page.section_two.img_width }}" data-aos="fade-right" data-aos-delay="300">
+                                        page.section_two.img_width }}" data-aos="basic" data-aos-delay="300">
               </div>
               <div class="col-12 order-1 order-md-2 col-md-5 pt-md-4" data-aos="basic">
                 <h4 class="mb-2 tag">{{ page.section_two.tagline }}</h4>
@@ -251,7 +251,7 @@ layout: default
                                 page.section_three.button.text }}</a> -->
               </div>
               <img class="analytics" src="{{
-                                page.section_three.img }}" data-aos="fade-left" data-aos-delay="300">
+                                page.section_three.img }}" data-aos="basic" data-aos-delay="300">
             </div>
           </section>
           {% endif %}
@@ -304,8 +304,24 @@ layout: default
           </div>
           {% if page.company_types %}
           <div class="row pt-3 mb-1 mb-md-0">
+
+              <!-- {% for item in page.mainfeatures %}
+              {% if forloop.length == 4 %}
+              <div class="eq col-12 col-lg-6 col-xl-3 mb-xl-0 mb-4 mb-md-0" data-aos="basic" data-aos-delay="{{ forloop.index | times: 150 }}">
+                {% elsif forloop.length== 3 %}
+                <div class="eq col-12 mb-4 mb-md-0 col-md-4" data-aos="basic" data-aos-delay="{{ forloop.index | times: 150 }}">
+                  {% endif %}
+                  <div>
+                    <img class="mb-2" src="{{ item.icon | absolute_url }}" alt="" width="50">
+                    <h5 class="h5">{{ item.heading }}</h5>
+                    <div class="lighten">{{ item.description }}</div>
+                  </div>
+                </div>
+                {% endfor %} -->
+
+                
             {% for item in page.company_types %}
-            <div class="col-12 col-lg-4 mb-3 mb-lg-0 px-1">
+            <div class="col-12 col-lg-4 mb-3 mb-lg-0 px-1" data-aos="basic" data-aos-delay="{{ forloop.index | times: 150 }}" data-aos-anchor-placement="bottom-bottom">
               <a href="{{ item.url | absolute_url }}">
                 <div class="card partner py-5 px-3">
                   <img src="{{ item.icon }}" class="icon">

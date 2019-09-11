@@ -72,9 +72,7 @@ testimonials:
   icon: ''
   logo: "/uploads/2019/logo-nw.png"
   job_title: Chief Product Officer
-- quote: Working with Empyr means we can bring those retail offers to the cardholders,
-    but crucially the myGini engine can target these and make sure that the end consumer
-    gets the offers and rewards that matter on their smartphones at the point of transaction.
+- quote: Working with Empyr means we can bring retail offers to cardholders, but crucially the myGini engine can target these and make sure that the consumer gets the offers and rewards that matter on their smartphones at the point of transaction.
   name: Reka Agopcsa
   icon: ''
   logo: "/uploads/2019/logo-mygini.png"

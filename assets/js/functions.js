@@ -3,7 +3,7 @@ $(document).ready(function () {
     once: !0,
     duration: 400,
     disable: "mobile",
-    anchorPlacement: "top"
+    // anchorPlacement: "center-bottom"
   });
 
   $("[data-id=nav-sidebar-toggle]").click(function (e) {
