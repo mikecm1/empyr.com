@@ -104,16 +104,16 @@ user_testimonials:
       literally the best thing ever.
     user_photo: "/uploads/2019/grace.jpg"
     logo: "/img/yelp-cb-logo.png"
-  - person_name: Lou C.
-    program_name: Yelp Cash Back
-    quote: 'Yo! I’ve gotta tell ya. #YelpCashBack brought me here.'
+  - person_name: Hilarey W.
+    program_name: NerdWallet Cash Back
+    quote: 'If you haven’t signed up for a cash back credit card yet, this is a great way to experience the same perks with just a debit card. Free money every month? Yes please!'
     user_photo: ''
-    logo: "/img/yelp-cb-logo.png"
-  - person_name: Nicole
-    program_name: Yelp Cash Back
-    quote: 'Loving Yelp Cash back so much, you guys. '
+    logo: "/img/logo-nerd.png"
+  - person_name: Jonathan H.
+    program_name: Swagbucks Local
+    quote: 'I was surprised to see local restaurants in my area (Lancaster city, PA), even a couple mom-and-pop restaurants (i.e. not chains) offering 7% cash back!'
     user_photo: ''
-    logo: "/img/yelp-cb-logo.png"
+    logo: "/img/logo-swag.png"
   - person_name: Ingy
     program_name: Yelp Cash Back
     user_photo: "/uploads/2019/ing.jpg"
@@ -121,16 +121,15 @@ user_testimonials:
     quote: " So Yelp Cash Back is amazing. I got $2 back from a restaurant in credit.
       I’ll take it. That’s like an entire bagel."
   - person_name: Andrew H.
-    program_name: Yelp Cash Back
+    program_name: Pei
     user_photo: ''
-    logo: "/img/yelp-cb-logo.png"
-    quote: Just got my first payment, couple bucks got credited to my CC, sweet!
-  - person_name: Polina W.
-    program_name: Yelp Cash Back
+    logo: "/img/logo-pei.png"
+    quote: "Pei has made going out and spending money a little more fun. Especially because I already use a cashback credit card and now can earn even more cashback."
+  - person_name: Jim W.
+    program_name: Swagbucks Local
     user_photo: ''
-    logo: "/img/yelp-cb-logo.png"
-    quote: " It was so nice to get a notification from Yelp telling me I’ll see some
-      of that money back next month :)"
+    logo: "/img/logo-swag.png"
+    quote: "When you use your credit card at a restaurant in the program, you get cashback! There's nothing else you need to do. So easy."
 section_three:
   tagline: ''
   section_header: ''
