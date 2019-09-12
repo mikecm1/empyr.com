@@ -1959,6 +1959,21 @@ h4.tag {
   box-shadow: $box-shadow-sm !important;
 }
 
+section.analytics::before {
+  background: url(http://localhost:4000/img/home-analytics-bg.svg);
+  content: '';
+  height: 50%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-size: cover;
+  @include media-breakpoint-up(sm) {
+    height: 80%;
+    max-height: 650px;
+  }
+}
+
 .home_analytics {
   overflow: visible;
   margin-right: -180px;
@@ -1986,34 +2001,34 @@ h4.tag {
 
 img {
   &.analytics {
-    position: relative;
     bottom: 20px;
-    left: -40%;
+    left: -30%;
+    -ms-flex-item-align: center;
     align-self: center;
-    max-width: 1600px;
-    width: 150%;
+    width: 140%;
+    position: relative;
 
     @include media-breakpoint-up(md) {
       position: absolute;
-      top: -30px;
-      left: -60px;
-      max-width: 1070px;
+      top: -20px;
+      left: 60px;
+      max-width: 1010px;
       width: auto;
     }
 
     @include media-breakpoint-up(lg) {
-      top: -90px;
+      top: -50px;
       bottom: auto;
-      left: -10%;
-      max-width: 1380px;
+      left: 3%;
+      max-width: 1260px;
       width: auto;
     }
 
     @include media-breakpoint-up(xl) {
-      top: -80px;
+      top: -70px;
       bottom: auto;
-      left: -150px;
-      max-width: 1640px;
+      left: 10px;
+      max-width: 1500px;
       width: auto;
     }
 

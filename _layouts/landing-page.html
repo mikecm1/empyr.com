@@ -238,8 +238,10 @@ layout: default
             </div>
           </section>
           {% endif %}
+        </div>
           {% if page.section_three %}
-          <section class="mb-0 pb-md-1 mt-md-5">
+          <section class="mb-0 pb-md-1 mt-md-5 analytics">
+              <div class="container full">
             <div class="row justify-content-between align-items-top home_analytics">
               <div class="col-12 col-md-6 pr-xl-5 pr-xxl-0 col-xxl-5 col-xl-6 pt-sm-1 mt-sm-2 z1" data-aos="basic">
                 <h4 class="mb-2 tag">{{ page.section_three.tagline}}</h4>
@@ -253,15 +255,15 @@ layout: default
               <img class="analytics" src="{{
                                 page.section_three.img }}" data-aos="basic" data-aos-delay="300">
             </div>
+          </div>
           </section>
           {% endif %}
-        </div>
       </div>
-      <section class="border-top py-md-5">
+      <section class="py-md-5">
         <div class="container full">
           <div class="testimonials prof">
             <div class="text-center">
-              <h1 class="mb-2">You're in good company</h1>
+              <h1>You're in good company</h1>
               <p class="sub-text large mb-5">Trusted by the top forward-thinking national brands and
                 digital publishers</p>
             </div>
@@ -301,7 +303,7 @@ layout: default
       <div class="solutions bg-g50">
         <div class="container full">
           <div class="text-center">
-            <h1 class="mb-2">{{ page.cta_footer_header }}</h1>
+            <h1>{{ page.cta_footer_header }}</h1>
             <p class="sub-text large mb-2">{{ page.cta_footer_subheader }}</p>
           </div>
           {% if page.company_types %}

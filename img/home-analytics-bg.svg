@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3596" height="1302" viewBox="0 0 3596 1302">
+  <defs>
+    <linearGradient id="home-analytics-bg-a" x1="51.347%" x2="51.347%" y1="52.824%" y2="98.886%">
+      <stop offset="0%" stop-color="#F7F9FD"/>
+      <stop offset="100%" stop-color="#FAFBFE"/>
+    </linearGradient>
+  </defs>
+  <polygon fill="url(#home-analytics-bg-a)" fill-rule="evenodd" points="0 1730 0 1159.58 256.857 1111.921 513.714 1130.984 770.571 988.005 1027.429 1009.452 1284.286 1040.431 1541.143 973.707 1798 988.005 2054.857 802.131 2311.714 744 2568.571 777.805 2825.429 690.13 3082.286 649.619 3339.143 542.384 3596 428 3596 1730 699.154 1730" transform="translate(0 -428)"/>
+</svg>
