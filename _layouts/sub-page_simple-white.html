@@ -64,26 +64,28 @@ layout: default
     </div>
   </div>
   <div>
-    <div class="bg-gray-25">
-      <div class="container pt-0 vw">
+    <div class="container">
+      <div class="pt-0 vw">
         {% if page.mainfeatures %}
-        <div class="intro px-2 px-md-0 py-3 py-xl-4 card-body card shadow-sm shadow-none bg-transparent">
-          <div class="row py-2">
-            {% for item in page.mainfeatures %}
-            <div class="col-12 col-md-4 mb-4 mb-md-0" data-aos="basic" data-aos-delay="{{ forloop.index | times: 150 }}" data-aos-anchor-placement="top">
-              <img class="mb-2" src="{{ item.icon | absolute_url }}" alt="" height="65">
-              <h5 class="pb-0">{{ item.heading }}</h5>
-              <div class="lighten mt-0">{{ item.description }}</div>
+        <div class="rounded-xl bg-gray-25">
+          <div class="intro px-2 px-md-4 py-3 py-xl-2 card-body card shadow-sm shadow-none bg-transparent">
+            <div class="row py-2">
+              {% for item in page.mainfeatures %}
+              <div class="col-12 col-md-4 mb-4 mb-md-0" data-aos="basic" data-aos-delay="{{ forloop.index | times: 150 }}" data-aos-anchor-placement="top">
+                <img class="mb-2" src="{{ item.icon | absolute_url }}" alt="" height="65">
+                <h5 class="pb-0">{{ item.heading }}</h5>
+                <div class="lighten mt-0">{{ item.description }}</div>
+              </div>
+              {% endfor %}
+              <!-- <button class="btn btn-lg btn-secondary primary join mr-0 w-md-100" type="submit">{{ page.cta_with_email }}</button> -->
             </div>
-            {% endfor %}
-            <!-- <button class="btn btn-lg btn-secondary primary join mr-0 w-md-100" type="submit">{{ page.cta_with_email }}</button> -->
           </div>
         </div>
       </div>
     </div>
     {% endif %}
     {% if page.partners %}
-    <div class="logos pt-4">
+    <div class="logos pt-3">
       <div class="container pt-2 pb-4 px-md-5">
         <div class="row justify-content-center justify-content-lg-between text-center align-items-center">
           {% for logo in page.partners %}
@@ -138,9 +140,9 @@ layout: default
     <div class="container full features pb-0">
       <div class="row justify-content-between">
         <div class="col-12 col-md-6 col-xxl-6 order-2 px-md-0 pr-md-2">
-            <div class="mr-md-5" data-aos="basic" data-aos-delay="300">
-          <img class="img-fluid" src="{{ page.section_two.image | default: '/assets/pictures/image-555x380.png' }}" data-aos="fade-right" data-aos-delay="0" />
-        </div>
+          <div class="mr-md-5" data-aos="basic" data-aos-delay="300">
+            <img class="img-fluid" src="{{ page.section_two.image | default: '/assets/pictures/image-555x380.png' }}" data-aos="fade-right" data-aos-delay="0" />
+          </div>
         </div>
         <div class="col-12 col-md-6 order-1 order-md-2 pl-xl-4">
           <div data-aos="basic">
