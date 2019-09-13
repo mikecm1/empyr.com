@@ -504,7 +504,7 @@ p.latest {
 .sub {
   &.solutions {
     .card {
-      padding: 30px 20px !important;
+      padding: 20px !important;
     }
   }
 
@@ -1007,10 +1007,9 @@ header {
   position: relative;
   z-index: 1;
   background: #fff;
-  box-shadow: 0 20px 40px -10px rgba(87,100,171,.06);
-  .logos {
+  box-shadow: 0 20px 40px -10px rgba(87, 100, 171, .06);
 
-  }
+  .logos {}
 
   &::after {
     position: absolute;
@@ -1025,6 +1024,7 @@ header {
     background-size: 100%;
     background-repeat: no-repeat;
     opacity: 0.8;
+
     @include media-breakpoint-up(md) {
       content: '';
     }
@@ -1424,9 +1424,9 @@ svg.fsvg {
   .lead {
     margin-bottom: 0 !important;
     color: #bcc8d4;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     line-height: inherit;
-    max-width: 580px;
+    max-width: 510px;
     margin: 0 auto;
 
     @include media-breakpoint-down(sm) {
@@ -1440,7 +1440,6 @@ svg.fsvg {
     margin-bottom: 1.2rem;
     color: #fff;
     letter-spacing: -1.1px;
-    font-weight: 500;
     line-height: 1.1;
 
     //         @include media-breakpoint-up(lg) {
@@ -2129,6 +2128,7 @@ img {
   max-width: 1170px;
   margin: 0 auto;
 }
+
 .img-logo {
   max-width: 100%;
   max-height: 60px;

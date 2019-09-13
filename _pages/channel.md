@@ -146,65 +146,58 @@ case_studies:
 page_name: "* Channel Partners"
 custom_css: |-
   <style id="custom_style">
-  @media (min-width: 1150px) {
-  .sub .headline {
-    font-size: 2.5rem;
-    max-width: 39rem;
-  }
-  }
-  section {
-  padding: 3rem 0;
-  }
   @media (min-width: 768px) {
-    section {
+  .std section {
   padding: 5.4rem 0;
   }
-  }
-  @media (min-width: 768px){
-  .mw-md-130 {
-        position: absolute;
-    top: -310px;
-    left: 10px;
-    max-width: 590px!important;
+  .std .mw-md-130 {
+  position: absolute;
+  top: -310px;
+  left: 10px;
+  max-width: 590px !important;
   }
   }
-  @media (min-width: 992px){
-  .mw-md-130 {
-    top: -310px;
-    left: 12%;
-    max-width: 590px!important;
+  @media (min-width: 992px) {
+  .std .mw-md-130 {
+  top: -310px;
+  left: 12%;
+  max-width: 590px !important;
   }
-  .hero:not(.default) p {
+  .std .hero.sub {
+  overflow: visible !important;
+  }
+  .std .hero:not(.default) p {
   max-width: 645px;
   }
   }
-  @media (min-width: 1024px){
-  .mw-md-130 {
-    top: -260px;
-    left: 18%;
+  @media (min-width: 1150px) {
+  .std .sub .headline {
+  font-size: 2.5rem;
+  max-width: 39rem;
   }
-  }
-  @media (min-width: 1150px){
-  .mw-md-130 {
-    top: -280px;
-    left: 3%;
+  .std .mw-md-130 {
+  top: -280px;
+  left: 3%;
   }
   }
   @media (min-width: 1400px) {
-  .mw-md-130 {
-        left: 5%;
-    max-width: 590px!important;
-    top: -270px;
+  .std .mw-md-130 {
+  left: 12%;
+  max-width: 640px !important;
+  top: -280px;
   }
   }
-  .intro.card {
-    border-radius: 0 0 15px 15px;
+  section .std {
+  padding: 3rem 0;
   }
-  .fcta h1 {
-    font-weight: 700;
+  .intro.card .std {
+  border-radius: 0 0 15px 15px;
   }
-  .fcta .lead {
-    max-width: 680px;
+  .fcta h1 .std {
+  font-weight: 700;
+  }
+  .fcta .lead .std {
+  max-width: 780px;
   }
   </style>
 menu:

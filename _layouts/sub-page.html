@@ -92,7 +92,7 @@ layout: default
       {% endif %}
       <div class="row px-2 px-md-0 mt-md-4 text-left text-md-center mb-4">
         <div class="col-12 mt-4">
-            <div class="rounded-circle mx-md-auto d-flex flex-wrap align-items-center justify-content-center icon-loud mb-2" style="width:65px; height: 65px;" data-aos="basic"><img src="{{ page.primary_body_icon | absolute_url }}" class="align-self-center" width="35"></div>
+          <div class="rounded-circle mx-md-auto d-flex flex-wrap align-items-center justify-content-center icon-loud mb-2" style="width:65px; height: 65px;" data-aos="basic"><img src="{{ page.primary_body_icon | absolute_url }}" class="align-self-center" width="35"></div>
           <h1 class="headline mt-1 mx-auto mb-2" data-aos="basic" data-aos-delay="100">
             {{ page.primary_body_copy_headline }}</h1>
         </div>
@@ -153,171 +153,163 @@ layout: default
           {% endif %}
         </div>
     </section>
-    </div>
-    {% endif %}
-    {% if page.section_three.section_header and page.section_three.section_header != "" %}
-    <section class="bg-gray-25">
-<div class="container full py-3 py-md-5">
-        <div class="row justify-content-between align-items-top">
-          <div class="col-12 col-md-6 order-1 order-md-1">
-            <h4 class="mb-2 tag" data-aos="basic">{{ page.section_three.tagline }}</h4>
-            <h1 class="pr-xl-4 pr-xxl-5 mb-md-2" data-aos="basic mb-md-2" data-aos-delay="50">
-              {{ page.section_three.section_header }}</h1>
-            <img src="/img/headline-separator.svg" alt="" data-aos="basic" data-aos-delay="150">
-            <p class="mb-4 mt-md-2 pr-xl-4" data-aos="basic" data-aos-delay="200">
-              {{ page.section_three.section_body_copy }}</p>
-          </div>
-          <div class="col-12 col-md-6 order-2 order-md-2">
-            <img class="w-100" src="{{ page.section_three.image }}" data-aos="basic" data-aos-delay="300" />
-          </div>
+  </div>
+  {% endif %}
+  {% if page.section_three.section_header and page.section_three.section_header != "" %}
+  <section class="bg-gray-25">
+    <div class="container full py-3 py-md-5">
+      <div class="row justify-content-between align-items-top">
+        <div class="col-12 col-md-6 order-1 order-md-1">
+          <h4 class="mb-2 tag" data-aos="basic">{{ page.section_three.tagline }}</h4>
+          <h1 class="pr-xl-4 pr-xxl-5 mb-md-2" data-aos="basic mb-md-2" data-aos-delay="50">
+            {{ page.section_three.section_header }}</h1>
+          <img src="/img/headline-separator.svg" alt="" data-aos="basic" data-aos-delay="150">
+          <p class="mb-4 mt-md-2 pr-xl-4" data-aos="basic" data-aos-delay="200">
+            {{ page.section_three.section_body_copy }}</p>
         </div>
-</divc>
-    </section>
-    {% endif %}
-    {% if page.section_four %}
-    <section>
-        <div class="container full py-3 py-md-5">
-        <div class="row justify-content-between align-items-top">
-          <div class="col-12 col-md-6 col-xl-6 order-2 order-md-1 pr-xl-3">
-            <img class="w-100" src="{{ page.section_four.image }}" data-aos="basic" data-aos-delay="300" />
-          </div>
-          <div class="col-12 col-md-6 col-xl-6 pl-md-2 pl-xxl-4 order-1 order-md-2">
-            <h4 class="mb-2 tag" data-aos="basic">{{ page.section_four.tagline }}</h4>
-            <h1 class="pr-xl-3 pr-xxl-5 mb-md-2" data-aos="basic mb-md-2" data-aos-delay="50">
-              {{ page.section_four.section_header }}</h1>
-            <img src="/img/headline-separator.svg" alt="" data-aos="basic" data-aos-delay="150">
-            <p class="mb-4 mt-md-2" data-aos="basic" data-aos-delay="200">
-              {{ page.section_four.section_body_copy }}</p>
-          </div>
-        </div>
-        {% if page.show_lift %}
-        <div class="mt-2 mt-md-5 mb-4 bg-secondary col-lg-12 shadow-lg lift" data-aos="basic" data-aos-delay="150">
-        </div>
-        {% endif %}
-      </section>
-</div>
-    {% endif %}
-  
-  {% if page.show_offset_image %}
-  <section class="text-center has-divider offset-large-img features pb-0 border-top">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-xl-7 col-lg-8 col-md-9">
-          <h1 class="display-4 pt-4">True offline analytics</h1>
-          <p class="lead pb-3">Analyze, measure, and improve campaign performance with 24/7 access to your real-time online to offline sales dashboard.</p>
+        <div class="col-12 col-md-6 order-2 order-md-2">
+          <img class="w-100" src="{{ page.section_three.image }}" data-aos="basic" data-aos-delay="300" />
         </div>
       </div>
-      <div class="row justify-content-center mt-6">
-        <div class="col-lg-9 rounded-10 rounded-xl box-shadow-xl mx-2 mx-md-0 p-0">
-          <img src="{{ page.offset_img_url }}" class="img-fluid">
-        </div>
-      </div>
-    </div>
-    <div class="divider">
-      <!-- <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="96px" viewBox="0 0 100 100" version="1.1" preserveAspectRatio="none">
-        <path d="M0,0 C16.6666667,66 33.3333333,99 50,99 C66.6666667,99 83.3333333,66 100,0 L100,100 L0,100 L0,0 Z"></path>
-      </svg> -->
-      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="96px" viewBox="0 0 100 100" version="1.1" preserveAspectRatio="none">
-          <polygon points="0,100 100,0 100,100" />
-      </svg>
-    </div>
+      </divc>
   </section>
   {% endif %}
-  {% if page.show_user_testimonials %}
-  <section class="border-top py-md-5">
-    <div class="testimonials reviews container full">
-      <h1 class="text-center pb-4 mb-4">{{ page.user_testimonials.title }}</h1>
-      <div class="swiper-container">
-        <div class="swiper-wrapper">
-          {% for item in page.user_testimonials.testimonials %}
-          <div class="swiper-slide col-12 col-md-6 eq">
-            <div class="card">
-              <div class="card-body">
-                <div class="mb-2">
-                  <img class="rounded" src="{{ item.logo | absolute_url }}" height="50" />
-                </div>
-                <p class="lead mb-2 mt-0">"{{ item.quote }}"</p>
-                <div class="media align-items-center">
-                  <div class="mr-2">
-                    {% if item.user_photo == "" %}
-                    <img class="rounded" src="/img/genericUser.jpg" width="60" height="60" />
-                    {% else %}
-                    <img class="rounded" src="{{ item.user_photo | absolute_url | default:"/img/genericUser.jpg" | absolute_url }}" width="60" height="60" />
-                    {% endif %}
-                  </div>
-                  <div class="media-body">
-                    <h6 class="mb-0">{{ item.person_name }}</h6>
-                    <p class="small mb-0">{{ item.program_name }} user</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          {% endfor %}
+  {% if page.section_four %}
+  <section>
+    <div class="container full py-3 py-md-5">
+      <div class="row justify-content-between align-items-top">
+        <div class="col-12 col-md-6 col-xl-6 order-2 order-md-1 pr-xl-3">
+          <img class="w-100" src="{{ page.section_four.image }}" data-aos="basic" data-aos-delay="300" />
         </div>
-        <div class="swiper-pagination"></div>
+        <div class="col-12 col-md-6 col-xl-6 pl-md-2 pl-xxl-4 order-1 order-md-2">
+          <h4 class="mb-2 tag" data-aos="basic">{{ page.section_four.tagline }}</h4>
+          <h1 class="pr-xl-3 pr-xxl-5 mb-md-2" data-aos="basic mb-md-2" data-aos-delay="50">
+            {{ page.section_four.section_header }}</h1>
+          <img src="/img/headline-separator.svg" alt="" data-aos="basic" data-aos-delay="150">
+          <p class="mb-4 mt-md-2" data-aos="basic" data-aos-delay="200">
+            {{ page.section_four.section_body_copy }}</p>
+        </div>
       </div>
-    </div>
-  </section>
-  {% endif %}
-  {% if page.all_features %}
-  <section class="solutions bg-g50 sub">
-    {% else %}
-    <div class="solutions bg-g50 sub">
+      {% if page.show_lift %}
+      <div class="mt-2 mt-md-5 mb-4 bg-secondary col-lg-12 shadow-lg lift" data-aos="basic" data-aos-delay="150">
+      </div>
       {% endif %}
-      <div class="container text-left">
-        {% if page.all_features %}
-        <h1 class="mb-4 text-md-center">{{ page.all_features_headline }}</h1>
-        <div class="row pt-3 text-m-center">
-          {% for item in page.all_features %}
-          <!-- <div class="col-12 col-md-4 mb-2 px-1" data-aos="basic" data-aos-anchor=".bg-g50" data-aos-delay="{{ forloop.index | times: 150 }}"> -->
-          <div class="col-12 col-md-4 mb-2 px-1">
-            <div class="card py-1 py-md-2 px-1 px-lg-2">
-              <div class="card-body">
-                <img class="mb-2" src="{{ item.icon | absolute_url }}" alt="" width="70">
-                <h5 class="mb-0">{{ item.heading }}</h5>
+  </section>
+</div>
+{% endif %}
+
+{% if page.show_offset_image %}
+<section class="text-center has-divider offset-large-img features pb-0 border-top">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-xl-7 col-lg-8 col-md-9">
+        <h1 class="display-4 pt-4">True offline analytics</h1>
+        <p class="lead pb-3">Analyze, measure, and improve campaign performance with 24/7 access to your real-time online to offline sales dashboard.</p>
+      </div>
+    </div>
+    <div class="row justify-content-center mt-6">
+      <div class="col-lg-9 rounded-10 rounded-xl box-shadow-xl mx-2 mx-md-0 p-0">
+        <img src="{{ page.offset_img_url }}" class="img-fluid">
+      </div>
+    </div>
+  </div>
+  <div class="divider">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="96px" viewBox="0 0 100 100" version="1.1" preserveAspectRatio="none">
+      <polygon points="0,100 100,0 100,100" />
+    </svg>
+  </div>
+</section>
+{% endif %}
+{% if page.show_user_testimonials %}
+<section class="border-top py-md-5">
+  <div class="testimonials reviews container full">
+    <h1 class="text-center pb-4 mb-4">{{ page.user_testimonials.title }}</h1>
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        {% for item in page.user_testimonials.testimonials %}
+        <div class="swiper-slide col-12 col-md-6 eq">
+          <div class="card">
+            <div class="card-body">
+              <div class="mb-2">
+                <img class="rounded" src="{{ item.logo | absolute_url }}" height="50" />
               </div>
-            </div>
-          </div>
-          {% endfor %}
-        </div>
-        {% endif %}
-        {% if page.show_case_studies %}
-        <div class="text-left">
-          <div class="row pt-12 pt-5">
-            <div class="col-12 col-md-6">
-              <h1>Case Studies Title</h1>
-              <p>Case Studies Sub-text</p>
-            </div>
-          </div>
-          <div class="row pt-3">
-            {% for item in page.case_studies %}
-            <div class="col-12 col-md-4 mb-3 mb-md-2">
-              <div class="card shadow-sm">
-                <div class="card-body">
-                  <img class="mb-2" src="{{ item.partner_logo | absolute_url }}" alt="">
-                  <h2>{{ item.heading }}</h2>
-                  <p>{{ item.overview }}</p>
-                  <div class="row">
-                    <div class="col-12 col-md-4 mb-md-0">
-                      <h3 class="mb-0">{{ item.incremental_revenue }}</h3>
-                      <p class="small">Incremental Revenue</p><a class="weight-500" href="#"></a>
-                    </div>
-                    <div class="col-12 col-md-4 mb-md-0">
-                      <h3 class="mb-0">{{ item.roi }}</h3>
-                      <p class="small">Total ROI per $1 Spent</p><a class="weight-500" href="#"></a>
-                    </div>
-                    <div class="col-12 col-md-4 mb-md-0">
-                      <h3 class="mb-0">{{ item.incremental_roi }}</h3>
-                      <p class="small">Incremental ROI per $1</p><a class="weight-500" href="#"></a>
-                    </div>
-                  </div>
+              <p class="lead mb-2 mt-0">"{{ item.quote }}"</p>
+              <div class="media align-items-center">
+                <div class="mr-2">
+                  {% if item.user_photo == "" %}
+                  <img class="rounded" src="/img/genericUser.jpg" width="60" height="60" />
+                  {% else %}
+                  <img class="rounded" src="{{ item.user_photo | absolute_url | default:"/img/genericUser.jpg" | absolute_url }}" width="60" height="60" />
+                  {% endif %}
+                </div>
+                <div class="media-body">
+                  <h6 class="mb-0">{{ item.person_name }}</h6>
+                  <p class="small mb-0">{{ item.program_name }} user</p>
                 </div>
               </div>
             </div>
-            {% endfor %}
           </div>
         </div>
-        {% endif %}
+        {% endfor %}
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+</section>
+{% endif %}
+{% if page.all_features %}
+<section class="solutions bg-g50 sub">
+  <div class="container text-left">
+    <h1 class="mb-4 text-md-center">{{ page.all_features_headline }}</h1>
+    <div class="row pt-3 text-m-center">
+      {% for item in page.all_features %}
+      <div class="col-12 col-md-4 mb-2 px-1">
+        <div class="card py-1 py-md-2 px-1 px-lg-2">
+          <div class="card-body">
+            <img class="mb-2" src="{{ item.icon | absolute_url }}" alt="" width="70">
+            <h5 class="mb-0">{{ item.heading }}</h5>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+{% if page.show_case_studies %}
+<div class="text-left">
+  <div class="row pt-12 pt-5">
+    <div class="col-12 col-md-6">
+      <h1>Case Studies Title</h1>
+      <p>Case Studies Sub-text</p>
+    </div>
+  </div>
+  <div class="row pt-3">
+    {% for item in page.case_studies %}
+    <div class="col-12 col-md-4 mb-3 mb-md-2">
+      <div class="card shadow-sm">
+        <div class="card-body">
+          <img class="mb-2" src="{{ item.partner_logo | absolute_url }}" alt="">
+          <h2>{{ item.heading }}</h2>
+          <p>{{ item.overview }}</p>
+          <div class="row">
+            <div class="col-12 col-md-4 mb-md-0">
+              <h3 class="mb-0">{{ item.incremental_revenue }}</h3>
+              <p class="small">Incremental Revenue</p><a class="weight-500" href="#"></a>
+            </div>
+            <div class="col-12 col-md-4 mb-md-0">
+              <h3 class="mb-0">{{ item.roi }}</h3>
+              <p class="small">Total ROI per $1 Spent</p><a class="weight-500" href="#"></a>
+            </div>
+            <div class="col-12 col-md-4 mb-md-0">
+              <h3 class="mb-0">{{ item.incremental_roi }}</h3>
+              <p class="small">Incremental ROI per $1</p><a class="weight-500" href="#"></a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
+    {% endfor %}
+  </div>
+</div>
+{% endif %}
