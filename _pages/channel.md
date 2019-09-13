@@ -69,7 +69,7 @@ section_one:
     to count on. Through our proprietary dashboard, highlight which customers are
     driving the most revenue and learn how to accelerate your program with our data
     analytics and insights reports.
-  image: "/img/dash-nat.jpg"
+  image: "/img/cp-recurring.png"
   button:
     text: Learn More
     link_url: index.md
@@ -131,7 +131,7 @@ section_three:
   section_body_copy: Matched with a Customer Success Manager that fits your team,
     Empyr will deliver customized on-boarding and sales training to ensure your team
     and their customers are set up for success and delivering results in 30 days.
-  image: "/img/attr-nat.svg"
+  image: "/img/cp-training.jpg"
   button:
     text: ''
     href: ''

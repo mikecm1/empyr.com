@@ -1763,6 +1763,10 @@ svg.fsvg {
   padding: 70px 0 !important;
 }
 
+.border-light {
+border: 1px solid #E4E8EB !important;
+}
+
 .border-top {
   border-top: 1px solid #e5e5e5;
 }
@@ -1892,6 +1896,10 @@ svg.fsvg {
 
 .box-shadow-xl {
   box-shadow: 0 40px 90px 0 rgba(22, 41, 68, .2) !important;
+}
+
+.box-shadow-long {
+box-shadow: 0 40px 80px -35px rgba(15,50,162,0.15) !important;
 }
 
 .offset-lg {

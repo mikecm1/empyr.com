@@ -67,7 +67,7 @@ layout: default
     <div style="background: #f9fafc;">
       <div class="container pt-0 vw">
         {% if page.mainfeatures %}
-        <div class="intro px-2 px-md-0 py-3 py-xl-5 card-body card shadow-sm shadow-none bg-transparent">
+        <div class="intro px-2 px-md-0 py-3 py-xl-4 card-body card shadow-sm shadow-none bg-transparent">
           <div class="row py-2">
             {% for item in page.mainfeatures %}
             <div class="col-12 col-md-4 mb-4 mb-md-0" data-aos="basic" data-aos-delay="{{ forloop.index | times: 150 }}" data-aos-anchor-placement="top">
@@ -95,15 +95,15 @@ layout: default
       </div>
     </div>
     {% endif %}
-    <div class="row pt-md-1 px-2 px-md-0 mt-md-1 text-left text-md-center mb-4">
+    <div class="row pt-md-3 px-2 px-md-0 mt-md-1 text-left text-md-center mb-4">
       <div class="col-12 col-md-8 mt-4 mx-auto">
-        {% if page.primary_body_icon != "" or page.primary_body_icon != nil %}
+        <!-- {% if page.primary_body_icon != "" or page.primary_body_icon != nil %}
         <div class="rounded-circle mx-md-auto d-flex flex-wrap align-items-center justify-content-center icon-loud mb-2" style="width:65px; height: 65px;" data-aos="basic"><img src="{{ page.primary_body_icon | absolute_url }}" class="align-self-center" width="35"></div>
-        {% endif %}
+        {% endif %} -->
         <h1 class="headline mt-1 mx-auto mb-2" data-aos="basic" data-aos-delay="100">
           {{ page.primary_body_copy_headline }}</h1>
       </div>
-      <div class="col-12 col-md-8 col-xl-7 col-xxl-6 mx-auto">
+      <div class="col-12 col-md-8 col-xl-7 col-xxl-5 mx-auto">
         <p class="lighten large" data-aos="basic" data-aos-delay="150">
           {{ page.primary_body_copy_subheadline }}</p>
       </div>
@@ -112,7 +112,7 @@ layout: default
   <div class="container full features">
     {% if page.section_one %}
     <section>
-      <div class="row justify-content-between align-items-center">
+      <div class="row justify-content-between align-items-top align-items-xl-center">
         <div class="col-12 col-md-6 col-xxl-6 order-2 order-md-1 pr-xxl-3">
           <div data-aos="basic">
             <h4 class="mb-2 tag">{{ page.section_one.tagline }}</h4>
@@ -124,7 +124,9 @@ layout: default
             {{ page.section_one.section_body_copy }}</p>
         </div>
         <div class="col-12 col-md-6 col-xxl-6 order-2 px-md-0">
-          <img class="img-fluid" src="{{ page.section_one.image }}" data-aos="fade-left" data-aos-delay="0" />
+          <div class="box-shadow-long p-3 rounded-xl ml-md-2" data-aos="basic" data-aos-delay="300">
+              <img class="img-fluid" src="{{ page.section_one.image }}" />
+          </div>
         </div>
       </div>
     </section>
@@ -162,7 +164,7 @@ layout: default
     {% endif %}
     {% if page.section_three.section_header and page.section_three.section_header != "" %}
     <section>
-      <div class="row justify-content-between align-items-top">
+      <div class="row justify-content-between align-items-top align-items-xl-center">
         <div class="col-12 col-md-6 order-1 order-md-1">
           <h4 class="mb-2 tag" data-aos="basic">{{ page.section_three.tagline }}</h4>
           <h1 class="pr-xl-4 pr-xxl-5 mb-md-2" data-aos="basic mb-md-2" data-aos-delay="50">
@@ -171,9 +173,14 @@ layout: default
           <p class="mb-4 mt-md-2 pr-xl-4" data-aos="basic" data-aos-delay="200">
             {{ page.section_three.section_body_copy }}</p>
         </div>
-        <div class="col-12 col-md-6 order-2 order-md-2 mb-4 mb-md-0">
+        <div class="col-12 col-md-6 col-xxl-6 order-2 px-md-0 offset-icon">
+            <div class="box-shadow-long rounded-xl ml-md-2" data-aos="basic" data-aos-delay="300">
+                <img class="img-fluid" src="{{ page.section_three.image }}" />
+            </div>
+          </div>
+        <!-- <div class="col-12 col-md-6 order-2 order-md-2 mb-4 mb-md-0">
           <img class="w-100" src="{{ page.section_three.image }}" data-aos="fade-left" data-aos-delay="300" />
-        </div>
+        </div> -->
       </div>
     </section>
     {% endif %}
