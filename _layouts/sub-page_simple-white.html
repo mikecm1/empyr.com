@@ -88,7 +88,7 @@ layout: default
     {% if page.partners %}
     <div class="logos pt-3">
       <div class="container pt-2 pb-4 px-md-5">
-        <div class="row justify-content-center justify-content-lg-between text-center align-items-center">
+        <div class="row justify-content-center justify-content-lg-between text-center align-items-center px-md-5">
           {% for logo in page.partners %}
           <div class="col-4 mb-4 col-md mb-md-0 logo-wrap" data-aos="basic" data-aos-delay="{{ forloop.index | times: 150 }}">
             <img src="{{ logo | absolute_url }}" class="img-logo" />
