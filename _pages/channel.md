@@ -84,7 +84,7 @@ section_two:
     and apps. This massive consumer reach guarantees there is revenue to be generated.
     The integration with the 3 major credit card brands guarantees attribution from
     to their advertising to revenue.
-  image: "/img/section-logo-rounded.png"
+  image: "/img/cp-attribution.png"
   button:
     text: ''
     link_url: index.md

@@ -1596,7 +1596,9 @@ svg.fsvg {
 .swiper {
   position: relative;
 }
-
+.swiper-slide-active {
+  z-index: 1;
+}
 .swiper-container.standard {
   .rounded-lg {
     box-shadow: -80px 90px 90px 0 rgba(22, 41, 68, 0.2);
