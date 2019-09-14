@@ -325,7 +325,7 @@ layout: default
 
                 
             {% for item in page.company_types %}
-            <div class="col-12 col-lg-4 mb-3 mb-lg-0 px-1" data-aos="basic" data-aos-delay="{{ forloop.index | times: 150 }}" data-aos-anchor-placement="bottom-bottom">
+            <div class="col-12 col-lg-4 mb-3 mb-lg-0 px-1" data-aos="basic" data-aos-delay="{{ forloop.index | times: 150 }}">
               <a href="{{ item.url | absolute_url }}">
                 <div class="card partner py-5 px-3">
                   <img src="{{ item.icon }}" class="icon">
