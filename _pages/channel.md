@@ -152,7 +152,7 @@ custom_css: |-
   }
   .std .mw-md-130 {
   position: absolute;
-  top: -310px;
+  top: -250px;
   left: 10px;
   max-width: 590px !important;
   }
@@ -161,10 +161,7 @@ custom_css: |-
   .std .mw-md-130 {
   top: -310px;
   left: 12%;
-  max-width: 590px !important;
-  }
-  .std .hero.sub {
-  overflow: visible !important;
+  max-width: 650px !important;
   }
   .std .hero:not(.default) p {
   max-width: 645px;
@@ -176,16 +173,19 @@ custom_css: |-
   max-width: 39rem;
   }
   .std .mw-md-130 {
-  top: -280px;
+  top: -320px;
   left: 3%;
   }
   }
   @media (min-width: 1400px) {
   .std .mw-md-130 {
-  left: 12%;
-  max-width: 640px !important;
-  top: -280px;
+  left: 7%;
+  max-width: 670px !important;
+  top: -350px;
   }
+  }
+  .std .hero.sub {
+  overflow: visible !important;
   }
   section .std {
   padding: 3rem 0;
