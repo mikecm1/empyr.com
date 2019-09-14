@@ -145,8 +145,6 @@ layout: default
           </div>
           {% endfor %}
         </div>
-        <!-- <p class="text-center pt-2 mb-0">Empyr's card-linked offer platform
-                powers programs for top digital companies.</p> -->
       </div>
     </div>
     <div class="intro container full">
@@ -207,8 +205,6 @@ layout: default
                 <img src="/img/headline-separator.svg" alt="" data-aos="basic">
                 <p class="mt-2 lead large mb-2 mb-md-4" data-aos="basic" data-aos-delay="100">{{
                                 page.section_one.section_body_copy }}</p>
-                <!-- <a href="{{ page.section_one.button.link_url }}" class="btn btn-lg btn-secondary" data-aos="basic" data-aos-delay="200" data-aos-anchor=".lead">{{
-                                page.section_one.button.text }}</a> -->
               </div>
               <div class="col-12 col-md-7 order-2 pl-0 pl-md-4
                             mb-4 mb-md-0 pr-0">
@@ -232,16 +228,14 @@ layout: default
                 <img src="/img/headline-separator.svg" alt="">
                 <p class="mt-2 lead large mb-2 mb-md-4" data-aos="basic" data-aos-delay="100">{{
                                 page.section_two.section_body_copy }}</p>
-                <!-- <a href="{{ page.section_two.button.link_url }}" class="btn btn-lg btn-secondary" data-aos="basic" data-aos-delay="200">{{
-                                page.section_two.button.text }}</a> -->
               </div>
             </div>
           </section>
           {% endif %}
         </div>
-          {% if page.section_three %}
-          <section class="mb-0 pb-md-1 mt-md-5 analytics">
-              <div class="container full">
+        {% if page.section_three %}
+        <section class="mb-0 pb-md-1 mt-md-5 analytics">
+          <div class="container full">
             <div class="row justify-content-between align-items-top home_analytics">
               <div class="col-12 col-md-6 pr-xl-5 pr-xxl-0 col-xxl-5 col-xl-6 pt-sm-1 mt-sm-2 z1" data-aos="basic">
                 <h4 class="mb-2 tag">{{ page.section_three.tagline}}</h4>
@@ -249,15 +243,13 @@ layout: default
                 <img src="/img/headline-separator.svg" alt="">
                 <p class="pt-1 mt-2 lead large mb-2 mb-md-4 mb-md-5" data-aos="basic" data-aos-delay="100">{{
                                 page.section_three.section_body_copy }}</p>
-                <!-- <a href="{{ page.section_three.button.link_url }}" class="btn btn-lg btn-secondary" data-aos="basic" data-aos-delay="200">{{
-                                page.section_three.button.text }}</a> -->
               </div>
               <img class="analytics" src="{{
                                 page.section_three.img }}" data-aos="basic" data-aos-delay="300">
             </div>
           </div>
-          </section>
-          {% endif %}
+        </section>
+        {% endif %}
       </div>
       <section class="py-md-5">
         <div class="container full">
@@ -274,12 +266,11 @@ layout: default
                   <div class="card box-shadow-md">
                     <div class="card-body">
                       <div class="mb-2">
-                        <img class="rounded" src="{{ item.logo | absolute_url
-                                                        }}" height="50" />
+                        <img class="rounded" src="{{ item.logo | absolute_url }}" height="50" />
                       </div>
                       <p class="lead mb-2 mt-0">"{{ item.quote }}"</p>
                       <div class="media align-items-center">
-                          {% if item.icon and item.icon != "" %}
+                        {% if item.icon and item.icon != "" %}
                         <div class="mr-2">
                           <img class="rounded" src="{{ item.icon | absolute_url | default:"/uploads/2019/05/icon-place.svg" | absolute_url }}" width="60" height="60" />
                         </div>
@@ -308,22 +299,6 @@ layout: default
           </div>
           {% if page.company_types %}
           <div class="row pt-3 mb-1 mb-md-0">
-
-              <!-- {% for item in page.mainfeatures %}
-              {% if forloop.length == 4 %}
-              <div class="eq col-12 col-lg-6 col-xl-3 mb-xl-0 mb-4 mb-md-0" data-aos="basic" data-aos-delay="{{ forloop.index | times: 150 }}">
-                {% elsif forloop.length== 3 %}
-                <div class="eq col-12 mb-4 mb-md-0 col-md-4" data-aos="basic" data-aos-delay="{{ forloop.index | times: 150 }}">
-                  {% endif %}
-                  <div>
-                    <img class="mb-2" src="{{ item.icon | absolute_url }}" alt="" width="50">
-                    <h5 class="h5">{{ item.heading }}</h5>
-                    <div class="lighten">{{ item.description }}</div>
-                  </div>
-                </div>
-                {% endfor %} -->
-
-                
             {% for item in page.company_types %}
             <div class="col-12 col-lg-4 mb-3 mb-lg-0 px-1" data-aos="basic" data-aos-delay="{{ forloop.index | times: 150 }}">
               <a href="{{ item.url | absolute_url }}">

@@ -2,44 +2,42 @@
 layout: redirect
 ---
 
-<!doctype html>
+<!DOCTYPE html>
 <html class="no-js" lang="en">
+ <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 
-<script src="https://code.jquery.com/jquery-3.3.1.min.js"
-    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-
-<script>
-function defer(method) {
-    if (window.jQuery) {
-        method();
-    } else {
-        setTimeout(function() { defer(method) }, 50);
-    }
-}
-defer(function () {
-
-var str = window.location.href;
-var n = str.lastIndexOf('/');
-var result = str.substring(n + 1);
-console.log("Hey");
-console.log(result);
-url = "http://empyr.com/" + result;
-window.location.replace(url);
-
-fetch(url, {mode: 'no-cors'}).then(r=>{
-  console.log('SITE is reachable');
-  })
-  .catch(e=>{
-    console.log('SITE is not there');
+ <script>
+  function defer(method) {
+   if (window.jQuery) {
+    method();
+   } else {
+    setTimeout(function() {
+     defer(method);
+    }, 50);
+   }
+  }
+  defer(function() {
+   var str = window.location.href;
+   var n = str.lastIndexOf("/");
+   var result = str.substring(n + 1);
+   console.log("Hey");
+   console.log(result);
+   url = "http://empyr.com/" + result;
+   window.location.replace(url);
+   fetch(url, { mode: "no-cors" })
+    .then(r => {
+     console.log("SITE is reachable");
+    })
+    .catch(e => {
+     console.log("SITE is not there");
     });
-fetch('http://empyr.com', {mode: 'no-cors'}).then(r=>{
-  console.log('empyr is reachable');
-  })
-  .catch(e=>{
-    console.log('empyr is not there');
+   fetch("http://empyr.com", { mode: "no-cors" })
+    .then(r => {
+     console.log("empyr is reachable");
+    })
+    .catch(e => {
+     console.log("empyr is not there");
     });
-
-});
-
-</script>
+  });
+ </script>
 </html>
