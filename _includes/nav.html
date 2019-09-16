@@ -61,7 +61,7 @@ justify-content-between">
                 {% for item in site.menus.navigation %}
                 <li class="menu-item-{{ loop.index }} mb-0">
                     <div class="{% if item.children %}dropdown show{% endif %}">
-                        <a class="nav-link text-dark pl-0 {% if item.children %}nested dropdown-toggle{% endif %}{% if url == item.url
+                        <a class="nav-link text-dark pl-0 {% if item.children %}nested dropdown-toggle disabled{% endif %}{% if url == item.url
 %}active{% endif %}{% if item.title == "Blog" %}no-barba{% endif %}" href="{{ item.url }}" title="{{ item.title }}" {% if item.children %}id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" {% endif %}>{{ item.title }}</a>
                         {% if item.children %}
                         <div class="sub-menu dropdown-menu side-drop py-0" aria-labelledby="dropdownMenuButton">
