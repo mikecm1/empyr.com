@@ -382,5 +382,5 @@ fields:
       format: markdown
   label: Custom code
 pages:
-- _pages/index.md
 - _pages/homepage-delete.md
+- _pages/index.md
