@@ -20,7 +20,7 @@ partners:
 - "/uploads/2019/logo-natl-2.png"
 mainfeatures:
 - heading: Reach millions of people
-  description: One platform. 316M+ consumers. Easily distribute high performance campaigns
+  description: One platform. 225M+ consumers. Easily distribute high performance campaigns
     on our exclusive consumer marketplace.
   icon: "/img/one.svg"
 - heading: Amplify your revenue
@@ -92,7 +92,7 @@ primary_body_icon: "/img/icon-cards.svg"
 all_features_headline: Transform your bottom line with CPR<sup>&trade;</sup>
 section_one:
   tagline: Customer Reach
-  section_header: Exclusive reach to over 316M consumers
+  section_header: Exclusive reach to over 225M consumers
   section_body_copy: Promote your brand through products that people know, trust,
     and use every day. Leading websites & apps use Empyr to build customized card-linked
     offer rewards and loyalty programs, providing extensive reach unavailable on any
