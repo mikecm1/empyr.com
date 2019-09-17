@@ -1,4 +1,5 @@
 _site/
+_archive/
 .sass-cache/
 .DS_Store
 */.DS_Store
