@@ -57,7 +57,7 @@ custom_css: |-
   textarea.hs-input, .hs-form fieldset select {
   line-height: normal;
     box-sizing: border-box;
-    background: #f5f5f9;
+    background: #f6f8fb;
     border: 1px solid transparent;
     padding: 17px 15px;
     width: 100%;
@@ -76,14 +76,13 @@ custom_css: |-
   display: none;
   }
   .hs-form label {
-    font-size: 12.4px;
+    font-size: 16.4px;
     font-weight: 500 !important;
     font-family: inherit !important;
     margin-bottom: 8px;
-    letter-spacing: 3px;
     padding-top: 25px;
     display: block;
-    text-transform: uppercase;
+    color: #4b4b6d;
   }
   .hs-form.stacked fieldset {
   padding: 0;
@@ -111,16 +110,18 @@ custom_css: |-
   margin-top: 35px;
   }
   .hs-form .hs-button {
-  background-color: #1882fc!important;
-  border-radius: 8px;
-  transition: all 0.15s linear;
-  text-transform: uppercase;
-  color: #fff;
-  padding: 18px 67px;
-  font-size: 19px;
-  font-weight: 700;
-  letter-spacing: 5px;
-  cursor: pointer;
+    background-color: #0b315d!important;
+    border-radius: 8px;
+    transition: all 0.15s linear;
+    color: #fff;
+    padding: 19px 67px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+    -webkit-appearance: none;
+    border: none;
+    outline: none;
+    width: 100%;
   }
   .hs-form .hs-button:hover:not(.inactive),
   .hs-form .hs-button:focus:not(.inactive),
@@ -167,6 +168,15 @@ custom_css: |-
   form.hs-form .form-columns-2 .hs-form-field .hs-input,
   form.hs-form .form-columns-3 .hs-form-field .hs-input {
   width: 100% !important;
+  }
+  }
+  @media screen and (max-width: 768px) {
+  .join .card {
+    border-radius: 0;
+  }
+  .join .header-bg {
+    padding-bottom: 0 !important;
+  }
   }
   }
   </style>
