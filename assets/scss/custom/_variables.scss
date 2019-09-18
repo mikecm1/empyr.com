@@ -498,7 +498,8 @@ $card-columns-count: 3;
 $card-columns-gap: 1.25rem;
 $card-columns-margin: $card-spacer-y;
 // $card-box-shadow: 0 10px 19px -6px rgba(45, 80, 187, 0.05);
-$card-box-shadow: 0 3px 9px -6px rgba(31, 62, 156, 0.42);
+// $card-box-shadow: 0 3px 9px -6px rgba(31, 62, 156, 0.42);
+$card-box-shadow: 0 14px 18px -12px rgba(20, 20, 118, 0.12);
 
 // Tooltip
 $tooltip-max-width: 200px;
