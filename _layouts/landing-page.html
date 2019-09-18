@@ -245,12 +245,23 @@ layout: default
                                 page.section_three.section_body_copy }}</p>
               </div>
               <!-- <img class="analytics" src="{{ page.section_three.img }}" data-aos="basic" data-aos-delay="300"> -->
-              <img 
+              <!-- <img 
               class="analytics"
               sizes="(min-width: 768px) auto, 140vw"
               srcset="
                   {{ page.section_three.img | remove:'.png' }}_zbd1xv_c_scale,w_1082.png 1082w,
                   {{ page.section_three.img }} 2000w"
+              src="{{ page.section_three.img }}" 
+              data-aos="basic" data-aos-delay="300"> -->
+              <img 
+              class="analytics"
+              sizes="(min-width: 768px) auto, 140vw"
+              srcset="
+                  {{ page.section_three.img | remove:'.png' }}_1082.png 1082w,
+                  {{ page.section_three.img | remove:'.png' }}_2020.png 2020w,
+                  {{ page.section_three.img | remove:'.png' }}_2520.png 2520w,
+                  {{ page.section_three.img | remove:'.png' }}_2840.png 2840w,
+                  {{ page.section_three.img | remove:'.png' }}_3000.png 3000w"
               src="{{ page.section_three.img }}" 
               data-aos="basic" data-aos-delay="300">
             </div>

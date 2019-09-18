@@ -1964,16 +1964,21 @@ img {
    bottom: auto;
    left: 3%;
    max-width: 1260px;
-   width: auto;
   }
 
   @include media-breakpoint-up(xl) {
-   top: -70px;
-   bottom: auto;
-   left: 10px;
-   max-width: 1500px;
-   width: auto;
+    top: -70px;
+    bottom: auto;
+    left: 30px;
+    max-width: 1420px;
   }
+
+  @include media-breakpoint-up(xxl) {
+    left: 10px;
+    max-width: 1500px;
+  }
+
+
  }
 }
 
