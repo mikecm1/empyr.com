@@ -72,7 +72,9 @@ testimonials:
   icon: ''
   logo: "/uploads/2019/nerdwallet.png"
   job_title: Chief Product Officer
-- quote: Working with Empyr means we can bring retail offers to cardholders, but crucially the myGini engine can target these and make sure that the consumer gets the offers and rewards that matter on their smartphones at the point of transaction.
+- quote: Working with Empyr means we can bring retail offers to cardholders, but crucially
+    the myGini engine can target these and make sure that the consumer gets the offers
+    and rewards that matter on their smartphones at the point of transaction.
   name: Reka Agopcsa
   icon: ''
   logo: "/uploads/2019/mygini.png"
@@ -105,7 +107,7 @@ cta_footer_header: Customized solutions
 cta_footer_subheader: Make card-linked offers part of your digital strategy and accelerate
   consumer engagement and revenue today
 section_one:
-  img: '/img/section-logo-rounded.png'
+  img: "/img/section-logo-rounded.png"
   primary_copy: ''
   button_text: ''
   button_link: ''
@@ -117,6 +119,7 @@ section_one:
     text: Learn More
     link_url: ''
     href: "/"
+  image: "/uploads/2019/section-logo-rounded.png"
 section_two:
   img: "/img/roas-home.svg"
   img_width: 700
@@ -129,6 +132,7 @@ section_two:
     text: Learn More
     link_url: ''
     href: "/"
+  image: "/uploads/2019/roas-home.png"
 section_three:
   img: "/img/home-analytics.png"
   tagline: Real-Time Analytics
@@ -139,6 +143,7 @@ section_three:
   button:
     text: Learn More
     href: "/"
+  image: "/uploads/2019/home-analytics.png"
 custom_code: ''
 page_name: "* Homepage"
 custom_head_tag: ''
