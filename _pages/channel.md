@@ -80,7 +80,7 @@ section_two:
     Newest Digital Ad Product,
     gives 100% attribution to your customers
   section_body_copy: Your existing customers will be featured on Empyr's Exclusive
-    Consumer Marketplace consisting of 316M+ consumers across the most popular websites
+    Consumer Marketplace consisting of 225M+ consumers across the most popular websites
     and apps. This massive consumer reach guarantees there is revenue to be generated.
     The integration with the 3 major credit card brands guarantees attribution from
     to their advertising to revenue.
