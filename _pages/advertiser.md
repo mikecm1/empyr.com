@@ -6,7 +6,6 @@ description: Advertise offers with accurate ROI through in store purchases. Pay 
   when consumers make a purchase.
 keywords: Pay Per Sale, Accurate ROI, Pay Per Purchase
 banner_image: ''
-thelink: Welcome to {{ site.url }}
 tagline: For Advertisers
 heading: |-
   Goodbye, guesswork.<br>
