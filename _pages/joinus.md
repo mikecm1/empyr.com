@@ -13,50 +13,162 @@ show_mainfeatures: false
 intro_paragraph: ''
 show_contact: true
 custom_code: ''
-custom_css: "<style>\n.order-1 {\nmargin: 0 auto !important;\n}\n.row.mx-auto, .modify
-  {\ntext-align: center;\n}\n.modifier h1 {\nmargin: 0 auto 1.3rem !important;\ndisplay:
-  block;\ntext-align: center;\n}\n.col-8 {\nmargin: 0 auto !important;\n}\n.modifier
-  h3 {\nfont-size: 37px;\nletter-spacing: 0;\nmargin: 0;\npadding: 0;\n}\n\niframe
-  {\nwidth: 100%\n}\n\n.content-inner {\npadding: 60px 8%;\n}\n\nh1.page-title {\ndisplay:
-  none\n}\n\n.title--description-position-over-image.title--description-alignment-center
-  .title-desc-inner {\npadding: 40px 0 80px;\n}\n\n.extra-description-formatting.title-background
-  .title-desc-wrapper.over-image.has-main-image .page-desc, .extra-description-formatting.title-background:not(.collection-type-index)
-  .title-desc-wrapper .page-desc {\nmargin-top: 0;\npadding-top: 0;\n}\n\ninput.hs-input,
-  textarea.hs-input {\nline-height: normal;\n    box-sizing: border-box;\n    background:
-  #fcfcfd;\n    border: 1px solid #d9dee5;\n    padding: 15px;\n    width:
-  100%;\n    display: block;\n    border-radius: 5px;\n    font-size: 18px;\n    transition:
-  opacity 0.4s;\n    text-align: left;\n    height: auto;\n    -webkit-appearance:
-  none;\n}\ntextarea.hs-input {\n  min-height: 130px;\n}\n.footer-cta {\ndisplay:
-  none;\n} \n.hs-form label {\nfont-size: 15px;\nfont-weight: 400 !important;\ncolor:
-  #19395e;\nfont-family: inherit !important;\nmargin-bottom: 2px;\nletter-spacing:
-  .3px;\npadding-top: 25px;\ndisplay: block;\n}\n\n.hs-form.stacked fieldset {\npadding:
-  0;\nmargin: 0 auto;\ntext-rendering: optimizeLegibility;\n-moz-osx-font-smoothing:
-  grayscale;\nfont-smoothing: antialiased;\n-webkit-font-smoothing: antialiased;\ntext-shadow:
-  rgba(0, 0, 0, .01) 0 0 1px;\n}\n\n.footer-cta:before {\ntransform: scaleY(-1);\ntop:
-  2px;\nopacity: 0.6;\n}\n\n.hs-form fieldset {\nmax-width: 100% !important;\n}\n\n.hs-form
-  fieldset select {\n    background-image: url(data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'
-  width='100' height='100' fill='%23000000'><polygon points='20,0 80,0 50,52'/></svg>);\n
-  \   background-size: 12px;\n    background-position-x: calc(100% - 16px);\n    background-position-y:
-  calc(100% - 16px);\n    background-repeat: no-repeat;\n    line-height: normal;\n
-  \   box-sizing: border-box;\n    background-color: #fcfcfd;\n    border: 2px solid
-  hsla(213, 25%, 93%, 1);\n    padding: 15px;\n    width: 100%;\n    display: block;\n
-  \   border-radius: 5px;\n    font-size: 18px;\n    transition: opacity 0.4s;\n    text-align:
-  left;\n    height: auto;\n    -webkit-appearance: none;\n}\n\n.hs-form .hs-input,
-  .hs-form textarea.hs-input {\nmax-width: auto !important;\n}\n\n.hs-form.stacked
-  .actions {\ntext-align: center;\nmargin-top: 35px;\n}\n\n.hs-form .hs-button {\nbackground-color:
-  #1882fc!important;\nborder-radius: 8px;\ntransition: all 0.15s linear;\ntext-transform:
-  uppercase;\ncolor: #fff;\npadding: 18px 67px;\nfont-size: 19px;\nfont-weight: 700;\nletter-spacing:
-  5px;\ncursor: pointer;\n}\n\n.hs-form .hs-button:hover:not(.inactive), .hs-form
-  .hs-button:focus:not(.inactive), .hs-form .hs-button.hovered:not(.inactive) {\nbackground:
-  #000;\ncolor: #fff;\n}\n\ninput.hs-input:focus, textarea.hs-input:focus, select.hs-input:focus
-  {\noutline: none;\n    border-color: #abc3ff;\n    box-shadow: none;\n}\n\n.hs-form
-  fieldset.form-columns-1 .hs-input {\nwidth: 100% !important;\n}\n\nul.hs-error-msgs.inputs-list
-  {\nlist-style: none;\npadding: 0;\nmargin-top: 0;\nmargin-bottom: 0;\n}\n\nul.hs-error-msgs.inputs-list
-  label{\ncolor: #ff4747;\npadding-top: 9px;\nfont-size: 14.5px;\n}\n\nul.hs-error-msgs.inputs-list
-  li {\npadding-bottom: 0;\nmargin-bottom: 0;\n}\n\nul.hs-error-msgs.inputs-list .hs-form
-  label {\npadding: 0 !important;\n}\n\n@media screen and (max-width: 480px) {\nform.hs-form
-  .form-columns-2 .hs-form-field .hs-input, form.hs-form .form-columns-3 .hs-form-field
-  .hs-input {\nwidth: 100% !important;\n}\n}\n</style>"
+custom_css: |-
+  <style>
+  .order-1 {
+  margin: 0 auto !important;
+  }
+  .row.mx-auto,
+  .modify {
+  text-align: center;
+  }
+  .modifier h1 {
+  margin: 0 auto 1.3rem !important;
+  display: block;
+  text-align: center;
+  }
+  .col-8 {
+  margin: 0 auto !important;
+  }
+  .modifier h3 {
+  font-size: 37px;
+  letter-spacing: 0;
+  margin: 0;
+  padding: 0;
+  }
+  iframe {
+  width: 100%
+  }
+  .content-inner {
+  padding: 60px 8%;
+  }
+  h1.page-title {
+  display: none
+  }
+  .title--description-position-over-image.title--description-alignment-center .title-desc-inner {
+  padding: 40px 0 80px;
+  }
+  .extra-description-formatting.title-background .title-desc-wrapper.over-image.has-main-image .page-desc,
+  .extra-description-formatting.title-background:not(.collection-type-index) .title-desc-wrapper .page-desc {
+  margin-top: 0;
+  padding-top: 0;
+  }
+  input.hs-input,
+  textarea.hs-input, .hs-form fieldset select {
+  line-height: normal;
+    box-sizing: border-box;
+    background: #f5f5f9;
+    border: 1px solid transparent;
+    padding: 17px 15px;
+    width: 100%;
+    display: block;
+    border-radius: 4px;
+    font-size: 16.5px;
+    transition: opacity 0.4s;
+    text-align: left;
+    height: auto;
+    -webkit-appearance: none;
+  }
+  textarea.hs-input {
+  min-height: 130px;
+  }
+  .footer-cta {
+  display: none;
+  }
+  .hs-form label {
+    font-size: 12.4px;
+    font-weight: 500 !important;
+    font-family: inherit !important;
+    margin-bottom: 8px;
+    letter-spacing: 3px;
+    padding-top: 25px;
+    display: block;
+    text-transform: uppercase;
+  }
+  .hs-form.stacked fieldset {
+  padding: 0;
+  margin: 0 auto;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+  }
+  .footer-cta:before {
+  transform: scaleY(-1);
+  top: 2px;
+  opacity: 0.6;
+  }
+  .hs-form fieldset {
+  max-width: 100% !important;
+  }
+  .hs-form .hs-input,
+  .hs-form textarea.hs-input {
+  max-width: auto !important;
+  }
+  .hs-form.stacked .actions {
+  text-align: center;
+  margin-top: 35px;
+  }
+  .hs-form .hs-button {
+  background-color: #1882fc!important;
+  border-radius: 8px;
+  transition: all 0.15s linear;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 18px 67px;
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: 5px;
+  cursor: pointer;
+  }
+  .hs-form .hs-button:hover:not(.inactive),
+  .hs-form .hs-button:focus:not(.inactive),
+  .hs-form .hs-button.hovered:not(.inactive) {
+  background: #000;
+  color: #fff;
+  }
+  input.hs-input:focus,
+  textarea.hs-input:focus,
+  select.hs-input:focus {
+  outline: none;
+  border-color: #abc3ff;
+  box-shadow: none;
+  }
+  .hs-form fieldset.form-columns-1 .hs-input {
+  width: 100% !important;
+  }
+  ul.hs-error-msgs.inputs-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  }
+  ul.hs-error-msgs.inputs-list label {
+    color: #ff4747;
+    padding-top: 0;
+    font-size: 14.5px;
+    margin-bottom: 0;
+    letter-spacing: 0;
+    text-transform: initial;
+  }
+  div.input {
+      padding-bottom: 10px;
+  }
+  ul.hs-error-msgs.inputs-list li {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  }
+  ul.hs-error-msgs.inputs-list .hs-form label {
+  padding: 0 !important;
+  }
+  @media screen and (max-width: 480px) {
+  form.hs-form .form-columns-2 .hs-form-field .hs-input,
+  form.hs-form .form-columns-3 .hs-form-field .hs-input {
+  width: 100% !important;
+  }
+  }
+  </style>
 custom_text: |-
   <!--[if lte IE 8]>
   <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
