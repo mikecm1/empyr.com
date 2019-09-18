@@ -131,6 +131,7 @@ custom_css: |-
   input.hs-input:focus,
   textarea.hs-input:focus,
   select.hs-input:focus {
+  background: #fff;
   outline: none;
   border-color: #abc3ff;
   box-shadow: none;
