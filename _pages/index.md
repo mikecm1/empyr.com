@@ -114,7 +114,7 @@ section_one:
   tagline: Consumer Marketplace
   section_header: 225M+ Consumers, Unlimited Revenue
   section_body_copy: Easily deploy high performance card-linked offer campaigns on
-    some of the best sites and apps, reaching 225M consumers at lightning speed.
+    some of the best sites and apps, reaching 225M+ consumers at lightning speed.
   button:
     text: Learn More
     link_url: ''
