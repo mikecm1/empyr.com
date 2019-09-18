@@ -244,8 +244,17 @@ layout: default
                 <p class="pt-1 mt-2 lead large mb-2 mb-md-4 mb-md-5" data-aos="basic" data-aos-delay="100">{{
                                 page.section_three.section_body_copy }}</p>
               </div>
-              <img class="analytics" src="{{
-                                page.section_three.img }}" data-aos="basic" data-aos-delay="300">
+              <!-- <img class="analytics" src="{{ page.section_three.img | remove:'.png' }}.png" data-aos="basic" data-aos-delay="300"> -->
+              <img 
+              class="analytics" 
+              sizes="(max-width: 2913px) 100vw, 2913px" 
+              srcset="
+                  {{ page.section_three.img | remove:'.png' }}_zbd1xv_c_scale,w_490.png 490w,
+                  {{ page.section_three.img | remove:'.png' }}_zbd1xv_c_scale,w_660.png 660w,
+                  {{ page.section_three.img | remove:'.png' }}_zbd1xv_c_scale,w_916.png 916w,
+                  {{ page.section_three.img }} 2913w"
+              src="{{ page.section_three.img }}" 
+              data-aos="basic" data-aos-delay="300">
             </div>
           </div>
         </section>
