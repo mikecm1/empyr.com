@@ -23,7 +23,7 @@ custom_css: "<style>\n.order-1 {\nmargin: 0 auto !important;\n}\n.row.mx-auto, .
   .title-desc-wrapper.over-image.has-main-image .page-desc, .extra-description-formatting.title-background:not(.collection-type-index)
   .title-desc-wrapper .page-desc {\nmargin-top: 0;\npadding-top: 0;\n}\n\ninput.hs-input,
   textarea.hs-input {\nline-height: normal;\n    box-sizing: border-box;\n    background:
-  #fcfcfd;\n    border: 2px solid hsla(213, 25%, 93%, 1);\n    padding: 15px;\n    width:
+  #fcfcfd;\n    border: 1px solid #d9dee5;\n    padding: 15px;\n    width:
   100%;\n    display: block;\n    border-radius: 5px;\n    font-size: 18px;\n    transition:
   opacity 0.4s;\n    text-align: left;\n    height: auto;\n    -webkit-appearance:
   none;\n}\ntextarea.hs-input {\n  min-height: 130px;\n}\n.footer-cta {\ndisplay:
@@ -49,7 +49,7 @@ custom_css: "<style>\n.order-1 {\nmargin: 0 auto !important;\n}\n.row.mx-auto, .
   5px;\ncursor: pointer;\n}\n\n.hs-form .hs-button:hover:not(.inactive), .hs-form
   .hs-button:focus:not(.inactive), .hs-form .hs-button.hovered:not(.inactive) {\nbackground:
   #000;\ncolor: #fff;\n}\n\ninput.hs-input:focus, textarea.hs-input:focus, select.hs-input:focus
-  {\noutline: none;\n    border-color: #d4d7df;\n    box-shadow: none;\n}\n\n.hs-form
+  {\noutline: none;\n    border-color: #abc3ff;\n    box-shadow: none;\n}\n\n.hs-form
   fieldset.form-columns-1 .hs-input {\nwidth: 100% !important;\n}\n\nul.hs-error-msgs.inputs-list
   {\nlist-style: none;\npadding: 0;\nmargin-top: 0;\nmargin-bottom: 0;\n}\n\nul.hs-error-msgs.inputs-list
   label{\ncolor: #ff4747;\npadding-top: 9px;\nfont-size: 14.5px;\n}\n\nul.hs-error-msgs.inputs-list
