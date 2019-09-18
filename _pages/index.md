@@ -105,9 +105,7 @@ cta_footer_header: Customized solutions
 cta_footer_subheader: Make card-linked offers part of your digital strategy and accelerate
   consumer engagement and revenue today
 section_one:
-  super: ''
-  heading: ''
-  link: ''
+  img: '/img/section-logo-rounded.png'
   primary_copy: ''
   button_text: ''
   button_link: ''
@@ -119,7 +117,6 @@ section_one:
     text: Learn More
     link_url: ''
     href: "/"
-  image: ''
 section_two:
   img: "/img/roas-home.svg"
   img_width: 700
@@ -132,7 +129,6 @@ section_two:
     text: Learn More
     link_url: ''
     href: "/"
-  image: ''
 section_three:
   img: "/img/home-analytics.png"
   tagline: Real-Time Analytics
@@ -143,7 +139,6 @@ section_three:
   button:
     text: Learn More
     href: "/"
-  image: ''
 custom_code: ''
 page_name: "* Homepage"
 custom_head_tag: ''
