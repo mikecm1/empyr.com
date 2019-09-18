@@ -462,17 +462,17 @@ $background-gradient: url(/img/bg-sub.png), $gradient-bg2;
 }
 
 .tag-lg {
- display: inline-block;
- margin-top: 0;
- margin-right: 10px;
- margin-bottom: 22px;
- padding: 0 12px;
- border-radius: 34px;
- background: #2052be;
- letter-spacing: 1px;
- font-weight: 700;
- font-size: 12px;
- line-height: 22px;
+  display: inline-block;
+  margin-top: 0;
+  margin-right: 10px;
+  margin-bottom: 22px;
+  padding: 0 9px;
+  border-radius: 4px;
+  background: #0d56d2;
+  letter-spacing: 1px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 23px;
 }
 
 p.latest {
