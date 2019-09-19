@@ -301,14 +301,15 @@ main {
 }
 
 .team-hover .subtitle {
- display: block;
- font-size: 13.5px;
- line-height: 1.4;
- opacity: 0.9;
-
- @include media-breakpoint-up(xl) {
+  display: block;
   font-size: 15.5px;
- }
+  line-height: 1.4;
+  opacity: .9;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 280px;
+  margin: 0 auto;
 }
 
 .team-hover h4 span {
