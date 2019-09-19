@@ -263,23 +263,7 @@ layout: default
   </section>
   {% endif %}
   {% if page.all_features %}
-  <section class="solutions bg-g50 sub">
-    <div class="container text-left">
-      <h1 class="mb-4 text-md-center">{{ page.all_features_headline }}</h1>
-      <div class="row pt-3 text-m-center">
-        {% for item in page.all_features %}
-        <div class="col-12 col-md-4 mb-2 px-1">
-          <div class="card py-1 py-md-2 px-1 px-lg-2">
-            <div class="card-body">
-              <img class="mb-2" src="{{ item.icon | absolute_url }}" alt="" width="70">
-              <h5 class="mb-0">{{ item.heading }}</h5>
-            </div>
-          </div>
-        </div>
-        {% endfor %}
-      </div>
-    </div>
-  </section>
+  {% include allfeatures.html %}
   {% endif %}
   {% if page.show_case_studies %}
   <div class="text-left">
