@@ -52,5 +52,6 @@ custom_code: ''
 description: ''
 keywords: ''
 page_name: Test Page
-
+sitemap:
+  exclude: 'yes'
 ---

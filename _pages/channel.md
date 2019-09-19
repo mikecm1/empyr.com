@@ -213,5 +213,7 @@ sticky_ad_bar:
   button_text: Read Now
   button_url: https://blog.empyr.com/add-the-newest-digital-ad-product-to-your-toolkit-and-generate-a-1m-annual-recurring-revenue-stream-to-your-business
 add_sticky_bar: true
-
+sitemap:
+  priority: 0.75
+  changefreq: 'daily'
 ---

@@ -148,5 +148,7 @@ menu:
     title: Advertisers
     description: Launch a card-linked offer campaign
     icon: "/uploads/2019/icon-dropdown-1.svg"
-
+sitemap:
+  priority: 0.75
+  changefreq: 'daily'
 ---

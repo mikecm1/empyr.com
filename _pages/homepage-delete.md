@@ -151,5 +151,6 @@ section_three:
 custom_code: ''
 page_name: "* Homepage (delete)"
 custom_head_tag: <meta name="robots" content="noindex,nofollow">
-
+sitemap:
+  exclude: 'yes'
 ---

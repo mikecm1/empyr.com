@@ -77,6 +77,9 @@ menu:
   navigation:
     weight: 3
     title: Company
+sitemap:
+  priority: 0.75
+  changefreq: 'daily'
 
 ---
 <div class="swiper pt-4 pb-5 mb-5 offset-lg vw-100">

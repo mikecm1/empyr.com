@@ -19,7 +19,8 @@ page_name: "* National Terms  & Conditions"
 custom_text: ''
 custom_code: ''
 custom_css: ''
-
+sitemap:
+  exclude: 'yes'
 ---
 1\.**Engagement; Insertion Orders:**
 

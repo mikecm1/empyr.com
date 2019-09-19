@@ -87,7 +87,9 @@ custom_text: |-
         })
         </script>
 page_name: "* Support"
-
+sitemap:
+  priority: 0.2
+  changefreq: 'daily'
 ---
 <h3 class="mb-3">Example FAQs</h3>
 

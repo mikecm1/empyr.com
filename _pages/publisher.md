@@ -145,5 +145,7 @@ menu:
     description: Build a custom card-linked offer program
     title: Websites & Apps
     icon: "/uploads/2019/icon-dropdown-2.svg"
-
+sitemap:
+  priority: 0.75
+  changefreq: 'daily'
 ---

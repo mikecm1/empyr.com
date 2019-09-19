@@ -7,6 +7,5 @@ thumbnail: "/uploads/2019/jan.jpg"
 email: ''
 linkedin: ''
 exec_team: false
-layout: ''
 
 ---

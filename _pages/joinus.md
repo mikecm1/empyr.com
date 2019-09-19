@@ -211,5 +211,7 @@ hero_button:
   text: ''
   href: ''
 contact_page: true
-
+sitemap:
+  priority: 0.75
+  changefreq: 'daily'
 ---

@@ -33,6 +33,9 @@
   <meta name="description" content="{% if .page.description %}{{ .page.description }}{% else %}{{ .site.description }}{% endif %}">
   <meta name="keywords" content="{% if .page.keywords %}{{ .page.keywords }}{% else %}{{ .site.keywords }}{% endif %}">
   <meta name="google-site-verification" content="6d7ajfNPjGclWDKqwXwWqV5NIk8RNWxBuBMJRS8-Bx8" />
+  {% if page.custom_head_tag %}
+  {{ page.custom_head_tag }}
+  {% endif %}
   <link rel="shortcut icon" type="image/png" href="{{ "/img/favicon.ico" | absolute_url }}" />
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | absolute_url }}?{{site.time | date: '%s%N'}}">
   <link rel="stylesheet" class="dev" media="screen and (min-width: 576px)" href="https://unpkg.com/aos@next/dist/aos.css">
@@ -45,6 +48,8 @@
   {{ site.data.custom_code.custom_styles.css }}
   </style>
   {% endif %}
+
+
 </head>
 
 <body>

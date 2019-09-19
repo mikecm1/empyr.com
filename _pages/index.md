@@ -147,5 +147,7 @@ section_three:
 custom_code: ''
 page_name: "* Homepage"
 custom_head_tag: ''
-
+sitemap:
+  priority: 1.0
+  changefreq: 'daily'
 ---
