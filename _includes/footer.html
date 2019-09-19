@@ -1,11 +1,11 @@
 <footer>
   {% if site.data.information %}
   <div class="footer-cta">
-    <div class="py-1">
+    <div class="py-1 py-md-2">
       <div class="container my-5">
         {% assign info = site.data.information %}
         <div class="row fcta mb-5">
-          <div class="col-12 text-center">
+          <div class="col-12 text-left text-sm-center">
             <h1 class="display-5 mb-2">
               {% if page.page_name contains 'Advertiser' and info.footer_details.main_header_advertiser !='' %}
               {{ info.footer_details.main_header_advertiser }}

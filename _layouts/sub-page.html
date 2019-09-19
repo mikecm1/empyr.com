@@ -93,7 +93,7 @@ layout: default
             {{ page.primary_body_copy_headline }}</h1>
         </div>
         <div class="col-md-12 col-xl-8 col-xxl-7 mx-auto">
-          <p class="lighten large" data-aos="basic" data-aos-delay="150">
+          <p class="lighten large mb-0" data-aos="basic" data-aos-delay="150">
             {{ page.primary_body_copy_subheadline }}</p>
         </div>
       </div>
@@ -103,7 +103,7 @@ layout: default
     {% if page.section_one %}
     <section>
       <div class="row justify-content-between align-items-center">
-        <div class="col-12 col-md-6 col-xxl-6 order-2 order-md-1 mt-n1 pr-xxl-5">
+        <div class="col-12 col-md-6 col-xxl-6 order-2 order-md-1 mt-n1 pr-xl-4">
           <div data-aos="basic">
             <h4 class="mb-2 tag">{{ page.section_one.tagline }}</h4>
           </div>
@@ -153,53 +153,57 @@ layout: default
   {% endif %}
   {% if page.section_three.section_header and page.section_three.section_header != "" %}
   <section class="bg-gray-25">
-    <div class="container full py-3 py-md-5">
-      <div class="row justify-content-between align-items-top">
-        <div class="col-12 col-md-6 order-1 order-md-1">
-          <h4 class="mb-2 tag" data-aos="basic">{{ page.section_three.tagline }}</h4>
-          <h1 class="pr-xl-4 pr-xxl-5 mb-md-2" data-aos="basic mb-md-2" data-aos-delay="50">
-            {{ page.section_three.section_header }}</h1>
-          <img src="/img/headline-separator.svg" alt="" data-aos="basic" data-aos-delay="150">
-          <p class="mb-4 mt-md-2 pr-xl-4" data-aos="basic" data-aos-delay="200">
-            {{ page.section_three.section_body_copy }}</p>
+<div class="features">
+      <div class="container full py-3 py-md-5">
+        <div class="row justify-content-between align-items-top">
+          <div class="col-12 col-md-6 order-1 order-md-1">
+            <h4 class="mb-2 tag" data-aos="basic">{{ page.section_three.tagline }}</h4>
+            <h1 class="pr-xl-4 pr-xxl-5 mb-md-2" data-aos="basic mb-md-2" data-aos-delay="50">
+              {{ page.section_three.section_header }}</h1>
+            <img src="/img/headline-separator.svg" alt="" data-aos="basic" data-aos-delay="150">
+            <p class="mb-4 mt-md-2 pr-xl-4" data-aos="basic" data-aos-delay="200">
+              {{ page.section_three.section_body_copy }}</p>
+          </div>
+          <div class="col-12 col-md-6 order-2 order-md-2">
+            <img class="w-100" src="{{ page.section_three.image }}" data-aos="basic" data-aos-delay="300" />
+          </div>
         </div>
-        <div class="col-12 col-md-6 order-2 order-md-2">
-          <img class="w-100" src="{{ page.section_three.image }}" data-aos="basic" data-aos-delay="300" />
         </div>
-      </div>
-      </divc>
+</div>
   </section>
   {% endif %}
   {% if page.section_four %}
   <section>
-    <div class="container full py-3 py-md-5">
-      <div class="row justify-content-between align-items-top">
-        <div class="col-12 col-md-6 col-xl-6 order-2 order-md-1 pr-xl-3">
-          <img class="w-100" src="{{ page.section_four.image }}" data-aos="basic" data-aos-delay="300" />
+    <div class="features">
+      <div class="container full py-3 py-md-5">
+        <div class="row justify-content-between align-items-top">
+          <div class="col-12 col-md-6 col-xl-6 order-2 order-md-1 pr-xl-3">
+            <img class="w-100" src="{{ page.section_four.image }}" data-aos="basic" data-aos-delay="300" />
+          </div>
+          <div class="col-12 col-md-6 col-xl-6 pl-md-2 pl-xxl-4 order-1 order-md-2">
+            <h4 class="mb-2 tag" data-aos="basic">{{ page.section_four.tagline }}</h4>
+            <h1 class="pr-xl-3 pr-xxl-5 mb-md-2" data-aos="basic mb-md-2" data-aos-delay="50">
+              {{ page.section_four.section_header }}</h1>
+            <img src="/img/headline-separator.svg" alt="" data-aos="basic" data-aos-delay="150">
+            <p class="mb-4 mt-md-2" data-aos="basic" data-aos-delay="200">
+              {{ page.section_four.section_body_copy }}</p>
+          </div>
         </div>
-        <div class="col-12 col-md-6 col-xl-6 pl-md-2 pl-xxl-4 order-1 order-md-2">
-          <h4 class="mb-2 tag" data-aos="basic">{{ page.section_four.tagline }}</h4>
-          <h1 class="pr-xl-3 pr-xxl-5 mb-md-2" data-aos="basic mb-md-2" data-aos-delay="50">
-            {{ page.section_four.section_header }}</h1>
-          <img src="/img/headline-separator.svg" alt="" data-aos="basic" data-aos-delay="150">
-          <p class="mb-4 mt-md-2" data-aos="basic" data-aos-delay="200">
-            {{ page.section_four.section_body_copy }}</p>
+        {% if page.show_lift %}
+        <div class="mt-2 mt-md-5 mb-4 bg-secondary col-lg-12 shadow-lg lift" data-aos="basic" data-aos-delay="150">
         </div>
-      </div>
-      {% if page.show_lift %}
-      <div class="mt-2 mt-md-5 mb-4 bg-secondary col-lg-12 shadow-lg lift" data-aos="basic" data-aos-delay="150">
-      </div>
-      {% endif %}
+        {% endif %}
+</div>
   </section>
 </div>
 {% endif %}
 
 {% if page.show_offset_image %}
-<section class="text-center has-divider offset-large-img features pb-0 border-top">
+<section class="text-left text-md-center has-divider offset-large-img features pb-0 border-top">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-xl-7 col-lg-8 col-md-9">
-        <h1 class="display-4 pt-4">True offline analytics</h1>
+        <h1 class="display-4 pt-md-4">True offline analytics</h1>
         <p class="lead pb-3">Analyze, measure, and improve campaign performance with 24/7 access to your real-time online to offline sales dashboard.</p>
       </div>
     </div>
@@ -255,12 +259,12 @@ layout: default
 {% endif %}
 {% if page.all_features %}
 <section class="solutions bg-g50 sub">
-  <div class="container text-left">
-    <h1 class="mb-4 text-md-center">{{ page.all_features_headline }}</h1>
-    <div class="row pt-3 text-m-center">
+  <div class="container">
+    <h1 class="mb-2 mb-md-4 text-md-center">{{ page.all_features_headline }}</h1>
+    <div class="row pt-3">
       {% for item in page.all_features %}
       <div class="col-12 col-md-4 mb-2 px-1">
-        <div class="card py-1 py-md-2 px-1 px-lg-2">
+        <div class="card text-left text-md-center py-1 py-md-2 px-1 px-lg-2">
           <div class="card-body">
             <img class="mb-2" src="{{ item.icon | absolute_url }}" alt="" width="70">
             <h5 class="mb-0">{{ item.heading }}</h5>
