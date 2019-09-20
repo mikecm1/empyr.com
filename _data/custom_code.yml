@@ -1,7 +1,6 @@
 ---
 header_code_snippets:
   code_snippets: |-
-    <meta name="robots" content="noindex,nofollow">
     <!-- Chrome, Firefox OS, Opera and Vivaldi -->
     <meta name="theme-color" content="#111111">
     <!-- Windows Phone -->
