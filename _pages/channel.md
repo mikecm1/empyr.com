@@ -33,7 +33,7 @@ mainfeatures:
 - description: Hands on, customized sales training jump starts sales
   icon: "/img/icon-pub-2.svg"
   heading: Seamless Integration
-- heading: Complements Digital Tech Stack
+- heading: Complements Tech Stack
   description: 'Layer in a digital tool that already fits in with your digital product
     suite. '
   icon: "/img/icon-pub-3.svg"

@@ -2043,12 +2043,11 @@ img {
     margin-bottom: 0.5rem;
     font-size: 1.4rem;
     font-size: 1.3125rem;
-    font-weight: 600;
 
     @include media-breakpoint-up(xl) {
       margin-top: 0;
       margin-bottom: 10px;
-      font-size: 20.5px;
+      font-size: 21.5px;
     }
   }
 }
