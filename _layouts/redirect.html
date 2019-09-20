@@ -22,7 +22,7 @@ layout: redirect
    var result = str.substring(n + 1);
    console.log("Hey");
    console.log(result);
-   url = "http://empyr.com/" + result;
+   url = "http://empyr.site/" + result;
    window.location.replace(url);
    fetch(url, { mode: "no-cors" })
     .then(r => {
@@ -31,7 +31,7 @@ layout: redirect
     .catch(e => {
      console.log("SITE is not there");
     });
-   fetch("http://empyr.com", { mode: "no-cors" })
+   fetch("http://empyr.site", { mode: "no-cors" })
     .then(r => {
      console.log("empyr is reachable");
     })
