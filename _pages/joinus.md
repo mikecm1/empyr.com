@@ -55,19 +55,21 @@ custom_css: |-
   }
   input.hs-input,
   textarea.hs-input, .hs-form fieldset select {
-  line-height: normal;
-    box-sizing: border-box;
-    background: #f6f8fb;
-    border: 1px solid transparent;
-    padding: 17px 15px;
-    width: 100%;
+    line-height: normal;
+    background: #fff;
+    padding: 15px;
     display: block;
     border-radius: 4px;
     font-size: 16.5px;
-    transition: opacity 0.4s;
     text-align: left;
     height: auto;
     -webkit-appearance: none;
+    outline: none;
+    width: 100%;
+    border: 1px solid #d8dcdc;
+    transition: border-color .15s;
+    font-weight: 400;
+    box-sizing: border-box;
   }
   textarea.hs-input {
   min-height: 130px;
@@ -132,10 +134,8 @@ custom_css: |-
   input.hs-input:focus,
   textarea.hs-input:focus,
   select.hs-input:focus {
-  background: #fff;
-  outline: none;
-  border-color: #abc3ff;
-  box-shadow: none;
+    border-color: #8eaeff;
+    box-shadow: none;
   }
   .hs-form fieldset.form-columns-1 .hs-input {
   width: 100% !important;
