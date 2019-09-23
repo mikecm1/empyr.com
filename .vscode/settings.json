@@ -20,7 +20,6 @@
     "CNAME": true,
     "package-lock.json": true,
     "Gemfile.lock": true,
-    ".gitignore": true,
     "uploads": true,
     ".sass-cache": true,
     "_plugins": true,
