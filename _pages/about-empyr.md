@@ -2,8 +2,7 @@
 layout: standard-page
 permalink: "/about-empyr/"
 title: About Empyr
-heading: We help companies generate revenue and delight their users with card linked
-  offers
+heading: A world where advertisers know the impact of every dollar spent.
 description: Empyr's technology makes earning rewards on in-store purchases so easy,
   sometimes it happens without you even thinking about it, kinda like breathing.  We
   used this mission to build out the Empyr API, which powers online-to-offline (O2O)
@@ -15,13 +14,7 @@ description: Empyr's technology makes earning rewards on in-store purchases so e
   Empyr’s growing network of publisher partners includes Yelp, Microsoft, LivingSocial,
   Coupons.com, Swagbucks and over 1,500 other websites and apps.
 keywords: ''
-sub_heading: Empyr's platform makes earning rewards on in-store purchases so easy,
-  it happens without extra work, kinda like breathing. We used this mission to build
-  out the Empyr API, which powers online-to-offline (O2O) card linked marketing programs
-  for leading websites and apps. Direct integration with the three leading credit
-  card associations allow consumers to automatically earn rewards at offline merchants
-  by simply paying with linked debit or credit cards, while generating revenue and
-  unlocking offline attribution for advertisers and digital publishers.
+sub_heading: Empyr is revolutionizing the way the world’s advertisers make data driven decisions across all online media channels. Our card linked technology connects digital advertising to in store purchases, empowering advertisers to attribute the entire customer journey from an ad impression to a physical in store transaction.
 show_staff: true
 show_news: false
 mainfeatures: []
@@ -100,11 +93,11 @@ sitemap:
 ---
 <div class="pt-4 pb-5 mb-5 offset-lg px-4 px-xl-0">
   <div class="mb-3">
-    <div class="swiper-container" id="slider-gallery-14">
+    <div class="swiper-container standard" id="slider-gallery-14">
       <div class="swiper-wrapper">
       {% for item in page.slides %}
         <div class="swiper-slide">
-          <div class="rounded-xl" style="background-image: url({{ item | absolute_url }});height: 370px;background-size: cover;background-position: center;"></div>
+          <div class="rounded-lg" style="background-image: url({{ item | absolute_url }});height: 370px;background-size: cover;background-position: center;"></div>
         </div>
         {% endfor %}
       </div>
