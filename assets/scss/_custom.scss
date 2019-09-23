@@ -61,6 +61,7 @@ sup {
 
   +section {
     padding-top: $spacer * 15;
+
     @include media-breakpoint-up(md) {
       padding-top: $spacer * 22;
     }
@@ -289,18 +290,15 @@ main {
   left: 0;
   padding: 20px 10px;
   width: 100%;
-
   background: #fff;
   text-align: center;
   -webkit-transition: 0.4s;
   transition: 0.4s;
-
 }
 
 .team-hover h4 {
   text-transform: capitalize;
   font-size: 18px;
-
 }
 
 .team-hover .subtitle {
@@ -753,7 +751,6 @@ p.latest {
         background-repeat: no-repeat;
         content: "";
         opacity: 0.365;
-
         -webkit-clip-path: polygon(-29% 0%, 100% 0, 100% 100%, 124% 100%);
         clip-path: polygon(-29% 0%, 100% 0, 100% 100%, 124% 100%);
       }
@@ -1076,7 +1073,6 @@ h1 {
 .site-header {
   background-color: $white;
   background-color: $gray-900;
-
   -webkit-backdrop-filter: blur(200px);
   backdrop-filter: blur(200px);
 }
@@ -1177,8 +1173,8 @@ li.nav-item {
     .col {
       margin-bottom: 0;
       padding: 0 30px;
-      // padding-bottom: 5px;
 
+      // padding-bottom: 5px;
       &:last-of-type {
         padding-bottom: 0;
       }
@@ -1234,7 +1230,6 @@ li.nav-item {
   .animate {
     -webkit-animation-duration: 0.3s;
     animation-duration: 0.3s;
-
     animation-fill-mode: both;
     -webkit-animation-fill-mode: both;
   }
@@ -1376,6 +1371,7 @@ svg.fsvg {
     border-radius: $border-radius;
     background: #fff;
     text-align: center;
+
     @include media-breakpoint-up(sm) {
       max-width: 280px;
     }
@@ -1463,12 +1459,12 @@ svg.fsvg {
     touch-action: manipulation;
     backface-visibility: hidden;
 
-    @include media-breakpoint-up(md) {
-      padding: 30px 20px;
+    @include media-breakpoint-up(lg) {
+      padding: 50px 30px;
     }
 
-    @include media-breakpoint-up(lg) {
-      padding: 60px 20px;
+    @include media-breakpoint-up(xl) {
+      padding: 50px 40px;
     }
 
     &.partner {
@@ -1539,7 +1535,6 @@ svg.fsvg {
 
   &:before {
     content: "";
-
     /* transform: scaleX(-1); */
   }
 }
@@ -1652,7 +1647,6 @@ svg.fsvg {
 .swiper-slide {
   position: relative;
   flex-shrink: 0;
-  max-width: 970px;
   width: 100%;
   height: auto;
   transition: transform 0.3s ease;
@@ -1812,7 +1806,6 @@ svg.fsvg {
       background-repeat: no-repeat;
       content: "";
       transform: scaleX(1) scaleY(1);
-
       clip-path: polygon(-70% -10%, 100% 0, 100% 100%, 100% 88%);
     }
   }
@@ -1985,8 +1978,6 @@ img {
       left: 10px;
       max-width: 1500px;
     }
-
-
   }
 }
 
@@ -2637,7 +2628,6 @@ img.lazyfade.lazyloaded {
 
 .poster-home-image img {
   max-width: 150%;
-
   object-fit: cover;
   -o-object-fit: cover;
   object-position: 0 50%;
@@ -2721,7 +2711,6 @@ img.lazyfade.lazyloaded {
   .anim {
     -webkit-animation-duration: 0.3s;
     animation-duration: 0.3s;
-
     animation-fill-mode: both;
     -webkit-animation-fill-mode: both;
   }
@@ -2747,19 +2736,16 @@ img.lazyfade.lazyloaded {
 @-webkit-keyframes slideIn {
   0% {
     -webkit-transform: transform;
-
     -webkit-opacity: 0;
   }
 
   100% {
     -webkit-transform: translateY(0);
-
     -webkit-opacity: 1;
   }
 
   0% {
     -webkit-transform: translateY(1rem);
-
     -webkit-opacity: 0;
   }
 }

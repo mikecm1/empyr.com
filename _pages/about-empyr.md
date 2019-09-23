@@ -39,24 +39,39 @@ custom_text: |-
   }
   }
   defer(function () {
-  var mySwiper14 = new Swiper('#slider-gallery-14', {
-            autoplay: {
-            delay: 5000,
+    var mySwiper14 = new Swiper("#slider-gallery-14", {
+      autoplay: {
+        delay: 5000
+      },
+      loop: true,
+      effect: "crossfade",
+      spaceBetween: 0,
+      slidesOffsetAfter: 100,
+      centeredSlides: true,
+      slideToClickedSlide: true,
+      loopedSlides: 0,
+      disableOnInteraction: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true
+      },
+      slidesPerView: 2,
+      spaceBetween: 0,
+      breakpoints: {
+        1920: {
+            slidesPerView: 2,
+            spaceBetween: 30
         },
-        loop: true,
-        effect: 'crossfade',
-        spaceBetween: 0,
-        centeredSlides: true,
-        slideToClickedSlide: true,
-        loopedSlides: 0,
-        disableOnInteraction: true,
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
+        1028: {
+            slidesPerView: 1,
+            spaceBetween: 30
         },
-        spaceBetween: 0,
-        slidesPerView: 3
-  });
+        480: {
+            slidesPerView: 1,
+            spaceBetween: 30
+        }
+    }
+    });
   });
   </script>
 custom_css: |-
@@ -72,6 +87,7 @@ slides:
 - "/img/company-6.jpg"
 - "/img/company-2.jpg"
 - "/img/company-1.jpg"
+- "/img/company-3.jpg"
 body_headline: Meet the Empyr team
 menu:
   navigation:
@@ -82,16 +98,17 @@ sitemap:
   changefreq: 'daily'
 
 ---
-<div class="swiper pt-4 pb-5 mb-5 offset-lg vw-100">
-  <div class="position-relative mb-3">
-    <div class="swiper-container row standard" id="slider-gallery-14">
+<div class="pt-4 pb-5 mb-5 offset-lg px-4 px-xl-0">
+  <div class="mb-3">
+    <div class="swiper-container" id="slider-gallery-14">
       <div class="swiper-wrapper">
       {% for item in page.slides %}
-        <div class="swiper-slide col-11 col-md-6 p-">
-          <div class="rounded-lg" style="background-image: url({{ item | absolute_url }});height: 400px;"></div>
+        <div class="swiper-slide">
+          <div class="rounded-xl" style="background-image: url({{ item | absolute_url }});height: 370px;background-size: cover;background-position: center;"></div>
         </div>
         {% endfor %}
       </div>
+      <div class="swiper-pagination" style="bottom: -50px;"></div>
     </div>
   </div>
 </div>

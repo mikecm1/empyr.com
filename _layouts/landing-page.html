@@ -209,14 +209,10 @@ layout: default
               <div class="col-12 col-md-7 order-2 pl-0 pl-md-4
                             mb-4 mb-md-0 pr-0">
                 <!-- <img class="w-100" src="{{ page.section_one.img }}" data-aos="basic" data-aos-delay="300"> -->
-                <img 
-                class="w-100"
-                srcset="
+                <img class="w-100" srcset="
                     {{ page.section_one.img | remove:'.png' }}_820.png 820w,
                     {{ page.section_one.img | remove:'.png' }}_1040.png 1040w,
-                    {{ page.section_one.img }} 1468w"
-                src="{{ page.section_one.img }}" 
-                data-aos="basic" data-aos-delay="300">
+                    {{ page.section_one.img }} 1468w" src="{{ page.section_one.img }}" data-aos="basic" data-aos-delay="300">
               </div>
             </div>
           </section>
@@ -261,17 +257,12 @@ layout: default
                   {{ page.section_three.img }} 2000w"
               src="{{ page.section_three.img }}" 
               data-aos="basic" data-aos-delay="300"> -->
-              <img 
-              class="analytics"
-              sizes="(min-width: 768px) auto, 140vw"
-              srcset="
+              <img class="analytics" sizes="(min-width: 768px) auto, 140vw" srcset="
                   {{ page.section_three.img | remove:'.png' }}_1082.png 1082w,
                   {{ page.section_three.img | remove:'.png' }}_2020.png 2020w,
                   {{ page.section_three.img | remove:'.png' }}_2520.png 2520w,
                   {{ page.section_three.img | remove:'.png' }}_2840.png 2840w,
-                  {{ page.section_three.img | remove:'.png' }}_3000.png 3000w"
-              src="{{ page.section_three.img }}" 
-              data-aos="basic" data-aos-delay="300">
+                  {{ page.section_three.img | remove:'.png' }}_3000.png 3000w" src="{{ page.section_three.img }}" data-aos="basic" data-aos-delay="300">
             </div>
           </div>
         </section>
@@ -288,7 +279,7 @@ layout: default
             <div class="swiper-container">
               <div class="swiper-wrapper">
                 {% for item in page.testimonials %}
-                <div class="swiper-slide col-12 col-md-6 eq">
+                <div class="swiper-slide eq">
                   <div class="card box-shadow-md">
                     <div class="card-body">
                       <div class="mb-2">
@@ -328,7 +319,7 @@ layout: default
             {% for item in page.company_types %}
             <div class="col-12 col-lg-4 mb-3 mb-lg-0 px-1" data-aos="basic" data-aos-delay="{{ forloop.index | times: 150 }}">
               <a href="{{ item.url | absolute_url }}">
-                <div class="card partner text-left text-md-center">
+                <div class="card partner text-left">
                   <img src="{{ item.icon }}" class="icon">
                   <p class="text-primary small mb-0">{{ item.badge
                                     }}</p>
