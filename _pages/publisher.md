@@ -9,7 +9,7 @@ tagline: For Websites & Apps
 banner_image: ''
 heading: |-
   Enhance your experience.
-  Amplify your revenue.
+  Increase customer LTV.
 sub_heading: Generate revenue and increase engagement from offline commerce with your
   own fully customized card-linked offer program. Get 1000s of offers and complete
   creative control of the UX and functionality.
@@ -20,7 +20,7 @@ partners:
 - "/img/logo-home-5.png"
 - "/uploads/2019/sofi.png"
 - "/img/logo-home-6.png"
-primary_body_copy_headline: Increase user engagement. <br> Make more money.
+primary_body_copy_headline: Increase user engagement and lifetime value.
 primary_body_copy_subheadline: Give your users another great reason to open your app.
   Empyr's RESTful API provides everything you need to build a customized card-linked
   offer rewards programs that drives repeat interaction and helps turn your users
