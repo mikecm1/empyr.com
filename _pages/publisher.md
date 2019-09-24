@@ -140,11 +140,13 @@ section_three:
 show_user_testimonials: true
 case_studies: []
 page_name: "* Publishers"
-menu:
+dropdown:
+  showdrop: true
   partners:
     description: Build a custom card-linked offer program
     title: Websites & Apps
     icon: "/uploads/2019/icon-dropdown-2.svg"
+    sort_order: "2"
 sitemap:
   priority: 0.75
   changefreq: 'daily'

@@ -200,7 +200,8 @@ custom_css: |-
   max-width: 780px;
   }
   </style>
-menu:
+dropdown:
+  showdrop: true
   partners:
     description: Create a new revenue stream with Empyr
     title: Channel Partners

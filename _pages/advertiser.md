@@ -143,11 +143,13 @@ user_testimonials:
   title: ''
   testimonials: []
 page_name: "* Advertisers"
-menu:
+dropdown:
+  showdrop: true
   partners:
     title: Advertisers
     description: Launch a card-linked offer campaign
     icon: "/uploads/2019/icon-dropdown-1.svg"
+    sort_order: "1"
 sitemap:
   priority: 0.75
   changefreq: 'daily'
