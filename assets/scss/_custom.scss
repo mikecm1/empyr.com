@@ -646,13 +646,13 @@ p.latest {
   }
 
   .x-large {
-    font-size: 109.5%;
+    font-size: 108.5%;
     font-weight: 400;
-    line-height: 2;
-    opacity: 0.7 !important;
-    max-width: 1020px !important;
+    line-height: 1.95;
+    opacity: .7!important;
+    max-width: 980px!important;
     @include media-breakpoint-up(lg) {
-      font-size: 112.5%;
+
     }
     @include media-breakpoint-up(xl) {
       
@@ -1044,7 +1044,7 @@ h1 {
   }
 
   @include media-breakpoint-up("xl") {
-    font-size: 64px;
+    font-size: 59px;
   }
 }
 
