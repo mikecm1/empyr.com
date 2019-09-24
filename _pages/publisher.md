@@ -9,7 +9,7 @@ tagline: For Websites & Apps
 banner_image: ''
 heading: |-
   Enhance your experience.
-  Increase customer LTV.
+  Amplify your revenue.
 sub_heading: Generate revenue and increase engagement from offline commerce with your
   own fully customized card-linked offer program. Get 1000s of offers and complete
   creative control of the UX and functionality.
@@ -20,7 +20,7 @@ partners:
 - "/img/logo-home-5.png"
 - "/uploads/2019/sofi.png"
 - "/img/logo-home-6.png"
-primary_body_copy_headline: Increase user engagement and lifetime value.
+primary_body_copy_headline: Increase user engagement. <br> Make more money.
 primary_body_copy_subheadline: Give your users another great reason to open your app.
   Empyr's RESTful API provides everything you need to build a customized card-linked
   offer rewards programs that drives repeat interaction and helps turn your users
@@ -106,15 +106,12 @@ user_testimonials:
     logo: "/img/yelp-cb-logo.png"
   - person_name: Hilarey W.
     program_name: NerdWallet Cash Back
-    quote: If you haven’t signed up for a cash back credit card yet, this is a great
-      way to experience the same perks with just a debit card. Free money every month?
-      Yes please!
+    quote: 'If you haven’t signed up for a cash back credit card yet, this is a great way to experience the same perks with just a debit card. Free money every month? Yes please!'
     user_photo: ''
     logo: "/img/logo-nerd.png"
   - person_name: Jonathan H.
     program_name: Swagbucks Local
-    quote: I was surprised to see local restaurants in my area (Lancaster city, PA),
-      even a couple mom-and-pop restaurants (i.e. not chains) offering 7% cash back!
+    quote: 'I was surprised to see local restaurants in my area (Lancaster city, PA), even a couple mom-and-pop restaurants (i.e. not chains) offering 7% cash back!'
     user_photo: ''
     logo: "/img/logo-swag.png"
   - person_name: Ingy
@@ -127,14 +124,12 @@ user_testimonials:
     program_name: Pei
     user_photo: ''
     logo: "/img/logo-pei.png"
-    quote: Pei has made going out and spending money a little more fun. Especially
-      because I already use a cashback credit card and now can earn even more cashback.
+    quote: "Pei has made going out and spending money a little more fun. Especially because I already use a cashback credit card and now can earn even more cashback."
   - person_name: Jim W.
     program_name: Swagbucks Local
     user_photo: ''
     logo: "/img/logo-swag.png"
-    quote: When you use your credit card at a restaurant in the program, you get cashback!
-      There's nothing else you need to do. So easy.
+    quote: "When you use your credit card at a restaurant in the program, you get cashback! There's nothing else you need to do. So easy."
 section_three:
   tagline: ''
   section_header: ''
@@ -152,7 +147,5 @@ menu:
     icon: "/uploads/2019/icon-dropdown-2.svg"
 sitemap:
   priority: 0.75
-  changefreq: daily
-published: false
-
+  changefreq: 'daily'
 ---
