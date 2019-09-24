@@ -79,8 +79,8 @@ $(document).ready(function () {
     return linkClicked ? transEffect : HideShowTransition;
   };
   Barba.Pjax.start();
-  var is_safari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
-  if (!is_safari) Barba.Prefetch.init();
+  // var is_safari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+  // if (!is_safari) Barba.Prefetch.init();
 
   Barba.Dispatcher.on("transitionCompleted", function (currentStatus, oldStatus, container) {
     styles_reloaded();
