@@ -148,5 +148,6 @@ page_name: "* Publishers"
 sitemap:
   priority: 0.75
   changefreq: daily
+published: false
 
 ---
