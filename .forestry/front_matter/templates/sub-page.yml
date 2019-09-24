@@ -21,6 +21,9 @@ fields:
   type: field_group
   config: {}
   fields:
+  - name: showdrop
+    type: boolean
+    label: Show in nav dropdown
   - name: partners
     type: field_group
     config: {}
