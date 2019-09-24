@@ -53,8 +53,8 @@ fields:
         min: 
         max: 
         step: 
-    label: partners
-  label: Navigation dropdown item?
+    label: Menu item information
+  label: Main navigation dropdown item?
 - name: description
   type: textarea
   default: ''
