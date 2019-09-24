@@ -9,7 +9,7 @@ tagline: For Websites & Apps
 banner_image: ''
 heading: |-
   Enhance your experience.
-  Amplify your revenue.
+  Increase customer lifetime value.
 sub_heading: Generate revenue and increase engagement from offline commerce with your
   own fully customized card-linked offer program. Get 1000s of offers and complete
   creative control of the UX and functionality.
@@ -106,12 +106,15 @@ user_testimonials:
     logo: "/img/yelp-cb-logo.png"
   - person_name: Hilarey W.
     program_name: NerdWallet Cash Back
-    quote: 'If you haven’t signed up for a cash back credit card yet, this is a great way to experience the same perks with just a debit card. Free money every month? Yes please!'
+    quote: If you haven’t signed up for a cash back credit card yet, this is a great
+      way to experience the same perks with just a debit card. Free money every month?
+      Yes please!
     user_photo: ''
     logo: "/img/logo-nerd.png"
   - person_name: Jonathan H.
     program_name: Swagbucks Local
-    quote: 'I was surprised to see local restaurants in my area (Lancaster city, PA), even a couple mom-and-pop restaurants (i.e. not chains) offering 7% cash back!'
+    quote: I was surprised to see local restaurants in my area (Lancaster city, PA),
+      even a couple mom-and-pop restaurants (i.e. not chains) offering 7% cash back!
     user_photo: ''
     logo: "/img/logo-swag.png"
   - person_name: Ingy
@@ -124,12 +127,14 @@ user_testimonials:
     program_name: Pei
     user_photo: ''
     logo: "/img/logo-pei.png"
-    quote: "Pei has made going out and spending money a little more fun. Especially because I already use a cashback credit card and now can earn even more cashback."
+    quote: Pei has made going out and spending money a little more fun. Especially
+      because I already use a cashback credit card and now can earn even more cashback.
   - person_name: Jim W.
     program_name: Swagbucks Local
     user_photo: ''
     logo: "/img/logo-swag.png"
-    quote: "When you use your credit card at a restaurant in the program, you get cashback! There's nothing else you need to do. So easy."
+    quote: When you use your credit card at a restaurant in the program, you get cashback!
+      There's nothing else you need to do. So easy.
 section_three:
   tagline: ''
   section_header: ''
@@ -140,12 +145,8 @@ section_three:
 show_user_testimonials: true
 case_studies: []
 page_name: "* Publishers"
-menu:
-  partners:
-    description: Build a custom card-linked offer program
-    title: Websites & Apps
-    icon: "/uploads/2019/icon-dropdown-2.svg"
 sitemap:
   priority: 0.75
-  changefreq: 'daily'
+  changefreq: daily
+
 ---
