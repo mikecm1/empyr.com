@@ -72,14 +72,14 @@ gulp.task('scss-full', function () {
     ];
     return gulp.src('./assets/scss/main.scss')
         .pipe(sourcemaps.init({
-            loadMaps: false
+            loadMaps: true
         }))
         .pipe(sass())
         .on("error", sass.logError)
         .pipe(
             purgecss({
                 content: ['./_site/**/*.html'],
-                whitelistPatterns: [/aos/],
+                whitelistPatterns: [/aos/,/swiper/],
             })
         )
         .pipe(postcss(processors))
@@ -121,6 +121,10 @@ gulp.task('watch', function () {
 
 gulp.task('watch-full', function () {
     gulp.watch(['assets/**/*.scss'], gulp.series('scss-full'));
+});
+
+gulp.task('watch-full', function () {
+    gulp.watch(['assets/**/*.scss'], gulp.series('scss-full'));
     gulp.watch(['./assets/js/**/*.js','!./assets/js/**/min*/**/*'], gulp.series('js-full'));
 });
 
@@ -133,6 +137,13 @@ gulp.task('watch-scss', function () {
 gulp.task('default', gulp.parallel(
     'generate',
     'watch-scss'
+));
+
+// Default: build and watch local
+// Run -> 'gulp'
+gulp.task('full', gulp.parallel(
+    'generate',
+    'watch-full'
 ));
 
 // Watch and compile complete with uncss
