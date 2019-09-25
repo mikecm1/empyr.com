@@ -157,3 +157,8 @@ gulp.task('deploy', gulp.series(
     'scss-full',
     'buildit'
 ));
+
+// Deploy on forestry.io
+gulp.task('build', gulp.series(
+    'buildit'
+));
