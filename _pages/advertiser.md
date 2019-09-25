@@ -153,8 +153,8 @@ dropdown:
 sitemap:
   priority: 0.75
   changefreq: daily
-custom_code: |2-
-    Barba.Dispatcher.on("transitionCompleted", function (currentStatus, oldStatus, container) {
-    });
+custom_code: |-
+  Barba.Dispatcher.on("transitionCompleted", function (currentStatus, oldStatus, container) {
+  });
 
 ---
