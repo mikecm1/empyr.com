@@ -102,7 +102,7 @@ section_one:
     link_url: index.md
     href: ''
 section_two:
-  tagline: Revenue
+  tagline: Guaranteed Revenue
   section_header: Real foot traffic. Real revenue.
   section_body_copy: Drive motivated customers into your physical stores and only
     pay a fee when they make a verified purchase– the impressions and clicks are free.
@@ -149,8 +149,9 @@ dropdown:
     title: Advertisers
     description: Launch a card-linked offer campaign
     icon: "/uploads/2019/icon-dropdown-1.svg"
-    sort_order: "1"
+    sort_order: '1'
 sitemap:
   priority: 0.75
-  changefreq: 'daily'
+  changefreq: daily
+
 ---
