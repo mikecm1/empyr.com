@@ -64,7 +64,7 @@ all_features:
   icon: "/img/icons/small/icon-line-40.svg"
 show_case_studies: false
 section_one:
-  tagline: USER EXPERIENCE
+  tagline: User Experience
   section_header: |-
     Seamless integration,
     complete creative control
@@ -76,7 +76,7 @@ section_one:
     link_url: index.md
     href: ''
 section_two:
-  tagline: Content
+  tagline: Offer Content
   section_header: Thousands of offline offers ready to go
   section_body_copy: Get access to thousands of offline offers, from local stores
     and restaurants to popular national brands. You can issue user rewards direct
@@ -106,12 +106,15 @@ user_testimonials:
     logo: "/img/yelp-cb-logo.png"
   - person_name: Hilarey W.
     program_name: NerdWallet Cash Back
-    quote: 'If you haven’t signed up for a cash back credit card yet, this is a great way to experience the same perks with just a debit card. Free money every month? Yes please!'
+    quote: If you haven’t signed up for a cash back credit card yet, this is a great
+      way to experience the same perks with just a debit card. Free money every month?
+      Yes please!
     user_photo: ''
     logo: "/img/logo-nerd.png"
   - person_name: Jonathan H.
     program_name: Swagbucks Local
-    quote: 'I was surprised to see local restaurants in my area (Lancaster city, PA), even a couple mom-and-pop restaurants (i.e. not chains) offering 7% cash back!'
+    quote: I was surprised to see local restaurants in my area (Lancaster city, PA),
+      even a couple mom-and-pop restaurants (i.e. not chains) offering 7% cash back!
     user_photo: ''
     logo: "/img/logo-swag.png"
   - person_name: Ingy
@@ -124,12 +127,14 @@ user_testimonials:
     program_name: Pei
     user_photo: ''
     logo: "/img/logo-pei.png"
-    quote: "Pei has made going out and spending money a little more fun. Especially because I already use a cashback credit card and now can earn even more cashback."
+    quote: Pei has made going out and spending money a little more fun. Especially
+      because I already use a cashback credit card and now can earn even more cashback.
   - person_name: Jim W.
     program_name: Swagbucks Local
     user_photo: ''
     logo: "/img/logo-swag.png"
-    quote: "When you use your credit card at a restaurant in the program, you get cashback! There's nothing else you need to do. So easy."
+    quote: When you use your credit card at a restaurant in the program, you get cashback!
+      There's nothing else you need to do. So easy.
 section_three:
   tagline: ''
   section_header: ''
@@ -146,8 +151,9 @@ dropdown:
     description: Build a custom card-linked offer program
     title: Websites & Apps
     icon: "/uploads/2019/icon-dropdown-2.svg"
-    sort_order: "2"
+    sort_order: '2'
 sitemap:
   priority: 0.75
-  changefreq: 'daily'
+  changefreq: daily
+
 ---
