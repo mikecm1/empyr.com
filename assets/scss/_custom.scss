@@ -425,7 +425,7 @@ $gradient-bg2;
   transform: translateZ(0);
   backface-visibility: hidden;
   perspective: 1000;
-  animation: fadein 500ms ease-in-out;
+  // animation: fadein 500ms ease-in-out;
 
   &::before {
     position: absolute;
@@ -450,6 +450,9 @@ $gradient-bg2;
   }
 }
 
+.fade-out { animation: fadeout 300ms ease-in-out forwards !important; }
+.fade-in { animation: fadein 300ms ease-in-out forwards; }
+
 @keyframes fadein {
   from {
     opacity: 0;
@@ -457,6 +460,16 @@ $gradient-bg2;
 
   to {
     opacity: 1;
+  }
+}
+
+@keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
   }
 }
 

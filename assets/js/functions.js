@@ -2,10 +2,9 @@ $(document).ready(function () {
   AOS.init({
     once: !0,
     duration: 400,
-    disable: "mobile",
+    disable: "mobile"
     // anchorPlacement: "center-bottom"
   });
-
   $("[data-id=nav-sidebar-toggle]").click(function (e) {
     e.preventDefault();
     $("#nav-sidebar").toggleClass("show");
@@ -14,7 +13,6 @@ $(document).ready(function () {
     $("#nav-sidebar").removeClass("show");
   });
   $(".navbar-side a.nested").click(function (e) {});
-
   var links = document.querySelectorAll("a[href]");
   var cbk = function (e) {
     if (e.currentTarget.href === window.location.href) {
@@ -22,11 +20,9 @@ $(document).ready(function () {
       e.stopPropagation();
     }
   };
-
   for (var i = 0; i < links.length; i++) {
     links[i].addEventListener("click", cbk);
   }
-
   let linkClicked = true;
   Barba.Dispatcher.on("linkClicked", function (el) {
     linkClicked = true;
@@ -34,7 +30,6 @@ $(document).ready(function () {
   Barba.Dispatcher.on("transitionCompleted", () => {
     linkClicked = false;
   });
-
   var transEffect = Barba.BaseTransition.extend({
     start: function () {
       this.newContainerLoading.then(val => this.fadeInNewcontent($(this.newContainer)));
@@ -54,7 +49,6 @@ $(document).ready(function () {
         });
     }
   });
-
   var HideShowTransition = Barba.BaseTransition.extend({
     start: function () {
       this.newContainerLoading.then(val => this.fadeInNewcontent($(this.newContainer)));
@@ -74,18 +68,15 @@ $(document).ready(function () {
         });
     }
   });
-
   Barba.Pjax.getTransition = function () {
     return linkClicked ? transEffect : HideShowTransition;
   };
   Barba.Pjax.start();
   var is_safari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
   if (!is_safari) Barba.Prefetch.init();
-
   Barba.Dispatcher.on("transitionCompleted", function (currentStatus, oldStatus, container) {
     styles_reloaded();
   });
-
   Barba.Dispatcher.on("newPageReady", function (currentStatus, oldStatus, container, newPageRawHTML) {
     var $newPageHead = $("<head />").html($.parseHTML(newPageRawHTML.match(/<head[^>]*>([\s\S.]*)<\/head>/i)[0], document, true));
     var headTags = [
@@ -118,25 +109,24 @@ $(document).ready(function () {
     Array.prototype.forEach.call(navigationLinks, navigationLink => navigationLink.classList.remove("active"));
     // navigationLinkIsActive.classList.add('active');
   });
-
   Barba.Dispatcher.on("initStateChange", function () {
     if (Barba.HistoryManager.history.length <= 1) {
       return;
     }
     if (typeof gtag === "function") {
       if (window.google_tag_manager) {
-        console.log('Google Tag Manager is loaded');
+        console.log("Google Tag Manager is loaded");
         gtag("config", "UA-77237997-1", {
           page_path: location.pathname,
           use_amp_client_id: true
         });
       } else {
-        console.log('Google Tag Manager is not loaded');
+        console.log("Google Tag Manager is not loaded");
       }
     } else {
       if (typeof ga === "function") {
         if (window.ga && ga.create) {
-          console.log('Google Analytics is loaded');
+          console.log("Google Analytics is loaded");
           var trackers = ga.getAll();
           trackers.forEach(function (tracker) {
             ga(tracker.get("name") + ".send", "pageview", location.pathname, {
@@ -144,12 +134,11 @@ $(document).ready(function () {
             });
           });
         } else {
-          console.log('Google Analytics is not loaded');
+          console.log("Google Analytics is not loaded");
         }
       }
     }
   });
-
   Barba.Pjax.originalPreventCheck = Barba.Pjax.preventCheck;
   Barba.Pjax.preventCheck = function (evt, element) {
     if (!Barba.Pjax.originalPreventCheck(evt, element)) {
@@ -167,7 +156,6 @@ $(document).ready(function () {
     return true;
   };
   // document.documentElement.className = 'js';
-
   $(".navbar a").on("click", function () {
     history.pushState({
         scrollTop: document.body.scrollTop
@@ -176,11 +164,9 @@ $(document).ready(function () {
       document.location.pathname
     );
   });
-
   $(".navbar-nav .dropdown-menu a").click(function () {
     $(".dropdown:hover>.dropdown-menu").addClass("d-none");
   });
-
   $(".navbar-nav .dropdown-toggle").hover(function () {
     $(".dropdown:hover>.dropdown-menu").removeClass("d-none");
   });
@@ -190,7 +176,6 @@ $(document).ready(function () {
     sessionStorage.setItem("autonumero", input.value);
     return true;
   }
-
   $(function () {
     $("button.join").on("keypress click", function () {
       var fieldValue = document.getElementById("emailContact").value;
@@ -215,7 +200,6 @@ $(document).ready(function () {
       }
     });
   }
-
   $(document).on("keypress", ".input-group:has(input:input, span.input-group-btn:has(div.btn)) input:input", function (e) {
     if (e.which == 13) {
       $(this)
@@ -227,7 +211,6 @@ $(document).ready(function () {
 
   function styles_reloaded() {
     AOS.refresh();
-
     var swiper = new Swiper(".swiper-container", {
       autoplay: {
         delay: 5000
@@ -248,20 +231,19 @@ $(document).ready(function () {
       spaceBetween: 0,
       breakpoints: {
         1920: {
-            slidesPerView: 2,
-            spaceBetween: 30
+          slidesPerView: 2,
+          spaceBetween: 30
         },
         1028: {
-            slidesPerView: 1,
-            spaceBetween: 30
+          slidesPerView: 1,
+          spaceBetween: 30
         },
         480: {
-            slidesPerView: 1,
-            spaceBetween: 10
+          slidesPerView: 1,
+          spaceBetween: 10
         }
-    }
+      }
     });
-
     $("button.join").click(function () {
       if ($("button.join").length) {
         var fieldValue = document.getElementById("emailContact").value;
@@ -269,14 +251,11 @@ $(document).ready(function () {
         window.location.href = "/joinus#load";
       }
     });
-
     $(".navbar-nav .dropdown-menu").removeClass("d-none");
-
     $(".modal a").click(function () {
       $("body").removeClass("modal-open");
       $(".modal-backdrop").remove();
     });
-
     $(function () {
       if (Modernizr.touch) {} else if ($(".rellax")[0]) {
         var rellax = new Rellax(".rellax", {
@@ -285,6 +264,5 @@ $(document).ready(function () {
       }
     });
   }
-
   styles_reloaded();
 });
