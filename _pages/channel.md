@@ -101,12 +101,15 @@ user_testimonials:
     logo: "/img/yelp-cb-logo.png"
   - person_name: Hilarey W.
     program_name: NerdWallet Cash Back
-    quote: 'If you haven’t signed up for a cash back credit card yet, this is a great way to experience the same perks with just a debit card. Free money every month? Yes please!'
+    quote: If you haven’t signed up for a cash back credit card yet, this is a great
+      way to experience the same perks with just a debit card. Free money every month?
+      Yes please!
     user_photo: ''
     logo: "/img/logo-nerd.png"
   - person_name: Jonathan H.
     program_name: Swagbucks Local
-    quote: 'I was surprised to see local restaurants in my area (Lancaster city, PA), even a couple mom-and-pop restaurants (i.e. not chains) offering 7% cash back!'
+    quote: I was surprised to see local restaurants in my area (Lancaster city, PA),
+      even a couple mom-and-pop restaurants (i.e. not chains) offering 7% cash back!
     user_photo: ''
     logo: "/img/logo-swag.png"
   - person_name: Ingy
@@ -119,12 +122,14 @@ user_testimonials:
     program_name: Pei
     user_photo: ''
     logo: "/img/logo-pei.png"
-    quote: "Pei has made going out and spending money a little more fun. Especially because I already use a cashback credit card and now can earn even more cashback."
+    quote: Pei has made going out and spending money a little more fun. Especially
+      because I already use a cashback credit card and now can earn even more cashback.
   - person_name: Jim W.
     program_name: Swagbucks Local
     user_photo: ''
     logo: "/img/logo-swag.png"
-    quote: "When you use your credit card at a restaurant in the program, you get cashback! There's nothing else you need to do. So easy."
+    quote: When you use your credit card at a restaurant in the program, you get cashback!
+      There's nothing else you need to do. So easy.
 section_three:
   tagline: UP AND RUNNING
   section_header: Hands On Training
@@ -206,7 +211,7 @@ dropdown:
     description: Create a new revenue stream with Empyr
     title: Channel Partners
     icon: "/uploads/2019/icon-dropdown-3.svg"
-    sort_order: "5"
+    sort_order: '5'
 sticky_ad_bar:
   background_image: "/uploads/2019/bg-sticky.png"
   content: Learn how the newest digital ad product can generate a $1M+ annual recurring
@@ -216,5 +221,6 @@ sticky_ad_bar:
 add_sticky_bar: true
 sitemap:
   priority: 0.75
-  changefreq: 'daily'
+  changefreq: daily
+
 ---
