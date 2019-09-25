@@ -1,9 +1,6 @@
 ---
 header_code_snippets:
   code_snippets: |-
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-    <meta http-equiv="Pragma" content="no-cache" />
-    <meta http-equiv="Expires" content="0" />
     <!-- Chrome, Firefox OS, Opera and Vivaldi -->
     <meta name="theme-color" content="#111111">
     <!-- Windows Phone -->
