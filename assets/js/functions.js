@@ -76,6 +76,7 @@ $(document).ready(function () {
   if (!is_safari) Barba.Prefetch.init();
   Barba.Dispatcher.on("transitionCompleted", function (currentStatus, oldStatus, container) {
     styles_reloaded();
+    window.HubSpotConversations.widget.load();
   });
   Barba.Dispatcher.on("newPageReady", function (currentStatus, oldStatus, container, newPageRawHTML) {
     var $newPageHead = $("<head />").html($.parseHTML(newPageRawHTML.match(/<head[^>]*>([\s\S.]*)<\/head>/i)[0], document, true));
@@ -94,27 +95,6 @@ $(document).ready(function () {
       .find(headTags)
       .remove();
     $newPageHead.find(headTags).appendTo("head");
-    (function() {
-      var scripts, script;
-      scripts = document.querySelectorAll('script[data-loader="hs-scriptloader"]');
-      for (var script of scripts) {
-      script.remove();
-      }
-      script = document.getElementById('hs-analytics');
-      if (script != undefined) {
-      script.remove();
-      }
-      window.hubspot_live_messages_running = undefined
-      })()
-      function load_js()
-      {
-      var head= document.getElementsByTagName('head')[0];
-      var script= document.createElement('script');
-      script.src= 'https://js.hs-analytics.net/analytics/1569457200000/2556018.js';
-      script.id= 'hs-script-loader';
-      head.appendChild(script);
-      }
-      load_js();
       window.HubSpotConversations.widget.refresh();
   });
   Barba.Dispatcher.on("newPageReady", function (currentStatus, oldStatus, container) {
