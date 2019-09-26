@@ -154,7 +154,5 @@ sitemap:
   priority: 0.75
   changefreq: daily
 custom_code: |-
-  Barba.Dispatcher.on("transitionCompleted", function (currentStatus, oldStatus, container) {
-  });
 
 ---
