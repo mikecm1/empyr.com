@@ -40,6 +40,7 @@ fields:
   hidden: true
   default: person
 pages:
+- _people/tabitha-buchanan.md
 - _people/jan-decino.md
 - _people/jarrod-cuzens.md
 - _people/brett-elliott.md
@@ -55,7 +56,6 @@ pages:
 - _people/josh-lehmer.md
 - _people/zack-miller.md
 - _people/steve-kwon.md
-- _people/tabitha-buchanan.md
 - _people/holly-hisel.md
 - _people/michael-waechter.md
 - _people/michael-reed.md
