@@ -1051,7 +1051,7 @@ h1 {
   }
 
   @include media-breakpoint-up("md") {
-    font-size: 54px;
+    font-size: 49px;
   }
 
   @include media-breakpoint-up("xl") {
@@ -1855,18 +1855,6 @@ svg.fsvg {
     border-color: rgba(80, 105, 252, 0.5);
     border-image: initial;
     background: #171c36;
-  }
-  &.job::after {
-    border: 0;
-    content: "\e91b";
-    vertical-align: middle;
-    font-family: "icomoon";
-    opacity: .2;
-    position: absolute;
-    top: 10px;
-    right: 15px;
-    background-position: center;
-    font-size: 50px;
   }
 }
 

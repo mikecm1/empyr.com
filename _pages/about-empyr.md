@@ -2,7 +2,6 @@
 layout: standard-page
 permalink: "/about-empyr/"
 title: About Empyr
-tagline: Our Vision
 heading: A world where advertisers know the impact of every dollar spent.
 description: Empyr's technology makes earning rewards on in-store purchases so easy,
   sometimes it happens without you even thinking about it, kinda like breathing.  We
