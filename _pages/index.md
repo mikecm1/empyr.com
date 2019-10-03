@@ -80,6 +80,14 @@ testimonials:
   logo: "/uploads/2019/mygini.png"
   job_title: Public Relations
   company: MyGini
+- quote: 'Empyr has been a great solution to work alongside in pushing the boundaries
+    of online to offline marketing. They helped us to drive higher engagement with
+    our most active users while also helping to monetize our earliest solutions. '
+  name: Tom Bachar
+  job_title: Founder & CEO
+  company: Pei
+  icon: ''
+  logo: ''
 - quote: Card Linked Offers provide a seamless client experience, to earn back money
     when spending on life’s necessities, like groceries and gas.
   name: Allyson Federbush
