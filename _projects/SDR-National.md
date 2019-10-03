@@ -5,7 +5,7 @@ description: The primary responsibility of this position is to ensure merchant a
 location: San Diego
 timing: Full-time
 slug: ''
-layout: standard-page_basic
+
 ---
 
 ## Overview

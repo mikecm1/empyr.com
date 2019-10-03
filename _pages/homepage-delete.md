@@ -1,6 +1,6 @@
 ---
-title: Online to Offline Commerce - O2O - Card Linked Offers
-permalink: "/"
+title: Remove page
+permalink: "/delete"
 layout: landing-page
 description: Empyr empowers companies to track and monetize online to offline (o2o)
   commerce using card linked offers.
@@ -56,37 +56,39 @@ primary_body_copy_subtext: Accelerate in-store revenue with card-linked offer ca
   on our exclusive consumer marketplace. There’s no charge for clicks or impressions,
   and purchases are tracked in real-time, providing full online to offline attribution.
 testimonials:
-- quote: With a few extra dollars here, a few more there, you can quickly collect
-    enough money for a tank of gas, a little treat for yourself, or a present for
-    someone special.
-  name: Laura Soriano
-  company: Earnin
-  icon: ''
-  logo: "/uploads/2019/earnin.png"
-  job_title: Senior Brand Marketing Writer
-- quote: The most exciting aspect of Cash Back is how it works in tandem with our
-    existing app features and enhances the data-driven insights and recommendations
-    we already provide
-  name: Tapan Bhat
-  company: NerdWallet
-  icon: ''
-  logo: "/uploads/2019/nerdwallet.png"
-  job_title: Chief Product Officer
-- quote: Working with Empyr means we can bring retail offers to cardholders, but crucially
-    the myGini engine can target these and make sure that the consumer gets the offers
-    and rewards that matter on their smartphones at the point of transaction.
-  name: Reka Agopcsa
-  icon: ''
-  logo: "/uploads/2019/mygini.png"
-  job_title: Public Relations
-  company: MyGini
-- quote: Card Linked Offers provide a seamless client experience, to earn back money
-    when spending on life’s necessities, like groceries and gas.
-  name: Allyson Federbush
-  company: Stash
-  icon: ''
-  logo: "/uploads/2019/stash.png"
-  job_title: Head of Communications
+- quote: An Empyr/Yelp partnership brings thousands of offline offers directly to
+    where millions of consumers search for and discover local businesses every day.
+    There is zero friction, no coupons, and is enormous added value to all Yelp users.
+  name: Chad Richard
+  company: Yelp
+  icon: "/uploads/2019/yelp-avatar.png"
+  logo: "/uploads/2019/logo-yelp.png"
+  job_title: ''
+- quote: Living Social partnered with Empyr to bring a new type of local offer to
+    their 40 million consumers. With Living Social's new Restaurants Plus program,
+    powered by Empyr, consumers earn by simply paying with any linked credit or debit
+    card.
+  name: Chad Crutchfield
+  company: Living Social
+  icon: "/uploads/2019/ls-avatar.png"
+  logo: "/uploads/2019/logo-livingsocial.png"
+  job_title: ''
+- quote: Virgin America partnered with Empyr to create a frictionless way for consumers
+    to earn points at offline merchants with any linked debit or credit card. Consumers
+    love the ease of use and Virgin loves providing customers with a free way to earn.
+  name: Virgin America
+  icon: "/uploads/2019/va-avatar.png"
+  logo: "/uploads/2019/logo-virgin.png"
+  job_title: ''
+  company: ''
+- quote: Facebook worked with Empyr to see how consumers responded to offline offers
+    in their feed, such as $5 cash-back at Jack In The Box. Empyr helps with offline
+    attribution while giving users cash-back which increases engagement.
+  name: P.J. Linarducci
+  company: Facebook
+  icon: "/uploads/2019/fb-avatar.png"
+  logo: "/uploads/2019/logo-facebook.png"
+  job_title: ''
 company_types:
 - badge: Advertisers
   heading: For National Brands
@@ -104,10 +106,12 @@ company_types:
   icon: "/img/icon-cp-dark-1.svg"
   url: "/channel/"
 cta_footer_header: Customized solutions
-cta_footer_subheader: Use card-linked offer technology to drive revenue and accelerate
-  consumer engagement today
+cta_footer_subheader: Make card-linked offers part of your digital strategy and accelerate
+  consumer engagement and revenue today
 section_one:
-  img: "/img/section-logo-rounded.png"
+  super: ''
+  heading: ''
+  link: ''
   primary_copy: ''
   button_text: ''
   button_link: ''
@@ -119,7 +123,7 @@ section_one:
     text: Learn More
     link_url: ''
     href: "/"
-  image: "/uploads/2019/section-logo-rounded.png"
+  image: ''
 section_two:
   img: "/img/roas-home.svg"
   img_width: 700
@@ -132,7 +136,7 @@ section_two:
     text: Learn More
     link_url: ''
     href: "/"
-  image: "/uploads/2019/roas-home.png"
+  image: ''
 section_three:
   img: "/img/home-analytics.png"
   tagline: Real-Time Analytics
@@ -143,12 +147,10 @@ section_three:
   button:
     text: Learn More
     href: "/"
-  image: "/uploads/2019/home-analytics.png"
+  image: ''
 custom_code: ''
-page_name: "* Homepage"
-custom_head_tag: ''
+page_name: "* Homepage (delete)"
+custom_head_tag: <meta name="robots" content="noindex,nofollow">
 sitemap:
-  priority: 1
-  changefreq: daily
-
+  exclude: 'yes'
 ---

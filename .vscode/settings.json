@@ -13,27 +13,7 @@
     "_includes/nav.html"
   ],
   "favorites.sortOrder": "ASC",
-  "files.exclude": {
-    "webfonts": true,
-    ".htaccess": true,
-    ".jekyll-metadata": true,
-    "CNAME": true,
-    "package-lock.json": true,
-    "Gemfile.lock": true,
-    "uploads": true,
-    ".sass-cache": true,
-    "_plugins": true,
-    "img": true,
-    "admin": true,
-    "node_modules": true,
-    "assets/glyphs": true,
-    "assets/logos": true,
-    "assets/fonts": true,
-    "jekyll-metadata": true,
-    ".vscode": true,
-    "assets/pictures": true,
-    "_layouts/not-found.html": true
-  },
+  "files.exclude": {},
   "explorer.sortOrder": "type",
   "editor.defaultFormatter": "HookyQR.beautify"
 }
