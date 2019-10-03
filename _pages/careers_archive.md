@@ -1,6 +1,6 @@
 ---
 title: Careers
-permalink: "/careers/"
+permalink: "/careers_archive/"
 description: ''
 keywords: ''
 sub_heading: ''
@@ -16,7 +16,8 @@ heading: ''
 page_name: "* Careers"
 sitemap:
   priority: 0.2
-  changefreq: 'daily'
+  changefreq: daily
+
 ---
 <div class="pt-4 pt-md-3"></div>
 ## Apply for a position at Empyr
