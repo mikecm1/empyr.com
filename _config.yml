@@ -19,7 +19,7 @@ collections:
     output: false
   posts:
     output: true
-  careers:
+  projects:
     output: true
     permalink: "/careers/:path/"
 # tag_page_layout: tag_page

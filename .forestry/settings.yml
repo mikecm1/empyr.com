@@ -25,12 +25,12 @@ sections:
   templates:
   - person
 - type: directory
-  path: _careers
-  label: Careers
+  path: _projects
+  label: Case Studies
   create: all
   match: "*"
   templates:
-  - career
+  - project
 - type: document
   path: _data/information.yml
   label: Site info (global)
