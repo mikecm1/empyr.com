@@ -56,6 +56,14 @@ primary_body_copy_subtext: Accelerate in-store revenue with card-linked offer ca
   on our exclusive consumer marketplace. There’s no charge for clicks or impressions,
   and purchases are tracked in real-time, providing full online to offline attribution.
 testimonials:
+- quote: Empyr has been a great solution to work alongside in pushing the boundaries     of
+    online to offline marketing. They helped us to drive higher engagement with our
+    most active users while also helping to monetize our earliest solutions.
+  name: Tom Bachar
+  job_title: Founder & CEO
+  company: Pei
+  icon: ''
+  logo: "/uploads/2019/pei.png"
 - quote: With a few extra dollars here, a few more there, you can quickly collect
     enough money for a tank of gas, a little treat for yourself, or a present for
     someone special.
