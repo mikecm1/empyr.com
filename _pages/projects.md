@@ -1,6 +1,6 @@
 ---
 title: Careers at Empyr
-permalink: "/projects/"
+permalink: "/careers/"
 layout: projects
 heading: Careers at Empyr
 description: Careers at Empyr
