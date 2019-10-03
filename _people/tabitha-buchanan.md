@@ -7,6 +7,5 @@ thumbnail: "/uploads/2019/tabitha copy.jpg"
 email: ''
 linkedin: ''
 exec_team: false
-layout: ''
 
 ---
