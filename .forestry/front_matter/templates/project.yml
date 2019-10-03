@@ -37,4 +37,5 @@ fields:
   label: Test field
   description: Does this do anything
 pages:
+- _careers/hmmmm.md
 - _careers/testing-123.md
