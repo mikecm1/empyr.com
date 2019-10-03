@@ -1,14 +1,11 @@
 ---
-title: Sed posuere consectetur est at lobortis.
-date: 2019-04-20 00:00:00 +0000
-categories: []
-description: Sed posuere consectetur est at lobortis.
-banner_image: "/uploads/2018/02/17/neurons.jpg"
-sub_heading: Sed posuere consectetur est at lobortis. 
-tags:
-- posuere
-- consectetur
+title: Sales Development Representative, National Accounts
+date: 2019-10-03 00:00:00 +0000
+description: The primary responsibility of this position is to ensure merchant advertising campaigns are properly defined, coordinated, and executed and that all necessary data for post-campaign analysis and attribution is acquired to ensure client success and renewals.
+location: San Diego
+timing: Full-time
 slug: ''
+layout: standard-page_basic
 ---
 
 ## Overview

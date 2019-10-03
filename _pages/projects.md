@@ -1,11 +1,10 @@
 ---
-title: Case Studies
+title: Careers at Empyr
 permalink: "/projects/"
 layout: projects
-description: Projects by Empyr
-publish_date: '2019-11-01T03:00:00.000+00:00'
-heading: Case Studies
-banner_image: "/uploads/2018/12/07/compass.jpg"
+heading: Careers at Empyr
+description: Careers at Empyr
+sub_heading: Please email resumes and/or applications directly to Alexandra Fanelli at <a href="mailto:alexandra@empyr.com">alexandra@empyr.com</a>
 sitemap:
   exclude: 'yes'
 ---

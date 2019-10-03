@@ -4,21 +4,21 @@ layout: default
 
 <div>
     <div class="hero sub">
-        <div class="bg-cover white">
+        <div class="bg-cover white pb-3 pb-md-5">
           <div class="container">
        <div class="break-out poster poster-home z1">
-        <div class="row justify-content-between align-items-centerflex-grow">
+        <div class="row justify-content-between align-items-center flex-grow">
          <div class="pr-md-5 col-12 poster-home-text">
             {% if page.tagline %}
           <p class="small mb-1" style="font-size: 19px;
           font-weight: 600;
           color: #0073ff;">Our Vision</p>
           {% endif %}
-          <h1 class="text-blue-black display-custom mb-1 mb-md-3">
+          <h1 class="text-blue-black display-custom mt-2 mt-md-0 mb-1 mb-md-2">
               {{ page.heading | default: page.title }}
           </h1>
           {% if page.sub_heading and page.sub_heading !="" %}
-          <p class="mb-0 pt-1 pt-sm-0 pb-5 mb-4 text-blue-black x-large" style="max-width: 100%;">{{ page.sub_heading }}</p>
+          <p class="mb-0 text-blue-black" style="max-width: 100%;">{{ page.sub_heading }}</p>
           {% endif %}{% if page.hero_button.text and page.hero_button.text !="" %}
           <div class="pb-2 d-flex flex-column flex-md-row">
            {% if page.hero_button %}<a href="{{ page.hero_button.href | absolute_url }}" class="btn btn-lg btn-white mb-2 mb-md-0primary">{{ page.hero_button.text }}</a
@@ -34,7 +34,7 @@ layout: default
      </div>
 </div>
 <div class="content content-narrow py-5 bg-gray-26">
- {{ content }}
+<div class="container"> {{ content }}</div>
  <div class="container">
   <div class="row">
    <div class="col-12 px-0">
