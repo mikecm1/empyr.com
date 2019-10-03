@@ -1,20 +1,6 @@
 ---
 layout: default
 ---
-<<<<<<< HEAD:_layouts/careers.html
-    <div class="content">
-        <h5 class="mb-2">Current Open Positions</h5>
-        <div>
-            {% for career in site.careers %}
-            <div class="mb-2">
-                <div class="card job">
-                    <a href="{{ career.url | absolute_url }}" class="text-dark">
-                        <div class="card-body p-2 p-md-3 pr-5 mr-0 mr-md-5">
-                            <h5 class="text-primary font-weight-600" style="margin-bottom: 4px;font-size: 21px;">{{ career.title }} {{ career.title }} {{ careers.title }}</h5>
-                            <span class="small mb-1 d-block text-muted font-weight-400">{{ career.location }}, {{ career.timing }}</span>
-                            <p style="line-height: 1.6; font-size: 16px">{{ career.description }}</p>
-                            <p class="small mb-0 font-weight-400">{{ career.date | date: '%B %d, %Y' }}</p>
-=======
 {% comment %}
 This layout is used to by projects.md to display all of documents in
 the _projects/ collection
@@ -38,7 +24,6 @@ the _projects/ collection
                                 <h3><a href="{{ project.url | absolute_url }}">{{ project.title }}</a></h3>
                                 <p>{{ project.sub_heading | slice: 0, 80 }}</p>
                             </div>
->>>>>>> parent of bfcbd98... careers:_layouts/projects.html
                         </div>
                     </div>
                     {% endfor %}
