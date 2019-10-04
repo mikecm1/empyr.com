@@ -13,7 +13,8 @@ layout: standard-page_basic
 ---
 ### **Position Summary**
 
-The SDR is a self-starter with a track record of successful, credible lead follow-up and sales development at multiple executive levels within an organization. The SDR's responsibility is to learn everything about Empyr's offerings, develop skills through formal training and participation in Enterprise Presentations. You will get the opportunity to be involved in presentations with brands like Footlocker, Bed Bath and Beyond, Hilton Hotels, Chevron, Walmart and other Fortune 500 Brands. Your will learn how to navigate an Enterprise sales cycle; our ultimate goal is to graduate into a full cycle, quota carrying Account Executive. We are looking for competitive, driven, business savvy individuals who want to leave a footprint in the growth of an organization while making some money along the way!
+The SDR is a self-starter with a track record of successful, credible lead follow-up and sales development at multiple executive levels within an organization. The SDR's responsibility is to learn everything about Empyr's offerings, develop skills through formal training and participation in Enterprise Presentations. You will get the opportunity to be involved in presentations with brands like Footlocker, Bed Bath and Beyond, Hilton Hotels, Chevron, Walmart and other Fortune 500 Brands. Your will learn how to navigate an Enterprise sales cycle; our ultimate goal is to graduate into a full cycle, quota carrying Account Executive. We are looking for competitive, driven, business savvy individuals who want to leave a footprint in the growth of an organization while making some money along the way!  
+ 
 
 ### **Duties and Responsibilities**
 
