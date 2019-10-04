@@ -11,6 +11,8 @@ slug: ''
 layout: standard-page_basic
 
 ---
+For inquiries or to apply, please contact Alex Fanelli ([alexandra@empyr.com](mailto:alexandra@empyr.com)).
+
 ### **Position Summary**
 
 The SDR is a self-starter with a track record of successful, credible lead follow-up and sales development at multiple executive levels within an organization. The SDR's responsibility is to learn everything about Empyr's offerings, develop skills through formal training and participation in Enterprise Presentations. You will get the opportunity to be involved in presentations with brands like Footlocker, Bed Bath and Beyond, Hilton Hotels, Chevron, Walmart and other Fortune 500 Brands. Your will learn how to navigate an Enterprise sales cycle; our ultimate goal is to graduate into a full cycle, quota carrying Account Executive. We are looking for competitive, driven, business savvy individuals who want to leave a footprint in the growth of an organization while making some money along the way!
@@ -52,3 +54,5 @@ The SDR is a self-starter with a track record of successful, credible lead follo
 ### **About Empyr**
 
 Empyr powers online-to-offline (O2O) card-linked marketing programs for some of the world’s largest websites and apps. Direct integration with the three leading credit card associations (Visa, Mastercard, AmericanExpress) make it possible for online consumers to earn rewards at offline merchants by simply paying with a linked debit or credit card, while simultaneously generating revenue for online publishers and providing online to offline attribution to advertisers. We trademarked a new form of digital advertising, CPR ® (Cost Per Revenue), which leverages our 100% attribution solution and lets brands advertise on the best websites and apps and only pay for in-store sales. An advertiser’s commitment to budget is entirely tied to the ROI.
+
+For inquiries or to apply, please contact Alex Fanelli ([alexandra@empyr.com](mailto:alexandra@empyr.com)).
