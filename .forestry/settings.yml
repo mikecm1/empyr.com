@@ -25,7 +25,7 @@ sections:
   templates:
   - person
 - type: directory
-  path: _jobs
+  path: _careers
   label: Careers
   create: all
   match: "*"

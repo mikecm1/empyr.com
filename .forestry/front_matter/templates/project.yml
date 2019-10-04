@@ -1,5 +1,5 @@
 ---
-label: Case Studies
+label: Careers
 hide_body: false
 fields:
 - type: text
@@ -44,4 +44,4 @@ fields:
   default: standard-page_basic
   hidden: true
 pages:
-- _jobs/delete.md
+- _careers/delete.md
