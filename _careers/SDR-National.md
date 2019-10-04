@@ -1,31 +1,45 @@
 ---
 title: Sales Development Representative, National Accounts
-date: 2019-10-03 00:00:00 +0000
-description: The primary responsibility of this position is to ensure merchant advertising campaigns are properly defined, coordinated, and executed and that all necessary data for post-campaign analysis and attribution is acquired to ensure client success and renewals.
+date: '2019-10-03T00:00:00.000+00:00'
+description: The primary responsibility of this position is to ensure merchant advertising
+  campaigns are properly defined, coordinated, and executed and that all necessary
+  data for post-campaign analysis and attribution is acquired to ensure client success
+  and renewals.
 location: San Diego
 timing: Full-time
 slug: ''
 layout: standard-page_basic
+
 ---
+### **Position Summary**
 
-## Overview
+The SDR is a self-starter with a track record of successful, credible lead follow-up and sales development at multiple executive levels within an organization. The SDR's responsibility is to learn everything about Empyr's offerings, develop skills through formal training and participation in Enterprise Presentations. You will get the opportunity to be involved in presentations with brands like Footlocker, Bed Bath and Beyond, Hilton Hotels, Chevron, Walmart and other Fortune 500 Brands. Your will learn how to navigate an Enterprise sales cycle; our ultimate goal is to graduate into a full cycle, quota carrying Account Executive. We are looking for competitive, driven, business savvy individuals who want to leave a footprint in the growth of an organization while making some money along the way!
 
-Sed posuere consectetur est at lobortis. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec id elit non mi porta gravida at eget metus. Curabitur blandit tempus porttitor. Donec sed odio dui.
+### **Duties and Responsibilities**
 
-Sed posuere consectetur est at lobortis. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec id elit non mi porta gravida at eget metus. Curabitur blandit tempus porttitor. Donec sed odio dui.
+* Prospect, educate, qualify, and develop Target Accounts and inbound leads to create sales-ready leads and opportunities
+* Research accounts, identify key players, generate interest and develop accounts to stimulate opportunity
+* Disseminate opportunities to appropriate Sales Director, educating rep as necessary about the opportunity
+* Successfully manage and overcome prospect objections
+* Become a trusted resource and develop superior relationships with prospects
+* Update lead scoring and prospect interaction in [Salesforce.com](http://salesforce.com/) to ensure efficient lead management
+* Build and manage a robust and scalable pipeline with key advertising, marketing, merchandising, and media decision makers within prospective client organizations
+* Consistently create pipeline to ensure achievement of quotas
 
-## Design
-Sed posuere consectetur est at lobortis. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec id elit non mi porta gravida at eget metus. Curabitur blandit tempus porttitor. Donec sed odio dui.
+### **Requirements**
 
-Sed posuere consectetur est at lobortis. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec id elit non mi porta gravida at eget metus. Curabitur blandit tempus porttitor. Donec sed odio dui.
+**EDUCATION:** Bachelor’s Degree or equivalent  
+**RIGHT TO WORK:** Must have legal right to work in the USA  
+**EXPERIENCE:**
 
-## Practical Applications
-- Sed posuere consectetur est at lobortis. 
-- Sed posuere consectetur est at lobortis. 
-- Sed posuere consectetur est at lobortis. 
+* 2-4 years B2B sales experience (digital advertising, agency and/or marketing services business is a plus)
+* Proven track record achieving measurable sales goals in an automated sales environment
+* Positive energetic phone skills and excellent listening skills
+* Experience spending the majority of the workday on the phone with prospect contacts at all levels of the organization (Analysts, Managers, Directors, VPs and C-level Executives)
+* Ability to build successful client relationships and overcome objections/rejections over the phone and email
+* Comfortably navigate: Salesforce, LinkedIn, Winmo, Hunter.io, Yesware, Zoom.us, MS Office products (Excel, Word, MS Outlook, MS PowerPoint)
 
-## Team
+### **Competencies**
 
-### Staff
-- [Mike Stevenson]
-- [Mike Stevenson]
+* Hungry/Motivated/Driven
+* Master of Active Listening
