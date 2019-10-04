@@ -42,7 +42,7 @@ $(document).ready(function () {
         .promise()
         .done(() => {
           nc.css("visibility", "visible");
-          document.body.scrollTop = 0;
+          $(window).scrollTop(0);
           nc.fadeIn(300, function () {
             _this.done();
           });
