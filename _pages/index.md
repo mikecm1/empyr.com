@@ -87,7 +87,7 @@ testimonials:
   job_title: Founder & CEO
   company: Pei
   icon: ''
-  logo: "/uploads/2019/pei.png"
+  logo: "/img/logo-pei.png"
 - quote: Card Linked Offers provide a seamless client experience, to earn back money
     when spending on life’s necessities, like groceries and gas.
   name: Allyson Federbush
