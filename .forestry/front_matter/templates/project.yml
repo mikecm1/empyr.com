@@ -43,5 +43,3 @@ fields:
   label: layout
   default: standard-page_basic
   hidden: true
-pages:
-- _projects/testing-layout.md
