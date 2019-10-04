@@ -1,8 +1,21 @@
 ---
 layout: default
 ---
+<style>
+p, li {
+  font-size: 16px;
+    line-height: 1.8;
+    max-width: 1000px;
+}
+p, ul {
+  margin-bottom: 20px;
+    margin-top: 10px;
+}
+li {
+  margin-bottom: 5px
+}
+</style>
 
-<div>
     <div class="hero sub">
         <div class="bg-cover white pb-3 pb-md-5">
           <div class="container">
@@ -18,7 +31,7 @@ layout: default
               {{ page.heading | default: page.title }}
           </h1>
           {% if page.sub_heading and page.sub_heading !="" %}
-          <p class="mb-0 text-blue-black" style="max-width: 100%;">{{ page.sub_heading }}</p>
+          <p class="mb-0 text-blue-black" style="max-width: 100%; font-size: 17px;">{{ page.sub_heading }}</p>
           {% endif %}{% if page.hero_button.text and page.hero_button.text !="" %}
           <div class="pb-2 d-flex flex-column flex-md-row">
            {% if page.hero_button %}<a href="{{ page.hero_button.href | absolute_url }}" class="btn btn-lg btn-white mb-2 mb-md-0primary">{{ page.hero_button.text }}</a
@@ -32,7 +45,6 @@ layout: default
       </div>
         </div>
      </div>
-</div>
 <div class="content content-narrow py-5 bg-gray-25">
 <div class="container"> {{ content }}</div>
  <div class="container">
