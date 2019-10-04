@@ -22,6 +22,7 @@ collections:
   projects:
     output: true
     permalink: "/projects/:path/"
+    layout: standard-page_basic
 # tag_page_layout: tag_page
 # tag_page_dir: tag
 plugins:

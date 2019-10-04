@@ -1,6 +1,7 @@
 ---
 label: Case Studies
 hide_body: false
+layout: sub-page
 fields:
 - type: text
   name: title
