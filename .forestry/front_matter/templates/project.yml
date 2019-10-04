@@ -44,4 +44,5 @@ fields:
   default: standard-page_basic
   hidden: true
 pages:
+- _careers/sales-development-representative-national-accounts.md
 - _careers/delete.md
