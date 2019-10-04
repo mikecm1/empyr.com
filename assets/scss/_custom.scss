@@ -2212,7 +2212,7 @@ img {
     position: absolute;
     top: -30px;
     left: 10px;
-    max-width: 880px !important;
+    max-width: 800px !important;
   }
 
   @include media-breakpoint-up(lg) {
@@ -2231,7 +2231,7 @@ img {
   }
 
   @include media-breakpoint-up(xxl) {
-    left: -13%;
+    left: -12%;
   }
 }
 
