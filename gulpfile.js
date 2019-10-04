@@ -72,7 +72,7 @@ gulp.task('scss-full', function () {
     ];
     return gulp.src('./assets/scss/main.scss')
         .pipe(sourcemaps.init({
-            loadMaps: true
+            loadMaps: false
         }))
         .pipe(sass())
         .on("error", sass.logError)
@@ -83,7 +83,6 @@ gulp.task('scss-full', function () {
             })
         )
         .pipe(postcss(processors))
-        .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest('assets/css/'))
         .pipe(touch());
 });
