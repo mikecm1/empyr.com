@@ -1,9 +1,14 @@
 ---
 layout: standard-page_basic
 ---
+<style>
+.display-custom {
+    margin-bottom: 15px !important;
+}
+</style>
     <div class="content">
         <h5 class="mb-2">Current Open Positions</h5>
-        <div>
+
             {% for project in site.careers %}
             <div class="mb-2">
                 <div class="card job">
@@ -18,5 +23,6 @@ layout: standard-page_basic
                 </div>
             </div>
             {% endfor %}
-        </div>
+            <h5 class="border-top pt-4 mt-5">Empyr Is An Equal Opportunity Employer</h5>
+            <p class="small font-weight-400" style="max-width: 100%">Empyr is committed to maintaining a community which recognizes and values the inherent worth and dignity of every person; fosters mutual respect among its members; and encourages each individual to strive to reach his or her own potential. Empyr prohibits discrimination against any persons on basis of sex, age, color, race, religion, marital status, national origin, ancestry, sexual orientation, physical & mental disability, medical condition, genetic information, veteran status, or any other basis protected by federal, state or local law.</p>
     </div>
