@@ -36,7 +36,10 @@
   {% if page.custom_head_tag %}
   {{ page.custom_head_tag }}
   {% endif %}
-  <link rel="shortcut icon" type="image/png" href="{{ "/img/favicon.ico" | absolute_url }}" />
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ "/img/apple-touch-icon.png" | absolute_url }}" />
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ "/img/favicon-32x32.png" | absolute_url }}" />
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ "/img/favicon-16x16.png" | absolute_url }}" />
+  <link rel="manifest" href="{{ "/img/site.webmanifest" | absolute_url }}" />
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | absolute_url }}?{{site.time | date: '%s%N'}}">
   <link rel="stylesheet" class="dev" media="screen and (min-width: 576px)" href="https://unpkg.com/aos@next/dist/aos.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
@@ -54,7 +57,6 @@
 
 <body>
   <div id="barba-wrapper" class="content">
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MZL5VPB"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MZL5VPB" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->

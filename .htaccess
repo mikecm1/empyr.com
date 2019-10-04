@@ -1,4 +1,0 @@
-IndexOptions SuppressLastModified
-RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([^\.]+)$ $1.md [NC,L]
