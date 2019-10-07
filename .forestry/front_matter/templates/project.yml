@@ -25,6 +25,27 @@ fields:
     time_format: 
     display_utc: false
   default: now
+- name: location
+  type: text
+  config:
+    required: false
+  label: Location
+  default: San Diego
+- name: timing
+  type: select
+  default: Full-time
+  config:
+    required: false
+    options:
+    - Full-time
+    - Part-time
+    - Temp
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Full or part time?
 - name: layout
   type: text
   config:
