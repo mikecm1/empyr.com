@@ -91,7 +91,7 @@ sitemap:
 menu:
   navigation:
     weight: 3
-    title: About
+    title: Company
 
 ---
 <div class="pt-4 pb-5 mb-5 offset-lg px-4 px-xl-0">
