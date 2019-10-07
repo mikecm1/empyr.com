@@ -1,7 +1,7 @@
 ---
 title: Sales Development Representative, National Accounts
 date: '2019-10-03T00:00:00.000+00:00'
-description: The SDR is a self-starter with a track record of successful, credible lead follow-up and sales development at multiple executive levels within an organization. The SDR’s responsibility is to learn everything about Empyr’s offerings, develop skills through formal training...
+description: The SDR is a self-starter with a track record of successful, credible lead follow-up and sales development at multiple executive levels within an organization. The SDR’s responsibility is to learn everything about Empyr’s offerings, develop skills through formal training
 location: San Diego
 timing: Full-time
 slug: ''
