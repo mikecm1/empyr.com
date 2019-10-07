@@ -8,7 +8,7 @@ layout: standard-page_basic
 </style>
     <div class="content">
         <h5 class="mb-2">Current Open Positions</h5>
-        {% assign sorted = (site.careers | sort: 'date') | reverse %}
+        {% assign sorted = site.careers | sort: 'date' | reverse %}
         {% for project in sorted %}
             <div class="mb-2">
                 <div class="card job">
