@@ -1,33 +1,34 @@
 ---
 title: Sales Development Representative, National Accounts
-date: 2019-10-03T00:00:00.000+00:00
-description: The SDR is a self-starter with a track record of successful, credible
-  lead follow-up and sales development at multiple executive levels within an organization.
-  The SDR’s responsibility is to learn everything about Empyr’s offerings, develop
-  skills through formal training
+date: 2019-10-07 00:00:00 -0700
+description: This is an individual contributor role accountable for driving significant
+  revenue growth by using honed sales and business acumen to uncover prospect business
+  needs through AOR’s for fortune 1000 companies.
 location: San Diego
 timing: Full-time
 slug: ''
 layout: standard-page_basic
-published: false
 
 ---
 **For inquiries or to apply, please contact Alex Fanelli (**[**alexandra@empyr.com**](mailto:alexandra@empyr.com)**).**
 
 ### **Position Summary**
 
-The SDR is a self-starter with a track record of successful, credible lead follow-up and sales development at multiple executive levels within an organization. The SDR's responsibility is to learn everything about Empyr's offerings, develop skills through formal training and participation in Enterprise Presentations. You will get the opportunity to be involved in presentations with brands like Footlocker, Bed Bath and Beyond, Hilton Hotels, Chevron, Walmart and other Fortune 500 Brands. Your will learn how to navigate an Enterprise sales cycle; our ultimate goal is to graduate into a full cycle, quota carrying Account Executive. We are looking for competitive, driven, business savvy individuals who want to leave a footprint in the growth of an organization while making some money along the way!
+This is an individual contributor role accountable for driving significant revenue growth by using honed sales and business acumen to uncover prospect business needs through AOR’s for fortune 1000 companies.
+
+The successful candidate will be a hungry and proven digital media sales hunter with extensive experience selling to agencies that manage clients in the following categories: Retail, Grocery, Restaurant/QSR. Your background and experience exude prospecting for new business, solutions selling, and developing agency client relationships. Your rolodex is comprised of major marketing agency decision makers and you are viewed as a subject matter expert in your given category of expertise. Additionally, you are a competitive person that meets and exceeds assigned goals and quotas. Empyr offers a lucrative, uncapped compensation plan for the bookings and revenue that a high performing sales professional can generate in this untapped area within agencies.
 
 ### **Duties and Responsibilities**
 
-* Prospect, educate, qualify, and develop Target Accounts and inbound leads to create sales-ready leads and opportunities
-* Research accounts, identify key players, generate interest and develop accounts to stimulate opportunity 
-* Disseminate opportunities to appropriate Sales Director, educating rep as necessary about the opportunity
-* Successfully manage and overcome prospect objections
-* Become a trusted resource and develop superior relationships with prospects
-* Update lead scoring and prospect interaction in [Salesforce.com](http://salesforce.com/) to ensure efficient lead management
-* Build and manage a robust and scalable pipeline with key advertising, marketing, merchandising, and media decision makers within prospective client organizations
-* Consistently create pipeline to ensure achievement of quotas
+* Build and manage a robust and scalable pipeline while leveraging your existing relationships with key media decision makers within your assigned agency territory. 
+* Create and deliver compelling sales presentations that address the core business issues and opportunities faced by the agencies for their national brand clients
+* Negotiate and close contracts with agency marketing and legal stakeholders.
+* Prospecting, cold calling, winning business, and selling ideas based on the agency’s client’s needs.
+* Create and execute a business plan to penetrate and grow key agency accounts and their national clients.
+* Achieve milestones and deliver meticulous follow-up, resulting in meeting and exceeding quota.
+* Deliver compelling presentations to an audience of diverse and senior business stakeholders.
+* See problems as opportunities and develop proactive solutions.
+* Negotiate and close deals.
 
 ### **Requirements**
 
@@ -35,22 +36,20 @@ The SDR is a self-starter with a track record of successful, credible lead follo
 **RIGHT TO WORK:** Must have legal right to work in the USA  
 **EXPERIENCE:**
 
-* 2-4 years B2B sales experience (digital advertising, agency and/or marketing services business is a plus)
-* Proven track record achieving measurable sales goals in an automated sales environment
-* Positive energetic phone skills and excellent listening skills
-* Experience spending the majority of the workday on the phone with prospect contacts at all levels of the organization (Analysts, Managers, Directors, VPs and C-level Executives)
-* Ability to build successful client relationships and overcome objections/rejections over the phone and email
-* Comfortably navigate: Salesforce, LinkedIn, Winmo, Hunter.io, Yesware, Zoom.us, MS Office products (Excel, Word, MS Outlook, MS PowerPoint)
+* 3-5 years of sales experience in the digital advertising, ad tech or performance marketing.
+* 5+ years of recent experience selling to marketing agencies representing National brands with brick and mortar presence (retailers, restaurants/QSR, grocery categories preferred)
+* Demonstrated ability to be forward-thinking and innovative while understanding client needs and the intricacies of our business processes and technologies- experience in both Fortune 500 and Start Up environments
+* Ability to think analytically and to set clear priorities, with very strong organizational, issue resolution, and decision-making skills
+* Excellent communication skills and superior customer service-oriented skills
+* Effective time and project-management skills
+* Strong computer skills: MS Suite and Salesforce
 
 ### **Competencies**
 
-* Hungry/Motivated/Driven
-* Master of Active Listening
-* Team Player
-* Critical Thinker
-* Collaborative
-* Communicative
-* Passionate about learning, development, and growth
+* Strategic
+* Flexible
+* Tenacious
+* Results-Oriented
 
 ### **About Empyr**
 
