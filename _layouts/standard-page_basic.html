@@ -2,66 +2,68 @@
 layout: default
 ---
 <style>
-p, li {
-  font-size: 16px;
+  p,
+  li {
+    font-size: 16px;
     line-height: 1.8;
     max-width: 1000px;
-}
-p, ul {
-  margin-bottom: 20px;
+  }
+
+  p,
+  ul {
+    margin-bottom: 20px;
     margin-top: 10px;
-}
-li {
-  margin-bottom: 5px
-}
+  }
+
+  li {
+    margin-bottom: 5px
+  }
 </style>
 
-    <div class="hero sub">
-        <div class="bg-cover white pb-3 pb-md-5">
-          <div class="container">
-       <div class="break-out poster poster-home z1">
+<div class="hero sub">
+  <div class="bg-cover white pb-3 pb-md-5">
+    <div class="container">
+      <div class="break-out poster poster-home z1">
         <div class="row justify-content-between align-items-center flex-grow">
-         <div class="pr-md-5 col-12 poster-home-text">
+          <div class="pr-md-5 col-12 poster-home-text">
             {% if page.tagline %}
-          <p class="small mb-1" style="font-size: 19px;
+            <p class="small mb-1" style="font-size: 19px;
           font-weight: 600;
           color: #0073ff;">Our Vision</p>
-          {% endif %}
-          <h1 class="text-blue-black display-custom mt-2 mt-md-0 mb-1 mb-md-2">
+            {% endif %}
+            <h1 class="text-blue-black display-custom mt-2 mt-md-0 mb-1 mb-md-2">
               {{ page.heading | default: page.title }}
-          </h1>
-          {% if page.sub_heading and page.sub_heading !="" %}
-          <p class="mb-0 text-blue-black" style="max-width: 100%; font-size: 17px;">{{ page.sub_heading }}</p>
-          {% endif %}{% if page.hero_button.text and page.hero_button.text !="" %}
-          <div class="pb-2 d-flex flex-column flex-md-row">
-           {% if page.hero_button %}<a href="{{ page.hero_button.href | absolute_url }}" class="btn btn-lg btn-white mb-2 mb-md-0primary">{{ page.hero_button.text }}</a
-           >{% endif %}{% if page.second_button %}<a href="{{ page.second_button.href | absolute_url }}" class="btn btn-lg btn-secondary secondary d-nond-lg-block">{{ page.second_button.text }}</a
-           >{% endif %}
+            </h1>
+            {% if page.sub_heading and page.sub_heading !="" %}
+            <p class="mb-0 text-blue-black" style="max-width: 100%; font-size: 17px;">{{ page.sub_heading }}</p>
+            {% endif %}{% if page.hero_button.text and page.hero_button.text !="" %}
+            <div class="pb-2 d-flex flex-column flex-md-row">
+              {% if page.hero_button %}<a href="{{ page.hero_button.href | absolute_url }}" class="btn btn-lg btn-white mb-2 mb-md-0primary">{{ page.hero_button.text }}</a>{% endif %}{% if page.second_button %}<a href="{{ page.second_button.href | absolute_url }}" class="btn btn-lg btn-secondary secondary d-nond-lg-block">{{ page.second_button.text }}</a>{% endif %}
+            </div>
+            {% endif %}
           </div>
-          {% endif %}
-         </div>
         </div>
-       </div>
       </div>
-        </div>
-     </div>
-<div class="content content-narrow py-5 bg-gray-25">
-<div class="container"> {{ content }}</div>
- <div class="container">
-  <div class="row">
-   <div class="col-12 px-0">
-    <div class="modifier">
-     <h2 class="pl-2 pl-xl-0 font-weight-400">{{ page.body_headline }}</h2>
     </div>
-   </div>
   </div>
- </div>
- {% if page.custom_css %}
- {{ page.custom_css }}
- {% endif %} {% if page.custom_text %}
- {{ page.custom_text }}
- {% endif %} {% if page.custom_copy %} {% for item in page.custom_copy %}
- {{ item.custom_text }}
+</div>
+<div class="content content-narrow py-5 bg-gray-25">
+  <div class="container"> {{ content }}</div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 px-0">
+        <div class="modifier">
+          <h2 class="pl-2 pl-xl-0 font-weight-400">{{ page.body_headline }}</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% if page.custom_css %}
+  {{ page.custom_css }}
+  {% endif %} {% if page.custom_text %}
+  {{ page.custom_text }}
+  {% endif %} {% if page.custom_copy %} {% for item in page.custom_copy %}
+  {{ item.custom_text }}
 
- {% endfor %} {% endif %} {% include staff.html %}
+  {% endfor %} {% endif %} {% include staff.html %}
 </div>
