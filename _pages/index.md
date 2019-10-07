@@ -153,7 +153,7 @@ section_three:
     href: "/"
   image: "/uploads/2019/home-analytics.png"
 custom_code: ''
-page_name: Homepage
+page_name: "* Homepage"
 custom_head_tag: ''
 sitemap:
   priority: 1
