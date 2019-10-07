@@ -14,28 +14,17 @@ fields:
     schema:
       format: markdown
   label: Sub heading
-- name: banner_image
-  label: Banner Image
-  type: file
-  description: Dimensions work best at 1200 pixels by 400 pixels
-  hidden: false
-  default: ''
-- name: tags
-  label: Tags
-  type: tag_list
-  hidden: false
-  default: []
-- name: slug
-  label: Slug
-  type: text
-  hidden: false
-  default: ''
-- name: test_field
-  type: text
+  description: OPTIONAL
+- name: date
+  type: datetime
+  label: Date Posted
+  description: ''
   config:
     required: false
-  label: Test field
-  description: Does this do anything
+    date_format: MM/DD/YYYY
+    time_format: 
+    display_utc: false
+  default: now
 - name: layout
   type: text
   config:
@@ -43,3 +32,13 @@ fields:
   label: layout
   default: standard-page_basic
   hidden: true
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Short job description
+  description: Try to keep maximum of ~270 characters
