@@ -36,9 +36,10 @@ $gray-dark: #110826 !default;
 $blue-black: #100625 !default;
 $black-blue: #1A1224;
 $black-blue-2: #030326;
+$dark-blue: #060663;
 $black: #000;
 $grays: (100: $gray-100, 200: $gray-200, 300: $gray-300, 400: $gray-400, 500: $gray-500, 600: $gray-600, 700: $gray-700, 800: $gray-800, 900: $gray-900);
-$theme-colors: (primary: $primary, "neutral":$white,secondary: $indigo, success: $green, info: $cyan, warning: $yellow, danger: $red, light: $gray-400, dark: $gray-800, "blue-black":$blue-black, "black-blue-2":$black-blue-2, "gray-200":$gray-200);
+$theme-colors: (primary: $primary, "neutral":$white,secondary: $indigo, success: $green, info: $cyan, warning: $yellow, danger: $red, light: $gray-400, dark: $gray-800, "blue-black":$blue-black, "black-blue-2":$black-blue-2, "gray-200":$gray-200, "primary-dark":$dark-blue);
 $colors: (blue: $blue, indigo: $indigo, purple: $purple, pink: $pink, red: $red, orange: $orange, yellow: $yellow, green: $green, teal: $teal, cyan: $cyan, white: $white, gray: $gray-600, gray-dark: $gray-800);
 $theme-color-interval: 8%;
 
@@ -49,7 +50,6 @@ $sizes: (25: 25%, 50: 50%, 75: 75%, 100: 100%);
 
 // Options
 $enable-rounded: true;
-$enable-shadows: false;
 $enable-gradients: false;
 $enable-transitions: true;
 $enable-hover-media-query: false;
