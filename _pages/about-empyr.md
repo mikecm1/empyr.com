@@ -14,7 +14,10 @@ description: Empyr's technology makes earning rewards on in-store purchases so e
   Empyr’s growing network of publisher partners includes Yelp, Microsoft, LivingSocial,
   Coupons.com, Swagbucks and over 1,500 other websites and apps.
 keywords: ''
-sub_heading: Empyr is revolutionizing the way the world’s advertisers make data driven decisions across all online media channels. Our card linked technology connects digital advertising to in store purchases, empowering advertisers to attribute the entire customer journey from an ad impression to a physical in store transaction.
+sub_heading: Empyr is revolutionizing the way the world’s advertisers make data driven
+  decisions across all online media channels. Our card linked technology connects
+  digital advertising to in store purchases, empowering advertisers to attribute the
+  entire customer journey from an ad impression to a physical in store transaction.
 show_staff: true
 show_news: false
 mainfeatures: []
@@ -75,20 +78,16 @@ custom_css: |-
   display: none;
   }
   </style>
-page_name: "* About Empyr"
+page_name: About Empyr
 slides:
 - "/img/company-6.jpg"
 - "/img/company-2.jpg"
 - "/img/company-1.jpg"
 - "/img/company-3.jpg"
 body_headline: Meet the Empyr team
-menu:
-  navigation:
-    weight: 3
-    title: Company
 sitemap:
   priority: 0.75
-  changefreq: 'daily'
+  changefreq: daily
 
 ---
 <div class="pt-4 pb-5 mb-5 offset-lg px-4 px-xl-0">

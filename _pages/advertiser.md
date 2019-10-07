@@ -142,7 +142,7 @@ offset_img_url: "/img/dash-nat.jpg"
 user_testimonials:
   title: ''
   testimonials: []
-page_name: "* Advertisers"
+page_name: Advertisers
 dropdown:
   showdrop: true
   partners:
@@ -153,6 +153,6 @@ dropdown:
 sitemap:
   priority: 0.75
   changefreq: daily
-custom_code: |-
+custom_code: ''
 
 ---

@@ -9,6 +9,6 @@ sub_heading: Please email resumes and/or applications directly to Alexandra Fane
 sitemap:
   priority: 0.2
   changefreq: daily
-page_name: "* Careers"
+page_name: Careers
 
 ---
