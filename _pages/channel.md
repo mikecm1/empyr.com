@@ -148,7 +148,7 @@ case_studies:
   incremental_revenue: "20"
   roi: "20"
   incremental_roi: "20"
-page_name: "* Channel Partners"
+page_name: Channel Partners
 custom_css: |-
   <style id="custom_style">
   @media (min-width: 768px) {

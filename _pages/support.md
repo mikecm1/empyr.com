@@ -86,10 +86,11 @@ custom_text: |-
             log: true
         })
         </script>
-page_name: "* Support"
+page_name: Support
 sitemap:
   priority: 0.2
-  changefreq: 'daily'
+  changefreq: daily
+
 ---
 <h3 class="mb-3">Example FAQs</h3>
 

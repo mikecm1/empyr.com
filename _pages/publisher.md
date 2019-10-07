@@ -144,7 +144,7 @@ section_three:
     href: ''
 show_user_testimonials: true
 case_studies: []
-page_name: "* Publishers"
+page_name: Publishers
 dropdown:
   showdrop: true
   partners:
