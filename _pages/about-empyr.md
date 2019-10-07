@@ -88,6 +88,10 @@ body_headline: Meet the Empyr team
 sitemap:
   priority: 0.75
   changefreq: daily
+menu:
+  navigation:
+    weight: 3
+    title: About
 
 ---
 <div class="pt-4 pb-5 mb-5 offset-lg px-4 px-xl-0">
