@@ -17,7 +17,7 @@ The SDR is a self-starter with a track record of successful, credible lead follo
 ### **Duties and Responsibilities**
 
 * Prospect, educate, qualify, and develop Target Accounts and inbound leads to create sales-ready leads and opportunities
-* Research accounts, identify key players, generate interest and develop accounts to stimulate opportunity
+* Research accounts, identify key players, generate interest and develop accounts to stimulate opportunity 
 * Disseminate opportunities to appropriate Sales Director, educating rep as necessary about the opportunity
 * Successfully manage and overcome prospect objections
 * Become a trusted resource and develop superior relationships with prospects
