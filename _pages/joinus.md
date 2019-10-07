@@ -206,12 +206,13 @@ custom_text: |-
   }
   });
   </script>
-page_name: "* Contact / Join Us"
+page_name: Contact / Join Us
 hero_button:
   text: ''
   href: ''
 contact_page: true
 sitemap:
   priority: 0.75
-  changefreq: 'daily'
+  changefreq: daily
+
 ---
