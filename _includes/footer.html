@@ -60,23 +60,50 @@
   {% endif %}
   <div class="bottom">
     <div class="container">
-      <div class="d-lg-flex justify-content-between py-2">
-        <div class="small mb-2 mb-lg-0"><span class="mr-5"><img src="{{site.logo}}" width="100"></span></div>
-        <div class="d-lg-flex small align-items-end align-items-lg-center justify-content-between">
-          <div class="my-auto">
-            <span class="d-block d-lg-inline ml-lg-3 mb-2 mb-lg-0">Patent Pending ©
-              2016-{{ 'now' | date: "%Y" }} | All Rights Reserved</span>
-            <a class="d-block d-lg-inline ml-lg-3 mb-2 mb-lg-0" href={{ "/national-terms" | absolute_url }}><span style="color: #bebbc8 !important">National Terms</<span></a>
-            <a class="d-block d-lg-inline ml-lg-3 mb-2 mb-lg-0" href={{ "/support" | absolute_url }}><span style="color: #bebbc8 !important">Support</span></a>
-            <a class="d-block d-lg-inline ml-lg-3 mb-2 mb-lg-0" href={{ "/careers" | absolute_url }}><span style="color: #bebbc8 !important">Careers</span></a>
-            <a class="d-block d-lg-inline ml-lg-3 mb-2 mb-lg-0" href={{ "/merchant-enrollment" | absolute_url }}><span style="color: #bebbc8 !important">Partner Login</span></a>
+      <div class="row pt-4 mb-4">
+        <div class="col-12 col-lg-4 mb-4 mb-lg-0"><img src="{{site.logo}}" width="100" />
+          <div class="mt-3 d-lg-none">
+              <a class="transparent-link mr-2" href="https://twitter.com/empyrinc" target="_blank"><img src="./assets/glyphs/twitter.svg" width="24" /></a>
+              <a class="transparent-link mr-2" href="https://www.facebook.com/EmpyrInc/" target="_blank"><img src="./assets/glyphs/facebook.svg" width="24" /></a>
+              <a class="transparent-link mr-2" href="https://www.linkedin.com/company/empyr" target="_blank"><img src="./assets/glyphs/linkedin.svg" width="24" /></a>
           </div>
-          <!-- <div class="d-block ml-3">
-            <a class="transparent-link" href="https://www.instagram.com/empyrinc"><img src="{{ "./assets/glyphs/instagram.svg" | absolute_url }}" width="16" /></a>
-            <a class="transparent-link ml-2" href="https://www.facebook.com/EmpyrInc/"><img src="{{ "./assets/glyphs/facebook.svg" | absolute_url }}" width="16" /></a>
-            <a class="transparent-link ml-2" href="https://www.linkedin.com/company/empyr"><img src="{{ "./assets/glyphs/linkedin.svg" | absolute_url }}" width="16" /></a>
-          </div> -->
+          <div class="mt-3 d-none d-lg-block">
+              <a class="transparent-link mr-2" href="https://twitter.com/empyrinc" target="_blank"><img src="./assets/glyphs/twitter.svg" width="16" /></a>
+              <a class="transparent-link mr-2" href="https://www.facebook.com/EmpyrInc/" target="_blank"><img src="./assets/glyphs/facebook.svg" width="16" /></a>
+              <a class="transparent-link mr-2" href="https://www.linkedin.com/company/empyr" target="_blank"><img src="./assets/glyphs/linkedin.svg" width="16" /></a>
+          </div>
+      </div>
+        <div class="col-6 col-lg-2 d-none d-lg-block">
         </div>
+        <div class="col-6 col-lg-2">
+          <h6 class="text-white">Solutions</h6>
+          <div class="small">
+            <div class="mb-1"><a class="text-dark" href="/advertiser"><span>For Advertisers</span></a></div>
+            <div class="mb-1"><a class="text-dark" href="/publisher"><span>For Publishers</span></a></div>
+            <div class="mb-1"><a class="text-dark" href="/channel"><span>For Channel Partners</span></a></div>
+          </div>
+        </div>
+        <div class="col-6 col-lg-2">
+          <h6 class="text-white">Company</h6>
+          <div class="small">
+            <div class="mb-1"><a class="text-dark" href="/about-empyr"><span>About</span></a></div>
+            <div class="mb-1"><a class="text-dark" href="https://blog.empyr.com/"><span>Blog</span></a></div>
+            <div class="mb-0"><a class="text-dark" href="/careers"><span>Careers</span></a></div>
+          </div>
+        </div>
+        <div class="col-6 col-lg-2 mt-3 mt-lg-0">
+          <h6 class="text-white">Support</h6>
+          <div class="small">
+            <div class="mb-1"><a class="text-dark" href="/support"><span>Submit a ticket</span></a></div>
+            <div class="mb-1"><a class="text-dark" href="/joinus"><span>Contact Us</span></a></div>
+            <div class="mb-1"><a class="text-dark" href="/national-terms"><span>National Terms</span></a></div>
+            <div class="mb-0"><a class="text-dark" href="/merchant-enrollment"><span>Partner Login</span></a></div>
+          </div>
+        </div>
+      </div>
+      <div class="d-block d-lg-flex justify-content-between pb-3 pb-lg-2">
+        <div class="small mb-2 mb-lg-0"><span class="mr-5">Patent Pending &copy;
+          2016-{{ 'now' | date: "%Y" }} | All Rights Reserved</span></div>
       </div>
     </div>
   </div>
