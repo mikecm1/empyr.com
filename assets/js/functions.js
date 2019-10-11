@@ -230,12 +230,8 @@ $(document).ready(function () {
         clickable: true
       },
       slidesPerView: 2,
-      spaceBetween: 0,
+      spaceBetween: 30,
       breakpoints: {
-        1920: {
-          slidesPerView: 2,
-          spaceBetween: 30
-        },
         1028: {
           slidesPerView: 1,
           spaceBetween: 30
