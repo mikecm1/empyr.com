@@ -61,7 +61,7 @@ all_features:
   icon: "/img/icons/small/icon-line-40.svg"
 show_case_studies: false
 section_one:
-  tagline: REVENUE
+  tagline: Revenue
   section_header: |-
     Add recurring revenue,
     increase predictability
@@ -75,7 +75,7 @@ section_one:
     link_url: index.md
     href: ''
 section_two:
-  tagline: LATEST AND GREATEST
+  tagline: Latest & Greatest
   section_header: |-
     Newest Digital Ad Product,
     gives 100% attribution to your customers
@@ -131,7 +131,7 @@ user_testimonials:
     quote: When you use your credit card at a restaurant in the program, you get cashback!
       There's nothing else you need to do. So easy.
 section_three:
-  tagline: UP AND RUNNING
+  tagline: Up & Running
   section_header: Hands On Training
   section_body_copy: Matched with a Customer Success Manager that fits your team,
     Empyr will deliver customized on-boarding and sales training to ensure your team
