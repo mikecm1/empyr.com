@@ -80,10 +80,14 @@ custom_css: |-
   </style>
 page_name: About Empyr
 slides:
-- "/img/company-6.jpg"
-- "/img/company-2.jpg"
+- "/img/company-5.jpg"
+- "/img/company-8.jpg"
+- "/img/company-4.jpg"
 - "/img/company-1.jpg"
+- "/img/company-2.jpg"
+- "/img/company-7.jpg"
 - "/img/company-3.jpg"
+- "/img/company-6.jpg"
 body_headline: Meet the Empyr team
 sitemap:
   priority: 0.75

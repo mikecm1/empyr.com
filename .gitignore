@@ -5,3 +5,5 @@ _archive/
 */.DS_Store
 node_modules
 snippets
+assets/scss/-custom_edits save 1220.scss
+assets/scss/custom/-variables_edits save 1220.scss
