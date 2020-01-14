@@ -432,7 +432,7 @@ $gradient-bg2;
 
   &::before {
     position: absolute;
-    right: 0;
+    left: 46%;
     bottom: 2vw;
     z-index: 0;
     padding-bottom: 130px;
@@ -567,11 +567,11 @@ p.latest {
     font-size: 2.2rem;
 
     @include media-breakpoint-up("md") {
-      font-size: 39px;
+      font-size: 31px;
     }
 
     @include media-breakpoint-up("lg") {
-      font-size: 42px;
+      font-size: 37px;
     }
 
     @include media-breakpoint-up("xl") {
@@ -770,7 +770,7 @@ p.latest {
 
       &:before {
         position: absolute;
-        right: 0;
+        left: 46%;
         bottom: 2vw;
         z-index: 0;
         padding-bottom: 130px;
@@ -1015,7 +1015,7 @@ header {
   background: $white;
   box-shadow: 0 20px 40px -10px rgba(87, 100, 171, 0.06);
 
-  .logos {}
+  // .logos {}
 
   &::after {
     position: absolute;
@@ -1365,19 +1365,21 @@ svg.fsvg {
   padding: 100px 0 50px;
   padding: 0px 0 50px;
   padding: 0;
-  background: #030225;
+  background: #0f0f1c;
+  background-image: linear-gradient(340deg,#212135 0%,#060619 95%);
 
   &:before {
     position: absolute;
     bottom: 4px;
     left: 0;
-    width: 100%;
-    height: 145px;
+    width: 140%;
+    height: 175px;
     background-image: url(/img/bg-dots-small.svg);
     background-position: bottom;
-    background-size: 490px;
+    background-size: 570px;
     background-repeat: repeat-x;
     content: "";
+    opacity: 0.45;
   }
 }
 
@@ -1446,7 +1448,7 @@ svg.fsvg {
 
 .solutions {
   padding: 120px 0 135px;
-  padding: 130px 0;
+  padding: 130px 0 150px;
   background: #141b39;
 
   &.bg-g50 {
@@ -1490,6 +1492,8 @@ svg.fsvg {
     will-change: transform;
     touch-action: manipulation;
     backface-visibility: hidden;
+    justify-content: space-between;
+    display: flex;
 
     @include media-breakpoint-up(lg) {
       padding: 50px 30px;
@@ -1504,6 +1508,7 @@ svg.fsvg {
         margin-bottom: 20px;
         width: auto;
         height: 100px;
+        align-self: flex-start;
       }
 
       &::before {
