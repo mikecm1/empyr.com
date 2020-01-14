@@ -129,7 +129,7 @@ section_one:
     href: "/"
   image: "/uploads/2019/section-logo-rounded.png"
 section_two:
-  img: "/img/roas-home.svg"
+  img: "/img/roas-home2.svg"
   img_width: 700
   tagline: Smarter Revenue
   section_header: Minimum 10X ROAS, Guaranteed
@@ -140,7 +140,7 @@ section_two:
     text: Learn More
     link_url: ''
     href: "/"
-  image: "/uploads/2019/roas-home.png"
+  image: "/img/roas-home2.svg"
 section_three:
   img: "/img/home-analytics.png"
   tagline: Real-Time Analytics
