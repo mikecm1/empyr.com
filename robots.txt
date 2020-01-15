@@ -33,4 +33,4 @@ Disallow:/*?reversePaginate=*
 Disallow:/*&reversePaginate=*
 
 
-Sitemap: https://www.empyr.com/sitemap.xml
+Sitemap: https://empyr.com/sitemap.xml
