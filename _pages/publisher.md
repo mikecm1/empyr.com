@@ -20,7 +20,7 @@ partners:
 - "/img/logo-home-5.png"
 - "/uploads/2019/sofi.png"
 - "/img/logo-home-6.png"
-primary_body_copy_headline: Increase user engagement and lifetime value.
+primary_body_copy_headline: Increase user engagement & lifetime value
 primary_body_copy_subheadline: Give your users another great reason to open your app.
   Empyr's RESTful API provides everything you need to build a customized card-linked
   offer rewards programs that drives repeat interaction and helps turn your users
@@ -40,7 +40,7 @@ mainfeatures:
   description: When your users earn rewards, you generate revenue. Customers are happier,
     and so is your bottom line.
   icon: "/img/icon-pub-3.svg"
-all_features_headline: 93% of purchases are made offline. Get a piece of the pie.
+all_features_headline: 93% of purchases are made offline.<br>Get a piece of the pie.
 cta_with_email: Get Started
 hero_button:
   text: Request a Demo
@@ -82,7 +82,7 @@ section_two:
     and restaurants to popular national brands. You can issue user rewards direct
     to their linked cards automatically or use a digital currency to gamify your product.
     It’s all up to you.
-  image: "/img/globe.jpg"
+  image: "/img/map2.jpg"
   button:
     text: Learn More
     link_url: index.md

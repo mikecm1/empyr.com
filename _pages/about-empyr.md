@@ -104,7 +104,7 @@ menu:
       <div class="swiper-wrapper">
       {% for item in page.slides %}
         <div class="swiper-slide">
-          <div class="rounded-lg" style="background-image: url({{ item | absolute_url }});height: 370px;background-size: cover;background-position: center;"></div>
+          <div class="rounded-lg" style="background-image: url({{ item | absolute_url }});height: 330px;background-size: cover;background-position: center;"></div>
         </div>
         {% endfor %}
       </div>

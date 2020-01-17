@@ -19,8 +19,7 @@ partners:
 - "/img/logo-home-5.png"
 - "/uploads/2019/sofi.png"
 - "/img/logo-home-6.png"
-primary_body_copy_headline: Accelerate your Sales Pipeline with the latest Digital
-  Ad Tool
+primary_body_copy_headline: Accelerate your sales pipeline
 primary_body_copy_subheadline: 'Give your sales team a tool to spark closing more
   deals with their existing clients. Adding Card Linked Offers to your tool kit is
   a sure-fire way to land and expand your current book of business. '
@@ -32,12 +31,12 @@ mainfeatures:
   icon: "/img/icon-pub-1.svg"
 - description: Hands on, customized sales training jump starts sales
   icon: "/img/icon-pub-2.svg"
-  heading: Seamless Integration
-- heading: Complements Tech Stack
+  heading: Seamless integration
+- heading: Complements tech stack
   description: 'Layer in a digital tool that already fits in with your digital product
     suite. '
   icon: "/img/icon-pub-3.svg"
-all_features_headline: 93% of purchases are made offline. Get a piece of the pie.
+all_features_headline: 93% of purchases are made offline.<br>Get a piece of the pie.
 cta_with_email: Partner with us
 hero_button:
   text: Request a Demo
@@ -77,8 +76,7 @@ section_one:
 section_two:
   tagline: Latest & Greatest
   section_header: |-
-    Newest Digital Ad Product,
-    gives 100% attribution to your customers
+    Newest digital ad product provides 100% attribution to your customers
   section_body_copy: Your existing customers will be featured on Empyr's Exclusive
     Consumer Marketplace consisting of 225M+ consumers across the most popular websites
     and apps. This massive consumer reach guarantees there is revenue to be generated.
@@ -153,7 +151,7 @@ custom_css: |-
   <style id="custom_style">
   @media (min-width: 768px) {
   .std section {
-  padding: 5.4rem 0;
+  padding: 7rem 0;
   }
   .std .mw-md-130 {
   position: absolute;

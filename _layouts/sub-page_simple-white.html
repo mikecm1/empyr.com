@@ -13,7 +13,7 @@ layout: default
           <div class="col-12 col-md-7 order-1 order-sm-1 mt-1 text-">
             {% if page.tagline and page.tagline != "" %}
             <div data-aos="basic">
-              <h4 class="tag pb-1 mb-1 text-muted">{{ page.tagline }}</h4>
+              <h4 class="tag text-muted">{{ page.tagline }}</h4>
             </div>
             {% endif %}
             <h1 class="display-4 mb-2 text-blue-black" data-aos="basic" data-aos-delay="50" style="padding-right:0 !important;max-width: 100%">
@@ -27,8 +27,8 @@ layout: default
                 <div class="row">
                   <div class="col-12">
                     <div class="input-group input-max mb-0 d-block d-sm-flex">
-                      <input class="form-control form-control-lg rounded-0 w-md-100 mr-md-1 mb-1 mb-md-0" style="background-color:#f2f2f7" placeholder="Your work email" id="emailContact" type="email" />
-                      <div class="input-group-append w-md-100">
+                      <input class="form-control form-control-lg w-md-100 mr-md-1 mb-1 mb-md-0" style="background-color:#f2f2f7; border-radius:4px" placeholder="Your work email" id="emailContact" type="email" />
+                      <div class="w-md-100">
                         <button class="btn btn-lg btn-secondary primary join mr-0 w-md-100" type="submit">{{ page.cta_with_email }}</button>
                       </div>
                     </div>
@@ -64,11 +64,11 @@ layout: default
       <div class="pt-0 vw">
         {% if page.mainfeatures %}
         <div class="rounded-xl bg-gray-25">
-          <div class="intro px-2 px-lg-5 py-3 py-xl-4 card-body card shadow-sm shadow-none bg-transparent">
-            <div class="row py-2">
+          <div class="intro px-2 py-3 card-body card shadow-none bg-transparent">
+            <div class="row py-1 px-1 px-lg-2">
               {% for item in page.mainfeatures %}
               <div class="col-12 col-md-4 mb-4 mb-md-0" data-aos="basic" data-aos-delay="{{ forloop.index | times: 150 }}" data-aos-anchor-placement="top">
-                <img class="mb-2" src="{{ item.icon | absolute_url }}" alt="" height="55">
+                <img src="{{ item.icon | absolute_url }}" alt="" height="55">
                 <h5 class="pb-0">{{ item.heading }}</h5>
                 <div class="lighten mt-0">{{ item.description }}</div>
               </div>
@@ -77,12 +77,11 @@ layout: default
           </div>
         </div>
       </div>
-    </div>
     {% endif %}
     {% if page.partners %}
-    <div class="logos pt-3">
-      <div class="container pt-2 pb-4 px-md-5">
-        <div class="row justify-content-center justify-content-lg-between text-center align-items-center px-md-5">
+    <div class="logos pt-2">
+      <div class="pt-2 pb-4">
+        <div class="row justify-content-center justify-content-lg-between text-center align-items-center px-md-3">
           {% for logo in page.partners %}
           <div class="col-4 mb-4 col-md mb-md-0 logo-wrap" data-aos="basic" data-aos-delay="{{ forloop.index | times: 150 }}">
             <img src="{{ logo | absolute_url }}" class="img-logo" />
@@ -92,12 +91,12 @@ layout: default
       </div>
     </div>
     {% endif %}
-    <div class="row pt-md-3 px-2 px-md-0 mt-md-1 text-left text-md-center mb-4">
+    <div class="row px-2 px-md-0 mt-md-1 text-left text-md-center mb-2">
       <div class="col-12 col-md-8 mt-4 mx-auto">
         <h1 class="headline mt-1 mx-auto mb-2" data-aos="basic" data-aos-delay="100">
           {{ page.primary_body_copy_headline }}</h1>
       </div>
-      <div class="col-12 col-md-8 col-xl-7 col-xxl-5 mx-auto">
+      <div class="col-md-12 col-xl-8 col-xxl-7 mx-auto">
         <p class="lighten large" data-aos="basic" data-aos-delay="150">
           {{ page.primary_body_copy_subheadline }}</p>
       </div>
@@ -113,7 +112,7 @@ layout: default
           </div>
           <h1 data-aos="basic" data-aos-delay="150" class="pr-xl-4 pr-xxl-5 mb-md-2">
             {{ page.section_one.section_header }}</h1>
-          <img src="/img/headline-separator.svg" alt="" data-aos="basic" data-aos-delay="150">
+          <!-- <img src="/img/headline-separator.svg" alt="" data-aos="basic" data-aos-delay="150"> -->
           <p class="pr-xl-4 mb-4 mt-md-2" data-aos="basic" data-aos-delay="250">
             {{ page.section_one.section_body_copy }}</p>
         </div>
@@ -141,7 +140,7 @@ layout: default
           </div>
           <h1 class="mb-md-2" data-aos="basic" data-aos-delay="50">
             {{ page.section_two.section_header }}</h1>
-          <img src="/img/headline-separator.svg" alt="" data-aos="basic" data-aos="fade-right" data-aos-delay="150">
+          <!-- <img src="/img/headline-separator.svg" alt="" data-aos="basic" data-aos="fade-right" data-aos-delay="150"> -->
           <p class="mb-4 mt-md-2" data-aos="basic" data-aos-delay="250">
             {{ page.section_two.section_body_copy }}</p>
           {% if page.section_two.stats %}
@@ -169,7 +168,7 @@ layout: default
           <h4 class="mb-2 tag" data-aos="basic">{{ page.section_three.tagline }}</h4>
           <h1 class="pr-xl-4 pr-xxl-5 mb-md-2" data-aos="basic mb-md-2" data-aos-delay="50">
             {{ page.section_three.section_header }}</h1>
-          <img src="/img/headline-separator.svg" alt="" data-aos="basic" data-aos-delay="150">
+          <!-- <img src="/img/headline-separator.svg" alt="" data-aos="basic" data-aos-delay="150"> -->
           <p class="mb-4 mt-md-2 pr-xl-4" data-aos="basic" data-aos-delay="200">
             {{ page.section_three.section_body_copy }}</p>
         </div>
@@ -192,7 +191,7 @@ layout: default
         <h4 class="mb-2 tag" data-aos="basic">{{ page.section_four.tagline }}</h4>
         <h1 class="pr-xl-4 pr-xxl-5 mb-md-2" data-aos="basic mb-md-2" data-aos-delay="50">
           {{ page.section_four.section_header }}</h1>
-        <img src="/img/headline-separator.svg" alt="" data-aos="basic" data-aos-delay="150">
+        <!-- <img src="/img/headline-separator.svg" alt="" data-aos="basic" data-aos-delay="150"> -->
         <p class="mb-4 mt-md-2" data-aos="basic" data-aos-delay="200">
           {{ page.section_four.section_body_copy }}</p>
       </div>

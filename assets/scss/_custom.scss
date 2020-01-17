@@ -3,11 +3,13 @@ body {
   padding-right: 0 !important;
 
   @include media-breakpoint-up(lg) {
-    //         font-size: 1.0625rem !important;
-    font-size: 1.05rem !important;
+    font-size: 1.035rem !important;
   }
 }
-
+.modal-body {
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
 h1,
 h2,
 h3,
@@ -128,7 +130,7 @@ sup {
   max-width: 160%;
 
   &.float-right {
-    @include media-breakpoint-down(md) {
+    @include media-breakpoint-down(sm) {
       left: 20%;
     }
   }
@@ -182,7 +184,7 @@ section {
 }
 
 p {
-  line-height: 1.9;
+  // line-height: 1.9;
 }
 
 .section-break {
@@ -368,7 +370,7 @@ main {
 
   &.features {
     @include media-breakpoint-up(md) {
-      padding-bottom: 50px;
+      // padding-bottom: 50px;
     }
   }
 }
@@ -382,7 +384,7 @@ main {
     line-height: 1.75;
 
     @include media-breakpoint-up(md) {
-      font-size: 18.5px;
+      font-size: 17.5px;
     }
 
     &.small {
@@ -581,10 +583,6 @@ p.latest {
     @include media-breakpoint-up("xl") {
       font-size: 2.9rem;
     }
-
-    @include media-breakpoint-up("xxl") {
-      font-size: 3.1rem;
-    }
   }
 }
 
@@ -621,10 +619,12 @@ p.latest {
   }
 
   @include media-breakpoint-up(lg) {
-    padding: 140px 0 150px;
+    padding: 130px 0 135px;
   }
 
-  @include media-breakpoint-up(xxl) {}
+  @include media-breakpoint-up(xl) {
+    padding: 140px 0 150px;
+  }
 
   svg.wave {
     position: absolute;
@@ -662,11 +662,11 @@ p.latest {
   }
 
   .x-large {
-    font-size: 108.5%;
+    font-size: 103.5%;
     font-weight: 400;
-    line-height: 1.95;
+    line-height: 1.8;
     opacity: .7!important;
-    max-width: 980px!important;
+    max-width: 910px!important;
     @include media-breakpoint-up(lg) {
 
     }
@@ -684,18 +684,29 @@ p.latest {
     h4 {
       &.tag {
         color: $white;
-        padding-bottom: 2px !important;
-        margin-bottom: 20px !important;
-        &:after {
-          display: inline-block;
-          margin-bottom: 2px;
-          margin-left: 14px;
-          width: 25px;
-          height: 2px;
-          background: rgba(255, 255, 255, 0.35);
-          content: "";
-          vertical-align: middle;
+        // padding-bottom: 2px !important;
+        // margin-bottom: 20px !important;
+        // &:after {
+        //   display: inline-block;
+        //   margin-bottom: 2px;
+        //   margin-left: 14px;
+        //   width: 25px;
+        //   height: 2px;
+        //   background: rgba(255, 255, 255, 0.35);
+        //   content: "";
+        //   vertical-align: middle;
+        margin-bottom: 10px;
+        padding-left: 6px;
+        letter-spacing: 4px;
+        font-size: 12px;
+        line-height: 23px;
+        font-weight: 500;
+        left: 10px;
+        &:before {
+          left: -9px;
+          bottom: 7px;
         }
+        // }
       }
     }
 
@@ -744,11 +755,11 @@ p.latest {
         }
 
         @include media-breakpoint-up(lg) {
-          padding: 145px 0 85px;
+          padding: 130px 0 70px;
         }
 
         @include media-breakpoint-up(xxl) {
-          padding: 155px 0 85px;
+          padding: 130px 0 70px;
         }
       }
 
@@ -761,11 +772,11 @@ p.latest {
       }
 
       @include media-breakpoint-up(lg) {
-        padding: 135px 0 145px;
+        padding: 120px 0 140px;
       }
 
       @include media-breakpoint-up(xxl) {
-        padding: 140px 0 140px;
+        padding: 125px 0 135px;
       }
 
       &:before {
@@ -1042,11 +1053,10 @@ h1 {
 }
 
 .display-custom {
-  font-weight: 200!important;
   padding-right: 0;
-  max-width: 1010px;
+  max-width: 890px;
   line-height: 1.15;
-  font-size: 36px;
+  font-size: 27px;
 
   @include media-breakpoint-up("sm") {
     font-size: 40px;
@@ -1054,12 +1064,9 @@ h1 {
   }
 
   @include media-breakpoint-up("md") {
-    font-size: 54px;
+    font-size: 46px;
   }
 
-  @include media-breakpoint-up("xl") {
-    font-size: 59px;
-  }
 }
 
 .display-2,
@@ -1185,11 +1192,12 @@ li.nav-item {
 
     span {
       display: block;
-      margin-bottom: 4px;
+      margin-top: 3px;
       border: 0;
       font-weight: 500;
-      font-size: 17.5px;
+      font-size: 17px;
       line-height: 1;
+      letter-spacing: 0.2px;
     }
 
     &:hover {
@@ -1365,7 +1373,7 @@ svg.fsvg {
   padding: 100px 0 50px;
   padding: 0px 0 50px;
   padding: 0;
-  background: #151525;
+  background: #0a0a1f;
   // background: #11131c;
   // background-image: linear-gradient(340deg,#212135 0%,#060619 95%);
 
@@ -1376,11 +1384,11 @@ svg.fsvg {
     width: 140%;
     height: 175px;
     background-image: url(/img/bg-dots-small.svg);
-    background-position: bottom;
-    background-size: 570px;
+    background-position: 0 104%;
+    background-size: 460px;
     background-repeat: repeat-x;
     content: "";
-    opacity: 0.45;
+    opacity: .45;
   }
 }
 
@@ -1404,7 +1412,7 @@ svg.fsvg {
     padding: 15px 5px;
     width: 100%;
     border-radius: $border-radius;
-    background: $white;
+    background: $primary;
     text-align: center;
 
     @include media-breakpoint-up(sm) {
@@ -1448,8 +1456,7 @@ svg.fsvg {
 }
 
 .solutions {
-  padding: 120px 0 135px;
-  padding: 130px 0 150px;
+  padding: 100px 0 140px;
   background: #141b39;
 
   &.bg-g50 {
@@ -1460,7 +1467,7 @@ svg.fsvg {
     h1 {
       margin-right: auto;
       margin-bottom: 28px;
-      margin-bottom: 16px;
+      margin-bottom: 10px;
       margin-left: auto;
       color: $blue-black;
 
@@ -1484,7 +1491,7 @@ svg.fsvg {
     overflow: hidden;
     padding: 30px;
     border: 0;
-    border-radius: 15px !important;
+    border-radius: 20px !important;
     background: $black-blue-2;
     background: $white;
     background-color: $white;
@@ -1497,19 +1504,19 @@ svg.fsvg {
     display: flex;
 
     @include media-breakpoint-up(lg) {
-      padding: 50px 30px;
+      padding: 30px;
     }
 
     @include media-breakpoint-up(xl) {
-      padding: 50px 40px;
+      padding: 45px 35px;
     }
 
     &.partner {
       .icon {
-        margin-bottom: 20px;
         width: auto;
         height: 100px;
         align-self: flex-start;
+        margin: 0 auto 20px;
       }
 
       &::before {
@@ -1564,9 +1571,8 @@ svg.fsvg {
     }
 
     h5 {
-      color: #0b0b43;
       font-weight: 400;
-      font-size: 20px;
+      font-size: 17.5px;
       line-height: 1.3;
     }
   }
@@ -1614,11 +1620,11 @@ svg.fsvg {
     background-size: cover;
   }
 
-  @include media-breakpoint-up(lg) {
-    .swiper-slide:not(.swiper-slide-active) {
-      transition: all 0.3s ease;
-    }
-  }
+  // @include media-breakpoint-up(lg) {
+  //   .swiper-slide:not(.swiper-slide-active) {
+  //     transition: all 0.3s ease;
+  //   }
+  // }
 }
 
 .swiper-overflow {
@@ -1652,18 +1658,24 @@ svg.fsvg {
 
   .lead {
     color: #203037;
-    font-size: 17px;
+    font-size: 16px;
     line-height: 1.8;
   }
 
   .card-body {
-    padding: 1.7rem 2.75rem 2.5rem;
+    padding: 2.1rem;
   }
 
   .card {
     // border: .5px solid #e8eaec !important;
     // box-shadow: 0 30px 80px -20px rgba(6, 41, 91, 0.15);
-    box-shadow: 0 20px 55px -20px rgba(6,41,91,.13);
+    box-shadow: 0 20px 45px -15px rgba(6,41,91,.13);
+    border-radius: 25px;
+    display: flex;
+    position: relative;
+  }
+  img {
+    align-self: flex-start;
   }
 }
 
@@ -1688,8 +1700,8 @@ svg.fsvg {
   flex-shrink: 0;
   width: 100%;
   height: auto;
-  transition: transform 0.3s ease;
-  transition-property: transform;
+  // transition: transform 0.3s ease;
+  // transition-property: transform;
 }
 
 .swiper-pagination {
@@ -1920,21 +1932,43 @@ svg.fsvg {
   background-image: linear-gradient(-134deg, #00aeff 0%, #0f51fb 100%);
 }
 
+// h4.tag {
+//   color: $primary;
+//   letter-spacing: 1.7px;
+//   font-weight: 500;
+//   border-left: 4px dotted #ccd8f5;
+//   display: inline-block;
+//   font-family: Inconsolata, "SFMono-Regular", monospace;
+//   font-size: 16.5px;
+//   line-height: 0.5;
+//   position: relative;
+//   text-decoration: none;
+//   text-rendering: optimizelegibility;
+//   padding: 2px 0 2px 12px;
+//   -webkit-font-smoothing: initial;
+//   letter-spacing: 2px;
+// }
+
 h4.tag {
-  color: $primary;
-  letter-spacing: 1.7px;
-  font-weight: 500;
-  border-left: 4px dotted #ccd8f5;
-  display: inline-block;
-  font-family: Inconsolata, "SFMono-Regular", monospace;
-  font-size: 16.5px;
-  line-height: 0.5;
+  color: #275efebf;
+  letter-spacing: 3.6px;
+  font-size: 13.5px;
+  line-height: 28px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-left: 6px;
+  left: 12px;
   position: relative;
-  text-decoration: none;
-  text-rendering: optimizelegibility;
-  padding: 2px 0 2px 12px;
-  -webkit-font-smoothing: initial;
-  letter-spacing: 2px;
+  &:before {
+    background: #c2cadf;
+    content: '';
+    display: inline-block;
+    height: 1px;
+    left: -9px;
+    position: absolute;
+    bottom: 9px;
+    width: 9px;
+  }
 }
 
 .bold {
@@ -2068,11 +2102,11 @@ img {
 
 .intro {
   &.container {
-    padding-top: 70px;
+    // padding-top: 70px;
     padding-bottom: 70px;
 
     @include media-breakpoint-up(lg) {
-      padding-top: 90px;
+      // padding-top: 90px;
       padding-bottom: 120px;
     }
   }
@@ -2082,26 +2116,27 @@ img {
   }
 
   .lighten {
-    box-sizing: border-box;
-    margin-top: 0;
     margin-bottom: 0;
-    max-width: 95%;
-    color: rgba(47, 47, 79, 0.7);
+    // max-width: 95%;
     color: #869ab8;
+    font-size: 1rem;
+    @include media-breakpoint-up(md) {
+      // max-width: 300px;
+      font-size: 0.95rem;
+    }
   }
 
   h5 {
     position: relative;
     box-sizing: border-box;
-    margin-top: 0;
-    margin-bottom: 0.5rem;
-    font-size: 1.4rem;
-    font-size: 1.3125rem;
-
+    margin-top: 15px;
+    font-size: 1.1rem;
+    @include media-breakpoint-up(md) {
+      font-size: 1rem;
+    }
     @include media-breakpoint-up(xl) {
-      margin-top: 0;
-      margin-bottom: 10px;
-      font-size: 21.5px;
+      margin-bottom: 7px;
+      font-size: 19px;
     }
   }
 }
@@ -2235,7 +2270,7 @@ img {
   }
 
   @include media-breakpoint-up(xl) {
-    top: -30px;
+    top: -20px;
     left: -12%;
   }
 
@@ -2343,10 +2378,6 @@ img.lazyfade.lazyloaded {
 
   @include media-breakpoint-up("xxl") {
     transform: scale(0.75) !important;
-  }
-
-  @include media-breakpoint-up("xxxl") {
-    transform: scale(0.78) !important;
   }
 }
 

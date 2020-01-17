@@ -1,10 +1,10 @@
 <footer>
   {% if site.data.information %}
   <div class="footer-cta">
-    <div class="py-1 py-md-2">
-      <div class="container my-5">
+    <div class="py-1 py-md-4">
+      <div class="container my-4">
         {% assign info = site.data.information %}
-        <div class="row fcta mb-5">
+        <div class="row fcta mb-4">
           <div class="col-12 text-left text-sm-center">
             <h1 class="display-5 mb-2">
               {% if page.page_name contains 'Advertiser' and info.footer_details.main_header_advertiser !='' %}
@@ -30,7 +30,7 @@
           </div>
           <div class="col-12 mt-3 pt-xl-0 text-center">
             <a href="{{ info.footer_details.cta_url }}">
-              <h3 class="font-weight-bold">
+              <h3 class="font-weight-bold text-white">
                 {{ info.footer_details.cta_text }} <i class="icon-trending_neutral" style="top: 2px;position: relative;margin-left: 5px;"></i></h3>
             </a>
           </div>

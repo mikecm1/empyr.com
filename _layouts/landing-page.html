@@ -146,10 +146,10 @@ layout: default
         </div>
       </div>
     </div>
-    <div class="intro container full">
-      <div class="row">
+    <div class="intro container full pt-2 pt-md-5">
+      <div class="row pt-md-1">
         <div class="col-12">
-          <h1 class="headline pr-2 pr-md-0 mb-2 mb-md-4 pb-md-1 mt-0" data-aos="basic" data-aos-anchor-placement="center-bottom">{{ page.primary_body_copy_headline }}</h1>
+          <h1 class="headline pr-2 pr-md-0 mb-2 mb-md-3 pb-md-1 mt-0 aos-init aos-animate" data-aos="basic" data-aos-anchor-placement="center-bottom">{{ page.primary_body_copy_headline }}</h1>
         </div>
         <!-- <div class="col-md-7">
                 <p class="large mb-4" data-aos="basic" data-aos-delay="100">{{ page.primary_body_copy_subtext
@@ -166,9 +166,9 @@ layout: default
           <div class="eq col-12 mb-4 mb-md-0 col-md-4" data-aos="basic" data-aos-delay="{{ forloop.index | times: 150 }}">
             {% endif %}
             <div>
-              <img class="mb-2" src="{{ item.icon | absolute_url }}" alt="" height="50">
+              <img class="mb-1" src="{{ item.icon | absolute_url }}" alt="" height="50">
               <h5>{{ item.heading }}</h5>
-              <div class="lighten">{{ item.description }}</div>
+              <div class="lighten mt-0 pr-md-2">{{ item.description }}</div>
             </div>
           </div>
           {% endfor %}
@@ -201,7 +201,7 @@ layout: default
                 <h4 class="mb-2 tag" data-aos="basic">{{ page.section_one.tagline }}</h4>
                 <h1 class="display-4 mb-2" data-aos="basic">{{
                                 page.section_one.section_header }}</h1>
-                <img src="/img/headline-separator.svg" alt="" data-aos="basic">
+                <!-- <img src="/img/headline-separator.svg" alt="" data-aos="basic"> -->
                 <p class="mt-2 lead large mb-2 mb-md-4" data-aos="basic" data-aos-delay="100">{{
                                 page.section_one.section_body_copy }}</p>
               </div>
@@ -228,7 +228,7 @@ layout: default
                 <h4 class="mb-2 tag">{{ page.section_two.tagline }}</h4>
                 <h1 class="display-4 mb-2">{{
                                 page.section_two.section_header }}</h1>
-                <img src="/img/headline-separator.svg" alt="">
+                <!-- <img src="/img/headline-separator.svg" alt=""> -->
                 <p class="mt-2 lead large mb-2 mb-md-4" data-aos="basic" data-aos-delay="100">{{
                                 page.section_two.section_body_copy }}</p>
               </div>
@@ -243,8 +243,8 @@ layout: default
               <div class="col-12 col-md-6 pr-xl-5 pr-xxl-0 col-xxl-5 col-xl-6 pt-sm-1 mt-sm-2 z1" data-aos="basic">
                 <h4 class="mb-2 tag">{{ page.section_three.tagline}}</h4>
                 <h1 class="display-4 mb-2">{{ page.section_three.section_header }}</h1>
-                <img src="/img/headline-separator.svg" alt="">
-                <p class="pt-1 mt-2 lead large mb-2 mb-md-4 mb-md-5" data-aos="basic" data-aos-delay="100">{{
+                <!-- <img src="/img/headline-separator.svg" alt=""> -->
+                <p class="mt-2 lead large mb-2 mb-md-4 aos-init aos-animate" data-aos="basic" data-aos-delay="100">{{
                                 page.section_three.section_body_copy }}</p>
               </div>
               <!-- <img class="analytics" src="{{ page.section_three.img }}" data-aos="basic" data-aos-delay="300"> -->
@@ -272,32 +272,28 @@ layout: default
           <div class="testimonials prof">
             <div class="text-left text-md-center">
               <h1>You're in good company</h1>
-              <p class="sub-text large mb-5">Trusted by the top forward-thinking national brands and
+              <p class="sub-text large mb-5">Trusted by top forward-thinking national brands and
                 digital publishers</p>
             </div>
             <div class="swiper-container">
               <div class="swiper-wrapper">
                 {% for item in page.testimonials %}
                 <div class="swiper-slide eq">
-                  <div class="card">
-                    <div class="card-body">
-                      <div class="mb-2">
-                        <img class="rounded" src="{{ item.logo | absolute_url }}" height="50" />
-                      </div>
-                      <p class="lead mb-2 mt-0">"{{ item.quote }}"</p>
-                      <div class="media align-items-center">
+                  <div class="card card-body">
+                        <img class="rounded" src="{{ item.logo | absolute_url }}" height="40" />
+                      <p class="lead my-2 mt-0">"{{ item.quote }}"</p>
+                      <div class="mt-auto">
                         {% if item.icon and item.icon != "" %}
                         <div class="mr-2">
                           <img class="rounded" src="{{ item.icon | absolute_url | default:"/uploads/2019/05/icon-place.svg" | absolute_url }}" width="60" height="60" />
                         </div>
                         {% endif %}
                         <div class="media-body">
-                          <h5 class="mb-0">{{ item.name }}</h5>
+                          <h6 class="mb-0">{{ item.name }}</h6>
                           <p class="text-muted mb-0">{{
                                                     item.company }}</p>
                         </div>
                       </div>
-                    </div>
                   </div>
                 </div>
                 {% endfor %}
@@ -318,13 +314,13 @@ layout: default
             {% for item in page.company_types %}
             <div class="col-12 col-lg-4 mb-3 mb-lg-0 px-1" data-aos="basic" data-aos-delay="{{ forloop.index | times: 150 }}">
               <a href="{{ item.url | absolute_url }}">
-                <div class="card partner text-left">
+                <div class="card partner">
                   <img src="{{ item.icon }}" class="icon">
                   <p class="text-primary small mb-0">{{ item.badge
                                     }}</p>
                   <h2 class="mb-1">{{ item.heading }}</h2>
                   <p class="mb-2">{{ item.description }}</p>
-                  <div class="btn btn-lg btn-primary-dark mt-auto">Get Started <i class="icon-trending_neutral" style="top: 4px;position: relative;font-size: 21px;margin-left: 6px;"></i>
+                  <div class="btn btn-lg btn-primary-dark mt-auto">Learn More
                   </div>
                 </div>
               </a>

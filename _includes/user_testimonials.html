@@ -8,20 +8,19 @@
           <div class="card">
             <div class="card-body">
               <div class="mb-2">
-                <img class="rounded" src="{{ item.logo | absolute_url }}" height="50" />
+                <img class="rounded" src="{{ item.logo | absolute_url }}" height="40" />
               </div>
               <p class="lead mb-2 mt-0">"{{ item.quote }}"</p>
               <div class="media align-items-center">
-                <div class="mr-2">
-                  {% if item.user_photo == "" %}
-                  <img class="rounded" src="/img/genericUser.jpg" width="60" height="60" />
+                {% if item.user_photo == "" %}
                   {% else %}
+                  <div class="mr-2">
                   <img class="rounded" src="{{ item.user_photo | absolute_url | default:"/img/genericUser.jpg" | absolute_url }}" width="60" height="60" />
-                  {% endif %}
                 </div>
+                  {% endif %}
                 <div class="media-body">
                   <h6 class="mb-0">{{ item.person_name }}</h6>
-                  <p class="small mb-0">{{ item.program_name }} user</p>
+                  <h6 class="text-muted mb-0 font-weight-400">{{ item.program_name }} user</h6>
                 </div>
               </div>
             </div>

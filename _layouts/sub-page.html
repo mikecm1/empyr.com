@@ -12,16 +12,16 @@ layout: default
           <div class="col-12 col-md-7 order-1 order-sm-1 mt-1 text-">
             {% if page.tagline and page.tagline != "" %}
             <div data-aos="basic">
-              <h4 class="tag pb-1 mb-1">{{ page.tagline }}</h4>
+              <h4 class="tag">{{ page.tagline }}</h4>
             </div>
             {% endif %}
             <h1 class="display-4 mb-2" data-aos="basic" data-aos-delay="50">
               {{ page.heading | default: page.title }}</h1>
             {% if page.sub_heading and page.sub_heading != "" %}
-            <p class="large mb-4" data-aos="basic" data-aos-delay="150">{{ page.sub_heading }}</p>
+            <p class="large mb-3" data-aos="basic" data-aos-delay="150">{{ page.sub_heading }}</p>
             {% endif %}
             {% if page.cta_with_email %}
-            <div class="row pb-2" data-aos="basic" data-aos-delay="250">
+            <div class="row pb-2 pb-md-0" data-aos="basic" data-aos-delay="250">
               <div class="col-12">
                 <div class="row">
                   <div class="col-12">
@@ -61,21 +61,21 @@ layout: default
   <div class="bg-gradient-lighter">
     <div class="container pt-4 vw">
       {% if page.mainfeatures %}
-      <div class="intro px-2 px-xl-3 py-3 py-xl-4 card-body card offset shadow-sm" data-aos="basic" data-aos-anchor-placement="top">
+      <div class="intro px-2 py-3 card-body card offset" data-aos="basic" data-aos-anchor-placement="top">
         <div class="row py-1 px-1 px-lg-2">
           {% for item in page.mainfeatures %}
           <div class="col-12 col-md-4 mb-4 mb-md-0" data-aos="basic" data-aos-delay="{{ forloop.index | times: 150 }}" data-aos-anchor-placement="top">
-            <img class="mb-2" src="{{ item.icon | absolute_url }}" alt="" height="55">
+            <img src="{{ item.icon | absolute_url }}" alt="" height="55">
             <h5 class="pb-0">{{ item.heading }}</h5>
-            <div class="lighten mt-0">{{ item.description }}</div>
+            <div class="lighten mt-0 pr-md-2">{{ item.description }}</div>
           </div>
           {% endfor %}
         </div>
       </div>
       {% endif %}
       {% if page.partners %}
-      <div class="logos pt-4">
-        <div class="container pt-2 pb-4 px-md-5">
+      <div class="logos pt-2">
+        <div class="container pt-2 pb-4 px-md-3">
           <div class="row justify-content-center justify-content-lg-between text-center align-items-center">
             {% for logo in page.partners %}
             <div class="col-4 mb-4 col-md mb-md-0 logo-wrap" data-aos="basic" data-aos-delay="{{ forloop.index | times: 150 }}">
@@ -86,13 +86,13 @@ layout: default
         </div>
       </div>
       {% endif %}
-      <div class="row px-2 px-md-0 mt-md-4 text-left text-md-center mb-4">
-        <div class="col-12 mt-4">
-          <div class="rounded-circle mx-md-auto d-flex flex-wrap align-items-center justify-content-center icon-loud mb-2" style="width:65px; height: 65px;" data-aos="basic"><img src="{{ page.primary_body_icon | absolute_url }}" class="align-self-center" width="35"></div>
+      <div class="row px-2 px-md-0 mt-md-3 text-left text-md-center">
+        <div class="col-12 mt-3">
+          <!-- <div class="rounded-circle mx-md-auto d-flex flex-wrap align-items-center justify-content-center icon-loud mb-2" style="width:65px; height: 65px;" data-aos="basic"><img src="{{ page.primary_body_icon | absolute_url }}" class="align-self-center" width="35"></div> -->
           <h1 class="headline mt-1 mx-auto mb-2" data-aos="basic" data-aos-delay="100">
             {{ page.primary_body_copy_headline }}</h1>
         </div>
-        <div class="col-md-12 col-xl-8 col-xxl-7 mx-auto">
+        <div class="col-12 col-md-10 col-lg-9 col-xl-8 col-xxl-7 px-xl-3 px-xxl-0 mx-auto">
           <p class="lighten large mb-0" data-aos="basic" data-aos-delay="150">
             {{ page.primary_body_copy_subheadline }}</p>
         </div>
@@ -107,9 +107,9 @@ layout: default
           <div data-aos="basic">
             <h4 class="mb-2 tag">{{ page.section_one.tagline }}</h4>
           </div>
-          <h1 data-aos="basic" data-aos-delay="150" class="pr-xl-4 pr-xxl-5 mb-md-2">
+          <h1 data-aos="basic" data-aos-delay="150" class="pr-xl-4 mb-md-2">
             {{ page.section_one.section_header }}</h1>
-          <img src="/img/headline-separator.svg" alt="" data-aos="basic" data-aos-delay="150">
+          <!-- <img src="/img/headline-separator.svg" alt="" data-aos="basic" data-aos-delay="150"> -->
           <p class="pr-xl-4 mb-4 mt-md-2" data-aos="basic" data-aos-delay="250">
             {{ page.section_one.section_body_copy }}</p>
         </div>
@@ -120,19 +120,19 @@ layout: default
     </section>
     {% endif %}
     {% if page.section_two %}
-    <section class="pt-3">
-      <div class="row justify-content-between align-items-center">
+    <section class="pt-0">
+      <div class="row">
         <div class="col-12 col-md-6 col-xxl-6 order-2 px-md-0">
           <img class="img-fluid mw-130 float-right" src="{{ page.section_two.image | default: '/assets/pictures/image-555x380.png' }}" data-aos="basic" data-aos-delay="0" />
         </div>
-        <div class="col-12 col-md-6 order-1 order-md-2 mt-n1 pl-xl-5 pl-xxl-5">
+        <div class="col-12 col-md-6 order-1 order-md-2 mt-5 pl-xl-5 pl-xxl-5">
           <div data-aos="basic">
             <h4 class="mb-2 tag">{{ page.section_two.tagline }}</h4>
           </div>
           <h1 class="pr-xl-5 mb-md-2" data-aos="basic" data-aos-delay="50">
             {{ page.section_two.section_header }}</h1>
-          <img src="/img/headline-separator.svg" alt="" data-aos="basic" data-aos="basic" data-aos-delay="150">
-          <p class="mb-4 mt-md-2" data-aos="basic" data-aos-delay="250">
+          <!-- <img src="/img/headline-separator.svg" alt="" data-aos="basic" data-aos="basic" data-aos-delay="150"> -->
+          <p class="mb-3 mt-md-2" data-aos="basic" data-aos-delay="250">
             {{ page.section_two.section_body_copy }}</p>
           {% if page.section_two.stats %}
           <div class="d-flex flex-nowrap" data-aos="basic" data-aos-delay="450">
@@ -144,7 +144,7 @@ layout: default
             {% endfor %}
           </div>
           <div data-aos="basic" data-aos-delay="650">
-            <p class="text-light font-italic mb-0" style="font-size: 12px">* Offer count is variable and subject to change</p>
+            <p class="text-light font-italic mb-4" style="font-size: 12px">* Offer count is variable and subject to change</p>
           </div>
           {% endif %}
         </div>
@@ -160,7 +160,7 @@ layout: default
             <h4 class="mb-2 tag" data-aos="basic">{{ page.section_three.tagline }}</h4>
             <h1 class="pr-xl-4 pr-xxl-5 mb-md-2" data-aos="basic mb-md-2" data-aos-delay="50">
               {{ page.section_three.section_header }}</h1>
-            <img src="/img/headline-separator.svg" alt="" data-aos="basic" data-aos-delay="150">
+            <!-- <img src="/img/headline-separator.svg" alt="" data-aos="basic" data-aos-delay="150"> -->
             <p class="mb-4 mt-md-2 pr-xl-4" data-aos="basic" data-aos-delay="200">
               {{ page.section_three.section_body_copy }}</p>
           </div>
@@ -184,7 +184,7 @@ layout: default
             <h4 class="mb-2 tag" data-aos="basic">{{ page.section_four.tagline }}</h4>
             <h1 class="pr-xl-3 pr-xxl-5 mb-md-2" data-aos="basic mb-md-2" data-aos-delay="50">
               {{ page.section_four.section_header }}</h1>
-            <img src="/img/headline-separator.svg" alt="" data-aos="basic" data-aos-delay="150">
+            <!-- <img src="/img/headline-separator.svg" alt="" data-aos="basic" data-aos-delay="150"> -->
             <p class="mb-4 mt-md-2" data-aos="basic" data-aos-delay="200">
               {{ page.section_four.section_body_copy }}</p>
           </div>

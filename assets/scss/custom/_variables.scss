@@ -2,7 +2,8 @@
 $blue: #343e88;
 // $primary: #0076fe;
 // $primary: #1882fc;
-$primary: #1452ea;
+// $primary: #1452ea;
+$primary: #275efe;
 // $indigo: #102181;
 $indigo: #0B0B43;
 // $indigo: #2b3662;
@@ -122,7 +123,7 @@ $font-weight-medium: 500;
 $font-weight-bold: bold;
 $font-weight-base: $font-weight-normal;
 $line-height-base: 1.6;
-$h1-font-size: 41px;
+$h1-font-size: 40px;
 $h2-font-size: 2rem;
 $h3-font-size: 1.75rem;
 $h4-font-size: 1.5rem;
@@ -164,7 +165,7 @@ $display-line-height: $headings-line-height;
 $lead-font-size: 1.1rem;
 $lead-font-weight: 400;
 // $small-font-size: 80%;
-$text-muted: $gray-600;
+$text-muted: #666f7b;
 $blockquote-small-color: $gray-600;
 $blockquote-font-size: $font-size-base * 1.25;
 $hr-border-color: rgba($black, 0.1);
@@ -396,7 +397,7 @@ $nav-pills-link-active-bg: $component-active-bg;
 // Navbar
 $navbar-transition: all 0.15s linear !default;
 $navbar-padding-y: 0.4rem !default;
-$navbar-padding-x: 1.8rem;
+$navbar-padding-x: 0;
 
 $navbar-nav-link-padding-x: 1.3rem;
 $navbar-nav-link-padding-y: 0.65rem !default;
