@@ -44,7 +44,7 @@ hero_button:
 second_button_:
   text: How it Works
   link: "#"
-headerimage: "/img/credit-cards.png"
+headerimage: "/img/cards-fall.png"
 all_features:
 - heading: Seamless and customized API integration
   icon: "/img/icons/small/icon-line-10.svg"
@@ -155,16 +155,16 @@ custom_css: |-
   }
   .std .mw-md-130 {
   position: absolute;
-  top: -250px;
-  left: 10px;
-  max-width: 590px !important;
+  top: -130px;
+  left: -70px;
+  max-width: 510px !important;
   }
   }
   @media (min-width: 992px) {
   .std .mw-md-130 {
-  top: -310px;
-  left: 12%;
-  max-width: 650px !important;
+  top: -235px;
+  left: -27%;
+  max-width: 620px !important;
   }
   .std .hero:not(.default) p {
   max-width: 645px;
@@ -176,15 +176,15 @@ custom_css: |-
   max-width: 39rem;
   }
   .std .mw-md-130 {
-  top: -320px;
-  left: 3%;
+  top: -224px;
+  left: -21%;
   }
   }
   @media (min-width: 1400px) {
   .std .mw-md-130 {
-  left: 7%;
-  max-width: 670px !important;
-  top: -350px;
+  left: -30%;
+  max-width: 680px !important;
+  top: -260px;
   }
   }
   .std .hero.sub {

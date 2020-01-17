@@ -577,10 +577,9 @@ p.latest {
     }
 
     @include media-breakpoint-up("xl") {
-      font-size: $display4-size;
+      font-size: 2.7rem;
     }
-
-    @include media-breakpoint-up("xl") {
+    @include media-breakpoint-up("xxl") {
       font-size: 2.9rem;
     }
   }
@@ -745,7 +744,7 @@ p.latest {
           background-size: 100%;
           background-repeat: repeat-x;
           content: "";
-          opacity: 0.8;
+          opacity: 0.7;
           clip-path: none;
           min-width: auto;
         }
@@ -1040,7 +1039,7 @@ header {
     background-position: top right;
     background-size: 100%;
     background-repeat: no-repeat;
-    opacity: 0.8;
+    opacity: 0.7;
 
     @include media-breakpoint-up(md) {
       content: "";
@@ -1456,7 +1455,7 @@ svg.fsvg {
 }
 
 .solutions {
-  padding: 100px 0 140px;
+  padding: 120px 0 150px;
   background: #141b39;
 
   &.bg-g50 {
@@ -1669,7 +1668,7 @@ svg.fsvg {
   .card {
     // border: .5px solid #e8eaec !important;
     // box-shadow: 0 30px 80px -20px rgba(6, 41, 91, 0.15);
-    box-shadow: 0 20px 45px -15px rgba(6,41,91,.13);
+    box-shadow: 0 18px 40px -15px rgba(6,41,91,.14);
     border-radius: 25px;
     display: flex;
     position: relative;
@@ -2122,7 +2121,7 @@ img {
     font-size: 1rem;
     @include media-breakpoint-up(md) {
       // max-width: 300px;
-      font-size: 0.95rem;
+      font-size: 1rem;
     }
   }
 
@@ -2132,11 +2131,11 @@ img {
     margin-top: 15px;
     font-size: 1.1rem;
     @include media-breakpoint-up(md) {
-      font-size: 1rem;
+      font-size: 1.1rem;
     }
     @include media-breakpoint-up(xl) {
       margin-bottom: 7px;
-      font-size: 19px;
+      font-size: 20px;
     }
   }
 }
@@ -2254,9 +2253,9 @@ img {
 .mw-md-130 {
   @include media-breakpoint-up(md) {
     position: absolute;
-    top: -30px;
-    left: 10px;
-    max-width: 800px !important;
+    top: -20px;
+    left: 0px;
+    max-width: 750px!important;
   }
 
   @include media-breakpoint-up(lg) {
@@ -2266,12 +2265,13 @@ img {
 
   @include media-breakpoint-up(1024) {
     top: -30px;
-    left: -12%;
+    left: -8%;
   }
 
   @include media-breakpoint-up(xl) {
     top: -20px;
     left: -12%;
+    max-width: 800px!important;
   }
 
   @include media-breakpoint-up(xxl) {
