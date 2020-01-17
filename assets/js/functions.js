@@ -254,13 +254,13 @@ $(document).ready(function () {
       $("body").removeClass("modal-open");
       $(".modal-backdrop").remove();
     });
-    $(function () {
-      if (Modernizr.touch) {} else if ($(".rellax")[0]) {
-        var rellax = new Rellax(".rellax", {
-          wrapper: null
-        });
-      }
-    });
+    // $(function () {
+    //   if (Modernizr.touch) {} else if ($(".rellax")[0]) {
+    //     var rellax = new Rellax(".rellax", {
+    //       wrapper: null
+    //     });
+    //   }
+    // });
   }
   styles_reloaded();
 });
