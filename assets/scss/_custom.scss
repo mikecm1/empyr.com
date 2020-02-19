@@ -2323,14 +2323,14 @@ img {
   }
 
   @include media-breakpoint-up("xxl") {
-    top: -11%;
-    right: -24%;
+    top: -21%;
+    right: -25%;
     left: auto;
     transform: none !important;
   }
 
   @include media-breakpoint-up("xxxl") {
-    right: 1%;
+    right: 0;
     left: auto;
     width: 940px;
   }
