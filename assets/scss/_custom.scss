@@ -2300,37 +2300,37 @@ img {
   width: 100%;
   height: 100%;
   transform: scale(0.75);
-  bottom: -22vw;
+  bottom: -35vw;
   top: auto;
   transform-origin: bottom center;
   right: auto;
   left: -23vw;
 
   @include media-breakpoint-up(md) {
-    top: -37%;
+    top: -1%;
     right: -17vw;
     left: auto;
     height: 100%;
   }
 
   @include media-breakpoint-up(lg) {
-    top: -59%;
+    top: -20%;
     bottom: auto;
-    right: -30%;
+    right: -27%;
     z-index: 1;
     height: auto;
     transform: scale(0.9) !important;
   }
 
   @include media-breakpoint-up("xxl") {
-    top: -56%;
-    right: -25%;
+    top: -11%;
+    right: -24%;
     left: auto;
     transform: none !important;
   }
 
   @include media-breakpoint-up("xxxl") {
-    right: 6%;
+    right: 1%;
     left: auto;
     width: 940px;
   }
@@ -2362,9 +2362,6 @@ img.lazyfade.lazyloaded {
 }
 
 .phone-contain {
-  position: relative;
-  min-width: 100vw;
-  min-height: 100vh;
   transform: scale(0.85);
   transform-origin: center;
 
